@@ -1,0 +1,9 @@
+.vscode
+.idea
+.husky
+
+/*.js
+/*.json
+
+/dist/*
+/public/*

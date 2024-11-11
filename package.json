@@ -1,0 +1,26 @@
+{
+    "name": "@ying-web/ying-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node scripts/dev.js",
+        "build": "node scripts/build.js",
+        "clean": "node scripts/clean.js",
+        "pm2": "node scripts/pm2.js"
+    },
+    "keywords": [],
+    "author": "陈大鱼头 <chenjinwen77@foxmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@changesets/cli": "^2.27.1",
+        "execa": "^8.0.1",
+        "inquirer": "^9.2.19",
+        "rimraf": "^5.0.5",
+        "turbo": "^1.13.2"
+    },
+    "engines": {
+        "node": ">= 18.16.0",
+        "pnpm": ">= 8.5.1"
+    }
+}

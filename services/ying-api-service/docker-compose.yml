@@ -1,0 +1,44 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app_container
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+    depends_on:
+      - redis
+      - mysql
+    volumes:
+      - ./dist-app:/app/dist-app
+    command: ["pm2-runtime", "start", "ecosystem.config.js"]
+
+  redis:
+    image: redis:latest
+    container_name: redis_container
+    env_file:
+      - .env
+    ports:
+      - "6379:6379"
+
+  mysql:
+    image: mysql:5.7
+    container_name: mysql_container
+    env_file:
+      - .env
+    volumes:
+      - db-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+
+volumes:
+  db-data:
