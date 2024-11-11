@@ -1,7 +1,7 @@
 {
     "name": "@ying-web/ying-web",
     "version": "1.0.0",
-    "description": "",
+    "description": "a collection of Krisachan's web projects",
     "main": "index.js",
     "scripts": {
         "dev": "node scripts/dev.js",
@@ -10,7 +10,7 @@
         "pm2": "node scripts/pm2.js"
     },
     "keywords": [],
-    "author": "陈大鱼头 <chenjinwen77@foxmail.com>",
+    "author": "Krisachan <chenjinwen77@gmail.com>",
     "license": "MIT",
     "devDependencies": {
         "@changesets/cli": "^2.27.1",
