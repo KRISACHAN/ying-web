@@ -8,9 +8,5 @@
             "name": "@ying-web/ying-events",
             "path": "apps/ying-events",
         },
-        {
-            "name": "@ying-web/ying-events-old",
-            "path": "apps/ying-events-old",
-        },
     ],
 }
