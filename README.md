@@ -58,6 +58,10 @@ So, I decide to rewrite it by pure `React` in the future.
 
 Now, it's running on [https://events.krissarea.com](https://events.krissarea.com)
 
+And, I am considering to change its name to `@ying-web/ying-christian`.
+
+But, Now, I should finish the rewrite of `@ying-web/ying-events` by `React` first.
+
 ### [https://www.krissarea.com](https://www.krissarea.com)
 
 As an entry domain of mine, I want to make it more beautiful and useful.

@@ -32,7 +32,8 @@
                     "@services": "./app/services",
                     "@validators": "./app/validators",
                     "@config": "./app/config",
-                    "@utils": "./app/utils"
+                    "@utils": "./app/utils",
+                    "@constants": "./app/constants"
                 }
             }
         ]

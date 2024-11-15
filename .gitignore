@@ -136,3 +136,10 @@ dist-app/
 
 # pm2
 pm2_logs/
+
+# React
+
+dist
+dist-ssr
+*.local
+.DS_Store
