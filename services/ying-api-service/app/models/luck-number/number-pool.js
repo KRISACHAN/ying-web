@@ -1,0 +1,56 @@
+import { sequelize } from '@utils/db';
+import { Model, DataTypes } from 'sequelize';
+import { ActivityModel } from './activity';
+import { UserParticipationModel } from './user-participation';
+
+export class NumberPoolModel extends Model {}
+
+NumberPoolModel.init(
+    {
+        id: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            primaryKey: true,
+            autoIncrement: true,
+        },
+        activity_id: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            references: {
+                model: ActivityModel,
+                key: 'id',
+            },
+        },
+        number: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            unique: true, // Ensure the number is unique across all entries
+        },
+        is_drawn: {
+            type: DataTypes.BOOLEAN,
+            allowNull: false,
+            defaultValue: false,
+        },
+    },
+    {
+        sequelize,
+        modelName: 'number_pool',
+        tableName: 'number_pool',
+        timestamps: true,
+        createdAt: 'created_at',
+        updatedAt: 'updated_at',
+        indexes: [
+            {
+                unique: true,
+                fields: ['activity_id', 'number'],
+            },
+        ],
+    },
+);
+
+// Define association
+NumberPoolModel.hasOne(UserParticipationModel, {
+    foreignKey: 'drawn_number',
+    sourceKey: 'number',
+    as: 'user_participation',
+});

@@ -1,7 +1,7 @@
-import { RolePermissionModel } from '@models/admin/role-permission';
+import { RolePermissionsModel } from '@models/admin/role-permissions';
 import { PRECONDITION_FAILED, INTERNAL_SERVER_ERROR } from '@utils/http-errors';
 
-export class RolePermissionDao {
+export class RolePermissionsDao {
     // 创建角色权限
     static async create({ roleId, permissionId }) {
         // 查询是否已存在该记录
@@ -14,13 +14,13 @@ export class RolePermissionDao {
         if (permissionId) {
             whereQuery.permission_id = permissionId;
         }
-        const existedRolePermission = await RolePermissionModel.findOne({
+        const existedRolePermission = await RolePermissionsModel.findOne({
             where: whereQuery,
         });
         if (existedRolePermission) {
             throw PRECONDITION_FAILED('角色权限关联已存在');
         }
-        const rolePermission = new RolePermissionModel({
+        const rolePermission = new RolePermissionsModel({
             role_id: roleId,
             permission_id: permissionId,
         });
@@ -35,7 +35,7 @@ export class RolePermissionDao {
 
     // 更新角色权限
     static async updateByRole({ roleId, permissionId }) {
-        const rolePermission = await RolePermissionModel.findOne({
+        const rolePermission = await RolePermissionsModel.findOne({
             where: { role_id: roleId, deleted_at: null },
         });
         if (!rolePermission) {
@@ -57,7 +57,7 @@ export class RolePermissionDao {
 
     // 更新权限所属的角色
     static async updateByPermission({ roleId, permissionId }) {
-        const rolePermission = await RolePermissionModel.findOne({
+        const rolePermission = await RolePermissionsModel.findOne({
             permission_id: permissionId,
             deleted_at: null,
         });
@@ -80,7 +80,7 @@ export class RolePermissionDao {
 
     // 查询指定角色的所有权限
     static async queryByRole(roleId) {
-        const rolePermission = await RolePermissionModel.findAll({
+        const rolePermission = await RolePermissionsModel.findAll({
             where: { role_id: roleId, deleted_at: null },
         });
 
@@ -93,7 +93,7 @@ export class RolePermissionDao {
 
     // 查询拥有相同权限的角色
     static async queryByPermission(permissionId) {
-        const rolePermission = await RolePermissionModel.findAll({
+        const rolePermission = await RolePermissionsModel.findAll({
             permission_id: permissionId,
             deleted_at: null,
         });
@@ -107,7 +107,7 @@ export class RolePermissionDao {
 
     // 删除指定角色的所有权限
     static async deleteByRole(roleId) {
-        const rolePermission = await RolePermissionModel.deleteMany({
+        const rolePermission = await RolePermissionsModel.deleteMany({
             where: { role_id: roleId, deleted_at: null },
         });
 
@@ -120,7 +120,7 @@ export class RolePermissionDao {
 
     // 删除指定权限的所有角色关联
     static async deleteByPermission(permissionId) {
-        const rolePermission = await RolePermissionModel.deleteMany({
+        const rolePermission = await RolePermissionsModel.deleteMany({
             permission_id: permissionId,
             deleted_at: null,
         });
@@ -134,7 +134,7 @@ export class RolePermissionDao {
 
     // 查询角色权限列表
     static async query({ pageNum = 1, pageSize = 10 }) {
-        const result = await RolePermissionModel.findAndCountAll({
+        const result = await RolePermissionsModel.findAndCountAll({
             where: { deleted_at: null },
             offset: (pageNum - 1) * pageSize,
             limit: pageSize,

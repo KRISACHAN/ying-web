@@ -103,3 +103,7 @@ export function genPaginationRequest(page_num = 1, page_size = 10) {
         offset: (parseInt(page_num) - 1) * parseInt(page_size),
     };
 }
+
+export function getUserIP(ctx) {
+    return ctx.headers['x-forwarded-for'] || ctx.ip;
+}

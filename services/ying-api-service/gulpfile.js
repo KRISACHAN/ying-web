@@ -42,20 +42,20 @@ const watchApp = done => {
     });
     return stream
         .on('start', () => {
-            console.log('开始服务！');
+            console.log('Start service!');
         })
         .on('crash', () => {
-            console.error('服务炸了！');
+            console.error('Service crashed!');
             stream.emit('restart', 10);
         })
         .on('exit', () => {
-            console.log('退出服务！');
+            console.log('Exit service!');
         })
         .on('restart', () => {
-            console.log('重启服务！');
+            console.log('Restart service!');
         })
         .on('config:update', () => {
-            console.log('更新配置！');
+            console.log('Update config!');
         });
 };
 

@@ -6,7 +6,7 @@ import { resolve } from '@utils/resolve';
 import { AdminDao } from '@dao/admin/admin';
 import { RoleDao } from '@dao/admin/role';
 import { AdminRoleDao } from '@dao/admin/admin-role';
-import { RolePermissionDao } from '@dao/admin/role-permission';
+import { RolePermissionsDao } from '@dao/admin/role-permissions';
 import { hasManageUsersPermission } from '@app/utils/constants';
 import { BAD_REQUEST, FORBIDDEN, UNAUTHORIZED } from '@utils/http-errors';
 import authMiddleware from '@app/middlewares/auth';
@@ -149,8 +149,8 @@ router.get('/:id', authMiddleware, async ctx => {
     // 调用 RoleDao 的 search 方法获取角色信息
     const roleInfo = await RoleDao.search(adminRole.role_id);
 
-    // 调用 RolePermissionDao 的 queryByRole 方法获取角色权限信息
-    const rolePermissions = await RolePermissionDao.queryByRole(
+    // 调用 RolePermissionsDao 的 queryByRole 方法获取角色权限信息
+    const rolePermissions = await RolePermissionsDao.queryByRole(
         adminRole.role_id,
     );
 

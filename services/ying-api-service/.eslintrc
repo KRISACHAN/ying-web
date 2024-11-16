@@ -23,5 +23,6 @@
         "quotes": ["error", "single"],
         "prettier/prettier": "error",
         "no-var": "error"
-    }
+    },
+    "jest": true
 }

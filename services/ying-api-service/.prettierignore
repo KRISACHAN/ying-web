@@ -4,3 +4,4 @@ node_modules/
 sqls/
 dist-app/
 pnpm-lock.yaml
+.turbo/
