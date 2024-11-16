@@ -1,14 +1,14 @@
-import { PermissionModel } from '@models/admin/permission';
+import { PermissionsModel } from '@models/admin/permissions';
 import {
     PRECONDITION_FAILED,
     NOT_FOUND,
     INTERNAL_SERVER_ERROR,
 } from '@utils/http-errors';
 
-export class PermissionDao {
+export class PermissionsDao {
     // 创建权限
     static async create({ name, description }) {
-        const existedPermission = await PermissionModel.findOne({
+        const existedPermission = await PermissionsModel.findOne({
             where: { name, deleted_at: null },
         });
 
@@ -16,7 +16,7 @@ export class PermissionDao {
             throw PRECONDITION_FAILED('权限已存在');
         }
 
-        const permission = new PermissionModel({ name, description });
+        const permission = new PermissionsModel({ name, description });
         const savedPermission = await permission.save();
 
         if (!savedPermission) {
@@ -37,7 +37,7 @@ export class PermissionDao {
         if (id) {
             whereQuery.id = id;
         }
-        const permission = await PermissionModel.findOne({
+        const permission = await PermissionsModel.findOne({
             where: whereQuery,
         });
 
@@ -50,7 +50,7 @@ export class PermissionDao {
 
     // 更新权限信息
     static async update(id, { name, description }) {
-        const permission = await PermissionModel.findOne({
+        const permission = await PermissionsModel.findOne({
             where: { id, deleted_at: null },
         });
 
@@ -77,7 +77,7 @@ export class PermissionDao {
 
     // 删除权限
     static async delete(id) {
-        const permission = await PermissionModel.findOne({
+        const permission = await PermissionsModel.findOne({
             where: { id, deleted_at: null },
         });
 
@@ -96,7 +96,7 @@ export class PermissionDao {
 
     // 查询权限列表
     static async query({ pageNum = 1, pageSize = 10 }) {
-        const result = await PermissionModel.findAndCountAll({
+        const result = await PermissionsModel.findAndCountAll({
             where: { deleted_at: null },
             offset: (pageNum - 1) * pageSize,
             limit: pageSize,

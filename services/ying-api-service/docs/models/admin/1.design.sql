@@ -1,5 +1,3 @@
--- 基本的后台管理系统 MySQL RBAC 权限控制表设计
-
 CREATE TABLE `admin` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `username` VARCHAR(255) NOT NULL UNIQUE,

@@ -4,8 +4,8 @@ import { pick } from 'lodash';
 import { AdminDao } from '@dao/admin/admin';
 import { RoleDao } from '@dao/admin/role';
 import { AdminRoleDao } from '@dao/admin/admin-role';
-import { RolePermissionDao } from '@dao/admin/role-permission';
-import { PermissionDao } from '@dao/admin/permission';
+import { RolePermissionsDao } from '@dao/admin/role-permissions';
+import { PermissionsDao } from '@dao/admin/permissions';
 import {
     FORBIDDEN,
     NOT_FOUND,
@@ -58,13 +58,13 @@ const auth = async (ctx, next) => {
 
     // 根据角色的 id 获取所有角色权限信息
     const rolePermissions = await Promise.all(
-        roleIds.map(roleId => RolePermissionDao.queryByRole(roleId)),
+        roleIds.map(roleId => RolePermissionsDao.queryByRole(roleId)),
     );
     const permissionIds = rolePermissions.flat().map(rp => rp.permission_id);
 
     // 根据 permission 的 id 获取权限信息
     const permissions = await Promise.all(
-        permissionIds.map(permissionId => PermissionDao.search(permissionId)),
+        permissionIds.map(permissionId => PermissionsDao.search(permissionId)),
     );
 
     // 检查用户是否有访问权限

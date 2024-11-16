@@ -1,5 +1,3 @@
--- 插入默认权限到 `permissions` 表
-
 INSERT INTO `permissions` (`name`, `description`, `created_at`, `updated_at`) VALUES
 ('manage_users', '管理用户，包括创建、编辑和删除用户。', NOW(), NOW()),
 ('manage_roles', '管理角色，包括创建、编辑和删除角色。', NOW(), NOW()),

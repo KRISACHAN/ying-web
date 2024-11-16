@@ -2,10 +2,10 @@ import { sequelize } from '@utils/db';
 import { Model, DataTypes } from 'sequelize';
 
 // 定义权限模型
-export class PermissionModel extends Model {}
+export class PermissionsModel extends Model {}
 
 // 初始权限模型
-PermissionModel.init(
+PermissionsModel.init(
     {
         id: {
             type: DataTypes.INTEGER, // 数据类型为整型
@@ -24,8 +24,8 @@ PermissionModel.init(
     },
     {
         sequelize,
-        modelName: 'permission',
-        tableName: 'permission',
+        modelName: 'permissions',
+        tableName: 'permissions',
         timestamps: true,
         createdAt: 'created_at',
         updatedAt: 'updated_at',

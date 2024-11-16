@@ -1,17 +1,15 @@
 {
     "name": "@ying-web/ying-api-service",
     "version": "1.0.0",
-    "description": "一个 koajs + mysql 的 api 服务",
+    "description": "a Koajs api service",
     "keywords": [
-        "koa",
         "koajs",
         "mysql",
-        "mysql2",
-        "api",
-        "gulp"
+        "gulp",
+        "api-service"
     ],
     "license": "MIT",
-    "author": "陈大鱼头 <chenjinwen77@foxmail.com> https://www.krissarea.com",
+    "author": "Kris <chenjinwen77@gmail.com> https://www.krissarea.com",
     "main": "app/index.js",
     "private": true,
     "scripts": {
