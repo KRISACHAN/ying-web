@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Heart } from 'lucide-react';
-import { Snackbar } from '@mui/material';
+import { Snackbar, Button } from '@mui/material';
+import './page.css';
 
 interface PromiseResponse {
     code: number;
@@ -55,23 +56,25 @@ const PromisePage: React.FC = () => {
             </div>
 
             <div className="w-[calc(100%-32px)] max-w-xl flex gap-4 fixed bottom-8">
-                <button
+                <Button
                     onClick={fetchPromise}
                     disabled={isLoading}
-                    className={`flex-1 bg-[#39A7FF] text-white py-3 rounded-lg hover:bg-[#2196f3] transition-colors
-            ${isLoading ? 'opacity-75 cursor-not-allowed' : ''}`}
+                    className={`flex-1`}
+                    size="large"
+                    variant="contained"
                 >
                     抽取经文
-                </button>
+                </Button>
 
-                <button
+                <Button
                     onClick={copyToClipboard}
                     disabled={isLoading || isInit}
-                    className={`flex-1 border border-[#39A7FF] text-[#39A7FF] py-3 rounded-lg hover:bg-[#39A7FF] hover:text-white transition-colors
-            ${isLoading || isInit ? 'opacity-50 cursor-not-allowed' : ''}`}
+                    className={`flex-1`}
+                    size="large"
+                    variant="outlined"
                 >
                     复制
-                </button>
+                </Button>
             </div>
             <Snackbar
                 autoHideDuration={2000}
