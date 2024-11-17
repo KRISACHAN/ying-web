@@ -6,7 +6,6 @@ import {
 } from '@utils/http-errors';
 
 export class RoleDao {
-    // 创建角色
     static async create({ name, description }) {
         const existedRole = await RoleModel.findOne({
             where: { name, deleted_at: null },
@@ -26,7 +25,6 @@ export class RoleDao {
         return true;
     }
 
-    // 查询角色信息
     static async search(id) {
         const role = await RoleModel.findOne({
             where: { id, deleted_at: null },
@@ -39,7 +37,6 @@ export class RoleDao {
         return role;
     }
 
-    // 更新角色信息
     static async update(id, { name, description }) {
         const role = await RoleModel.findOne({
             where: { id, deleted_at: null },
@@ -66,7 +63,6 @@ export class RoleDao {
         return true;
     }
 
-    // 删除角色
     static async delete(id) {
         const role = await RoleModel.findOne({
             where: { id, deleted_at: null },
@@ -85,7 +81,6 @@ export class RoleDao {
         return true;
     }
 
-    // 查询角色列表
     static async query({ pageNum = 1, pageSize = 10 }) {
         const result = await RoleModel.findAndCountAll({
             where: { deleted_at: null },

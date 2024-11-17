@@ -13,24 +13,21 @@ import {
     INTERNAL_SERVER_ERROR,
 } from '@utils/http-errors';
 
-// 定义鉴权中间件
-const auth = async (ctx, next) => {
-    // 从请求头中获取 Authorization 字段
+const adminAuth = async (ctx, next) => {
     const parsedToken = parseBearerToken(ctx.request);
     if (!parsedToken) {
         throw UNAUTHORIZED('未登录，请先登录');
     }
 
-    // 从 token 中获取 uid 和 scope
     let uid;
-    let scope;
+    let scopes;
     try {
         const tokenData = jwt.verify(
             parsedToken,
             process.env.JWT_ACCESS_SECRET_KEY,
         );
         uid = tokenData.uid;
-        scope = tokenData.scope;
+        scopes = tokenData.scopes;
     } catch (error) {
         if (error.name === 'TokenExpiredError') {
             throw UNAUTHORIZED('token已过期，请重新登录');
@@ -38,44 +35,37 @@ const auth = async (ctx, next) => {
         throw FORBIDDEN(error.message || '权限不足');
     }
 
-    // 根据 uid 获取 admin 信息
     const admin = await AdminDao.search({ id: uid });
     if (!admin || !admin.status) {
         throw NOT_FOUND('管理员不存在');
     }
 
-    // 根据 admin 的 id 获取 admin_role 信息
     const adminRoles = await AdminRoleDao.queryByAdmin(uid);
     if (!adminRoles || adminRoles.length === 0) {
         throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
     }
 
-    // 获取角色信息
     const roles = await Promise.all(
         adminRoles.map(role => RoleDao.search(role.role_id)),
     );
     const roleIds = roles.map(role => role.id);
 
-    // 根据角色的 id 获取所有角色权限信息
     const rolePermissions = await Promise.all(
         roleIds.map(roleId => RolePermissionsDao.queryByRole(roleId)),
     );
     const permissionIds = rolePermissions.flat().map(rp => rp.permission_id);
 
-    // 根据 permission 的 id 获取权限信息
     const permissions = await Promise.all(
         permissionIds.map(permissionId => PermissionsDao.search(permissionId)),
     );
 
-    // 检查用户是否有访问权限
-    const hasPermission = permissions.some(
-        permission => permission.id === scope,
+    const hasPermission = permissions.some(permission =>
+        scopes.includes(permission.id),
     );
     if (!hasPermission) {
         throw FORBIDDEN('没有访问权限');
     }
 
-    // 把用户信息存储到 ctx.admin 中
     ctx.admin = {
         admin: pick(admin, ['id', 'username', 'email']),
         roles: roles.map(role => pick(role, ['id', 'name', 'description'])),
@@ -84,14 +74,12 @@ const auth = async (ctx, next) => {
         ),
     };
 
-    // 把 uid 和 scope 存储到 ctx.auth 中
     ctx.auth = {
         uid,
-        scope,
+        scopes,
     };
 
-    // 执行下一个中间件
     await next();
 };
 
-export default auth;
+export default adminAuth;

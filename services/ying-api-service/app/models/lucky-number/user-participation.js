@@ -1,11 +1,11 @@
 import { sequelize } from '@utils/db';
 import { Model, DataTypes } from 'sequelize';
 import { ActivityModel } from './activity';
-import { UserParticipationModel } from './user-participation';
+import { NumberPoolModel } from './number-pool';
 
-export class NumberPoolModel extends Model {}
+export class UserParticipationModel extends Model {}
 
-NumberPoolModel.init(
+UserParticipationModel.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -21,36 +21,35 @@ NumberPoolModel.init(
                 key: 'id',
             },
         },
-        number: {
-            type: DataTypes.INTEGER,
+        user_name: {
+            type: DataTypes.STRING(255),
             allowNull: false,
-            unique: true, // Ensure the number is unique across all entries
         },
-        is_drawn: {
-            type: DataTypes.BOOLEAN,
+        ip_address: {
+            type: DataTypes.STRING(45),
             allowNull: false,
-            defaultValue: false,
+        },
+        drawn_number: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+            references: {
+                model: NumberPoolModel,
+                key: 'id',
+            },
         },
     },
     {
         sequelize,
-        modelName: 'number_pool',
-        tableName: 'number_pool',
+        modelName: 'lucky_number_user_participation',
+        tableName: 'lucky_number_user_participation',
         timestamps: true,
         createdAt: 'created_at',
         updatedAt: 'updated_at',
         indexes: [
             {
                 unique: true,
-                fields: ['activity_id', 'number'],
+                fields: ['activity_id', 'user_name', 'ip_address'],
             },
         ],
     },
 );
-
-// Define association
-NumberPoolModel.hasOne(UserParticipationModel, {
-    foreignKey: 'drawn_number',
-    sourceKey: 'number',
-    as: 'user_participation',
-});

@@ -21,7 +21,7 @@ class OssService {
         const [err, res] = await to(this.oss.listBuckets());
         if (err) {
             log.error(err);
-            throw err; // 抛出错误
+            throw err;
         }
         return get(res, 'buckets', []).map(bucket =>
             pick(bucket, ['name', 'creationDate']),

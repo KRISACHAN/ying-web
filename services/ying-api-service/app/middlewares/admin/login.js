@@ -7,7 +7,7 @@ import { PermissionsDao } from '@dao/admin/permissions';
 import { generateAccessToken, generateRefreshToken } from '@utils/helpers';
 import { UNAUTHORIZED, INTERNAL_SERVER_ERROR } from '@utils/http-errors';
 
-const login = async (ctx, next) => {
+const adminLogin = async (ctx, next) => {
     const { email, password } = ctx.request.body;
 
     const admin = await AdminDao.verify({ email, password });
@@ -17,32 +17,28 @@ const login = async (ctx, next) => {
 
     const uid = admin.id;
 
-    // 根据 admin 的 id 获取 admin_role 信息
     const adminRoles = await AdminRoleDao.queryByAdmin(uid);
     if (!adminRoles || adminRoles.length === 0) {
         throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
     }
 
-    // 获取角色信息
     const roles = await Promise.all(
         adminRoles.map(role => RoleDao.search(role.role_id)),
     );
     const roleIds = roles.map(role => role.id);
 
-    // 根据角色的 id 获取所有角色权限信息
     const rolePermissions = await Promise.all(
         roleIds.map(roleId => RolePermissionsDao.queryByRole(roleId)),
     );
     const permissionIds = rolePermissions.flat().map(rp => rp.permission_id);
 
-    // 根据所有权限的 id 获取权限信息
     const permissions = await Promise.all(
         permissionIds.map(permissionId => PermissionsDao.search(permissionId)),
     );
+    const permissionNames = permissions.map(permission => permission.name);
 
-    // 生成 Token
-    const accessToken = generateAccessToken(admin.id, permissionIds);
-    const refreshToken = generateRefreshToken(admin.id, permissionIds);
+    const accessToken = generateAccessToken(admin.id, permissionNames);
+    const refreshToken = generateRefreshToken(admin.id, permissionNames);
 
     ctx.loginData = {
         accessToken,
@@ -59,4 +55,4 @@ const login = async (ctx, next) => {
     await next();
 };
 
-export default login;
+export default adminLogin;

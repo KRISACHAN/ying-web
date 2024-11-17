@@ -19,8 +19,8 @@ ActivityModel.init(
     },
     {
         sequelize,
-        modelName: 'activity',
-        tableName: 'activity',
+        modelName: 'lucky_number_activity',
+        tableName: 'lucky_number_activity',
         timestamps: true,
         createdAt: 'created_at',
         updatedAt: 'updated_at',

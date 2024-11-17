@@ -6,7 +6,6 @@ import {
 } from '@utils/http-errors';
 
 export class PermissionsDao {
-    // 创建权限
     static async create({ name, description }) {
         const existedPermission = await PermissionsModel.findOne({
             where: { name, deleted_at: null },
@@ -26,7 +25,6 @@ export class PermissionsDao {
         return true;
     }
 
-    // 查询权限信息
     static async search({ id, name }) {
         const whereQuery = {
             deleted_at: null,
@@ -48,7 +46,6 @@ export class PermissionsDao {
         return permission;
     }
 
-    // 更新权限信息
     static async update(id, { name, description }) {
         const permission = await PermissionsModel.findOne({
             where: { id, deleted_at: null },
@@ -75,7 +72,6 @@ export class PermissionsDao {
         return true;
     }
 
-    // 删除权限
     static async delete(id) {
         const permission = await PermissionsModel.findOne({
             where: { id, deleted_at: null },
@@ -94,7 +90,6 @@ export class PermissionsDao {
         return true;
     }
 
-    // 查询权限列表
     static async query({ pageNum = 1, pageSize = 10 }) {
         const result = await PermissionsModel.findAndCountAll({
             where: { deleted_at: null },

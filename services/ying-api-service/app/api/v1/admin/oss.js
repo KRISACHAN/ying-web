@@ -1,14 +1,11 @@
 import Router from 'koa-router';
 import { ossService } from '@services/oss';
 import { resolve } from '@utils/resolve';
-import authMiddleware from '@middlewares/auth';
+import adminAuthMiddleware from '@middlewares/admin/auth';
 import { BAD_REQUEST } from '@utils/http-errors';
+import router from './router';
 
-const router = new Router({
-    prefix: '/api/v1/oss',
-});
-
-router.post('/upload', authMiddleware, async ctx => {
+router.post('/oss/upload', adminAuthMiddleware, async ctx => {
     const body = ctx.request.body;
     const { name, resource, tagging } = body;
     if (!name) {
@@ -18,7 +15,6 @@ router.post('/upload', authMiddleware, async ctx => {
         throw BAD_REQUEST('不可上传空资源');
     }
     const headers = {
-        // 指定Object的存储类型。
         'x-oss-storage-class': 'Standard',
     };
     if (tagging) {

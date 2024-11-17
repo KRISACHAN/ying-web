@@ -14,14 +14,11 @@ export const sequelize = new Sequelize(
         logging: false,
         timezone: '+08:00',
         define: {
-            // create_time && update_time
             timestamps: true,
-            // delete_time
             paranoid: true,
             createdAt: 'created_at',
             updatedAt: 'updated_at',
             deletedAt: 'deleted_at',
-            // 把驼峰命名转换为下划线
             underscored: true,
             scopes: {
                 bh: {
@@ -45,21 +42,29 @@ export const sequelize = new Sequelize(
 );
 
 const initDb = async () => {
+    if (process.env.CREATE_DATABASE === 'true') {
+        await sequelize
+            .query(`CREATE DATABASE IF NOT EXISTS ${process.env.DB_NAME}`)
+            .then(() => {
+                log.error('');
+                log.verbose(`- Create database ${process.env.DB_NAME} success`);
+            });
+    }
     const force = process.env.CREATE_TABLE === 'true';
     if (force) {
         await import('@models/admin/index');
+        await import('@models/lucky-number/index');
     }
     await sequelize.sync({ force });
     const [error] = await to(sequelize.authenticate());
     if (error) {
         log.error('');
-        log.error('        DB running message:');
+        log.error('         DB running message:');
         log.error(
-            `        - Netword: ${process.env.DB_HOST}:${process.env.DB_PORT}`,
+            `         - Netword: ${process.env.DB_HOST}:${process.env.DB_PORT}`,
         );
-        log.error('        - Status: db connect fail');
-        log.error(`        - Message: ${get(error, 'message', error)}`);
-        log.error('');
+        log.error('         - Status: db connect fail');
+        log.error(`         - Message: ${get(error, 'message', error)}`);
         return;
     }
     log.verbose('');
@@ -69,7 +74,7 @@ const initDb = async () => {
     );
     if (force) {
         log.verbose(
-            `        - Created Tables: ${Object.keys(sequelize.models).join(
+            `         - Created Tables: ${Object.keys(sequelize.models).join(
                 ', ',
             )}`,
         );
@@ -78,4 +83,10 @@ const initDb = async () => {
     log.verbose('');
 };
 
-initDb();
+initDb().then(() => {
+    if (process.env.CREATE_ADMIN === 'true') {
+        import('../scripts/admin').then(({ default: { createAdmin } }) => {
+            createAdmin();
+        });
+    }
+});
