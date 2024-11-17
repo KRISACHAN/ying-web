@@ -7,7 +7,6 @@ import log from '@utils/log';
 
 const createAdmin = async () => {
     try {
-        // Create super admin
         const admin = await AdminModel.create({
             username: 'kris',
             password: '123456',
@@ -15,7 +14,6 @@ const createAdmin = async () => {
             status: true,
         });
 
-        // Create permissions
         const permissions = [
             'all_accesses',
             'create_admin',
@@ -40,19 +38,16 @@ const createAdmin = async () => {
             permissions.map(name => PermissionsModel.create({ name })),
         );
 
-        // Create roles
         const roles = ['admin', 'member'];
         const roleRecords = await Promise.all(
             roles.map(name => RoleModel.create({ name })),
         );
 
-        // Assign role to admin
         await AdminRoleModel.create({
             admin_id: admin.id,
             role_id: roleRecords.find(role => role.name === 'admin').id,
         });
 
-        // Assign permissions to role
         const adminRoleId = roleRecords.find(role => role.name === 'admin').id;
         const allAccessPermissionId = permissionRecords.find(
             perm => perm.name === 'all_accesses',
