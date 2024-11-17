@@ -13,9 +13,7 @@ const catchError = async (ctx, next) => {
     } catch (error) {
         const isDev = process.env.APP_ENV !== 'prod';
         const isHttpError = createError.isHttpError(error);
-        if (isDev) {
-            throw error;
-        }
+
         log.error({
             type: errorType.http,
             name: error.name,
