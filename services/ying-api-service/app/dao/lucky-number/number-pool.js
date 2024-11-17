@@ -61,7 +61,6 @@ export class NumberPoolDao {
                         as: 'lucky_number_user_participation',
                         attributes: ['user_name'],
                         required: false,
-                        where: { activity_id: activityId },
                     },
                 ],
             });

@@ -47,7 +47,6 @@ NumberPoolModel.init(
     },
 );
 
-// Define association
 NumberPoolModel.hasOne(UserParticipationModel, {
     foreignKey: 'drawn_number',
     sourceKey: 'id',

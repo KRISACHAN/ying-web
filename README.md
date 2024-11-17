@@ -46,6 +46,18 @@ Although it's simple, I attempt to make it cover a whole `@ying-web` system as a
 
 I imagine it will be complete and useful in the future.
 
+### @ying-web/ying-admin
+
+This is a admin system for `@ying-web`.
+
+Why will I create it?
+
+Because I've created a RABC system of admin system in `@ying-web/ying-api-service`.
+
+If only I visualize it, it will be valuable.
+
+So, I decide to create it and run it on [https://admin.krissarea.com](https://admin.krissarea.com).
+
 ### @ying-web/ying-events
 
 First of all, I want to say, this project is a small tool about Christian and I have finished it by `Vue3`.

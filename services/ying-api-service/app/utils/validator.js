@@ -2,7 +2,7 @@ import Validator from 'async-validator';
 import to from 'await-to-js';
 import { BAD_REQUEST } from '@utils/http-errors';
 
-// 示例：
+// example:
 // const rules = {
 //     username: [
 //         {
@@ -39,10 +39,10 @@ import { BAD_REQUEST } from '@utils/http-errors';
 // router.post('/register', registerValidatorMiddleware, async ctx => {});
 
 /**
- * 根据传入的验证规则数组，返回一个 Koa 中间件函数
- * @param {Object[]} rules 验证规则数组
- * @param {string} [source='body'] 参数来源，可以是 'body', 'query', 'params' 中的一个
- * @returns {function} Koa 中间件函数
+ * Return a Koa middleware function based on the provided validation rules array.
+ * @param {Object[]} rules - The validation rules array.
+ * @param {string} [source='body'] - The source of the parameters, can be 'body', 'query', or 'params'.
+ * @returns {function} A Koa middleware function.
  */
 export const createValidator = (rules, source = 'body') => {
     const validator = new Validator(rules);
