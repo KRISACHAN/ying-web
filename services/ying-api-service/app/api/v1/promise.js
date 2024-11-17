@@ -1,7 +1,6 @@
 import Router from 'koa-router';
 import fs from 'fs';
 import path from 'path';
-import { resolve } from '@utils/resolve';
 import { getRandomInt } from '@utils/helpers';
 import { NOT_FOUND } from '@utils/http-errors';
 
@@ -38,7 +37,7 @@ router.get('/result', async ctx => {
         }
 
         const dataIndex = getRandomInt(0, data.length - 1);
-        ctx.body = resolve.json(data[dataIndex]);
+        ctx.body = data[dataIndex];
     } catch (error) {
         ctx.status = error.status || 500;
         ctx.body = { message: error.message || 'Internal Server Error' };

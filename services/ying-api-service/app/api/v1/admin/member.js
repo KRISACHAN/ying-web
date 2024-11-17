@@ -1,7 +1,6 @@
 import Router from 'koa-router';
 import httpStatus from 'http-status';
 import { pick } from 'lodash';
-import { resolve } from '@utils/resolve';
 import { AdminDao } from '@dao/admin/admin';
 import { RoleDao } from '@dao/admin/role';
 import { AdminRoleDao } from '@dao/admin/admin-role';
@@ -55,7 +54,7 @@ router.post(
     adminLoginMiddleware,
     async ctx => {
         ctx.response.status = httpStatus.OK;
-        ctx.body = resolve.json(ctx.loginData);
+        ctx.body = ctx.loginData;
     },
 );
 
@@ -99,9 +98,9 @@ router.put('/:id', authMiddleware, async ctx => {
         throw UNAUTHORIZED('更新管理员信息失败');
     }
     ctx.response.status = httpStatus.OK;
-    ctx.body = resolve.json({
+    ctx.body = {
         message: '管理员信息更新成功',
-    });
+    };
 });
 
 router.get('/', authMiddleware, async ctx => {
@@ -118,7 +117,8 @@ router.get('/', authMiddleware, async ctx => {
     });
 
     ctx.response.status = httpStatus.OK;
-    ctx.body = resolve.json(result);
+    ctx.set('x-pagination', JSON.stringify(result.pagination));
+    ctx.body = result.data;
 });
 
 router.get('/:id', authMiddleware, async ctx => {
@@ -149,7 +149,7 @@ router.get('/:id', authMiddleware, async ctx => {
     };
 
     ctx.response.status = httpStatus.OK;
-    ctx.body = resolve.json(responseData);
+    ctx.body = responseData;
 });
 
 export default router;

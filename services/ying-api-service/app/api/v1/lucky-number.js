@@ -20,7 +20,7 @@ router.post('/draw', async ctx => {
     }
 
     const transaction = await sequelize.transaction();
-    const activity = await ActivityDao.findActivityByKey(key);
+    const activity = await ActivityDao.search({ key });
     if (!activity) {
         throw BAD_REQUEST('活动不存在');
     }
@@ -63,7 +63,7 @@ router.post('/draw', async ctx => {
 router.get('/query/:key', async ctx => {
     const { key } = ctx.params;
 
-    const activity = await ActivityDao.findActivityByKey(key);
+    const activity = await ActivityDao.search({ key });
     if (!activity) {
         throw BAD_REQUEST('活动不存在');
     }
@@ -78,7 +78,7 @@ router.get('/query/:key', async ctx => {
         numbers: numberPool.map(entry => ({
             number: entry.number,
             is_drawn: entry.is_drawn,
-            drawnBy: entry.user_participation
+            drawn_by: entry.user_participation
                 ? entry.user_participation.user_name
                 : null,
         })),

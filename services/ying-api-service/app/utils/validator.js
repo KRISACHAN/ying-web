@@ -48,6 +48,8 @@ export const createValidator = (rules, source = 'body') => {
     const validator = new Validator(rules);
 
     const validatorMiddleware = async (ctx, next) => {
+        console.log('validator', ctx.request[source]);
+
         const [error, value] = await to(
             validator.validate(ctx.request[source], {
                 abortEarly: false,
