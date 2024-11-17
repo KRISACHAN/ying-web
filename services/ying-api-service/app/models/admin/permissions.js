@@ -1,22 +1,20 @@
 import { sequelize } from '@utils/db';
 import { Model, DataTypes } from 'sequelize';
 
-// 定义权限模型
 export class PermissionsModel extends Model {}
 
-// 初始权限模型
 PermissionsModel.init(
     {
         id: {
-            type: DataTypes.INTEGER, // 数据类型为整型
-            allowNull: false, // 不允许为空
-            primaryKey: true, // 设置为主键
-            autoIncrement: true, // 自增
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            primaryKey: true,
+            autoIncrement: true,
         },
         name: {
-            type: DataTypes.STRING(255), // 数据类型为字符串，最大长度为255
-            allowNull: false, // 不允许为空
-            unique: true, // 增加唯一性约束
+            type: DataTypes.STRING(255),
+            allowNull: false,
+            unique: true,
         },
         description: {
             type: DataTypes.TEXT,

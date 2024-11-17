@@ -7,9 +7,7 @@ import { mkdirPath } from '@utils/helpers';
 import log from '@utils/log';
 
 export const initLoadRouters = app => {
-    // 绝对路径
     const apiDirectory = '../api';
-    // 路由自动加载
     requireDirectory(module, apiDirectory, {
         visit: obj => {
             if (obj.default instanceof Router) {
@@ -20,7 +18,6 @@ export const initLoadRouters = app => {
 };
 
 export const initRatelimit = app => {
-    // 接口调用频率限制（Rate-Limiting）
     // Rate limiter middleware for koa.
     // https://github.com/koajs/ratelimit
     // eslint-disable-next-line no-undef

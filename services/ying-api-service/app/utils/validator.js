@@ -54,7 +54,6 @@ export const createValidator = (rules, source = 'body') => {
             }),
         );
         if (error) {
-            // 如果验证失败，则抛出一个参数异常错误
             throw BAD_REQUEST(error.errors.map(e => e.message).join(','));
         }
         ctx.validate = value;

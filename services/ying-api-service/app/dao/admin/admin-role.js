@@ -2,9 +2,7 @@ import { AdminRoleModel } from '@models/admin/admin-role';
 import { PRECONDITION_FAILED, INTERNAL_SERVER_ERROR } from '@utils/http-errors';
 
 export class AdminRoleDao {
-    // 创建管理员角色
     static async create({ roleId, adminId }) {
-        // 查询是否已存在该记录
         const whereQuery = {
             deleted_at: null,
         };
@@ -33,7 +31,6 @@ export class AdminRoleDao {
         return true;
     }
 
-    // 更新管理员角色
     static async updateByRole({ roleId, adminId }) {
         const AdminRole = await AdminRoleModel.findOne({
             where: {
@@ -58,7 +55,6 @@ export class AdminRoleDao {
         return true;
     }
 
-    // 更新角色所属的管理员
     static async updateByAdmin({ roleId, adminId }) {
         const AdminRole = await AdminRoleModel.findOne({
             where: {
@@ -83,7 +79,6 @@ export class AdminRoleDao {
         return true;
     }
 
-    // 查询指定管理员的所有角色
     static async queryByRole(roleId) {
         const adminRoles = await AdminRoleModel.findAll({
             where: {
@@ -96,10 +91,9 @@ export class AdminRoleDao {
             throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
         }
 
-        return adminRoles; // 返回所有相关的管理员角色
+        return adminRoles;
     }
 
-    // 查询指定管理员的所有角色
     static async queryByAdmin(adminId) {
         const adminRoles = await AdminRoleModel.findAll({
             where: {
@@ -112,10 +106,9 @@ export class AdminRoleDao {
             throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
         }
 
-        return adminRoles; // 返回所有相关的角色
+        return adminRoles;
     }
 
-    // 删除指定管理员的所有角色
     static async deleteByRole(roleId) {
         const result = await AdminRoleModel.deleteMany({
             role_id: roleId,
@@ -129,7 +122,6 @@ export class AdminRoleDao {
         return true;
     }
 
-    // 删除指定角色的所有管理员关联
     static async deleteByPermission(adminId) {
         const result = await AdminRoleModel.deleteMany({
             admin_id: adminId,
@@ -143,7 +135,6 @@ export class AdminRoleDao {
         return true;
     }
 
-    // 查询管理员角色列表
     static async query({ pageNum = 1, pageSize = 10 }) {
         const result = await AdminRoleModel.findAndCountAll({
             where: { deleted_at: null },

@@ -1,14 +1,16 @@
 import { sequelize } from '@utils/db';
-import { NumberPoolModel } from '@models/luck-number/number-pool';
-import { UserParticipationModel } from '@models/luck-number/user-participation';
+import { NumberPoolModel } from '@models/lucky-number/number-pool';
+import { UserParticipationModel } from '@models/lucky-number/user-participation';
 import { INTERNAL_SERVER_ERROR } from '@utils/http-errors';
+import log from '@utils/log';
 
 export class NumberPoolDao {
     static async createNumberPoolEntries(entries) {
         try {
             const res = await NumberPoolModel.bulkCreate(entries);
             return res;
-        } catch {
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('创建抽奖池失败');
         }
     }
@@ -20,7 +22,8 @@ export class NumberPoolDao {
                 order: sequelize.random(),
             });
             return res;
-        } catch {
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('查询可用抽奖号码失败');
         }
     }
@@ -30,7 +33,8 @@ export class NumberPoolDao {
             numberEntry.is_drawn = true;
             const res = await numberEntry.save();
             return res;
-        } catch {
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('标记抽奖号码为已抽奖失败');
         }
     }
@@ -41,7 +45,8 @@ export class NumberPoolDao {
                 where: { activity_id: activityId },
             });
             return res;
-        } catch {
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('查询抽奖号码失败');
         }
     }
@@ -53,7 +58,7 @@ export class NumberPoolDao {
                 include: [
                     {
                         model: UserParticipationModel,
-                        as: 'user_participation',
+                        as: 'lucky_number_user_participation',
                         attributes: ['user_name'],
                         required: false,
                         where: { activity_id: activityId },
@@ -61,7 +66,8 @@ export class NumberPoolDao {
                 ],
             });
             return res;
-        } catch {
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('查询抽奖号码失败');
         }
     }

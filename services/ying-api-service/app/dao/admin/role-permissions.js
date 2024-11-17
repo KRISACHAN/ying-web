@@ -2,9 +2,7 @@ import { RolePermissionsModel } from '@models/admin/role-permissions';
 import { PRECONDITION_FAILED, INTERNAL_SERVER_ERROR } from '@utils/http-errors';
 
 export class RolePermissionsDao {
-    // 创建角色权限
     static async create({ roleId, permissionId }) {
-        // 查询是否已存在该记录
         const whereQuery = {
             deleted_at: null,
         };
@@ -33,7 +31,6 @@ export class RolePermissionsDao {
         return true;
     }
 
-    // 更新角色权限
     static async updateByRole({ roleId, permissionId }) {
         const rolePermission = await RolePermissionsModel.findOne({
             where: { role_id: roleId, deleted_at: null },
@@ -55,7 +52,6 @@ export class RolePermissionsDao {
         return true;
     }
 
-    // 更新权限所属的角色
     static async updateByPermission({ roleId, permissionId }) {
         const rolePermission = await RolePermissionsModel.findOne({
             permission_id: permissionId,
@@ -78,7 +74,6 @@ export class RolePermissionsDao {
         return true;
     }
 
-    // 查询指定角色的所有权限
     static async queryByRole(roleId) {
         const rolePermission = await RolePermissionsModel.findAll({
             where: { role_id: roleId, deleted_at: null },
@@ -91,7 +86,6 @@ export class RolePermissionsDao {
         return rolePermission;
     }
 
-    // 查询拥有相同权限的角色
     static async queryByPermission(permissionId) {
         const rolePermission = await RolePermissionsModel.findAll({
             permission_id: permissionId,
@@ -105,7 +99,6 @@ export class RolePermissionsDao {
         return rolePermission;
     }
 
-    // 删除指定角色的所有权限
     static async deleteByRole(roleId) {
         const rolePermission = await RolePermissionsModel.deleteMany({
             where: { role_id: roleId, deleted_at: null },
@@ -118,7 +111,6 @@ export class RolePermissionsDao {
         return true;
     }
 
-    // 删除指定权限的所有角色关联
     static async deleteByPermission(permissionId) {
         const rolePermission = await RolePermissionsModel.deleteMany({
             permission_id: permissionId,
@@ -132,7 +124,6 @@ export class RolePermissionsDao {
         return true;
     }
 
-    // 查询角色权限列表
     static async query({ pageNum = 1, pageSize = 10 }) {
         const result = await RolePermissionsModel.findAndCountAll({
             where: { deleted_at: null },

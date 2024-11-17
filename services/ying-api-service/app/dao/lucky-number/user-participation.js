@@ -1,12 +1,14 @@
-import { UserParticipationModel } from '@models/luck-number/user-participation';
+import { UserParticipationModel } from '@models/lucky-number/user-participation';
 import { INTERNAL_SERVER_ERROR } from '@utils/http-errors';
+import log from '@utils/log';
 
 export class UserParticipationDao {
     static async createUserParticipation(participationData) {
         try {
             const res = await UserParticipationModel.create(participationData);
             return res;
-        } catch {
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('创建用户参与记录失败');
         }
     }
@@ -21,7 +23,8 @@ export class UserParticipationDao {
                 },
             });
             return res;
-        } catch {
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('查询用户参与记录失败');
         }
     }

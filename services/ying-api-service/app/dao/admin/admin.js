@@ -1,4 +1,3 @@
-// 管理员的数据访问对象
 import { AdminModel } from '@models/admin/admin';
 import bcrypt from 'bcryptjs';
 import {
@@ -10,7 +9,6 @@ import {
 } from '@utils/http-errors';
 
 export class AdminDao {
-    // 创建管理员
     static async create({ username, email, password }) {
         const existedAdmin = await AdminModel.findOne({
             where: { email, deleted_at: null },
@@ -30,7 +28,6 @@ export class AdminDao {
         return true;
     }
 
-    // 验证密码
     static async verify({ email, password }) {
         const admin = await AdminModel.findOne({
             where: { email, deleted_at: null },
@@ -52,7 +49,6 @@ export class AdminDao {
         return admin;
     }
 
-    // 查询管理员信息
     static async search({ email, id }) {
         const whereQuery = {
             deleted_at: null,
@@ -78,7 +74,6 @@ export class AdminDao {
         return admin;
     }
 
-    // 更新管理员信息
     static async update(id, { email, password, username }) {
         const admin = await AdminModel.findOne({
             where: { id, deleted_at: null },
@@ -93,7 +88,6 @@ export class AdminDao {
         }
 
         if (password) {
-            // 这里可以直接赋值，钩子会在保存时处理加密
             admin.password = password;
         }
 
@@ -110,7 +104,6 @@ export class AdminDao {
         return true;
     }
 
-    // 删除管理员
     static async delete(id) {
         const admin = await AdminModel.findOne({
             where: { id, deleted_at: null },
@@ -129,7 +122,6 @@ export class AdminDao {
         return true;
     }
 
-    // 查询管理员列表
     static async query({ pageNum = 1, pageSize = 10 }) {
         const result = await AdminModel.findAndCountAll({
             where: { deleted_at: null },

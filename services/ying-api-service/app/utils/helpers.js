@@ -17,14 +17,13 @@ export function getIP() {
     return IPv4;
 }
 
-// 生成 Access Token 的函数
-export const generateAccessToken = function (uid, scope) {
+export const generateAccessToken = function (uid, scopes) {
     const secretKey = process.env.JWT_ACCESS_SECRET_KEY;
     const expiresIn = process.env.JWT_ACCESS_EXPIRED;
     const token = jwt.sign(
         {
             uid,
-            scope,
+            scopes,
         },
         secretKey,
         {
@@ -34,29 +33,26 @@ export const generateAccessToken = function (uid, scope) {
     return token;
 };
 
-// 验证 Refresh Token 的函数
 export const verifyRefreshToken = function (token) {
-    const secretKey = process.env.JWT_REFRESH_SECRET_KEY; // 获取 Refresh Token 的密钥
+    const secretKey = process.env.JWT_REFRESH_SECRET_KEY;
     try {
-        const decoded = jwt.verify(token, secretKey); // 验证 Token
-        return decoded; // 返回解码后的 Token 数据
+        const decoded = jwt.verify(token, secretKey);
+        return decoded;
     } catch (error) {
-        // 根据错误类型抛出相应的错误信息
         if (error.name === 'TokenExpiredError') {
-            throw UNAUTHORIZED('Refresh Token 已过期'); // Token 过期
+            throw UNAUTHORIZED('Refresh Token 已过期');
         }
-        throw UNAUTHORIZED('无效的 Refresh Token'); // 其他错误
+        throw UNAUTHORIZED('无效的 Refresh Token');
     }
 };
 
-// 生成 Refresh Token 的函数
-export const generateRefreshToken = function (uid, scope) {
-    const secretKey = process.env.JWT_REFRESH_SECRET_KEY; // 获取 Refresh Token 的密钥
+export const generateRefreshToken = function (uid, scopes) {
+    const secretKey = process.env.JWT_REFRESH_SECRET_KEY;
     const expiresIn = process.env.JWT_REFRESH_EXPIRED;
     const token = jwt.sign(
         {
             uid,
-            scope,
+            scopes,
         },
         secretKey,
         {

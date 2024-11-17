@@ -1,31 +1,14 @@
 import Router from 'koa-router';
 import httpStatus from 'http-status';
-import { ActivityDao } from '@dao/luck-number/activity';
-import { NumberPoolDao } from '@dao/luck-number/number-pool';
-import { UserParticipationDao } from '@dao/luck-number/user-participation';
+import { ActivityDao } from '@dao/lucky-number/activity';
+import { NumberPoolDao } from '@dao/lucky-number/number-pool';
+import { UserParticipationDao } from '@dao/lucky-number/user-participation';
 import { BAD_REQUEST } from '@utils/http-errors';
 import { getUserIP } from '@utils/helpers';
 import { sequelize } from '@utils/db';
 
 const router = new Router({
-    prefix: '/api/v1/luck-number',
-});
-
-router.post('/create', async ctx => {
-    const { key, numbers } = ctx.request.body;
-    if (!key || !Array.isArray(numbers)) {
-        throw BAD_REQUEST('活动 key 和号码池数据是必需的');
-    }
-
-    const activity = await ActivityDao.createActivity(key);
-    const numberPoolEntries = numbers.map(number => ({
-        activity_id: activity.id,
-        number,
-    }));
-    await NumberPoolDao.createNumberPoolEntries(numberPoolEntries);
-
-    ctx.response.status = httpStatus.CREATED;
-    ctx.body = { message: '活动创建成功' };
+    prefix: '/api/v1/lucky-number',
 });
 
 router.post('/draw', async ctx => {
@@ -94,7 +77,7 @@ router.get('/query/:key', async ctx => {
         activityKey: activity.key,
         numbers: numberPool.map(entry => ({
             number: entry.number,
-            isDrawn: entry.is_drawn,
+            is_drawn: entry.is_drawn,
             drawnBy: entry.user_participation
                 ? entry.user_participation.user_name
                 : null,

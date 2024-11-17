@@ -67,10 +67,8 @@ class RedisStore {
     }
 }
 
-// 创建一个缓存实例
 const cacheStore = new CacheStore();
 
-// 添加一些缓存层
 cacheStore.add(new MemoryStore()).add(new RedisStore());
 
 const cacheMiddleware = async (ctx, next) => {
