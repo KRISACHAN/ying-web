@@ -12,7 +12,11 @@ const app = new Koa();
 
 app.proxy = true;
 
-app.use(cors());
+app.use(
+    cors({
+        exposeHeaders: ['x-pagination'],
+    }),
+);
 app.use(catchErrorMiddleware);
 app.use(cacheMiddleware);
 app.use(

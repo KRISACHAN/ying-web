@@ -1,14 +1,8 @@
 import React, { useState } from 'react';
 import { Heart } from 'lucide-react';
 import { Snackbar, Button } from '@mui/material';
+import axios from 'axios';
 import './page.css';
-
-interface PromiseResponse {
-    code: number;
-    msg: string;
-    error_code: number;
-    data: string;
-}
 
 const PromisePage: React.FC = () => {
     const [promise, setPromise] = useState<string>('请点击抽取经文！');
@@ -21,11 +15,11 @@ const PromisePage: React.FC = () => {
         setIsInit(false);
         setIsLoading(true);
         try {
-            const response = await fetch(
+            const response = await axios.get(
                 `${import.meta.env.VITE_REQUEST_BASE_URL}/api/v1/promise/result`,
             );
-            const data: PromiseResponse = await response.json();
-            setPromise(data.data);
+            const data = response.data;
+            setPromise(data);
         } catch {
             setPromise('获取经文失败，请重试。');
         } finally {

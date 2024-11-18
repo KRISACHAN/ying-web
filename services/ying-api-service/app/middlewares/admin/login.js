@@ -41,8 +41,8 @@ const adminLogin = async (ctx, next) => {
     const refreshToken = generateRefreshToken(admin.id, permissionNames);
 
     ctx.loginData = {
-        accessToken,
-        refreshToken,
+        access_token: accessToken,
+        refresh_token: refreshToken,
         admin_info: {
             admin: pick(admin, ['id', 'username', 'email']),
             roles: roles.map(role => pick(role, ['id', 'name', 'description'])),

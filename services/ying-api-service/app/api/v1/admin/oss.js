@@ -1,6 +1,4 @@
-import Router from 'koa-router';
 import { ossService } from '@services/oss';
-import { resolve } from '@utils/resolve';
 import adminAuthMiddleware from '@middlewares/admin/auth';
 import { BAD_REQUEST } from '@utils/http-errors';
 import router from './router';
@@ -25,7 +23,9 @@ router.post('/oss/upload', adminAuthMiddleware, async ctx => {
         resource,
         headers,
     });
-    ctx.body = resolve.json(res);
+    ctx.body = {
+        data: res,
+    };
 });
 
 export default router;
