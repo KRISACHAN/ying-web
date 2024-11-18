@@ -1,6 +1,7 @@
 CREATE TABLE `lucky_number_activity` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
-  `key` VARCHAR(255) NOT NULL UNIQUE,
+  `key` VARCHAR(20) NOT NULL UNIQUE,
+  `description` VARCHAR(255),
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
   PRIMARY KEY (`id`)
@@ -21,7 +22,7 @@ CREATE TABLE `lucky_number_pool` (
 CREATE TABLE `lucky_number_user_participation` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `activity_id` INT(11) NOT NULL,
-  `user_name` VARCHAR(255) NOT NULL UNIQUE,
+  `user_name` VARCHAR(40) NOT NULL UNIQUE,
   `drawn_number` INT(11),
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,

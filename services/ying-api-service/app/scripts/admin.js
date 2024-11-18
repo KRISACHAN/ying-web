@@ -8,9 +8,9 @@ import log from '@utils/log';
 const createAdmin = async () => {
     try {
         const admin = await AdminModel.create({
-            username: 'kris',
-            password: '123456',
-            email: 'chenjinwen77@gmail.com',
+            username: process.env.INITED_ADMIN_USERNAME,
+            password: process.env.INITED_ADMIN_PASSWORD,
+            email: process.env.INITED_ADMIN_EMAIL,
             status: true,
         });
 

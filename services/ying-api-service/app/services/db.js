@@ -42,20 +42,12 @@ export const sequelize = new Sequelize(
 );
 
 const initDb = async () => {
-    if (process.env.CREATE_DATABASE === 'true') {
-        await sequelize
-            .query(`CREATE DATABASE IF NOT EXISTS ${process.env.DB_NAME}`)
-            .then(() => {
-                log.error('');
-                log.verbose(`- Create database ${process.env.DB_NAME} success`);
-            });
-    }
-    const force = process.env.CREATE_TABLE === 'true';
-    if (force) {
+    const createTables = process.env.CREATE_TABLE === 'true';
+    if (createTables) {
         await import('@models/admin/index');
         await import('@models/lucky-number/index');
     }
-    await sequelize.sync({ force });
+    await sequelize.sync({ force: createTables });
     const [error] = await to(sequelize.authenticate());
     if (error) {
         log.error('');
@@ -72,7 +64,7 @@ const initDb = async () => {
     log.verbose(
         `        - Netword: ${process.env.DB_HOST}:${process.env.DB_PORT}`,
     );
-    if (force) {
+    if (createTables) {
         log.verbose(
             `         - Created Tables: ${Object.keys(sequelize.models).join(
                 ', ',
@@ -81,12 +73,11 @@ const initDb = async () => {
     }
     log.verbose('        - Status: db connect success');
     log.verbose('');
-};
-
-initDb().then(() => {
     if (process.env.CREATE_ADMIN === 'true') {
         import('../scripts/admin').then(({ default: { createAdmin } }) => {
             createAdmin();
         });
     }
-});
+};
+
+initDb();

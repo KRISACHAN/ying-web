@@ -11,9 +11,9 @@ const router = new Router({
 });
 
 router.post('/draw', async ctx => {
-    const { key, userName } = ctx.request.body;
+    const { key, user_name } = ctx.request.body;
 
-    if (!key || !userName) {
+    if (!key || !user_name) {
         throw BAD_REQUEST('活动 key 和用户信息是必需的');
     }
 
@@ -25,11 +25,11 @@ router.post('/draw', async ctx => {
 
     const existingParticipation = await UserParticipationDao.findParticipation(
         activity.id,
-        userName,
+        user_name,
     );
 
     if (existingParticipation) {
-        throw BAD_REQUEST('用户已参与过此活动');
+        throw BAD_REQUEST('用户已参与过此活动，请勿重复抽取');
     }
 
     const numberEntry = await NumberPoolDao.findAvailableNumber(activity.id, {
@@ -44,7 +44,7 @@ router.post('/draw', async ctx => {
     await UserParticipationDao.createUserParticipation(
         {
             activity_id: activity.id,
-            user_name: userName,
+            user_name: user_name,
             drawn_number: numberEntry.number,
         },
         { transaction },
@@ -53,7 +53,7 @@ router.post('/draw', async ctx => {
     await transaction.commit();
 
     ctx.response.status = httpStatus.OK;
-    ctx.body = { drawnNumber: numberEntry.number };
+    ctx.body = { drawn_number: numberEntry.number };
 });
 
 router.get('/query/:key', async ctx => {
@@ -70,7 +70,8 @@ router.get('/query/:key', async ctx => {
 
     ctx.response.status = httpStatus.OK;
     ctx.body = {
-        activityKey: activity.key,
+        activity_key: activity.key,
+        description: activity.description,
         numbers: numberPool.map(entry => ({
             number: entry.number,
             is_drawn: entry.is_drawn,

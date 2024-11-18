@@ -6,7 +6,11 @@ export const LuckyNumberCreate = () => {
     const navigate = useNavigate();
     const { createActivity, loading } = useLuckyNumber();
 
-    const onFinish = async (values: { key: string; numberRange: string }) => {
+    const onFinish = async (values: {
+        key: string;
+        description: string;
+        numberRange: string;
+    }) => {
         try {
             const numbers = values.numberRange
                 .split(',')
@@ -15,6 +19,7 @@ export const LuckyNumberCreate = () => {
 
             await createActivity({
                 key: values.key,
+                description: values.description,
                 numbers,
             });
             message.success('活动创建成功');
@@ -42,9 +47,30 @@ export const LuckyNumberCreate = () => {
                                 required: true,
                                 message: '请输入活动标识',
                             },
+                            {
+                                max: 20,
+                                message: '活动标识长度不能超过20个字符',
+                            },
                         ]}
                     >
                         <Input placeholder="请输入唯一的活动标识" />
+                    </Form.Item>
+
+                    <Form.Item
+                        label="活动描述"
+                        name="description"
+                        rules={[
+                            {
+                                required: true,
+                                message: '请输入活动描述',
+                            },
+                            {
+                                max: 255,
+                                message: '活动描述长度不能超过 255 个字符',
+                            },
+                        ]}
+                    >
+                        <Input.TextArea placeholder="请输入活动描述" />
                     </Form.Item>
 
                     <Form.Item
@@ -54,6 +80,10 @@ export const LuckyNumberCreate = () => {
                             {
                                 required: true,
                                 message: '请输入数字范围',
+                            },
+                            {
+                                max: 300,
+                                message: '数字范围长度不能超过 300 个字符',
                             },
                         ]}
                         help="请输入数字，用逗号分隔，例如：1,2,3,4,5"

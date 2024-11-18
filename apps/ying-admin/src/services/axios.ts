@@ -76,7 +76,7 @@ axiosInstance.interceptors.response.use(
                 }
 
                 const response = await axios.post(
-                    `${import.meta.env.VITE_API_BASE_URL}/admin/refresh-token`,
+                    `${import.meta.env.VITE_REQUEST_BASE_URL}/api/v1/admin/refresh-token`,
                     {
                         refreshToken,
                     },

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Heart } from 'lucide-react';
 import { Snackbar, Button } from '@mui/material';
-import axios from 'axios';
+import { useDebounceCallback } from 'usehooks-ts';
+import axiosInstance from '../../services/axios';
 import './page.css';
 
 const PromisePage: React.FC = () => {
@@ -15,9 +16,7 @@ const PromisePage: React.FC = () => {
         setIsInit(false);
         setIsLoading(true);
         try {
-            const response = await axios.get(
-                `${import.meta.env.VITE_REQUEST_BASE_URL}/api/v1/promise/result`,
-            );
+            const response = await axiosInstance.get('/promise/result');
             const data = response.data;
             setPromise(data);
         } catch {
@@ -26,6 +25,8 @@ const PromisePage: React.FC = () => {
             setIsLoading(false);
         }
     };
+
+    const debouncedFetchPromise = useDebounceCallback(fetchPromise, 500);
 
     const copyToClipboard = async () => {
         try {
@@ -39,7 +40,7 @@ const PromisePage: React.FC = () => {
     };
 
     return (
-        <div className="min-h-screen bg-[#EBF5FF] flex flex-col items-center pt-8 px-4 relative">
+        <div className="bg-[#EBF5FF] flex flex-col items-center">
             <div className="flex items-center gap-2 mb-8">
                 <Heart className="w-9 h-9 text-red-400 fill-current" />
                 <h1 className="text-3xl font-bold">圣经应许</h1>
@@ -51,7 +52,7 @@ const PromisePage: React.FC = () => {
 
             <div className="w-[calc(100%-32px)] max-w-xl flex gap-4 fixed bottom-8">
                 <Button
-                    onClick={fetchPromise}
+                    onClick={debouncedFetchPromise}
                     disabled={isLoading}
                     className={`flex-1`}
                     size="large"

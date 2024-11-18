@@ -11,7 +11,7 @@ export class NumberPoolDao {
             return res;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('创建抽奖池失败');
+            throw INTERNAL_SERVER_ERROR('创建幸运号码池失败');
         }
     }
 
@@ -24,7 +24,7 @@ export class NumberPoolDao {
             return res;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询可用抽奖号码失败');
+            throw INTERNAL_SERVER_ERROR('查询可用幸运号码失败');
         }
     }
 
@@ -35,7 +35,7 @@ export class NumberPoolDao {
             return res;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('标记抽奖号码为已抽奖失败');
+            throw INTERNAL_SERVER_ERROR('获取幸运号码失败');
         }
     }
 
@@ -47,7 +47,7 @@ export class NumberPoolDao {
             return res;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询抽奖号码失败');
+            throw INTERNAL_SERVER_ERROR('查询幸运号码失败');
         }
     }
 
@@ -66,7 +66,7 @@ export class NumberPoolDao {
             return res;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询抽奖号码失败');
+            throw INTERNAL_SERVER_ERROR('查询幸运号码失败');
         }
     }
 }

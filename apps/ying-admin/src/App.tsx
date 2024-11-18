@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
 import zhCN from 'antd/locale/zh_CN';
 import { Login } from './pages/Login';
-import { DashboardLayout } from './layouts/DashboardLayout';
+import BaseLayout from './layouts/BaseLayout';
 import { LuckyNumberList } from './pages/LuckyNumberList';
 import { LuckyNumberDetail } from './pages/LuckyNumberDetail';
 import { LuckyNumberCreate } from './pages/LuckyNumberCreate';
@@ -18,7 +18,7 @@ function App() {
                         path="/"
                         element={
                             <AuthGuard>
-                                <DashboardLayout />
+                                <BaseLayout />
                             </AuthGuard>
                         }
                     >

@@ -24,7 +24,7 @@ UserParticipationModel.init(
         user_name: {
             type: DataTypes.STRING(255),
             allowNull: false,
-            unique: true, // Make user_name unique across the table
+            unique: true,
         },
         drawn_number: {
             type: DataTypes.INTEGER,
