@@ -12,6 +12,8 @@ Here are some of my contact information:
 -   🐙 Github: [https://github.com/KRISACHAN](https://github.com/KRISACHAN)
 -   💬 Wechat: krisChans95
 
+ps: I'm looking for a job, so if you have any opportunities, please contact me.
+
 ## Something about @ying-web
 
 From my perspective, `@ying-web` is my core web projects repository.
@@ -74,9 +76,13 @@ And, I am considering to change its name to `@ying-web/ying-christian`.
 
 But, Now, I should finish the rewrite of `@ying-web/ying-events` by `React` first.
 
-### [https://www.krissarea.com](https://www.krissarea.com)
+### @ying-web/ying-home
 
-As an entry domain of mine, I want to make it more beautiful and useful.
+First of all, I would make it into [https://www.krissarea.com](https://www.krissarea.com).
+
+It's my entry domain of mine.
+
+As the proposal, I want to make it more beautiful and useful.
 
 However, I have no idea about how to do it yet.
 
