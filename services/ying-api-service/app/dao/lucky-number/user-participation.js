@@ -13,13 +13,12 @@ export class UserParticipationDao {
         }
     }
 
-    static async findParticipation(activityId, userName, ipAddress) {
+    static async findParticipation(activityId, userName) {
         try {
             const res = await UserParticipationModel.findOne({
                 where: {
                     activity_id: activityId,
                     user_name: userName,
-                    ip_address: ipAddress,
                 },
             });
             return res;

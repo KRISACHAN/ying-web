@@ -1,4 +1,4 @@
-import { sequelize } from '@utils/db';
+import { sequelize } from '@services/db';
 import { Model, DataTypes } from 'sequelize';
 
 export class ActivityModel extends Model {}

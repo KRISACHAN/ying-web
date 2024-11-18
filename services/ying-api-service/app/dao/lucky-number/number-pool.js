@@ -1,4 +1,4 @@
-import { sequelize } from '@utils/db';
+import { sequelize } from '@services/db';
 import { NumberPoolModel } from '@models/lucky-number/number-pool';
 import { UserParticipationModel } from '@models/lucky-number/user-participation';
 import { INTERNAL_SERVER_ERROR } from '@utils/http-errors';

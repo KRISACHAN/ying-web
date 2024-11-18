@@ -36,7 +36,9 @@ router.get('/lucky-number/query/:key', watchEventMiddleware, async ctx => {
         throw BAD_REQUEST('活动不存在');
     }
 
-    const numberPool = await NumberPoolDao.findNumbersByActivity(activity.id);
+    const numberPool = await NumberPoolDao.findNumbersWithUserByActivity(
+        activity.id,
+    );
 
     ctx.response.status = httpStatus.OK;
     ctx.body = {
@@ -44,8 +46,8 @@ router.get('/lucky-number/query/:key', watchEventMiddleware, async ctx => {
         numbers: numberPool.map(entry => ({
             number: entry.number,
             is_drawn: entry.is_drawn,
-            drawn_by: entry.user_participation
-                ? entry.user_participation.user_name
+            drawn_by: entry.lucky_number_user_participation
+                ? entry.lucky_number_user_participation.user_name
                 : null,
         })),
     };
