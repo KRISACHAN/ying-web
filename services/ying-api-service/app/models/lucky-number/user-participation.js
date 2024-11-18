@@ -1,4 +1,4 @@
-import { sequelize } from '@utils/db';
+import { sequelize } from '@services/db';
 import { Model, DataTypes } from 'sequelize';
 import { ActivityModel } from './activity';
 import { NumberPoolModel } from './number-pool';
@@ -24,10 +24,7 @@ UserParticipationModel.init(
         user_name: {
             type: DataTypes.STRING(255),
             allowNull: false,
-        },
-        ip_address: {
-            type: DataTypes.STRING(45),
-            allowNull: false,
+            unique: true, // Make user_name unique across the table
         },
         drawn_number: {
             type: DataTypes.INTEGER,
@@ -48,7 +45,7 @@ UserParticipationModel.init(
         indexes: [
             {
                 unique: true,
-                fields: ['activity_id', 'user_name', 'ip_address'],
+                fields: ['user_name'],
             },
         ],
     },

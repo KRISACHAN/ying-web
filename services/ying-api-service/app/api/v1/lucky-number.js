@@ -4,8 +4,7 @@ import { ActivityDao } from '@dao/lucky-number/activity';
 import { NumberPoolDao } from '@dao/lucky-number/number-pool';
 import { UserParticipationDao } from '@dao/lucky-number/user-participation';
 import { BAD_REQUEST } from '@utils/http-errors';
-import { getUserIP } from '@utils/helpers';
-import { sequelize } from '@utils/db';
+import { sequelize } from '@services/db';
 
 const router = new Router({
     prefix: '/api/v1/lucky-number',
@@ -13,7 +12,6 @@ const router = new Router({
 
 router.post('/draw', async ctx => {
     const { key, userName } = ctx.request.body;
-    const ipAddress = getUserIP(ctx);
 
     if (!key || !userName) {
         throw BAD_REQUEST('活动 key 和用户信息是必需的');
@@ -28,7 +26,6 @@ router.post('/draw', async ctx => {
     const existingParticipation = await UserParticipationDao.findParticipation(
         activity.id,
         userName,
-        ipAddress,
     );
 
     if (existingParticipation) {
@@ -48,7 +45,6 @@ router.post('/draw', async ctx => {
         {
             activity_id: activity.id,
             user_name: userName,
-            ip_address: ipAddress,
             drawn_number: numberEntry.number,
         },
         { transaction },
@@ -78,8 +74,8 @@ router.get('/query/:key', async ctx => {
         numbers: numberPool.map(entry => ({
             number: entry.number,
             is_drawn: entry.is_drawn,
-            drawn_by: entry.user_participation
-                ? entry.user_participation.user_name
+            drawn_by: entry.lucky_number_user_participation
+                ? entry.lucky_number_user_participation.user_name
                 : null,
         })),
     };
