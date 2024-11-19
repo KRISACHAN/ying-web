@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
 import { message } from 'antd';
-import { localStorage } from '../services/storage';
+import { localCache } from '../services/storage';
 
 interface CustomAxiosResponse<T = any> extends AxiosResponse<T> {
     headers: {
@@ -32,7 +32,7 @@ const processQueue = (error: any = null) => {
 
 axiosInstance.interceptors.request.use(
     config => {
-        const token = localStorage.get('accessToken');
+        const token = localCache.get('accessToken');
         if (token) {
             config.headers.Authorization = `Bearer ${token}`;
         }
@@ -71,7 +71,7 @@ axiosInstance.interceptors.response.use(
             isRefreshing = true;
 
             try {
-                const refreshToken = localStorage.get('refreshToken');
+                const refreshToken = localCache.get('refreshToken');
                 if (!refreshToken) {
                     throw new Error('登录已过期，请重新登录');
                 }
@@ -84,15 +84,15 @@ axiosInstance.interceptors.response.use(
                 );
 
                 const { accessToken } = response.data;
-                localStorage.set('accessToken', accessToken);
+                localCache.set('accessToken', accessToken);
 
                 processQueue();
                 return axiosInstance(originalRequest);
             } catch (refreshError) {
                 processQueue(refreshError);
-                localStorage.remove('accessToken');
-                localStorage.remove('refreshToken');
-                localStorage.remove('adminInfo');
+                localCache.remove('accessToken');
+                localCache.remove('refreshToken');
+                localCache.remove('adminInfo');
                 message.error('登录已过期，请重新登录');
                 window.location.href = '/login';
                 return Promise.reject(refreshError);

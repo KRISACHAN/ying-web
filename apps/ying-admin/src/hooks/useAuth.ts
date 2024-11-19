@@ -5,7 +5,7 @@ import type {
     RefreshTokenResponse,
 } from '../types/auth';
 import axiosInstance from '../services/axios';
-import { localStorage } from '../services/storage';
+import { localCache } from '../services/storage';
 
 export const useAuth = () => {
     const [loading, setLoading] = useState(false);
@@ -20,9 +20,9 @@ export const useAuth = () => {
                 params,
             );
             const { data } = response ?? {};
-            localStorage.set('accessToken', data.access_token);
-            localStorage.set('refreshToken', data.refresh_token);
-            localStorage.set('adminInfo', JSON.stringify(data.admin_info));
+            localCache.set('accessToken', data.access_token);
+            localCache.set('refreshToken', data.refresh_token);
+            localCache.set('adminInfo', JSON.stringify(data.admin_info));
             return response;
         } catch (err) {
             setError('登录失败');
@@ -33,7 +33,7 @@ export const useAuth = () => {
     }, []);
 
     const refreshAccessToken = useCallback(async () => {
-        const refreshToken = localStorage.get('refreshToken');
+        const refreshToken = localCache.get('refreshToken');
         if (!refreshToken) {
             throw new Error('无效的刷新令牌');
         }
@@ -44,7 +44,7 @@ export const useAuth = () => {
                 { refresh_token: refreshToken },
             );
             const { data } = response ?? {};
-            localStorage.set('accessToken', data.accessToken);
+            localCache.set('accessToken', data.accessToken);
             return response;
         } catch (err) {
             throw new Error('刷新令牌失败');
@@ -52,9 +52,9 @@ export const useAuth = () => {
     }, []);
 
     const logout = useCallback(() => {
-        localStorage.remove('accessToken');
-        localStorage.remove('refreshToken');
-        localStorage.remove('adminInfo');
+        localCache.remove('accessToken');
+        localCache.remove('refreshToken');
+        localCache.remove('adminInfo');
     }, []);
 
     return {

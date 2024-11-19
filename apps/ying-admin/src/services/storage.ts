@@ -1,6 +1,6 @@
 import { UniversalStorage } from '@ying-web/tools';
 
-export const localStorage = new UniversalStorage({
+export const localCache = new UniversalStorage({
     type: 'local',
     prefix: 'ying-admin',
 });
