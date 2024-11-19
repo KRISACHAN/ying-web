@@ -1,3 +1,2 @@
-export const isBrowser = typeof window !== 'undefined';
-export const isNode =
-    typeof process !== 'undefined' && process.versions != null;
+export const isBrowser = () => typeof window !== 'undefined';
+export const isServer = () => !isBrowser();

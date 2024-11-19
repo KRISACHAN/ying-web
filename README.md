@@ -16,7 +16,7 @@ ps: I'm looking for a job, so if you have any opportunities, please contact me.
 
 ## Why is **ying**?
 
-Well, most netizens know the meaning.
+Well, most Chinese netizens know the meaning.
 
 In the Chinese Internet, it means **嘤**, which is like a lovely girl crying.
 
@@ -46,7 +46,23 @@ Finally, make it run and deploy automatically.
 
 The below are the projects that I want to achieve:
 
-### @ying-web/ying-api-service
+### project structure
+
+As a modern project, it should have a good project structure.
+
+So, I should add these functions to the project:
+
+#### Root
+
+-   [ ] `husky` + `lint-staged` + `commitlint`
+-   [ ] `Webhook` (Maybe github actions or vercel or even others) + `Docker`
+
+#### Detailed projects
+
+-   [ ] `changeset`
+-   [ ] Detailed documents
+
+### @ying-web/api-service
 
 This is a core api service for `@ying-web`.
 
@@ -54,19 +70,19 @@ Although it's simple, I attempt to make it cover a whole `@ying-web` system as a
 
 I imagine it will be complete and useful in the future.
 
-### @ying-web/ying-admin
+### @ying-web/admin
 
 This is a admin system for `@ying-web`.
 
 Why will I create it?
 
-Because I've created a RABC system of admin system in `@ying-web/ying-api-service`.
+Because I've created a RABC system of admin system in `@ying-web/api-service`.
 
 If only I visualize it, it will be valuable.
 
 So, I decide to create it and run it on [https://admin.krissarea.com](https://admin.krissarea.com).
 
-### @ying-web/ying-events
+### @ying-web/events
 
 First of all, I want to say, this project is a small tool about Christian and I have finished it by `Vue3`.
 
@@ -78,11 +94,11 @@ So, I decide to rewrite it by pure `React` in the future.
 
 Now, it's running on [https://events.krissarea.com](https://events.krissarea.com)
 
-And, I am considering to change its name to `@ying-web/ying-christian`.
+And, I am considering to change its name to `@ying-web/christian`.
 
-But, Now, I should finish the rewrite of `@ying-web/ying-events` by `React` first.
+But, Now, I should finish the rewrite of `@ying-web/events` by `React` first.
 
-### @ying-web/ying-home
+### @ying-web/home
 
 First of all, I would make it into [https://www.krissarea.com](https://www.krissarea.com).
 
@@ -94,7 +110,7 @@ However, I have no idea about how to do it yet.
 
 But the certain thing is, I will create a new project under `@ying-web` to host it.
 
-### @ying-web/ying-tools
+### @ying-web/tools
 
 This is a tool library for `@ying-web`.
 

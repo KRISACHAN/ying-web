@@ -6,7 +6,10 @@
         "**/.env.*production",
         "**/.env.*development"
     ],
-    "pipeline": {
+    "globalEnv": [
+        "NODE_ENV"
+    ],
+    "tasks": {
         "build": {
             "dependsOn": ["^build"],
             "outputs": [".output/**", "dist/**", "dist-app/**"]

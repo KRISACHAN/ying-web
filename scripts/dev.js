@@ -1,59 +1,59 @@
-import('inquirer').then(inquirerModule => {
-    const inquirer = inquirerModule.default;
-    const { spawn } = require('child_process');
-    const fs = require('fs');
-    const path = require('path');
+import('inquirer').then((inquirerModule) => {
+    const inquirer = inquirerModule.default
+    const { spawn } = require('child_process')
+    const fs = require('fs')
+    const path = require('path')
 
-    const getProjects = dir => {
+    const getProjects = (dir) => {
         return fs
             .readdirSync(dir, { withFileTypes: true })
-            .filter(dirent => dirent.isDirectory())
-            .map(dirent => {
+            .filter((dirent) => dirent.isDirectory())
+            .map((dirent) => {
                 const packageJsonPath = path.join(
                     dir,
                     dirent.name,
-                    'package.json',
-                );
+                    'package.json'
+                )
                 if (fs.existsSync(packageJsonPath)) {
                     const packageJson = JSON.parse(
-                        fs.readFileSync(packageJsonPath, 'utf8'),
-                    );
-                    return packageJson.name;
+                        fs.readFileSync(packageJsonPath, 'utf8')
+                    )
+                    return packageJson.name
                 }
-                return null;
+                return null
             })
-            .filter(Boolean); // 过滤掉不存在 package.json 或 name 字段为空的目录
-    };
+            .filter(Boolean)
+    }
 
-    const apps = getProjects('./apps');
-    const services = getProjects('./services');
-    const choices = [...apps, ...services];
+    const apps = getProjects('./apps')
+    const services = getProjects('./services')
+    const choices = [...apps, ...services]
 
     inquirer
         .prompt([
             {
                 type: 'list',
                 name: 'project',
-                message: '请选择你想要启动的项目:',
+                message: 'Which project to start?',
                 choices,
             },
         ])
-        .then(answers => {
-            console.log(`正在启动项目: ${answers.project}...`);
+        .then((answers) => {
+            console.log(`Starting project: ${answers.project}...`)
             const child = spawn('turbo', ['dev', '--filter', answers.project], {
                 stdio: 'inherit',
                 shell: true,
-            });
+            })
 
-            child.on('error', error => {
-                console.error(`执行的错误: ${error.message}`);
-            });
+            child.on('error', (error) => {
+                console.error(`Error: ${error.message}`)
+            })
 
-            child.on('close', code => {
-                console.log(`子进程退出，退出码 ${code}`);
-            });
+            child.on('close', (code) => {
+                console.log(`Process exited with code ${code}`)
+            })
         })
-        .catch(error => {
-            console.error('发生错误:', error.message);
-        });
-});
+        .catch((error) => {
+            console.error(`Error: ${error.message}`)
+        })
+})

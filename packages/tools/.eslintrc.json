@@ -1,22 +1,28 @@
+// @FIXME: Really strange, if I use `.eslintrc` file, it would automatically add the Trailing commas.
 {
-  "parser": "@typescript-eslint/parser",
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
-  ],
-  "plugins": ["@typescript-eslint", "prettier"],
-  "rules": {
-    "indent": [0, 4],
-    "arrow-parens": 0,
-    "generator-star-spacing": 0,
-    "no-debugger": 0,
-    "eol-last": 0,
-    "eqeqeq": 2,
-    "camelcase": 0,
-    "space-before-function-paren": 0,
-    "quotes": ["error", "single"],
-    "prettier/prettier": "error",
-    "no-var": "error"
-  }
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "plugins": ["@typescript-eslint", "prettier"],
+    "rules": {
+        "indent": [0, 4],
+        "arrow-parens": 0,
+        "generator-star-spacing": 0,
+        "no-debugger": 0,
+        "eol-last": 0,
+        "eqeqeq": 2,
+        "camelcase": 0,
+        "space-before-function-paren": 0,
+        "quotes": ["error", "single"],
+        "prettier/prettier": "error",
+        "no-var": "error"
+    },
+    "env": {
+        "node": true,
+        "es2020": true,
+        "jest": true
+    }
 }
