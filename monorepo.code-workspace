@@ -12,5 +12,9 @@
             "name": "@ying-web/ying-admin",
             "path": "apps/ying-admin",
         },
+        {
+            "name": "@ying-web/tools",
+            "path": "packages/tools",
+        },
     ],
 }

@@ -1,6 +1,7 @@
 import { ReactNode, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
+import { localStorage } from '../services/storage';
 
 interface AuthGuardProps {
     children: ReactNode;
@@ -11,12 +12,12 @@ export const AuthGuard = ({ children }: AuthGuardProps) => {
     const { refreshAccessToken } = useAuth();
 
     useEffect(() => {
-        const accessToken = localStorage.getItem('accessToken');
+        const accessToken = localStorage.get('accessToken');
         if (accessToken) {
             return;
         }
 
-        const refreshToken = localStorage.getItem('refreshToken');
+        const refreshToken = localStorage.get('refreshToken');
         if (!refreshToken) {
             navigate('/login');
             return;
