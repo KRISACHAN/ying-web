@@ -14,6 +14,12 @@ Here are some of my contact information:
 
 ps: I'm looking for a job, so if you have any opportunities, please contact me.
 
+## Why is **ying**?
+
+Well, most netizens know the meaning.
+
+In the Chinese Internet, it means **嘤**, which is like a lovely girl crying.
+
 ## Something about @ying-web
 
 From my perspective, `@ying-web` is my core web projects repository.
@@ -87,6 +93,16 @@ As the proposal, I want to make it more beautiful and useful.
 However, I have no idea about how to do it yet.
 
 But the certain thing is, I will create a new project under `@ying-web` to host it.
+
+### @ying-web/ying-tools
+
+This is a tool library for `@ying-web`.
+
+It's a collection of some useful tools that I have created.
+
+Yes, maybe you can seek some replacements on [npm](https://www.npmjs.com).
+
+But, I still attempt to create some simple and useful tools for `@ying-web`.
 
 ## What don't I want to migrate?
 
