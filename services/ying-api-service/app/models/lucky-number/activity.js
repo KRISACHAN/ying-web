@@ -12,9 +12,13 @@ ActivityModel.init(
             autoIncrement: true,
         },
         key: {
-            type: DataTypes.STRING(255),
+            type: DataTypes.STRING(20),
             allowNull: false,
             unique: true,
+        },
+        description: {
+            type: DataTypes.STRING(255),
+            allowNull: true,
         },
     },
     {

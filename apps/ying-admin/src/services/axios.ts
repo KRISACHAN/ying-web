@@ -1,5 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
 import { message } from 'antd';
+import { localCache } from '../services/storage';
 
 interface CustomAxiosResponse<T = any> extends AxiosResponse<T> {
     headers: {
@@ -31,7 +32,7 @@ const processQueue = (error: any = null) => {
 
 axiosInstance.interceptors.request.use(
     config => {
-        const token = localStorage.getItem('accessToken');
+        const token = localCache.get('accessToken');
         if (token) {
             config.headers.Authorization = `Bearer ${token}`;
         }
@@ -70,28 +71,28 @@ axiosInstance.interceptors.response.use(
             isRefreshing = true;
 
             try {
-                const refreshToken = localStorage.getItem('refreshToken');
+                const refreshToken = localCache.get('refreshToken');
                 if (!refreshToken) {
                     throw new Error('登录已过期，请重新登录');
                 }
 
                 const response = await axios.post(
-                    `${import.meta.env.VITE_API_BASE_URL}/admin/refresh-token`,
+                    `${import.meta.env.VITE_REQUEST_BASE_URL}/api/v1/admin/refresh-token`,
                     {
                         refreshToken,
                     },
                 );
 
                 const { accessToken } = response.data;
-                localStorage.setItem('accessToken', accessToken);
+                localCache.set('accessToken', accessToken);
 
                 processQueue();
                 return axiosInstance(originalRequest);
             } catch (refreshError) {
                 processQueue(refreshError);
-                localStorage.removeItem('accessToken');
-                localStorage.removeItem('refreshToken');
-                localStorage.removeItem('adminInfo');
+                localCache.remove('accessToken');
+                localCache.remove('refreshToken');
+                localCache.remove('adminInfo');
                 message.error('登录已过期，请重新登录');
                 window.location.href = '/login';
                 return Promise.reject(refreshError);

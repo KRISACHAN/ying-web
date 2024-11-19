@@ -10,12 +10,12 @@ import router from './router';
 import log from '@utils/log';
 
 router.post('/lucky-number/create', createEventMiddleware, async ctx => {
-    const { key, numbers } = ctx.request.body;
+    const { key, description, numbers } = ctx.request.body;
     if (!key || !Array.isArray(numbers)) {
         throw BAD_REQUEST('活动 key 和号码池数据是必需的');
     }
 
-    const activity = await ActivityDao.create({ key });
+    const activity = await ActivityDao.create({ key, description });
     const numberPoolEntries = numbers.map(number => ({
         activity_id: activity.id,
         number,
@@ -42,7 +42,8 @@ router.get('/lucky-number/query/:key', watchEventMiddleware, async ctx => {
 
     ctx.response.status = httpStatus.OK;
     ctx.body = {
-        activityKey: activity.key,
+        activity_key: activity.key,
+        description: activity.description,
         numbers: numberPool.map(entry => ({
             number: entry.number,
             is_drawn: entry.is_drawn,

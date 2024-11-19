@@ -9,6 +9,7 @@ export const LuckyNumberDetail = () => {
     const { queryActivity, loading } = useLuckyNumber();
     const [numbers, setNumbers] = useState<LuckyNumber[]>([]);
     const [activityKey, setActivityKey] = useState<string>('');
+    const [activityDescription, setActivityDescription] = useState<string>('');
 
     useEffect(() => {
         const fetchActivity = async () => {
@@ -16,7 +17,8 @@ export const LuckyNumberDetail = () => {
             try {
                 const data = await queryActivity(key);
                 setNumbers(data.numbers);
-                setActivityKey(data.activityKey);
+                setActivityKey(data.activity_key);
+                setActivityDescription(data.description);
             } catch (error) {
                 message.error('获取活动详情失败');
             }
@@ -37,9 +39,9 @@ export const LuckyNumberDetail = () => {
             key: 'is_drawn',
             render: (isDrawn: boolean) =>
                 isDrawn ? (
-                    <span className="text-red-500">已抽取</span>
+                    <span className="text-green-500">已抽取</span>
                 ) : (
-                    <span className="text-green-500">未抽取</span>
+                    <span className="text-gray-500">未抽取</span>
                 ),
         },
         {
@@ -61,6 +63,10 @@ export const LuckyNumberDetail = () => {
                     <div>
                         <p className="font-bold">活动标识：</p>
                         <p>{activityKey}</p>
+                    </div>
+                    <div>
+                        <p className="font-bold">活动描述：</p>
+                        <p>{activityDescription}</p>
                     </div>
                     <div>
                         <p className="font-bold">总数字数量：</p>

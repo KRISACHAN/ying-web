@@ -1,5 +1,6 @@
 export interface CreateLuckyNumberRequest {
     key: string;
+    description: string;
     numbers: number[];
 }
 
@@ -18,7 +19,8 @@ export interface LuckyNumber {
 }
 
 export interface QueryLuckyNumberResponse {
-    activityKey: string;
+    activity_key: string;
+    description: string;
     numbers: LuckyNumber[];
 }
 

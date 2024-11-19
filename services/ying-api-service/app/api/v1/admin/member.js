@@ -9,27 +9,12 @@ import { hasManageUsersPermission } from '@app/utils/constants';
 import { BAD_REQUEST, FORBIDDEN, UNAUTHORIZED } from '@utils/http-errors';
 import authMiddleware from '@app/middlewares/admin/auth';
 import adminLoginMiddleware from '@app/middlewares/admin/login';
-// import registerValidatorMiddleware from '@app/middlewares/admin/regsiter-validator';
 import loginValidatorMiddleware from '@app/middlewares/admin/login-validator';
 import { verifyRefreshToken, generateAccessToken } from '@utils/helpers';
 
 const router = new Router({
     prefix: '/api/v1/admin',
 });
-
-// router.post('/register', registerValidatorMiddleware, async ctx => {
-//     const { email, password1, password2, username } = ctx.request.body;
-//     if (password1 !== password2) {
-//         throw BAD_REQUEST('两次输入的密码不一致，请重新输入');
-//     }
-//     await AdminDao.create({
-//         email,
-//         password: password2,
-//         username,
-//     });
-//     ctx.response.status = httpStatus.CREATED;
-//     ctx.body = resolve.json(ctx.validate, '创建管理员成功');
-// });
 
 router.post('/refresh-token', async ctx => {
     const { refreshToken } = ctx.request.body;

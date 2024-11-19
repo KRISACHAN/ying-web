@@ -5,13 +5,13 @@ import { useAuth } from '../hooks/useAuth';
 
 const { Header, Content, Sider } = Layout;
 
-export const DashboardLayout = () => {
+const BaseLayout = () => {
     const navigate = useNavigate();
     const { logout } = useAuth();
 
     const handleLogout = () => {
         logout();
-        // navigate('/login');
+        navigate('/login');
     };
 
     return (
@@ -44,3 +44,5 @@ export const DashboardLayout = () => {
         </Layout>
     );
 };
+
+export default BaseLayout;
