@@ -1,20 +1,20 @@
 {
     "folders": [
         {
-            "name": "@ying-web/ying-api-service",
-            "path": "services/ying-api-service",
+            "name": "@ying-web/api-service",
+            "path": "services/api-service"
         },
         {
-            "name": "@ying-web/ying-events",
-            "path": "apps/ying-events",
+            "name": "@ying-web/events",
+            "path": "apps/events"
         },
         {
-            "name": "@ying-web/ying-admin",
-            "path": "apps/ying-admin",
+            "name": "@ying-web/admin",
+            "path": "apps/admin"
         },
         {
             "name": "@ying-web/tools",
-            "path": "packages/tools",
-        },
-    ],
+            "path": "packages/tools"
+        }
+    ]
 }

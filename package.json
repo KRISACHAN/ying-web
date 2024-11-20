@@ -1,26 +1,35 @@
 {
-    "name": "@ying-web/ying-web",
+    "name": "@ying-web/web",
+    "private": true,
     "version": "1.0.0",
-    "description": "a collection of Krisachan's web projects",
+    "description": "a collection of Kris's web projects",
     "main": "index.js",
     "scripts": {
         "dev": "node scripts/dev.js",
         "build": "node scripts/build.js",
         "clean": "node scripts/clean.js",
-        "pm2": "node scripts/pm2.js"
+        "deploy": "node scripts/deploy.js"
     },
-    "keywords": [],
-    "author": "Krisachan <chenjinwen77@gmail.com>",
+    "keywords": [
+        "Web",
+        "@ying-web",
+        "Api service",
+        "Dashboard",
+        "Frontend",
+        "JavaScript",
+        "TypeScript"
+    ],
+    "author": "Kris <chenjinwen77@gmail.com> https://www.krissarea.com",
     "license": "MIT",
     "devDependencies": {
         "@changesets/cli": "^2.27.1",
         "execa": "^8.0.1",
         "inquirer": "^9.2.19",
-        "rimraf": "^5.0.5",
-        "turbo": "^1.13.2"
+        "turbo": "^2.0.3"
     },
     "engines": {
         "node": ">= 18.16.0",
         "pnpm": ">= 8.5.1"
-    }
+    },
+    "packageManager": "pnpm@9.1.1"
 }
