@@ -25,6 +25,7 @@ RoleModel.init(
         modelName: 'role',
         tableName: 'role',
         timestamps: true,
+        deletedAt: 'deleted_at',
         createdAt: 'created_at',
         updatedAt: 'updated_at',
     },

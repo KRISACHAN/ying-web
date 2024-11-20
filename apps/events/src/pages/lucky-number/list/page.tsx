@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axiosInstance from '../../../services/axios';
 import {
@@ -10,12 +10,79 @@ import {
     TableRow,
     Paper,
     Skeleton,
+    Alert,
 } from '@mui/material';
+import { CalendarCheck } from 'lucide-react';
 import { useInterval } from 'usehooks-ts';
-import type { QueryLuckyNumberResponse } from '../../../types/lucky-number';
 import './page.css';
 import NotFoundPage from '../../404/page';
-import { CalendarCheck } from 'lucide-react';
+import type { QueryLuckyNumberResponse } from '../../../types/lucky-number';
+
+const ErrorInterface: React.FC = () => {
+    return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
+};
+
+const TableCoreInterface: React.FC<{
+    activityData: QueryLuckyNumberResponse;
+}> = ({ activityData }) => {
+    return activityData.numbers.map(luckyNumber => (
+        <TableRow key={luckyNumber.number}>
+            <TableCell className="text-gray-700">
+                {luckyNumber.number}
+            </TableCell>
+            <TableCell className="text-gray-700">
+                {luckyNumber.is_drawn ? '是' : '否'}
+            </TableCell>
+            <TableCell className="text-gray-700">
+                {luckyNumber.user_name || '暂未抽取'}
+            </TableCell>
+        </TableRow>
+    ));
+};
+
+const TableSkeleton: React.FC = () => {
+    return Array.from(new Array(5)).map((_, index) => (
+        <TableRow key={index}>
+            <TableCell>
+                <Skeleton />
+            </TableCell>
+        </TableRow>
+    ));
+};
+
+const TableInterface: React.FC<{
+    activityData: QueryLuckyNumberResponse | null;
+}> = ({ activityData }) => {
+    return (
+        <TableContainer
+            component={Paper}
+            className="max-w-2xl w-full mt-5 shadow-lg rounded-lg overflow-hidden"
+        >
+            <Table>
+                <TableHead>
+                    <TableRow>
+                        <TableCell className="bg-blue-500 text-white font-bold table-header">
+                            号码
+                        </TableCell>
+                        <TableCell className="bg-blue-500 text-white font-bold table-header">
+                            是否已经被抽取
+                        </TableCell>
+                        <TableCell className="bg-blue-500 text-white font-bold table-header">
+                            抽取人
+                        </TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                    {activityData ? (
+                        <TableCoreInterface activityData={activityData} />
+                    ) : (
+                        <TableSkeleton />
+                    )}
+                </TableBody>
+            </Table>
+        </TableContainer>
+    );
+};
 
 const LuckyNumberListPage: React.FC = () => {
     const { activityKey } = useParams();
@@ -35,14 +102,16 @@ const LuckyNumberListPage: React.FC = () => {
         }
     };
 
+    useEffect(() => {
+        fetchActivityData();
+    }, []);
+
     useInterval(() => {
         fetchActivityData();
-    }, 3000);
+    }, 1000);
 
-    if (error) {
-        return (
-            <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />
-        );
+    if (error.toString().includes('404')) {
+        return <ErrorInterface />;
     }
 
     return (
@@ -52,55 +121,11 @@ const LuckyNumberListPage: React.FC = () => {
                 {activityKey}
             </h1>
             <p className="text-gray-600">{activityData?.description}</p>
-            <TableContainer
-                component={Paper}
-                className="max-w-2xl w-full mt-5 shadow-lg rounded-lg overflow-hidden"
-            >
-                <Table>
-                    <TableHead>
-                        <TableRow>
-                            <TableCell className="bg-blue-500 text-white font-bold table-header">
-                                号码
-                            </TableCell>
-                            <TableCell className="bg-blue-500 text-white font-bold table-header">
-                                是否已经被抽取
-                            </TableCell>
-                            <TableCell className="bg-blue-500 text-white font-bold table-header">
-                                抽取人
-                            </TableCell>
-                        </TableRow>
-                    </TableHead>
-                    <TableBody>
-                        {activityData
-                            ? activityData.numbers.map(luckyNumber => (
-                                  <TableRow key={luckyNumber.number}>
-                                      <TableCell className="text-gray-700">
-                                          {luckyNumber.number}
-                                      </TableCell>
-                                      <TableCell className="text-gray-700">
-                                          {luckyNumber.is_drawn ? '是' : '否'}
-                                      </TableCell>
-                                      <TableCell className="text-gray-700">
-                                          {luckyNumber.drawn_by || '暂未抽取'}
-                                      </TableCell>
-                                  </TableRow>
-                              ))
-                            : Array.from(new Array(5)).map((_, index) => (
-                                  <TableRow key={index}>
-                                      <TableCell>
-                                          <Skeleton />
-                                      </TableCell>
-                                      <TableCell>
-                                          <Skeleton />
-                                      </TableCell>
-                                      <TableCell>
-                                          <Skeleton />
-                                      </TableCell>
-                                  </TableRow>
-                              ))}
-                    </TableBody>
-                </Table>
-            </TableContainer>
+            {error ? (
+                <Alert severity="error">获取活动数据失败，请稍后再试</Alert>
+            ) : (
+                <TableInterface activityData={activityData} />
+            )}
         </div>
     );
 };

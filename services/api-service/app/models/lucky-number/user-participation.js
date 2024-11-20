@@ -22,9 +22,8 @@ UserParticipationModel.init(
             },
         },
         user_name: {
-            type: DataTypes.STRING(255),
+            type: DataTypes.STRING(40),
             allowNull: false,
-            unique: true,
         },
         drawn_number: {
             type: DataTypes.INTEGER,
@@ -42,11 +41,6 @@ UserParticipationModel.init(
         timestamps: true,
         createdAt: 'created_at',
         updatedAt: 'updated_at',
-        indexes: [
-            {
-                unique: true,
-                fields: ['user_name'],
-            },
-        ],
+        deletedAt: 'deleted_at',
     },
 );

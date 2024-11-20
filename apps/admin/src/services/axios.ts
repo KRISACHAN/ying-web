@@ -73,7 +73,7 @@ axiosInstance.interceptors.response.use(
             try {
                 const refreshToken = localCache.get('refreshToken');
                 if (!refreshToken) {
-                    throw new Error('登录已过期，请重新登录');
+                    message.error('登录已过期，请重新登录');
                 }
 
                 const response = await axios.post(

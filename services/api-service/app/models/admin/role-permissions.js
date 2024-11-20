@@ -27,6 +27,7 @@ RolePermissionsModel.init(
         modelName: 'role_permissions',
         tableName: 'role_permissions',
         timestamps: true,
+        deletedAt: 'deleted_at',
         createdAt: 'created_at',
         updatedAt: 'updated_at',
         indexes: [

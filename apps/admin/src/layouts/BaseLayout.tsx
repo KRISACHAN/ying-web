@@ -29,7 +29,7 @@ const BaseLayout = () => {
                         items={[
                             {
                                 key: '1',
-                                label: '幸运数字活动',
+                                label: '幸运号码活动',
                                 onClick: () => navigate('/lucky-number'),
                             },
                         ]}

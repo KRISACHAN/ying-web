@@ -86,7 +86,7 @@ export const LuckyNumberList = () => {
     return (
         <div className="p-6">
             <div className="flex justify-between mb-4">
-                <h1 className="text-2xl font-bold">幸运数字活动列表</h1>
+                <h1 className="text-2xl font-bold">幸运号码活动列表</h1>
                 <Button
                     type="primary"
                     onClick={() => navigate('/lucky-number/create')}

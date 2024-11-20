@@ -21,7 +21,7 @@ NumberPoolModel.init(
                 key: 'id',
             },
         },
-        number: {
+        drawn_number: {
             type: DataTypes.INTEGER,
             allowNull: false,
         },
@@ -36,12 +36,13 @@ NumberPoolModel.init(
         modelName: 'lucky_number_pool',
         tableName: 'lucky_number_pool',
         timestamps: true,
+        deletedAt: 'deleted_at',
         createdAt: 'created_at',
         updatedAt: 'updated_at',
         indexes: [
             {
                 unique: true,
-                fields: ['activity_id', 'number'],
+                fields: ['activity_id', 'drawn_number'],
             },
         ],
     },

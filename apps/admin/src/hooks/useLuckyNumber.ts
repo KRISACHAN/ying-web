@@ -5,6 +5,8 @@ import type {
     QueryLuckyNumberResponse,
     DeleteLuckyNumberResponse,
     QueryLuckyNumberListResponse,
+    CancelParticipationLuckyNumberRequest,
+    CancelParticipationLuckyNumberResponse,
     Pagination,
 } from '../types/lucky-number';
 import axiosInstance from '../services/axios';
@@ -27,6 +29,29 @@ export const useLuckyNumber = () => {
                 return data;
             } catch (err) {
                 setError('创建活动失败');
+                throw err;
+            } finally {
+                setLoading(false);
+            }
+        },
+        [],
+    );
+
+    const cancelParticipation = useCallback(
+        async (params: CancelParticipationLuckyNumberRequest) => {
+            setLoading(true);
+            setError(null);
+
+            try {
+                const response =
+                    await axiosInstance.put<CancelParticipationLuckyNumberResponse>(
+                        `/admin/lucky-number/cancel-participation`,
+                        params,
+                    );
+                const { data } = response ?? {};
+                return data;
+            } catch (err) {
+                setError('更新活动失败');
                 throw err;
             } finally {
                 setLoading(false);
@@ -104,6 +129,7 @@ export const useLuckyNumber = () => {
         createActivity,
         queryActivity,
         deleteActivity,
+        cancelParticipation,
         getActivityList,
         loading,
         error,

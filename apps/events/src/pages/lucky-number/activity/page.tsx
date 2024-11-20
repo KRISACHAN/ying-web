@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import Confetti from 'react-confetti';
 import type { AxiosError } from 'axios';
 import {
     Button,
@@ -9,6 +10,7 @@ import {
     DialogTitle,
     TextField,
     Snackbar,
+    Avatar,
 } from '@mui/material';
 import axiosInstance from '../../../services/axios';
 import { useLocalStorage } from 'usehooks-ts';
@@ -16,12 +18,93 @@ import './page.css';
 
 interface GetActivityResponse {
     activity_key: string;
+    name: string;
     description: string;
 }
 
 interface DrawLuckyNumberResponse {
     drawn_number: number;
 }
+
+const IntroductionInterface: React.FC<{
+    description?: string;
+    name?: string;
+}> = ({ description, name }) => {
+    if (!description || !name) {
+        return null;
+    }
+    return (
+        <div className="text-center h-40 w-full">
+            <h1 className="text-4xl mb-5">{name}</h1>
+            <p className="text-lg mb-5">{description}</p>
+        </div>
+    );
+};
+
+const InitialInterface: React.FC<{ onClick: () => void }> = ({ onClick }) => {
+    return (
+        <>
+            <div className="text-center h-60 w-full">
+                <Avatar
+                    className="mx-auto mb-5"
+                    sx={{
+                        width: 200,
+                        height: 200,
+                    }}
+                    src="/love-banner.svg"
+                    alt="爱心"
+                    variant="rounded"
+                />
+            </div>
+            <div className="fixed left-1/2 -translate-x-1/2 bottom-[60px]">
+                <Button
+                    variant="contained"
+                    size="large"
+                    onClick={onClick}
+                    className="w-[calc(100vw-64px)] h-[60px]"
+                >
+                    获取幸运号码
+                </Button>
+            </div>
+        </>
+    );
+};
+
+const ResultInterface: React.FC<{
+    luckyNumber: number | null;
+    storedName: string | null;
+}> = ({ luckyNumber, storedName }) => {
+    return (
+        <>
+            <Confetti
+                width={window.innerWidth}
+                height={window.innerHeight}
+                recycle={false}
+            />
+            <div className="text-center">
+                <p className="text-3xl mb-8">亲爱的{storedName}，你的号码是</p>
+                <Avatar
+                    className="mx-auto mb-8"
+                    sx={{
+                        width: 200,
+                        height: 200,
+                        color: 'white',
+                        fontSize: '40px',
+                        backgroundColor: '#1976d2',
+                    }}
+                >
+                    {luckyNumber}
+                </Avatar>
+                <p className="text-lg">本次号码只能抽取一次，不能重复抽哦</p>
+            </div>
+        </>
+    );
+};
+
+const getQuery = (key: string) => {
+    const searchParams = new URLSearchParams(window.location.search);
+    return searchParams.get(key);
+};
 
 const LuckyNumberActivityPage: React.FC = () => {
     const { activityKey } = useParams<{ activityKey: string }>();
@@ -42,6 +125,15 @@ const LuckyNumberActivityPage: React.FC = () => {
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
 
+    const cleanUserResult = () => {
+        const needClean = getQuery('__clean');
+        if (!needClean) {
+            return;
+        }
+        setLuckyNumber(null);
+        setStoredName(null);
+    };
+
     useEffect(() => {
         const fetchActivityInfo = async () => {
             try {
@@ -61,9 +153,10 @@ const LuckyNumberActivityPage: React.FC = () => {
 
         if (!storedInfo) {
             fetchActivityInfo();
-            return;
+        } else {
+            setActivityInfo(storedInfo);
         }
-        setActivityInfo(storedInfo);
+        cleanUserResult();
     }, [activityKey]);
 
     const handleClickOpen = () => {
@@ -97,23 +190,20 @@ const LuckyNumberActivityPage: React.FC = () => {
 
     return (
         <div className="flex flex-col items-center">
-            <h1 className="text-4xl mb-5">{activityKey}</h1>
-            {activityInfo && (
-                <p className="text-lg mb-5">{activityInfo.description}</p>
-            )}
+            <IntroductionInterface
+                description={activityInfo?.description}
+                name={activityInfo?.name}
+            />
             {luckyNumber === null ? (
-                <Button variant="contained" onClick={handleClickOpen}>
-                    获取幸运号码
-                </Button>
+                <InitialInterface onClick={handleClickOpen} />
             ) : (
-                <div>
-                    <p>亲爱的 {storedName}，你好</p>
-                    <p>你的号码是：{luckyNumber}</p>
-                    <p>本次号码只能抽取一次，不能重复抽哦</p>
-                </div>
+                <ResultInterface
+                    luckyNumber={luckyNumber}
+                    storedName={storedName}
+                />
             )}
-            <Dialog open={open} onClose={handleClose}>
-                <DialogTitle>输入您的名字</DialogTitle>
+            <Dialog fullWidth={true} open={open} onClose={handleClose}>
+                <DialogTitle>输入你的名字</DialogTitle>
                 <DialogContent>
                     <TextField
                         autoFocus
@@ -126,8 +216,12 @@ const LuckyNumberActivityPage: React.FC = () => {
                     />
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={handleClose}>取消</Button>
-                    <Button onClick={handleSubmit}>提交</Button>
+                    <Button size="large" onClick={handleClose}>
+                        取消
+                    </Button>
+                    <Button size="large" onClick={handleSubmit}>
+                        提交
+                    </Button>
                 </DialogActions>
             </Dialog>
             <Snackbar
