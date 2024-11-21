@@ -27,6 +27,7 @@ AdminRoleModel.init(
         modelName: 'admin_role',
         tableName: 'admin_role',
         timestamps: true,
+        deletedAt: 'deleted_at',
         createdAt: 'created_at',
         updatedAt: 'updated_at',
         indexes: [

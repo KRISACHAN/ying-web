@@ -6,6 +6,7 @@ CREATE TABLE `admin` (
   `status` TINYINT(1) NOT NULL DEFAULT 1,
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
+  `deleted_at` DATETIME,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -15,6 +16,7 @@ CREATE TABLE `role` (
   `description` TEXT,
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
+  `deleted_at` DATETIME,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -24,6 +26,7 @@ CREATE TABLE `permissions` (
   `description` TEXT,
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
+  `deleted_at` DATETIME,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -33,6 +36,7 @@ CREATE TABLE `role_permissions` (
   `permission_id` INT(11) NOT NULL,
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
+  `deleted_at` DATETIME,
   PRIMARY KEY (`id`),
   UNIQUE KEY `unique_role_permission` (`role_id`, `permission_id`),
   FOREIGN KEY (`role_id`) REFERENCES `role`(`id`) ON DELETE CASCADE,
@@ -45,6 +49,7 @@ CREATE TABLE `admin_role` (
   `role_id` INT(11) NOT NULL,
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
+  `deleted_at` DATETIME,
   PRIMARY KEY (`id`),
   UNIQUE KEY `unique_admin_role` (`admin_id`, `role_id`),
   FOREIGN KEY (`admin_id`) REFERENCES `admin`(`id`) ON DELETE CASCADE,

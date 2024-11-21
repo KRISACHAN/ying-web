@@ -8,6 +8,7 @@ export const LuckyNumberCreate = () => {
 
     const onFinish = async (values: {
         key: string;
+        name: string;
         description: string;
         numberRange: string;
     }) => {
@@ -19,6 +20,7 @@ export const LuckyNumberCreate = () => {
 
             await createActivity({
                 key: values.key,
+                name: values.name,
                 description: values.description,
                 numbers,
             });
@@ -31,7 +33,7 @@ export const LuckyNumberCreate = () => {
 
     return (
         <div className="p-6">
-            <h1 className="text-2xl font-bold mb-6">创建幸运数字活动</h1>
+            <h1 className="text-2xl font-bold mb-6">创建幸运号码活动</h1>
             <div className="bg-white p-6 rounded-lg shadow">
                 <Form
                     name="createLuckyNumber"
@@ -57,6 +59,19 @@ export const LuckyNumberCreate = () => {
                     </Form.Item>
 
                     <Form.Item
+                        label="活动名称"
+                        name="name"
+                        rules={[
+                            {
+                                required: true,
+                                message: '请输入活动名称',
+                            },
+                        ]}
+                    >
+                        <Input placeholder="请输入活动名称" />
+                    </Form.Item>
+
+                    <Form.Item
                         label="活动描述"
                         name="description"
                         rules={[
@@ -74,28 +89,29 @@ export const LuckyNumberCreate = () => {
                     </Form.Item>
 
                     <Form.Item
-                        label="数字范围"
+                        label="号码范围"
                         name="numberRange"
                         rules={[
                             {
                                 required: true,
-                                message: '请输入数字范围',
+                                message: '请输入号码范围',
                             },
                             {
                                 max: 300,
-                                message: '数字范围长度不能超过 300 个字符',
+                                message: '号码范围长度不能超过 300 个字符',
                             },
                         ]}
-                        help="请输入数字，用逗号分隔，例如：1,2,3,4,5"
+                        help="请输入号码，用逗号分隔，例如：1,2,3,4,5"
                     >
                         <Input.TextArea
-                            placeholder="请输入数字，用逗号分隔"
+                            placeholder="请输入号码，用逗号分隔"
                             rows={4}
                         />
                     </Form.Item>
 
                     <Form.Item>
                         <Button
+                            className="mt-8"
                             type="primary"
                             htmlType="submit"
                             loading={loading}

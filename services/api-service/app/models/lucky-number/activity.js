@@ -16,6 +16,10 @@ ActivityModel.init(
             allowNull: false,
             unique: true,
         },
+        name: {
+            type: DataTypes.STRING(20),
+            allowNull: false,
+        },
         description: {
             type: DataTypes.STRING(255),
             allowNull: true,
@@ -26,6 +30,7 @@ ActivityModel.init(
         modelName: 'lucky_number_activity',
         tableName: 'lucky_number_activity',
         timestamps: true,
+        deletedAt: 'deleted_at',
         createdAt: 'created_at',
         updatedAt: 'updated_at',
     },

@@ -1,24 +1,20 @@
-export interface QueryLuckyNumberRequest {
-    key: string;
-}
-
+// GET /api/v1/admin/lucky-number/query/:key
 export interface LuckyNumber {
-    number: number;
+    id: number;
+    drawn_number: number;
     is_drawn: boolean;
-    drawn_by: string | null;
+    user_name: string | null;
 }
 
 export interface QueryLuckyNumberResponse {
+    id: number;
     activity_key: string;
+    name: string;
     description: string;
     numbers: LuckyNumber[];
 }
 
-export interface QueryLuckyNumberListRequest {
-    page_num: number;
-    page_size: number;
-}
-
+// GET /api/v1/admin/lucky-number/list
 export interface LuckyNumberActivity {
     id: number;
     key: string;
@@ -27,6 +23,7 @@ export interface LuckyNumberActivity {
 
 export type QueryLuckyNumberListResponse = LuckyNumberActivity[];
 
+// POST /api/v1/admin/lucky-number/draw
 export interface DrawLuckyNumberRequest {
     key: string;
     user_name: string;

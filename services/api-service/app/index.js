@@ -21,6 +21,7 @@ app.use(catchErrorMiddleware);
 app.use(cacheMiddleware);
 app.use(
     bodyParser({
+        strict: false,
         multipart: true,
     }),
 );

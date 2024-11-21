@@ -7,7 +7,7 @@ import {
 import { genPaginationRequest } from '@utils/helpers';
 
 export class ActivityDao {
-    static async create({ key, description }) {
+    static async create({ key, name, description }, transaction) {
         const existedActivity = await ActivityModel.findOne({
             where: { key, deleted_at: null },
         });
@@ -16,8 +16,8 @@ export class ActivityDao {
             throw PRECONDITION_FAILED('活动已存在');
         }
 
-        const activity = new ActivityModel({ key, description });
-        const savedActivity = await activity.save();
+        const activity = new ActivityModel({ key, name, description });
+        const savedActivity = await activity.save({ transaction });
 
         if (!savedActivity) {
             throw INTERNAL_SERVER_ERROR('创建活动失败');
