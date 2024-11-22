@@ -11,7 +11,8 @@ export const isMember = role => eq(role, adminMap.MEMBER);
 
 export const permissionMap = Object.freeze({
     ALL_ACCESSES: 'all_accesses',
-    CREATE_EVENT: 'create_event',
+    OSS_UPLOAD: 'oss_upload',
+    CREATE_ADMIN: 'create_admin',
     EDIT_ADMIN: 'edit_admin',
     DELETE_ADMIN: 'delete_admin',
     WATCH_ADMIN: 'watch_admin',

@@ -5,16 +5,13 @@ import { AdminDao } from '@dao/admin/admin';
 import { RoleDao } from '@dao/admin/role';
 import { AdminRoleDao } from '@dao/admin/admin-role';
 import { RolePermissionsDao } from '@dao/admin/role-permissions';
-import { hasManageUsersPermission } from '@app/utils/constants';
+import { hasManageUsersPermission } from '@utils/constants';
 import { BAD_REQUEST, FORBIDDEN, UNAUTHORIZED } from '@utils/http-errors';
-import authMiddleware from '@app/middlewares/admin/auth';
-import adminLoginMiddleware from '@app/middlewares/admin/login';
-import loginValidatorMiddleware from '@app/middlewares/admin/login-validator';
+import { adminAuthMiddleware } from '@middlewares/auths/admin';
+import { adminLoginMiddleware } from '@middlewares/auths/admin';
+import { loginValidatorMiddleware } from '@middlewares/validators/admin';
 import { verifyRefreshToken, generateAccessToken } from '@utils/helpers';
-
-const router = new Router({
-    prefix: '/api/v1/admin',
-});
+import router from './router';
 
 router.post('/refresh-token', async ctx => {
     const { refreshToken } = ctx.request.body;
@@ -43,7 +40,7 @@ router.post(
     },
 );
 
-router.delete('/:id', authMiddleware, async ctx => {
+router.delete('/:id', adminAuthMiddleware, async ctx => {
     const { permissions } = ctx.admin;
 
     if (!hasManageUsersPermission(permissions)) {
@@ -64,7 +61,7 @@ router.delete('/:id', authMiddleware, async ctx => {
     ctx.response.status = httpStatus.NO_CONTENT;
 });
 
-router.put('/:id', authMiddleware, async ctx => {
+router.put('/:id', adminAuthMiddleware, async ctx => {
     const { id } = ctx.params;
     const { email, password, username } = ctx.request.body;
     const { permissions } = ctx.admin;
@@ -88,7 +85,7 @@ router.put('/:id', authMiddleware, async ctx => {
     };
 });
 
-router.get('/', authMiddleware, async ctx => {
+router.get('/', adminAuthMiddleware, async ctx => {
     const { permissions } = ctx.admin;
 
     if (!hasManageUsersPermission(permissions)) {
@@ -106,7 +103,7 @@ router.get('/', authMiddleware, async ctx => {
     ctx.body = result.data;
 });
 
-router.get('/:id', authMiddleware, async ctx => {
+router.get('/:id', adminAuthMiddleware, async ctx => {
     const { id } = ctx.params;
     const currentAdminId = ctx.admin.admin.id;
     const { permissions } = ctx.admin;

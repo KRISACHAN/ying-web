@@ -1,9 +1,9 @@
 import { ossService } from '@services/oss';
-import adminAuthMiddleware from '@middlewares/admin/auth';
+import { ossUploadMiddleware } from '@middlewares/auths/permission';
 import { BAD_REQUEST } from '@utils/http-errors';
 import router from './router';
 
-router.post('/oss/upload', adminAuthMiddleware, async ctx => {
+router.post('/oss/upload', ossUploadMiddleware, async ctx => {
     const body = ctx.request.body;
     const { name, resource, tagging } = body;
     if (!name) {

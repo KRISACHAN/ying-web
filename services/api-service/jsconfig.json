@@ -2,7 +2,6 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "@app/*": ["./app/*"],
             "@core/*": ["./app/core/*"],
             "@middlewares/*": ["./app/middlewares/*"],
             "@api/*": ["./app/api/*"],
