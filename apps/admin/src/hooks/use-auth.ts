@@ -1,11 +1,12 @@
-import { useState, useCallback } from 'react';
+import { useCallback, useState } from 'react';
+
+import axiosInstance from '@/services/axios';
+import { localCache } from '@/services/storage';
 import type {
     LoginParams,
     LoginResponse,
     RefreshTokenResponse,
-} from '../types/auth';
-import axiosInstance from '../services/axios';
-import { localCache } from '../services/storage';
+} from '@/types/auth';
 
 export const useAuth = () => {
     const [loading, setLoading] = useState(false);
@@ -46,8 +47,8 @@ export const useAuth = () => {
             const { data } = response ?? {};
             localCache.set('accessToken', data.accessToken);
             return response;
-        } catch (err) {
-            throw new Error('刷新令牌失败');
+        } catch {
+            throw new Error('刷新令牌失败，请重新登录');
         }
     }, []);
 

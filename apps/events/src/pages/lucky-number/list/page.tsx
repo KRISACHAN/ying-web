@@ -1,31 +1,34 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import axiosInstance from '@/services/axios';
+import './page.css';
+
 import {
+    Alert,
+    Paper,
+    Skeleton,
     Table,
     TableBody,
     TableCell,
     TableContainer,
     TableHead,
     TableRow,
-    Paper,
-    Skeleton,
-    Alert,
 } from '@mui/material';
-import { CalendarCheck } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { useInterval } from 'usehooks-ts';
-import './page.css';
+
+import { useLuckyNumber } from '@/hooks/use-lucky-number';
 import NotFoundPage from '@/pages/404/page';
 import type { QueryLuckyNumberResponse } from '@/types/lucky-number';
+
+import HeaderInterface from '../components/header';
 
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
 };
 
 const TableCoreInterface: React.FC<{
-    activityData: QueryLuckyNumberResponse;
-}> = ({ activityData }) => {
-    return activityData.numbers.map(luckyNumber => (
+    activityInfo: QueryLuckyNumberResponse;
+}> = ({ activityInfo }) => {
+    return activityInfo.numbers.map(luckyNumber => (
         <TableRow key={luckyNumber.drawn_number}>
             <TableCell className="text-gray-700">
                 {luckyNumber.drawn_number}
@@ -51,8 +54,8 @@ const TableSkeleton: React.FC = () => {
 };
 
 const TableInterface: React.FC<{
-    activityData: QueryLuckyNumberResponse | null;
-}> = ({ activityData }) => {
+    activityInfo: QueryLuckyNumberResponse | null;
+}> = ({ activityInfo }) => {
     return (
         <TableContainer
             component={Paper}
@@ -73,8 +76,8 @@ const TableInterface: React.FC<{
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {activityData ? (
-                        <TableCoreInterface activityData={activityData} />
+                    {activityInfo ? (
+                        <TableCoreInterface activityInfo={activityInfo} />
                     ) : (
                         <TableSkeleton />
                     )}
@@ -86,29 +89,30 @@ const TableInterface: React.FC<{
 
 const LuckyNumberListPage: React.FC = () => {
     const { activityKey } = useParams();
-    const [activityData, setActivityData] =
+    const { queryActivityInfo } = useLuckyNumber();
+    const [activityInfo, setActivityInfo] =
         useState<QueryLuckyNumberResponse | null>(null);
     const [error, setError] = useState<Error | null>(null);
 
-    const fetchActivityData = async () => {
+    const fetchActivityInfo = async () => {
         try {
-            const response = await axiosInstance.get<QueryLuckyNumberResponse>(
-                `/lucky-number/query/${activityKey}`,
-            );
-            setActivityData(response.data);
-            setError(null);
+            const data = await queryActivityInfo(activityKey);
+            setActivityInfo(data);
         } catch (error) {
             setError(error as Error);
         }
     };
 
     useEffect(() => {
-        fetchActivityData();
+        if (!activityKey) {
+            return;
+        }
+        fetchActivityInfo();
     }, []);
 
     useInterval(() => {
-        fetchActivityData();
-    }, 1000);
+        fetchActivityInfo();
+    }, 2000);
 
     if (error?.toString?.()?.includes('404')) {
         return <ErrorInterface />;
@@ -116,15 +120,14 @@ const LuckyNumberListPage: React.FC = () => {
 
     return (
         <div className="lucky-number-list-page w-full flex flex-col items-center">
-            <h1 className="text-4xl mb-5 text-gray-800 flex items-center gap-2">
-                <CalendarCheck className="w-9 h-9 text-blue-500" />
-                {activityKey}
-            </h1>
-            <p className="text-gray-600">{activityData?.description}</p>
+            <HeaderInterface
+                description={activityInfo?.description}
+                name={activityInfo?.name}
+            />
             {error ? (
                 <Alert severity="error">获取活动数据失败，请稍后再试</Alert>
             ) : (
-                <TableInterface activityData={activityData} />
+                <TableInterface activityInfo={activityInfo} />
             )}
         </div>
     );

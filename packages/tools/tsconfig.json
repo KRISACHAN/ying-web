@@ -12,8 +12,12 @@
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "types": ["node", "jest"],
-        "typeRoots": ["node_modules/@types", "node_modules/tslib"]
+        "typeRoots": ["node_modules/@types", "node_modules/tslib"],
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"]
+        }
     },
-    "include": ["src"],
+    "include": ["src/**/*"],
     "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }

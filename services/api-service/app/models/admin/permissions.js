@@ -1,5 +1,5 @@
 import { sequelize } from '@services/db';
-import { Model, DataTypes } from 'sequelize';
+import { DataTypes, Model } from 'sequelize';
 
 export class PermissionsModel extends Model {}
 

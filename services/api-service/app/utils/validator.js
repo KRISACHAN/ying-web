@@ -1,6 +1,6 @@
+import { BAD_REQUEST } from '@utils/http-errors';
 import Validator from 'async-validator';
 import to from 'await-to-js';
-import { BAD_REQUEST } from '@utils/http-errors';
 
 // example:
 // const rules = {

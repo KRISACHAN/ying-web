@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
-import { Heart } from 'lucide-react';
-import { Snackbar, Button } from '@mui/material';
-import { useDebounceCallback } from 'usehooks-ts';
-import axiosInstance from '@/services/axios';
 import './page.css';
+
+import { Button, Snackbar } from '@mui/material';
+import { Heart } from 'lucide-react';
+import React, { useState } from 'react';
+import { useDebounceCallback } from 'usehooks-ts';
+
+import axiosInstance from '@/services/axios';
 
 const PromisePage: React.FC = () => {
     const [promise, setPromise] = useState<string>('请点击抽取经文！');

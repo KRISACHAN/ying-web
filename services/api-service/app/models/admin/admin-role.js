@@ -1,7 +1,8 @@
 import { sequelize } from '@services/db';
-import { Model, DataTypes } from 'sequelize';
-import { RoleModel } from './role';
+import { DataTypes, Model } from 'sequelize';
+
 import { AdminModel } from './admin';
+import { RoleModel } from './role';
 
 export class AdminRoleModel extends Model {}
 

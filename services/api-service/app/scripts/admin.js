@@ -1,7 +1,7 @@
 import { AdminModel } from '@models/admin/admin';
+import { AdminRoleModel } from '@models/admin/admin-role';
 import { PermissionsModel } from '@models/admin/permissions';
 import { RoleModel } from '@models/admin/role';
-import { AdminRoleModel } from '@models/admin/admin-role';
 import { RolePermissionsModel } from '@models/admin/role-permissions';
 import log from '@utils/log';
 

@@ -1,12 +1,12 @@
 import { AdminModel } from '@models/admin/admin';
-import bcrypt from 'bcryptjs';
 import {
-    PRECONDITION_FAILED,
-    UNAUTHORIZED,
-    NOT_FOUND,
     FORBIDDEN,
     INTERNAL_SERVER_ERROR,
+    NOT_FOUND,
+    PRECONDITION_FAILED,
+    UNAUTHORIZED,
 } from '@utils/http-errors';
+import bcrypt from 'bcryptjs';
 
 export class AdminDao {
     static async create({ username, email, password }) {

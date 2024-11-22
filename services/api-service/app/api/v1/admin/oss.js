@@ -1,6 +1,7 @@
-import { ossService } from '@services/oss';
 import { ossUploadMiddleware } from '@middlewares/auths/permission';
+import { ossService } from '@services/oss';
 import { BAD_REQUEST } from '@utils/http-errors';
+
 import router from './router';
 
 router.post('/oss/upload', ossUploadMiddleware, async ctx => {

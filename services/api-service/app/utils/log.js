@@ -1,5 +1,5 @@
-import { isString } from 'lodash';
 import Colors from 'colors/safe';
+import { isString } from 'lodash';
 
 const THEMES = {
     silly: 'rainbow',

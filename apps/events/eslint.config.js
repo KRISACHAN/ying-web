@@ -3,28 +3,36 @@ import globals from 'globals';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import tseslint from 'typescript-eslint';
-import prettier from 'eslint-plugin-prettier';
+import simpleImportSort from 'eslint-plugin-simple-import-sort';
+import importPlugin from 'eslint-plugin-import';
 
 export default tseslint.config({
-    files: ['**/*.{js,jsx,ts,tsx}'],
-    ignores: ['dist', 'node_modules'],
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
+    files: ['**/*.{ts,tsx}'],
+    ignores: [
+        'dist',
+        'node_modules',
+        'pnpm-lock.yaml',
+        '.turbo',
+        'public',
+        '.env*.development',
+        '.env*.production',
+        '.env',
+        '.gitignore',
+        '.prettierignore',
+        '.prettierrc',
+        '.eslintignore',
+        '.eslintrc',
+    ],
     languageOptions: {
         ecmaVersion: 2020,
-        globals: {
-            ...globals.browser,
-            React: 'readonly',
-        },
-        parserOptions: {
-            ecmaFeatures: {
-                jsx: true,
-            },
-        },
+        globals: globals.browser,
     },
     plugins: {
         'react-hooks': reactHooks,
         'react-refresh': reactRefresh,
-        prettier: prettier,
+        'simple-import-sort': simpleImportSort,
+        import: importPlugin,
     },
     rules: {
         ...reactHooks.configs.recommended.rules,
@@ -32,20 +40,28 @@ export default tseslint.config({
             'warn',
             { allowConstantExport: true },
         ],
-        indent: [0, 4],
-        'arrow-parens': 0,
-        'generator-star-spacing': 0,
-        'no-debugger': 0,
-        'eol-last': 0,
-        eqeqeq: 2,
-        camelcase: 0,
-        'space-before-function-paren': 0,
-        quotes: ['error', 'single'],
-        'prettier/prettier': 'error',
-        'no-var': 'error',
+        'simple-import-sort/imports': 'error',
+        'simple-import-sort/exports': 'error',
+        'import/first': 'error',
+        'import/no-duplicates': 'error',
     },
-    env: {
-        browser: true,
-        node: true,
+    settings: {
+        'import/parsers': {
+            '@typescript-eslint/parser': ['.ts', '.tsx'],
+        },
+        'import/resolver': {
+            typescript: {
+                alwaysTryTypes: true, // 尝试解析类型
+            },
+            node: {
+                extensions: ['.js', '.jsx', '.ts', '.tsx'], // 添加支持的扩展名
+            },
+        },
+    },
+    languageOptions: {
+        globals: {
+            browser: true,
+            node: true,
+        },
     },
 });

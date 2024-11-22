@@ -1,6 +1,6 @@
-import bcrypt from 'bcryptjs';
 import { sequelize } from '@services/db';
-import { Model, DataTypes } from 'sequelize';
+import bcrypt from 'bcryptjs';
+import { DataTypes, Model } from 'sequelize';
 
 export class AdminModel extends Model {}
 

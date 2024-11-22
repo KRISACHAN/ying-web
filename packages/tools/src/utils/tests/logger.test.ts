@@ -1,4 +1,4 @@
-import Logger, { logger } from '../logger';
+// import Logger, { logger } from '../logger';
 
 // @TODO: Complete the test
 

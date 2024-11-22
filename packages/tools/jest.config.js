@@ -1,5 +1,4 @@
 const path = require('path');
-const tsconfig = require('./tsconfig.json');
 
 /** @type {import('ts-jest').JestConfigWithTsJest} **/
 module.exports = {
@@ -8,17 +7,15 @@ module.exports = {
     roots: ['<rootDir>/src'],
     rootDir: path.join(__dirname, ''),
     testMatch: ['**/*.test.ts'],
-    globals: {},
+    globals: {
+        'ts-jest': {
+            tsconfig: './tsconfig.json',
+        },
+    },
     moduleFileExtensions: ['js', 'ts'],
     coverageDirectory: 'coverage',
-    coverageReporters: ['lcov'],
     testPathIgnorePatterns: ['/node_modules/'],
-    coveragePathIgnorePatterns: [
-        '/node_modules/',
-        '/dist/',
-        '/examples/',
-        '/.turbo/',
-    ],
+    coveragePathIgnorePatterns: ['/node_modules/', '/dist/', '/.turbo/'],
     coverageReporters: [
         'json',
         'lcov',

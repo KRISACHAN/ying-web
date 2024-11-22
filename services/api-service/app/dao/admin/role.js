@@ -1,8 +1,8 @@
 import { RoleModel } from '@models/admin/role';
 import {
-    PRECONDITION_FAILED,
-    NOT_FOUND,
     INTERNAL_SERVER_ERROR,
+    NOT_FOUND,
+    PRECONDITION_FAILED,
 } from '@utils/http-errors';
 
 export class RoleDao {

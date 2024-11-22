@@ -1,5 +1,6 @@
-import React from 'react';
 import './layout.css';
+
+import React from 'react';
 
 const BaseLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (

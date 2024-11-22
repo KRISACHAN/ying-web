@@ -1,6 +1,6 @@
-import httpStatus from 'http-status';
 import log from '@utils/log';
 import createError from 'http-errors';
+import httpStatus from 'http-status';
 
 export const errorType = Object.freeze({
     default: 'default',

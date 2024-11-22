@@ -1,9 +1,9 @@
-import fs from 'fs';
-import path from 'path';
-import os from 'os';
-import { eq } from 'lodash';
-import jwt from 'jsonwebtoken';
 import { UNAUTHORIZED } from '@utils/http-errors';
+import fs from 'fs';
+import jwt from 'jsonwebtoken';
+import { eq } from 'lodash';
+import os from 'os';
+import path from 'path';
 
 export function getIP() {
     let IPv4 = '127.0.0.1';
@@ -67,6 +67,7 @@ export function isFileExisted(filePath) {
         fs.accessSync(filePath, fs.constants.R_OK);
         return true;
     } catch (error) {
+        console.error(error);
         return false;
     }
 }

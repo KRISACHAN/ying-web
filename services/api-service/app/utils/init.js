@@ -1,10 +1,10 @@
-import Router from 'koa-router';
-import requireDirectory from 'require-directory';
-import ratelimit from 'koa-ratelimit';
-import logger from 'koa-logger';
-import dayjs from 'dayjs';
 import { mkdirPath } from '@utils/helpers';
 import log from '@utils/log';
+import dayjs from 'dayjs';
+import logger from 'koa-logger';
+import ratelimit from 'koa-ratelimit';
+import Router from 'koa-router';
+import requireDirectory from 'require-directory';
 
 export const initLoadRouters = app => {
     const apiDirectory = '../api';
@@ -20,7 +20,7 @@ export const initLoadRouters = app => {
 export const initRatelimit = app => {
     // Rate limiter middleware for koa.
     // https://github.com/koajs/ratelimit
-    // eslint-disable-next-line no-undef
+
     const db = new Map();
     app.use(
         ratelimit({

@@ -1,8 +1,10 @@
+import './index.css';
+
 import { ReactNode, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '@/hooks/useAuth';
+
+import { useAuth } from '@/hooks/use-auth';
 import { localCache } from '@/services/storage';
-import './index.css';
 
 interface AuthGuardProps {
     children: ReactNode;
@@ -27,7 +29,7 @@ const AuthGuard = ({ children }: AuthGuardProps) => {
         const refreshTokenIfNeeded = async () => {
             try {
                 await refreshAccessToken();
-            } catch (error) {
+            } catch {
                 navigate('/login');
             }
         };

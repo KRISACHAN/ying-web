@@ -1,7 +1,9 @@
-import { Form, Input, Button, message } from 'antd';
-import { useNavigate } from 'react-router-dom';
-import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import './page.css';
+
+import { Button, Form, Input, message } from 'antd';
+import { useNavigate } from 'react-router-dom';
+
+import { useLuckyNumber } from '@/hooks/use-lucky-number';
 
 const LuckyNumberCreate = () => {
     const navigate = useNavigate();
@@ -27,7 +29,7 @@ const LuckyNumberCreate = () => {
             });
             message.success('活动创建成功');
             navigate('/lucky-number');
-        } catch (error) {
+        } catch {
             message.error('活动创建失败');
         }
     };

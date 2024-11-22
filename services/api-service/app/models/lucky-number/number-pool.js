@@ -1,5 +1,6 @@
 import { sequelize } from '@services/db';
-import { Model, DataTypes } from 'sequelize';
+import { DataTypes, Model } from 'sequelize';
+
 import { ActivityModel } from './activity';
 import { UserParticipationModel } from './user-participation';
 
