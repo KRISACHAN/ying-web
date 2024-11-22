@@ -4,11 +4,5 @@
         { "path": "./tsconfig.app.json" },
         { "path": "./tsconfig.node.json" }
     ],
-    "compilerOptions": {
-        "baseUrl": "./",
-        "paths": {
-            "@/*": ["src/*"],
-            "@ying-web/tools": ["../../packages/tools/src"]
-        }
-    }
+    "exclude": ["node_modules"]
 }
