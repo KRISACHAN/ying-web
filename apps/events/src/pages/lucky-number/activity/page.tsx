@@ -15,6 +15,7 @@ import {
 import axiosInstance from '../../../services/axios';
 import { useLocalStorage } from 'usehooks-ts';
 import './page.css';
+import NotFoundPage from '../../404/page';
 
 interface GetActivityResponse {
     activity_key: string;
@@ -46,7 +47,7 @@ const InitialInterface: React.FC<{ onClick: () => void }> = ({ onClick }) => {
         <>
             <div className="text-center h-60 w-full">
                 <Avatar
-                    className="mx-auto mb-5"
+                    className="mx-auto mb-5 font-bold"
                     sx={{
                         width: 200,
                         height: 200,
@@ -86,10 +87,10 @@ const ResultInterface: React.FC<{
                 <Avatar
                     className="mx-auto mb-8"
                     sx={{
-                        width: 200,
-                        height: 200,
+                        width: 250,
+                        height: 250,
                         color: 'white',
-                        fontSize: '40px',
+                        fontSize: '100px',
                         backgroundColor: '#1976d2',
                     }}
                 >
@@ -99,6 +100,10 @@ const ResultInterface: React.FC<{
             </div>
         </>
     );
+};
+
+const ErrorInterface: React.FC = () => {
+    return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
 };
 
 const getQuery = (key: string) => {
@@ -124,6 +129,7 @@ const LuckyNumberActivityPage: React.FC = () => {
         useLocalStorage<GetActivityResponse | null>('info', null);
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
+    const [error, setError] = useState<Error | null>(null);
 
     const cleanUserResult = () => {
         const needClean = getQuery('__clean');
@@ -143,6 +149,7 @@ const LuckyNumberActivityPage: React.FC = () => {
                 setActivityInfo(response.data);
                 setStoredInfo(response.data);
             } catch (error) {
+                setError(error as Error);
                 console.error('Error fetching activity info:', error);
             }
         };
@@ -187,6 +194,10 @@ const LuckyNumberActivityPage: React.FC = () => {
             setSnackbarOpen(true);
         }
     };
+
+    if (error?.toString?.()?.includes('404')) {
+        return <ErrorInterface />;
+    }
 
     return (
         <div className="flex flex-col items-center">

@@ -1,8 +1,9 @@
 import { Form, Input, Button, message } from 'antd';
 import { useNavigate } from 'react-router-dom';
-import { useLuckyNumber } from '../hooks/useLuckyNumber';
+import { useLuckyNumber } from '@/hooks/useLuckyNumber';
+import './page.css';
 
-export const LuckyNumberCreate = () => {
+const LuckyNumberCreate = () => {
     const navigate = useNavigate();
     const { createActivity, loading } = useLuckyNumber();
 
@@ -124,3 +125,5 @@ export const LuckyNumberCreate = () => {
         </div>
     );
 };
+
+export default LuckyNumberCreate;

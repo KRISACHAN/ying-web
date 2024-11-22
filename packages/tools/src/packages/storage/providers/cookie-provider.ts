@@ -30,7 +30,12 @@ export class CookieProvider implements StorageProvider {
             return null;
         }
 
-        return storedValue;
+        try {
+            const res = JSON.parse(storedValue);
+            return res;
+        } catch (error) {
+            return storedValue;
+        }
     }
 
     set(key: string, value: any, expires: string = '-1'): void {

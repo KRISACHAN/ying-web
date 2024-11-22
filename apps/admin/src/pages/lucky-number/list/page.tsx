@@ -1,11 +1,17 @@
 import { useEffect, useState } from 'react';
 import { Table, Button, Space, message, Popconfirm } from 'antd';
 import { useNavigate } from 'react-router-dom';
-import { useLuckyNumber } from '../hooks/useLuckyNumber';
-import type { LuckyNumberActivity, Pagination } from '../types/lucky-number';
+import { useLuckyNumber } from '@/hooks/useLuckyNumber';
+import NotFoundPage from '@/pages/404/page';
+import type { LuckyNumberActivity, Pagination } from '@/types/lucky-number';
 import dayjs from 'dayjs';
+import './page.css';
 
-export const LuckyNumberList = () => {
+const ErrorInterface: React.FC = () => {
+    return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
+};
+
+const LuckyNumberList = () => {
     const navigate = useNavigate();
     const { getActivityList, deleteActivity, loading } = useLuckyNumber();
     const [activities, setActivities] = useState<LuckyNumberActivity[]>([]);
@@ -14,6 +20,7 @@ export const LuckyNumberList = () => {
         size: 0,
         total: 0,
     });
+    const [error, setError] = useState<Error | null>(null);
 
     const fetchActivities = async () => {
         try {
@@ -21,8 +28,8 @@ export const LuckyNumberList = () => {
             setActivities(data.list);
             setPagination(data.pagination);
         } catch (error) {
+            setError(error as Error);
             console.error(error);
-            message.error('获取活动列表失败');
         }
     };
 
@@ -83,6 +90,10 @@ export const LuckyNumberList = () => {
         },
     ];
 
+    if (error?.toString?.()?.includes('404')) {
+        return <ErrorInterface />;
+    }
+
     return (
         <div className="p-6">
             <div className="flex justify-between mb-4">
@@ -108,3 +119,5 @@ export const LuckyNumberList = () => {
         </div>
     );
 };
+
+export default LuckyNumberList;

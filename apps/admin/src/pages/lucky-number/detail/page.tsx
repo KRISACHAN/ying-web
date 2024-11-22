@@ -1,15 +1,22 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Card, Table, message, Button } from 'antd';
-import { useLuckyNumber } from '../hooks/useLuckyNumber';
-import { LuckyNumber } from '../types/lucky-number';
+import { Card, Table, Button } from 'antd';
+import { useLuckyNumber } from '@/hooks/useLuckyNumber';
+import type { LuckyNumber } from '@/types/lucky-number';
+import NotFoundPage from '@/pages/404/page';
+import './page.css';
 
-export const LuckyNumberDetail = () => {
+const ErrorInterface: React.FC = () => {
+    return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
+};
+
+const LuckyNumberDetail = () => {
     const { key } = useParams<{ key: string }>();
     const { queryActivity, loading, cancelParticipation } = useLuckyNumber();
     const [numbers, setNumbers] = useState<LuckyNumber[]>([]);
     const [activityKey, setActivityKey] = useState<string>('');
     const [activityDescription, setActivityDescription] = useState<string>('');
+    const [error, setError] = useState<Error | null>(null);
 
     const fetchActivity = async () => {
         if (!key) return;
@@ -19,7 +26,8 @@ export const LuckyNumberDetail = () => {
             setActivityKey(data.activity_key);
             setActivityDescription(data.description);
         } catch (error) {
-            message.error('获取活动详情失败');
+            setError(error as Error);
+            console.error(error);
         }
     };
 
@@ -72,6 +80,10 @@ export const LuckyNumberDetail = () => {
         },
     ];
 
+    if (error?.toString?.()?.includes('404')) {
+        return <ErrorInterface />;
+    }
+
     return (
         <div className="p-6">
             <Card
@@ -119,3 +131,5 @@ export const LuckyNumberDetail = () => {
         </div>
     );
 };
+
+export default LuckyNumberDetail;
