@@ -1,16 +1,18 @@
-import Router from 'koa-router';
+import { AdminDao } from '@dao/admin/admin';
+import { AdminRoleDao } from '@dao/admin/admin-role';
+import { RoleDao } from '@dao/admin/role';
+import { RolePermissionsDao } from '@dao/admin/role-permissions';
+import {
+    adminAuthMiddleware,
+    adminLoginMiddleware,
+} from '@middlewares/auths/admin';
+import { loginValidatorMiddleware } from '@middlewares/validators/admin';
+import { hasManageUsersPermission } from '@utils/constants';
+import { generateAccessToken, verifyRefreshToken } from '@utils/helpers';
+import { BAD_REQUEST, FORBIDDEN, UNAUTHORIZED } from '@utils/http-errors';
 import httpStatus from 'http-status';
 import { pick } from 'lodash';
-import { AdminDao } from '@dao/admin/admin';
-import { RoleDao } from '@dao/admin/role';
-import { AdminRoleDao } from '@dao/admin/admin-role';
-import { RolePermissionsDao } from '@dao/admin/role-permissions';
-import { hasManageUsersPermission } from '@utils/constants';
-import { BAD_REQUEST, FORBIDDEN, UNAUTHORIZED } from '@utils/http-errors';
-import { adminAuthMiddleware } from '@middlewares/auths/admin';
-import { adminLoginMiddleware } from '@middlewares/auths/admin';
-import { loginValidatorMiddleware } from '@middlewares/validators/admin';
-import { verifyRefreshToken, generateAccessToken } from '@utils/helpers';
+
 import router from './router';
 
 router.post('/refresh-token', async ctx => {

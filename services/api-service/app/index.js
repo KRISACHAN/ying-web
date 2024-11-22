@@ -1,12 +1,13 @@
-import Koa from 'koa';
-import { initLoadRouters, initRatelimit, initLogger } from '@utils/init';
-import bodyParser from 'koa-body';
-import cors from '@koa/cors';
-import catchErrorMiddleware from '@middlewares/exception';
-import cacheMiddleware from '@middlewares/cache';
-import { getIP } from '@utils/helpers';
-import log from '@utils/log';
 import './env';
+
+import cors from '@koa/cors';
+import cacheMiddleware from '@middlewares/cache';
+import catchErrorMiddleware from '@middlewares/exception';
+import { getIP } from '@utils/helpers';
+import { initLoadRouters, initLogger, initRatelimit } from '@utils/init';
+import log from '@utils/log';
+import Koa from 'koa';
+import bodyParser from 'koa-body';
 
 const app = new Koa();
 

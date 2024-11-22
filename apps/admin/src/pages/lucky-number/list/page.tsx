@@ -1,11 +1,13 @@
+import './page.css';
+
+import { Button, message, Popconfirm, Space, Table } from 'antd';
+import dayjs from 'dayjs';
 import { useEffect, useState } from 'react';
-import { Table, Button, Space, message, Popconfirm } from 'antd';
 import { useNavigate } from 'react-router-dom';
+
 import { useLuckyNumber } from '@/hooks/use-lucky-number';
 import NotFoundPage from '@/pages/404/page';
 import type { LuckyNumberActivity, Pagination } from '@/types/lucky-number';
-import dayjs from 'dayjs';
-import './page.css';
 
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
@@ -42,7 +44,7 @@ const LuckyNumberList = () => {
             await deleteActivity(key);
             message.success('删除成功');
             fetchActivities();
-        } catch (error) {
+        } catch {
             message.error('删除失败');
         }
     };

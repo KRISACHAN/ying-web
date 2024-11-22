@@ -1,7 +1,7 @@
-import Sequelize from 'sequelize';
-import { get } from 'lodash';
 import log from '@utils/log';
 import { to } from 'await-to-js';
+import { get } from 'lodash';
+import Sequelize from 'sequelize';
 
 export const sequelize = new Sequelize(
     process.env.DB_NAME,

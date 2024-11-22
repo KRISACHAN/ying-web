@@ -1,24 +1,27 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import Confetti from 'react-confetti';
-import type { AxiosError } from 'axios';
+import './page.css';
+
 import {
+    Avatar,
     Button,
     Dialog,
     DialogActions,
     DialogContent,
     DialogTitle,
-    TextField,
     Snackbar,
-    Avatar,
+    TextField,
 } from '@mui/material';
-import axiosInstance from '@/services/axios';
+import type { AxiosError } from 'axios';
+import React, { useEffect, useState } from 'react';
+import Confetti from 'react-confetti';
+import { useParams } from 'react-router-dom';
 import { useLocalStorage } from 'usehooks-ts';
-import './page.css';
-import NotFoundPage from '@/pages/404/page';
-import HeaderInterface from '../components/header';
+
 import { useLuckyNumber } from '@/hooks/use-lucky-number';
+import NotFoundPage from '@/pages/404/page';
+import axiosInstance from '@/services/axios';
 import type { QueryLuckyNumberResponse } from '@/types/lucky-number';
+
+import HeaderInterface from '../components/header';
 
 type GetActivityResponse = Pick<
     QueryLuckyNumberResponse,

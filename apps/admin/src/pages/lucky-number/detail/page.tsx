@@ -1,10 +1,12 @@
-import { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { Card, Table, Button } from 'antd';
-import { useLuckyNumber } from '@/hooks/use-lucky-number';
-import type { LuckyNumber } from '@/types/lucky-number';
-import NotFoundPage from '@/pages/404/page';
 import './page.css';
+
+import { Button,Card, Table } from 'antd';
+import { useEffect, useState } from 'react';
+import { Link,useParams } from 'react-router-dom';
+
+import { useLuckyNumber } from '@/hooks/use-lucky-number';
+import NotFoundPage from '@/pages/404/page';
+import type { LuckyNumber } from '@/types/lucky-number';
 
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;

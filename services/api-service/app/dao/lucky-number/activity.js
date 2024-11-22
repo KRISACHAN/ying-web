@@ -1,10 +1,10 @@
 import { ActivityModel } from '@models/lucky-number/activity';
-import {
-    PRECONDITION_FAILED,
-    NOT_FOUND,
-    INTERNAL_SERVER_ERROR,
-} from '@utils/http-errors';
 import { genPaginationRequest } from '@utils/helpers';
+import {
+    INTERNAL_SERVER_ERROR,
+    NOT_FOUND,
+    PRECONDITION_FAILED,
+} from '@utils/http-errors';
 
 export class ActivityDao {
     static async create({ key, name, description }, transaction) {

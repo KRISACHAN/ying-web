@@ -1,7 +1,7 @@
+import { permissionMap } from '@utils/constants';
+import { FORBIDDEN, UNAUTHORIZED } from '@utils/http-errors';
 import jwt from 'jsonwebtoken';
 import parseBearerToken from 'parse-bearer-token';
-import { FORBIDDEN, UNAUTHORIZED } from '@utils/http-errors';
-import { permissionMap } from '@utils/constants';
 
 const eventHandler = permission => async (ctx, next) => {
     const parsedToken = parseBearerToken(ctx.request);

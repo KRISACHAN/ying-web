@@ -1,8 +1,9 @@
+import './page.css';
+
+import { List, ListItem, ListItemButton, ListItemIcon } from '@mui/material';
+import { Heart } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Heart } from 'lucide-react';
-import { List, ListItem, ListItemButton, ListItemIcon } from '@mui/material';
-import './page.css';
 
 const routes = [{ path: '/promise', label: '抽取经文', icon: Heart }];
 

@@ -1,4 +1,5 @@
 const path = require('path');
+
 const jestConfig = {
     rootDir: path.join(__dirname, ''),
     roots: ['<rootDir>/tests'],

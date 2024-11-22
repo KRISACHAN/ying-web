@@ -1,4 +1,5 @@
-import { useState, useCallback } from 'react';
+import { useCallback, useState } from 'react';
+
 import axiosInstance from '@/services/axios';
 import type { QueryLuckyNumberResponse } from '@/types/lucky-number';
 

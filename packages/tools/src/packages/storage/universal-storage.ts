@@ -1,8 +1,8 @@
-import { StorageOptions, StorageProvider, StorageType } from './types';
+import { isBrowser, logger } from '../../utils';
+import { CookieProvider } from './providers/cookie-provider';
 import { MemoryProvider } from './providers/memory-provider';
 import { WebStorageProvider } from './providers/web-storage-provider';
-import { CookieProvider } from './providers/cookie-provider';
-import { isBrowser, logger } from '../../utils';
+import { StorageOptions, StorageProvider, StorageType } from './types';
 
 export class UniversalStorage {
     private provider: StorageProvider;

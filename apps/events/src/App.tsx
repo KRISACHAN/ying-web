@@ -1,11 +1,13 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import BaseLayout from './layouts/base/layout';
-import IndexPage from './pages/index/page';
-import PromisePage from './pages/promise/page';
-import LuckyNumberListPage from './pages/lucky-number/list/page';
-import LuckyNumberActivityPage from './pages/lucky-number/activity/page';
 import NotFoundPage from './pages/404/page';
+import IndexPage from './pages/index/page';
+import LuckyNumberActivityPage from './pages/lucky-number/activity/page';
+import LuckyNumberListPage from './pages/lucky-number/list/page';
+import PromisePage from './pages/promise/page';
 
 function App() {
     return (

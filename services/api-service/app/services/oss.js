@@ -1,6 +1,6 @@
+import log from '@utils/log';
 import OSS from 'ali-oss';
 import to from 'await-to-js';
-import log from '@utils/log';
 import { get, pick } from 'lodash';
 
 const ossParams = {

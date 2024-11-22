@@ -1,14 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
 import zhCN from 'antd/locale/zh_CN';
-import BaseLayout from './layouts/base/layout';
+import { BrowserRouter, Route,Routes } from 'react-router-dom';
+
 import AuthGuard from './components/auth-guard';
-import LoginPage from './pages/login/page';
-import IndexPage from './pages/index/page';
+import BaseLayout from './layouts/base/layout';
 import NotFoundPage from './pages/404/page';
-import LuckyNumberListPage from './pages/lucky-number/list/page';
-import LuckyNumberDetailPage from './pages/lucky-number/detail/page';
+import IndexPage from './pages/index/page';
+import LoginPage from './pages/login/page';
 import LuckyNumberCreatePage from './pages/lucky-number/create/page';
+import LuckyNumberDetailPage from './pages/lucky-number/detail/page';
+import LuckyNumberListPage from './pages/lucky-number/list/page';
 
 function App() {
     return (

@@ -1,22 +1,25 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import './page.css';
+
 import {
+    Alert,
+    Paper,
+    Skeleton,
     Table,
     TableBody,
     TableCell,
     TableContainer,
     TableHead,
     TableRow,
-    Paper,
-    Skeleton,
-    Alert,
 } from '@mui/material';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { useInterval } from 'usehooks-ts';
-import './page.css';
+
+import { useLuckyNumber } from '@/hooks/use-lucky-number';
 import NotFoundPage from '@/pages/404/page';
 import type { QueryLuckyNumberResponse } from '@/types/lucky-number';
+
 import HeaderInterface from '../components/header';
-import { useLuckyNumber } from '@/hooks/use-lucky-number';
 
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;

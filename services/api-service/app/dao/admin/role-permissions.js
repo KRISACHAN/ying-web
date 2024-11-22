@@ -1,5 +1,5 @@
 import { RolePermissionsModel } from '@models/admin/role-permissions';
-import { PRECONDITION_FAILED, INTERNAL_SERVER_ERROR } from '@utils/http-errors';
+import { INTERNAL_SERVER_ERROR, PRECONDITION_FAILED } from '@utils/http-errors';
 
 export class RolePermissionsDao {
     static async create({ roleId, permissionId }) {
