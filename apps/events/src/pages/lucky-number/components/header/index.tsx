@@ -7,7 +7,7 @@ const Header: React.FC<{
     name?: string;
 }> = ({ description, name }) => {
     return (
-        <div className="text-center h-40 w-full">
+        <div className="text-center h-32 w-full">
             <h1 className="text-4xl mb-5 text-gray-800 flex items-center gap-2">
                 <CalendarCheck className="w-9 h-9 text-blue-500" />
                 {name || ''}

@@ -109,7 +109,7 @@ const LuckyNumberListPage: React.FC = () => {
 
     useInterval(() => {
         fetchActivityInfo();
-    }, 1000);
+    }, 2000);
 
     if (error?.toString?.()?.includes('404')) {
         return <ErrorInterface />;
