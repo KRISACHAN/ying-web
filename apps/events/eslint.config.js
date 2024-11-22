@@ -40,6 +40,7 @@ export default tseslint.config({
             'warn',
             { allowConstantExport: true },
         ],
+        // @TODO: Strongly recommend
         'simple-import-sort/imports': 'error',
         'simple-import-sort/exports': 'error',
         'import/first': 'error',
@@ -51,10 +52,10 @@ export default tseslint.config({
         },
         'import/resolver': {
             typescript: {
-                alwaysTryTypes: true, // 尝试解析类型
+                alwaysTryTypes: true,
             },
             node: {
-                extensions: ['.js', '.jsx', '.ts', '.tsx'], // 添加支持的扩展名
+                extensions: ['.js', '.jsx', '.ts', '.tsx'],
             },
         },
     },

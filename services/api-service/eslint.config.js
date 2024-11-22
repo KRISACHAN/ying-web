@@ -37,6 +37,7 @@ module.exports = [
             quotes: ['error', 'single'],
             'prettier/prettier': 'error',
             'no-var': 'error',
+            // @TODO: Strongly recommend
             'simple-import-sort/imports': 'error',
             'simple-import-sort/exports': 'error',
             'import/first': 'error',
