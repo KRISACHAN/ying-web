@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Heart } from 'lucide-react';
 import { Snackbar, Button } from '@mui/material';
 import { useDebounceCallback } from 'usehooks-ts';
-import axiosInstance from '../../services/axios';
+import axiosInstance from '@/services/axios';
 import './page.css';
 
 const PromisePage: React.FC = () => {

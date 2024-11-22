@@ -12,10 +12,10 @@ import {
     Snackbar,
     Avatar,
 } from '@mui/material';
-import axiosInstance from '../../../services/axios';
+import axiosInstance from '@/services/axios';
 import { useLocalStorage } from 'usehooks-ts';
 import './page.css';
-import NotFoundPage from '../../404/page';
+import NotFoundPage from '@/pages/404/page';
 
 interface GetActivityResponse {
     activity_key: string;

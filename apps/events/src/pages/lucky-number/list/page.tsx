@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import axiosInstance from '../../../services/axios';
+import axiosInstance from '@/services/axios';
 import {
     Table,
     TableBody,
@@ -15,8 +15,8 @@ import {
 import { CalendarCheck } from 'lucide-react';
 import { useInterval } from 'usehooks-ts';
 import './page.css';
-import NotFoundPage from '../../404/page';
-import type { QueryLuckyNumberResponse } from '../../../types/lucky-number';
+import NotFoundPage from '@/pages/404/page';
+import type { QueryLuckyNumberResponse } from '@/types/lucky-number';
 
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
