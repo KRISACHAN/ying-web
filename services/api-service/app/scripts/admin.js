@@ -16,6 +16,7 @@ const createAdmin = async () => {
 
         const permissions = [
             'all_accesses',
+            'oss_upload',
             'create_admin',
             'edit_admin',
             'delete_admin',

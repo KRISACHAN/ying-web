@@ -13,6 +13,4 @@ const rules = {
     ],
 };
 
-const loginValidator = createValidator(rules);
-
-export default loginValidator;
+export const loginValidatorMiddleware = createValidator(rules);

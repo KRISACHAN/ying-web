@@ -7,21 +7,21 @@ import {
     createEventMiddleware,
     watchEventMiddleware,
     editEventMiddleware,
-} from '@app/middlewares/admin/event';
+} from '@middlewares/auths/permission';
+import {
+    createLuckyNumberValidatorMiddleware,
+    queryLuckyNumberValidatorMiddleware,
+    deleteLuckyNumberValidatorMiddleware,
+    cancelParticipatedLuckyNumberValidatorMiddleware,
+} from '@middlewares/validators/lucky-number';
 import router from './router';
 import log from '@utils/log';
-import {
-    createLuckyNumberValidator,
-    queryLuckyNumberValidator,
-    deleteLuckyNumberValidator,
-    cancelParticipatedLuckyNumberValidator,
-} from '@middlewares/luck-number/index';
 import { sequelize } from '@services/db';
 
 router.post(
     '/lucky-number/create',
     createEventMiddleware,
-    createLuckyNumberValidator,
+    createLuckyNumberValidatorMiddleware,
     async ctx => {
         const { key, name, description, numbers } = ctx.request.body;
 
@@ -51,7 +51,7 @@ router.post(
 router.get(
     '/lucky-number/query/:key',
     watchEventMiddleware,
-    queryLuckyNumberValidator,
+    queryLuckyNumberValidatorMiddleware,
     async ctx => {
         const { key } = ctx.params;
 
@@ -85,7 +85,7 @@ router.get(
 router.delete(
     '/lucky-number/delete/:key',
     editEventMiddleware,
-    deleteLuckyNumberValidator,
+    deleteLuckyNumberValidatorMiddleware,
     async ctx => {
         const { key } = ctx.params;
         await ActivityDao.delete({ key });
@@ -99,7 +99,7 @@ router.delete(
 router.put(
     '/lucky-number/cancel-participation',
     editEventMiddleware,
-    cancelParticipatedLuckyNumberValidator,
+    cancelParticipatedLuckyNumberValidatorMiddleware,
     async ctx => {
         const { key, drawn_number, user_name } = ctx.request.body;
 
