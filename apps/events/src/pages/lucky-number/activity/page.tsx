@@ -16,31 +16,18 @@ import axiosInstance from '@/services/axios';
 import { useLocalStorage } from 'usehooks-ts';
 import './page.css';
 import NotFoundPage from '@/pages/404/page';
+import HeaderInterface from '../components/header';
+import { useLuckyNumber } from '@/hooks/use-lucky-number';
+import type { QueryLuckyNumberResponse } from '@/types/lucky-number';
 
-interface GetActivityResponse {
-    activity_key: string;
-    name: string;
-    description: string;
-}
+type GetActivityResponse = Pick<
+    QueryLuckyNumberResponse,
+    'activity_key' | 'name' | 'description'
+>;
 
 interface DrawLuckyNumberResponse {
     drawn_number: number;
 }
-
-const IntroductionInterface: React.FC<{
-    description?: string;
-    name?: string;
-}> = ({ description, name }) => {
-    if (!description || !name) {
-        return null;
-    }
-    return (
-        <div className="text-center h-40 w-full">
-            <h1 className="text-4xl mb-5">{name}</h1>
-            <p className="text-lg mb-5">{description}</p>
-        </div>
-    );
-};
 
 const InitialInterface: React.FC<{ onClick: () => void }> = ({ onClick }) => {
     return (
@@ -113,20 +100,23 @@ const getQuery = (key: string) => {
 
 const LuckyNumberActivityPage: React.FC = () => {
     const { activityKey } = useParams<{ activityKey: string }>();
+    const { queryActivityInfo } = useLuckyNumber();
     const [activityInfo, setActivityInfo] =
         useState<GetActivityResponse | null>(null);
     const [open, setOpen] = useState(false);
     const [name, setName] = useState('');
+
+    const localLuckyNumberKey = `ying-events-lucky-number-${activityKey}`;
+    const localNameKey = `ying-events-name-${activityKey}`;
+
     const [luckyNumber, setLuckyNumber] = useLocalStorage<number | null>(
-        'luckyNumber',
+        localLuckyNumberKey,
         null,
     );
     const [storedName, setStoredName] = useLocalStorage<string | null>(
-        'name',
+        localNameKey,
         null,
     );
-    const [storedInfo, setStoredInfo] =
-        useLocalStorage<GetActivityResponse | null>('info', null);
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
     const [error, setError] = useState<Error | null>(null);
@@ -140,30 +130,21 @@ const LuckyNumberActivityPage: React.FC = () => {
         setStoredName(null);
     };
 
-    useEffect(() => {
-        const fetchActivityInfo = async () => {
-            try {
-                const response = await axiosInstance.get<GetActivityResponse>(
-                    `/lucky-number/query/${activityKey}`,
-                );
-                setActivityInfo(response.data);
-                setStoredInfo(response.data);
-            } catch (error) {
-                setError(error as Error);
-                console.error('Error fetching activity info:', error);
-            }
-        };
+    const fetchActivityInfo = async () => {
+        try {
+            const data = await queryActivityInfo(activityKey);
+            setActivityInfo(data);
+        } catch (error) {
+            setError(error as Error);
+        }
+    };
 
+    useEffect(() => {
+        cleanUserResult();
         if (!activityKey) {
             return;
         }
-
-        if (!storedInfo) {
-            fetchActivityInfo();
-        } else {
-            setActivityInfo(storedInfo);
-        }
-        cleanUserResult();
+        fetchActivityInfo();
     }, [activityKey]);
 
     const handleClickOpen = () => {
@@ -201,7 +182,7 @@ const LuckyNumberActivityPage: React.FC = () => {
 
     return (
         <div className="flex flex-col items-center">
-            <IntroductionInterface
+            <HeaderInterface
                 description={activityInfo?.description}
                 name={activityInfo?.name}
             />

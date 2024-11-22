@@ -1,6 +1,6 @@
 import { Form, Input, Button, message } from 'antd';
 import { useNavigate } from 'react-router-dom';
-import { useLuckyNumber } from '@/hooks/useLuckyNumber';
+import { useLuckyNumber } from '@/hooks/use-lucky-number';
 import './page.css';
 
 const LuckyNumberCreate = () => {

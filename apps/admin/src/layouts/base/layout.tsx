@@ -1,7 +1,7 @@
 import { Layout, Menu, Avatar, Dropdown } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from '@/hooks/use-auth';
 import { localCache } from '@/services/storage';
 import './layout.css';
 

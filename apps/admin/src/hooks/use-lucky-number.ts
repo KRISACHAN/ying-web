@@ -8,8 +8,8 @@ import type {
     CancelParticipationLuckyNumberRequest,
     CancelParticipationLuckyNumberResponse,
     Pagination,
-} from '../types/lucky-number';
-import axiosInstance from '../services/axios';
+} from '@/types/lucky-number';
+import axiosInstance from '@/services/axios';
 
 export const useLuckyNumber = () => {
     const [loading, setLoading] = useState(false);

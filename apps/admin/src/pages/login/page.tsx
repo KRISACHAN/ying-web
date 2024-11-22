@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Form, Input, Button, message } from 'antd';
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from '@/hooks/use-auth';
 import { LoginParams } from '@/types/auth';
 
 const Login = () => {

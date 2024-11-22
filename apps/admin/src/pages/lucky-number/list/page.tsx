@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Table, Button, Space, message, Popconfirm } from 'antd';
 import { useNavigate } from 'react-router-dom';
-import { useLuckyNumber } from '@/hooks/useLuckyNumber';
+import { useLuckyNumber } from '@/hooks/use-lucky-number';
 import NotFoundPage from '@/pages/404/page';
 import type { LuckyNumberActivity, Pagination } from '@/types/lucky-number';
 import dayjs from 'dayjs';

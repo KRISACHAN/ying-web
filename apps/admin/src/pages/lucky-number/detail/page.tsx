@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Card, Table, Button } from 'antd';
-import { useLuckyNumber } from '@/hooks/useLuckyNumber';
+import { useLuckyNumber } from '@/hooks/use-lucky-number';
 import type { LuckyNumber } from '@/types/lucky-number';
 import NotFoundPage from '@/pages/404/page';
 import './page.css';

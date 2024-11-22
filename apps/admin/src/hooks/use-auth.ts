@@ -3,9 +3,9 @@ import type {
     LoginParams,
     LoginResponse,
     RefreshTokenResponse,
-} from '../types/auth';
-import axiosInstance from '../services/axios';
-import { localCache } from '../services/storage';
+} from '@/types/auth';
+import axiosInstance from '@/services/axios';
+import { localCache } from '@/services/storage';
 
 export const useAuth = () => {
     const [loading, setLoading] = useState(false);
