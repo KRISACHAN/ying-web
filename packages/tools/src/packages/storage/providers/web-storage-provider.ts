@@ -29,7 +29,12 @@ export class WebStorageProvider implements StorageProvider {
                 this.remove(key);
                 return null;
             }
-            return data.value;
+            try {
+                const res = JSON.parse(data.value);
+                return res;
+            } catch (error) {
+                return data.value;
+            }
         } catch (error) {
             logger.error(`Error getting item ${key}:`, error);
             return null;

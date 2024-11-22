@@ -1,19 +1,21 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
 import zhCN from 'antd/locale/zh_CN';
-import { Login } from './pages/Login';
-import BaseLayout from './layouts/BaseLayout';
-import { LuckyNumberList } from './pages/LuckyNumberList';
-import { LuckyNumberDetail } from './pages/LuckyNumberDetail';
-import { LuckyNumberCreate } from './pages/LuckyNumberCreate';
-import { AuthGuard } from './components/AuthGuard';
+import BaseLayout from './layouts/base/layout';
+import AuthGuard from './components/auth-guard';
+import LoginPage from './pages/login/page';
+import IndexPage from './pages/index/page';
+import NotFoundPage from './pages/404/page';
+import LuckyNumberListPage from './pages/lucky-number/list/page';
+import LuckyNumberDetailPage from './pages/lucky-number/detail/page';
+import LuckyNumberCreatePage from './pages/lucky-number/create/page';
 
 function App() {
     return (
         <ConfigProvider locale={zhCN}>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/login" element={<Login />} />
+                    <Route path="/login" element={<LoginPage />} />
                     <Route
                         path="/"
                         element={
@@ -22,24 +24,21 @@ function App() {
                             </AuthGuard>
                         }
                     >
-                        <Route
-                            index
-                            element={<Navigate to="/lucky-number" />}
-                        />
+                        <Route index element={<IndexPage />} />
                         <Route
                             path="lucky-number"
-                            element={<LuckyNumberList />}
+                            element={<LuckyNumberListPage />}
                         />
                         <Route
                             path="lucky-number/create"
-                            element={<LuckyNumberCreate />}
+                            element={<LuckyNumberCreatePage />}
                         />
                         <Route
                             path="lucky-number/:key"
-                            element={<LuckyNumberDetail />}
+                            element={<LuckyNumberDetailPage />}
                         />
                     </Route>
-                    <Route path="*" element={<Navigate to="/lucky-number" />} />
+                    <Route path="*" element={<NotFoundPage />} />
                 </Routes>
             </BrowserRouter>
         </ConfigProvider>

@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 import { Form, Input, Button, message } from 'antd';
-import { useAuth } from '../hooks/useAuth';
-import { LoginParams } from '../types/auth';
+import { useAuth } from '@/hooks/useAuth';
+import { LoginParams } from '@/types/auth';
 
-export const Login = () => {
+const Login = () => {
     const navigate = useNavigate();
     const { login, loading } = useAuth();
 
@@ -75,3 +75,5 @@ export const Login = () => {
         </div>
     );
 };
+
+export default Login;

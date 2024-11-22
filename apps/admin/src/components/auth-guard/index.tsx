@@ -1,13 +1,14 @@
 import { ReactNode, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../hooks/useAuth';
-import { localCache } from '../services/storage';
+import { useAuth } from '@/hooks/useAuth';
+import { localCache } from '@/services/storage';
+import './index.css';
 
 interface AuthGuardProps {
     children: ReactNode;
 }
 
-export const AuthGuard = ({ children }: AuthGuardProps) => {
+const AuthGuard = ({ children }: AuthGuardProps) => {
     const navigate = useNavigate();
     const { refreshAccessToken } = useAuth();
 
@@ -36,3 +37,5 @@ export const AuthGuard = ({ children }: AuthGuardProps) => {
 
     return <>{children}</>;
 };
+
+export default AuthGuard;

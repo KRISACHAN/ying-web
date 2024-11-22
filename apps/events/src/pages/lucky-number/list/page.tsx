@@ -26,9 +26,9 @@ const TableCoreInterface: React.FC<{
     activityData: QueryLuckyNumberResponse;
 }> = ({ activityData }) => {
     return activityData.numbers.map(luckyNumber => (
-        <TableRow key={luckyNumber.number}>
+        <TableRow key={luckyNumber.drawn_number}>
             <TableCell className="text-gray-700">
-                {luckyNumber.number}
+                {luckyNumber.drawn_number}
             </TableCell>
             <TableCell className="text-gray-700">
                 {luckyNumber.is_drawn ? '是' : '否'}
@@ -88,7 +88,7 @@ const LuckyNumberListPage: React.FC = () => {
     const { activityKey } = useParams();
     const [activityData, setActivityData] =
         useState<QueryLuckyNumberResponse | null>(null);
-    const [error, setError] = useState(false);
+    const [error, setError] = useState<Error | null>(null);
 
     const fetchActivityData = async () => {
         try {
@@ -96,9 +96,9 @@ const LuckyNumberListPage: React.FC = () => {
                 `/lucky-number/query/${activityKey}`,
             );
             setActivityData(response.data);
-            setError(false);
-        } catch (err) {
-            setError(true);
+            setError(null);
+        } catch (error) {
+            setError(error as Error);
         }
     };
 
@@ -110,7 +110,7 @@ const LuckyNumberListPage: React.FC = () => {
         fetchActivityData();
     }, 1000);
 
-    if (error.toString().includes('404')) {
+    if (error?.toString?.()?.includes('404')) {
         return <ErrorInterface />;
     }
 
