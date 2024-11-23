@@ -32,26 +32,26 @@ export default defineConfig({
         },
     },
     build: {
-        rollupOptions: {
-            external: [
-                '@ying-web/tools',
-                'axios',
-                'lucide-react',
-                'styled-components',
-                '@emotion/react',
-                '@emotion/styled',
-            ],
-            output: {
-                entryFileNames: '[name]-[hash].js',
-                chunkFileNames: '[name]-[hash].js',
-                assetFileNames: '[name]-[hash].[ext]',
-                // @TODO: Make it more elegant
-                manualChunks(id) {
-                    if (id.includes('node_modules')) {
-                        return 'vendor';
-                    }
-                },
-            },
-        },
+        // @FIXME: CANNOT WORK !
+        // rollupOptions: {
+        //     external: [
+        //         '@ying-web/tools',
+        //         'axios',
+        //         'lucide-react',
+        //         'styled-components',
+        //         '@emotion/react',
+        //         '@emotion/styled',
+        //     ],
+        //     output: {
+        //         entryFileNames: '[name]-[hash].js',
+        //         chunkFileNames: '[name]-[hash].js',
+        //         assetFileNames: '[name]-[hash].[ext]',
+        //         manualChunks(id) {
+        //             if (id.includes('node_modules')) {
+        //                 return 'vendor';
+        //             }
+        //         },
+        //     },
+        // },
     },
 });
