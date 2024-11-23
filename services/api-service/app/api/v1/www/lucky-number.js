@@ -7,7 +7,7 @@ import httpStatus from 'http-status';
 import Router from 'koa-router';
 
 const router = new Router({
-    prefix: '/api/v1/lucky-number',
+    prefix: '/api/v1/www/lucky-number',
 });
 
 router.post('/draw', async ctx => {
