@@ -17,7 +17,7 @@ export const useAuth = () => {
         setError(null);
         try {
             const response = await axiosInstance.post<LoginResponse>(
-                '/admin/login',
+                '/login',
                 params,
             );
             const { data } = response ?? {};
@@ -41,7 +41,7 @@ export const useAuth = () => {
 
         try {
             const response = await axiosInstance.post<RefreshTokenResponse>(
-                '/admin/refresh-token',
+                '/refresh-token',
                 { refresh_token: refreshToken },
             );
             const { data } = response ?? {};

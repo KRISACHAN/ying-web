@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
+import legacy from '@vitejs/plugin-legacy';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import legacy from '@vitejs/plugin-legacy';
+import { defineConfig } from 'vite';
 
 function pathResolve(dir: string) {
     return path.resolve(process.cwd(), '.', dir);
