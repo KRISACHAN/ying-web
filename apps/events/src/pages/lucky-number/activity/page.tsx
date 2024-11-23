@@ -11,11 +11,13 @@ import {
     TextField,
 } from '@mui/material';
 import type { AxiosError } from 'axios';
+import { Heart } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import Confetti from 'react-confetti';
 import { useParams } from 'react-router-dom';
 import { useLocalStorage } from 'usehooks-ts';
 
+import { useHeader } from '@/contexts/header-context';
 import { useLuckyNumber } from '@/hooks/use-lucky-number';
 import NotFoundPage from '@/pages/404/page';
 import axiosInstance from '@/services/axios';
@@ -39,8 +41,8 @@ const InitialInterface: React.FC<{ onClick: () => void }> = ({ onClick }) => {
                 <Avatar
                     className="mx-auto mb-5 font-bold"
                     sx={{
-                        width: 200,
-                        height: 200,
+                        width: 300,
+                        height: 300,
                     }}
                     src="/love-banner.svg"
                     alt="爱心"
@@ -73,20 +75,21 @@ const ResultInterface: React.FC<{
                 recycle={false}
             />
             <div className="text-center">
-                <p className="text-3xl mb-8">亲爱的{storedName}，你的号码是</p>
+                <p className="text-3xl mb-8 text-[#1976d2]">
+                    亲爱的{storedName}，你的号码是
+                </p>
                 <Avatar
                     className="mx-auto mb-8"
                     sx={{
-                        width: 250,
-                        height: 250,
+                        width: 300,
+                        height: 300,
                         color: 'white',
-                        fontSize: '100px',
+                        fontSize: '140px',
                         backgroundColor: '#1976d2',
                     }}
                 >
                     {luckyNumber}
                 </Avatar>
-                <p className="text-lg">本次号码只能抽取一次，不能重复抽哦</p>
             </div>
         </>
     );
@@ -108,6 +111,7 @@ const LuckyNumberActivityPage: React.FC = () => {
         useState<GetActivityResponse | null>(null);
     const [open, setOpen] = useState(false);
     const [name, setName] = useState('');
+    const headerContext = useHeader();
 
     const localLuckyNumberKey = `ying-events-lucky-number-${activityKey}`;
     const localNameKey = `ying-events-name-${activityKey}`;
@@ -137,6 +141,11 @@ const LuckyNumberActivityPage: React.FC = () => {
         try {
             const data = await queryActivityInfo(activityKey);
             setActivityInfo(data);
+            headerContext.setHeaderInfo({
+                title: data.name,
+                description: data.description,
+                keywords: data.activity_key,
+            });
         } catch (error) {
             setError(error as Error);
         }
@@ -189,6 +198,10 @@ const LuckyNumberActivityPage: React.FC = () => {
                 description={activityInfo?.description}
                 name={activityInfo?.name}
             />
+            <p className="text-lg  text-rose-600 flex items-center gap-2 mb-16">
+                注意啦 <Heart className="w-5 h-5 inline" />{' '}
+                只能抽取一次，不能重复抽哦
+            </p>
             {luckyNumber === null ? (
                 <InitialInterface onClick={handleClickOpen} />
             ) : (

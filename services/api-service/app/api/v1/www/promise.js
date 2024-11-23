@@ -5,7 +5,7 @@ import Router from 'koa-router';
 import path from 'path';
 
 const router = new Router({
-    prefix: '/api/v1/promise',
+    prefix: '/api/v1/www/promise',
 });
 
 router.get('/result', async ctx => {

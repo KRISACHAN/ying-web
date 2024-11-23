@@ -1,4 +1,4 @@
-import { useCallback,useState } from 'react';
+import { useCallback, useState } from 'react';
 
 import axiosInstance from '@/services/axios';
 import type {
@@ -23,7 +23,7 @@ export const useLuckyNumber = () => {
             try {
                 const response =
                     await axiosInstance.post<CreateLuckyNumberResponse>(
-                        '/admin/lucky-number/create',
+                        '/lucky-number/create',
                         params,
                     );
                 const { data } = response ?? {};
@@ -46,7 +46,7 @@ export const useLuckyNumber = () => {
             try {
                 const response =
                     await axiosInstance.put<CancelParticipationLuckyNumberResponse>(
-                        `/admin/lucky-number/cancel-participation`,
+                        `/lucky-number/cancel-participation`,
                         params,
                     );
                 const { data } = response ?? {};
@@ -66,7 +66,7 @@ export const useLuckyNumber = () => {
         setError(null);
         try {
             const response = await axiosInstance.get<QueryLuckyNumberResponse>(
-                `/admin/lucky-number/query/${key}`,
+                `/lucky-number/query/${key}`,
             );
             const { data } = response ?? {};
             return data;
@@ -84,7 +84,7 @@ export const useLuckyNumber = () => {
         try {
             const response =
                 await axiosInstance.delete<DeleteLuckyNumberResponse>(
-                    `/admin/lucky-number/delete/${key}`,
+                    `/lucky-number/delete/${key}`,
                 );
             const { data } = response ?? {};
             return data;
@@ -108,7 +108,7 @@ export const useLuckyNumber = () => {
                         pagination: Pagination;
                     }
                 >(
-                    `/admin/lucky-number/list?page_num=${pageNum}&page_size=${pageSize}`,
+                    `/lucky-number/list?page_num=${pageNum}&page_size=${pageSize}`,
                 );
                 const { data, pagination } = response ?? {};
                 return {

@@ -10,7 +10,7 @@ interface CustomAxiosResponse<T = any> extends AxiosResponse<T> {
 }
 
 const axiosInstance = axios.create({
-    baseURL: `${import.meta.env.VITE_REQUEST_BASE_URL}/api/v1`,
+    baseURL: `${import.meta.env.VITE_REQUEST_BASE_URL}/api/v1/admin`,
     timeout: 10000,
 });
 

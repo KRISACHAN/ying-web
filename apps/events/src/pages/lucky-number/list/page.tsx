@@ -14,7 +14,7 @@ import {
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useInterval } from 'usehooks-ts';
-
+import { useHeader } from '@/contexts/header-context';
 import { useLuckyNumber } from '@/hooks/use-lucky-number';
 import NotFoundPage from '@/pages/404/page';
 import type { QueryLuckyNumberResponse } from '@/types/lucky-number';
@@ -93,11 +93,17 @@ const LuckyNumberListPage: React.FC = () => {
     const [activityInfo, setActivityInfo] =
         useState<QueryLuckyNumberResponse | null>(null);
     const [error, setError] = useState<Error | null>(null);
+    const headerContext = useHeader();
 
     const fetchActivityInfo = async () => {
         try {
             const data = await queryActivityInfo(activityKey);
             setActivityInfo(data);
+            headerContext.setHeaderInfo({
+                title: data.name,
+                description: data.description,
+                keywords: data.activity_key,
+            });
         } catch (error) {
             setError(error as Error);
         }
