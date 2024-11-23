@@ -7,13 +7,19 @@ function pathResolve(dir: string) {
     return path.resolve(process.cwd(), '.', dir);
 }
 
-// https://vitejs.dev/config/
 export default defineConfig({
     plugins: [
         react(),
         legacy({
-            targets: ['Android >= 4.4', 'iOS >= 9', 'ie >= 11', 'Chrome>=30'],
-            modernPolyfills: true,
+            targets: [
+                'Android >= 6',
+                'iOS >= 10',
+                'Chrome >= 60',
+                'Safari >= 10',
+                'Edge >= 16',
+                'defaults',
+            ],
+            additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
         }),
     ],
     optimizeDeps: {
@@ -23,6 +29,29 @@ export default defineConfig({
         alias: {
             '@': pathResolve('./src'),
             '@ying-web/tools': pathResolve('../../packages/tools/src'),
+        },
+    },
+    build: {
+        rollupOptions: {
+            external: [
+                '@ying-web/tools',
+                'axios',
+                'lucide-react',
+                'styled-components',
+                '@emotion/react',
+                '@emotion/styled',
+            ],
+            output: {
+                entryFileNames: '[name]-[hash].js',
+                chunkFileNames: '[name]-[hash].js',
+                assetFileNames: '[name]-[hash].[ext]',
+                // @TODO: Make it more elegant
+                manualChunks(id) {
+                    if (id.includes('node_modules')) {
+                        return 'vendor';
+                    }
+                },
+            },
         },
     },
 });
