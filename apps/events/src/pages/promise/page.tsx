@@ -1,6 +1,6 @@
 import './page.css';
 
-import { Button, Snackbar } from '@mui/material';
+import { Button, Snackbar, Box } from '@mui/material';
 import { Heart } from 'lucide-react';
 import React, { useState } from 'react';
 import { useDebounceCallback } from 'usehooks-ts';
@@ -42,45 +42,64 @@ const PromisePage: React.FC = () => {
     };
 
     return (
-        <div className="bg-[#EBF5FF] flex flex-col items-center">
-            <div className="flex items-center gap-2 mb-8">
-                <Heart className="w-9 h-9 text-red-400 fill-current" />
-                <h1 className="text-3xl font-bold">圣经应许</h1>
-            </div>
+        <Box
+            sx={{
+                minHeight: '100vh',
+                width: '100%',
+                px: { xs: 4, sm: 4 },
+                py: { xs: 4, sm: 4 },
+                background:
+                    'linear-gradient(135deg, #EBF5FF 0%, #F0F7FF 50%, #E6F3FF 100%)',
+            }}
+        >
+            <Box
+                sx={{
+                    mx: 'auto',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: 4,
+                }}
+            >
+                <div className="flex items-center gap-2 mb-8">
+                    <Heart className="w-9 h-9 text-red-400 fill-current" />
+                    <h1 className="text-3xl font-bold">圣经应许</h1>
+                </div>
 
-            <div className="w-full max-w-xl bg-white/80 rounded-xl p-6 mb-8 min-h-[100px] flex items-center justify-center shadow-sm overflow-y-auto">
-                <p className="text-2xl text-center">{promise}</p>
-            </div>
+                <div className="w-full max-w-xl bg-white/80 rounded-xl p-6 mb-8 min-h-[100px] flex items-center justify-center shadow-sm overflow-y-auto">
+                    <p className="text-2xl text-center">{promise}</p>
+                </div>
 
-            <div className="w-[calc(100%-32px)] max-w-xl flex gap-4 fixed bottom-8">
-                <Button
-                    onClick={debouncedFetchPromise}
-                    disabled={isLoading}
-                    className={`flex-1`}
-                    size="large"
-                    variant="contained"
-                >
-                    抽取经文
-                </Button>
+                <div className="w-[calc(100%-32px)] max-w-xl flex gap-4 fixed bottom-8">
+                    <Button
+                        onClick={debouncedFetchPromise}
+                        disabled={isLoading}
+                        className={`flex-1`}
+                        size="large"
+                        variant="contained"
+                    >
+                        抽取经文
+                    </Button>
 
-                <Button
-                    onClick={copyToClipboard}
-                    disabled={isLoading || isInit}
-                    className={`flex-1`}
-                    size="large"
-                    variant="outlined"
-                >
-                    复制
-                </Button>
-            </div>
-            <Snackbar
-                autoHideDuration={2000}
-                anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
-                open={snackbarOpen}
-                message={snackbarMessage}
-                onClose={() => setSnackbarOpen(false)}
-            />
-        </div>
+                    <Button
+                        onClick={copyToClipboard}
+                        disabled={isLoading || isInit}
+                        className={`flex-1`}
+                        size="large"
+                        variant="outlined"
+                    >
+                        复制
+                    </Button>
+                </div>
+                <Snackbar
+                    autoHideDuration={2000}
+                    anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+                    open={snackbarOpen}
+                    message={snackbarMessage}
+                    onClose={() => setSnackbarOpen(false)}
+                />
+            </Box>
+        </Box>
     );
 };
 

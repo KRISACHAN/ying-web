@@ -10,6 +10,7 @@ import {
     TableContainer,
     TableHead,
     TableRow,
+    Box,
 } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
@@ -125,17 +126,37 @@ const LuckyNumberListPage: React.FC = () => {
     }
 
     return (
-        <div className="lucky-number-list-page w-full flex flex-col items-center">
-            <HeaderInterface
-                description={activityInfo?.description}
-                name={activityInfo?.name}
-            />
-            {error ? (
-                <Alert severity="error">获取活动数据失败，请稍后再试</Alert>
-            ) : (
-                <TableInterface activityInfo={activityInfo} />
-            )}
-        </div>
+        <Box
+            sx={{
+                minHeight: '100vh',
+                width: '100%',
+                px: { xs: 2, sm: 4 },
+                py: { xs: 2, sm: 4 },
+                background:
+                    'linear-gradient(135deg, #EBF5FF 0%, #F0F7FF 50%, #E6F3FF 100%)',
+            }}
+            className="lucky-number-list-page"
+        >
+            <Box
+                sx={{
+                    mx: 'auto',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: 4,
+                }}
+            >
+                <HeaderInterface
+                    description={activityInfo?.description}
+                    name={activityInfo?.name}
+                />
+                {error ? (
+                    <Alert severity="error">获取活动数据失败，请稍后再试</Alert>
+                ) : (
+                    <TableInterface activityInfo={activityInfo} />
+                )}
+            </Box>
+        </Box>
     );
 };
 
