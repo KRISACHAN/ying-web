@@ -1,6 +1,4 @@
-import './page.css';
-
-import { Button, Snackbar, Box } from '@mui/material';
+import { Box, Button, Snackbar } from '@mui/material';
 import { Heart } from 'lucide-react';
 import React, { useState } from 'react';
 import { useDebounceCallback } from 'usehooks-ts';

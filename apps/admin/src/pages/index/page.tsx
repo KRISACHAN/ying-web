@@ -1,6 +1,4 @@
-import './page.css';
-
-import { Card, Col,Row } from 'antd';
+import { Card, Col, Row } from 'antd';
 import { Activity } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 

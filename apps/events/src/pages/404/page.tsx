@@ -1,5 +1,3 @@
-import './page.css';
-
 import { Heart } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';

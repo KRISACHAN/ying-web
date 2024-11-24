@@ -1,5 +1,3 @@
-import './page.css';
-
 import { List, ListItem, ListItemButton, ListItemIcon } from '@mui/material';
 import { Heart } from 'lucide-react';
 import React from 'react';

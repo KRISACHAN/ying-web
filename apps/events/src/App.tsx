@@ -2,13 +2,13 @@ import './index.css';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { HeaderProvider } from './contexts/header-context';
-import BaseLayout from './layouts/base/layout';
-import NotFoundPage from './pages/404/page';
-import IndexPage from './pages/index/page';
-import LuckyNumberActivityPage from './pages/lucky-number/activity/page';
-import LuckyNumberListPage from './pages/lucky-number/list/page';
-import PromisePage from './pages/promise/page';
+import { HeaderProvider } from './contexts/HeaderContext';
+import BaseLayout from './layouts/Base/Layout';
+import NotFoundPage from './pages/404/Page';
+import IndexPage from './pages/Index/Page';
+import LuckyNumberActivityPage from './pages/LuckyNumber/Activity/Page';
+import LuckyNumberListPage from './pages/LuckyNumber/List/Page';
+import PromisePage from './pages/Promise/Page';
 
 function App() {
     return (

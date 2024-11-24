@@ -1,9 +1,7 @@
-import './layout.css';
+import { Avatar, Dropdown, Layout, Menu } from 'antd';
+import { Outlet, useNavigate } from 'react-router-dom';
 
-import { Avatar, Dropdown,Layout, Menu } from 'antd';
-import { Outlet,useNavigate  } from 'react-router-dom';
-
-import { useAuth } from '@/hooks/use-auth';
+import { useAuth } from '@/hooks/useAuth';
 import { localCache } from '@/services/storage';
 
 const { Header, Content, Sider } = Layout;

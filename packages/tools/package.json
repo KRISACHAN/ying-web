@@ -20,14 +20,14 @@
         "src"
     ],
     "scripts": {
-        "build": "npm run build:clean && npm run build:esm && npm run build:cjs && npm run build:types",
+        "build": "pnpm build:clean && pnpm build:esm && pnpm build:cjs && pnpm build:types",
         "build:clean": "rimraf dist",
         "build:esm": "tsc -p tsconfig.esm.json",
         "build:cjs": "tsc -p tsconfig.cjs.json",
         "build:types": "tsc -p tsconfig.types.json",
-        "test": "NODE_ENV=testing jest --colors --forceExit",
-        "test:coverage": "NODE_ENV=testing jest --coverage",
-        "test:clear": "NODE_ENV=testing jest --clearCache",
+        "test": "cross-env NODE_ENV=testing jest --colors --forceExit",
+        "test:coverage": "cross-env NODE_ENV=testing jest --coverage",
+        "test:clear": "cross-env NODE_ENV=testing jest --clearCache",
         "lint": "eslint --fix src",
         "prettier": "prettier src --write",
         "docs": "typedoc --out docs src/index.ts"
@@ -41,11 +41,13 @@
     "author": "Kris <chenjinwen77@gmail.com> https://www.krissarea.com",
     "license": "MIT",
     "devDependencies": {
+        "@jest/types": "^29.6.3",
         "@types/jest": "^29.5.14",
         "@types/node": "^20.17.6",
         "@typescript-eslint/eslint-plugin": "^7.1.1",
         "@typescript-eslint/parser": "^7.1.1",
         "@typescript-eslint/typescript-estree": "^8.15.0",
+        "cross-env": "^7.0.3",
         "eslint": "^9.9.1",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import": "^2.30.0",
@@ -56,7 +58,8 @@
         "rimraf": "^5.0.5",
         "ts-jest": "^29.2.5",
         "tsconfig-paths-jest": "^0.0.1",
+        "tslib": "^2.8.1",
         "typedoc": "^0.25.9",
-        "typescript": "^5.5.0"
+        "typescript": "^5.6.3"
     }
 }

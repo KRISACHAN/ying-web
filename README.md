@@ -54,12 +54,12 @@ So, I should add these functions to the project:
 
 #### Root
 
--   [ ] `husky` + `lint-staged` + `commitlint`
+-   [x] `husky` + `lint-staged` + `commitlint`
 -   [ ] `Webhook` (Maybe github actions or vercel or even others) + `Docker`
 
 #### Detailed projects
 
--   [ ] `changeset`
+-   [x] `changeset`
 -   [ ] Detailed documents
 
 ### @ying-web/api-service

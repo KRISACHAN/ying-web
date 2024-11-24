@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
+import legacy from '@vitejs/plugin-legacy';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import legacy from '@vitejs/plugin-legacy';
+import { defineConfig } from 'vite';
 
 function pathResolve(dir: string) {
     return path.resolve(process.cwd(), '.', dir);
@@ -9,20 +9,32 @@ function pathResolve(dir: string) {
 
 export default defineConfig({
     plugins: [
-        react(),
+        react({
+            jsxRuntime: 'automatic',
+        }),
         legacy({
             targets: [
                 'Android >= 6',
                 'iOS >= 10',
                 'Chrome >= 60',
                 'Safari >= 10',
+                'Firefox >= 60',
                 'Edge >= 16',
-                'defaults',
             ],
+            modernPolyfills: true,
             additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
         }),
     ],
     optimizeDeps: {
+        include: [
+            'react',
+            'react-dom',
+            'react-router-dom',
+            'antd',
+            '@formily/core',
+            '@formily/react',
+            '@formily/antd-v5',
+        ],
         exclude: ['lucide-react'],
     },
     resolve: {
@@ -32,26 +44,27 @@ export default defineConfig({
         },
     },
     build: {
-        // @FIXME: CANNOT WORK !
-        // rollupOptions: {
-        //     external: [
-        //         '@ying-web/tools',
-        //         'axios',
-        //         'lucide-react',
-        //         'styled-components',
-        //         '@emotion/react',
-        //         '@emotion/styled',
-        //     ],
-        //     output: {
-        //         entryFileNames: '[name]-[hash].js',
-        //         chunkFileNames: '[name]-[hash].js',
-        //         assetFileNames: '[name]-[hash].[ext]',
-        //         manualChunks(id) {
-        //             if (id.includes('node_modules')) {
-        //                 return 'vendor';
-        //             }
-        //         },
-        //     },
-        // },
+        minify: 'terser',
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+                    'antd-vendor': ['antd', '@formily/antd-v5'],
+                    'formily-vendor': ['@formily/core', '@formily/react'],
+                    'utils-vendor': ['axios', 'lucide-react', 'dayjs'],
+                },
+                entryFileNames: 'assets/[name]-[hash].js',
+                chunkFileNames: 'assets/[name]-[hash].js',
+                assetFileNames: 'assets/[name]-[hash].[ext]',
+            },
+        },
+        terserOptions: {
+            compress: {
+                drop_console: true,
+                drop_debugger: true,
+            },
+        },
+        sourcemap: false,
+        assetsDir: 'assets',
     },
 });

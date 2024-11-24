@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-import { useHeader } from '@/contexts/header-context';
+import { useHeader } from '@/contexts/HeaderContext';
 
 const BaseLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const { title, description, keywords } = useHeader();
