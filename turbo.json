@@ -6,17 +6,23 @@
         "**/.env.*production",
         "**/.env.*development"
     ],
-    "globalEnv": [
-        "NODE_ENV"
-    ],
+    "globalEnv": ["NODE_ENV"],
     "tasks": {
         "build": {
             "dependsOn": ["^build"],
-            "outputs": [".output/**", "dist/**", "dist-app/**"]
+            "outputs": ["dist/**", ".next/**", "build/**"],
+            "cache": true
         },
         "dev": {
             "cache": false,
             "persistent": true
+        },
+        "clean": {
+            "cache": false
+        },
+        "deploy": {
+            "dependsOn": ["build"],
+            "cache": false
         }
     }
 }

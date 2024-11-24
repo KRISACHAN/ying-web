@@ -9,20 +9,31 @@ function pathResolve(dir: string) {
 
 export default defineConfig({
     plugins: [
-        react(),
+        react({
+            jsxRuntime: 'automatic',
+        }),
         legacy({
             targets: [
                 'Android >= 6',
                 'iOS >= 10',
                 'Chrome >= 60',
                 'Safari >= 10',
+                'Firefox >= 60',
                 'Edge >= 16',
-                'defaults',
             ],
+            modernPolyfills: true,
             additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
         }),
     ],
     optimizeDeps: {
+        include: [
+            'react',
+            'react-dom',
+            'react-router-dom',
+            '@mui/material',
+            '@emotion/react',
+            '@emotion/styled',
+        ],
         exclude: ['lucide-react'],
     },
     resolve: {
@@ -32,29 +43,37 @@ export default defineConfig({
         },
     },
     build: {
-        // @FIXME: CANNOT WORK !
-        // rollupOptions: {
-        //     external: [
-        //         '@ying-web/tools',
-        //         'axios',
-        //         'lucide-react',
-        //         'styled-components',
-        //         '@emotion/react',
-        //         '@emotion/styled',
-        //         '@mui/material',
-        //         '@mui/icons-material',
-        //     ],
-        //     output: {
-        //         entryFileNames: '[name]-[hash].js',
-        //         chunkFileNames: '[name]-[hash].js',
-        //         assetFileNames: '[name]-[hash].[ext]',
-        //         // @TODO: Make it more elegant
-        //         manualChunks(id) {
-        //             if (id.includes('node_modules')) {
-        //                 return 'vendor';
-        //             }
-        //         },
-        //     },
-        // },
+        minify: 'terser',
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+                    'mui-vendor': [
+                        '@mui/material',
+                        '@mui/icons-material',
+                        '@emotion/react',
+                        '@emotion/styled',
+                    ],
+                    'utils-vendor': [
+                        'axios',
+                        'lucide-react',
+                        'react-confetti',
+                        'react-helmet-async',
+                        'usehooks-ts',
+                    ],
+                },
+                entryFileNames: 'assets/[name]-[hash].js',
+                chunkFileNames: 'assets/[name]-[hash].js',
+                assetFileNames: 'assets/[name]-[hash].[ext]',
+            },
+        },
+        terserOptions: {
+            compress: {
+                drop_console: true,
+                drop_debugger: true,
+            },
+        },
+        sourcemap: false,
+        assetsDir: 'assets',
     },
 });

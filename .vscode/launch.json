@@ -1,0 +1,70 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🔧 Launch Events App",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/apps/events/src",
+            "sourceMapPathOverrides": {
+                "webpack:///src/*": "${webRoot}/*"
+            },
+            "skipFiles": [
+                "<node_internals>/**",
+                "${workspaceFolder}/node_modules/**"
+            ]
+        },
+        {
+            "name": "🔍 Attach to Events App",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}/apps/events/src",
+            "sourceMapPathOverrides": {
+                "webpack:///src/*": "${webRoot}/*"
+            }
+        },
+        {
+            "name": "🧪 Debug Current Test File",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/jest",
+            "args": [
+                "${fileBasename}",
+                "--runInBand",
+                "--watchAll=false",
+                "--testTimeout=10000",
+                "--colors"
+            ],
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "windows": {
+                "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+            }
+        },
+        {
+            "name": "🔧 Debug Current TS File",
+            "type": "node",
+            "request": "launch",
+            "runtimeArgs": ["-r", "ts-node/register"],
+            "args": ["${file}"],
+            "cwd": "${workspaceFolder}",
+            "internalConsoleOptions": "openOnSessionStart",
+            "skipFiles": [
+                "<node_internals>/**",
+                "${workspaceFolder}/node_modules/**"
+            ]
+        }
+    ],
+    "compounds": [
+        {
+            "name": "🚀 Full Stack: Events App",
+            "configurations": [
+                "🔧 Launch Events App",
+                "🔧 Debug Current TS File"
+            ]
+        }
+    ]
+}
