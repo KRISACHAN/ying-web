@@ -3,7 +3,7 @@
 module.exports = {
     apps: [
         {
-            name: 'ying-service',
+            name: 'ying-api-service',
             script: 'dist-app/index.js',
             cwd: './',
             args: '',
@@ -25,7 +25,7 @@ module.exports = {
 
     deploy: {
         production: {
-            'post-deploy': 'yarn && pm2 reload ecosystem.config.js',
+            'post-deploy': 'pnpm install && pm2 reload ecosystem.config.js',
         },
     },
 };
