@@ -1,4 +1,5 @@
-import './page.less';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 import {
     Alert,
@@ -12,17 +13,17 @@ import {
     TableHead,
     TableRow,
 } from '@mui/material';
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
 import { useInterval } from 'usehooks-ts';
 
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
+import { luckyNumberTheme } from '@/theme/luckyNumber';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 
-import { luckyNumberTheme } from '@/theme/luckyNumber';
 import HeaderInterface from '../components/Header/Index';
+
+import './page.less';
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
 };

@@ -4,7 +4,7 @@ module.exports = {
     apps: [
         {
             name: 'ying-api-service',
-            script: 'dist-app/index.js',
+            script: 'dist/index.js',
             cwd: './',
             args: '',
             interpreter: '',
@@ -25,7 +25,8 @@ module.exports = {
 
     deploy: {
         production: {
-            'post-deploy': 'pnpm install && pm2 reload ecosystem.config.js',
+            'post-deploy':
+                'pnpm install && pnpm run build && pm2 reload ecosystem.config.js',
         },
     },
 };

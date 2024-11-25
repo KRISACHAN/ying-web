@@ -26,11 +26,7 @@
         "source.fixAll.stylelint": "explicit"
     },
     "stylelint.enable": true,
-    "stylelint.validate": [
-        "css",
-        "less",
-        "postcss"
-    ],
+    "stylelint.validate": ["css", "less", "postcss"],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,

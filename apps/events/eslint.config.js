@@ -1,10 +1,10 @@
 import js from '@eslint/js';
-import globals from 'globals';
+import importPlugin from 'eslint-plugin-import';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
-import tseslint from 'typescript-eslint';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
-import importPlugin from 'eslint-plugin-import';
+import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
 export default tseslint.config({
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
@@ -40,8 +40,22 @@ export default tseslint.config({
             'warn',
             { allowConstantExport: true },
         ],
+        'simple-import-sort/imports': [
+            'error',
+            {
+                groups: [
+                    ['^node:'],
+                    ['^react', '^react-dom'],
+                    ['^@?\\w'],
+                    ['^@/'],
+                    ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+                    ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+                    ['^.+\\.?(css|less)$'],
+                    ['^\\u0000'],
+                ],
+            },
+        ],
         // @TODO: Strongly recommend
-        'simple-import-sort/imports': 'error',
         'simple-import-sort/exports': 'error',
         'import/first': 'error',
         'import/no-duplicates': 'error',

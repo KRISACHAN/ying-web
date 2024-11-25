@@ -1,6 +1,7 @@
-import { Button, Card, Table } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+
+import { Button, Card, Table } from 'antd';
 
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
@@ -124,7 +125,9 @@ const LuckyNumberDetail = () => {
             <Table
                 columns={columns}
                 dataSource={numbers}
-                rowKey="drawn_number"
+                rowKey={record =>
+                    `${record.drawn_number}_${record.user_name || 'empty'}`
+                }
                 loading={loading}
                 pagination={{
                     pageSize: 50,

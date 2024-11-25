@@ -50,7 +50,7 @@ module.exports = [
             'node_modules',
             'public',
             'sql',
-            'dist-app',
+            'dist',
             'tests',
             'pnpm-lock.yaml',
             '.turbo',

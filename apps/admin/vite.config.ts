@@ -34,15 +34,7 @@ export default defineConfig({
         },
     },
     optimizeDeps: {
-        include: [
-            'react',
-            'react-dom',
-            'react-router-dom',
-            'antd',
-            '@formily/core',
-            '@formily/react',
-            '@formily/antd-v5',
-        ],
+        include: ['react', 'react-dom', 'react-router-dom', 'antd'],
         exclude: ['lucide-react'],
     },
     resolve: {
@@ -57,8 +49,7 @@ export default defineConfig({
             output: {
                 manualChunks: {
                     'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-                    'antd-vendor': ['antd', '@formily/antd-v5'],
-                    'formily-vendor': ['@formily/core', '@formily/react'],
+                    'antd-vendor': ['antd'],
                     'utils-vendor': ['axios', 'lucide-react', 'dayjs'],
                 },
                 entryFileNames: 'assets/[name]-[hash].js',

@@ -1,5 +1,3 @@
-import './styles/index.less';
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { HeaderProvider } from './contexts/HeaderContext';
@@ -9,6 +7,8 @@ import IndexPage from './pages/Index/Page';
 import LuckyNumberActivityPage from './pages/LuckyNumber/Activity/Page';
 import LuckyNumberListPage from './pages/LuckyNumber/List/Page';
 import PromisePage from './pages/promise/Page';
+
+import './styles/index.less';
 
 function App() {
     return (

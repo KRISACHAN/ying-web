@@ -1,5 +1,6 @@
-import { Gift } from 'lucide-react';
 import React from 'react';
+
+import { Gift } from 'lucide-react';
 
 const Header: React.FC<{
     description?: string;

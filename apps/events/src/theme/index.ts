@@ -1,7 +1,7 @@
 import { createTheme } from '@mui/material/styles';
+
 import { luckyNumberTheme } from './luckyNumber';
 
-// 创建基础主题
 const baseTheme = createTheme({
     palette: {
         primary: {
@@ -16,11 +16,9 @@ const baseTheme = createTheme({
             dark: '#c62828',
             contrastText: '#ffffff',
         },
-        // ... 其他基础配置
     },
 });
 
-// 为 Lucky Number 页面创建特定主题
 export const luckyNumberMuiTheme = createTheme({
     ...baseTheme,
     palette: {
@@ -36,12 +34,11 @@ export const luckyNumberMuiTheme = createTheme({
         MuiTextField: {
             styleOverrides: {
                 root: {
-                    // ... Lucky Number 特定的样式
+                    // ... Lucky Number specific styles
                 },
             },
         },
     },
 });
 
-// 导出默认主题（用于其他页面）
 export const theme = baseTheme;

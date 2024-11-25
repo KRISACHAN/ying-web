@@ -1,5 +1,6 @@
-import { Button, Form, Input, message } from 'antd';
 import { useNavigate } from 'react-router-dom';
+
+import { Button, Form, Input, message } from 'antd';
 
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 

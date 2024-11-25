@@ -1,6 +1,7 @@
+import React, { useState } from 'react';
+
 import { Box, Button, Snackbar } from '@mui/material';
 import { Heart } from 'lucide-react';
-import React, { useState } from 'react';
 import { useDebounceCallback } from 'usehooks-ts';
 
 import axiosInstance from '@/services/axios';

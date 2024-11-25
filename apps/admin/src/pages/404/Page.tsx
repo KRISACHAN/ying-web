@@ -1,6 +1,7 @@
-import { Heart } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+import { Heart } from 'lucide-react';
 
 const NotFoundPage: React.FC<{ title?: string; message?: string }> = ({
     title = '404 - 页面不存在',

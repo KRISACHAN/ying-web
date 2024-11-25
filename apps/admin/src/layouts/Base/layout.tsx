@@ -1,5 +1,6 @@
-import { Avatar, Dropdown, Layout, Menu } from 'antd';
 import { Outlet, useNavigate } from 'react-router-dom';
+
+import { Avatar, Dropdown, Layout, Menu } from 'antd';
 
 import { useAuth } from '@/hooks/useAuth';
 import { localCache } from '@/services/storage';

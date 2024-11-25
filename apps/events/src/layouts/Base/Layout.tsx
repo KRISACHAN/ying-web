@@ -1,9 +1,10 @@
-import { theme } from '@/theme';
-import { ThemeProvider } from '@mui/material/styles';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
+import { ThemeProvider } from '@mui/material/styles';
+
 import { useHeader } from '@/contexts/HeaderContext';
+import { theme } from '@/theme';
 
 const BaseLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const { title, description, keywords } = useHeader();

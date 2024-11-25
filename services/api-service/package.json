@@ -11,11 +11,11 @@
     ],
     "author": "Kris <chenjinwen77@gmail.com> https://www.krissarea.com",
     "license": "MIT",
-    "main": "dist-app/index.js",
+    "main": "dist/index.js",
     "scripts": {
         "dev": "gulp dev",
         "build": "gulp build",
-        "start": "node dist-app/index.js",
+        "start": "node dist/index.js",
         "jest": "NODE_ENV=testing jest --colors --coverage tests --forceExit",
         "lint": "eslint --fix app",
         "lint:all": "eslint --fix .",

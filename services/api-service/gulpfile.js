@@ -6,7 +6,7 @@ const uglify = require('gulp-uglify');
 const nodemon = require('gulp-nodemon');
 const plumber = require('gulp-plumber');
 
-const cleanDist = () => src('./dist-app/*', { read: false }).pipe(clean());
+const cleanDist = () => src('./dist/*', { read: false }).pipe(clean());
 
 const compileBabel = () =>
     src('./app/**/*.js')
@@ -17,13 +17,13 @@ const compileBabel = () =>
             }),
         )
         .pipe(uglify())
-        .pipe(dest('./dist-app/'));
+        .pipe(dest('./dist/'));
 
 const compileFile = () =>
     src('./app/**/*', {
         ignore: ['./app/**/*.js', './app/**/*.md'],
         dot: true,
-    }).pipe(dest('./dist-app/'));
+    }).pipe(dest('./dist/'));
 
 const watchApp = done => {
     const stream = nodemon({
@@ -31,7 +31,7 @@ const watchApp = done => {
         ext: 'js',
         ignore: [
             '.git/',
-            'dist-app/',
+            'dist/',
             'node_modules/',
             'tests/',
             'app/public',

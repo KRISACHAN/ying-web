@@ -1,6 +1,7 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import { ConfigProvider } from 'antd';
 import zhCN from 'antd/locale/zh_CN';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import AuthGuard from './components/AuthGuard/Index';
 import BaseLayout from './layouts/Base/layout';

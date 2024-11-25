@@ -24,7 +24,6 @@ function getSubprojects(dir) {
         .filter(Boolean)
 }
 
-// 构建项目
 function buildProjects(projects) {
     projects.forEach((project) => {
         console.log(`Building project: ${project}`)

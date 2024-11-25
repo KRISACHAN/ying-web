@@ -1,10 +1,7 @@
-import './page.less';
+import React, { useEffect, useState } from 'react';
+import Confetti from 'react-confetti';
+import { useParams } from 'react-router-dom';
 
-import { useHeader } from '@/contexts/HeaderContext';
-import { useLuckyNumber } from '@/hooks/useLuckyNumber';
-import NotFoundPage from '@/pages/404/Page';
-import axiosInstance from '@/services/axios';
-import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 import {
     Avatar,
     Box,
@@ -16,19 +13,24 @@ import {
     Paper,
     Snackbar,
     TextField,
+    type Theme,
     Typography,
     useTheme,
-    type Theme,
 } from '@mui/material';
 import type { AxiosError } from 'axios';
 import { Gift, Heart, Loader2 } from 'lucide-react';
-import React, { useEffect, useState } from 'react';
-import Confetti from 'react-confetti';
-import { useParams } from 'react-router-dom';
 import { useLocalStorage } from 'usehooks-ts';
 
+import { useHeader } from '@/contexts/HeaderContext';
+import { useLuckyNumber } from '@/hooks/useLuckyNumber';
+import NotFoundPage from '@/pages/404/Page';
+import axiosInstance from '@/services/axios';
 import { luckyNumberTheme } from '@/theme/luckyNumber';
+import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
+
 import HeaderInterface from '../components/Header/Index';
+
+import './page.less';
 
 type GetActivityResponse = Pick<
     QueryLuckyNumberResponse,

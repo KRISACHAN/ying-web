@@ -7,7 +7,7 @@ const directoriesToClean = [
     '.turbo',
     'node_modules',
     '.output',
-    'dist-app',
+    'dist',
     'dist',
     '.next',
     'out',

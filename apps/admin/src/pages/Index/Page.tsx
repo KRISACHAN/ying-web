@@ -1,6 +1,7 @@
+import { useNavigate } from 'react-router-dom';
+
 import { Card, Col, Row } from 'antd';
 import { Activity } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
 
 const Index = () => {
     const navigate = useNavigate();

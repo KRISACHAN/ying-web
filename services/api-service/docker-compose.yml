@@ -14,7 +14,7 @@ services:
             - redis
             - mysql
         volumes:
-            - ./dist-app:/app/dist-app
+            - ./dist:/app/dist
         command: ['pm2-runtime', 'start', 'ecosystem.config.js']
 
     redis:
