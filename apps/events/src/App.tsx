@@ -1,4 +1,4 @@
-import './index.css';
+import './styles/index.less';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
