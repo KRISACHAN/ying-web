@@ -64,7 +64,7 @@ pnpm prettier        # Prettier for src directory
 pnpm prettier:all    # Prettier for all files
 
 # Style linting
-pnpm stylelint      # Check CSS/LESS/SCSS files
+pnpm stylelint      # Check CSS/LESS files
 pnpm stylelint:fix  # Auto-fix style issues
 ```
 
