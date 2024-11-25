@@ -25,6 +25,14 @@ export default defineConfig({
             additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
         }),
     ],
+    css: {
+        preprocessorOptions: {
+            less: {
+                javascriptEnabled: true,
+                additionalData: '@root-entry-name: default;',
+            },
+        },
+    },
     optimizeDeps: {
         include: [
             'react',

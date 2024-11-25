@@ -1,4 +1,4 @@
-import './index.css';
+import './styles/index.less';
 
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
