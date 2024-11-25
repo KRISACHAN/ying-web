@@ -28,11 +28,8 @@
     "stylelint.enable": true,
     "stylelint.validate": [
         "css",
-        "scss",
         "less",
-        "postcss",
-        "typescript",
-        "typescriptreact"
+        "postcss"
     ],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
@@ -54,7 +51,7 @@
     "explorer.fileNesting.patterns": {
         // Project Configuration Files
         // Group all configuration files under package.json for better organization
-        "package.json": ".npmrc, .czrc, .prettierrc*, .eslintrc*, .stylelintrc*, .lintstagedrc*, pnpm-lock.yaml, pnpm-workspace.yaml, .editorconfig, .gitignore, .gitattributes, .browserslistrc, commitlint.config.js, monorepo.code-workspace, turbo.json, .changeset/config.json, .babelrc, ecosystem.config.js, docker-compose.yml, Dockerfile, jest.config.js, jsconfig.json, tsconfig.json, tsconfig.*.json, vite.config.ts, vite.config.*.ts, package-lock.json",
+        "package.json": ".npmrc, .czrc, .prettierrc*, .eslintrc*, .lintstagedrc*, pnpm-lock.yaml, pnpm-workspace.yaml, .editorconfig, .gitignore, .gitattributes, .browserslistrc, commitlint.config.js, monorepo.code-workspace, turbo.json, .changeset/config.json, .babelrc, ecosystem.config.js, docker-compose.yml, Dockerfile, jest.config.js, jsconfig.json, tsconfig.json, tsconfig.*.json, vite.config.ts, vite.config.*.ts, package-lock.json",
 
         // Environment Files
         // Group environment and configuration files
@@ -62,7 +59,7 @@
 
         // Static Analysis Files
         // Group linting and formatting configuration files
-        "eslint.config.js": ".eslintignore,eslint.config.js,jest.setup.js, jest.*.js, .stylelintignore, stylelint.config.js, .prettierignore, prettier.config.js, postcss.config.js, tailwind.config.js",
+        "eslint.config.js": ".eslintignore,eslint.config.js,jest.setup.js, jest.*.js, .stylelintrc*, .stylelintignore, stylelint.config.js, .prettierignore, prettier.config.js, postcss.config.js, tailwind.config.js",
 
         // Build and Deploy Files
         // Group build and deployment configuration files
@@ -72,17 +69,17 @@
         // TypeScript/JavaScript Source Files
         // Group source files with their corresponding test, definition and map files
         "*.ts": "${capture}.js, ${capture}.d.ts, ${capture}.test.ts, ${capture}.test.tsx, ${capture}.spec.ts, ${capture}.spec.tsx, ${capture}.mock.ts",
-        "*.tsx": "${capture}.css, ${capture}.less, ${capture}.scss, ${capture}.module.css, ${capture}.module.less, ${capture}.module.scss, ${capture}.test.ts, ${capture}.test.tsx, ${capture}.spec.ts, ${capture}.spec.tsx",
+        "*.tsx": "${capture}.css, ${capture}.less, ${capture}.module.css, ${capture}.module.less, ${capture}.test.ts, ${capture}.test.tsx, ${capture}.spec.ts, ${capture}.spec.tsx",
         "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-        "*.jsx": "${capture}.css, ${capture}.less, ${capture}.scss, ${capture}.module.css, ${capture}.module.less, ${capture}.module.scss",
+        "*.jsx": "${capture}.css, ${capture}.less, ${capture}.module.css, ${capture}.module.less",
 
         // React Component Files
         // Group index files with their related files
         "index.ts": "index.d.ts, index.test.ts, index.spec.ts",
-        "index.tsx": "index.css, index.less, index.scss, index.module.css, index.module.less, index.module.scss, index.test.tsx, index.spec.tsx",
-        "page.tsx": "page.css, page.less, page.scss, page.module.css, page.module.less, page.module.scss, page.test.tsx, page.spec.tsx",
-        "layout.tsx": "layout.css, layout.less, layout.scss, layout.module.css, layout.module.less, module.scss, layout.test.tsx, layout.spec.tsx",
-        "component.tsx": "component.css, component.less, component.scss, component.module.css, component.module.less, component.module.scss, component.test.tsx, component.spec.tsx",
+        "index.tsx": "index.css, index.less, index.module.css, index.module.less, index.test.tsx, index.spec.tsx",
+        "page.tsx": "page.css, page.less, page.module.css, page.module.less, page.test.tsx, page.spec.tsx",
+        "layout.tsx": "layout.css, layout.less, layout.module.css, layout.module.less, layout.test.tsx, layout.spec.tsx",
+        "component.tsx": "component.css, component.less, component.module.css, component.module.less, component.test.tsx, component.spec.tsx",
 
         // Backend API Files
         // Group API related files with their implementations and tests

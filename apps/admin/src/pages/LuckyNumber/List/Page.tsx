@@ -1,6 +1,6 @@
 import { Button, message, Popconfirm, Space, Table } from 'antd';
 import dayjs from 'dayjs';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';

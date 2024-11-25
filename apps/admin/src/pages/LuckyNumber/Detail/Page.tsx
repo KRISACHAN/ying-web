@@ -1,5 +1,5 @@
 import { Button, Card, Table } from 'antd';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';

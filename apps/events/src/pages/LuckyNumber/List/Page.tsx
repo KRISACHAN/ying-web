@@ -1,7 +1,8 @@
-import './page.css';
+import './page.less';
 
 import {
     Alert,
+    Box,
     Paper,
     Skeleton,
     Table,
@@ -10,11 +11,11 @@ import {
     TableContainer,
     TableHead,
     TableRow,
-    Box,
 } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useInterval } from 'usehooks-ts';
+
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';

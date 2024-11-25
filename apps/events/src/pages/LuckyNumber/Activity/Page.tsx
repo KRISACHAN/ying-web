@@ -1,5 +1,10 @@
-import './page.css';
+import './page.less';
 
+import { useHeader } from '@/contexts/HeaderContext';
+import { useLuckyNumber } from '@/hooks/useLuckyNumber';
+import NotFoundPage from '@/pages/404/Page';
+import axiosInstance from '@/services/axios';
+import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 import {
     Avatar,
     Box,
@@ -22,12 +27,6 @@ import Confetti from 'react-confetti';
 import { useParams } from 'react-router-dom';
 import { useLocalStorage } from 'usehooks-ts';
 
-import { useHeader } from '@/contexts/HeaderContext';
-import { useLuckyNumber } from '@/hooks/useLuckyNumber';
-import NotFoundPage from '@/pages/404/Page';
-import axiosInstance from '@/services/axios';
-import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
-
 import HeaderInterface from '../components/Header/Index';
 
 type GetActivityResponse = Pick<
@@ -39,7 +38,7 @@ interface DrawLuckyNumberResponse {
     drawn_number: number;
 }
 
-const InitialInterface: React.FC<{ onClick: () => void; loading: boolean }> = ({
+const InitialInterface: React.FC<{ loading: boolean; onClick: () => void }> = ({
     onClick,
     loading,
 }) => {

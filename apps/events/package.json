@@ -12,8 +12,8 @@
         "lint:all": "eslint --fix .",
         "prettier": "prettier src --write",
         "prettier:all": "prettier . --write",
-        "stylelint": "stylelint \"src/**/*.{css,less,scss}\"",
-        "stylelint:fix": "stylelint \"src/**/*.{css,less,scss}\" --fix"
+        "stylelint": "stylelint \"src/**/*.{css,less}\"",
+        "stylelint:fix": "stylelint \"src/**/*.{css,less}\" --fix"
     },
     "keywords": [
         "Christian events",
@@ -62,11 +62,9 @@
         "less": "^4.2.0",
         "postcss": "^8.4.35",
         "postcss-less": "^6.0.0",
-        "postcss-scss": "^4.0.9",
         "prettier": "^3.2.5",
         "stylelint": "^16.10.0",
         "stylelint-config-standard": "^36.0.1",
-        "stylelint-config-standard-scss": "^13.1.0",
         "stylelint-order": "^6.0.4",
         "tailwindcss": "^3.4.1",
         "typescript": "^5.5.0",
