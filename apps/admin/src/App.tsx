@@ -3,9 +3,9 @@ import zhCN from 'antd/locale/zh_CN';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import AuthGuard from './components/AuthGuard/Index';
-import BaseLayout from './layouts/Base/Layout';
+import BaseLayout from './layouts/Base/layout';
 import NotFoundPage from './pages/404/Page';
-import IndexPage from './pages/Index/page';
+import IndexPage from './pages/Index/Page';
 import LoginPage from './pages/Login/Page';
 import LuckyNumberCreatePage from './pages/LuckyNumber/Create/Page';
 import LuckyNumberDetailPage from './pages/LuckyNumber/Detail/Page';

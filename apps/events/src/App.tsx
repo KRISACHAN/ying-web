@@ -8,7 +8,7 @@ import NotFoundPage from './pages/404/Page';
 import IndexPage from './pages/Index/Page';
 import LuckyNumberActivityPage from './pages/LuckyNumber/Activity/Page';
 import LuckyNumberListPage from './pages/LuckyNumber/List/Page';
-import PromisePage from './pages/Promise/Page';
+import PromisePage from './pages/promise/Page';
 
 function App() {
     return (
