@@ -21,38 +21,30 @@ import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 
+import { luckyNumberTheme } from '@/theme/luckyNumber';
 import HeaderInterface from '../components/Header/Index';
-
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
 };
 
-const TableCoreInterface: React.FC<{
-    activityInfo: QueryLuckyNumberResponse;
-}> = ({ activityInfo }) => {
-    return activityInfo.numbers.map(luckyNumber => (
-        <TableRow key={luckyNumber.drawn_number}>
-            <TableCell className="text-gray-700">
-                {luckyNumber.drawn_number}
-            </TableCell>
-            <TableCell className="text-gray-700">
-                {luckyNumber.is_drawn ? '是' : '否'}
-            </TableCell>
-            <TableCell className="text-gray-700">
-                {luckyNumber.user_name || '暂未抽取'}
-            </TableCell>
-        </TableRow>
-    ));
-};
-
 const TableSkeleton: React.FC = () => {
-    return Array.from(new Array(5)).map((_, index) => (
-        <TableRow key={index}>
-            <TableCell>
-                <Skeleton />
-            </TableCell>
-        </TableRow>
-    ));
+    return (
+        <>
+            {Array.from({ length: 5 }).map((_, index) => (
+                <TableRow key={`skeleton-row-${index}`}>
+                    <TableCell>
+                        <Skeleton />
+                    </TableCell>
+                    <TableCell>
+                        <Skeleton />
+                    </TableCell>
+                    <TableCell>
+                        <Skeleton />
+                    </TableCell>
+                </TableRow>
+            ))}
+        </>
+    );
 };
 
 const TableInterface: React.FC<{
@@ -61,25 +53,111 @@ const TableInterface: React.FC<{
     return (
         <TableContainer
             component={Paper}
-            className="max-w-2xl w-full mt-5 shadow-lg rounded-lg overflow-hidden"
+            sx={{
+                maxWidth: '1024px',
+                width: '100%',
+                borderRadius: 3,
+                overflow: 'hidden',
+                boxShadow: `0 4px 16px ${luckyNumberTheme.colors.background.overlay}`,
+                background: luckyNumberTheme.colors.background.paper,
+            }}
         >
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell className="bg-blue-500 text-white font-bold table-header">
+                        <TableCell
+                            sx={{
+                                background:
+                                    luckyNumberTheme.colors.background.primary,
+                                color: luckyNumberTheme.colors.text.primary,
+                                fontWeight: 'bold',
+                                borderBottom: `0px solid ${luckyNumberTheme.colors.border.primary}`,
+                                transition: 'background-color 0.2s ease',
+                                '&:first-of-type': {
+                                    borderTopLeftRadius: 12,
+                                },
+                                '&:last-child': {
+                                    borderTopRightRadius: 12,
+                                },
+                            }}
+                        >
                             号码
                         </TableCell>
-                        <TableCell className="bg-blue-500 text-white font-bold table-header">
+                        <TableCell
+                            sx={{
+                                background:
+                                    luckyNumberTheme.colors.background.primary,
+                                color: luckyNumberTheme.colors.text.primary,
+                                fontWeight: 'bold',
+                                borderBottom: `0px solid ${luckyNumberTheme.colors.border.primary}`,
+                                transition: 'background-color 0.2s ease',
+                            }}
+                        >
                             是否已经被抽取
                         </TableCell>
-                        <TableCell className="bg-blue-500 text-white font-bold table-header">
+                        <TableCell
+                            sx={{
+                                background:
+                                    luckyNumberTheme.colors.background.primary,
+                                color: luckyNumberTheme.colors.text.primary,
+                                fontWeight: 'bold',
+                                borderBottom: `0px solid ${luckyNumberTheme.colors.border.primary}`,
+                                transition: 'background-color 0.2s ease',
+                            }}
+                        >
                             抽取人
                         </TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
                     {activityInfo ? (
-                        <TableCoreInterface activityInfo={activityInfo} />
+                        activityInfo.numbers.map((luckyNumber, index) => (
+                            <TableRow
+                                key={`number-${luckyNumber.drawn_number}-${index}`}
+                                sx={{
+                                    '&:hover': {
+                                        backgroundColor:
+                                            luckyNumberTheme.colors.background
+                                                .overlay,
+                                    },
+                                }}
+                            >
+                                <TableCell
+                                    sx={{
+                                        color: luckyNumberTheme.colors.text
+                                            .primary,
+                                        fontWeight: 500,
+                                    }}
+                                >
+                                    {luckyNumber.drawn_number}
+                                </TableCell>
+                                <TableCell
+                                    sx={{
+                                        color: luckyNumber.is_drawn
+                                            ? luckyNumberTheme.colors.state
+                                                  .success
+                                            : luckyNumberTheme.colors.text
+                                                  .secondary,
+                                    }}
+                                >
+                                    {luckyNumber.is_drawn ? '是' : '否'}
+                                </TableCell>
+                                <TableCell
+                                    sx={{
+                                        color: luckyNumber.user_name
+                                            ? luckyNumberTheme.colors.text
+                                                  .primary
+                                            : luckyNumberTheme.colors.text
+                                                  .disabled,
+                                        fontStyle: luckyNumber.user_name
+                                            ? 'normal'
+                                            : 'italic',
+                                    }}
+                                >
+                                    {luckyNumber.user_name || '暂未抽取'}
+                                </TableCell>
+                            </TableRow>
+                        ))
                     ) : (
                         <TableSkeleton />
                     )}
@@ -128,15 +206,12 @@ const LuckyNumberListPage: React.FC = () => {
 
     return (
         <Box
+            className="bg-lucky-number-primary"
             sx={{
                 minHeight: '100vh',
                 width: '100%',
-                px: { xs: 2, sm: 4 },
-                py: { xs: 2, sm: 4 },
-                background:
-                    'linear-gradient(135deg, #EBF5FF 0%, #F0F7FF 50%, #E6F3FF 100%)',
+                p: { xs: 2, sm: 4 },
             }}
-            className="lucky-number-list-page"
         >
             <Box
                 sx={{

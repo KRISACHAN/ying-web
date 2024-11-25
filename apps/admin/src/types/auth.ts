@@ -32,5 +32,5 @@ export interface LoginResponse {
 }
 
 export interface RefreshTokenResponse {
-    accessToken: string;
+    access_token: string;
 }

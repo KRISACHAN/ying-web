@@ -29,7 +29,7 @@ router.post('/refresh-token', async ctx => {
     }
 
     const newAccessToken = generateAccessToken(decoded.uid, decoded.scopes);
-    ctx.body = { accessToken: newAccessToken };
+    ctx.body = { access_token: newAccessToken };
 });
 
 router.post(

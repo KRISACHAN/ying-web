@@ -33,9 +33,9 @@ const processQueue = (error: any = null) => {
 
 axiosInstance.interceptors.request.use(
     config => {
-        const token = localCache.get('accessToken');
-        if (token) {
-            config.headers.Authorization = `Bearer ${token}`;
+        const accessToken = localCache.get('accessToken');
+        if (accessToken) {
+            config.headers.Authorization = `Bearer ${accessToken}`;
         }
         return config;
     },
@@ -84,8 +84,8 @@ axiosInstance.interceptors.response.use(
                     },
                 );
 
-                const { accessToken } = response.data;
-                localCache.set('accessToken', accessToken);
+                const { access_token } = response.data;
+                localCache.set('accessToken', access_token);
 
                 processQueue();
                 return axiosInstance(originalRequest);
@@ -101,6 +101,8 @@ axiosInstance.interceptors.response.use(
                 isRefreshing = false;
             }
         }
+
+        message.error(error.response?.data?.message ?? '请求失败');
 
         return Promise.reject(error);
     },

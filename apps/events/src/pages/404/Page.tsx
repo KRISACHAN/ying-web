@@ -2,12 +2,19 @@ import { Heart } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const NotFoundPage: React.FC<{ title?: string; message?: string }> = ({
+const NotFoundPage: React.FC<{
+    title?: string;
+    message?: string;
+    className?: string;
+}> = ({
     title = '404 - 页面不存在',
     message = '要不你回到首页看看其它功能？',
+    className = 'bg-[#EBF5FF]',
 }) => {
     return (
-        <div className="min-h-screen bg-[#EBF5FF] flex flex-col items-center pt-8 px-4">
+        <div
+            className={`min-h-screen ${className} flex flex-col items-center pt-8 px-4`}
+        >
             <div className="flex items-center gap-2 mb-8">
                 <Heart className="w-9 h-9 text-red-400 fill-current" />
                 <h1 className="text-3xl font-bold">{title}</h1>

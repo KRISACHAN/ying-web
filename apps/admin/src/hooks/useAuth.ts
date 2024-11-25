@@ -45,7 +45,7 @@ export const useAuth = () => {
                 { refresh_token: refreshToken },
             );
             const { data } = response ?? {};
-            localCache.set('accessToken', data.accessToken);
+            localCache.set('accessToken', data.access_token);
             return response;
         } catch {
             throw new Error('刷新令牌失败，请重新登录');

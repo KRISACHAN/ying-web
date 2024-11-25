@@ -7,7 +7,7 @@ const routes = [{ path: '/promise', label: '抽取经文', icon: Heart }];
 
 const IndexPage: React.FC = () => {
     return (
-        <div>
+        <div className="bg-[#EBF5FF]">
             <h1 className="text-2xl p-4">功能列表</h1>
             <List>
                 {routes.map((route, index) => (
