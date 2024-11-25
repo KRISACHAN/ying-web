@@ -44,8 +44,8 @@ const PromisePage: React.FC = () => {
             sx={{
                 minHeight: '100vh',
                 width: '100%',
-                px: { xs: 4, sm: 4 },
-                py: { xs: 4, sm: 4 },
+                px: { xs: 2, sm: 4 },
+                py: { xs: 2, sm: 4 },
                 background:
                     'linear-gradient(135deg, #EBF5FF 0%, #F0F7FF 50%, #E6F3FF 100%)',
             }}

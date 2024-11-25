@@ -60,7 +60,8 @@ const InitialInterface: React.FC<{ onClick: () => void; loading: boolean }> = ({
             <Paper
                 elevation={3}
                 sx={{
-                    p: 4,
+                    py: 2,
+                    px: 2,
                     borderRadius: 4,
                     background: 'rgba(255, 255, 255, 0.9)',
                     backdropFilter: 'blur(10px)',
@@ -90,7 +91,7 @@ const InitialInterface: React.FC<{ onClick: () => void; loading: boolean }> = ({
                     gutterBottom
                     sx={{ fontWeight: 'bold' }}
                 >
-                    准备好获取你的幸运号码了吗？
+                    准备好开启新的一年了吗？
                 </Typography>
                 <Typography
                     variant="body1"
@@ -113,7 +114,6 @@ const InitialInterface: React.FC<{ onClick: () => void; loading: boolean }> = ({
                     }
                     sx={{
                         py: 2,
-                        px: 6,
                         borderRadius: 3,
                         fontSize: '1.1rem',
                         textTransform: 'none',
@@ -122,6 +122,7 @@ const InitialInterface: React.FC<{ onClick: () => void; loading: boolean }> = ({
                             transform: 'translateY(-2px)',
                             transition: 'transform 0.2s ease-in-out',
                         },
+                        width: '100%',
                     }}
                 >
                     {loading ? '获取中...' : '获取幸运号码'}
@@ -149,7 +150,8 @@ const ResultInterface: React.FC<{
                 <Paper
                     elevation={4}
                     sx={{
-                        p: 4,
+                        py: 2,
+                        px: 2,
                         borderRadius: 4,
                         background: 'rgba(255, 255, 255, 0.9)',
                         backdropFilter: 'blur(10px)',
@@ -184,7 +186,7 @@ const ResultInterface: React.FC<{
                         }}
                     >
                         <Heart className="text-rose-500" />
-                        恭喜，{storedName}
+                        恭喜 {storedName}
                     </Typography>
                     <Typography
                         variant="h6"
@@ -234,7 +236,9 @@ const ResultInterface: React.FC<{
                             mt: 2,
                         }}
                     >
-                        愿这个数字背后所蕴含的祝福，能成为你未来日子的能力！
+                        愿这个数字背后所蕴含的祝福，
+                        <br />
+                        能成为你未来日子的能力！
                     </Typography>
                 </Paper>
             </Box>
@@ -356,8 +360,8 @@ const LuckyNumberActivityPage: React.FC = () => {
             sx={{
                 minHeight: '100vh',
                 width: '100%',
-                px: { xs: 4, sm: 4 },
-                py: { xs: 4, sm: 4 },
+                px: { xs: 2, sm: 4 },
+                py: { xs: 2, sm: 4 },
                 background:
                     'linear-gradient(135deg, #EBF5FF 0%, #F0F7FF 50%, #E6F3FF 100%)',
             }}
@@ -385,6 +389,7 @@ const LuckyNumberActivityPage: React.FC = () => {
                         display: 'flex',
                         alignItems: 'center',
                         gap: 1,
+                        mb: 2,
                     }}
                 >
                     <Heart className="w-5 h-5 text-rose-500" />

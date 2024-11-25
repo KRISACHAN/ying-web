@@ -15,6 +15,7 @@ const LuckyNumberDetail = () => {
     const { queryActivity, loading, cancelParticipation } = useLuckyNumber();
     const [numbers, setNumbers] = useState<LuckyNumber[]>([]);
     const [activityKey, setActivityKey] = useState<string>('');
+    const [activityName, setActivityName] = useState<string>('');
     const [activityDescription, setActivityDescription] = useState<string>('');
     const [error, setError] = useState<Error | null>(null);
 
@@ -24,6 +25,7 @@ const LuckyNumberDetail = () => {
             const data = await queryActivity(key);
             setNumbers(data.numbers);
             setActivityKey(data.activity_key);
+            setActivityName(data.name);
             setActivityDescription(data.description);
         } catch (error) {
             setError(error as Error);
@@ -93,8 +95,8 @@ const LuckyNumberDetail = () => {
             >
                 <div className="grid grid-cols-2 gap-4">
                     <div>
-                        <p className="font-bold">活动标识：</p>
-                        <p>{activityKey}</p>
+                        <p className="font-bold">活动名称：</p>
+                        <p>{activityName}</p>
                     </div>
                     <div>
                         <p className="font-bold">活动描述：</p>
