@@ -25,7 +25,15 @@
         "source.organizeExports": "explicit",
         "source.fixAll.stylelint": "explicit"
     },
-    "stylelint.validate": ["css", "less", "scss"],
+    "stylelint.enable": true,
+    "stylelint.validate": [
+        "css",
+        "scss",
+        "less",
+        "postcss",
+        "typescript",
+        "typescriptreact"
+    ],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
