@@ -3,7 +3,6 @@ import Confetti from 'react-confetti';
 import { useParams } from 'react-router-dom';
 
 import {
-    Avatar,
     Box,
     Button,
     Dialog,
@@ -15,7 +14,7 @@ import {
     TextField,
     type Theme,
     Typography,
-    useTheme,
+    useTheme
 } from '@mui/material';
 import type { AxiosError } from 'axios';
 import { Gift, Heart, Loader2 } from 'lucide-react';
@@ -29,6 +28,7 @@ import { luckyNumberTheme } from '@/theme/luckyNumber';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 
 import HeaderInterface from '../components/Header/Index';
+import NumberAnimation from '../components/NumberAnimation';
 
 import './Page.less';
 
@@ -92,14 +92,14 @@ const InitialInterface: React.FC<{ loading: boolean; onClick: () => void }> = ({
                     gutterBottom
                     sx={{ fontWeight: 'bold' }}
                 >
-                    准备好开启新的一年了吗？
+                    准备好了吗？
                 </Typography>
                 <Typography
                     variant="body1"
                     className="text-lucky-number-primary opacity-75"
-                    sx={{ mb: 4 }}
+                    sx={{ mb: 2 }}
                 >
-                    点击下方按钮，开启你的幸运之旅
+                    点击按钮，开启幸运之旅
                 </Typography>
                 <Button
                     variant="contained"
@@ -128,7 +128,7 @@ const InitialInterface: React.FC<{ loading: boolean; onClick: () => void }> = ({
                         },
                     }}
                 >
-                    {loading ? '获取中...' : '获取幸运号码'}
+                    {loading ? '获取中...' : '开启幸运之旅'}
                 </Button>
             </Paper>
         </Box>
@@ -176,7 +176,7 @@ const ResultInterface: React.FC<{
                         variant="h4"
                         component="h2"
                         sx={{
-                            mb: 4,
+                            mb: 1,
                             color: luckyNumberTheme.colors.text.primary,
                             fontWeight: 'bold',
                             display: 'flex',
@@ -191,55 +191,23 @@ const ResultInterface: React.FC<{
                     <Typography
                         variant="h6"
                         sx={{
-                            mb: 3,
+                            mb: 1,
                             color: luckyNumberTheme.colors.text.secondary,
                         }}
                     >
                         你的幸运号码是
                     </Typography>
-                    <Box
-                        sx={{
-                            position: 'relative',
-                            mb: 4,
-                            '&::after': {
-                                content: '""',
-                                position: 'absolute',
-                                top: '50%',
-                                left: '50%',
-                                transform: 'translate(-50%, -50%)',
-                                width: '100%',
-                                height: '100%',
-                                borderRadius: '50%',
-                                background: `radial-gradient(circle, ${luckyNumberTheme.colors.background.overlay}, transparent)`,
-                                animation: 'pulse 2s ease-in-out infinite',
-                            },
-                        }}
-                    >
-                        <Avatar
-                            sx={{
-                                width: 200,
-                                height: 200,
-                                mx: 'auto',
-                                bgcolor: luckyNumberTheme.colors.primary,
-                                color: luckyNumberTheme.colors.text.inverse,
-                                fontSize: '4rem',
-                                fontWeight: 'bold',
-                                boxShadow: luckyNumberTheme.shadows.large,
-                            }}
-                        >
-                            {luckyNumber}
-                        </Avatar>
+                    <Box sx={{ position: 'relative', mb: 2 }}>
+                        <NumberAnimation number={luckyNumber ?? 0} />
                     </Box>
                     <Typography
                         variant="body1"
                         sx={{
                             fontStyle: 'italic',
-                            mt: 2,
                             color: luckyNumberTheme.colors.text.secondary,
                             '& br': {
                                 display: 'block',
                                 content: '""',
-                                mt: 1,
                             },
                         }}
                     >
@@ -365,7 +333,7 @@ const DialogInterface: React.FC<{
                         },
                     }}
                 >
-                    {loading ? '提交中...' : '提交'}
+                    提交
                 </Button>
             </DialogActions>
         </Dialog>
@@ -496,7 +464,7 @@ const LuckyNumberActivityPage: React.FC = () => {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    gap: 4,
+                    gap: 2,
                 }}
             >
                 <HeaderInterface
