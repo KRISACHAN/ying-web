@@ -30,7 +30,7 @@ import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 
 import HeaderInterface from '../components/Header/Index';
 
-import './page.less';
+import './Page.less';
 
 type GetActivityResponse = Pick<
     QueryLuckyNumberResponse,

@@ -23,7 +23,7 @@ import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 
 import HeaderInterface from '../components/Header/Index';
 
-import './page.less';
+import './Page.less';
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
 };
