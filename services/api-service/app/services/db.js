@@ -11,7 +11,7 @@ export const sequelize = new Sequelize(
         dialect: 'mysql',
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
-        logging: false,
+        logging: log.debug,
         timezone: '+08:00',
         define: {
             timestamps: true,

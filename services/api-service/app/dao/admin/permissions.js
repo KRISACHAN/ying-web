@@ -35,7 +35,7 @@ export class PermissionsDao {
         if (id) {
             whereQuery.id = id;
         }
-        const permission = await PermissionsModel.findOne({
+        const permission = await PermissionsModel.scope('df').findOne({
             where: whereQuery,
         });
 
@@ -91,7 +91,7 @@ export class PermissionsDao {
     }
 
     static async query({ pageNum = 1, pageSize = 10 }) {
-        const result = await PermissionsModel.findAndCountAll({
+        const result = await PermissionsModel.scope('df').findAndCountAll({
             where: { deleted_at: null },
             offset: (pageNum - 1) * pageSize,
             limit: pageSize,

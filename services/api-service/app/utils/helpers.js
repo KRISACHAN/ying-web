@@ -1,4 +1,5 @@
 import { UNAUTHORIZED } from '@utils/http-errors';
+import log from '@utils/log';
 import fs from 'fs';
 import jwt from 'jsonwebtoken';
 import { eq } from 'lodash';
@@ -39,6 +40,7 @@ export const verifyRefreshToken = function (token) {
         const decoded = jwt.verify(token, secretKey);
         return decoded;
     } catch (error) {
+        log.error(error);
         if (error.name === 'TokenExpiredError') {
             throw UNAUTHORIZED('Refresh Token 已过期');
         }
@@ -62,12 +64,12 @@ export const generateRefreshToken = function (uid, scopes) {
     return token;
 };
 
-export function isFileExisted(filePath) {
+export function hasFileAccess(filePath) {
     try {
         fs.accessSync(filePath, fs.constants.R_OK);
         return true;
     } catch (error) {
-        console.error(error);
+        log.error(error);
         return false;
     }
 }
@@ -77,7 +79,7 @@ export function mkdirPath(pathStr) {
     let tempDirArray = pathStr.split('\\');
     for (let i = 0; i < tempDirArray.length; i++) {
         projectPath = projectPath + '/' + tempDirArray[i];
-        if (isFileExisted(projectPath)) {
+        if (hasFileAccess(projectPath)) {
             let tempstats = fs.statSync(projectPath);
             if (!tempstats.isDirectory()) {
                 fs.unlinkSync(projectPath);

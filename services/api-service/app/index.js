@@ -1,5 +1,3 @@
-import './env';
-
 import cors from '@koa/cors';
 import cacheMiddleware from '@middlewares/cache';
 import catchErrorMiddleware from '@middlewares/exception';
@@ -9,12 +7,15 @@ import log from '@utils/log';
 import Koa from 'koa';
 import bodyParser from 'koa-body';
 
+import './env';
+
 const app = new Koa();
 
 app.proxy = true;
 
 app.use(
     cors({
+        // x-pagination is used to return pagination information
         exposeHeaders: ['x-pagination'],
     }),
 );

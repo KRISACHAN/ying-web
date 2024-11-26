@@ -26,7 +26,7 @@ export class RoleDao {
     }
 
     static async search(id) {
-        const role = await RoleModel.findOne({
+        const role = await RoleModel.scope('df').findOne({
             where: { id, deleted_at: null },
         });
 
@@ -82,7 +82,7 @@ export class RoleDao {
     }
 
     static async query({ pageNum = 1, pageSize = 10 }) {
-        const result = await RoleModel.findAndCountAll({
+        const result = await RoleModel.scope('df').findAndCountAll({
             where: { deleted_at: null },
             offset: (pageNum - 1) * pageSize,
             limit: pageSize,

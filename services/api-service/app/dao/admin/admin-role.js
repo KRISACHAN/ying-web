@@ -80,7 +80,7 @@ export class AdminRoleDao {
     }
 
     static async queryByRole(roleId) {
-        const adminRoles = await AdminRoleModel.findAll({
+        const adminRoles = await AdminRoleModel.scope('df').findAll({
             where: {
                 role_id: roleId,
                 deleted_at: null,
@@ -95,7 +95,7 @@ export class AdminRoleDao {
     }
 
     static async queryByAdmin(adminId) {
-        const adminRoles = await AdminRoleModel.findAll({
+        const adminRoles = await AdminRoleModel.scope('df').findAll({
             where: {
                 admin_id: adminId,
                 deleted_at: null,
@@ -136,7 +136,7 @@ export class AdminRoleDao {
     }
 
     static async query({ pageNum = 1, pageSize = 10 }) {
-        const result = await AdminRoleModel.findAndCountAll({
+        const result = await AdminRoleModel.scope('df').findAndCountAll({
             where: { deleted_at: null },
             offset: (pageNum - 1) * pageSize,
             limit: pageSize,

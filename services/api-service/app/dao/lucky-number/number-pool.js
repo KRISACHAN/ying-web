@@ -19,7 +19,7 @@ export class NumberPoolDao {
 
     static async findAvailableNumber(activityId) {
         try {
-            const res = await NumberPoolModel.findOne({
+            const res = await NumberPoolModel.scope('df').findOne({
                 order: sequelize.random(),
                 where: {
                     activity_id: activityId,
@@ -70,7 +70,7 @@ export class NumberPoolDao {
 
     static async findNumbersByActivity(activityId) {
         try {
-            const res = await NumberPoolModel.findAll({
+            const res = await NumberPoolModel.scope('df').findAll({
                 where: { activity_id: activityId, deleted_at: null },
             });
             return res;
@@ -82,7 +82,7 @@ export class NumberPoolDao {
 
     static async findNumbersWithUserByActivity(activityId) {
         try {
-            const res = await NumberPoolModel.findAll({
+            const res = await NumberPoolModel.scope('df').findAll({
                 where: { activity_id: activityId, deleted_at: null },
                 include: [
                     {

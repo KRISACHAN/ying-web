@@ -1,14 +1,3 @@
-import { eq } from 'lodash';
-
-export const adminMap = Object.freeze({
-    ADMIN: 'admin',
-    MEMBER: 'member',
-});
-
-export const isAdmin = role => eq(role, adminMap.ADMIN);
-
-export const isMember = role => eq(role, adminMap.MEMBER);
-
 export const permissionMap = Object.freeze({
     ALL_ACCESSES: 'all_accesses',
     OSS_UPLOAD: 'oss_upload',

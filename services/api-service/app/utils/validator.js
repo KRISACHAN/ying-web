@@ -1,4 +1,5 @@
 import { BAD_REQUEST } from '@utils/http-errors';
+import log from '@utils/log';
 import Validator from 'async-validator';
 import to from 'await-to-js';
 
@@ -48,16 +49,16 @@ export const createValidator = (rules, source = 'body') => {
     const validator = new Validator(rules);
 
     const validatorMiddleware = async (ctx, next) => {
-        console.log('validator', ctx.request[source]);
-
         const [error, value] = await to(
             validator.validate(ctx.request[source], {
                 abortEarly: false,
             }),
         );
         if (error) {
+            log.error(error.errors.map(e => e.message).join(','));
             throw BAD_REQUEST(error.errors.map(e => e.message).join(','));
         }
+        log.info(value);
         ctx.validate = value;
         await next();
     };

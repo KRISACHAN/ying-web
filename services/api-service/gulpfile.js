@@ -32,30 +32,33 @@ const watchApp = done => {
         ignore: [
             '.git/',
             'dist/',
+            'introduction/',
             'node_modules/',
+            'scripts/',
             'tests/',
-            'app/public',
-            'app/sql',
+            'gulpfile.js',
+            'ecosystem.config.js',
+            'jest.config.js',
         ],
         tasks: [],
         done: done,
     });
     return stream
         .on('start', () => {
-            console.log('Start service!');
+            console.log('Start service! 🚀');
         })
         .on('crash', () => {
-            console.error('Service crashed!');
+            console.error('Service crashed! 💥');
             stream.emit('restart', 10);
         })
         .on('exit', () => {
-            console.log('Exit service!');
+            console.log('Exit service! 🛑');
         })
         .on('restart', () => {
-            console.log('Restart service!');
+            console.log('Restart service! 🔄');
         })
         .on('config:update', () => {
-            console.log('Update config!');
+            console.log('Update config! 🔄');
         });
 };
 

@@ -75,7 +75,7 @@ export class RolePermissionsDao {
     }
 
     static async queryByRole(roleId) {
-        const rolePermission = await RolePermissionsModel.findAll({
+        const rolePermission = await RolePermissionsModel.scope('df').findAll({
             where: { role_id: roleId, deleted_at: null },
         });
 
@@ -87,7 +87,7 @@ export class RolePermissionsDao {
     }
 
     static async queryByPermission(permissionId) {
-        const rolePermission = await RolePermissionsModel.findAll({
+        const rolePermission = await RolePermissionsModel.scope('df').findAll({
             permission_id: permissionId,
             deleted_at: null,
         });
@@ -125,7 +125,7 @@ export class RolePermissionsDao {
     }
 
     static async query({ pageNum = 1, pageSize = 10 }) {
-        const result = await RolePermissionsModel.findAndCountAll({
+        const result = await RolePermissionsModel.scope('df').findAndCountAll({
             where: { deleted_at: null },
             offset: (pageNum - 1) * pageSize,
             limit: pageSize,

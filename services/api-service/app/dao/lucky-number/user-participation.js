@@ -56,7 +56,7 @@ export class UserParticipationDao {
 
             log.info(where);
 
-            const res = await UserParticipationModel.findOne({
+            const res = await UserParticipationModel.scope('df').findOne({
                 where,
             });
             return res;

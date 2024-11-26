@@ -37,8 +37,20 @@ module.exports = [
             quotes: ['error', 'single'],
             'prettier/prettier': 'error',
             'no-var': 'error',
+            'simple-import-sort/imports': [
+                'error',
+                {
+                    groups: [
+                        ['^node:'],
+                        ['^@?\\w'],
+                        ['^@/'],
+                        ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+                        ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+                        ['^\\u0000'],
+                    ],
+                },
+            ],
             // @TODO: Strongly recommend
-            'simple-import-sort/imports': 'error',
             'simple-import-sort/exports': 'error',
             'import/first': 'error',
             'import/no-duplicates': 'error',

@@ -4,13 +4,10 @@ import { UserParticipationDao } from '@dao/lucky-number/user-participation';
 import { sequelize } from '@services/db';
 import { BAD_REQUEST } from '@utils/http-errors';
 import httpStatus from 'http-status';
-import Router from 'koa-router';
 
-const router = new Router({
-    prefix: '/api/v1/www/lucky-number',
-});
+import router from './router';
 
-router.post('/draw', async ctx => {
+router.post('/lucky-number/draw', async ctx => {
     const { key, user_name } = ctx.request.body;
 
     if (!key || !user_name) {
@@ -54,7 +51,7 @@ router.post('/draw', async ctx => {
     ctx.body = { drawn_number: numberEntry.drawn_number };
 });
 
-router.get('/query/:key', async ctx => {
+router.get('/lucky-number/query/:key', async ctx => {
     const { key } = ctx.params;
 
     const activity = await ActivityDao.search({ key });

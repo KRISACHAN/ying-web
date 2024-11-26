@@ -133,6 +133,7 @@ router.put(
             ctx.response.status = httpStatus.OK;
             ctx.body = { message: '抽取结果已取消' };
         } catch (error) {
+            log.error(error);
             await transaction.rollback();
             throw error;
         }
@@ -147,7 +148,6 @@ router.get('/lucky-number/list', watchEventMiddleware, async ctx => {
         page_size: parseInt(page_size, 10),
     });
     ctx.response.status = httpStatus.OK;
-    log.debug(result);
     ctx.set('x-pagination', JSON.stringify(result.page));
     ctx.body = result.data;
 });

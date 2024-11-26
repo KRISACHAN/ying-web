@@ -33,7 +33,7 @@ export class ActivityDao {
         if (key) {
             whereQuery.key = key;
         }
-        const activity = await ActivityModel.findOne({
+        const activity = await ActivityModel.scope('df').findOne({
             where: whereQuery,
         });
 
@@ -64,7 +64,7 @@ export class ActivityDao {
 
     static async query({ pageNum = 1, pageSize = 10 }) {
         const pagination = genPaginationRequest(pageNum, pageSize);
-        const result = await ActivityModel.findAndCountAll({
+        const result = await ActivityModel.scope('df').findAndCountAll({
             where: { deleted_at: null },
             limit: pagination.limit,
             offset: pagination.offset,

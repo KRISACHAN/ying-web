@@ -1,14 +1,11 @@
 import { getRandomInt } from '@utils/helpers';
 import { NOT_FOUND } from '@utils/http-errors';
 import fs from 'fs';
-import Router from 'koa-router';
 import path from 'path';
 
-const router = new Router({
-    prefix: '/api/v1/www/promise',
-});
+import router from './router';
 
-router.get('/result', async ctx => {
+router.get('/promise/result', async ctx => {
     const directoryPath = path.resolve(
         __dirname,
         '..',

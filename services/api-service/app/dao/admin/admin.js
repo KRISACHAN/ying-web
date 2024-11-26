@@ -59,7 +59,7 @@ export class AdminDao {
         if (id) {
             whereQuery.id = id;
         }
-        const admin = await AdminModel.findOne({
+        const admin = await AdminModel.scope('bh').findOne({
             where: whereQuery,
         });
 
@@ -123,7 +123,7 @@ export class AdminDao {
     }
 
     static async query({ pageNum = 1, pageSize = 10 }) {
-        const result = await AdminModel.findAndCountAll({
+        const result = await AdminModel.scope('bh').findAndCountAll({
             where: { deleted_at: null },
             offset: (pageNum - 1) * pageSize,
             limit: pageSize,
