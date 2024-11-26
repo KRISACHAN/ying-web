@@ -1,3 +1,6 @@
+// @TODO: Make the themes consistent
+// I mean, this project needn't to have more than one theme
+
 import { createTheme } from '@mui/material/styles';
 
 import { luckyNumberTheme } from './luckyNumber';

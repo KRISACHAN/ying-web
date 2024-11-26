@@ -1,17 +1,23 @@
 # @ying-web/api-service 🚀
 
-Hey there! Welcome to our awesome API service project! This is a modern Node.js backend service built with Koa.js and MySQL.
+Hey there! Welcome to our awesome API service project! This is a modern Node.js backend service built with Koa.js and MySQL. 🎉
 
-## Tech Stack ✨
+## What's This? 🤔
 
-- **Node.js** - JavaScript runtime
-- **Koa.js** - Lightweight web framework
-- **MySQL** - Relational database
-- **Sequelize** - ORM for MySQL
-- **Redis** - Cache system
-- **PM2** - Process manager
-- **Gulp** - Build tool
-- **Docker** - Containerization
+This is a powerful and flexible backend service that powers our Christian events platform. It handles everything from lucky number draws to Bible verse generation! ✨
+
+## Tech Stack 🚀
+
+We're using some really cool tech here:
+
+- **Node.js** - Our runtime powerhouse! 💪
+- **Koa.js** - Light and mighty web framework! 🎯
+- **MySQL** - Rock-solid database! 📦
+- **Sequelize** - Elegant ORM for MySQL! ✨
+- **Redis** - Lightning-fast caching! ⚡
+- **PM2** - Production process manager! 🔄
+- **Gulp** - Efficient build system! 🛠️
+- **Docker** - Containerization made easy! 🐳
 
 ## Features 🌟
 
@@ -65,6 +71,8 @@ pnpm pm2
 ```
 
 ### Code Quality 🧹
+
+We keep our code squeaky clean with:
 
 ```bash
 # Run tests
@@ -158,8 +166,10 @@ INITED_ADMIN_EMAIL=""             # Initial admin email
 
 ## License 📝
 
-MIT - Feel free to use it! ❤️
+MIT - Go wild! Just remember to spread the love! ❤️
 
 ---
 
 Made with ❤️ by [@ying-web](https://github.com/KRISACHAN/ying-web)
+
+_"For I know the plans I have for you," declares the LORD, "plans to prosper you and not to harm you, plans to give you hope and a future."_ - Jeremiah 29:11 📖

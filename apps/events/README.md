@@ -16,17 +16,6 @@ I'm using some pretty awesome stuff here:
 -   **Tailwind CSS** - Styling made super easy! 🎨
 -   **Vite** - Lightning fast builds! ⚡
 
-## Features 🌟
-
--   **Lucky Number Draw** - Get your blessed number! 🎲
-    -   Real-time updates
-    -   Interactive UI
-    -   Name registration
--   **Bible Verse Generator** - Daily dose of wisdom! 📖
-    -   Random verse selection
-    -   Beautiful animations
--   _More exciting features coming soon!_ 🔥
-
 ## Development 🛠️
 
 ### Prerequisites
@@ -89,16 +78,6 @@ Copy `.env.example` to `.env` and configure:
 ```bash
 VITE_REQUEST_BASE_URL=your_api_base_url
 ```
-
-## Contributing 🤝
-
-Feel free to jump in! I'm always happy to have more hands on deck! 🚢
-
-1. Fork it
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License 📝
 
