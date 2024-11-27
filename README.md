@@ -1,162 +1,99 @@
-# @ying-web
+# @ying-web 🌟
 
-## Who am I?
+## Who am I? 👋
 
-My full name is Jinwen Chen, and my English name is Kris.
+Hey there! I'm Jinwen Chen (or just call me Kris), a passionate front-end developer from China with 8 years of experience under my belt! 🚀
 
-I'm a front-end developer from China with 8 years of experience.
-
-Here are some of my contact information:
+Let's connect:
 
 -   📧 Email: [chenjinwen77@gmail.com](mailto:chenjinwen77@gmail.com)
 -   🐙 Github: [https://github.com/KRISACHAN](https://github.com/KRISACHAN)
--   💬 Wechat: krisChans95
+-   💬 WeChat: krisChans95
 
-ps: I'm looking for a job, so if you have any opportunities, please contact me.
+PS: Currently on the lookout for exciting opportunities! If you've got something interesting, let's chat! 🤝
 
-## Why is **ying**?
+## Why "ying"? 🤔
 
-Well, most Chinese netizens know the meaning.
+If you're familiar with Chinese internet culture, you probably know this one! 😉
 
-In the Chinese Internet, it means **嘤**, which is like a lovely girl crying.
+It's from the Chinese word "**嘤**" - imagine a cute girl's playful cry. Super kawaii, right? 🎀
 
-## Something about @ying-web
+## About @ying-web 📚
 
-From my perspective, `@ying-web` is my core web projects repository.
+Think of `@ying-web` as my coding treasure chest! 💎
 
-In the past, because of a poor management strategy, I created many projects under my github, gitlab and gitee accounts, and it was really messy.
+After years of spreading my projects across GitHub, GitLab, and Gitee (yeah, it got a bit messy 😅), I decided it was time for a grand reunion under the `@ying-web` umbrella.
 
-Now, I want to migrate and maintain all the significant projects under `@ying-web`.
+My mission? 🎯
 
-Additionally, I attempt to remove all the Chinese descriptions, comments and api information in the projects, and replace them with English.
+1. Make everything neat and tidy
+2. Switch to all-English documentation
+3. Create some really cool stuff
+4. Set up proper URLs for each project
+5. Get everything running and deploying automatically
 
-In my opinion, the projects under `@ying-web` should be the most valuable ones in my github.
+## The Master Plan 🗺️
 
-What will I go on to do?
+Here's what's cooking:
 
-First, make it tidy and full of English.
+### Project Structure 🏗️
 
-Next, create some useful projects under `@ying-web`.
+Every modern project needs a solid foundation:
 
-Then, use the correct URL for each project.
+#### Root Level 🌳
 
-Finally, make it run and deploy automatically.
+-   ✅ `husky` + `lint-staged` + `commitlint`
+-   🚧 `Webhook` (GitHub Actions/Vercel/etc.) + `Docker`
 
-## What do I want to achieve?
+#### Project Level 🌱
 
-The below are the projects that I want to achieve:
+-   ✅ `changeset`
+-   🚧 Detailed documentation
 
-### project structure
+### @ying-web/api-service 🔌
 
-As a modern project, it should have a good project structure.
+The backbone of our ecosystem! While it's starting simple, it's destined to power the entire `@ying-web` system. Watch this space! 🚀
 
-So, I should add these functions to the project:
+### @ying-web/admin 🎛️
 
-#### Root
+A sleek admin system built on our RBAC foundation in `@ying-web/api-service`. Coming soon to [https://admin.krissarea.com](https://admin.krissarea.com)! ✨
 
--   [x] `husky` + `lint-staged` + `commitlint`
--   [ ] `Webhook` (Maybe github actions or vercel or even others) + `Docker`
+### @ying-web/events ⛪
 
-#### Detailed projects
+A special project close to my heart - a Christian tool originally built in Vue3. But hey, React is the talk of the town overseas, so we're giving it a React makeover! 🔄
 
--   [x] `changeset`
--   [ ] Detailed documents
+Check it out at [https://events.krissarea.com](https://events.krissarea.com)
 
-### @ying-web/api-service
+(Psst... might rename it to `@ying-web/christian` later, but first things first!)
 
-This is a core api service for `@ying-web`.
+### @ying-web/home 🏠
 
-Although it's simple, I attempt to make it cover a whole `@ying-web` system as an api service.
+My digital home at [https://www.krissarea.com](https://www.krissarea.com). Still brainstorming how to make it extra special! 🎨
 
-I imagine it will be complete and useful in the future.
+### @ying-web/tools 🛠️
 
-### @ying-web/admin
+My personal collection of handy utilities. Sure, npm has alternatives, but sometimes you just want to build your own tools, right? 😊
 
-This is a admin system for `@ying-web`.
+## What's Staying Outside? 📦
 
-Why will I create it?
+Some projects are happy where they are:
 
-Because I've created a RABC system of admin system in `@ying-web/api-service`.
+### [https://diary.krissarea.com](https://diary.krissarea.com) 📔
 
-If only I visualize it, it will be valuable.
+My personal diary - perfectly content on Vercel!
 
-So, I decide to create it and run it on [https://admin.krissarea.com](https://admin.krissarea.com).
+### [https://fe.krissarea.com](https://fe.krissarea.com) 📚
 
-### @ying-web/events
+Front-end knowledge hub (especially interview stuff!) - Vercel's got this one too!
 
-First of all, I want to say, this project is a small tool about Christian and I have finished it by `Vue3`.
+### [https://blog.krissarea.com](https://blog.krissarea.com) ✍️
 
-However, I found in the overseas market, `React` is more popular than `Vue`, so I decide to rewrite it by `React` in the future.
+My first Chinese FE blog on Gitee - might automate it later, but it's cozy where it is!
 
-The interesting thing is that, I attempted to rewrite it by `Next.js`, but I found it's not a good choice for a small tool that only runs on the client side.
+## The Future is Bright! 🌈
 
-So, I decide to rewrite it by pure `React` in the future.
+Who knows what cool projects might pop into my head next? I'm always excited to try new things and let creativity guide the way!
 
-Now, it's running on [https://events.krissarea.com](https://events.krissarea.com)
+Stay tuned for more awesome stuff! ✨
 
-And, I am considering to change its name to `@ying-web/christian`.
-
-But, Now, I should finish the rewrite of `@ying-web/events` by `React` first.
-
-### @ying-web/home
-
-First of all, I would make it into [https://www.krissarea.com](https://www.krissarea.com).
-
-It's my entry domain of mine.
-
-As the proposal, I want to make it more beautiful and useful.
-
-However, I have no idea about how to do it yet.
-
-But the certain thing is, I will create a new project under `@ying-web` to host it.
-
-### @ying-web/tools
-
-This is a tool library for `@ying-web`.
-
-It's a collection of some useful tools that I have created.
-
-Yes, maybe you can seek some replacements on [npm](https://www.npmjs.com).
-
-But, I still attempt to create some simple and useful tools for `@ying-web`.
-
-## What don't I want to migrate?
-
-### [https://diary.krissarea.com](https://diary.krissarea.com)
-
-As a diary collection that just records my life, I think [vercel](https://vercel.com) is good enough for it.
-
-So, I don't want to migrate it to `@ying-web`.
-
-### [https://fe.krissarea.com](https://fe.krissarea.com)
-
-Yes, I want to maintain a blog about front-end knowledges **(maybe the vital part of it is the interview knowledges)**.
-
-As I see it, [vercel](https://vercel.com) is the best choice for it.
-
-Here are some reasons:
-
--   It's a static website.
--   It doesn't involve any valuable code.
-
-So, I don't want to create it under `@ying-web`.
-
-### [https://blog.krissarea.com](https://blog.krissarea.com)
-
-This is the first chinese FE technical blog of mine and it exists in gitee.
-
-Although it's a manually deployed one, I still don't want to migrate it to `@ying-web`.
-
-Maybe I will automate it in the future or migrate it to vercel.
-
-But, migrate it to `@ying-web` is not a good choice.
-
-## In the future
-
-Maybe, I will create some interesting projects in the future.
-
-It's just depends on my brainstorm or impulse.
-
-I really believe that creativity and enthusiasm will illuminate my life.
-
-Who knows?
+Remember: The best code is written with passion and a sprinkle of fun! 🎮

@@ -1,74 +1,112 @@
-# @ying-web/admin 🏢
+# @ying-web/admin 🚀
 
-Hey there! Welcome to our awesome admin dashboard! 🎉
+A modern, TypeScript-powered admin dashboard for managing various web applications and activities.
 
-## What's This? 🤔
+## Overview 🌟
 
-This is a powerful admin dashboard for managing Christian events and activities. Built with modern tech and love! ✨
+This dashboard is part of the `@ying-web` ecosystem, built with React 18 and TypeScript. It provides a sleek interface for managing different activities and applications, including:
 
-## Tech Stack 🚀
+-   🎯 Lucky Number Activity Management
+-   📊 Dashboard Analytics _(coming soon)_
+-   👥 User Management _(coming soon)_
 
-I'm using some pretty awesome stuff here:
+## Tech Stack 💻
 
--   **React 18** - Latest and greatest! 💪
--   **TypeScript** - Because we love our types! 🎯
--   **Ant Design** - Beautiful UI components! 🎨
--   **Vite** - Lightning fast builds! ⚡
+-   ⚛️ **React 18** - Latest version of the popular UI library
+-   📘 **TypeScript** - For type-safe code
+-   🎨 **Ant Design** - Enterprise-grade UI components
+-   � **TailwindCSS** - Utility-first CSS framework
+-   🔄 **Vite** - Next-generation frontend tooling
+-   📡 **Axios** - Promise-based HTTP client
+-   🎯 **ESLint & Prettier** - Code quality tools
+-   💅 **Less** - CSS preprocessor
 
-## Development 🛠️
+## Getting Started 🎯
 
 ### Prerequisites
 
--   Node.js >= 18
--   pnpm >= 8
+> **Note:** The same as the root project's `package.json`
 
-### Getting Started 🏃‍♀️
+-   Node.js >= 18.16.0
+-   pnpm >= 9.14.0
+
+### Installation
 
 ```bash
 # Install dependencies
 pnpm install
 
+# Copy environment file
+cp .env.example .env.development
+```
+
+### Development
+
+```bash
 # Start development server
 pnpm dev
 
-# Build for production
+# Run linting
+pnpm lint
+
+# Run style linting
+pnpm stylelint
+
+# Format code
+pnpm prettier
+```
+
+### Building for Production
+
+```bash
+# Build the application
 pnpm build
 
-# Preview production build
+# Preview the build
 pnpm preview
 ```
 
-### Code Quality 🧹
+## Project Structure 📁
 
-We keep our code squeaky clean with:
-
-```bash
-# Lint your code
-pnpm lint        # ESLint for JS/TS files
-pnpm lint:all    # ESLint for all files
-
-# Format your code
-pnpm prettier        # Prettier for src directory
-pnpm prettier:all    # Prettier for all files
-
-# Style linting
-pnpm stylelint      # Check CSS/LESS files
-pnpm stylelint:fix  # Auto-fix style issues
+```
+apps/admin/
+├── src/                # Source code
+│   ├── pages/         # Page components
+│   ├── components/    # Reusable components
+│   ├── services/      # API services
+│   ├── utils/         # Utility functions
+│   └── types/         # TypeScript types
+├── public/            # Static assets
+└── dist/             # Build output
 ```
 
-## Environment Variables 🌍
+## Environment Variables 🔧
 
-Copy `.env.example` to `.env` and configure:
+Copy `.env.example` to create your environment files:
 
-```bash
-VITE_REQUEST_BASE_URL=your_api_base_url
-VITE_EVENTS_BASE_URL=your_events_base_url
-```
+-   `.env.development` - Development environment
+-   `.env.production` - Production environment
+
+Required variables:
+
+-   `VITE_API_URL` - Backend API URL
+
+## Contributing 🤝
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License 📝
 
-MIT - Go wild! Just remember to spread the love! ❤️
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author ✨
+
+Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
 
 ---
 
-Made with ❤️ by [@ying-web](https://github.com/KRISACHAN/ying-web)
+Made with ❤️ by the @ying-web

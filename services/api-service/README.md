@@ -1,175 +1,142 @@
 # @ying-web/api-service 🚀
 
-Hey there! Welcome to our awesome API service project! This is a modern Node.js backend service built with Koa.js and MySQL. 🎉
+A robust, Koa.js-powered API service with MySQL integration for the @ying-web ecosystem.
 
-## What's This? 🤔
+## Overview 🌟
 
-This is a powerful and flexible backend service that powers our Christian events platform. It handles everything from lucky number draws to Bible verse generation! ✨
+This service is the backbone of the `@ying-web` ecosystem, built with Koa.js and MySQL. It provides RESTful APIs for various applications, including:
 
-## Tech Stack 🚀
+-   🎲 Lucky Number Activity APIs
+-   📖 Bible Promise APIs
+-   🔐 Authentication & Authorization
+-   📊 Data Management
 
-We're using some really cool tech here:
+## Tech Stack �
 
-- **Node.js** - Our runtime powerhouse! 💪
-- **Koa.js** - Light and mighty web framework! 🎯
-- **MySQL** - Rock-solid database! 📦
-- **Sequelize** - Elegant ORM for MySQL! ✨
-- **Redis** - Lightning-fast caching! ⚡
-- **PM2** - Production process manager! 🔄
-- **Gulp** - Efficient build system! 🛠️
-- **Docker** - Containerization made easy! 🐳
+-   🌐 **Koa.js** - Next-generation web framework for Node.js
+-   🗄️ **MySQL** - Reliable relational database
+-   🔄 **Gulp** - Automated build system
+-   🐳 **Docker** - Containerization
+-   📡 **PM2** - Production process manager
+-   🧪 **Jest** - Testing framework
+-   � **ESLint & Prettier** - Code quality tools
+-   📦 **Babel** - JavaScript compiler
 
-## Features 🌟
-
-- **Lucky Number System** 🎲
-  - Number pool management
-  - User participation tracking
-  - Activity management
-
-- **Bible Promise Generator** 📖
-  - Random verse selection
-  - Multiple categories
-
-- **Admin System** 👑
-  - RBAC model
-  - Permission management
-  - User management
-
-- **Infrastructure** 🏗️
-  - Redis caching
-  - OSS file management
-  - Rate limiting
-  - PM2 deployment
-  - Docker support
-
-## Development 🛠️
+## Getting Started 🎯
 
 ### Prerequisites
 
-- Node.js >= 18
-- MySQL >= 8
-- Redis >= 6
-- pnpm >= 8
+> **Note:** The same as the root project's `package.json`
 
-### Getting Started 🏃‍♀️
+-   Node.js >= 18.16.0
+-   pnpm >= 9.14.0
+-   MySQL >= 8.0
+-   Docker (optional)
+
+### Installation
 
 ```bash
 # Install dependencies
 pnpm install
 
-# Development mode
-pnpm dev
-
-# Build project
-pnpm build
-
-# Production mode
-pnpm start
-
-# PM2 deployment
-pnpm pm2
+# Copy environment file
+cp .env.example .env
 ```
 
-### Code Quality 🧹
-
-We keep our code squeaky clean with:
+### Development
 
 ```bash
+# Start development server
+pnpm dev
+
 # Run tests
 pnpm jest
 
-# Lint code
-pnpm lint        # Check app directory
-pnpm lint:all    # Check all directories
+# Run linting
+pnpm lint
 
 # Format code
-pnpm prettier        # Format app directory
-pnpm prettier:all    # Format all directories
+pnpm prettier
+```
+
+### Production Deployment
+
+#### Using PM2
+
+```bash
+# Build the application
+pnpm build
+
+# Start with PM2
+pnpm pm2
+```
+
+#### Using Docker
+
+```bash
+# Build Docker image
+docker build -t api-service .
+
+# Run with docker-compose
+docker-compose up -d
 ```
 
 ## Project Structure 📁
 
-```txt
-app/
-├── api/            # API routes
-│   ├── v1/         # API version 1
-│   └── health.js   # Health check endpoint
-├── constants/      # Constants and configurations
-├── dao/           # Data Access Objects
-├── middlewares/   # Koa middlewares
-├── models/        # Sequelize models
-├── services/      # Business logic services
-├── utils/         # Utility functions
-└── validators/    # Request validators
+```
+services/api-service/
+├── app/                # Source code
+│   ├── controllers/   # API controllers
+│   ├── models/        # Database models
+│   ├── routes/        # API routes
+│   ├── services/      # Business logic
+│   ├── utils/         # Utility functions
+│   └── validators/    # Request validators
+├── tests/             # Test files
+├── scripts/           # Build scripts
+├── introduction/      # API documentation
+└── dist/             # Build output
 ```
 
-## Environment Variables 🌍
+## Environment Variables 🔧
 
-Copy `.env.example` to `.env` and configure:
+Copy `.env.example` to create your `.env` file:
 
-```bash
-# Server Configuration
-PORT=3000                           # API server port
-MAIN_HOSTNAME="http://localhost:3000"  # Main application hostname
-APP_ENV="dev"                       # Application environment (dev/prod)
-NODE_ENV="development"              # Node environment (development/production)
+Required variables:
 
-# Database Configuration
-DB_HOST="localhost"                 # MySQL host
-DB_PORT=3306                        # MySQL port
-DB_NAME=""                          # MySQL database name
-DB_USER=""                          # MySQL username
-DB_PASSWORD=                        # MySQL password
+-   `PORT` - Server port
+-   `NODE_ENV` - Environment (development/production)
+-   `MYSQL_HOST` - MySQL host
+-   `MYSQL_PORT` - MySQL port
+-   `MYSQL_USER` - MySQL username
+-   `MYSQL_PASSWORD` - MySQL password
+-   `MYSQL_DATABASE` - MySQL database name
 
-# Redis Configuration
-REDIS_HOST="localhost"              # Redis host
-REDIS_PORT="6379"                   # Redis port
+## API Documentation 📚
 
-# JWT Authentication
-JWT_ACCESS_SECRET_KEY=""            # Secret key for JWT access token
-JWT_REFRESH_SECRET_KEY=""           # Secret key for JWT refresh token
-JWT_ACCESS_EXPIRED=604800           # Access token expiration time (in seconds, default: 7 days)
-JWT_REFRESH_EXPIRED=2592000         # Refresh token expiration time (in seconds, default: 30 days)
+API documentation is available in the `introduction` directory, covering:
 
-# OSS Configuration
-OSS_REGION=""                       # Aliyun OSS region (e.g., oss-cn-beijing)
-OSS_ACCESS_KEY_ID=""                # Aliyun OSS access key ID
-OSS_ACCESS_KEY_SECRET=""            # Aliyun OSS access key secret
-OSS_BUCKET=""                       # Aliyun OSS bucket name
-OSS_ENDPOINT=""                     # Aliyun OSS endpoint
-OSS_STORE_KEY=""                    # Aliyun OSS store key prefix
+-   Authentication
+-   Endpoints
+-   Request/Response formats
+-   Error codes
 
-# Initial Setup Flags
-CREATE_TABLE="false"                # Whether to create database tables on startup
-CREATE_ADMIN="false"                # Whether to create initial admin user
+## Contributing 🤝
 
-# Initial Admin Account
-INITED_ADMIN_USERNAME=""           # Initial admin username
-INITED_ADMIN_PASSWORD=""           # Initial admin password
-INITED_ADMIN_EMAIL=""             # Initial admin email
-```
-
-> Note: Make sure to keep your `.env` file secure and never commit it to version control. The `.env.example` file serves as a template for required environment variables.
-
-## Progress ✅
-
-- [x] Basic framework setup
-- [x] Database integration
-- [x] Redis caching
-- [x] RBAC implementation
-- [x] API documentation
-- [x] Docker support
-- [x] PM2 deployment
-- [x] Rate limiting
-- [ ] Complete unit tests
-- [ ] E2E testing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License 📝
 
-MIT - Go wild! Just remember to spread the love! ❤️
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author ✨
+
+Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
 
 ---
 
-Made with ❤️ by [@ying-web](https://github.com/KRISACHAN/ying-web)
-
-_"For I know the plans I have for you," declares the LORD, "plans to prosper you and not to harm you, plans to give you hope and a future."_ - Jeremiah 29:11 📖
+Made with ❤️ by the @ying-web
