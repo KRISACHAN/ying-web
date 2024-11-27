@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Avatar, Box, keyframes } from '@mui/material';
 
-import { luckyNumberTheme } from '@/theme/luckyNumber';
+import { luckyNumberTheme } from '../../styles/index';
 
 const rotate = keyframes`
   0% {

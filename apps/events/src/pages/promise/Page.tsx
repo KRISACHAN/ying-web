@@ -60,13 +60,13 @@ const PromisePage: React.FC = () => {
                     gap: 4,
                 }}
             >
-                <div className="flex items-center gap-2 mb-8">
+                <div className="flex items-center gap-2">
                     <Heart className="w-9 h-9 text-red-400 fill-current" />
                     <h1 className="text-3xl font-bold">圣经应许</h1>
                 </div>
 
-                <div className="w-full max-w-xl bg-white/80 rounded-xl p-6 mb-8 min-h-[100px] flex items-center justify-center shadow-sm overflow-y-auto">
-                    <p className="text-2xl text-center">{promise}</p>
+                <div className="w-full max-w-xl bg-white/80 rounded-xl p-6 mb-8 shadow-sm overflow-y-auto max-h-[300px]">
+                    <p className="text-2xl text-left">{promise}</p>
                 </div>
 
                 <div className="w-[calc(100%-32px)] max-w-xl flex gap-4 fixed bottom-8">

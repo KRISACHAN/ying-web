@@ -66,8 +66,6 @@ src/
 ├── hooks/         # Custom hooks (e.g., useLuckyNumber)
 ├── layouts/       # Layout components
 ├── pages/         # Page components
-│   ├── LuckyNumber/   # Lucky number feature
-│   └── Promise/       # Bible verse feature
 └── services/      # API services
 ```
 

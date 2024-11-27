@@ -1,27 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Heart } from 'lucide-react';
+import HeaderInterface from '@/components/Header/Index';
 
 const NotFoundPage: React.FC<{
-    title?: string;
-    message?: string;
-    className?: string;
+    name?: string;
+    description?: string;
 }> = ({
-    title = '404 - 页面不存在',
-    message = '要不你回到首页看看其它功能？',
-    className = 'bg-[#EBF5FF]',
+    name = '404 - 页面不存在',
+    description = '要不你回到首页看看其它功能？',
 }) => {
     return (
         <div
-            className={`min-h-screen ${className} flex flex-col items-center pt-8 px-4`}
+            className={`min-h-screen flex flex-col items-center pt-8 px-4 bg-app-primary`}
         >
-            <div className="flex items-center gap-2 mb-8">
-                <Heart className="w-9 h-9 text-red-400 fill-current" />
-                <h1 className="text-3xl font-bold">{title}</h1>
-            </div>
-            <p className="text-xl mb-4">{message}</p>
-            <Link to="/" className="text-blue-500 underline">
+            <HeaderInterface name={name} description={description} />
+            <Link to="/" className="text-white underline mt-4">
                 回到首页
             </Link>
         </div>

@@ -13,7 +13,6 @@ I'm using some pretty awesome stuff here:
 -   **React 18** - Latest and greatest! 💪
 -   **TypeScript** - Because we love our types! 🎯
 -   **Ant Design** - Beautiful UI components! 🎨
--   **Formily** - Powerful form solutions! 📝
 -   **Vite** - Lightning fast builds! ⚡
 
 ## Development 🛠️

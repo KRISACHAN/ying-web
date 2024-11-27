@@ -14,7 +14,7 @@ import {
     TextField,
     type Theme,
     Typography,
-    useTheme
+    useTheme,
 } from '@mui/material';
 import type { AxiosError } from 'axios';
 import { Gift, Heart, Loader2 } from 'lucide-react';
@@ -24,10 +24,10 @@ import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
 import axiosInstance from '@/services/axios';
-import { luckyNumberTheme } from '@/theme/luckyNumber';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
+import { luckyNumberTheme } from '../styles/index';
 
-import HeaderInterface from '../components/Header/Index';
+import HeaderInterface from '@/components/Header/Index';
 import NumberAnimation from '../components/NumberAnimation';
 
 import './Page.less';
@@ -341,7 +341,9 @@ const DialogInterface: React.FC<{
 };
 
 const ErrorInterface: React.FC = () => {
-    return <NotFoundPage title="活动不存在" message="回到首页看其它功能？" />;
+    return (
+        <NotFoundPage name="活动不存在" description="回到首页看其它功能？" />
+    );
 };
 
 const getQuery = (key: string) => {
@@ -451,11 +453,11 @@ const LuckyNumberActivityPage: React.FC = () => {
 
     return (
         <Box
-            className="bg-lucky-number-primary"
             sx={{
                 minHeight: '100vh',
                 width: '100%',
                 p: { xs: 2, sm: 4 },
+                backgroundColor: '#F87171',
             }}
         >
             <Box

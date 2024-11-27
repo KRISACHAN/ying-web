@@ -18,14 +18,15 @@ import { useInterval } from 'usehooks-ts';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
-import { luckyNumberTheme } from '@/theme/luckyNumber';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
+import { luckyNumberTheme } from '../styles/index';
 
-import HeaderInterface from '../components/Header/Index';
+import HeaderInterface from '@/components/Header/Index';
 
-import './Page.less';
 const ErrorInterface: React.FC = () => {
-    return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
+    return (
+        <NotFoundPage name="活动不存在" description="回到首页看看其它功能？" />
+    );
 };
 
 const TableSkeleton: React.FC = () => {
@@ -207,11 +208,11 @@ const LuckyNumberListPage: React.FC = () => {
 
     return (
         <Box
-            className="bg-lucky-number-primary"
             sx={{
                 minHeight: '100vh',
                 width: '100%',
                 p: { xs: 2, sm: 4 },
+                backgroundColor: '#F87171',
             }}
         >
             <Box
