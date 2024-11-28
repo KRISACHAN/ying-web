@@ -17,8 +17,8 @@
             "path": "packages/tools"
         },
         {
-            "name": "@ying-web/web-docs",
-            "path": "apps/docs"
+            "name": "@ying-web/fe-docs",
+            "path": "apps/fe-docs"
         }
     ]
 }

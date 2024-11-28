@@ -8,6 +8,7 @@
         "dev": "node scripts/dev.js",
         "build": "node scripts/build.js",
         "build:api-service": "turbo run build --filter @ying-web/api-service",
+        "build:fe-docs": "turbo run build --filter @ying-web/fe-docs",
         "clean": "node scripts/clean.js",
         "deploy": "node scripts/deploy.js",
         "prepare": "husky install",

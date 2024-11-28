@@ -1,9 +1,8 @@
-import React from 'react';
 
 import { DocsThemeConfig } from 'nextra-theme-docs';
 
 const config: DocsThemeConfig = {
-    logo: <span>@ying-web Documentation</span>,
+    logo: <span>@ying-web</span>,
     project: {
         link: 'https://github.com/KRISACHAN/ying-web',
     },

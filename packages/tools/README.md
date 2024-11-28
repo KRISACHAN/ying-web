@@ -4,15 +4,7 @@ A TypeScript-powered utility collection for the @ying-web ecosystem.
 
 ## Overview 🌟
 
-This package is part of the `@ying-web` ecosystem, providing various utilities to enhance your development experience. Currently includes:
-
--   📦 **Universal Storage**
-    -   Multiple storage providers (LocalStorage, SessionStorage, Memory, Cookie, IndexedDB)
-    -   Type-safe operations
-    -   Configurable prefixes and expiration times
-    -   Cross-browser compatibility
-
-_More utilities coming soon! 🚀_
+This package is part of the `@ying-web` ecosystem, providing various utilities to enhance your development experience.
 
 ## Tech Stack 💻
 
@@ -56,7 +48,7 @@ pnpm lint
 
 ## Documentation 📚
 
-For detailed usage and API reference, please visit our [documentation site](https://ying-web-docs.vercel.app/tools).
+For detailed usage and API reference, please visit our [documentation site](https://ying-fe-docs.vercel.app/tools).
 
 ## License 📄
 

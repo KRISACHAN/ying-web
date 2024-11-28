@@ -1,0 +1,12 @@
+{
+    "general": "General",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "typescript": "TypeScript",
+    "browser": "Browser",
+    "network": "Network",
+    "algorithm": "Algorithm Design",
+    "react": "React",
+    "vue": "Vue"
+}
