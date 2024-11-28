@@ -56,7 +56,7 @@ The backbone of our ecosystem! While it's starting simple, it's destined to powe
 
 ### @ying-web/admin 🎛️
 
-A sleek admin system built on our RBAC foundation in `@ying-web/api-service`. Coming soon to [https://admin.krissarea.com](https://admin.krissarea.com)! ✨
+A sleek admin system built on our RBAC foundation in `@ying-web/api-service`. Look at [https://admin.krissarea.com](https://admin.krissarea.com)! ✨
 
 ### @ying-web/events ⛪
 
@@ -76,7 +76,7 @@ Our brand new documentation hub built with [Nextra](https://nextra.site)! This i
 -   🎨 Beautiful, modern UI with dark mode support
 -   🚀 Fast and SEO-friendly static site
 
-Check it out at [https://ying-web-docs.vercel.app](https://ying-web-docs.vercel.app)
+Actually, I havn't deploy it yet, maybe just unnecessary.
 
 ### @ying-web/home 🏠
 
@@ -224,14 +224,10 @@ Visit our [documentation site](https://ying-web-docs.vercel.app) for:
 -   💡 Best practices
 -   🎯 Examples
 
-## Contributing 🤝
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'feat: add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## License 📄
 
-MIT © @ying-web
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ by the @ying-web

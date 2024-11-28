@@ -100,14 +100,10 @@ We use several tools to maintain code quality:
 3. Add content using MDX format
 4. Include code examples and API references
 
-## Contributing 🤝
-
-1. Fork the repository
-2. Create your feature branch
-3. Make your changes
-4. Run all linting and formatting checks
-5. Submit a pull request
-
 ## License 📄
 
-MIT © @ying-web
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ by the @ying-web

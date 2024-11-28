@@ -1,13 +1,12 @@
 // @TODO: Use rimraf instead
-const fs = require('fs');
-const fsp = require('fs/promises');
 const path = require('path');
+const { rimraf } = require('rimraf');
+const { promisify } = require('util');
 
 const directoriesToClean = [
     '.turbo',
     'node_modules',
     '.output',
-    'dist',
     'dist',
     '.next',
     'out',
@@ -20,7 +19,7 @@ async function cleanDirectory(dirPath) {
     for (const dirToClean of directoriesToClean) {
         const fullPath = path.join(dirPath, dirToClean);
         try {
-            await fsp.rm(fullPath, { recursive: true, force: true });
+            await rimraf(fullPath);
             console.log(`Successfully cleaned ${fullPath}`);
         } catch (err) {
             console.error(`Error removing ${fullPath}:`, err);
@@ -30,8 +29,7 @@ async function cleanDirectory(dirPath) {
 
 async function cleanSubprojects(parentDir) {
     try {
-        const subDirs = fs
-            .readdirSync(parentDir, { withFileTypes: true })
+        const subDirs = (await promisify(require('fs').readdir)(parentDir, { withFileTypes: true }))
             .filter((dirent) => dirent.isDirectory())
             .map((dirent) => path.join(parentDir, dirent.name));
 

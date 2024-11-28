@@ -40,10 +40,12 @@
         "@commitlint/config-conventional": "^19.6.0",
         "commitizen": "^4.3.1",
         "cz-conventional-changelog": "^3.3.0",
+        "enquirer": "^2.4.1",
         "execa": "^8.0.1",
         "husky": "^9.1.7",
         "inquirer": "^9.2.19",
         "lint-staged": "^15.2.10",
+        "rimraf": "^5.0.5",
         "turbo": "^2.3.1"
     },
     "workspaces": [
