@@ -56,7 +56,9 @@ The backbone of our ecosystem! While it's starting simple, it's destined to powe
 
 ### @ying-web/admin 🎛️
 
-A sleek admin system built on our RBAC foundation in `@ying-web/api-service`. Look at [https://admin.krissarea.com](https://admin.krissarea.com)! ✨
+A sleek admin system built on our RBAC foundation in `@ying-web/api-service`.
+
+Check it out at [https://admin.krissarea.com](https://admin.krissarea.com)! ✨
 
 ### @ying-web/events ⛪
 
@@ -66,7 +68,7 @@ Check it out at [https://events.krissarea.com](https://events.krissarea.com)
 
 (Psst... might rename it to `@ying-web/christian` later, but first things first!)
 
-### @ying-web/docs 📚
+### @ying-web/web-docs 📚
 
 Our brand new documentation hub built with [Nextra](https://nextra.site)! This is where you'll find:
 
@@ -76,15 +78,15 @@ Our brand new documentation hub built with [Nextra](https://nextra.site)! This i
 -   🎨 Beautiful, modern UI with dark mode support
 -   🚀 Fast and SEO-friendly static site
 
-Actually, I havn't deploy it yet, maybe just unnecessary.
-
-### @ying-web/home 🏠
-
-My digital home at [https://www.krissarea.com](https://www.krissarea.com). Still brainstorming how to make it extra special! 🎨
+Actually, I haven't deploy it yet, maybe it's just unnecessary.
 
 ### @ying-web/tools 🛠️
 
 My personal collection of handy utilities. Sure, npm has alternatives, but sometimes you just want to build your own tools, right? 😊
+
+### @ying-web/home 🏠
+
+My main website (maybe just an entry of my projects) at [https://www.krissarea.com](https://www.krissarea.com). Still brainstorming how to make it extra special! 🎨
 
 ## What's Staying Outside? 📦
 
@@ -131,98 +133,6 @@ Remember: The best code is written with passion and a sprinkle of fun! 🎮
 └── services/              # Backend services
     └── api-service/       # Main API service
 ```
-
-## Available Projects 📦
-
-### Applications
-
-#### [@ying-web/events](./apps/events)
-
-A modern, TypeScript-powered Christian events platform:
-
--   🎲 Lucky Number Drawing
--   📖 Bible Promise Drawing
--   🎯 More Activities _(coming soon)_
-
-#### [@ying-web/admin](./apps/admin)
-
-The administration platform for the @ying-web ecosystem.
-
-#### [@ying-web/docs](./apps/docs)
-
-Documentation site built with Nextra, providing comprehensive guides and API references.
-
-### Packages
-
-#### [@ying-web/tools](./packages/tools)
-
-A TypeScript utility collection:
-
--   📦 **Universal Storage**
-    -   Multiple storage providers
-    -   Type-safe operations
-    -   Configurable prefixes and expiration times
-
-_More utilities coming soon! 🚀_
-
-### Services
-
-#### [@ying-web/api-service](./services/api-service)
-
-The backend service powering the @ying-web ecosystem.
-
-## Getting Started 🚀
-
-1. **Clone the Repository**
-
-```bash
-git clone https://github.com/KRISACHAN/ying-web.git
-cd ying-web
-```
-
-2. **Install Dependencies**
-
-```bash
-pnpm install
-```
-
-3. **Development**
-
-```bash
-# Start all projects
-pnpm dev
-
-# Start specific project
-pnpm dev --filter @ying-web/events
-```
-
-4. **Build**
-
-```bash
-# Build all projects
-pnpm build
-
-# Build specific project
-pnpm build --filter @ying-web/api-service
-```
-
-## Scripts 📝
-
--   `pnpm dev`: Start development servers
--   `pnpm build`: Build all projects
--   `pnpm build:api-service`: Build API service
--   `pnpm clean`: Clean build artifacts
--   `pnpm deploy`: Deploy projects
--   `pnpm prepare`: Install husky
-
-## Documentation 📚
-
-Visit our [documentation site](https://ying-web-docs.vercel.app) for:
-
--   📖 Comprehensive guides
--   🔧 API references
--   💡 Best practices
--   🎯 Examples
 
 ## License 📄
 

@@ -1,4 +1,4 @@
-# @ying-web/docs 📚
+# @ying-web/web-docs 📚
 
 Documentation site for the @ying-web ecosystem, built with [Nextra](https://nextra.site).
 
