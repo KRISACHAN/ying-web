@@ -1,5 +1,5 @@
 {
-    "name": "@ying-web",
+    "name": "@ying-web/web",
     "private": true,
     "version": "1.0.0",
     "description": "a collection of Kris's web projects",
