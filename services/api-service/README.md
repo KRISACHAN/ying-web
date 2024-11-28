@@ -4,14 +4,9 @@ A robust, Koa.js-powered API service with MySQL integration for the @ying-web ec
 
 ## Overview 🌟
 
-This service is the backbone of the `@ying-web` ecosystem, built with Koa.js and MySQL. It provides RESTful APIs for various applications, including:
+This service is the backbone of the `@ying-web` ecosystem, built with Koa.js, MySQL and JavaScript (**Why not TypeScript? Because it has created for a long time, it almost was my first Api service. So, for remembrance, I don't want to change it**). It provides RESTful APIs for various applications within the ecosystem.
 
--   🎲 Lucky Number Activity APIs
--   📖 Bible Promise APIs
--   🔐 Authentication & Authorization
--   📊 Data Management
-
-## Tech Stack �
+## Tech Stack 🚀
 
 -   🌐 **Koa.js** - Next-generation web framework for Node.js
 -   🗄️ **MySQL** - Reliable relational database
@@ -56,8 +51,14 @@ pnpm jest
 # Run linting
 pnpm lint
 
+# Run linting on all files
+pnpm lint:all
+
 # Format code
 pnpm prettier
+
+# Format code on all files
+pnpm prettier:all
 ```
 
 ### Production Deployment
@@ -105,22 +106,51 @@ Copy `.env.example` to create your `.env` file:
 
 Required variables:
 
--   `PORT` - Server port
--   `NODE_ENV` - Environment (development/production)
--   `MYSQL_HOST` - MySQL host
--   `MYSQL_PORT` - MySQL port
--   `MYSQL_USER` - MySQL username
--   `MYSQL_PASSWORD` - MySQL password
--   `MYSQL_DATABASE` - MySQL database name
+```bash
+# Server Configuration
+PORT=3000                           # API server port
+MAIN_HOSTNAME="http://localhost:3000"  # Main application hostname
+APP_ENV="dev"                       # Application environment (dev/prod)
+NODE_ENV="development"              # Node environment (development/production)
 
-## API Documentation 📚
+# Database Configuration
+DB_HOST="localhost"                 # MySQL host
+DB_PORT=3306                        # MySQL port
+DB_NAME=""                          # MySQL database name
+DB_USER=""                          # MySQL username
+DB_PASSWORD=                        # MySQL password
 
-API documentation is available in the `introduction` directory, covering:
+# Redis Configuration
+REDIS_HOST="localhost"              # Redis host
+REDIS_PORT="6379"                   # Redis port
 
--   Authentication
--   Endpoints
--   Request/Response formats
--   Error codes
+# JWT Authentication
+JWT_ACCESS_SECRET_KEY=""            # Secret key for JWT access token
+JWT_REFRESH_SECRET_KEY=""           # Secret key for JWT refresh token
+JWT_ACCESS_EXPIRED=604800           # Access token expiration time (in seconds, default: 7 days)
+JWT_REFRESH_EXPIRED=2592000         # Refresh token expiration time (in seconds, default: 30 days)
+
+# OSS Configuration
+OSS_REGION=""                       # Aliyun OSS region (e.g., oss-cn-beijing)
+OSS_ACCESS_KEY_ID=""                # Aliyun OSS access key ID
+OSS_ACCESS_KEY_SECRET=""            # Aliyun OSS access key secret
+OSS_BUCKET=""                       # Aliyun OSS bucket name
+OSS_ENDPOINT=""                     # Aliyun OSS endpoint
+OSS_STORE_KEY=""                    # Aliyun OSS store key prefix
+
+# Initial Setup Flags
+CREATE_TABLE="false"                # Whether to create database tables on startup
+CREATE_ADMIN="false"                # Whether to create initial admin user
+
+# Initial Admin Account
+INITED_ADMIN_USERNAME=""           # Initial admin username
+INITED_ADMIN_PASSWORD=""           # Initial admin password
+INITED_ADMIN_EMAIL=""             # Initial admin email
+```
+
+## Introduction Documentation 📚
+
+Something about the backend experiences of mine is available `services/api-service/introduction`
 
 ## License 📝
 

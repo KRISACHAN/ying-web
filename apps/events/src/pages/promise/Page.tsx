@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 
 import { Box, Button, Snackbar } from '@mui/material';
-import { Heart } from 'lucide-react';
 import { useDebounceCallback } from 'usehooks-ts';
 
+import HeaderInterface from '@/components/Header/Index';
 import axiosInstance from '@/services/axios';
-
 const PromisePage: React.FC = () => {
     const [promise, setPromise] = useState<string>('请点击抽取经文！');
     const [isInit, setIsInit] = useState(true);
@@ -60,13 +59,16 @@ const PromisePage: React.FC = () => {
                     gap: 4,
                 }}
             >
-                <div className="flex items-center gap-2">
-                    <Heart className="w-9 h-9 text-red-400 fill-current" />
-                    <h1 className="text-3xl font-bold">圣经应许</h1>
-                </div>
+                <HeaderInterface
+                    name="圣经应许"
+                    description="圣经应许"
+                    color="#1976d2"
+                />
 
                 <div className="w-full max-w-xl bg-white/80 rounded-xl p-6 mb-8 shadow-sm overflow-y-auto max-h-[300px]">
-                    <p className="text-2xl text-left">{promise}</p>
+                    <p className="text-2xl text-left text-[#1976d2]">
+                        {promise}
+                    </p>
                 </div>
 
                 <div className="w-[calc(100%-32px)] max-w-xl flex gap-4 fixed bottom-8">

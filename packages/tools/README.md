@@ -1,59 +1,85 @@
 # @ying-web/tools 🛠️
 
-A TypeScript-powered utility collection for the @ying-web ecosystem.
+A pure TypeScript utility collection designed for the @ying-web ecosystem.
 
 ## Overview 🌟
 
-This package is part of the `@ying-web` ecosystem, providing various utilities to enhance your development experience.
+This package provides a collection of essential utilities and tools for the `@ying-web` ecosystem. Currently, it focuses on providing a robust and flexible storage solution through the `UniversalStorage` class, with plans to expand its functionality in the future.
 
 ## Tech Stack 💻
 
--   📘 **TypeScript** - For type-safe code
--   🧪 **Jest** - Testing framework
--   🎯 **ESLint & Prettier** - Code quality tools
--   📦 **pnpm** - Package management
--   🏗️ **tsup** - TypeScript bundler
+-   📘 **TypeScript** - Type-safe development
+-   🧪 **Jest** - Unit testing
+-   📚 **TypeDoc** - Documentation generation
+-   🔍 **ESLint** - Code linting
+-   🎨 **Prettier** - Code formatting
 
-## Getting Started 🎯
-
-### Prerequisites
-
-> **Note:** The same as the root project's `package.json`
-
--   Node.js >= 18.16.0
--   Pnpm: 9.14.2
-
-### Installation
+## Installation 🚀
 
 ```bash
-# Install as a dependency
+# Using pnpm (recommended)
 pnpm add @ying-web/tools
 
-# Install dev dependencies (for contributing)
-pnpm install
+# Using npm
+npm install @ying-web/tools
+
+# Using yarn
+yarn add @ying-web/tools
 ```
 
-### Development
+## Usage 📖 [wip]
+
+## Development 🔧
 
 ```bash
-# Build the package
+# Install dependencies
+pnpm install
+
+# Build
 pnpm build
 
 # Run tests
 pnpm test
 
+# Run tests with coverage
+pnpm test:coverage
+
 # Run linting
 pnpm lint
+
+# Format code
+pnpm prettier
+
+# Generate documentation
+pnpm docs
 ```
 
-## Documentation 📚
+## Project Structure 📂
 
-For detailed usage and API reference, please visit our [documentation site](https://ying-fe-docs.vercel.app/tools).
+```txt
+packages/tools/
+├── src/                # Source code
+│   ├── packages/      # Main packages
+│   │   └── storage/   # Storage implementation
+│   ├── utils/         # Utility functions
+│   └── types/         # TypeScript types
+├── dist/              # Compiled output
+│   ├── cjs/          # CommonJS modules
+│   ├── esm/          # ES modules
+│   └── types/        # TypeScript declarations
+└── docs/             # Generated documentation
+```
+
+## Build Outputs 📦
+
+-   📁 **CommonJS**: `dist/cjs/index.js`
+-   📁 **ES Modules**: `dist/esm/index.js`
+-   📁 **TypeScript Types**: `dist/types/index.d.ts`
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT
 
 ---
 
-Made with ❤️ by the @ying-web
+Made with ❤️ by Kris Chan

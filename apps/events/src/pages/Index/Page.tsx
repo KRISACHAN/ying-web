@@ -16,14 +16,20 @@ const routes = [{ path: '/promise', label: '抽取经文', icon: Heart }];
 const IndexPage: React.FC = () => {
     return (
         <Box
-            className=" bg-app-primary"
             sx={{
                 minHeight: '100vh',
                 width: '100%',
-                p: { xs: 2, sm: 4 },
+                px: { xs: 2, sm: 4 },
+                py: { xs: 2, sm: 4 },
+                background:
+                    'linear-gradient(135deg, #EBF5FF 0%, #F0F7FF 50%, #E6F3FF 100%)',
             }}
         >
-            <HeaderInterface name="首页" description="功能列表" />
+            <HeaderInterface
+                name="首页"
+                description="功能列表"
+                color="#F87171"
+            />
             <List>
                 {routes.map((route, index) => (
                     <ListItem
@@ -35,10 +41,10 @@ const IndexPage: React.FC = () => {
                     >
                         <ListItemButton>
                             <ListItemIcon>
-                                <route.icon className="w-9 h-9 text-white fill-current" />
+                                <route.icon className="w-9 h-9 text-red-400 fill-current" />
                             </ListItemIcon>
                             <Link to={route.path}>
-                                <span className="text-2xl text-white">
+                                <span className="text-2xl text-red-400">
                                     {route.label}
                                 </span>
                             </Link>

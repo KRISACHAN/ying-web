@@ -16,8 +16,8 @@ function App() {
             <HeaderProvider>
                 <BaseLayout>
                     <Routes>
-                        <Route path="/promise" element={<PromisePage />} />
                         <Route path="/" element={<IndexPage />} />
+                        <Route path="/promise" element={<PromisePage />} />
                         <Route
                             path="/lucky-number/:activityKey"
                             element={<LuckyNumberListPage />}

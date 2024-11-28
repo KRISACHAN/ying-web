@@ -31,7 +31,7 @@
         "@mui/styled-engine-sc": "^6.1.7",
         "@ying-web/tools": "workspace:*",
         "axios": "^0.21.1",
-        "lucide-react": "^0.344.0",
+        "lucide-react": "^0.424.0",
         "rc-image": "^7.11.0",
         "react": "^18.3.1",
         "react-confetti": "^6.1.0",

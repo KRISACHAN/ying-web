@@ -4,11 +4,7 @@ A modern, TypeScript-powered Christian events platform for managing various spir
 
 ## Overview 🌟
 
-This platform is part of the `@ying-web` ecosystem, built with React 18 and TypeScript. It provides an engaging interface for various spiritual activities, including:
-
--   🎲 Lucky Number Drawing
--   📖 Bible Promise Drawing
--   🎯 More Activities _(coming soon)_
+This platform is part of the `@ying-web` ecosystem, built with React 18 and TypeScript. It provides an engaging interface for various spiritual activities.
 
 ## Tech Stack 💻
 
@@ -49,11 +45,20 @@ pnpm dev
 # Run linting
 pnpm lint
 
+# Run linting for all files
+pnpm lint:all
+
 # Run style linting
 pnpm stylelint
 
+# Run style linting for fixing issues
+pnpm stylelint:fix
+
 # Format code
 pnpm prettier
+
+# Format code for all files
+pnpm prettier:all
 ```
 
 ### Building for Production
@@ -72,8 +77,6 @@ pnpm preview
 apps/events/
 ├── src/                # Source code
 │   ├── pages/         # Page components
-│   │   ├── LuckyNumber/  # Lucky number activity
-│   │   └── Promise/      # Bible promise activity
 │   ├── components/    # Reusable components
 │   ├── contexts/      # React contexts
 │   ├── hooks/         # Custom React hooks

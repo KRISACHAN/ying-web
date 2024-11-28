@@ -6,9 +6,9 @@ Hey there! I'm Jinwen Chen (or just call me Kris), a passionate front-end develo
 
 Let's connect:
 
-- 📧 Email: [chenjinwen77@gmail.com](mailto:chenjinwen77@gmail.com)
-- 🐙 Github: [https://github.com/KRISACHAN](https://github.com/KRISACHAN)
-- 💬 WeChat: krisChans95
+-   📧 Email: [chenjinwen77@gmail.com](mailto:chenjinwen77@gmail.com)
+-   🐙 Github: [https://github.com/KRISACHAN](https://github.com/KRISACHAN)
+-   💬 WeChat: krisChans95
 
 PS: Currently on the lookout for exciting opportunities! If you've got something interesting, let's chat! 🤝
 
@@ -42,13 +42,13 @@ Every modern project needs a solid foundation:
 
 #### Root Level 🌳
 
-- ✅ `husky` + `lint-staged` + `commitlint`
-- 🚧 `Webhook` (GitHub Actions/Vercel/etc.) + `Docker`
+-   ✅ `husky` + `lint-staged` + `commitlint`
+-   🚧 `Webhook` (GitHub Actions/Vercel/etc.) + `Docker`
 
 #### Project Level 🌱
 
-- ✅ `changeset`
-- 🚧 Detailed documentation
+-   ✅ `changeset`
+-   🚧 Detailed documentation
 
 ### @ying-web/api-service 🔌
 
@@ -68,26 +68,15 @@ Check it out at [https://events.krissarea.com](https://events.krissarea.com)
 
 (Psst... might rename it to `@ying-web/christian` later, but first things first!)
 
+### @ying-web/diary 📔
+
+My personal diary project - a place to record my thoughts and experiences. It's not just a blog, it's a personal journal! 📖
+
+Check it out at [https://diary.krissarea.com](https://diary.krissarea.com)
+
 ### @ying-web/fe-docs 📚
 
-A comprehensive front-end documentation and interview preparation site built with [Nextra](https://nextra.site). Features:
-
-- 📖 Front-end Interview Guide
-  - General Web Development 🌐
-  - HTML, CSS, JavaScript fundamentals 💻
-  - TypeScript essentials 📘
-  - Browser and Network concepts 🌍
-  - React & Vue frameworks ⚛️
-  - Algorithm Design patterns 🧮
-- 🛠️ @ying-web Tools Documentation
-  - API references 📑
-  - Usage examples 💡
-  - Best practices ⭐
-- 🎨 Modern Documentation Features
-  - Clean, responsive design 📱
-  - Dark mode support 🌙
-  - Fast, static site generation ⚡
-  - SEO optimization 🔍
+My documentation site - a place to share my knowledge and experiences with the Front-end developer field! 📚
 
 Check it out at [https://fe.krissarea.com](https://fe.krissarea.com)! ✨
 
@@ -95,21 +84,11 @@ Check it out at [https://fe.krissarea.com](https://fe.krissarea.com)! ✨
 
 My personal collection of handy utilities. Sure, npm has alternatives, but sometimes you just want to build your own tools, right? 😊
 
-### @ying-web/home 🏠
+### [wip] @ying-web/home 🏠
 
-My main website (maybe just an entry of my projects) at [https://www.krissarea.com](https://www.krissarea.com). Still brainstorming how to make it extra special! 🎨
+My main website (maybe just an entry of my projects) at [https://www.krissarea.com](https://www.krissarea.com).
 
-## What's Staying Outside? 📦
-
-Some projects are happy where they are:
-
-### [https://diary.krissarea.com](https://diary.krissarea.com) 📔
-
-My personal diary - perfectly content on Vercel!
-
-### [https://blog.krissarea.com](https://blog.krissarea.com) ✍️
-
-My first Chinese FE blog on Gitee - might automate it later, but it's cozy where it is!
+Still brainstorming how to make it extra special! 🎨
 
 ## The Future is Bright! 🌈
 
@@ -119,26 +98,13 @@ Stay tuned for more awesome stuff! ✨
 
 Remember: The best code is written with passion and a sprinkle of fun! 🎮
 
-## Prerequisites 🎯
-
-- Node.js >= 18.16.0
-- Pnpm: 9.14.2
-- MySQL >= 8.0 _(for api-service)_
-- PM2 _(optional, for api-service)_
-- Docker _(optional, for api-service)_
-
 ## Project Structure 📂
 
 ```txt
 @ying-web/
 ├── apps/                   # Frontend applications
-│   ├── admin/             # Administration platform
-│   ├── fe-docs/           # Documentation site
-│   └── events/            # Christian events platform
 ├── packages/              # Shared packages
-│   └── tools/             # Utility collection
 └── services/             # Backend services
-    └── api-service/       # Main API service
 ```
 
 ## License 📄

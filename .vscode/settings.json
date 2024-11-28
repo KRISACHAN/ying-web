@@ -3,7 +3,7 @@
     "eslint.options": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
     },
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "eslint.useFlatConfig": true,
     "editor.formatOnSave": true,
     "eslint.validate": [
@@ -64,7 +64,7 @@
         "eslint.config.js": ".eslintignore, .eslintrc.*, eslint.config.*.js",
         ".prettierrc": ".prettierignore, .prettierrc.*, prettier.config.js",
         ".stylelintrc": ".stylelintignore, .stylelintrc.*, stylelint.config.js, .stylelintrc.json",
-        "postcss.config.js": "postcss.config.*.js, tailwind.config.js, tailwind.config.*.js",
+        "postcss.config.js": "postcss.config.*.js, tailwind.config.js, tailwind.config.*.js, tailwind.config.ts, tailwind.config.*.ts",
 
         // Testing Configuration
         "jest.config.js": "jest.setup.js, jest.*.js, jest.config.*.js",

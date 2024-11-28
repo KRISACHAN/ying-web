@@ -1,14 +1,10 @@
 # @ying-web/admin 🚀
 
-A modern, TypeScript-powered admin dashboard for managing various web applications and activities.
+A modern, TypeScript-powered admin dashboard for managing various web applications.
 
 ## Overview 🌟
 
-This dashboard is part of the `@ying-web` ecosystem, built with React 18 and TypeScript. It provides a sleek interface for managing different activities and applications, including:
-
--   🎯 Lucky Number Activity Management
--   📊 Dashboard Analytics _(coming soon)_
--   👥 User Management _(coming soon)_
+This dashboard is part of the `@ying-web` ecosystem, built with React 18 and TypeScript. It provides a sleek interface for managing different applications.
 
 ## Tech Stack 💻
 
@@ -49,11 +45,20 @@ pnpm dev
 # Run linting
 pnpm lint
 
+# Run linting for all files
+pnpm lint:all
+
 # Run style linting
 pnpm stylelint
 
+# Run style linting for fixing issues
+pnpm stylelint:fix
+
 # Format code
 pnpm prettier
+
+# Format code for all files
+pnpm prettier:all
 ```
 
 ### Building for Production

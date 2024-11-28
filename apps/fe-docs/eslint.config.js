@@ -10,7 +10,6 @@ export default tseslint.config({
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ['**/*.{ts,tsx}'],
     ignores: [
-        '.next',
         'dist',
         'node_modules',
         'pnpm-lock.yaml',
@@ -24,6 +23,9 @@ export default tseslint.config({
         '.prettierrc',
         '.eslintignore',
         '.eslintrc',
+        '.next/**/*',
+        'next-env.d.ts',
+        'out/**/*'
     ],
     languageOptions: {
         ecmaVersion: 2020,
