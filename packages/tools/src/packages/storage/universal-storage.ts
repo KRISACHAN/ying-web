@@ -1,6 +1,7 @@
 import { isBrowser, logger } from '../../utils';
 
 import { CookieProvider } from './providers/cookie-provider';
+import { IndexedProvider } from './providers/indexed-provider';
 import { MemoryProvider } from './providers/memory-provider';
 import { WebStorageProvider } from './providers/web-storage-provider';
 import { StorageOptions, StorageProvider, StorageType } from './types';
@@ -50,6 +51,8 @@ export class UniversalStorage {
                 }
             case 'cookie':
                 return new CookieProvider(options.prefix);
+            case 'indexed':
+                return new IndexedProvider(options.prefix);
             case 'memory':
             default:
                 return this.getMemoryProvider(options.prefix);

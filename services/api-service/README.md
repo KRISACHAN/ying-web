@@ -29,8 +29,9 @@ This service is the backbone of the `@ying-web` ecosystem, built with Koa.js and
 > **Note:** The same as the root project's `package.json`
 
 -   Node.js >= 18.16.0
--   pnpm >= 9.14.0
+-   Pnpm: 9.14.2
 -   MySQL >= 8.0
+-   PM2 (optional)
 -   Docker (optional)
 
 ### Installation

@@ -15,6 +15,10 @@
         {
             "name": "@ying-web/tools",
             "path": "packages/tools"
+        },
+        {
+            "name": "@ying-web/docs",
+            "path": "apps/docs"
         }
     ]
 }

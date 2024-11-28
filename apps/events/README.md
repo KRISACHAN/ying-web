@@ -28,7 +28,7 @@ This platform is part of the `@ying-web` ecosystem, built with React 18 and Type
 > **Note:** The same as the root project's `package.json`
 
 -   Node.js >= 18.16.0
--   pnpm >= 9.14.0
+-   Pnpm: 9.14.2
 
 ### Installation
 

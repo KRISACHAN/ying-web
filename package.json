@@ -1,5 +1,5 @@
 {
-    "name": "@ying-web/web",
+    "name": "@ying-web",
     "private": true,
     "version": "1.0.0",
     "description": "a collection of Kris's web projects",
@@ -7,6 +7,7 @@
     "scripts": {
         "dev": "node scripts/dev.js",
         "build": "node scripts/build.js",
+        "build:api-service": "turbo run build --filter @ying-web/api-service",
         "clean": "node scripts/clean.js",
         "deploy": "node scripts/deploy.js",
         "prepare": "husky install",
@@ -52,7 +53,16 @@
     ],
     "engines": {
         "node": ">= 18.16.0",
-        "pnpm": ">= 9.14.0"
+        "pnpm": "9.14.2"
     },
-    "packageManager": "pnpm@9.14.2"
+    "packageManager": "pnpm@9.14.2",
+    "pnpm": {
+        "overrides": {
+            "@ying-web/*": "workspace:*",
+            "react": "^18.3.1",
+            "react-dom": "^18.3.1",
+            "typescript": "^5.6.3",
+            "axios": "^0.21.1"
+        }
+    }
 }

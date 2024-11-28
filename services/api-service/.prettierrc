@@ -10,7 +10,7 @@
     "endOfLine": "auto",
     "overrides": [
         {
-            "files": "*.json",
+            "files": ["*.json"],
             "options": {
                 "trailingComma": "none"
             }

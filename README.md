@@ -66,6 +66,18 @@ Check it out at [https://events.krissarea.com](https://events.krissarea.com)
 
 (Psst... might rename it to `@ying-web/christian` later, but first things first!)
 
+### @ying-web/docs 📚
+
+Our brand new documentation hub built with [Nextra](https://nextra.site)! This is where you'll find:
+
+-   📖 Comprehensive guides for all @ying-web packages
+-   🔧 API references with TypeScript support
+-   💡 Best practices and examples
+-   🎨 Beautiful, modern UI with dark mode support
+-   🚀 Fast and SEO-friendly static site
+
+Check it out at [https://ying-web-docs.vercel.app](https://ying-web-docs.vercel.app)
+
 ### @ying-web/home 🏠
 
 My digital home at [https://www.krissarea.com](https://www.krissarea.com). Still brainstorming how to make it extra special! 🎨
@@ -97,3 +109,129 @@ Who knows what cool projects might pop into my head next? I'm always excited to 
 Stay tuned for more awesome stuff! ✨
 
 Remember: The best code is written with passion and a sprinkle of fun! 🎮
+
+## Prerequisites 🎯
+
+-   Node.js >= 18.16.0
+-   Pnpm: 9.14.2
+-   MySQL >= 8.0 _(for api-service)_
+-   PM2 _(optional, for api-service)_
+-   Docker _(optional, for api-service)_
+
+## Project Structure 📂
+
+```
+@ying-web/
+├── apps/                   # Frontend applications
+│   ├── admin/             # Administration platform
+│   ├── docs/              # Documentation site
+│   └── events/            # Christian events platform
+├── packages/              # Shared packages
+│   └── tools/             # Utility collection
+└── services/              # Backend services
+    └── api-service/       # Main API service
+```
+
+## Available Projects 📦
+
+### Applications
+
+#### [@ying-web/events](./apps/events)
+
+A modern, TypeScript-powered Christian events platform:
+
+-   🎲 Lucky Number Drawing
+-   📖 Bible Promise Drawing
+-   🎯 More Activities _(coming soon)_
+
+#### [@ying-web/admin](./apps/admin)
+
+The administration platform for the @ying-web ecosystem.
+
+#### [@ying-web/docs](./apps/docs)
+
+Documentation site built with Nextra, providing comprehensive guides and API references.
+
+### Packages
+
+#### [@ying-web/tools](./packages/tools)
+
+A TypeScript utility collection:
+
+-   📦 **Universal Storage**
+    -   Multiple storage providers
+    -   Type-safe operations
+    -   Configurable prefixes and expiration times
+
+_More utilities coming soon! 🚀_
+
+### Services
+
+#### [@ying-web/api-service](./services/api-service)
+
+The backend service powering the @ying-web ecosystem.
+
+## Getting Started 🚀
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/KRISACHAN/ying-web.git
+cd ying-web
+```
+
+2. **Install Dependencies**
+
+```bash
+pnpm install
+```
+
+3. **Development**
+
+```bash
+# Start all projects
+pnpm dev
+
+# Start specific project
+pnpm dev --filter @ying-web/events
+```
+
+4. **Build**
+
+```bash
+# Build all projects
+pnpm build
+
+# Build specific project
+pnpm build --filter @ying-web/api-service
+```
+
+## Scripts 📝
+
+-   `pnpm dev`: Start development servers
+-   `pnpm build`: Build all projects
+-   `pnpm build:api-service`: Build API service
+-   `pnpm clean`: Clean build artifacts
+-   `pnpm deploy`: Deploy projects
+-   `pnpm prepare`: Install husky
+
+## Documentation 📚
+
+Visit our [documentation site](https://ying-web-docs.vercel.app) for:
+
+-   📖 Comprehensive guides
+-   🔧 API references
+-   💡 Best practices
+-   🎯 Examples
+
+## Contributing 🤝
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License 📄
+
+MIT © @ying-web

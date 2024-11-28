@@ -1,0 +1,48 @@
+# @ying-web/tools
+
+`@ying-web/tools` is a TypeScript utility collection designed for the @ying-web ecosystem. Currently, it provides a robust and flexible storage solution through the `UniversalStorage` class.
+
+## Features
+
+-   📦 **Universal Storage**: A unified storage interface that works across different environments
+    -   Multiple storage providers (LocalStorage, SessionStorage, Memory, Cookie, IndexedDB)
+    -   Type-safe operations with TypeScript
+    -   Configurable prefixes and expiration times
+    -   Cross-browser compatibility
+
+## Installation
+
+```bash
+pnpm add @ying-web/tools
+```
+
+## Quick Start
+
+```typescript
+import { UniversalStorage } from '@ying-web/tools';
+
+// Create a new storage instance
+const storage = new UniversalStorage({
+    type: 'local', // Storage type
+    prefix: 'ying_', // Key prefix
+    expires: '-1', // Expiration time
+});
+
+// Store data
+storage.set('user', { name: 'John', age: 30 });
+
+// Retrieve data
+const user = storage.get('user');
+```
+
+## Package Structure
+
+The package currently exports:
+
+-   `UniversalStorage`: A unified storage implementation
+-   Storage-related types and interfaces
+
+## Next Steps
+
+-   Check out the [Getting Started](/tools/getting-started) guide
+-   Learn more about [Storage](/tools/storage) capabilities

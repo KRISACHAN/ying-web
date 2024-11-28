@@ -1,0 +1,140 @@
+# Storage Utilities
+
+The `@ying-web/tools` package provides a flexible and universal storage solution through the `UniversalStorage` class.
+
+## UniversalStorage
+
+`UniversalStorage` is a unified storage interface that works across different storage providers:
+
+-   LocalStorage
+-   SessionStorage
+-   Memory Storage
+-   Cookie Storage
+-   IndexedDB
+
+### Basic Usage
+
+```typescript
+import { UniversalStorage } from '@ying-web/tools';
+
+const storage = new UniversalStorage({
+    type: 'local', // Storage type
+    prefix: 'ying_', // Key prefix
+    expires: '-1', // Expiration time
+});
+
+// Store data
+storage.set('user', { name: 'John', age: 30 });
+
+// Retrieve data
+const user = storage.get('user');
+
+// Remove data
+storage.remove('user');
+
+// Clear all data
+storage.clear();
+```
+
+### Storage Types
+
+You can specify different storage types when initializing:
+
+```typescript
+// LocalStorage
+const localStorage = new UniversalStorage({ type: 'local' });
+
+// SessionStorage
+const sessionStorage = new UniversalStorage({ type: 'session' });
+
+// Memory Storage
+const memoryStorage = new UniversalStorage({ type: 'memory' });
+
+// Cookie Storage
+const cookieStorage = new UniversalStorage({ type: 'cookie' });
+
+// IndexedDB Storage
+const indexedStorage = new UniversalStorage({ type: 'indexed' });
+```
+
+### Type Safety
+
+UniversalStorage supports TypeScript generics for type-safe storage:
+
+```typescript
+interface User {
+    name: string;
+    age: number;
+    preferences: {
+        theme: 'light' | 'dark';
+        language: string;
+    };
+}
+
+const userStorage = new UniversalStorage<User>();
+
+// Type-safe operations
+userStorage.set('currentUser', {
+    name: 'John',
+    age: 30,
+    preferences: {
+        theme: 'dark',
+        language: 'en',
+    },
+});
+
+const user = userStorage.get('currentUser'); // Type: User | null
+```
+
+### Options
+
+The `UniversalStorage` constructor accepts the following options:
+
+```typescript
+interface StorageOptions {
+    type?: 'local' | 'session' | 'memory' | 'cookie' | 'indexed';
+    prefix?: string;
+    expires?: string | number;
+}
+```
+
+-   `type`: Storage provider type (default: 'local')
+-   `prefix`: Key prefix for all stored items (default: 'ying\_')
+-   `expires`: Expiration time in milliseconds or date string (default: '-1' for no expiration)
+
+### Best Practices
+
+1. **Use Prefixes**: Always use a prefix to avoid naming conflicts:
+
+```typescript
+const storage = new UniversalStorage({
+    prefix: 'myapp_',
+});
+```
+
+2. **Type Safety**: Leverage TypeScript interfaces for type safety:
+
+```typescript
+interface AppState {
+    theme: 'light' | 'dark';
+    userId: string;
+}
+
+const storage = new UniversalStorage<AppState>();
+```
+
+3. **Error Handling**: Always handle potential null values:
+
+```typescript
+const user = storage.get('user');
+if (user) {
+    // Use user data
+}
+```
+
+4. **Cleanup**: Clear unnecessary data when appropriate:
+
+```typescript
+// On logout
+storage.clear();
+```

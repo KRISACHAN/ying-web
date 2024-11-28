@@ -1,0 +1,10 @@
+{
+    "index": {
+        "title": "Home",
+        "type": "page"
+    },
+    "tools": {
+        "title": "Tools",
+        "type": "page"
+    }
+}

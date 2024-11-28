@@ -13,10 +13,7 @@
         "forceConsistentCasingInFileNames": true,
         "types": [],
         "typeRoots": ["node_modules/@types", "node_modules/tslib"],
-        "baseUrl": "./",
-        "paths": {
-            "@/*": ["src/*"]
-        }
+        "baseUrl": "./"
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules", "dist", "**/*.test.ts", "**/__tests__/**"]
