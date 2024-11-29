@@ -8,7 +8,11 @@
         "dev": "node scripts/dev.js",
         "build": "node scripts/build.js",
         "build:api-service": "turbo run build --filter @ying-web/api-service",
+        "build:admin": "turbo run build --filter @ying-web/admin",
+        "build:diary": "turbo run build --filter @ying-web/diary",
+        "build:events": "turbo run build --filter @ying-web/events",
         "build:fe-docs": "turbo run build --filter @ying-web/fe-docs",
+        "build:tools": "turbo run build --filter @ying-web/tools",
         "clean": "node scripts/clean.js",
         "deploy": "node scripts/deploy.js",
         "prepare": "husky install",
@@ -56,9 +60,9 @@
     ],
     "engines": {
         "node": ">= 18.16.0",
-        "pnpm": "8.15.8 || 9.14.2"
+        "pnpm": "6.35.1 || 8.15.8 || 9.14.2"
     },
-    "packageManager": "pnpm@8.15.8",
+    "packageManager": "pnpm@6.35.1",
     "pnpm": {
         "overrides": {
             "@ying-web/*": "workspace:*",
