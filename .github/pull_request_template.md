@@ -1,48 +1,65 @@
-# 🎯 PR Overview
+<!--
+🙏 Thank you for contributing to @ying-web!
+Please make sure your code follows our standards and includes necessary tests/docs.
+-->
 
-## 🔍 Description
+## Type 🏷️
 
-<!-- Brief description of the changes introduced in this PR -->
+<!-- Check one with "x" -->
 
-## 🎯 Related Issues
+-   [ ] 🐛 Bug Fix
+-   [ ] ✨ New Feature
+-   [ ] 📝 Documentation
+-   [ ] 🔄 Dependency Update
+-   [ ] 🎨 Style/UI
+-   [ ] 🛠️ Refactor
 
-<!-- Reference any related issues: Fixes #123, Related to #456 -->
+## Scope 📦
 
-## 📝 Changes
+<!-- Check affected projects -->
 
-<!-- Key changes made in this PR -->
+-   [ ] @ying-web/diary
+-   [ ] @ying-web/fe-docs
+-   [ ] @ying-web/admin
+-   [ ] @ying-web/events
+-   [ ] @ying-web/tools
+-   [ ] @ying-web/api-service
 
--   [ ] Feature:
--   [ ] Bug Fix:
--   [ ] Documentation:
--   [ ] Other:
+## Changes 📝
 
-## 🧪 Testing
+<!-- Describe your changes -->
 
-<!-- Testing strategy and coverage -->
+### What's New
 
--   [ ] Unit Tests
--   [ ] Integration Tests
--   [ ] Manual Testing
+-
 
-## 📸 Screenshots
+### Breaking Changes
 
-<!-- Visual evidence of changes (if applicable) -->
+-
 
-## 🚨 Breaking Changes
+## Testing 🧪
 
-<!-- Note any breaking changes and migration steps required -->
+<!-- How have you tested this? -->
 
-## ✅ Checklist
+## Screenshots 📸
 
-<!-- Pre-merge verification checklist -->
+<!-- If applicable -->
 
--   [ ] Code follows the project's coding standards
--   [ ] Tests have been added/updated
--   [ ] Documentation has been updated
--   [ ] All tests are passing
--   [ ] No new warnings were introduced
+## Related Issues 🔗
 
-## 📢 Additional Notes
+<!-- e.g., Fixes #123 -->
 
-<!-- Additional context, considerations, or notes for reviewers -->
+## Checklist ✅
+
+-   [ ] Tests added/updated
+-   [ ] Documentation updated
+-   [ ] Self-reviewed
+-   [ ] No console.logs/debugging code
+-   [ ] Tested in supported browsers
+
+<!--
+💡 Tips:
+- Keep changes focused
+- Test thoroughly
+- Update docs as needed
+-->
