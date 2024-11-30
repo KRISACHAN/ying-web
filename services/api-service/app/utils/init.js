@@ -5,9 +5,10 @@ import logger from 'koa-logger';
 import ratelimit from 'koa-ratelimit';
 import Router from 'koa-router';
 import requireDirectory from 'require-directory';
+import path from 'path';
 
 export const initLoadRouters = app => {
-    const apiDirectory = '../api';
+    const apiDirectory = path.join(__dirname, '../api');
     requireDirectory(module, apiDirectory, {
         visit: obj => {
             if (obj.default instanceof Router) {

@@ -1,14 +1,16 @@
+import { describe, it, expect } from 'vitest';
 import { to } from 'await-to-js';
-import server from './server';
+import { createTestServer } from './server';
 
 describe('Test app', () => {
-    test('Test health', async done => {
-        const app = server();
+    it('should return 200 for health check', async () => {
+        const app = createTestServer();
         const [err, res] = await to(app.get('/health'));
+        
         if (err) {
-            done(err);
+            throw err;
         }
+        
         expect(res.statusCode).toBe(200);
-        done();
     });
 });

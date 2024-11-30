@@ -23,6 +23,36 @@
         {
             "name": "@ying-web/diary",
             "path": "apps/diary"
+        },
+        {
+            "name": "@ying-web/test-config",
+            "path": "packages/test-config"
         }
-    ]
+    ],
+    "settings": {
+        "typescript.tsdk": "node_modules/typescript/lib",
+        "typescript.enablePromptUseWorkspaceTsdk": true,
+        "javascript.preferences.importModuleSpecifierEnding": "js",
+        "typescript.preferences.importModuleSpecifierEnding": "js",
+        "vitest.enable": true,
+        "vitest.commandLine": "pnpm test",
+        "testing.automaticallyOpenPeekView": "never",
+        "files.associations": {
+            "*.config.ts": "typescript",
+            "*.config.js": "javascript"
+        },
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/dist": true,
+            "**/.turbo": true
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "vitest.explorer",
+            "dbaeumer.vscode-eslint",
+            "esbenp.prettier-vscode",
+            "ZixuanChen.vitest-explorer"
+        ]
+    }
 }
