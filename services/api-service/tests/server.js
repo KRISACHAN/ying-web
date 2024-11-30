@@ -1,4 +1,9 @@
 import request from 'supertest';
-import app from '../app';
+import Koa from 'koa';
+import healthRouter from '../app/api/health.js';
 
-export default () => request(app.callback());
+export const createTestServer = () => {
+    const app = new Koa();
+    app.use(healthRouter.routes());
+    return request.agent(app.callback());
+}
