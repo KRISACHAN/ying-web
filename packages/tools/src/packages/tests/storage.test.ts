@@ -6,7 +6,6 @@ describe('[@ying-web/tools] packages/storage', () => {
         let storage: UniversalStorage;
 
         beforeEach(() => {
-            // Clear any existing storage before each test
             storage = new UniversalStorage();
             storage.clear();
         });

@@ -14,7 +14,7 @@ export default defineConfig({
             '@constants': '/app/constants',
             '@dao': '/app/dao',
             '@models': '/app/models',
-            '@services': '/app/services'
-        }
-    }
+            '@services': '/app/services',
+        },
+    },
 });

@@ -10,8 +10,6 @@
         "preview": "vite preview",
         "lint": "eslint --fix src",
         "lint:all": "eslint --fix .",
-        "prettier": "prettier src --write",
-        "prettier:all": "prettier . --write",
         "stylelint": "stylelint \"src/**/*.{css,less}\"",
         "stylelint:fix": "stylelint \"src/**/*.{css,less}\" --fix"
     },
@@ -57,7 +55,6 @@
         "less": "^4.2.0",
         "postcss": "^8.4.35",
         "postcss-less": "^6.0.0",
-        "prettier": "^3.2.5",
         "styled-components": "^6.1.13",
         "stylelint": "^16.10.0",
         "stylelint-config-standard": "^36.0.1",

@@ -8,7 +8,7 @@ export default defineConfig({
     sourcemap: true,
     outExtension({ format }) {
         return {
-            js: format === 'cjs' ? '.cjs' : '.js'
+            js: format === 'cjs' ? '.cjs' : '.js',
         };
     },
     treeshake: true,

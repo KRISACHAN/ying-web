@@ -1,39 +1,9 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { logger } from '../logger';
-
-class Logger {
-    private instance: Console;
-    private prefix: string;
-
-    constructor(instance = console, prefix: string = '[@ying-web/tools]') {
-        this.instance = instance;
-        this.prefix = prefix;
-    }
-
-    log(...args: any[]) {
-        this.instance.log(`${this.prefix} LOG: `, ...args);
-    }
-
-    info(...args: any[]) {
-        this.instance.info(`${this.prefix} INFO: `, ...args);
-    }
-
-    error(...args: any[]) {
-        this.instance.error(`${this.prefix} ERROR: `, ...args);
-    }
-
-    warn(...args: any[]) {
-        this.instance.warn(`${this.prefix} WARN: `, ...args);
-    }
-
-    debug(...args: any[]) {
-        this.instance.debug(`${this.prefix} DEBUG: `, ...args);
-    }
-}
+import Logger, { logger, type LoggerType } from '../logger';
 
 describe('[@ying-web/tools] utils/logger', () => {
     let mockConsole: Console;
-    let customLogger: Logger;
+    let customLogger: LoggerType;
 
     beforeEach(() => {
         // Create mock console with spied methods

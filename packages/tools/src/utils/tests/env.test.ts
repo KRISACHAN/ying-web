@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { isBrowser, isServer } from '../env';
 
 describe('[@ying-web/tools] utils/env', () => {
@@ -6,17 +6,15 @@ describe('[@ying-web/tools] utils/env', () => {
         const originalWindow = globalThis.window;
 
         beforeEach(() => {
-            // Reset window after each test
             vi.stubGlobal('window', originalWindow);
         });
 
         afterEach(() => {
-            // Restore window after each test
             vi.unstubAllGlobals();
         });
 
         it('should return true when window is defined', () => {
-            vi.stubGlobal('window', { /* mock window object */ });
+            vi.stubGlobal('window', {});
             expect(isBrowser()).toBe(true);
         });
 
@@ -30,12 +28,10 @@ describe('[@ying-web/tools] utils/env', () => {
         const originalWindow = globalThis.window;
 
         beforeEach(() => {
-            // Reset window after each test
             vi.stubGlobal('window', originalWindow);
         });
 
         afterEach(() => {
-            // Restore window after each test
             vi.unstubAllGlobals();
         });
 
@@ -45,14 +41,14 @@ describe('[@ying-web/tools] utils/env', () => {
         });
 
         it('should return false when window is defined', () => {
-            vi.stubGlobal('window', { /* mock window object */ });
+            vi.stubGlobal('window', {});
             expect(isServer()).toBe(false);
         });
 
         it('should return opposite of isBrowser', () => {
-            vi.stubGlobal('window', { /* mock window object */ });
+            vi.stubGlobal('window', {});
             expect(isServer()).toBe(!isBrowser());
-            
+
             vi.stubGlobal('window', undefined);
             expect(isServer()).toBe(!isBrowser());
         });
