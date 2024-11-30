@@ -29,9 +29,13 @@ async function cleanDirectory(dirPath) {
 
 async function cleanSubprojects(parentDir) {
     try {
-        const subDirs = (await promisify(require('fs').readdir)(parentDir, { withFileTypes: true }))
-            .filter((dirent) => dirent.isDirectory())
-            .map((dirent) => path.join(parentDir, dirent.name));
+        const subDirs = (
+            await promisify(require('fs').readdir)(parentDir, {
+                withFileTypes: true,
+            })
+        )
+            .filter(dirent => dirent.isDirectory())
+            .map(dirent => path.join(parentDir, dirent.name));
 
         for (const dir of subDirs) {
             await cleanDirectory(dir);
@@ -54,4 +58,4 @@ async function main() {
     console.log('Clean up completed.');
 }
 
-main().catch((err) => console.error('Error during clean up:', err));
+main().catch(err => console.error('Error during clean up:', err));

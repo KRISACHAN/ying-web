@@ -1,4 +1,4 @@
-type LoggerType = {
+export type LoggerType = {
     log: (...args: any[]) => void;
     info: (...args: any[]) => void;
     error: (...args: any[]) => void;
@@ -6,7 +6,7 @@ type LoggerType = {
     debug: (...args: any[]) => void;
 };
 
-class Logger {
+export class Logger {
     private instance: LoggerType = console;
     private prefix: string = '';
 
@@ -38,4 +38,4 @@ class Logger {
 
 export const logger = new Logger();
 
-export default logger;
+export default Logger;

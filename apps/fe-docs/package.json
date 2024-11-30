@@ -9,8 +9,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "eslint --fix .",
-        "stylelint": "stylelint \"{components,pages}/**/*.{css,less}\" --fix",
-        "prettier": "prettier . --write"
+        "stylelint": "stylelint \"{components,pages}/**/*.{css,less}\" --fix"
     },
     "dependencies": {
         "@ying-web/tools": "workspace:*",
@@ -40,7 +39,6 @@
         "less": "^4.2.0",
         "postcss": "^8.4.35",
         "postcss-less": "^6.0.0",
-        "prettier": "^3.2.5",
         "stylelint": "^16.10.0",
         "stylelint-config-standard": "^36.0.1",
         "stylelint-order": "^6.0.4",

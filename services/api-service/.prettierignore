@@ -1,8 +1,0 @@
-.git/
-docs/
-node_modules/
-sqls/
-dist/
-pnpm-lock.yaml
-.turbo/
-*.json

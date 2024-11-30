@@ -2,32 +2,32 @@
     "folders": [
         {
             "name": "@ying-web/api-service",
-            "path": "services/api-service"
+            "path": "services/api-service",
         },
         {
             "name": "@ying-web/events",
-            "path": "apps/events"
+            "path": "apps/events",
         },
         {
             "name": "@ying-web/admin",
-            "path": "apps/admin"
+            "path": "apps/admin",
         },
         {
             "name": "@ying-web/tools",
-            "path": "packages/tools"
+            "path": "packages/tools",
         },
         {
             "name": "@ying-web/fe-docs",
-            "path": "apps/fe-docs"
+            "path": "apps/fe-docs",
         },
         {
             "name": "@ying-web/diary",
-            "path": "apps/diary"
+            "path": "apps/diary",
         },
         {
             "name": "@ying-web/test-config",
-            "path": "packages/test-config"
-        }
+            "path": "packages/test-config",
+        },
     ],
     "settings": {
         "typescript.tsdk": "node_modules/typescript/lib",
@@ -39,20 +39,20 @@
         "testing.automaticallyOpenPeekView": "never",
         "files.associations": {
             "*.config.ts": "typescript",
-            "*.config.js": "javascript"
+            "*.config.js": "javascript",
         },
         "search.exclude": {
             "**/node_modules": true,
             "**/dist": true,
-            "**/.turbo": true
-        }
+            "**/.turbo": true,
+        },
     },
     "extensions": {
         "recommendations": [
             "vitest.explorer",
             "dbaeumer.vscode-eslint",
             "esbenp.prettier-vscode",
-            "ZixuanChen.vitest-explorer"
-        ]
-    }
+            "ZixuanChen.vitest-explorer",
+        ],
+    },
 }

@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+.turbo/
+public/
+
+# Environment and configuration files
+.env*
+!.env.example
+
+# Git files
+.git/
+.gitignore
+
+# Config files
+.prettierignore
+.prettierrc
+prettier.config.js
+.eslintignore
+.eslintrc
+eslint.config.js
+*.json
+
+# Package specific
+**/coverage/
+**/.next/
+**/build/
+**/storybook-static/

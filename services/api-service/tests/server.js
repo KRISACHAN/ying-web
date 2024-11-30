@@ -6,4 +6,4 @@ export const createTestServer = () => {
     const app = new Koa();
     app.use(healthRouter.routes());
     return request.agent(app.callback());
-}
+};
