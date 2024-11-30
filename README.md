@@ -49,6 +49,7 @@ Every modern project needs a solid foundation:
 
 -   ✅ `changeset`
 -   🚧 Detailed documentation
+-   🚧 Completed test cases
 
 ### @ying-web/api-service 🔌
 
