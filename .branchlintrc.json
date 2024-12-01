@@ -1,0 +1,24 @@
+{
+    "branchNameLinter": {
+        "prefixes": [
+            "feat",
+            "fix",
+            "docs",
+            "style",
+            "refactor",
+            "perf",
+            "test",
+            "chore",
+            "revert"
+        ],
+        "separator": "/",
+        "regex": "^(feat|fix|docs|style|refactor|perf|test|chore|revert)/[a-z0-9-]+$|^(prod|dev)$",
+        "banned": ["master", "main"],
+        "skip": ["master", "main", "prod", "dev"],
+        "disallowed": ["wip"],
+        "msgBranchBanned": "🚫 Branches with the name \"%s\" are not allowed.",
+        "msgBranchDisallowed": "🚫 Branch name \"%s\" is not allowed.",
+        "msgPrefixNotAllowed": "❌ Branch prefix \"%s\" is not allowed. Must be one of: feat, fix, docs, style, refactor, perf, test, chore, revert",
+        "msgSeparatorRequired": "❌ Branch \"%s\" must use separator \"/\" (Example: feat/my-feature) or be exactly 'prod' or 'dev'"
+    }
+}

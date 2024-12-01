@@ -1,0 +1,37 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+branch_name=$(git symbolic-ref --short HEAD)
+branch_pattern="^(feat|fix|docs|style|refactor|perf|test|chore|revert)/[a-z0-9-]+$|^(prod|dev)$"
+
+if ! [[ $branch_name =~ $branch_pattern ]]; then
+    echo "🚫 Error: Branch name '$branch_name' does not follow the naming convention."
+    echo ""
+    echo "Branch names should either:"
+    echo "1. Follow the pattern: <type>/<description>"
+    echo "   Where <type> must be one of:"
+    echo "    feat     ✨ New features"
+    echo "    fix      🐛 Bug fixes"
+    echo "    docs     📚 Documentation"
+    echo "    style    💅 Styling"
+    echo "    refactor ♻️  Code refactoring"
+    echo "    perf     ⚡️ Performance"
+    echo "    test     🧪 Testing"
+    echo "    chore    🔧 Chores"
+    echo "    revert   ⏪ Reverts"
+    echo ""
+    echo "2. Or be exactly one of:"
+    echo "    prod     🚀 Production"
+    echo "    dev      🔧 Development"
+    echo ""
+    echo "Examples:"
+    echo "  ✅ feat/add-login"
+    echo "  ✅ fix/memory-leak"
+    echo "  ✅ prod"
+    echo "  ✅ dev"
+    echo "  ❌ feature/login"
+    echo "  ❌ bugfix/issue"
+    echo "  ❌ develop"
+    echo ""
+    exit 1
+fi

@@ -50,7 +50,7 @@
     "explorer.fileNesting.expand": false,
     "explorer.fileNesting.patterns": {
         // Root Project Configuration
-        "package.json": ".npmrc, .czrc, .lintstagedrc*, pnpm-lock.yaml, pnpm-workspace.yaml, .editorconfig, .gitignore, .gitattributes, .browserslistrc, commitlint.config.js, monorepo.code-workspace, turbo.json, .changeset/config.json, .babelrc*, ecosystem.config.js, jest.config.js, jsconfig.json, package-lock.json",
+        "package.json": ".npmrc, .czrc, .lintstagedrc*, pnpm-lock.yaml, pnpm-workspace.yaml, .editorconfig, .gitignore, .gitattributes, .browserslistrc, commitlint.config.js, monorepo.code-workspace, turbo.json, .changeset/config.json, .babelrc*, ecosystem.config.js, jest.config.js, jsconfig.json, package-lock.json, .branchlintrc.json",
 
         // TypeScript Configuration
         "tsconfig.json": "tsconfig.*.json, tsconfig.build.json, tsconfig.app.json, tsconfig.spec.json, tsconfig.node.json",
