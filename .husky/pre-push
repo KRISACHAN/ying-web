@@ -1,5 +1,4 @@
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
 
 branch_name=$(git symbolic-ref --short HEAD)
 branch_pattern="^(feat|fix|docs|style|refactor|perf|test|chore|revert)/[a-z0-9-]+$|^(prod|dev)$"
