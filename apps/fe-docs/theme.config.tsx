@@ -3,7 +3,15 @@ import { DocsThemeConfig } from 'nextra-theme-docs';
 
 const config: DocsThemeConfig = {
     logo: (
-        <Image src="/images/icon.png" alt="@ying-web" width={24} height={24} />
+        <>
+            <Image
+                src="/images/icon.png"
+                alt="@ying-web"
+                width={24}
+                height={24}
+            />
+            <span style={{ marginLeft: '8px' }}>ying-web</span>
+        </>
     ),
     project: {
         link: 'https://github.com/KRISACHAN/ying-web',
