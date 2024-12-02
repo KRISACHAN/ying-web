@@ -6,9 +6,5 @@
     "interview": {
         "title": "Interview",
         "type": "page"
-    },
-    "tools": {
-        "title": "Tools",
-        "type": "page"
     }
 }
