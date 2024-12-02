@@ -8,5 +8,7 @@
     "network": "Network",
     "algorithm": "Algorithm Design",
     "react": "React",
-    "vue": "Vue"
+    "next": "Next.js",
+    "vue": "Vue",
+    "nodejs": "Node.js"
 }
