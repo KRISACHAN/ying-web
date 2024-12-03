@@ -7,6 +7,7 @@ import dayjs from 'dayjs';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
 import type { LuckyNumberActivity, Pagination } from '@/types/luckyNumber';
+import { LUCKY_NUMBER_STATUS } from '@/utils/constants';
 
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
@@ -14,7 +15,8 @@ const ErrorInterface: React.FC = () => {
 
 const LuckyNumberList = () => {
     const navigate = useNavigate();
-    const { getActivityList, deleteActivity, loading } = useLuckyNumber();
+    const { getActivityList, deleteActivity, loading, updateActivityStatus } =
+        useLuckyNumber();
     const [activities, setActivities] = useState<LuckyNumberActivity[]>([]);
     const [pagination, setPagination] = useState<Pagination>({
         count: 0,
@@ -48,6 +50,16 @@ const LuckyNumberList = () => {
         }
     };
 
+    const handleUpdateStatus = async (key: string, status: string) => {
+        try {
+            await updateActivityStatus(key, status);
+            message.success('状态更新成功');
+            fetchActivities();
+        } catch {
+            message.error('状态更新失败');
+        }
+    };
+
     const columns = [
         {
             title: '活动ID',
@@ -66,6 +78,19 @@ const LuckyNumberList = () => {
             render: (text: string) => dayjs(text).format('YYYY-MM-DD HH:mm:ss'),
         },
         {
+            title: '状态',
+            dataIndex: 'status',
+            key: 'status',
+            render: (status: string) => {
+                const statusMap = {
+                    not_started: <span className="text-gray-500">未开始</span>,
+                    ongoing: <span className="text-green-500">进行中</span>,
+                    ended: <span className="text-red-500">已结束</span>,
+                };
+                return statusMap[status as keyof typeof statusMap];
+            },
+        },
+        {
             title: '操作',
             key: 'action',
             render: (_: any, record: LuckyNumberActivity) => (
@@ -76,16 +101,53 @@ const LuckyNumberList = () => {
                     >
                         查看详情
                     </Button>
-                    <Popconfirm
-                        title="确定要删除这个活动吗？"
-                        onConfirm={() => handleDelete(record.key)}
-                        okText="确定"
-                        cancelText="取消"
-                    >
-                        <Button type="link" danger>
-                            删除
-                        </Button>
-                    </Popconfirm>
+                    {record.status === LUCKY_NUMBER_STATUS.NOT_STARTED && (
+                        <Popconfirm
+                            title="确认开始"
+                            description="确定要开始这个活动吗？"
+                            onConfirm={() =>
+                                handleUpdateStatus(
+                                    record.key,
+                                    LUCKY_NUMBER_STATUS.ONGOING,
+                                )
+                            }
+                            okText="确定"
+                            cancelText="取消"
+                        >
+                            <Button type="link">开始活动</Button>
+                        </Popconfirm>
+                    )}
+                    {record.status === LUCKY_NUMBER_STATUS.ONGOING && (
+                        <Popconfirm
+                            title="确认结束"
+                            description="确定要结束这个活动吗？结束后将无法继续抽取"
+                            onConfirm={() =>
+                                handleUpdateStatus(
+                                    record.key,
+                                    LUCKY_NUMBER_STATUS.ENDED,
+                                )
+                            }
+                            okText="确定"
+                            cancelText="取消"
+                        >
+                            <Button type="link" danger>
+                                结束活动
+                            </Button>
+                        </Popconfirm>
+                    )}
+                    {record.status === LUCKY_NUMBER_STATUS.NOT_STARTED && (
+                        <Popconfirm
+                            title="确认删除"
+                            description="确定要删除这个活动吗？删除后无法恢复"
+                            onConfirm={() => handleDelete(record.key)}
+                            okText="确定"
+                            cancelText="取消"
+                        >
+                            <Button type="link" danger>
+                                删除
+                            </Button>
+                        </Popconfirm>
+                    )}
                 </Space>
             ),
         },

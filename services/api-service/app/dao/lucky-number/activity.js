@@ -7,7 +7,10 @@ import {
 } from '@utils/http-errors';
 
 export class ActivityDao {
-    static async create({ key, name, description }, transaction) {
+    static async create(
+        { key, name, description, participant_limit = 0 },
+        transaction,
+    ) {
         const existedActivity = await ActivityModel.findOne({
             where: { key, deleted_at: null },
         });
@@ -16,7 +19,12 @@ export class ActivityDao {
             throw PRECONDITION_FAILED('活动已存在');
         }
 
-        const activity = new ActivityModel({ key, name, description });
+        const activity = new ActivityModel({
+            key,
+            name,
+            description,
+            participant_limit,
+        });
         const savedActivity = await activity.save({ transaction });
 
         if (!savedActivity) {
@@ -83,5 +91,20 @@ export class ActivityDao {
             },
             data: result.rows,
         };
+    }
+
+    static async updateStatus({ key, status }) {
+        const activity = await ActivityModel.findOne({
+            where: { key, deleted_at: null },
+        });
+
+        if (!activity) {
+            throw NOT_FOUND('活动不存在');
+        }
+
+        activity.status = status;
+        await activity.save();
+
+        return activity;
     }
 }

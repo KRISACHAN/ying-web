@@ -44,6 +44,7 @@ NumberPoolModel.init(
             {
                 unique: true,
                 fields: ['activity_id', 'drawn_number'],
+                name: 'unique_activity_number',
             },
         ],
     },

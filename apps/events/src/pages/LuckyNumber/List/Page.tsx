@@ -5,13 +5,13 @@ import {
     Alert,
     Box,
     Paper,
-    Skeleton,
     Table,
     TableBody,
     TableCell,
     TableContainer,
     TableHead,
     TableRow,
+    Typography,
 } from '@mui/material';
 import { useInterval } from 'usehooks-ts';
 
@@ -23,149 +23,88 @@ import { luckyNumberTheme } from '../styles/index';
 
 import HeaderInterface from '@/components/Header/Index';
 
-const ErrorInterface: React.FC = () => {
-    return (
-        <NotFoundPage name="活动不存在" description="回到首页看看其它功能？" />
-    );
+const ErrorInterface: React.FC<{ message?: string }> = ({
+    message = '活动不存在或已结束',
+}) => {
+    return <NotFoundPage name={message} description="回到首页看看其它功能？" />;
 };
 
-const TableSkeleton: React.FC = () => {
-    return (
-        <>
-            {Array.from({ length: 5 }).map((_, index) => (
-                <TableRow key={`skeleton-row-${index}`}>
-                    <TableCell>
-                        <Skeleton />
-                    </TableCell>
-                    <TableCell>
-                        <Skeleton />
-                    </TableCell>
-                    <TableCell>
-                        <Skeleton />
-                    </TableCell>
-                </TableRow>
-            ))}
-        </>
-    );
+const headerCellStyle = {
+    background: luckyNumberTheme.colors.background.primary,
+    color: luckyNumberTheme.colors.text.primary,
+    fontWeight: 'bold',
+    borderBottom: `0px solid ${luckyNumberTheme.colors.border.primary}`,
+    '&:first-of-type': {
+        borderTopLeftRadius: 12,
+    },
+    '&:last-of-type': {
+        borderTopRightRadius: 12,
+    },
 };
 
 const TableInterface: React.FC<{
     activityInfo: QueryLuckyNumberResponse | null;
 }> = ({ activityInfo }) => {
+    if (!activityInfo) return null;
+
     return (
-        <TableContainer
-            component={Paper}
-            sx={{
-                maxWidth: '1024px',
-                width: '100%',
-                borderRadius: 3,
-                overflow: 'hidden',
-                boxShadow: `0 4px 16px ${luckyNumberTheme.colors.background.overlay}`,
-                background: luckyNumberTheme.colors.background.paper,
-            }}
-        >
-            <Table>
-                <TableHead>
-                    <TableRow>
-                        <TableCell
-                            sx={{
-                                background:
-                                    luckyNumberTheme.colors.background.primary,
-                                color: luckyNumberTheme.colors.text.primary,
-                                fontWeight: 'bold',
-                                borderBottom: `0px solid ${luckyNumberTheme.colors.border.primary}`,
-                                transition: 'background-color 0.2s ease',
-                                '&:first-of-type': {
-                                    borderTopLeftRadius: 12,
-                                },
-                                '&:last-child': {
-                                    borderTopRightRadius: 12,
-                                },
-                            }}
-                        >
-                            号码
-                        </TableCell>
-                        <TableCell
-                            sx={{
-                                background:
-                                    luckyNumberTheme.colors.background.primary,
-                                color: luckyNumberTheme.colors.text.primary,
-                                fontWeight: 'bold',
-                                borderBottom: `0px solid ${luckyNumberTheme.colors.border.primary}`,
-                                transition: 'background-color 0.2s ease',
-                            }}
-                        >
-                            是否已经被抽取
-                        </TableCell>
-                        <TableCell
-                            sx={{
-                                background:
-                                    luckyNumberTheme.colors.background.primary,
-                                color: luckyNumberTheme.colors.text.primary,
-                                fontWeight: 'bold',
-                                borderBottom: `0px solid ${luckyNumberTheme.colors.border.primary}`,
-                                transition: 'background-color 0.2s ease',
-                            }}
-                        >
-                            抽取人
-                        </TableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    {activityInfo ? (
-                        activityInfo.numbers.map((luckyNumber, index) => (
-                            <TableRow
-                                key={`number-${luckyNumber.drawn_number}-${index}`}
-                                sx={{
-                                    '&:hover': {
-                                        backgroundColor:
-                                            luckyNumberTheme.colors.background
-                                                .overlay,
-                                    },
-                                }}
-                            >
-                                <TableCell
-                                    sx={{
-                                        color: luckyNumberTheme.colors.text
-                                            .primary,
-                                        fontWeight: 500,
-                                    }}
-                                >
-                                    {luckyNumber.drawn_number}
-                                </TableCell>
-                                <TableCell
-                                    sx={{
-                                        color: luckyNumber.is_drawn
-                                            ? luckyNumberTheme.colors.state
-                                                  .success
-                                            : luckyNumberTheme.colors.text
-                                                  .secondary,
-                                    }}
-                                >
-                                    {luckyNumber.is_drawn ? '是' : '否'}
-                                </TableCell>
-                                <TableCell
-                                    sx={{
-                                        color: luckyNumber.user_name
-                                            ? luckyNumberTheme.colors.text
-                                                  .primary
-                                            : luckyNumberTheme.colors.text
-                                                  .disabled,
-                                        fontStyle: luckyNumber.user_name
-                                            ? 'normal'
-                                            : 'italic',
-                                    }}
-                                >
-                                    {luckyNumber.user_name || '暂未抽取'}
+        <>
+            <Paper
+                elevation={0}
+                sx={{
+                    p: 2,
+                    borderRadius: 2,
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 1,
+                    mb: 2,
+                    background: 'rgba(255, 255, 255, 0.9)',
+                }}
+            >
+                <Typography
+                    variant="body1"
+                    color={luckyNumberTheme.colors.text.primary}
+                >
+                    已抽取: {activityInfo.statistics.total_participants}
+                    {activityInfo.participant_limit > 0 &&
+                        ` / ${activityInfo.participant_limit}`}
+                </Typography>
+            </Paper>
+            <TableContainer
+                component={Paper}
+                sx={{
+                    maxWidth: '1024px',
+                    width: '100%',
+                    borderRadius: 3,
+                    overflow: 'hidden',
+                    boxShadow: `0 4px 16px ${luckyNumberTheme.colors.background.overlay}`,
+                    background: luckyNumberTheme.colors.background.paper,
+                }}
+            >
+                <Table>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell sx={headerCellStyle}>号码</TableCell>
+                            <TableCell sx={headerCellStyle}>参与者</TableCell>
+                            <TableCell sx={headerCellStyle}>抽取时间</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {activityInfo.numbers.map((record, index) => (
+                            <TableRow key={index}>
+                                <TableCell>{record.drawn_number}</TableCell>
+                                <TableCell>{record.user_name}</TableCell>
+                                <TableCell>
+                                    {new Date(record.drawn_at).toLocaleString(
+                                        'zh-CN',
+                                    )}
                                 </TableCell>
                             </TableRow>
-                        ))
-                    ) : (
-                        <TableSkeleton />
-                    )}
-                </TableBody>
-            </Table>
-        </TableContainer>
+                        ))}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+        </>
     );
 };
 
@@ -192,18 +131,46 @@ const LuckyNumberListPage: React.FC = () => {
     };
 
     useEffect(() => {
-        if (!activityKey) {
-            return;
-        }
+        if (!activityKey || !!error) return;
         fetchActivityInfo();
-    }, []);
+    }, [activityKey]);
 
-    useInterval(() => {
-        fetchActivityInfo();
-    }, 2000);
+    useInterval(
+        () => {
+            fetchActivityInfo();
+        },
+        !activityKey || !!error ? null : 2000,
+    );
 
-    if (error?.toString?.()?.includes('404')) {
+    const errorMessage = error?.toString?.();
+    const is404Error = errorMessage?.includes('404');
+    const is400Error = errorMessage?.includes('400');
+    const isNotStartedError = errorMessage?.includes('未开始');
+    const isEndedError = errorMessage?.includes('已结束');
+
+    if (is404Error) {
         return <ErrorInterface />;
+    }
+
+    if (is404Error) {
+        return <ErrorInterface />;
+    }
+
+    if (is400Error) {
+        return (
+            <NotFoundPage
+                name="活动未开始或已结束"
+                description="回到首页看其它功能？"
+            />
+        );
+    }
+
+    if (isNotStartedError) {
+        return <ErrorInterface message="活动未开始" />;
+    }
+
+    if (isEndedError) {
+        return <ErrorInterface message="活动已结束" />;
     }
 
     return (

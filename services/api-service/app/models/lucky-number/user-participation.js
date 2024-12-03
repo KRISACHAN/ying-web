@@ -2,7 +2,6 @@ import { sequelize } from '@services/db';
 import { DataTypes, Model } from 'sequelize';
 
 import { ActivityModel } from './activity';
-import { NumberPoolModel } from './number-pool';
 
 export class UserParticipationModel extends Model {}
 
@@ -29,10 +28,6 @@ UserParticipationModel.init(
         drawn_number: {
             type: DataTypes.INTEGER,
             allowNull: true,
-            references: {
-                model: NumberPoolModel,
-                key: 'id',
-            },
         },
     },
     {
@@ -43,5 +38,12 @@ UserParticipationModel.init(
         createdAt: 'created_at',
         updatedAt: 'updated_at',
         deletedAt: 'deleted_at',
+        indexes: [
+            {
+                unique: true,
+                fields: ['activity_id', 'user_name'],
+                name: 'unique_user_activity',
+            },
+        ],
     },
 );

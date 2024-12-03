@@ -7,6 +7,7 @@ const Header: React.FC<{
     description?: string;
     name?: string;
     color?: string;
+    backgroundColor?: string;
 }> = ({ description, name, color = '#fff' }) => {
     return (
         <div
@@ -14,7 +15,7 @@ const Header: React.FC<{
             className="text-center h-20 w-full flex flex-col justify-between"
         >
             <Typography
-                variant="h4"
+                variant="h5"
                 component="h1"
                 className="inherit flex items-center gap-2 text-center justify-center"
             >

@@ -126,12 +126,32 @@ export const useLuckyNumber = () => {
         [],
     );
 
+    const updateActivityStatus = useCallback(
+        async (key: string, status: string) => {
+            setLoading(true);
+            setError(null);
+            try {
+                await axiosInstance.put('/lucky-number/update-status', {
+                    key,
+                    status,
+                });
+            } catch (err) {
+                setError('更新活动状态失败');
+                throw err;
+            } finally {
+                setLoading(false);
+            }
+        },
+        [],
+    );
+
     return {
         createActivity,
         queryActivity,
         deleteActivity,
         cancelParticipation,
         getActivityList,
+        updateActivityStatus,
         loading,
         error,
     };
