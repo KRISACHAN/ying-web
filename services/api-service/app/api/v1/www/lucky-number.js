@@ -15,40 +15,62 @@ router.post('/lucky-number/draw', async ctx => {
     }
 
     const transaction = await sequelize.transaction();
-    const activity = await ActivityDao.search({ key });
-    if (!activity) {
-        throw BAD_REQUEST('活动不存在');
-    }
 
-    const existingParticipation = await UserParticipationDao.findParticipation({
-        activity_id: activity.id,
-        user_name,
-    });
+    try {
+        const activity = await ActivityDao.search({ key });
+        if (!activity) {
+            throw BAD_REQUEST('活动不存在');
+        }
 
-    if (existingParticipation) {
-        throw BAD_REQUEST('用户已参与过此活动，请勿重复抽取');
-    }
+        const existingParticipation =
+            await UserParticipationDao.findParticipation({
+                activity_id: activity.id,
+                user_name,
+            });
 
-    const numberEntry = await NumberPoolDao.findAvailableNumber(activity.id);
-    if (!numberEntry) {
-        throw BAD_REQUEST('号码池已空');
-    }
+        if (existingParticipation) {
+            throw BAD_REQUEST('用户已参与过此活动，请勿重复抽取');
+        }
 
-    await NumberPoolDao.markNumberAsDrawn(numberEntry, user_name, transaction);
+        if (activity.participant_limit > 0) {
+            const summary = await UserParticipationDao.getActivitySummary(
+                activity.id,
+            );
+            if (
+                summary.statistics.total_participants >=
+                activity.participant_limit
+            ) {
+                throw BAD_REQUEST('活动参与人数已达上限');
+            }
+        }
 
-    await UserParticipationDao.createUserParticipation(
-        {
-            activity_id: activity.id,
-            user_name: user_name,
+        const numberEntry = await NumberPoolDao.findAvailableNumber(
+            activity.id,
+        );
+        if (!numberEntry) {
+            throw BAD_REQUEST('号码池已空');
+        }
+
+        await UserParticipationDao.createUserParticipation(
+            {
+                activity_id: activity.id,
+                user_name: user_name,
+                drawn_number: numberEntry.drawn_number,
+            },
+            transaction,
+        );
+
+        await transaction.commit();
+
+        ctx.response.status = httpStatus.OK;
+        ctx.body = {
             drawn_number: numberEntry.drawn_number,
-        },
-        transaction,
-    );
-
-    await transaction.commit();
-
-    ctx.response.status = httpStatus.OK;
-    ctx.body = { drawn_number: numberEntry.drawn_number };
+            message: '抽取成功',
+        };
+    } catch (error) {
+        await transaction.rollback();
+        throw error;
+    }
 });
 
 router.get('/lucky-number/query/:key', async ctx => {
@@ -59,21 +81,30 @@ router.get('/lucky-number/query/:key', async ctx => {
         throw BAD_REQUEST('活动不存在');
     }
 
-    const numberPool = await NumberPoolDao.findNumbersWithUserByActivity(
-        activity.id,
-    );
+    if (activity.status !== 'ongoing') {
+        throw BAD_REQUEST('活动未开始或已结束');
+    }
+
+    const summary = await UserParticipationDao.getActivitySummary(activity.id);
 
     ctx.response.status = httpStatus.OK;
     ctx.body = {
         activity_key: activity.key,
         name: activity.name,
         description: activity.description,
-        numbers: numberPool.map(entry => ({
-            drawn_number: entry.drawn_number,
-            is_drawn: entry.is_drawn,
-            user_name: entry.lucky_number_user_participation
-                ? entry.lucky_number_user_participation.user_name
-                : null,
+        participant_limit: activity.participant_limit,
+        statistics: {
+            ...summary.statistics,
+            remaining_slots:
+                activity.participant_limit > 0
+                    ? activity.participant_limit -
+                      summary.statistics.total_participants
+                    : null,
+        },
+        numbers: summary.participations.map(p => ({
+            drawn_number: p.drawn_number,
+            user_name: p.user_name,
+            drawn_at: p.drawn_at,
         })),
     };
 });

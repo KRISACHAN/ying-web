@@ -1,3 +1,4 @@
+import { ERROR_NAMES } from '@utils/constants';
 import { UNAUTHORIZED } from '@utils/http-errors';
 import log from '@utils/log';
 import fs from 'fs';
@@ -41,7 +42,7 @@ export const verifyRefreshToken = function (token) {
         return decoded;
     } catch (error) {
         log.error(error);
-        if (error.name === 'TokenExpiredError') {
+        if (error.name === ERROR_NAMES.JWT_TOKEN_EXPIRED_ERROR) {
             throw UNAUTHORIZED('Refresh Token 已过期');
         }
         throw UNAUTHORIZED('无效的 Refresh Token');

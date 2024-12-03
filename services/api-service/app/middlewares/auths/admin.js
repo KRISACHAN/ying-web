@@ -3,6 +3,7 @@ import { AdminRoleDao } from '@dao/admin/admin-role';
 import { PermissionsDao } from '@dao/admin/permissions';
 import { RoleDao } from '@dao/admin/role';
 import { RolePermissionsDao } from '@dao/admin/role-permissions';
+import { ERROR_NAMES } from '@utils/constants';
 import { generateAccessToken, generateRefreshToken } from '@utils/helpers';
 import {
     FORBIDDEN,
@@ -30,7 +31,7 @@ export const adminAuthMiddleware = async (ctx, next) => {
         uid = tokenData.uid;
         scopes = tokenData.scopes;
     } catch (error) {
-        if (error.name === 'TokenExpiredError') {
+        if (error.name === ERROR_NAMES.JWT_TOKEN_EXPIRED_ERROR) {
             throw UNAUTHORIZED('token已过期，请重新登录');
         }
         throw FORBIDDEN(error.message || '权限不足');

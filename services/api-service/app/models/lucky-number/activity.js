@@ -1,4 +1,5 @@
 import { sequelize } from '@services/db';
+import { LUCKY_NUMBER_STATUS } from '@utils/constants';
 import { DataTypes, Model } from 'sequelize';
 
 export class ActivityModel extends Model {}
@@ -23,6 +24,20 @@ ActivityModel.init(
         description: {
             type: DataTypes.STRING(255),
             allowNull: true,
+        },
+        participant_limit: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            defaultValue: 0,
+        },
+        status: {
+            type: DataTypes.ENUM(
+                LUCKY_NUMBER_STATUS.NOT_STARTED,
+                LUCKY_NUMBER_STATUS.ONGOING,
+                LUCKY_NUMBER_STATUS.ENDED,
+            ),
+            allowNull: false,
+            defaultValue: LUCKY_NUMBER_STATUS.NOT_STARTED,
         },
     },
     {

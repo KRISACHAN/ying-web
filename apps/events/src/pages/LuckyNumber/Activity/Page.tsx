@@ -23,7 +23,6 @@ import { useLocalStorage } from 'usehooks-ts';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
-import axiosInstance from '@/services/axios';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 import { luckyNumberTheme } from '../styles/index';
 
@@ -36,10 +35,6 @@ type GetActivityResponse = Pick<
     QueryLuckyNumberResponse,
     'activity_key' | 'name' | 'description'
 >;
-
-interface DrawLuckyNumberResponse {
-    drawn_number: number;
-}
 
 const InitialInterface: React.FC<{ loading: boolean; onClick: () => void }> = ({
     onClick,
@@ -353,7 +348,7 @@ const getQuery = (key: string) => {
 
 const LuckyNumberActivityPage: React.FC = () => {
     const { activityKey } = useParams<{ activityKey: string }>();
-    const { queryActivityInfo } = useLuckyNumber();
+    const { queryActivityInfo, drawLuckyNumber } = useLuckyNumber();
     const [activityInfo, setActivityInfo] =
         useState<GetActivityResponse | null>(null);
     const [open, setOpen] = useState(false);
@@ -426,19 +421,17 @@ const LuckyNumberActivityPage: React.FC = () => {
 
         setLoading(true);
         try {
-            const response = await axiosInstance.post<DrawLuckyNumberResponse>(
-                '/lucky-number/draw',
-                {
-                    key: activityKey,
-                    user_name: name,
-                },
-            );
-            setLuckyNumber(response.data.drawn_number);
-            setStoredName(name ?? null);
+            const response = await drawLuckyNumber({
+                key: activityKey!,
+                user_name: name.trim(),
+            });
+
+            setLuckyNumber(response.drawn_number);
+            setStoredName(name.trim());
             handleClose();
         } catch (error: unknown) {
             setSnackbarMessage(
-                (error as AxiosError).response?.data.message ??
+                (error as AxiosError).response?.data?.message ??
                     '抽取失败，请刷新页面后重试',
             );
             setSnackbarOpen(true);
@@ -447,8 +440,21 @@ const LuckyNumberActivityPage: React.FC = () => {
         }
     };
 
-    if (error?.toString?.()?.includes('404')) {
+    const errorMessage = error?.toString?.();
+    const is404Error = errorMessage?.includes('404');
+    const is400Error = errorMessage?.includes('400');
+
+    if (is404Error) {
         return <ErrorInterface />;
+    }
+
+    if (is400Error) {
+        return (
+            <NotFoundPage
+                name="活动未开始或已结束"
+                description="回到首页看其它功能？"
+            />
+        );
     }
 
     return (

@@ -11,13 +11,23 @@ const NotFoundPage: React.FC<{
     description = '要不你回到首页看看其它功能？',
 }) => {
     return (
-        <div className={`min-h-screen flex flex-col items-center pt-8 px-4`}>
+        <div
+            style={{
+                background:
+                    'linear-gradient(135deg, #EBF5FF 0%, #F0F7FF 50%, #E6F3FF 100%)',
+            }}
+            className={`min-h-screen flex flex-col items-center pt-8 px-4`}
+        >
             <HeaderInterface
                 name={name}
                 description={description}
                 color="#F87171"
             />
-            <Link to="/" className="text-white underline mt-4">
+            <Link
+                to="/"
+                style={{ color: '#F87171' }}
+                className="underline mt-4"
+            >
                 回到首页
             </Link>
         </div>

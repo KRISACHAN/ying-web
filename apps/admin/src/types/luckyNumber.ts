@@ -1,29 +1,43 @@
+import type { LuckyNumberStatus } from '@/utils/constants';
+
 // POST /api/v1/admin/lucky-number/create
 export interface CreateLuckyNumberRequest {
     key: string;
     name: string;
     description: string;
     numbers: number[];
+    participant_limit: number;
 }
 
 export interface CreateLuckyNumberResponse {
     message: string;
+    activity_key: string;
 }
 
 // GET /api/v1/admin/lucky-number/query/:key
 export interface LuckyNumber {
-    id: number;
     drawn_number: number;
-    is_drawn: boolean;
     user_name: string | null;
+    drawn_at: string | null;
 }
 
 export interface QueryLuckyNumberResponse {
     id: number;
-    activity_key: string;
     name: string;
+    activity_key: string;
     description: string;
-    numbers: LuckyNumber[];
+    participant_limit: number;
+    status: LuckyNumberStatus;
+    undrawn_numbers: number[];
+    participations: {
+        drawn_number: number;
+        user_name: string;
+        drawn_at: string;
+    }[];
+    statistics: {
+        total_participants: number;
+        remaining_slots: number | null;
+    };
 }
 
 // DELETE /api/v1/admin/lucky-number/delete/:key
@@ -39,7 +53,12 @@ export interface DeleteLuckyNumberResponse {
 export interface LuckyNumberActivity {
     id: number;
     key: string;
+    name: string;
+    description: string;
+    participant_limit: number;
+    status: 'not_started' | 'ongoing' | 'ended';
     created_at: string;
+    updated_at: string;
 }
 
 export type QueryLuckyNumberListResponse = LuckyNumberActivity[];
@@ -52,10 +71,12 @@ export interface Pagination {
 // PUT /api/v1/admin/lucky-number/cancel-participation
 export interface CancelParticipationLuckyNumberRequest {
     key: string;
-    drawn_number: number;
     user_name: string;
+    drawn_number: number;
 }
 
 export interface CancelParticipationLuckyNumberResponse {
     message: string;
+    user_name: string;
+    drawn_number: number;
 }

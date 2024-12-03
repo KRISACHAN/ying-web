@@ -18,3 +18,24 @@ export const permissionMap = Object.freeze({
     DELETE_EVENT: 'delete_event',
     WATCH_EVENT: 'watch_event',
 });
+
+export const LUCKY_NUMBER_STATUS = Object.freeze({
+    NOT_STARTED: 'not_started',
+    ONGOING: 'ongoing',
+    ENDED: 'ended',
+});
+
+export const ERROR_NAMES = Object.freeze({
+    SEQUELIZE_UNIQUE_CONSTRAINT_ERROR: 'SequelizeUniqueConstraintError',
+    SEQUELIZE_VALIDATION_ERROR: 'SequelizeValidationError',
+    SEQUELIZE_FOREIGN_KEY_CONSTRAINT_ERROR:
+        'SequelizeForeignKeyConstraintError',
+    SEQUELIZE_CONNECTION_ERROR: 'SequelizeConnectionError',
+    SEQUELIZE_TIMEOUT_ERROR: 'SequelizeTimeoutError',
+    SEQUELIZE_TRANSACTION_ERROR: 'SequelizeTransactionError',
+    SEQUELIZE_MIGRATION_ERROR: 'SequelizeMigrationsError',
+    SEQUELIZE_DATA_TYPE_ERROR: 'SequelizeDataTypeError',
+    SEQUELIZE_CONNECTION_NOT_ESTABLISHED_ERROR:
+        'SequelizeConnectionNotEstablishedError',
+    JWT_TOKEN_EXPIRED_ERROR: 'TokenExpiredError',
+});

@@ -7,11 +7,19 @@ export interface LuckyNumber {
 }
 
 export interface QueryLuckyNumberResponse {
-    id: number;
     activity_key: string;
     name: string;
     description: string;
-    numbers: LuckyNumber[];
+    participant_limit: number;
+    statistics: {
+        total_participants: number;
+        remaining_slots: number | null;
+    };
+    numbers: Array<{
+        drawn_number: number;
+        user_name: string;
+        drawn_at: string;
+    }>;
 }
 
 // GET /api/v1/admin/lucky-number/list

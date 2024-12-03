@@ -13,6 +13,7 @@ const LuckyNumberCreate = () => {
         name: string;
         description: string;
         numberRange: string;
+        participant_limit: number;
     }) => {
         try {
             const numbers = values.numberRange
@@ -25,6 +26,7 @@ const LuckyNumberCreate = () => {
                 name: values.name,
                 description: values.description,
                 numbers,
+                participant_limit: values.participant_limit,
             });
             message.success('活动创建成功');
             navigate('/lucky-number');
@@ -109,6 +111,30 @@ const LuckyNumberCreate = () => {
                             placeholder="请输入号码，用逗号分隔"
                             rows={4}
                         />
+                    </Form.Item>
+
+                    <Form.Item
+                        label="参与人数限制"
+                        name="participant_limit"
+                        rules={[
+                            {
+                                required: true,
+                                message: '请输入参与人数限制',
+                            },
+                            {
+                                validator: async (_, value) => {
+                                    const num = parseInt(value);
+                                    if (isNaN(num) || num < 0) {
+                                        throw new Error(
+                                            '参与人数限制必须大于等于0',
+                                        );
+                                    }
+                                },
+                            },
+                        ]}
+                        help="0 表示不限制参与人数"
+                    >
+                        <Input type="number" placeholder="请输入参与人数限制" />
                     </Form.Item>
 
                     <Form.Item>
