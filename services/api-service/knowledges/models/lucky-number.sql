@@ -7,6 +7,7 @@ CREATE TABLE `lucky_number_activity` (
   `updated_at` DATETIME NOT NULL,
   `deleted_at` DATETIME,
   `participant_limit` INT(11) NOT NULL DEFAULT 0,
+  `status` ENUM('not_started', 'ongoing', 'ended') NOT NULL DEFAULT 'not_started',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -14,7 +15,6 @@ CREATE TABLE `lucky_number_pool` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `activity_id` INT(11) NOT NULL,
   `drawn_number` INT(11) NOT NULL,
-  `is_drawn` TINYINT(1) NOT NULL DEFAULT 0,
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
   `deleted_at` DATETIME,
@@ -32,6 +32,6 @@ CREATE TABLE `lucky_number_user_participation` (
   `updated_at` DATETIME NOT NULL,
   `deleted_at` DATETIME,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `unique_user_activity` (`activity_id`, `user_name`),  -- 新增：确保一个用户在一个活动中只能参与一次
+  UNIQUE KEY `unique_user_activity` (`activity_id`, `user_name`),
   FOREIGN KEY (`activity_id`) REFERENCES `lucky_number_activity`(`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -16,6 +16,7 @@ import { sequelize } from '@services/db';
 import { ERROR_NAMES, LUCKY_NUMBER_STATUS } from '@utils/constants';
 import { BAD_REQUEST } from '@utils/http-errors';
 import httpStatus from 'http-status';
+import { eq } from 'lodash';
 import router from './router';
 
 router.post(
@@ -61,7 +62,7 @@ router.post(
             };
         } catch (error) {
             await transaction.rollback();
-            if (error.name === ERROR_NAMES.SEQUELIZE_UNIQUE_CONSTRAINT_ERROR) {
+            if (eq(error.name, ERROR_NAMES.SEQUELIZE_UNIQUE_CONSTRAINT_ERROR)) {
                 throw BAD_REQUEST(`活动标识 "${key}" 已被使用，请更换其他标识`);
             }
             throw error;
@@ -81,6 +82,10 @@ router.get(
             throw BAD_REQUEST('活动不存在');
         }
 
+        if (activity.status !== LUCKY_NUMBER_STATUS.ONGOING) {
+            throw BAD_REQUEST('活动未开始或已结束');
+        }
+
         const summary = await UserParticipationDao.getActivitySummary(
             activity.id,
         );
@@ -88,14 +93,25 @@ router.get(
         ctx.response.status = httpStatus.OK;
         ctx.body = {
             id: activity.id,
-            name: activity.name,
             activity_key: activity.key,
+            name: activity.name,
             description: activity.description,
             participant_limit: activity.participant_limit,
             status: activity.status,
-            undrawn_numbers: summary.undrawn_numbers,
             participations: summary.participations,
-            statistics: summary.statistics,
+            statistics: {
+                ...summary.statistics,
+                remaining_slots:
+                    activity.participant_limit > 0
+                        ? activity.participant_limit -
+                          summary.statistics.total_participants
+                        : null,
+            },
+            numbers: summary.participations.map(p => ({
+                drawn_number: p.drawn_number,
+                user_name: p.user_name,
+                drawn_at: p.drawn_at,
+            })),
         };
     },
 );

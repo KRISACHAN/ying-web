@@ -20,8 +20,8 @@ export function getIP() {
 }
 
 export const generateAccessToken = function (uid, scopes) {
-    const secretKey = process.env.JWT_ACCESS_SECRET_KEY;
-    const expiresIn = process.env.JWT_ACCESS_EXPIRED;
+    const secretKey = process.env.ADMIN_ACCESS_SECRET_KEY;
+    const expiresIn = process.env.ADMIN_ACCESS_EXPIRED;
     const token = jwt.sign(
         {
             uid,
@@ -36,13 +36,13 @@ export const generateAccessToken = function (uid, scopes) {
 };
 
 export const verifyRefreshToken = function (token) {
-    const secretKey = process.env.JWT_REFRESH_SECRET_KEY;
+    const secretKey = process.env.ADMIN_REFRESH_SECRET_KEY;
     try {
         const decoded = jwt.verify(token, secretKey);
         return decoded;
     } catch (error) {
         log.error(error);
-        if (error.name === ERROR_NAMES.JWT_TOKEN_EXPIRED_ERROR) {
+        if (eq(error.name, ERROR_NAMES.TOKEN_EXPIRED_ERROR)) {
             throw UNAUTHORIZED('Refresh Token 已过期');
         }
         throw UNAUTHORIZED('无效的 Refresh Token');
@@ -50,8 +50,8 @@ export const verifyRefreshToken = function (token) {
 };
 
 export const generateRefreshToken = function (uid, scopes) {
-    const secretKey = process.env.JWT_REFRESH_SECRET_KEY;
-    const expiresIn = process.env.JWT_REFRESH_EXPIRED;
+    const secretKey = process.env.ADMIN_REFRESH_SECRET_KEY;
+    const expiresIn = process.env.ADMIN_REFRESH_EXPIRED;
     const token = jwt.sign(
         {
             uid,

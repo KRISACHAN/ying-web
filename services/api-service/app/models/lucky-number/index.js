@@ -1,10 +1,23 @@
-/**
- * @module models/lucky-number
- * @description This design looks like a demo.
- *              The reason is that it's just for a simple event.
- *              Besides, it's only used once a year.
- *              So, I just used a simple design.
- */
-export { ActivityModel } from './activity';
-export { NumberPoolModel } from './number-pool';
-export { UserParticipationModel } from './user-participation';
+import { ActivityModel } from './activity';
+import { NumberPoolModel } from './number-pool';
+import { UserParticipationModel } from './user-participation';
+
+ActivityModel.hasMany(NumberPoolModel, {
+    foreignKey: 'activity_id',
+    as: 'number_pool',
+});
+
+NumberPoolModel.belongsTo(ActivityModel, {
+    foreignKey: 'activity_id',
+});
+
+ActivityModel.hasMany(UserParticipationModel, {
+    foreignKey: 'activity_id',
+    as: 'participations',
+});
+
+UserParticipationModel.belongsTo(ActivityModel, {
+    foreignKey: 'activity_id',
+});
+
+export { ActivityModel, NumberPoolModel, UserParticipationModel };

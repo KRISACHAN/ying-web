@@ -25,7 +25,7 @@ const LuckyNumberDetail = () => {
         loading,
         cancelParticipation,
         updateActivityStatus,
-        deleteLuckyNumber,
+        deleteActivity,
     } = useLuckyNumber();
     const [numbers, setNumbers] = useState<LuckyNumber[]>([]);
     const [activityKey, setActivityKey] = useState<string>('');
@@ -57,11 +57,6 @@ const LuckyNumberDetail = () => {
                     user_name: p.user_name,
                     drawn_at: p.drawn_at,
                 })),
-                ...(data.undrawn_numbers || []).map(n => ({
-                    drawn_number: n,
-                    user_name: null,
-                    drawn_at: null,
-                })),
             ];
             setNumbers(allNumbers);
             setStatistics(
@@ -70,9 +65,9 @@ const LuckyNumberDetail = () => {
                     remaining_slots: null,
                 },
             );
-        } catch (error) {
-            setError(error as Error);
-            console.error(error);
+        } catch (err) {
+            setError(err as Error);
+            console.error(err);
         }
     };
 
@@ -98,12 +93,12 @@ const LuckyNumberDetail = () => {
 
     const handleDelete = async () => {
         try {
-            await deleteLuckyNumber(activityKey!);
+            await deleteActivity(activityKey!);
             message.success('活动删除成功');
             navigate('/lucky-number');
-        } catch (error) {
+        } catch (err) {
             message.error('删除失败，请稍后重试');
-            console.error('Delete activity error:', error);
+            console.error('Delete activity error:', err);
         }
     };
 

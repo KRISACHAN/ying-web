@@ -7,15 +7,15 @@ const axiosInstance = axios.create({
 
 axiosInstance.interceptors.request.use(
     config => config,
-    error => {
-        return Promise.reject(error);
+    err => {
+        return Promise.reject(err);
     },
 );
 
 axiosInstance.interceptors.response.use(
     response => response,
-    async error => {
-        return Promise.reject(error);
+    async err => {
+        return Promise.reject(err);
     },
 );
 

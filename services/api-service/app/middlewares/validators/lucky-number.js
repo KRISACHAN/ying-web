@@ -7,6 +7,9 @@ export const createLuckyNumberValidatorMiddleware = createValidator({
         { type: 'string', required: true, message: '活动描述是必需的' },
     ],
     numbers: [{ type: 'array', required: true, message: '号码池数据是必需的' }],
+    participant_limit: [
+        { type: 'number', required: true, message: '参与者限制是必需的' },
+    ],
 });
 
 export const queryLuckyNumberValidatorMiddleware = createValidator(
@@ -26,11 +29,13 @@ export const deleteLuckyNumberValidatorMiddleware = createValidator(
 export const cancelParticipatedLuckyNumberValidatorMiddleware = createValidator(
     {
         key: [{ type: 'string', required: true, message: '活动标识是必需的' }],
-        drawn_number: [
-            { type: 'number', required: true, message: '号码是必需的' },
-        ],
         user_name: [
             { type: 'string', required: true, message: '用户名是必需的' },
         ],
     },
 );
+
+export const drawLuckyNumberValidatorMiddleware = createValidator({
+    key: [{ type: 'string', required: true, message: '活动标识是必需的' }],
+    user_name: [{ type: 'string', required: true, message: '用户名是必需的' }],
+});

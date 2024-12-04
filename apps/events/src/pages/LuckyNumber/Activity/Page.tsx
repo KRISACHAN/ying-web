@@ -1,7 +1,3 @@
-import React, { useEffect, useState } from 'react';
-import Confetti from 'react-confetti';
-import { useParams } from 'react-router-dom';
-
 import {
     Box,
     Button,
@@ -17,7 +13,11 @@ import {
     useTheme,
 } from '@mui/material';
 import type { AxiosError } from 'axios';
-import { Gift, Heart, Loader2 } from 'lucide-react';
+import { Disc3, Gift, Heart, Loader2 } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import Confetti from 'react-confetti';
+import { useParams } from 'react-router-dom';
+import { CSSTransition } from 'react-transition-group';
 import { useLocalStorage } from 'usehooks-ts';
 
 import { useHeader } from '@/contexts/HeaderContext';
@@ -130,21 +130,24 @@ const InitialInterface: React.FC<{ loading: boolean; onClick: () => void }> = ({
     );
 };
 
-const ResultInterface: React.FC<{
-    luckyNumber: number | null;
-    storedName: string | null;
-}> = ({ luckyNumber, storedName }) => {
+const TransitioningInterface: React.FC<{ name: string }> = ({ name }) => {
     return (
         <>
-            <Confetti
-                width={window.innerWidth}
-                height={window.innerHeight}
-                recycle={false}
-                numberOfPieces={300}
-            />
-            <Box sx={{ position: 'relative', width: '100%' }}>
+            <Box
+                sx={{
+                    position: 'relative',
+                    width: '100%',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    minHeight: '300px',
+                    gap: 4,
+                }}
+            >
                 <Paper
                     elevation={4}
+                    className="w-full"
                     sx={{
                         py: 2,
                         px: 2,
@@ -168,51 +171,119 @@ const ResultInterface: React.FC<{
                     }}
                 >
                     <Typography
-                        variant="h4"
-                        component="h2"
-                        sx={{
-                            mb: 1,
-                            color: luckyNumberTheme.colors.text.primary,
-                            fontWeight: 'bold',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            gap: 1,
-                        }}
-                    >
-                        <Heart className="text-lucky-number-primary" />
-                        恭喜 {storedName}
-                    </Typography>
-                    <Typography
-                        variant="h6"
-                        sx={{
-                            mb: 1,
-                            color: luckyNumberTheme.colors.text.secondary,
-                        }}
-                    >
-                        你的幸运号码是
-                    </Typography>
-                    <Box sx={{ position: 'relative', mb: 2 }}>
-                        <NumberAnimation number={luckyNumber ?? 0} />
-                    </Box>
-                    <Typography
                         variant="body1"
+                        className="text-center w-full"
                         sx={{
-                            fontStyle: 'italic',
-                            color: luckyNumberTheme.colors.text.secondary,
-                            '& br': {
-                                display: 'block',
-                                content: '""',
-                            },
+                            fontWeight: '500',
+                            color: luckyNumberTheme.colors.primary,
+                            fontSize: '2rem',
                         }}
                     >
-                        愿这个数字背后所蕴含的祝福，
-                        <br />
-                        能成为你未来日子的能力！
+                        正在为 {name} 抽取幸运数字
                     </Typography>
+                    <Disc3
+                        className="w-60 h-60 animate-spin mx-auto"
+                        style={{ color: luckyNumberTheme.colors.primary }}
+                        strokeWidth={1}
+                    />
                 </Paper>
             </Box>
         </>
+    );
+};
+
+const ResultInterface: React.FC<{
+    luckyNumber: number;
+    storedName: string | null;
+    show: boolean;
+}> = ({ luckyNumber, storedName, show }) => {
+    return (
+        <CSSTransition
+            in={show}
+            timeout={1000}
+            classNames="result"
+            unmountOnExit
+        >
+            <>
+                <Confetti
+                    width={window.innerWidth}
+                    height={window.innerHeight}
+                    recycle={false}
+                    numberOfPieces={300}
+                />
+                <Box sx={{ position: 'relative', width: '100%' }}>
+                    <Paper
+                        elevation={4}
+                        sx={{
+                            py: 2,
+                            px: 2,
+                            borderRadius: 4,
+                            background:
+                                luckyNumberTheme.colors.background.paper,
+                            backdropFilter: 'blur(10px)',
+                            textAlign: 'center',
+                            maxWidth: 600,
+                            mx: 'auto',
+                            position: 'relative',
+                            overflow: 'hidden',
+                            boxShadow: luckyNumberTheme.shadows.medium,
+                            '&::before': {
+                                content: '""',
+                                position: 'absolute',
+                                top: 0,
+                                left: 0,
+                                right: 0,
+                                height: 4,
+                            },
+                        }}
+                    >
+                        <Typography
+                            variant="h4"
+                            component="h2"
+                            sx={{
+                                mb: 1,
+                                color: luckyNumberTheme.colors.text.primary,
+                                fontWeight: 'bold',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                gap: 1,
+                            }}
+                        >
+                            <Heart className="text-lucky-number-primary" />
+                            恭喜 {storedName}
+                        </Typography>
+                        <Typography
+                            variant="h6"
+                            sx={{
+                                mb: 1,
+                                color: luckyNumberTheme.colors.text.secondary,
+                            }}
+                        >
+                            你的幸运号码是
+                        </Typography>
+                        <Box sx={{ position: 'relative', mb: 2 }}>
+                            <NumberAnimation number={luckyNumber ?? 0} />
+                        </Box>
+                        <Typography
+                            variant="body1"
+                            sx={{
+                                fontStyle: 'italic',
+                                color: luckyNumberTheme.colors.text.secondary,
+                                '& br': {
+                                    display: 'block',
+                                    content: '""',
+                                },
+                            }}
+                        >
+                            愿这个数字背后所蕴含的祝福，
+                            <br />
+                            能成为你未来日子的能力！
+                        </Typography>
+                    </Paper>
+                </Box>
+            </>
+        </CSSTransition>
     );
 };
 
@@ -371,6 +442,12 @@ const LuckyNumberActivityPage: React.FC = () => {
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
     const [error, setError] = useState<Error | null>(null);
+    const [showResult, setShowResult] = useState(false);
+    const [isTransitioning, setIsTransitioning] = useState(false);
+    const [tempResult, setTempResult] = useState<{
+        number: number;
+        name: string;
+    } | null>(null);
 
     const cleanUserResult = () => {
         const needClean = getQuery('__clean');
@@ -390,8 +467,8 @@ const LuckyNumberActivityPage: React.FC = () => {
                 description: data.description,
                 keywords: data.activity_key,
             });
-        } catch (error) {
-            setError(error as Error);
+        } catch (err) {
+            setError(err as Error);
         }
     };
 
@@ -426,9 +503,21 @@ const LuckyNumberActivityPage: React.FC = () => {
                 user_name: name.trim(),
             });
 
+            setTempResult({
+                number: response.drawn_number,
+                name: name.trim(),
+            });
+
+            handleClose();
+            setIsTransitioning(true);
+
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
             setLuckyNumber(response.drawn_number);
             setStoredName(name.trim());
-            handleClose();
+            setIsTransitioning(false);
+            setShowResult(true);
+            setTempResult(null);
         } catch (error: unknown) {
             setSnackbarMessage(
                 (error as AxiosError).response?.data?.message ??
@@ -501,7 +590,9 @@ const LuckyNumberActivityPage: React.FC = () => {
                     </Typography>
                 </Paper>
 
-                {luckyNumber === null ? (
+                {isTransitioning ? (
+                    <TransitioningInterface name={tempResult?.name ?? ''} />
+                ) : luckyNumber === null ? (
                     <InitialInterface
                         onClick={handleClickOpen}
                         loading={loading}
@@ -510,6 +601,7 @@ const LuckyNumberActivityPage: React.FC = () => {
                     <ResultInterface
                         luckyNumber={luckyNumber}
                         storedName={storedName}
+                        show={showResult}
                     />
                 )}
 

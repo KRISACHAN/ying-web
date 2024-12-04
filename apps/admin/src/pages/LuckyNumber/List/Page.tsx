@@ -30,9 +30,9 @@ const LuckyNumberList = () => {
             const data = await getActivityList(1, 10);
             setActivities(data.list);
             setPagination(data.pagination);
-        } catch (error) {
-            setError(error as Error);
-            console.error(error);
+        } catch (err) {
+            setError(err as Error);
+            console.error(err);
         }
     };
 

@@ -16,14 +16,14 @@ import { pick } from 'lodash';
 import router from './router';
 
 router.post('/refresh-token', async ctx => {
-    const { refreshToken } = ctx.request.body;
-    if (!refreshToken) {
+    const { refresh_token } = ctx.request.body;
+    if (!refresh_token) {
         throw UNAUTHORIZED('Refresh Token 不存在');
     }
 
     let decoded;
     try {
-        decoded = verifyRefreshToken(refreshToken);
+        decoded = verifyRefreshToken(refresh_token);
     } catch (error) {
         throw UNAUTHORIZED(error.message);
     }

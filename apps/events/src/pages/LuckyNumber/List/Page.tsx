@@ -1,3 +1,4 @@
+import { DoNotDisturbOutlined } from '@mui/icons-material';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -5,6 +6,7 @@ import {
     Alert,
     Box,
     Paper,
+    Stack,
     Table,
     TableBody,
     TableCell,
@@ -46,6 +48,38 @@ const TableInterface: React.FC<{
     activityInfo: QueryLuckyNumberResponse | null;
 }> = ({ activityInfo }) => {
     if (!activityInfo) return null;
+
+    const isEmpty = activityInfo.participations.length === 0;
+
+    const EmptyInterface: React.FC = () => (
+        <Stack>
+            <TableRow>
+                <TableCell colSpan={6}>
+                    <Typography
+                        variant="body1"
+                        color={luckyNumberTheme.colors.text.primary}
+                        className="flex items-center gap-2"
+                    >
+                        <DoNotDisturbOutlined />
+                        暂无参与者
+                    </Typography>
+                </TableCell>
+            </TableRow>
+        </Stack>
+    );
+    const ExistingInterface: React.FC = () => (
+        <TableBody>
+            {activityInfo.participations.map((record, index) => (
+                <TableRow key={index}>
+                    <TableCell>{record.drawn_number}</TableCell>
+                    <TableCell>{record.user_name}</TableCell>
+                    <TableCell>
+                        {new Date(record.drawn_at).toLocaleString('zh-CN')}
+                    </TableCell>
+                </TableRow>
+            ))}
+        </TableBody>
+    );
 
     return (
         <>
@@ -90,17 +124,7 @@ const TableInterface: React.FC<{
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {activityInfo.numbers.map((record, index) => (
-                            <TableRow key={index}>
-                                <TableCell>{record.drawn_number}</TableCell>
-                                <TableCell>{record.user_name}</TableCell>
-                                <TableCell>
-                                    {new Date(record.drawn_at).toLocaleString(
-                                        'zh-CN',
-                                    )}
-                                </TableCell>
-                            </TableRow>
-                        ))}
+                        {isEmpty ? <EmptyInterface /> : <ExistingInterface />}
                     </TableBody>
                 </Table>
             </TableContainer>
@@ -125,8 +149,8 @@ const LuckyNumberListPage: React.FC = () => {
                 description: data.description,
                 keywords: data.activity_key,
             });
-        } catch (error) {
-            setError(error as Error);
+        } catch (err) {
+            setError(err as Error);
         }
     };
 

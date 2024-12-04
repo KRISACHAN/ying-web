@@ -28,7 +28,6 @@ export interface QueryLuckyNumberResponse {
     description: string;
     participant_limit: number;
     status: LuckyNumberStatus;
-    undrawn_numbers: number[];
     participations: {
         drawn_number: number;
         user_name: string;
@@ -38,6 +37,7 @@ export interface QueryLuckyNumberResponse {
         total_participants: number;
         remaining_slots: number | null;
     };
+    numbers: LuckyNumber[];
 }
 
 // DELETE /api/v1/admin/lucky-number/delete/:key

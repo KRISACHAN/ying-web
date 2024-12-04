@@ -31,37 +31,4 @@ export class NumberPoolDao {
             throw INTERNAL_SERVER_ERROR('查询可用幸运号码失败');
         }
     }
-
-    static async findUndrawnNumbers(activityId) {
-        try {
-            const res = await NumberPoolModel.scope('df').findAll({
-                where: {
-                    activity_id: activityId,
-                    is_drawn: false,
-                    deleted_at: null,
-                },
-                order: [['drawn_number', 'ASC']],
-            });
-            return res;
-        } catch (error) {
-            log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询未抽取号码失败');
-        }
-    }
-
-    static async findNumbersByActivity(activityId) {
-        try {
-            const res = await NumberPoolModel.scope('df').findAll({
-                where: {
-                    activity_id: activityId,
-                    deleted_at: null,
-                },
-                order: [['drawn_number', 'ASC']],
-            });
-            return res;
-        } catch (error) {
-            log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询幸运号码失败');
-        }
-    }
 }
