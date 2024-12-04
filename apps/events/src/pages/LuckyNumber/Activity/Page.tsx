@@ -197,93 +197,103 @@ const ResultInterface: React.FC<{
     storedName: string | null;
     show: boolean;
 }> = ({ luckyNumber, storedName, show }) => {
+    const nodeRef = React.useRef(null);
+
     return (
-        <CSSTransition
-            in={show}
-            timeout={1000}
-            classNames="result"
-            unmountOnExit
-        >
-            <>
-                <Confetti
-                    width={window.innerWidth}
-                    height={window.innerHeight}
-                    recycle={false}
-                    numberOfPieces={300}
-                />
-                <Box sx={{ position: 'relative', width: '100%' }}>
-                    <Paper
-                        elevation={4}
-                        sx={{
-                            py: 2,
-                            px: 2,
-                            borderRadius: 4,
-                            background:
-                                luckyNumberTheme.colors.background.paper,
-                            backdropFilter: 'blur(10px)',
-                            textAlign: 'center',
-                            maxWidth: 600,
-                            mx: 'auto',
-                            position: 'relative',
-                            overflow: 'hidden',
-                            boxShadow: luckyNumberTheme.shadows.medium,
-                            '&::before': {
-                                content: '""',
-                                position: 'absolute',
-                                top: 0,
-                                left: 0,
-                                right: 0,
-                                height: 4,
-                            },
-                        }}
+        <>
+            <Confetti
+                width={window.innerWidth}
+                height={window.innerHeight}
+                recycle={false}
+                numberOfPieces={300}
+            />
+            <CSSTransition
+                nodeRef={nodeRef}
+                in={show}
+                timeout={1000}
+                classNames="result"
+                unmountOnExit
+            >
+                <div className="relative w-full">
+                    <Box
+                        ref={nodeRef}
+                        sx={{ position: 'relative', width: '100%' }}
                     >
-                        <Typography
-                            variant="h4"
-                            component="h2"
+                        <Paper
+                            elevation={4}
                             sx={{
-                                mb: 1,
-                                color: luckyNumberTheme.colors.text.primary,
-                                fontWeight: 'bold',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                gap: 1,
-                            }}
-                        >
-                            <Heart className="text-lucky-number-primary" />
-                            恭喜 {storedName}
-                        </Typography>
-                        <Typography
-                            variant="h6"
-                            sx={{
-                                mb: 1,
-                                color: luckyNumberTheme.colors.text.secondary,
-                            }}
-                        >
-                            你的幸运号码是
-                        </Typography>
-                        <Box sx={{ position: 'relative', mb: 2 }}>
-                            <NumberAnimation number={luckyNumber ?? 0} />
-                        </Box>
-                        <Typography
-                            variant="body1"
-                            sx={{
-                                fontStyle: 'italic',
-                                color: luckyNumberTheme.colors.text.secondary,
-                                '& br': {
-                                    display: 'block',
+                                py: 2,
+                                px: 2,
+                                borderRadius: 4,
+                                background:
+                                    luckyNumberTheme.colors.background.paper,
+                                backdropFilter: 'blur(10px)',
+                                textAlign: 'center',
+                                maxWidth: 600,
+                                mx: 'auto',
+                                position: 'relative',
+                                overflow: 'hidden',
+                                boxShadow: luckyNumberTheme.shadows.medium,
+                                '&::before': {
                                     content: '""',
+                                    position: 'absolute',
+                                    top: 0,
+                                    left: 0,
+                                    right: 0,
+                                    height: 4,
                                 },
                             }}
                         >
-                            愿这个数字背后所蕴含的祝福，
-                            <br />
-                            能成为你未来日子的能力！
-                        </Typography>
-                    </Paper>
-                </Box>
-            </>
-        </CSSTransition>
+                            <Typography
+                                variant="h4"
+                                component="h2"
+                                sx={{
+                                    mb: 1,
+                                    color: luckyNumberTheme.colors.text.primary,
+                                    fontWeight: 'bold',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    gap: 1,
+                                }}
+                            >
+                                <Heart className="text-lucky-number-primary" />
+                                恭喜 {storedName}
+                            </Typography>
+                            <Typography
+                                variant="h6"
+                                sx={{
+                                    mb: 1,
+                                    color: luckyNumberTheme.colors.text
+                                        .secondary,
+                                }}
+                            >
+                                你的幸运号码是
+                            </Typography>
+                            <Box sx={{ position: 'relative', mb: 2 }}>
+                                <NumberAnimation number={luckyNumber ?? 0} />
+                            </Box>
+                            <Typography
+                                variant="body1"
+                                sx={{
+                                    fontStyle: 'italic',
+                                    color: luckyNumberTheme.colors.text
+                                        .secondary,
+                                    '& br': {
+                                        display: 'block',
+                                        content: '""',
+                                    },
+                                }}
+                            >
+                                愿这个数字背后所蕴含的祝福，
+                                <br />
+                                能成为你未来日子的能力！
+                            </Typography>
+                        </Paper>
+                    </Box>
+                </div>
+            </CSSTransition>
+        </>
     );
 };
 
@@ -467,6 +477,7 @@ const LuckyNumberActivityPage: React.FC = () => {
                 description: data.description,
                 keywords: data.activity_key,
             });
+            setShowResult(true);
         } catch (err) {
             setError(err as Error);
         }
