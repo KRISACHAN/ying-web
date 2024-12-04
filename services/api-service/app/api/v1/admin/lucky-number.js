@@ -82,10 +82,6 @@ router.get(
             throw BAD_REQUEST('活动不存在');
         }
 
-        if (activity.status !== LUCKY_NUMBER_STATUS.ONGOING) {
-            throw BAD_REQUEST('活动未开始或已结束');
-        }
-
         const summary = await UserParticipationDao.getActivitySummary(
             activity.id,
         );
