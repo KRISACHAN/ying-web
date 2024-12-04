@@ -29,7 +29,7 @@ export const deleteLuckyNumberValidatorMiddleware = createValidator(
 export const cancelParticipatedLuckyNumberValidatorMiddleware = createValidator(
     {
         key: [{ type: 'string', required: true, message: '活动标识是必需的' }],
-        user_name: [
+        username: [
             { type: 'string', required: true, message: '用户名是必需的' },
         ],
     },
@@ -37,5 +37,5 @@ export const cancelParticipatedLuckyNumberValidatorMiddleware = createValidator(
 
 export const drawLuckyNumberValidatorMiddleware = createValidator({
     key: [{ type: 'string', required: true, message: '活动标识是必需的' }],
-    user_name: [{ type: 'string', required: true, message: '用户名是必需的' }],
+    username: [{ type: 'string', required: true, message: '用户名是必需的' }],
 });

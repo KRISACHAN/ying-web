@@ -4,7 +4,7 @@ import type { LuckyNumberStatus } from '@/utils/constants';
 export interface LuckyNumber {
     id: number;
     drawn_number: number;
-    user_name: string | null;
+    username: string | null;
 }
 
 export interface QueryLuckyNumberResponse {
@@ -16,7 +16,7 @@ export interface QueryLuckyNumberResponse {
     status: LuckyNumberStatus;
     participations: {
         drawn_number: number;
-        user_name: string;
+        username: string;
         drawn_at: string;
     }[];
     statistics: {
@@ -38,7 +38,7 @@ export type QueryLuckyNumberListResponse = LuckyNumberActivity[];
 // POST /api/v1/admin/lucky-number/draw
 export interface DrawLuckyNumberRequest {
     key: string;
-    user_name: string;
+    username: string;
 }
 
 export interface DrawLuckyNumberResponse {

@@ -3,22 +3,16 @@ import { Outlet, useNavigate } from 'react-router-dom';
 import { Avatar, Dropdown, Layout, Menu } from 'antd';
 
 import { useAuth } from '@/hooks/useAuth';
-import { localCache } from '@/services/storage';
 
 const { Header, Content, Sider } = Layout;
 
 const BaseLayout = () => {
     const navigate = useNavigate();
-    const { logout } = useAuth();
+    const { handler, state } = useAuth();
 
     const handleLogout = () => {
-        logout();
-        navigate('/login');
+        handler.logout();
     };
-
-    const adminInfo = localCache.get<{ admin: { username: string } }>(
-        'adminInfo',
-    );
 
     return (
         <Layout className="min-h-screen">
@@ -40,7 +34,7 @@ const BaseLayout = () => {
                             size="large"
                             className="bg-blue-500 text-white cursor-pointer"
                         >
-                            {adminInfo?.admin?.username.slice(0, 4)}
+                            {state.adminInfo?.username?.slice(0, 4)}
                         </Avatar>
                     </Dropdown>
                 </div>

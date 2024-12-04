@@ -21,14 +21,16 @@ export interface Permission {
     description: string;
 }
 
+export interface AdminInfoResponse {
+    admin: AdminInfo;
+    roles: Role[];
+    permissions: Permission[];
+}
+
 export interface LoginResponse {
     access_token: string;
     refresh_token: string;
-    admin_info: {
-        admin: AdminInfo;
-        roles: Role[];
-        permissions: Permission[];
-    };
+    admin_info: AdminInfoResponse;
 }
 
 export interface RefreshTokenResponse {

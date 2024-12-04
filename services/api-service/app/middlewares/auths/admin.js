@@ -12,7 +12,7 @@ import {
     UNAUTHORIZED,
 } from '@utils/http-errors';
 import jwt from 'jsonwebtoken';
-import { pick } from 'lodash';
+import { eq, pick } from 'lodash';
 import parseBearerToken from 'parse-bearer-token';
 
 export const adminAuthMiddleware = async (ctx, next) => {
@@ -31,19 +31,20 @@ export const adminAuthMiddleware = async (ctx, next) => {
         uid = tokenData.uid;
         scopes = tokenData.scopes;
     } catch (error) {
-        if (error.name === ERROR_NAMES.TOKEN_EXPIRED_ERROR) {
-            throw UNAUTHORIZED('token已过期，请重新登录');
+        if (eq(error.name, ERROR_NAMES.TOKEN_EXPIRED_ERROR)) {
+            throw UNAUTHORIZED('token 已过期，请重新登录');
         }
         throw FORBIDDEN(error.message || '权限不足');
     }
 
     const admin = await AdminDao.search({ id: uid });
+
     if (!admin || !admin.status) {
         throw NOT_FOUND('管理员不存在');
     }
 
     const adminRoles = await AdminRoleDao.queryByAdmin(uid);
-    if (!adminRoles || adminRoles.length === 0) {
+    if (!adminRoles || eq(adminRoles.length, 0)) {
         throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
     }
 
@@ -60,11 +61,9 @@ export const adminAuthMiddleware = async (ctx, next) => {
     const permissions = await Promise.all(
         permissionIds.map(permissionId => PermissionsDao.search(permissionId)),
     );
+    const permissionNames = permissions.map(permission => permission.name);
 
-    const hasPermission = permissions.some(permission =>
-        scopes.includes(permission.id),
-    );
-    if (!hasPermission) {
+    if (!permissionNames.length) {
         throw FORBIDDEN('没有访问权限');
     }
 
@@ -95,7 +94,7 @@ export const adminLoginMiddleware = async (ctx, next) => {
     const uid = admin.id;
 
     const adminRoles = await AdminRoleDao.queryByAdmin(uid);
-    if (!adminRoles || adminRoles.length === 0) {
+    if (!adminRoles || eq(adminRoles.length, 0)) {
         throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
     }
 

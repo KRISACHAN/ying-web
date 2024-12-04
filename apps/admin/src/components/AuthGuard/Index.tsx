@@ -1,39 +1,31 @@
-import { ReactNode, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-
 import { useAuth } from '@/hooks/useAuth';
 import { localCache } from '@/services/storage';
+import { ReactNode, useEffect } from 'react';
+
+import { KEYS } from '@/utils/constants';
 
 interface AuthGuardProps {
     children: ReactNode;
 }
 
 const AuthGuard = ({ children }: AuthGuardProps) => {
-    const navigate = useNavigate();
-    const { refreshAccessToken } = useAuth();
+    const { handler } = useAuth();
 
     useEffect(() => {
-        const accessToken = localCache.get('accessToken');
+        const accessToken = localCache.get(KEYS.ACCESS_TOKEN);
         if (accessToken) {
+            handler.getAdminInfo();
             return;
         }
 
-        const refreshToken = localCache.get('refreshToken');
+        const refreshToken = localCache.get(KEYS.REFRESH_TOKEN);
         if (!refreshToken) {
-            navigate('/login');
+            handler.redirectToLogin();
             return;
         }
 
-        const refreshTokenIfNeeded = async () => {
-            try {
-                await refreshAccessToken();
-            } catch {
-                navigate('/login');
-            }
-        };
-
-        refreshTokenIfNeeded();
-    }, [navigate, refreshAccessToken]);
+        handler.refreshTokenIfNeeded();
+    }, []);
 
     return <>{children}</>;
 };

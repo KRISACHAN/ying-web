@@ -26,12 +26,12 @@ CREATE TABLE `lucky_number_pool` (
 CREATE TABLE `lucky_number_user_participation` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `activity_id` INT(11) NOT NULL,
-  `user_name` VARCHAR(40) NOT NULL,
+  `username` VARCHAR(40) NOT NULL,
   `drawn_number` INT(11),
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
   `deleted_at` DATETIME,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `unique_user_activity` (`activity_id`, `user_name`),
+  UNIQUE KEY `unique_user_activity` (`activity_id`, `username`),
   FOREIGN KEY (`activity_id`) REFERENCES `lucky_number_activity`(`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

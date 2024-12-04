@@ -54,7 +54,7 @@ const LuckyNumberDetail = () => {
             const allNumbers = [
                 ...(data.participations || []).map(p => ({
                     drawn_number: p.drawn_number,
-                    user_name: p.user_name,
+                    username: p.username,
                     drawn_at: p.drawn_at,
                 })),
             ];
@@ -75,7 +75,7 @@ const LuckyNumberDetail = () => {
         return cancelParticipation({
             key: activityKey,
             drawn_number: record.drawn_number,
-            user_name: record.user_name || '',
+            username: record.username || '',
         }).finally(() => {
             fetchActivity();
         });
@@ -114,8 +114,8 @@ const LuckyNumberDetail = () => {
         },
         {
             title: '抽取人',
-            dataIndex: 'user_name',
-            key: 'user_name',
+            dataIndex: 'username',
+            key: 'username',
             render: (text: string | null) => text || '-',
         },
         {
@@ -129,7 +129,7 @@ const LuckyNumberDetail = () => {
             title: '操作',
             key: 'action',
             render: (_: any, record: LuckyNumber) =>
-                record.user_name ? (
+                record.username ? (
                     <Popconfirm
                         title="确认取消"
                         description="确定要取消该用户的抽取记录吗？"
@@ -256,7 +256,7 @@ const LuckyNumberDetail = () => {
                 columns={columns}
                 dataSource={numbers}
                 rowKey={record =>
-                    `${record.drawn_number}_${record.user_name || 'empty'}`
+                    `${record.drawn_number}_${record.username || 'empty'}`
                 }
                 loading={loading}
                 pagination={{

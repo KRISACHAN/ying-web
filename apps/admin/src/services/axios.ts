@@ -1,6 +1,7 @@
 import { message } from 'antd';
 import axios, { AxiosResponse } from 'axios';
 
+import { KEYS } from '@/utils/constants';
 import { localCache } from './storage';
 
 interface CustomAxiosResponse<T = any> extends AxiosResponse<T> {
@@ -33,7 +34,7 @@ const processQueue = (err: any = null) => {
 
 axiosInstance.interceptors.request.use(
     config => {
-        const accessToken = localCache.get('accessToken');
+        const accessToken = localCache.get(KEYS.ACCESS_TOKEN);
         if (accessToken) {
             config.headers.Authorization = `Bearer ${accessToken}`;
         }
@@ -72,7 +73,7 @@ axiosInstance.interceptors.response.use(
             isRefreshing = true;
 
             try {
-                const refreshToken = localCache.get('refreshToken');
+                const refreshToken = localCache.get(KEYS.REFRESH_TOKEN);
                 if (!refreshToken) {
                     message.error('登录已过期，请重新登录');
                 }
@@ -80,20 +81,20 @@ axiosInstance.interceptors.response.use(
                 const response = await axios.post(
                     `${import.meta.env.VITE_REQUEST_BASE_URL}/api/v1/admin/refresh-token`,
                     {
-                        refreshToken,
+                        refresh_token: refreshToken,
                     },
                 );
 
                 const { access_token } = response.data;
-                localCache.set('accessToken', access_token);
+                localCache.set(KEYS.ACCESS_TOKEN, access_token);
 
                 processQueue();
                 return axiosInstance(originalRequest);
             } catch (refreshError) {
                 processQueue(refreshError);
-                localCache.remove('accessToken');
-                localCache.remove('refreshToken');
-                localCache.remove('adminInfo');
+                localCache.remove(KEYS.ACCESS_TOKEN);
+                localCache.remove(KEYS.REFRESH_TOKEN);
+                localCache.remove(KEYS.ADMIN_INFO);
                 message.error('登录已过期，请重新登录');
                 window.location.href = '/login';
                 return Promise.reject(refreshError);

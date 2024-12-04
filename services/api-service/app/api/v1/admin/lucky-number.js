@@ -105,7 +105,7 @@ router.get(
             },
             numbers: summary.participations.map(p => ({
                 drawn_number: p.drawn_number,
-                user_name: p.user_name,
+                username: p.username,
                 drawn_at: p.drawn_at,
             })),
         };
@@ -131,7 +131,7 @@ router.put(
     editEventMiddleware,
     cancelParticipatedLuckyNumberValidatorMiddleware,
     async ctx => {
-        const { key, user_name } = ctx.request.body;
+        const { key, username } = ctx.request.body;
 
         const transaction = await sequelize.transaction();
 
@@ -143,7 +143,7 @@ router.put(
 
             const participation = await UserParticipationDao.findParticipation({
                 activity_id: activity.id,
-                user_name,
+                username,
             });
 
             if (!participation) {
@@ -162,7 +162,7 @@ router.put(
             ctx.response.status = httpStatus.OK;
             ctx.body = {
                 message: '参与记录已取消',
-                user_name: user_name,
+                username: username,
                 drawn_number: drawnNumber,
             };
         } catch (error) {

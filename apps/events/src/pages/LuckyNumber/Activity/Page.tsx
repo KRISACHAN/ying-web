@@ -438,8 +438,8 @@ const LuckyNumberActivityPage: React.FC = () => {
     const headerContext = useHeader();
     const theme = useTheme();
 
-    const localLuckyNumberKey = `ying-events-${activityKey}-lucky-number`;
-    const localNameKey = `ying-events-${activityKey}-name`;
+    const localLuckyNumberKey = `YING_EVENTS_LUCKY_NUMBER_NUMBER_${activityKey}`;
+    const localNameKey = `YING_EVENTS_LUCKY_NUMBER_NAME_${activityKey}`;
 
     const [luckyNumber, setLuckyNumber] = useLocalStorage<number | null>(
         localLuckyNumberKey,
@@ -511,7 +511,7 @@ const LuckyNumberActivityPage: React.FC = () => {
         try {
             const response = await drawLuckyNumber({
                 key: activityKey!,
-                user_name: name.trim(),
+                username: name.trim(),
             });
 
             setTempResult({

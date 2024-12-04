@@ -5,14 +5,14 @@ import log from '@utils/log';
 
 export class UserParticipationDao {
     static async createUserParticipation(
-        { activity_id, user_name, drawn_number },
+        { activity_id, username, drawn_number },
         transaction,
     ) {
         try {
             const existingParticipation = await UserParticipationModel.findOne({
                 where: {
                     activity_id,
-                    user_name,
+                    username,
                     deleted_at: null,
                 },
             });
@@ -24,7 +24,7 @@ export class UserParticipationDao {
             const res = await UserParticipationModel.create(
                 {
                     activity_id,
-                    user_name,
+                    username,
                     drawn_number,
                 },
                 {
@@ -45,14 +45,14 @@ export class UserParticipationDao {
         activity_id,
         id,
         drawn_number,
-        user_name,
+        username,
     }) {
         try {
             const where = {
                 deleted_at: null,
             };
             if (activity_id) where.activity_id = activity_id;
-            if (user_name) where.user_name = user_name;
+            if (username) where.username = username;
             if (drawn_number) where.drawn_number = drawn_number;
             if (id) where.id = id;
 
@@ -93,7 +93,7 @@ export class UserParticipationDao {
             },
             participations: participations.map(p => ({
                 drawn_number: p.drawn_number,
-                user_name: p.user_name,
+                username: p.username,
                 drawn_at: p.created_at,
             })),
         };

@@ -27,7 +27,7 @@ const Index = () => {
                         >
                             <div className="flex items-center justify-between">
                                 <div>
-                                    <p className="text-gray-500 mb-1">
+                                    <p className="text-gray-500 m-0 p-0">
                                         {card.title}
                                     </p>
                                 </div>

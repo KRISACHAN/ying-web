@@ -49,7 +49,12 @@ export class AdminDao {
         return admin;
     }
 
-    static async search({ email, id }) {
+    static async search(
+        { email, id } = {
+            email: null,
+            id: null,
+        },
+    ) {
         const whereQuery = {
             deleted_at: null,
         };
@@ -59,6 +64,7 @@ export class AdminDao {
         if (id) {
             whereQuery.id = id;
         }
+
         const admin = await AdminModel.scope('bh').findOne({
             where: whereQuery,
         });

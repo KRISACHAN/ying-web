@@ -1,16 +1,25 @@
-import { useCallback, useState } from 'react';
-
 import axiosInstance from '@/services/axios';
 import { localCache } from '@/services/storage';
 import type {
+    AdminInfo,
     LoginParams,
     LoginResponse,
     RefreshTokenResponse,
 } from '@/types/auth';
+import { KEYS } from '@/utils/constants';
+import { useCallback, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useLocalStorage } from 'usehooks-ts';
 
 export const useAuth = () => {
+    const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
+
+    const [adminInfo, setAdminInfo] = useLocalStorage<AdminInfo | null>(
+        KEYS.ADMIN_INFO,
+        null,
+    );
 
     const login = useCallback(async (params: LoginParams) => {
         setLoading(true);
@@ -21,9 +30,9 @@ export const useAuth = () => {
                 params,
             );
             const { data } = response ?? {};
-            localCache.set('accessToken', data.access_token);
-            localCache.set('refreshToken', data.refresh_token);
-            localCache.set('adminInfo', JSON.stringify(data.admin_info));
+            setAdminInfo(data.admin_info?.admin ?? null);
+            localCache.set(KEYS.ACCESS_TOKEN, data.access_token);
+            localCache.set(KEYS.REFRESH_TOKEN, data.refresh_token);
             return response;
         } catch (err) {
             setError('登录失败');
@@ -34,7 +43,7 @@ export const useAuth = () => {
     }, []);
 
     const refreshAccessToken = useCallback(async () => {
-        const refreshToken = localCache.get('refreshToken');
+        const refreshToken = localCache.get(KEYS.REFRESH_TOKEN);
         if (!refreshToken) {
             throw new Error('无效的刷新令牌');
         }
@@ -45,24 +54,57 @@ export const useAuth = () => {
                 { refresh_token: refreshToken },
             );
             const { data } = response ?? {};
-            localCache.set('accessToken', data.access_token);
+            localCache.set(KEYS.ACCESS_TOKEN, data.access_token);
             return response;
         } catch {
             throw new Error('刷新令牌失败，请重新登录');
         }
     }, []);
 
+    const getAdminInfo = useCallback(async () => {
+        const accessToken = localCache.get(KEYS.ACCESS_TOKEN);
+        const response = await axiosInstance.get<AdminInfo>('/me', {
+            headers: {
+                Authorization: `Bearer ${accessToken}`,
+            },
+        });
+        const { data } = response ?? {};
+        setAdminInfo(data);
+        return response;
+    }, []);
+
     const logout = useCallback(() => {
-        localCache.remove('accessToken');
-        localCache.remove('refreshToken');
-        localCache.remove('adminInfo');
+        localCache.remove(KEYS.ACCESS_TOKEN);
+        localCache.remove(KEYS.REFRESH_TOKEN);
+        setAdminInfo(null);
+        navigate('/login');
+    }, []);
+
+    const redirectToLogin = useCallback(() => {
+        navigate('/login');
+    }, []);
+
+    const refreshTokenIfNeeded = useCallback(async () => {
+        try {
+            await refreshAccessToken();
+        } catch {
+            redirectToLogin();
+        }
     }, []);
 
     return {
-        login,
-        logout,
-        loading,
-        error,
-        refreshAccessToken,
+        handler: {
+            login,
+            logout,
+            refreshAccessToken,
+            getAdminInfo,
+            redirectToLogin,
+            refreshTokenIfNeeded,
+        },
+        state: {
+            adminInfo,
+            loading,
+            error,
+        },
     };
 };

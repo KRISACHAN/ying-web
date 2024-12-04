@@ -21,7 +21,7 @@ UserParticipationModel.init(
                 key: 'id',
             },
         },
-        user_name: {
+        username: {
             type: DataTypes.STRING(40),
             allowNull: false,
         },
@@ -41,7 +41,7 @@ UserParticipationModel.init(
         indexes: [
             {
                 unique: true,
-                fields: ['activity_id', 'user_name'],
+                fields: ['activity_id', 'username'],
                 name: 'unique_user_activity',
             },
         ],
