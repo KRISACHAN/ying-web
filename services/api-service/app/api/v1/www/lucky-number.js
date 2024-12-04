@@ -16,9 +16,9 @@ router.post(
     '/lucky-number/draw',
     drawLuckyNumberValidatorMiddleware,
     async ctx => {
-        const { key, user_name } = ctx.request.body;
+        const { key, username } = ctx.request.body;
 
-        if (!key || !user_name) {
+        if (!key || !username) {
             throw BAD_REQUEST('活动 key 和用户信息是必需的');
         }
 
@@ -41,7 +41,7 @@ router.post(
             const existingParticipation =
                 await UserParticipationDao.findParticipation({
                     activity_id: activity.id,
-                    user_name,
+                    username,
                 });
 
             if (existingParticipation) {
@@ -70,7 +70,7 @@ router.post(
             await UserParticipationDao.createUserParticipation(
                 {
                     activity_id: activity.id,
-                    user_name: user_name,
+                    username: username,
                     drawn_number: numberEntry.drawn_number,
                 },
                 transaction,
@@ -128,7 +128,7 @@ router.get(
             },
             numbers: summary.participations.map(p => ({
                 drawn_number: p.drawn_number,
-                user_name: p.user_name,
+                username: p.username,
                 drawn_at: p.drawn_at,
             })),
         };

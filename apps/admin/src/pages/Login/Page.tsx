@@ -7,11 +7,11 @@ import { LoginParams } from '@/types/auth';
 
 const Login = () => {
     const navigate = useNavigate();
-    const { login, loading } = useAuth();
+    const { handler, state } = useAuth();
 
     const onFinish = async (values: LoginParams) => {
         try {
-            await login(values);
+            await handler.login(values);
             message.success('登录成功');
             navigate('/');
         } catch (err) {
@@ -66,7 +66,7 @@ const Login = () => {
                         <Button
                             type="primary"
                             htmlType="submit"
-                            loading={loading}
+                            loading={state.loading}
                             className="w-full"
                         >
                             登录

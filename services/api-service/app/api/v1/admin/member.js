@@ -42,7 +42,30 @@ router.post(
     },
 );
 
-router.delete('/:id', adminAuthMiddleware, async ctx => {
+router.get('/', adminAuthMiddleware, async ctx => {
+    const { permissions } = ctx.admin;
+
+    if (!hasManageUsersPermission(permissions)) {
+        throw FORBIDDEN('无权限查询管理员列表');
+    }
+
+    const { pageNum, pageSize } = ctx.query;
+    const result = await AdminDao.query({
+        pageNum: parseInt(pageNum, 10) || 1,
+        pageSize: parseInt(pageSize, 10) || 10,
+    });
+
+    ctx.response.status = httpStatus.OK;
+    ctx.set('x-pagination', JSON.stringify(result.pagination));
+    ctx.body = result.data;
+});
+
+router.get('/me', adminAuthMiddleware, async ctx => {
+    ctx.response.status = httpStatus.OK;
+    ctx.body = ctx.admin.admin;
+});
+
+router.delete('/:id(\\d+)', adminAuthMiddleware, async ctx => {
     const { permissions } = ctx.admin;
 
     if (!hasManageUsersPermission(permissions)) {
@@ -63,7 +86,7 @@ router.delete('/:id', adminAuthMiddleware, async ctx => {
     ctx.response.status = httpStatus.NO_CONTENT;
 });
 
-router.put('/:id', adminAuthMiddleware, async ctx => {
+router.put('/:id(\\d+)', adminAuthMiddleware, async ctx => {
     const { id } = ctx.params;
     const { email, password, username } = ctx.request.body;
     const { permissions } = ctx.admin;
@@ -87,25 +110,7 @@ router.put('/:id', adminAuthMiddleware, async ctx => {
     };
 });
 
-router.get('/', adminAuthMiddleware, async ctx => {
-    const { permissions } = ctx.admin;
-
-    if (!hasManageUsersPermission(permissions)) {
-        throw FORBIDDEN('无权限查询管理员列表');
-    }
-
-    const { pageNum, pageSize } = ctx.query;
-    const result = await AdminDao.query({
-        pageNum: parseInt(pageNum, 10) || 1,
-        pageSize: parseInt(pageSize, 10) || 10,
-    });
-
-    ctx.response.status = httpStatus.OK;
-    ctx.set('x-pagination', JSON.stringify(result.pagination));
-    ctx.body = result.data;
-});
-
-router.get('/:id', adminAuthMiddleware, async ctx => {
+router.get('/:id(\\d+)', adminAuthMiddleware, async ctx => {
     const { id } = ctx.params;
     const currentAdminId = ctx.admin.admin.id;
     const { permissions } = ctx.admin;
@@ -125,9 +130,9 @@ router.get('/:id', adminAuthMiddleware, async ctx => {
     );
 
     const responseData = {
-        adminInfo: pick(adminInfo, ['id', 'username', 'email']),
-        roleInfo: pick(roleInfo, ['id', 'name', 'description']),
-        rolePermissions: rolePermissions.map(permission =>
+        admin_info: pick(adminInfo, ['id', 'username', 'email']),
+        role_info: pick(roleInfo, ['id', 'name', 'description']),
+        role_permissions: rolePermissions.map(permission =>
             pick(permission, ['id', 'name', 'description']),
         ),
     };

@@ -17,7 +17,7 @@ export interface CreateLuckyNumberResponse {
 // GET /api/v1/admin/lucky-number/query/:key
 export interface LuckyNumber {
     drawn_number: number;
-    user_name: string | null;
+    username: string | null;
     drawn_at: string | null;
 }
 
@@ -30,7 +30,7 @@ export interface QueryLuckyNumberResponse {
     status: LuckyNumberStatus;
     participations: {
         drawn_number: number;
-        user_name: string;
+        username: string;
         drawn_at: string;
     }[];
     statistics: {
@@ -71,12 +71,12 @@ export interface Pagination {
 // PUT /api/v1/admin/lucky-number/cancel-participation
 export interface CancelParticipationLuckyNumberRequest {
     key: string;
-    user_name: string;
+    username: string;
     drawn_number: number;
 }
 
 export interface CancelParticipationLuckyNumberResponse {
     message: string;
-    user_name: string;
+    username: string;
     drawn_number: number;
 }

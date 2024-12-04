@@ -6,7 +6,6 @@ import {
     Alert,
     Box,
     Paper,
-    Stack,
     Table,
     TableBody,
     TableCell,
@@ -52,83 +51,81 @@ const TableInterface: React.FC<{
     const isEmpty = activityInfo.participations.length === 0;
 
     const EmptyInterface: React.FC = () => (
-        <Stack>
-            <TableRow>
-                <TableCell colSpan={6}>
-                    <Typography
-                        variant="body1"
-                        color={luckyNumberTheme.colors.text.primary}
-                        className="flex items-center gap-2"
-                    >
-                        <DoNotDisturbOutlined />
-                        暂无参与者
-                    </Typography>
-                </TableCell>
-            </TableRow>
-        </Stack>
+        <TableRow>
+            <TableCell colSpan={12}>
+                <Typography
+                    variant="body1"
+                    color={luckyNumberTheme.colors.text.primary}
+                    className="flex items-center gap-2"
+                >
+                    <DoNotDisturbOutlined />
+                    暂无参与者
+                </Typography>
+            </TableCell>
+        </TableRow>
     );
+
     const ExistingInterface: React.FC = () => (
-        <TableBody>
+        <>
             {activityInfo.participations.map((record, index) => (
                 <TableRow key={index}>
-                    <TableCell>{record.drawn_number}</TableCell>
-                    <TableCell>{record.user_name}</TableCell>
-                    <TableCell>
+                    <TableCell align="center" colSpan={4}>
+                        {record.username}
+                    </TableCell>
+                    <TableCell align="center" colSpan={4}>
+                        {record.drawn_number}
+                    </TableCell>
+                    <TableCell align="center" colSpan={4}>
                         {new Date(record.drawn_at).toLocaleString('zh-CN')}
                     </TableCell>
                 </TableRow>
             ))}
-        </TableBody>
+        </>
     );
 
     return (
-        <>
-            <Paper
-                elevation={0}
-                sx={{
-                    p: 2,
-                    borderRadius: 2,
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: 1,
-                    mb: 2,
-                    background: 'rgba(255, 255, 255, 0.9)',
-                }}
-            >
-                <Typography
-                    variant="body1"
-                    color={luckyNumberTheme.colors.text.primary}
-                >
-                    已抽取: {activityInfo.statistics.total_participants}
-                    {activityInfo.participant_limit > 0 &&
-                        ` / ${activityInfo.participant_limit}`}
-                </Typography>
-            </Paper>
-            <TableContainer
-                component={Paper}
-                sx={{
-                    maxWidth: '1024px',
-                    width: '100%',
-                    borderRadius: 3,
-                    overflow: 'hidden',
-                    boxShadow: `0 4px 16px ${luckyNumberTheme.colors.background.overlay}`,
-                    background: luckyNumberTheme.colors.background.paper,
-                }}
-            >
-                <Table>
-                    <TableHead>
-                        <TableRow>
-                            <TableCell sx={headerCellStyle}>号码</TableCell>
-                            <TableCell sx={headerCellStyle}>参与者</TableCell>
-                            <TableCell sx={headerCellStyle}>抽取时间</TableCell>
-                        </TableRow>
-                    </TableHead>
-                    <TableBody>
-                        {isEmpty ? <EmptyInterface /> : <ExistingInterface />}
-                    </TableBody>
-                </Table>
-            </TableContainer>
-        </>
+        <TableContainer
+            component={Paper}
+            sx={{
+                maxWidth: '1024px',
+                width: '100%',
+                borderRadius: 3,
+                overflow: 'hidden',
+                boxShadow: `0 4px 16px ${luckyNumberTheme.colors.background.overlay}`,
+                background: luckyNumberTheme.colors.background.paper,
+            }}
+        >
+            <Table>
+                <TableHead>
+                    <TableRow>
+                        <TableCell
+                            align="center"
+                            colSpan={4}
+                            sx={headerCellStyle}
+                        >
+                            参与者
+                        </TableCell>
+                        <TableCell
+                            align="center"
+                            colSpan={4}
+                            sx={headerCellStyle}
+                        >
+                            号码
+                        </TableCell>
+                        <TableCell
+                            align="center"
+                            colSpan={4}
+                            sx={headerCellStyle}
+                        >
+                            抽取时间
+                        </TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                    {isEmpty ? <EmptyInterface /> : <ExistingInterface />}
+                </TableBody>
+            </Table>
+        </TableContainer>
     );
 };
 

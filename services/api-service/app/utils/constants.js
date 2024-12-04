@@ -1,3 +1,4 @@
+import { eq } from 'lodash';
 
 export const ADMIN_PERMISSIONS = Object.freeze({
     ALL_ACCESSES: 'all_accesses',
@@ -41,3 +42,14 @@ export const ERROR_NAMES = Object.freeze({
         'SequelizeConnectionNotEstablishedError',
     TOKEN_EXPIRED_ERROR: 'TokenExpiredError',
 });
+
+export const hasManageUsersPermission = permissionNames => {
+    return !!permissionNames.find(
+        ({ name }) =>
+            eq(name, ADMIN_PERMISSIONS.ALL_ACCESSES) ||
+            eq(name, ADMIN_PERMISSIONS.CREATE_ADMIN) ||
+            eq(name, ADMIN_PERMISSIONS.EDIT_ADMIN) ||
+            eq(name, ADMIN_PERMISSIONS.DELETE_ADMIN) ||
+            eq(name, ADMIN_PERMISSIONS.WATCH_ADMIN),
+    );
+};
