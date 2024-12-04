@@ -1,9 +1,6 @@
 import { sequelize } from '@services/db';
 import { DataTypes, Model } from 'sequelize';
 
-import { PermissionsModel } from './permissions';
-import { RoleModel } from './role';
-
 export class RolePermissionsModel extends Model {}
 
 RolePermissionsModel.init(
@@ -39,23 +36,3 @@ RolePermissionsModel.init(
         ],
     },
 );
-
-RolePermissionsModel.belongsTo(RoleModel, {
-    foreignKey: 'role_id',
-    targetKey: 'id',
-});
-
-RoleModel.hasMany(RolePermissionsModel, {
-    foreignKey: 'role_id',
-    targetKey: 'id',
-});
-
-RolePermissionsModel.belongsTo(PermissionsModel, {
-    foreignKey: 'permission_id',
-    targetKey: 'id',
-});
-
-PermissionsModel.hasMany(RolePermissionsModel, {
-    foreignKey: 'permission_id',
-    targetKey: 'id',
-});

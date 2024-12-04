@@ -115,10 +115,10 @@ export const useLuckyNumber = () => {
                     list: data,
                     pagination,
                 };
-            } catch (error) {
-                console.error(error);
+            } catch (err) {
+                console.error(err);
                 setError('获取活动列表失败');
-                throw error;
+                throw err;
             } finally {
                 setLoading(false);
             }

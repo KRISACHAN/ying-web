@@ -1,9 +1,6 @@
 import { sequelize } from '@services/db';
 import { DataTypes, Model } from 'sequelize';
 
-import { AdminModel } from './admin';
-import { RoleModel } from './role';
-
 export class AdminRoleModel extends Model {}
 
 AdminRoleModel.init(
@@ -39,14 +36,3 @@ AdminRoleModel.init(
         ],
     },
 );
-
-AdminRoleModel.belongsTo(AdminModel, {
-    foreignKey: 'admin_id',
-    targetKey: 'id',
-});
-
-AdminModel.hasMany(AdminRoleModel, { foreignKey: 'admin_id', targetKey: 'id' });
-
-AdminRoleModel.belongsTo(RoleModel, { foreignKey: 'role_id', targetKey: 'id' });
-
-RoleModel.hasMany(AdminRoleModel, { foreignKey: 'role_id', targetKey: 'id' });

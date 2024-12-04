@@ -26,7 +26,7 @@ const LuckyNumberCreate = () => {
                 name: values.name,
                 description: values.description,
                 numbers,
-                participant_limit: values.participant_limit,
+                participant_limit: Number(values.participant_limit),
             });
             message.success('活动创建成功');
             navigate('/lucky-number');

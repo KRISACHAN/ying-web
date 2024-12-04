@@ -1,4 +1,5 @@
-export const permissionMap = Object.freeze({
+
+export const ADMIN_PERMISSIONS = Object.freeze({
     ALL_ACCESSES: 'all_accesses',
     OSS_UPLOAD: 'oss_upload',
     CREATE_ADMIN: 'create_admin',
@@ -20,6 +21,7 @@ export const permissionMap = Object.freeze({
 });
 
 export const LUCKY_NUMBER_STATUS = Object.freeze({
+    NOT_FOUND: 'not_found',
     NOT_STARTED: 'not_started',
     ONGOING: 'ongoing',
     ENDED: 'ended',
@@ -37,5 +39,5 @@ export const ERROR_NAMES = Object.freeze({
     SEQUELIZE_DATA_TYPE_ERROR: 'SequelizeDataTypeError',
     SEQUELIZE_CONNECTION_NOT_ESTABLISHED_ERROR:
         'SequelizeConnectionNotEstablishedError',
-    JWT_TOKEN_EXPIRED_ERROR: 'TokenExpiredError',
+    TOKEN_EXPIRED_ERROR: 'TokenExpiredError',
 });

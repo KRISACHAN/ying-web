@@ -66,23 +66,6 @@ export class UserParticipationDao {
         }
     }
 
-    static async findAllParticipations(activityId) {
-        try {
-            const res = await UserParticipationModel.scope('df').findAll({
-                where: {
-                    activity_id: activityId,
-                    drawn,
-                    deleted_at: null,
-                },
-                order: [['drawn_number', 'ASC']],
-            });
-            return res;
-        } catch (error) {
-            log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询用户参与记录失败');
-        }
-    }
-
     static async deleteParticipation(id, transaction) {
         try {
             await UserParticipationModel.destroy({

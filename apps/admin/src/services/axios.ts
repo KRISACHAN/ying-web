@@ -20,10 +20,10 @@ let failedQueue: Array<{
     reject: (reason?: any) => void;
 }> = [];
 
-const processQueue = (error: any = null) => {
+const processQueue = (err: any = null) => {
     failedQueue.forEach(prom => {
-        if (error) {
-            prom.reject(error);
+        if (err) {
+            prom.reject(err);
         } else {
             prom.resolve(undefined);
         }
@@ -39,8 +39,8 @@ axiosInstance.interceptors.request.use(
         }
         return config;
     },
-    error => {
-        return Promise.reject(error);
+    err => {
+        return Promise.reject(err);
     },
 );
 
@@ -52,10 +52,10 @@ axiosInstance.interceptors.response.use(
             pagination: JSON.parse(pagination ?? '{}'),
         };
     },
-    async error => {
-        const originalRequest = error.config;
+    async err => {
+        const originalRequest = err.config;
 
-        if (error.response?.status === 401 && !originalRequest._retry) {
+        if (err.response?.status === 401 && !originalRequest._retry) {
             if (isRefreshing) {
                 return new Promise((resolve, reject) => {
                     failedQueue.push({ resolve, reject });
@@ -102,9 +102,9 @@ axiosInstance.interceptors.response.use(
             }
         }
 
-        message.error(error.response?.data?.message ?? '请求失败');
+        message.error(err.response?.data?.message ?? '请求失败');
 
-        return Promise.reject(error);
+        return Promise.reject(err);
     },
 );
 

@@ -60,7 +60,7 @@ const createAdmin = async () => {
         });
 
         log.verbose(
-            '         Admin, roles, and permissions initialized successfully.',
+            '         Admin, role, permissions, admin-role and role-permissions initialized successfully.',
         );
     } catch (error) {
         log.error('         Error initializing admin data:', error);

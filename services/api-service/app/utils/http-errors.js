@@ -49,11 +49,14 @@ export const REQUEST_URI_TOO_LONG = (message = 'REQUEST_URI_TOO_LONG') =>
 
 export const UNSUPPORTED_MEDIA_TYPE = (message = 'UNSUPPORTED_MEDIA_TYPE') =>
     createError(httpStatus.UNSUPPORTED_MEDIA_TYPE, message);
+
 export const REQUESTED_RANGE_NOT_SATISFIABLE = (
     message = 'REQUESTED_RANGE_NOT_SATISFIABLE',
 ) => createError(httpStatus.REQUESTED_RANGE_NOT_SATISFIABLE, message);
+
 export const EXPECTATION_FAILED = (message = 'EXPECTATION_FAILED') =>
     createError(httpStatus.EXPECTATION_FAILED, message);
+
 export const IM_A_TEAPOT = (message = 'IM_A_TEAPOT') =>
     createError(httpStatus.IM_A_TEAPOT, message);
 

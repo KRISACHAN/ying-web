@@ -26,12 +26,12 @@ export const adminAuthMiddleware = async (ctx, next) => {
     try {
         const tokenData = jwt.verify(
             parsedToken,
-            process.env.JWT_ACCESS_SECRET_KEY,
+            process.env.ADMIN_ACCESS_SECRET_KEY,
         );
         uid = tokenData.uid;
         scopes = tokenData.scopes;
     } catch (error) {
-        if (error.name === ERROR_NAMES.JWT_TOKEN_EXPIRED_ERROR) {
+        if (error.name === ERROR_NAMES.TOKEN_EXPIRED_ERROR) {
             throw UNAUTHORIZED('token已过期，请重新登录');
         }
         throw FORBIDDEN(error.message || '权限不足');

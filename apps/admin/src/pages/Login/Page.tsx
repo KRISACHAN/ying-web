@@ -14,8 +14,8 @@ const Login = () => {
             await login(values);
             message.success('登录成功');
             navigate('/');
-        } catch (error) {
-            console.error(error);
+        } catch (err) {
+            console.error(err);
             message.error('登录失败');
         }
     };

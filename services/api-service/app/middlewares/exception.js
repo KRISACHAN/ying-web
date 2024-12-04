@@ -1,6 +1,7 @@
 import log from '@utils/log';
 import createError from 'http-errors';
 import httpStatus from 'http-status';
+import { eq } from 'lodash';
 
 export const errorType = Object.freeze({
     default: 'default',
@@ -11,7 +12,7 @@ const catchError = async (ctx, next) => {
     try {
         await next();
     } catch (error) {
-        const isDev = process.env.APP_ENV !== 'prod';
+        const isDev = !eq(process.env.APP_ENV, 'prod');
         const isHttpError = createError.isHttpError(error);
 
         log.error({
