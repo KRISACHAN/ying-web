@@ -71,9 +71,9 @@
     ],
     "engines": {
         "node": ">= 18.16.0",
-        "pnpm": "6.35.1 || 8.15.8 || 9.14.2"
+        "pnpm": "9"
     },
-    "packageManager": "pnpm@6.35.1",
+    "packageManager": "pnpm@9.14.4",
     "pnpm": {
         "overrides": {
             "@ying-web/*": "workspace:*",
