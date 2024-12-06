@@ -2,24 +2,21 @@ import { BAD_REQUEST } from '@utils/http-errors';
 import log from '@utils/log';
 import Validator from 'async-validator';
 import to from 'await-to-js';
-import { cloneDeepWith } from 'lodash';
+import { cloneDeepWith, isString } from 'lodash';
 import xss from 'xss';
 
-// Security sanitization function
 const sanitizeValue = value => {
-    if (typeof value !== 'string') return value;
+    if (!isString(value)) return value;
 
-    // 1. Remove XSS using lightweight xss library
+    // https://github.com/leizongmin/js-xss
     let sanitized = xss(value, {
-        whiteList: {}, // No tags allowed
-        stripIgnoreTag: true, // Strip tags not in whitelist
-        stripIgnoreTagBody: ['script'], // Strip script contents
+        whiteList: {},
+        stripIgnoreTag: true,
+        stripIgnoreTagBody: ['script'],
     });
 
-    // 2. Filter SQL injection related characters
     sanitized = sanitized.replace(/['";\\]/g, '');
 
-    // 3. Filter common SQL keywords
     const sqlKeywords =
         /\b(select|insert|update|delete|drop|union|exec|execute|declare|create)\b/gi;
     sanitized = sanitized.replace(sqlKeywords, '');
@@ -45,9 +42,8 @@ export const createValidator = (rules, source = 'body') => {
     const validator = new Validator(rules);
 
     const validatorMiddleware = async (ctx, next) => {
-        // Use lodash's cloneDeepWith for deep cloning and transformation
         const sanitizedData = cloneDeepWith(ctx.request[source], value => {
-            if (typeof value === 'string') {
+            if (isString(value)) {
                 return sanitizeValue(value);
             }
         });
@@ -58,7 +54,7 @@ export const createValidator = (rules, source = 'body') => {
             }),
         );
 
-        if (error) {
+        if (error && isArray(error.errors)) {
             log.error(error.errors.map(e => e.message).join(','));
             throw BAD_REQUEST(error.errors.map(e => e.message).join(','));
         }

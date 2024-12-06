@@ -1,5 +1,6 @@
 import { message } from 'antd';
 import axios, { AxiosResponse } from 'axios';
+import { eq } from 'lodash';
 
 import { KEYS } from '@/utils/constants';
 import { localCache } from './storage';
@@ -21,15 +22,34 @@ let failedQueue: Array<{
     reject: (reason?: any) => void;
 }> = [];
 
+/**
+ * Processes the queue of failed requests during token refresh.
+ *
+ * This function is used to handle requests that failed due to an expired token.
+ * When a token refresh is initiated, any requests that fail with a 401 status
+ * are added to the `failedQueue`. Once the token is successfully refreshed,
+ * `processQueue` is called to retry these requests.
+ *
+ * @param err - An error object if the token refresh failed, otherwise null.
+ *
+ * Execution Mechanism:
+ * - If `err` is provided, it indicates that the token refresh failed.
+ *   In this case, each promise in the `failedQueue` is rejected with the error.
+ * - If `err` is null, it indicates that the token refresh was successful.
+ *   Each promise in the `failedQueue` is resolved, allowing the original
+ *   requests to be retried with the new token.
+ * - After processing, the `failedQueue` is cleared to prepare for any future
+ *   token refresh attempts.
+ */
 const processQueue = (err: any = null) => {
     failedQueue.forEach(prom => {
         if (err) {
-            prom.reject(err);
+            prom.reject(err); // Reject the promise with the error
         } else {
-            prom.resolve(undefined);
+            prom.resolve(undefined); // Resolve the promise with undefined
         }
     });
-    failedQueue = [];
+    failedQueue = []; // Clear the failed queue after processing
 };
 
 axiosInstance.interceptors.request.use(
@@ -56,7 +76,7 @@ axiosInstance.interceptors.response.use(
     async err => {
         const originalRequest = err.config;
 
-        if (err.response?.status === 401 && !originalRequest._retry) {
+        if (eq(err.response?.status, 401) && !originalRequest._retry) {
             if (isRefreshing) {
                 return new Promise((resolve, reject) => {
                     failedQueue.push({ resolve, reject });

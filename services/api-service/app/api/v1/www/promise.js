@@ -11,7 +11,7 @@ router.get('/promise/result', async ctx => {
         '..',
         '..',
         '..',
-        'constants',
+        'public',
         'promises',
     );
     const files = fs.readdirSync(directoryPath);

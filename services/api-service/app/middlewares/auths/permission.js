@@ -1,6 +1,7 @@
 import { ADMIN_PERMISSIONS, ERROR_NAMES } from '@utils/constants';
 import { FORBIDDEN, UNAUTHORIZED } from '@utils/http-errors';
 import jwt from 'jsonwebtoken';
+import { eq } from 'lodash';
 import parseBearerToken from 'parse-bearer-token';
 
 const eventHandler = permission => async (ctx, next) => {
@@ -17,7 +18,7 @@ const eventHandler = permission => async (ctx, next) => {
         );
         scopes = tokenData.scopes;
     } catch (error) {
-        if (error.name === ERROR_NAMES.TOKEN_EXPIRED_ERROR) {
+        if (eq(error.name, ERROR_NAMES.TOKEN_EXPIRED_ERROR)) {
             throw UNAUTHORIZED('token已过期，请重新登录');
         }
         throw FORBIDDEN(error.message || '权限不足');

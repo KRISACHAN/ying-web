@@ -11,100 +11,125 @@ export class ActivityDao {
         { key, name, description, participant_limit = 0 },
         transaction,
     ) {
-        const existedActivity = await ActivityModel.findOne({
-            where: { key, deleted_at: null },
-        });
+        try {
+            const existedActivity = await ActivityModel.findOne({
+                where: { key, deleted_at: null },
+            });
 
-        if (existedActivity) {
-            throw PRECONDITION_FAILED('活动已存在');
-        }
+            if (existedActivity) {
+                throw PRECONDITION_FAILED('活动已存在');
+            }
 
-        const activity = new ActivityModel({
-            key,
-            name,
-            description,
-            participant_limit,
-        });
-        const savedActivity = await activity.save({ transaction });
+            const activity = new ActivityModel({
+                key,
+                name,
+                description,
+                participant_limit,
+            });
+            const savedActivity = await activity.save({ transaction });
 
-        if (!savedActivity) {
+            if (!savedActivity) {
+                throw INTERNAL_SERVER_ERROR('创建活动失败');
+            }
+
+            return savedActivity;
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('创建活动失败');
         }
-
-        return savedActivity;
     }
 
     static async search({ key }) {
-        const whereQuery = {
-            deleted_at: null,
-        };
-        if (key) {
-            whereQuery.key = key;
-        }
-        const activity = await ActivityModel.scope('df').findOne({
-            where: whereQuery,
-        });
+        try {
+            const whereQuery = {
+                deleted_at: null,
+            };
+            if (key) {
+                whereQuery.key = key;
+            }
+            const activity = await ActivityModel.scope('df').findOne({
+                where: whereQuery,
+            });
 
-        if (!activity) {
-            throw NOT_FOUND('活动不存在');
-        }
+            if (!activity) {
+                throw NOT_FOUND('活动不存在');
+            }
 
-        return activity;
+            return activity;
+        } catch (error) {
+            log.error(error);
+            throw INTERNAL_SERVER_ERROR('查询活动失败');
+        }
     }
 
     static async delete({ key }) {
-        const activity = await ActivityModel.findOne({
-            where: { key, deleted_at: null },
-        });
+        try {
+            const activity = await ActivityModel.findOne({
+                where: { key, deleted_at: null },
+            });
 
-        if (!activity) {
-            throw NOT_FOUND('活动不存在');
-        }
+            if (!activity) {
+                throw NOT_FOUND('活动不存在');
+            }
 
-        const deletedActivity = await activity.destroy();
+            const deletedActivity = await activity.destroy();
 
-        if (!deletedActivity) {
+            if (!deletedActivity) {
+                throw INTERNAL_SERVER_ERROR('删除活动失败');
+            }
+
+            return true;
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('删除活动失败');
         }
-
-        return true;
     }
 
     static async query({ pageNum = 1, pageSize = 10 }) {
-        const pagination = genPaginationRequest(pageNum, pageSize);
-        const result = await ActivityModel.scope('df').findAndCountAll({
-            where: { deleted_at: null },
-            limit: pagination.limit,
-            offset: pagination.offset,
-            order: [['id', 'DESC']],
-        });
+        try {
+            const pagination = genPaginationRequest(pageNum, pageSize);
+            const result = await ActivityModel.scope('df').findAndCountAll({
+                where: { deleted_at: null },
+                limit: pagination.limit,
+                offset: pagination.offset,
+                order: [['id', 'DESC']],
+            });
 
-        if (!result) {
+            if (!result) {
+                throw INTERNAL_SERVER_ERROR('查询活动列表失败');
+            }
+
+            return {
+                page: {
+                    count: pageNum,
+                    size: pageSize,
+                    total: result.length,
+                },
+                data: result.rows,
+            };
+        } catch (error) {
+            log.error(error);
             throw INTERNAL_SERVER_ERROR('查询活动列表失败');
         }
-
-        return {
-            page: {
-                count: pageNum,
-                size: pageSize,
-                total: result.length,
-            },
-            data: result.rows,
-        };
     }
 
     static async updateStatus({ key, status }) {
-        const activity = await ActivityModel.findOne({
-            where: { key, deleted_at: null },
-        });
+        try {
+            const activity = await ActivityModel.findOne({
+                where: { key, deleted_at: null },
+            });
 
-        if (!activity) {
-            throw NOT_FOUND('活动不存在');
+            if (!activity) {
+                throw NOT_FOUND('活动不存在');
+            }
+
+            activity.status = status;
+            await activity.save();
+
+            return activity;
+        } catch (error) {
+            log.error(error);
+            throw INTERNAL_SERVER_ERROR('更新活动状态失败');
         }
-
-        activity.status = status;
-        await activity.save();
-
-        return activity;
     }
 }

@@ -44,13 +44,14 @@ export const adminAuthMiddleware = async (ctx, next) => {
     }
 
     const adminRoles = await AdminRoleDao.queryByAdmin(uid);
-    if (!adminRoles || eq(adminRoles.length, 0)) {
+    if (!adminRoles || !Array.isArray(adminRoles) || eq(adminRoles.length, 0)) {
         throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
     }
 
     const roles = await Promise.all(
         adminRoles.map(role => RoleDao.search(role.role_id)),
     );
+
     const roleIds = roles.map(role => role.id);
 
     const rolePermissions = await Promise.all(
@@ -94,7 +95,7 @@ export const adminLoginMiddleware = async (ctx, next) => {
     const uid = admin.id;
 
     const adminRoles = await AdminRoleDao.queryByAdmin(uid);
-    if (!adminRoles || eq(adminRoles.length, 0)) {
+    if (!adminRoles || !Array.isArray(adminRoles) || eq(adminRoles.length, 0)) {
         throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
     }
 
