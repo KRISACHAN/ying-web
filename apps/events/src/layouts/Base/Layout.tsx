@@ -13,7 +13,7 @@ const BaseLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <meta name="description" content={description} />
                 <meta name="keywords" content={keywords} />
             </Helmet>
-            <main className="min-h-screen w-full relative">{children}</main>
+            <div className="min-h-screen w-full relative">{children}</div>
         </article>
     );
 };
