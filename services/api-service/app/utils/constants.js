@@ -1,5 +1,10 @@
 import { eq } from 'lodash';
 
+export const ADMIN_MEMBER_ROLES = {
+    ADMIN: 'admin',
+    USER: 'user',
+};
+
 export const ADMIN_PERMISSIONS = Object.freeze({
     ALL_ACCESSES: 'all_accesses',
     OSS_UPLOAD: 'oss_upload',

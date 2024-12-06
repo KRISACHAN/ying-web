@@ -1,6 +1,6 @@
 import log from '@utils/log';
 import { to } from 'await-to-js';
-import { get } from 'lodash';
+import { eq, get } from 'lodash';
 import Sequelize from 'sequelize';
 
 export const sequelize = new Sequelize(
@@ -42,7 +42,7 @@ export const sequelize = new Sequelize(
 );
 
 const initDb = async () => {
-    const createTables = process.env.CREATE_TABLE === 'true';
+    const createTables = eq(process.env.CREATE_TABLE, 'true');
     if (createTables) {
         await import('@models/admin/index');
         await import('@models/lucky-number/index');
@@ -73,7 +73,7 @@ const initDb = async () => {
     }
     log.verbose('        - Status: db connect success');
     log.verbose('');
-    if (process.env.CREATE_ADMIN === 'true') {
+    if (eq(process.env.CREATE_ADMIN, 'true')) {
         import('../scripts/admin').then(({ default: { createAdmin } }) => {
             createAdmin();
         });

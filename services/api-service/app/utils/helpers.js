@@ -9,7 +9,7 @@ import path from 'path';
 
 export function getIP() {
     let IPv4 = '127.0.0.1';
-    if (os?.networkInterfaces()?.en0) {
+    if (Array.isArray(os?.networkInterfaces()?.en0)) {
         os.networkInterfaces().en0.forEach(en => {
             if (eq(en.family, 'IPv4')) {
                 IPv4 = en.address;
