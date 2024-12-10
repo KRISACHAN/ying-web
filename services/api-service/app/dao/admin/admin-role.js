@@ -27,7 +27,7 @@ export class AdminRoleDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('管理员角色创建失败');
+            throw error;
         }
     }
 
@@ -56,7 +56,7 @@ export class AdminRoleDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('更新管理员角色失败');
+            throw error;
         }
     }
 
@@ -85,7 +85,7 @@ export class AdminRoleDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('更新管理员角色失败');
+            throw error;
         }
     }
 
@@ -105,7 +105,7 @@ export class AdminRoleDao {
             return adminRoles;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
+            throw error;
         }
     }
 
@@ -125,7 +125,7 @@ export class AdminRoleDao {
             return adminRoles;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('获取管理员角色失败');
+            throw error;
         }
     }
 
@@ -143,7 +143,7 @@ export class AdminRoleDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('删除管理员角色失败');
+            throw error;
         }
     }
 
@@ -161,7 +161,7 @@ export class AdminRoleDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('删除角色关联失败');
+            throw error;
         }
     }
 
@@ -188,7 +188,7 @@ export class AdminRoleDao {
             };
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询管理员角色列表失败');
+            throw error;
         }
     }
 }
