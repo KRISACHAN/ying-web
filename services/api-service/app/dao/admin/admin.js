@@ -6,6 +6,7 @@ import {
     PRECONDITION_FAILED,
     UNAUTHORIZED,
 } from '@utils/http-errors';
+import log from '@utils/log';
 import bcrypt from 'bcryptjs';
 
 export class AdminDao {
@@ -29,7 +30,7 @@ export class AdminDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('创建管理员失败');
+            throw error;
         }
     }
 
@@ -55,7 +56,7 @@ export class AdminDao {
             return admin;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('账号不存在或密码错误');
+            throw error;
         }
     }
 
@@ -91,7 +92,7 @@ export class AdminDao {
             return admin;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('管理员不存在');
+            throw error;
         }
     }
 
@@ -126,7 +127,7 @@ export class AdminDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('更新管理员失败');
+            throw error;
         }
     }
 
@@ -149,7 +150,7 @@ export class AdminDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('删除管理员失败');
+            throw error;
         }
     }
 
@@ -176,7 +177,7 @@ export class AdminDao {
             };
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询管理员列表失败');
+            throw error;
         }
     }
 }

@@ -4,6 +4,7 @@ import {
     NOT_FOUND,
     PRECONDITION_FAILED,
 } from '@utils/http-errors';
+import log from '@utils/log';
 
 export class PermissionsDao {
     static async create({ name, description }) {
@@ -26,7 +27,7 @@ export class PermissionsDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('创建权限失败');
+            throw error;
         }
     }
 
@@ -52,7 +53,7 @@ export class PermissionsDao {
             return permission;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询权限失败');
+            throw error;
         }
     }
 
@@ -83,7 +84,7 @@ export class PermissionsDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('更新权限失败');
+            throw error;
         }
     }
 
@@ -106,7 +107,7 @@ export class PermissionsDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('删除权限失败');
+            throw error;
         }
     }
 
@@ -133,7 +134,7 @@ export class PermissionsDao {
             };
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询权限列表失败');
+            throw error;
         }
     }
 }

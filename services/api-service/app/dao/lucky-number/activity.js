@@ -5,6 +5,7 @@ import {
     NOT_FOUND,
     PRECONDITION_FAILED,
 } from '@utils/http-errors';
+import log from '@utils/log';
 
 export class ActivityDao {
     static async create(
@@ -35,7 +36,7 @@ export class ActivityDao {
             return savedActivity;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('创建活动失败');
+            throw error;
         }
     }
 
@@ -58,7 +59,7 @@ export class ActivityDao {
             return activity;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询活动失败');
+            throw error;
         }
     }
 
@@ -81,7 +82,7 @@ export class ActivityDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('删除活动失败');
+            throw error;
         }
     }
 
@@ -109,7 +110,7 @@ export class ActivityDao {
             };
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询活动列表失败');
+            throw error;
         }
     }
 
@@ -129,7 +130,7 @@ export class ActivityDao {
             return activity;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('更新活动状态失败');
+            throw error;
         }
     }
 }

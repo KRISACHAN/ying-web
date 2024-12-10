@@ -1,5 +1,6 @@
 import { RolePermissionsModel } from '@models/admin/role-permissions';
 import { INTERNAL_SERVER_ERROR, PRECONDITION_FAILED } from '@utils/http-errors';
+import log from '@utils/log';
 
 export class RolePermissionsDao {
     static async create({ roleId, permissionId }) {
@@ -32,7 +33,7 @@ export class RolePermissionsDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('角色权限创建失败');
+            throw error;
         }
     }
 
@@ -58,7 +59,7 @@ export class RolePermissionsDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('更新角色权限失败');
+            throw error;
         }
     }
 
@@ -85,7 +86,7 @@ export class RolePermissionsDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('更新角色权限失败');
+            throw error;
         }
     }
 
@@ -104,7 +105,7 @@ export class RolePermissionsDao {
             return rolePermission;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('获取角色权限失败');
+            throw error;
         }
     }
 
@@ -124,7 +125,7 @@ export class RolePermissionsDao {
             return rolePermission;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('获取角色权限失败');
+            throw error;
         }
     }
 
@@ -141,7 +142,7 @@ export class RolePermissionsDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('删除角色权限失败');
+            throw error;
         }
     }
 
@@ -159,7 +160,7 @@ export class RolePermissionsDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('删除权限关联失败');
+            throw error;
         }
     }
 
@@ -188,7 +189,7 @@ export class RolePermissionsDao {
             };
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询角色权限列表失败');
+            throw error;
         }
     }
 }

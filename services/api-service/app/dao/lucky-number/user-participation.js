@@ -2,6 +2,7 @@ import { UserParticipationModel } from '@models/lucky-number/user-participation'
 import { ERROR_NAMES } from '@utils/constants';
 import { INTERNAL_SERVER_ERROR, PRECONDITION_FAILED } from '@utils/http-errors';
 import log from '@utils/log';
+import { eq } from 'lodash';
 
 export class UserParticipationDao {
     static async createUserParticipation(
@@ -34,10 +35,10 @@ export class UserParticipationDao {
             return res;
         } catch (error) {
             log.error(error);
-            if (error.name === ERROR_NAMES.SEQUELIZE_UNIQUE_CONSTRAINT_ERROR) {
+            if (eq(error.name, ERROR_NAMES.SEQUELIZE_UNIQUE_CONSTRAINT_ERROR)) {
                 throw PRECONDITION_FAILED('用户已经参与过该活动');
             }
-            throw INTERNAL_SERVER_ERROR('创建用户参与记录失败');
+            throw error;
         }
     }
 

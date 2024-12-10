@@ -4,6 +4,7 @@ import {
     NOT_FOUND,
     PRECONDITION_FAILED,
 } from '@utils/http-errors';
+import log from '@utils/log';
 
 export class RoleDao {
     static async create({ name, description }) {
@@ -26,7 +27,7 @@ export class RoleDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('创建角色失败');
+            throw error;
         }
     }
 
@@ -43,7 +44,7 @@ export class RoleDao {
             return role;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询角色失败');
+            throw error;
         }
     }
 
@@ -74,7 +75,7 @@ export class RoleDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('更新角色失败');
+            throw error;
         }
     }
 
@@ -97,7 +98,7 @@ export class RoleDao {
             return true;
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('删除角色失败');
+            throw error;
         }
     }
 
@@ -124,7 +125,7 @@ export class RoleDao {
             };
         } catch (error) {
             log.error(error);
-            throw INTERNAL_SERVER_ERROR('查询角色列表失败');
+            throw error;
         }
     }
 }
