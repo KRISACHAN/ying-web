@@ -1,208 +1,61 @@
 # Performance Optimization
 
-## Performance Optimization
+## Performance Optimization Techniques
 
-### How to prevent components from re-rendering?
+### How to prevent unnecessary re-renders?
 
-There are several ways to prevent unnecessary re-renders:
+In React interviews, understanding re-render optimization is crucial. There are several key techniques to prevent unnecessary re-renders:
 
-1. Use React.memo for function components
-2. Implement shouldComponentUpdate for class components
-3. Use useMemo and useCallback hooks
-4. Proper state management
-
-```jsx
-// Using React.memo
-const MovieCard = React.memo(({ title, description }) => (
-    <div className="card">
-        <h3>{title}</h3>
-        <p>{description}</p>
-    </div>
-));
-
-// Using shouldComponentUpdate
-class MovieList extends React.Component {
-    shouldComponentUpdate(nextProps) {
-        return this.props.movies !== nextProps.movies;
-    }
-
-    render() {
-        return (
-            <div>
-                {this.props.movies.map(movie => (
-                    <MovieCard key={movie.id} {...movie} />
-                ))}
-            </div>
-        );
-    }
-}
-```
-
-### What is React.memo()?
-
-React.memo is a higher-order component that can wrap function components to prevent re-renders if props haven't changed.
+1. **Component Memoization**:
+    - Using React.memo for function components
+    - Implementing shouldComponentUpdate for class components
+    - Proper use of useMemo and useCallback hooks
 
 ```jsx
-const ExpensiveComponent = React.memo(
-    ({ data }) => {
-        // Only re-renders if data changes
-        return <div>{/* Complex rendering logic */}</div>;
-    },
+// Example of React.memo with custom comparison
+const TodoItem = React.memo(
+    ({ todo, onToggle }) => (
+        <li>
+            <input
+                type="checkbox"
+                checked={todo.completed}
+                onChange={() => onToggle(todo.id)}
+            />
+            <span
+                style={{
+                    textDecoration: todo.completed ? 'line-through' : 'none',
+                }}
+            >
+                {todo.text}
+            </span>
+        </li>
+    ),
     (prevProps, nextProps) => {
-        // Custom comparison function (optional)
-        return prevProps.data.id === nextProps.data.id;
+        // Custom comparison function
+        return (
+            prevProps.todo.completed === nextProps.todo.completed &&
+            prevProps.todo.text === nextProps.todo.text
+        );
     },
 );
-```
 
-### What is React.lazy()?
+// Parent component with optimized callbacks
+function TodoList({ todos }) {
+    const [items, setItems] = useState(todos);
 
-React.lazy enables code-splitting through dynamic imports.
+    // Memoized callback
+    const handleToggle = useCallback(id => {
+        setItems(prev =>
+            prev.map(todo =>
+                todo.id === id ? { ...todo, completed: !todo.completed } : todo,
+            ),
+        );
+    }, []); // Empty deps array as it doesn't depend on props/state
 
-```jsx
-// Instead of importing directly
-// import ExpensiveComponent from './ExpensiveComponent';
-
-// Use lazy loading
-const ExpensiveComponent = React.lazy(() => import('./ExpensiveComponent'));
-
-function App() {
-    return (
-        <Suspense fallback={<Loading />}>
-            <ExpensiveComponent />
-        </Suspense>
-    );
-}
-```
-
-### What is Suspense in React?
-
-Suspense lets components "wait" for something before rendering, commonly used with React.lazy for code-splitting.
-
-```mermaid
-graph TD
-    A[Component] --> B{Suspense}
-    B -->|Loading| C[Fallback UI]
-    B -->|Loaded| D[Lazy Component]
-```
-
-```jsx
-function App() {
-    return (
-        <Suspense fallback={<LoadingSpinner />}>
-            <Routes>
-                <Route path="/dashboard" element={<DashboardPage />} />
-                <Route path="/settings" element={<SettingsPage />} />
-            </Routes>
-        </Suspense>
-    );
-}
-```
-
-### What is code splitting?
-
-Code splitting is a technique to split your code into small chunks and load them on demand.
-
-```jsx
-// Route-based code splitting
-import { Routes, Route } from 'react-router-dom';
-
-const Dashboard = React.lazy(() => import('./pages/Dashboard'));
-const Settings = React.lazy(() => import('./pages/Settings'));
-const Profile = React.lazy(() => import('./pages/Profile'));
-
-function App() {
-    return (
-        <Suspense fallback={<Loading />}>
-            <Routes>
-                <Route path="/dashboard" element={<Dashboard />} />
-                <Route path="/settings" element={<Settings />} />
-                <Route path="/profile" element={<Profile />} />
-            </Routes>
-        </Suspense>
-    );
-}
-```
-
-### What are Error Boundaries?
-
-Error Boundaries are React components that catch JavaScript errors in their child component tree.
-
-```jsx
-class ErrorBoundary extends React.Component {
-    state = { hasError: false, error: null };
-
-    static getDerivedStateFromError(error) {
-        return { hasError: true, error };
-    }
-
-    componentDidCatch(error, errorInfo) {
-        console.error('Error caught:', error, errorInfo);
-        // Log to error reporting service
-    }
-
-    render() {
-        if (this.state.hasError) {
-            return (
-                <div className="error-ui">
-                    <h2>Something went wrong!</h2>
-                    <button onClick={() => window.location.reload()}>
-                        Retry
-                    </button>
-                </div>
-            );
-        }
-
-        return this.props.children;
-    }
-}
-```
-
-### What is memoization in React?
-
-Memoization is an optimization technique that stores the results of expensive computations and reuses them when the same inputs occur again.
-
-```jsx
-function ProductList({ products, filter }) {
-    // Memoize expensive filtering operation
-    const filteredProducts = useMemo(
-        () => products.filter(p => p.category === filter),
-        [products, filter],
-    );
-
-    // Memoize callback function
-    const handleSort = useCallback(
-        sortKey => {
-            // Sorting logic
-        },
-        [], // Empty deps array if sorting logic doesn't depend on props/state
-    );
-
-    return (
-        <div>
-            {filteredProducts.map(product => (
-                <ProductCard
-                    key={product.id}
-                    product={product}
-                    onSort={handleSort}
-                />
-            ))}
-        </div>
-    );
-}
-```
-
-### How do you optimize performance in a React application?
-
-1. **Virtual DOM Optimization**:
-
-```jsx
-// Use keys properly
-function List({ items }) {
     return (
         <ul>
-            {items.map(item => (
-                <li key={item.id}>{item.name}</li>
+            {items.map(todo => (
+                <TodoItem key={todo.id} todo={todo} onToggle={handleToggle} />
             ))}
         </ul>
     );
@@ -212,48 +65,472 @@ function List({ items }) {
 2. **State Management Optimization**:
 
 ```jsx
-// Split state logically
-function UserProfile() {
-    const [userInfo, setUserInfo] = useState({ name: '', email: '' });
-    const [preferences, setPreferences] = useState({ theme: 'light' });
+function UserDashboard() {
+    // Split state by concern
+    const [userProfile, setUserProfile] = useState(null);
+    const [userPreferences, setUserPreferences] = useState(null);
+    const [uiState, setUiState] = useState({
+        isProfileEditing: false,
+        activeTab: 'profile',
+    });
 
-    // Updates won't affect unrelated state
-    const updateTheme = theme => {
-        setPreferences(prev => ({ ...prev, theme }));
-    };
+    // Memoize expensive computations
+    const userStats = useMemo(() => {
+        return calculateUserStatistics(userProfile);
+    }, [userProfile]);
+
+    // Optimized state updates
+    const updateProfile = useCallback(updates => {
+        setUserProfile(prev => ({
+            ...prev,
+            ...updates,
+        }));
+    }, []);
+
+    return (
+        <div>
+            <UserProfile
+                data={userProfile}
+                stats={userStats}
+                onUpdate={updateProfile}
+                isEditing={uiState.isProfileEditing}
+            />
+            <UserPreferences
+                data={userPreferences}
+                isActive={uiState.activeTab === 'preferences'}
+            />
+        </div>
+    );
 }
 ```
 
-### Common Performance Issues and Solutions
+### What is React.memo() and when to use it?
 
-```mermaid
-graph TD
-    A[Performance Issues] --> B[Unnecessary Renders]
-    A --> C[Large Bundle Size]
-    A --> D[Slow Initial Load]
-    B --> E[Use Memo/Callback]
-    C --> F[Code Splitting]
-    D --> G[Lazy Loading]
-```
-
-### Performance Monitoring Tools
-
-1. **React Developer Tools**
-2. **Lighthouse**
-3. **Web Vitals**
+React.memo is a higher-order component that can prevent unnecessary re-renders of function components. Understanding its proper usage is important for performance optimization.
 
 ```jsx
-// Measuring component render time
+// Complex component that benefits from memoization
+const ExpensiveComponent = React.memo(({ data, onAction }) => {
+    // Expensive computation
+    const processedData = useMemo(() => {
+        return data.map(item => ({
+            ...item,
+            calculated: expensiveCalculation(item),
+        }));
+    }, [data]);
+
+    return (
+        <div>
+            {processedData.map(item => (
+                <div key={item.id}>
+                    <h3>{item.title}</h3>
+                    <p>Calculated: {item.calculated}</p>
+                    <button onClick={() => onAction(item.id)}>
+                        Perform Action
+                    </button>
+                </div>
+            ))}
+        </div>
+    );
+});
+
+// Usage with proper props
+function ParentComponent() {
+    const [items, setItems] = useState([]);
+
+    // Memoized callback
+    const handleAction = useCallback(id => {
+        setItems(prev =>
+            prev.map(item =>
+                item.id === id ? { ...item, processed: true } : item,
+            ),
+        );
+    }, []);
+
+    return <ExpensiveComponent data={items} onAction={handleAction} />;
+}
+```
+
+### How to implement code splitting?
+
+Code splitting is crucial for optimizing initial load time. React provides several ways to implement it:
+
+1. **Route-based Splitting**:
+
+```jsx
+import { Suspense, lazy } from 'react';
+import { Routes, Route } from 'react-router-dom';
+
+// Lazy load components
+const Dashboard = lazy(() => import('./pages/Dashboard'));
+const Profile = lazy(() => import('./pages/Profile'));
+const Settings = lazy(() => import('./pages/Settings'));
+
+function App() {
+    return (
+        <Suspense
+            fallback={
+                <div className="loading">
+                    <Spinner size="large" />
+                </div>
+            }
+        >
+            <Routes>
+                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/settings" element={<Settings />} />
+            </Routes>
+        </Suspense>
+    );
+}
+```
+
+2. **Component-based Splitting**:
+
+```jsx
+const HeavyChart = lazy(() => import('./components/HeavyChart'));
+const DataGrid = lazy(() => import('./components/DataGrid'));
+
+function Analytics({ showChart }) {
+    return (
+        <div>
+            <h1>Analytics Dashboard</h1>
+
+            {/* Load chart only when needed */}
+            {showChart && (
+                <Suspense fallback={<ChartPlaceholder />}>
+                    <HeavyChart />
+                </Suspense>
+            )}
+
+            {/* Load grid with different fallback */}
+            <Suspense fallback={<GridPlaceholder />}>
+                <DataGrid />
+            </Suspense>
+        </div>
+    );
+}
+```
+
+### How to optimize list rendering?
+
+When dealing with large lists, optimization is crucial for performance:
+
+```jsx
+import { FixedSizeList } from 'react-window';
+import AutoSizer from 'react-virtualized-auto-sizer';
+
+function VirtualizedList({ items }) {
+    const Row = ({ index, style }) => (
+        <div style={style} className="list-item">
+            <h3>{items[index].title}</h3>
+            <p>{items[index].description}</p>
+        </div>
+    );
+
+    return (
+        <AutoSizer>
+            {({ height, width }) => (
+                <FixedSizeList
+                    height={height}
+                    width={width}
+                    itemCount={items.length}
+                    itemSize={100}
+                >
+                    {Row}
+                </FixedSizeList>
+            )}
+        </AutoSizer>
+    );
+}
+
+// Usage with optimized state updates
+function ListContainer() {
+    const [items, setItems] = useState([]);
+    const [filter, setFilter] = useState('');
+
+    // Memoize filtered items
+    const filteredItems = useMemo(() => {
+        return items.filter(item =>
+            item.title.toLowerCase().includes(filter.toLowerCase()),
+        );
+    }, [items, filter]);
+
+    return (
+        <div style={{ height: '100vh' }}>
+            <input
+                type="text"
+                value={filter}
+                onChange={e => setFilter(e.target.value)}
+                placeholder="Filter items..."
+            />
+            <VirtualizedList items={filteredItems} />
+        </div>
+    );
+}
+```
+
+### How to optimize image and resource loading?
+
+Optimizing resource loading is crucial for web performance. Here are key techniques to discuss in interviews:
+
+1. **Image Optimization**:
+
+```jsx
+// Image loading component with lazy loading and blur placeholder
+function OptimizedImage({ src, alt, width, height }) {
+    const [isLoaded, setIsLoaded] = useState(false);
+    const imgRef = useRef(null);
+
+    useEffect(() => {
+        if (imgRef.current?.complete) {
+            setIsLoaded(true);
+        }
+    }, []);
+
+    return (
+        <div className="image-container" style={{ width, height }}>
+            {!isLoaded && (
+                <div className="blur-placeholder" aria-hidden="true" />
+            )}
+            <img
+                ref={imgRef}
+                src={src}
+                alt={alt}
+                width={width}
+                height={height}
+                loading="lazy"
+                onLoad={() => setIsLoaded(true)}
+                className={isLoaded ? 'loaded' : 'loading'}
+            />
+        </div>
+    );
+}
+
+// Usage in a gallery component
+function ImageGallery({ images }) {
+    return (
+        <div className="gallery">
+            {images.map(image => (
+                <OptimizedImage
+                    key={image.id}
+                    src={image.url}
+                    alt={image.description}
+                    width={300}
+                    height={200}
+                />
+            ))}
+        </div>
+    );
+}
+```
+
+2. **Resource Preloading**:
+
+```jsx
+function ResourceOptimizer() {
+    useEffect(() => {
+        // Preload critical resources
+        const preloadLinks = [
+            { rel: 'preload', href: '/fonts/main.woff2', as: 'font' },
+            { rel: 'preconnect', href: 'https://api.example.com' },
+            { rel: 'prefetch', href: '/data/initial.json' },
+        ];
+
+        preloadLinks.forEach(({ rel, href, as }) => {
+            const link = document.createElement('link');
+            link.rel = rel;
+            link.href = href;
+            if (as) link.as = as;
+            document.head.appendChild(link);
+        });
+    }, []);
+
+    return null;
+}
+```
+
+### How to implement performance monitoring?
+
+Performance monitoring is essential for identifying and fixing performance issues:
+
+```jsx
+// Performance monitoring component
 function PerformanceMonitor({ children }) {
     useEffect(() => {
-        const start = performance.now();
+        // Monitor component render time
+        const startTime = performance.now();
 
         return () => {
-            const end = performance.now();
-            console.log(`Render time: ${end - start}ms`);
+            const endTime = performance.now();
+            const duration = endTime - startTime;
+
+            // Report to analytics
+            reportMetric('render-time', duration);
+
+            // Log if render time exceeds threshold
+            if (duration > 16) {
+                // 60fps threshold
+                console.warn(`Slow render detected: ${duration}ms`);
+            }
         };
     });
 
+    // Monitor interactions
+    const trackInteraction = useCallback(eventName => {
+        const interaction = performance.now();
+        return () => {
+            const duration = performance.now() - interaction;
+            reportMetric(`interaction-${eventName}`, duration);
+        };
+    }, []);
+
     return children;
 }
+
+// Usage with Web Vitals
+function App() {
+    useEffect(() => {
+        // Report Web Vitals
+        reportWebVitals(metric => {
+            console.log(metric);
+            // Send to analytics
+            analytics.track('Web Vitals', {
+                name: metric.name,
+                value: metric.value,
+                rating: metric.rating,
+            });
+        });
+    }, []);
+
+    return (
+        <PerformanceMonitor>
+            <AppContent />
+        </PerformanceMonitor>
+    );
+}
 ```
+
+### How to optimize server-side rendering?
+
+Server-side rendering (SSR) optimization requires careful consideration of both server and client performance:
+
+```jsx
+// Optimized SSR component with selective hydration
+function SSROptimizedPage({ data }) {
+    return (
+        <div>
+            {/* Critical content rendered immediately */}
+            <Header />
+
+            {/* Defer hydration of non-critical content */}
+            <Suspense fallback={null}>
+                <NonCriticalContent data={data} />
+            </Suspense>
+
+            {/* Progressive hydration of interactive elements */}
+            <Suspense fallback={<StaticFooter />}>
+                <InteractiveFooter />
+            </Suspense>
+        </div>
+    );
+}
+
+// Server component with streaming
+async function StreamingPage() {
+    return (
+        <Suspense fallback={<Loading />}>
+            {/* Stream critical data first */}
+            <CriticalData />
+
+            {/* Stream non-critical data later */}
+            <Suspense fallback={<Skeleton />}>
+                <AsyncData />
+            </Suspense>
+        </Suspense>
+    );
+}
+```
+
+### What are the best practices for caching?
+
+Implementing effective caching strategies is crucial for performance:
+
+```jsx
+// Cache management with React Query
+function CachedDataComponent() {
+    const queryClient = useQueryClient();
+
+    // Configure global cache settings
+    useEffect(() => {
+        queryClient.setDefaultOptions({
+            queries: {
+                staleTime: 5 * 60 * 1000, // 5 minutes
+                cacheTime: 30 * 60 * 1000, // 30 minutes
+                refetchOnWindowFocus: false,
+                retry: 3,
+            },
+        });
+    }, [queryClient]);
+
+    // Use cached data with background updates
+    const { data, isLoading } = useQuery('userData', fetchUserData, {
+        // Keep previous data while refreshing
+        keepPreviousData: true,
+        // Transform and normalize data
+        select: data => normalizeUserData(data),
+    });
+
+    return <div>{isLoading ? <Loading /> : <UserDisplay data={data} />}</div>;
+}
+
+// Local storage cache helper
+const cacheHelper = {
+    set: (key, data, ttl = 3600000) => {
+        const item = {
+            data,
+            timestamp: Date.now(),
+            ttl,
+        };
+        localStorage.setItem(key, JSON.stringify(item));
+    },
+
+    get: key => {
+        const item = localStorage.getItem(key);
+        if (!item) return null;
+
+        const { data, timestamp, ttl } = JSON.parse(item);
+        if (Date.now() - timestamp > ttl) {
+            localStorage.removeItem(key);
+            return null;
+        }
+
+        return data;
+    },
+};
+
+// Usage in a component
+function CachedComponent() {
+    const [data, setData] = useState(() => {
+        // Try to load from cache on mount
+        return cacheHelper.get('cached-data') || null;
+    });
+
+    useEffect(() => {
+        async function fetchData() {
+            const newData = await fetchFromAPI();
+            setData(newData);
+            cacheHelper.set('cached-data', newData);
+        }
+
+        if (!data) {
+            fetchData();
+        }
+    }, [data]);
+
+    return <div>{/* Render data */}</div>;
+}
+```
+
+4. Test performance-critical code
+5. Use the right tools for specific scenarios

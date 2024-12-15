@@ -1,0 +1,12 @@
+{
+    "1-core-concepts": "Core Concepts",
+    "2-rendering-strategies": "Rendering Strategies",
+    "3-data-fetching": "Data Fetching",
+    "4-routing-navigation": "Routing and Navigation",
+    "5-performance-optimization": "Performance Optimization",
+    "6-configuration-deployment": "Configuration and Deployment",
+    "7-api-routes": "API Routes",
+    "8-styling-assets": "Styling and Assets",
+    "9-middleware-plugins": "Middleware and Plugins",
+    "10-advanced-features": "Advanced Features"
+}
