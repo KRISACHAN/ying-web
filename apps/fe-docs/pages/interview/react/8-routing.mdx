@@ -1,26 +1,38 @@
 # Routing
 
-## Routing
+## React Router
 
-### What is React Router and how is it used?
+### What is React Router and how does it work?
 
-React Router is a standard library for routing in React applications. It enables navigation between views, URL manipulation, and browser history management.
+React Router is the standard routing solution for React applications. In interviews, it's important to understand both the concepts and implementation details.
 
 ```mermaid
 graph TD
     A[React Router] --> B[Components]
     A --> C[Hooks]
-    A --> D[Configuration]
+    A --> D[Features]
     B --> E[BrowserRouter]
     B --> F[Routes/Route]
     B --> G[Link/NavLink]
     C --> H[useNavigate]
     C --> I[useParams]
     C --> J[useLocation]
+    D --> K[Nested Routes]
+    D --> L[Dynamic Routes]
+    D --> M[Protected Routes]
 ```
 
+Basic implementation:
+
 ```jsx
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+    Link,
+    useNavigate,
+    useParams,
+} from 'react-router-dom';
 
 function App() {
     return (
@@ -44,34 +56,143 @@ function App() {
 }
 ```
 
-### What are the components of React Router?
+### How to implement protected routes?
 
-1. **Core Components**:
+Protected routes are crucial for securing parts of your application:
 
 ```jsx
-// Basic routing setup
-import {
-    BrowserRouter,
-    Routes,
-    Route,
-    Link,
-    NavLink,
-    Outlet,
-} from 'react-router-dom';
+// Auth context setup
+const AuthContext = createContext(null);
 
-function Layout() {
+function AuthProvider({ children }) {
+    const [user, setUser] = useState(null);
+    const navigate = useNavigate();
+
+    const login = async credentials => {
+        const user = await loginUser(credentials);
+        setUser(user);
+        navigate('/dashboard');
+    };
+
+    const logout = () => {
+        setUser(null);
+        navigate('/login');
+    };
+
+    return (
+        <AuthContext.Provider value={{ user, login, logout }}>
+            {children}
+        </AuthContext.Provider>
+    );
+}
+
+// Protected route component
+function ProtectedRoute({ children }) {
+    const { user } = useContext(AuthContext);
+    const location = useLocation();
+
+    if (!user) {
+        // Redirect to login but save the attempted URL
+        return <Navigate to="/login" state={{ from: location }} replace />;
+    }
+
+    return children;
+}
+
+// Usage in router setup
+function AppRouter() {
+    return (
+        <Routes>
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/public" element={<PublicPage />} />
+            <Route
+                path="/dashboard"
+                element={
+                    <ProtectedRoute>
+                        <DashboardPage />
+                    </ProtectedRoute>
+                }
+            />
+            <Route
+                path="/admin"
+                element={
+                    <ProtectedRoute>
+                        <AdminPage />
+                    </ProtectedRoute>
+                }
+            />
+        </Routes>
+    );
+}
+```
+
+### How to handle route parameters and queries?
+
+Route parameters and query strings are common in web applications:
+
+```jsx
+function UserProfile() {
+    // Get route parameters
+    const { id } = useParams();
+    // Get query parameters
+    const [searchParams, setSearchParams] = useSearchParams();
+    const tab = searchParams.get('tab') || 'profile';
+
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    useEffect(() => {
+        // Track page view
+        analytics.pageView({
+            userId: id,
+            tab,
+            path: location.pathname,
+        });
+    }, [id, tab, location]);
+
     return (
         <div>
+            <h1>User Profile: {id}</h1>
             <nav>
-                <NavLink
-                    to="/"
-                    className={({ isActive }) =>
-                        isActive ? 'active' : undefined
-                    }
+                <button
+                    onClick={() => setSearchParams({ tab: 'profile' })}
+                    className={tab === 'profile' ? 'active' : ''}
                 >
-                    Home
-                </NavLink>
+                    Profile
+                </button>
+                <button
+                    onClick={() => setSearchParams({ tab: 'settings' })}
+                    className={tab === 'settings' ? 'active' : ''}
+                >
+                    Settings
+                </button>
             </nav>
+
+            {tab === 'profile' ? (
+                <UserProfileTab userId={id} />
+            ) : (
+                <UserSettingsTab userId={id} />
+            )}
+        </div>
+    );
+}
+```
+
+### How to implement nested routes?
+
+Nested routes are powerful for complex UIs:
+
+```jsx
+function DashboardLayout() {
+    return (
+        <div className="dashboard">
+            <aside>
+                <nav>
+                    <NavLink to="/dashboard/overview">Overview</NavLink>
+                    <NavLink to="/dashboard/analytics">Analytics</NavLink>
+                    <NavLink to="/dashboard/settings">Settings</NavLink>
+                </nav>
+            </aside>
 
             <main>
                 <Outlet /> {/* Nested routes render here */}
@@ -79,154 +200,129 @@ function Layout() {
         </div>
     );
 }
+
+function AppRoutes() {
+    return (
+        <Routes>
+            <Route path="/dashboard" element={<DashboardLayout />}>
+                <Route index element={<DashboardOverview />} />
+                <Route path="analytics" element={<Analytics />} />
+                <Route path="settings" element={<Settings />} />
+            </Route>
+        </Routes>
+    );
+}
 ```
 
-2. **Hooks**:
+### How to handle route transitions?
+
+Route transitions can enhance user experience:
 
 ```jsx
-function UserProfile() {
-    const { id } = useParams();
-    const navigate = useNavigate();
+function PageTransition({ children }) {
     const location = useLocation();
-    const { state } = useLocation();
+
+    return (
+        <AnimatePresence mode="wait">
+            <motion.div
+                key={location.pathname}
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                transition={{ duration: 0.3 }}
+            >
+                {children}
+            </motion.div>
+        </AnimatePresence>
+    );
+}
+
+function App() {
+    return (
+        <BrowserRouter>
+            <PageTransition>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+            </PageTransition>
+        </BrowserRouter>
+    );
+}
+```
+
+### How to implement route-based code splitting?
+
+Code splitting by route improves initial load performance:
+
+```jsx
+import { Suspense, lazy } from 'react';
+
+// Lazy load route components
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Dashboard = lazy(() => import('./pages/Dashboard'));
+
+function App() {
+    return (
+        <BrowserRouter>
+            <Suspense
+                fallback={
+                    <div className="loading">
+                        <Spinner size="large" />
+                    </div>
+                }
+            >
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route
+                        path="/dashboard/*"
+                        element={
+                            <ProtectedRoute>
+                                <Dashboard />
+                            </ProtectedRoute>
+                        }
+                    />
+                </Routes>
+            </Suspense>
+        </BrowserRouter>
+    );
+}
+```
+
+### How to handle route-based data loading?
+
+Data loading with routes requires careful consideration:
+
+```jsx
+function UserList() {
+    const [searchParams] = useSearchParams();
+    const page = parseInt(searchParams.get('page') || '1');
+    const limit = parseInt(searchParams.get('limit') || '10');
+
+    // Use React Query for data fetching
+    const {
+        data: users,
+        isLoading,
+        error,
+    } = useQuery(['users', page, limit], () => fetchUsers({ page, limit }));
+
+    if (isLoading) return <LoadingSpinner />;
+    if (error) return <ErrorMessage error={error} />;
 
     return (
         <div>
-            <h1>User Profile: {id}</h1>
-            <button onClick={() => navigate(-1)}>Go Back</button>
-            <button
-                onClick={() =>
-                    navigate('/dashboard', { state: { from: location } })
+            <UserTable users={users.data} />
+            <Pagination
+                current={page}
+                total={users.total}
+                onChange={newPage =>
+                    setSearchParams({ page: newPage.toString(), limit })
                 }
-            >
-                Dashboard
-            </button>
+            />
         </div>
-    );
-}
-```
-
-### What is the difference between BrowserRouter and HashRouter?
-
-```mermaid
-graph TD
-    A[Router Types] --> B[BrowserRouter]
-    A --> C[HashRouter]
-    B --> D[Clean URLs]
-    B --> E[Server Config Required]
-    C --> F[Hash-based URLs]
-    C --> G[No Server Config]
-```
-
-```jsx
-// BrowserRouter - URLs look like: /users/123
-<BrowserRouter>
-    <Routes>
-        <Route path="/users/:id" element={<UserProfile />} />
-    </Routes>
-</BrowserRouter>
-
-// HashRouter - URLs look like: /#/users/123
-<HashRouter>
-    <Routes>
-        <Route path="/users/:id" element={<UserProfile />} />
-    </Routes>
-</HashRouter>
-```
-
-### How to implement protected routes?
-
-1. **Using Authentication Guard**:
-
-```jsx
-function PrivateRoute({ children }) {
-    const { isAuthenticated } = useAuth();
-    const location = useLocation();
-
-    if (!isAuthenticated) {
-        // Redirect to login page but save the attempted URL
-        return <Navigate to="/login" state={{ from: location }} replace />;
-    }
-
-    return children;
-}
-
-function App() {
-    return (
-        <Routes>
-            <Route path="/login" element={<Login />} />
-            <Route
-                path="/dashboard"
-                element={
-                    <PrivateRoute>
-                        <Dashboard />
-                    </PrivateRoute>
-                }
-            />
-        </Routes>
-    );
-}
-```
-
-2. **Using Role-Based Access**:
-
-```jsx
-function RoleBasedRoute({ children, allowedRoles }) {
-    const { user } = useAuth();
-    const location = useLocation();
-
-    if (!user || !allowedRoles.includes(user.role)) {
-        return (
-            <Navigate to="/unauthorized" state={{ from: location }} replace />
-        );
-    }
-
-    return children;
-}
-
-function App() {
-    return (
-        <Routes>
-            <Route
-                path="/admin"
-                element={
-                    <RoleBasedRoute allowedRoles={['admin']}>
-                        <AdminDashboard />
-                    </RoleBasedRoute>
-                }
-            />
-            <Route
-                path="/moderator"
-                element={
-                    <RoleBasedRoute allowedRoles={['admin', 'moderator']}>
-                        <ModeratorPanel />
-                    </RoleBasedRoute>
-                }
-            />
-        </Routes>
-    );
-}
-```
-
-3. **Handling Authentication Flow**:
-
-```jsx
-function Login() {
-    const navigate = useNavigate();
-    const location = useLocation();
-    const { login } = useAuth();
-
-    const handleLogin = async credentials => {
-        await login(credentials);
-        // Redirect to the page they tried to visit or default to dashboard
-        const from = location.state?.from?.pathname || '/dashboard';
-        navigate(from, { replace: true });
-    };
-
-    return (
-        <form onSubmit={handleSubmit(handleLogin)}>
-            {/* Login form fields */}
-        </form>
     );
 }
 ```
