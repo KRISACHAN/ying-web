@@ -1,0 +1,161 @@
+# Regular Expressions in JavaScript
+
+Regular expressions (RegExp) are patterns used to match character combinations in strings. In JavaScript, they are both patterns and objects.
+
+## Creating Regular Expressions
+
+```javascript
+// Using literal notation (preferred when pattern is constant)
+const pattern1 = /ab+c/;
+
+// Using RegExp constructor (useful for dynamic patterns)
+const pattern2 = new RegExp('ab+c');
+
+// With flags
+const pattern3 = /ab+c/gi;
+const pattern4 = new RegExp('ab+c', 'gi');
+```
+
+## Regular Expression Patterns
+
+### Basic Patterns
+
+```javascript
+// Simple character matching
+const text = 'Hello, world!';
+/Hello/.test(text); // true
+/hello/i.test(text); // true (case-insensitive)
+
+// Character classes
+const numbers = 'The year is 2024';
+/[0-9]+/.test(numbers); // true
+/\d+/.test(numbers); // true (same as above)
+
+// Escape special characters
+const price = '$23.45';
+/\$\d+\.\d{2}/.test(price); // true
+```
+
+### Character Classes
+
+```javascript
+const characterClasses = {
+    // Predefined classes
+    d: 'Any digit: [0-9]',
+    D: 'Any non-digit: [^0-9]',
+    w: 'Word character: [A-Za-z0-9_]',
+    W: 'Non-word character',
+    s: 'Whitespace: [ \t\n\r\f]',
+    S: 'Non-whitespace',
+
+    // Custom classes
+    '[abc]': 'Any character a, b, or c',
+    '[^abc]': 'Any character except a, b, or c',
+    '[a-z]': 'Any character a through z',
+    '[A-Z]': 'Any character A through Z',
+    '[0-9]': 'Any digit 0 through 9',
+};
+```
+
+### Quantifiers and Assertions
+
+```javascript
+const quantifiers = {
+    '*': '0 or more times',
+    '+': '1 or more times',
+    '?': '0 or 1 time',
+    '{n}': 'Exactly n times',
+    '{n,}': 'n or more times',
+    '{n,m}': 'Between n and m times',
+};
+
+const assertions = {
+    '^': 'Start of string/line',
+    $: 'End of string/line',
+    '\b': 'Word boundary',
+    B: 'Non-word boundary',
+    '(?=...)': 'Positive lookahead',
+    '(?!...)': 'Negative lookahead',
+    '(?<=...)': 'Positive lookbehind',
+    '(?<!...)': 'Negative lookbehind',
+};
+```
+
+## RegExp Methods and String Methods
+
+### RegExp Methods
+
+```javascript
+// test() - Returns boolean
+/hello/.test('hello world'); // true
+
+// exec() - Returns array with details or null
+const pattern = /(\w+)\s(\w+)/;
+const result = pattern.exec('hello world');
+console.log(result);
+// ['hello world', 'hello', 'world', index: 0, input: 'hello world']
+```
+
+### String Methods with RegExp
+
+```javascript
+const str = 'The quick brown fox';
+
+// match() - Find matches
+str.match(/\w+/g); // ['The', 'quick', 'brown', 'fox']
+
+// matchAll() - Returns iterator of all matches
+[...str.matchAll(/\w+/g)];
+
+// search() - Returns index of match
+str.search(/quick/); // 4
+
+// replace() - Replace matches
+str.replace(/quick.*fox/, 'fast red fox');
+
+// split() - Split string by pattern
+'a,b;c'.split(/[,;]/); // ['a', 'b', 'c']
+```
+
+## Common Use Cases
+
+### Form Validation
+
+```javascript
+// Email validation
+const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+// Phone number validation (international)
+const phonePattern = /^\+?(\d{1,3})?[-. ]?\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}$/;
+
+// Password strength
+const passwordPattern =
+    /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/;
+```
+
+### String Manipulation
+
+```javascript
+// Format numbers with commas
+const formatNumber = num =>
+    num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+
+// Strip HTML tags
+const stripHTML = html => html.replace(/<[^>]*>/g, '');
+
+// Extract URLs
+const getURLs = text => text.match(/https?:\/\/[^\s/$.?#].[^\s]*/g) || [];
+```
+
+Best practices for regular expressions:
+
+-   Start with simple patterns and build up complexity
+-   Use named capture groups for better readability
+-   Test patterns with various inputs including edge cases
+-   Consider performance implications of complex patterns
+-   Use appropriate flags for the use case
+-   Escape special characters when needed
+-   Document complex patterns with examples
+-   Consider using verbose mode for complex patterns
+-   Use non-capturing groups when backreferences aren't needed
+-   Be careful with greedy vs. lazy quantifiers

@@ -1,0 +1,263 @@
+# JavaScript Security Best Practices
+
+Security is crucial in web development. Understanding and implementing security best practices helps protect applications from various attacks.
+
+## Cross-Site Scripting (XSS) Prevention
+
+XSS attacks occur when malicious scripts are injected into trusted websites.
+
+### Input Sanitization
+
+```javascript
+// HTML Escaping Function
+function escapeHTML(unsafe) {
+    return unsafe
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
+// Safe HTML Insertion
+function setContent(element, content) {
+    // Use textContent instead of innerHTML when possible
+    element.textContent = content;
+}
+
+// Safe URL Handling
+function sanitizeURL(url) {
+    try {
+        const parsed = new URL(url);
+        return parsed.protocol === 'http:' || parsed.protocol === 'https:'
+            ? url
+            : '';
+    } catch {
+        return '';
+    }
+}
+
+// Safe JSON Parsing
+function safeJSONParse(str, fallback = {}) {
+    try {
+        return JSON.parse(str);
+    } catch {
+        return fallback;
+    }
+}
+```
+
+### Content Security Policy (CSP)
+
+```javascript
+// CSP Headers Configuration
+const cspHeaders = {
+    'Content-Security-Policy': [
+        "default-src 'self'",
+        "script-src 'self' 'nonce-randomNonce' 'strict-dynamic'",
+        "style-src 'self' 'unsafe-inline'",
+        "img-src 'self' data: https:",
+        "connect-src 'self' api.example.com",
+        "frame-ancestors 'none'",
+        "base-uri 'self'",
+        "form-action 'self'",
+    ].join('; '),
+};
+
+// Nonce Generation
+function generateNonce() {
+    const array = new Uint8Array(16);
+    crypto.getRandomValues(array);
+    return array.reduce(
+        (str, byte) => str + byte.toString(16).padStart(2, '0'),
+        '',
+    );
+}
+```
+
+## Cross-Site Request Forgery (CSRF) Protection
+
+### Token Implementation
+
+```javascript
+class CSRFProtection {
+    constructor() {
+        this.token = this.generateToken();
+    }
+
+    generateToken() {
+        const array = new Uint8Array(32);
+        crypto.getRandomValues(array);
+        return Array.from(array, byte =>
+            byte.toString(16).padStart(2, '0'),
+        ).join('');
+    }
+
+    addTokenToHeaders(headers = {}) {
+        return {
+            ...headers,
+            'X-CSRF-Token': this.token,
+        };
+    }
+
+    addTokenToForm(form) {
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = 'csrf_token';
+        input.value = this.token;
+        form.appendChild(input);
+    }
+
+    validateToken(token) {
+        return token === this.token;
+    }
+}
+```
+
+## Secure Data Storage
+
+### Sensitive Data Handling
+
+```javascript
+class SecureStorage {
+    constructor() {
+        this.crypto = window.crypto.subtle;
+    }
+
+    async generateKey() {
+        return this.crypto.generateKey(
+            {
+                name: 'AES-GCM',
+                length: 256,
+            },
+            true,
+            ['encrypt', 'decrypt'],
+        );
+    }
+
+    async encryptData(data, key) {
+        const iv = crypto.getRandomValues(new Uint8Array(12));
+        const encoded = new TextEncoder().encode(JSON.stringify(data));
+
+        const encrypted = await this.crypto.encrypt(
+            {
+                name: 'AES-GCM',
+                iv,
+            },
+            key,
+            encoded,
+        );
+
+        return {
+            encrypted: Array.from(new Uint8Array(encrypted)),
+            iv: Array.from(iv),
+        };
+    }
+
+    async decryptData(encrypted, iv, key) {
+        const decrypted = await this.crypto.decrypt(
+            {
+                name: 'AES-GCM',
+                iv: new Uint8Array(iv),
+            },
+            key,
+            new Uint8Array(encrypted),
+        );
+
+        return JSON.parse(new TextDecoder().decode(decrypted));
+    }
+}
+```
+
+## Secure Communication
+
+### API Security
+
+```javascript
+class SecureAPI {
+    constructor(baseUrl) {
+        this.baseUrl = baseUrl;
+        this.csrfProtection = new CSRFProtection();
+    }
+
+    async request(endpoint, options = {}) {
+        const headers = {
+            'Content-Type': 'application/json',
+            ...this.csrfProtection.addTokenToHeaders(),
+            ...options.headers,
+        };
+
+        try {
+            const response = await fetch(`${this.baseUrl}${endpoint}`, {
+                ...options,
+                headers,
+                credentials: 'same-origin', // Include cookies
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            return await response.json();
+        } catch (error) {
+            console.error('API Request failed:', error);
+            throw error;
+        }
+    }
+}
+```
+
+## Input Validation and Sanitization
+
+### Form Validation
+
+```javascript
+class FormValidator {
+    static patterns = {
+        email: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+        phone: /^\+?[\d\s-]{10,}$/,
+        url: /^https?:\/\/[\w\-.]+(:\d+)?([\/\w\-._~:/?#[\]@!$&'()*+,;=]*)?$/,
+    };
+
+    static sanitizers = {
+        text: input => input.trim(),
+        email: input => input.trim().toLowerCase(),
+        number: input => {
+            const num = parseFloat(input);
+            return isNaN(num) ? '' : num;
+        },
+    };
+
+    static validate(value, type, options = {}) {
+        const sanitized = this.sanitizers[type]?.(value) ?? value;
+
+        if (options.required && !sanitized) {
+            return { valid: false, error: 'Field is required' };
+        }
+
+        if (this.patterns[type] && !this.patterns[type].test(sanitized)) {
+            return { valid: false, error: `Invalid ${type} format` };
+        }
+
+        return { valid: true, value: sanitized };
+    }
+}
+```
+
+Best practices for security:
+
+-   Always sanitize user input
+-   Implement proper CSP headers
+-   Use CSRF tokens for forms and requests
+-   Implement secure authentication
+-   Use HTTPS for all communications
+-   Avoid storing sensitive data in localStorage
+-   Implement proper session management
+-   Use secure password hashing
+-   Regular security audits
+-   Keep dependencies updated
+-   Use HTTP security headers
+-   Implement rate limiting
+-   Validate file uploads
+-   Use secure cookies
+-   Implement proper error handling
