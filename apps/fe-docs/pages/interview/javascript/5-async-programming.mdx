@@ -1,190 +1,301 @@
-# Asynchronous Programming
+# Asynchronous Programming in JavaScript
 
-## How do Promises work in JavaScript?
+## Understanding the Event Loop
 
-```mermaid
-graph TD
-    A[Promise] --> B[Pending]
-    B --> C[Fulfilled]
-    B --> D[Rejected]
-    C --> E[.then handlers]
-    D --> F[.catch handlers]
-    E --> G[Promise Chain]
-    F --> G
-```
+The Event Loop is fundamental to JavaScript's asynchronous programming model. It's responsible for executing code, collecting and processing events, and executing queued tasks.
 
-```javascript
-// Promise implementation patterns
-function fetchData(shouldSucceed = true) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            if (shouldSucceed) {
-                resolve({ data: 'Success' });
-            } else {
-                reject(new Error('Failed'));
-            }
-        }, 1000);
-    });
-}
-
-// Promise chaining
-fetchData()
-    .then(result => {
-        console.log(result);
-        return fetchData(); // Return another promise
-    })
-    .then(result2 => {
-        console.log(result2);
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    })
-    .finally(() => {
-        console.log('Cleanup');
-    });
-
-// Promise combinators
-Promise.all([fetchData(), fetchData()]) // All must succeed
-    .then(([result1, result2]) => {
-        console.log(result1, result2);
-    });
-
-Promise.race([fetchData(), fetchData()]) // First to complete
-    .then(result => {
-        console.log('First:', result);
-    });
-
-Promise.allSettled([fetchData(), fetchData(false)]) // Wait for all
-    .then(results => {
-        results.forEach(result => {
-            if (result.status === 'fulfilled') {
-                console.log('Success:', result.value);
-            } else {
-                console.log('Error:', result.reason);
-            }
-        });
-    });
-```
-
-## How does async/await work?
-
-```mermaid
-graph TD
-    A[async/await] --> B[Promise-based]
-    B --> C[Sequential Execution]
-    B --> D[Error Handling]
-    C --> E[await keyword]
-    D --> F[try/catch]
-```
-
-```javascript
-// Basic async/await usage
-async function fetchUserData(userId) {
-    try {
-        const user = await fetchData(`/users/${userId}`);
-        const posts = await fetchData(`/posts?userId=${userId}`);
-        return { user, posts };
-    } catch (error) {
-        console.error('Error fetching user data:', error);
-        throw error;
-    }
-}
-
-// Parallel execution with async/await
-async function fetchMultipleUsers(userIds) {
-    try {
-        const userPromises = userIds.map(id => fetchData(`/users/${id}`));
-        const users = await Promise.all(userPromises);
-        return users;
-    } catch (error) {
-        console.error('Error fetching users:', error);
-        throw error;
-    }
-}
-
-// Async iteration
-async function processItems(items) {
-    for await (const item of items) {
-        await processItem(item);
-    }
-}
-```
-
-## How does the Event Loop handle async operations?
+### Event Loop Architecture
 
 ```mermaid
 graph TD
     A[Event Loop] --> B[Call Stack]
-    B --> C[Web APIs]
-    C --> D[Callback Queue]
-    D --> E[Microtask Queue]
-    E --> A
+    A --> C[Web APIs]
+    A --> D[Task Queues]
+    D --> E[Macrotask Queue]
+    D --> F[Microtask Queue]
+    E --> G[setTimeout/setInterval]
+    E --> H[I/O Operations]
+    F --> I[Promise Callbacks]
+    F --> J[process.nextTick]
 ```
 
+### Execution Order
+
+1. Execute synchronous code in the call stack
+2. Check microtask queue and execute all microtasks
+3. Execute one macrotask from the macrotask queue
+4. Return to step 2
+
 ```javascript
-console.log('Start'); // 1. Synchronous
+console.log('Script start'); // 1: Synchronous
 
 setTimeout(() => {
-    console.log('Timeout 1'); // 4. Macrotask
+    console.log('Timeout 1'); // 4: Macrotask
 }, 0);
 
 Promise.resolve()
     .then(() => {
-        console.log('Promise 1'); // 2. Microtask
+        console.log('Promise 1'); // 2: Microtask
     })
     .then(() => {
-        console.log('Promise 2'); // 3. Microtask
+        console.log('Promise 2'); // 3: Microtask
     });
 
-console.log('End'); // 1. Synchronous
+console.log('Script end'); // 1: Synchronous
 
 // Output:
-// Start
-// End
+// Script start
+// Script end
 // Promise 1
 // Promise 2
 // Timeout 1
 ```
 
-## How to handle errors in async code?
+## Task Types
+
+### Macrotasks (Tasks)
+
+-   setTimeout/setInterval
+-   requestAnimationFrame
+-   I/O operations
+-   UI rendering
+-   script execution
+-   event listeners
+
+### Microtasks
+
+-   Promise callbacks (.then/.catch/.finally)
+-   process.nextTick (Node.js)
+-   queueMicrotask()
+-   MutationObserver
 
 ```javascript
-// Error handling patterns
-async function robustFetch(url, retries = 3) {
-    for (let i = 0; i < retries; i++) {
+// Demonstrating task queue priorities
+console.log('Start'); // 1
+
+setTimeout(() => {
+    console.log('Timeout 1'); // 5
+    Promise.resolve().then(() => {
+        console.log('Promise inside Timeout'); // 6
+    });
+}, 0);
+
+Promise.resolve().then(() => {
+    console.log('Promise 1'); // 3
+    setTimeout(() => {
+        console.log('Timeout 2'); // 7
+    }, 0);
+});
+
+queueMicrotask(() => {
+    console.log('Microtask'); // 4
+});
+
+console.log('End'); // 2
+```
+
+## Promise Implementation
+
+Understanding how Promises work internally:
+
+```javascript
+class MyPromise {
+    static PENDING = 'pending';
+    static FULFILLED = 'fulfilled';
+    static REJECTED = 'rejected';
+
+    constructor(executor) {
+        this.state = MyPromise.PENDING;
+        this.value = undefined;
+        this.handlers = [];
+
         try {
-            const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+            executor(this._resolve.bind(this), this._reject.bind(this));
+        } catch (err) {
+            this._reject(err);
+        }
+    }
+
+    _resolve(value) {
+        if (this.state !== MyPromise.PENDING) return;
+
+        // Handle promise resolution
+        if (value instanceof MyPromise) {
+            value.then(this._resolve.bind(this), this._reject.bind(this));
+            return;
+        }
+
+        this.state = MyPromise.FULFILLED;
+        this.value = value;
+        this._executeHandlers();
+    }
+
+    _reject(error) {
+        if (this.state !== MyPromise.PENDING) return;
+
+        this.state = MyPromise.REJECTED;
+        this.value = error;
+        this._executeHandlers();
+    }
+
+    _executeHandlers() {
+        if (this.state === MyPromise.PENDING) return;
+
+        queueMicrotask(() => {
+            this.handlers.forEach(handler => {
+                if (this.state === MyPromise.FULFILLED) {
+                    handler.onFulfilled(this.value);
+                } else {
+                    handler.onRejected(this.value);
+                }
+            });
+            this.handlers = [];
+        });
+    }
+
+    then(onFulfilled, onRejected) {
+        return new MyPromise((resolve, reject) => {
+            this.handlers.push({
+                onFulfilled: result => {
+                    try {
+                        resolve(onFulfilled ? onFulfilled(result) : result);
+                    } catch (err) {
+                        reject(err);
+                    }
+                },
+                onRejected: error => {
+                    try {
+                        if (onRejected) {
+                            resolve(onRejected(error));
+                        } else {
+                            reject(error);
+                        }
+                    } catch (err) {
+                        reject(err);
+                    }
+                },
+            });
+
+            this._executeHandlers();
+        });
+    }
+}
+```
+
+## Async/Await Implementation
+
+Understanding how async/await works under the hood:
+
+```javascript
+// Async/await is syntactic sugar over generators and promises
+function asyncToGenerator(generatorFunc) {
+    return function (...args) {
+        const generator = generatorFunc.apply(this, args);
+
+        return new Promise((resolve, reject) => {
+            function step(key, arg) {
+                let generatorResult;
+
+                try {
+                    generatorResult = generator[key](arg);
+                } catch (error) {
+                    return reject(error);
+                }
+
+                const { value, done } = generatorResult;
+
+                if (done) {
+                    return resolve(value);
+                }
+
+                return Promise.resolve(value).then(
+                    val => step('next', val),
+                    err => step('throw', err),
+                );
             }
-            return await response.json();
-        } catch (error) {
-            if (i === retries - 1) throw error;
-            console.log(`Attempt ${i + 1} failed, retrying...`);
-            await new Promise(resolve =>
-                setTimeout(resolve, 1000 * Math.pow(2, i)),
-            );
-        }
+
+            step('next');
+        });
+    };
+}
+
+// Example usage
+function* fetchUserData() {
+    try {
+        const user = yield fetch('/api/user');
+        const profile = yield fetch(`/api/profile/${user.id}`);
+        return profile;
+    } catch (error) {
+        console.error('Error:', error);
+        throw error;
     }
 }
 
-// Error boundaries in async operations
-class AsyncOperation {
-    static async execute(operation, fallback = null) {
-        try {
-            const result = await operation();
-            return result;
-        } catch (error) {
-            console.error('Operation failed:', error);
-            return fallback;
-        } finally {
-            // Cleanup code
-        }
-    }
-}
+const fetchUserDataAsync = asyncToGenerator(fetchUserData);
+```
 
-// Usage
-const result = await AsyncOperation.execute(() => fetchData('/api/data'), {
-    error: 'Failed to fetch data',
+## Evolution of Asynchronous Programming
+
+### 1. Callbacks (Early Days)
+
+```javascript
+// Callback Hell Example
+getData(function (a) {
+    getMoreData(a, function (b) {
+        getMoreData(b, function (c) {
+            getMoreData(c, function (d) {
+                getMoreData(d, function (e) {
+                    // Do something with e
+                });
+            });
+        });
+    });
 });
 ```
+
+### 2. Promises (ES6)
+
+```javascript
+// Promise Chain
+getData()
+    .then(a => getMoreData(a))
+    .then(b => getMoreData(b))
+    .then(c => getMoreData(c))
+    .then(d => getMoreData(d))
+    .then(e => {
+        // Do something with e
+    })
+    .catch(error => {
+        // Handle any error that occurred
+    });
+```
+
+### 3. Async/Await (ES2017)
+
+```javascript
+async function getAllData() {
+    try {
+        const a = await getData();
+        const b = await getMoreData(a);
+        const c = await getMoreData(b);
+        const d = await getMoreData(c);
+        const e = await getMoreData(d);
+        // Do something with e
+    } catch (error) {
+        // Handle any error that occurred
+    }
+}
+```
+
+Best practices for asynchronous programming:
+
+-   Understand the event loop and task queues
+-   Use async/await for better readability
+-   Implement proper error handling
+-   Consider Promise.all for parallel operations
+-   Be aware of microtask and macrotask differences
+-   Handle Promise rejection appropriately
+-   Avoid callback hell
+-   Use proper error boundaries
+-   Consider cancellation patterns
+-   Implement loading states
