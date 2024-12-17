@@ -11,10 +11,17 @@
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
-        "types": [],
+        "types": ["vitest"],
         "typeRoots": ["node_modules/@types", "node_modules/tslib"],
         "baseUrl": "./"
     },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "dist", "**/*.test.ts", "**/__tests__/**"]
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.test.ts",
+        "src/**/tests/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
 }

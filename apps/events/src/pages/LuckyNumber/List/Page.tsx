@@ -1,7 +1,7 @@
-import { DoNotDisturbOutlined } from '@mui/icons-material';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
+import { DoNotDisturbOutlined } from '@mui/icons-material';
 import {
     Alert,
     Box,
@@ -16,13 +16,13 @@ import {
 } from '@mui/material';
 import { useInterval } from 'usehooks-ts';
 
+import HeaderInterface from '@/components/Header/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
-import { luckyNumberTheme } from '../styles/index';
 
-import HeaderInterface from '@/components/Header/Index';
+import { luckyNumberTheme } from '../styles/index';
 
 const ErrorInterface: React.FC<{ message?: string }> = ({
     message = '活动不存在或已结束',

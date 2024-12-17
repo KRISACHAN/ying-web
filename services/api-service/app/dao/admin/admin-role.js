@@ -1,5 +1,6 @@
 import { AdminRoleModel } from '@models/admin/admin-role';
 import { INTERNAL_SERVER_ERROR, PRECONDITION_FAILED } from '@utils/http-errors';
+import log from '@utils/log';
 
 export class AdminRoleDao {
     static async create({ roleId, adminId }) {

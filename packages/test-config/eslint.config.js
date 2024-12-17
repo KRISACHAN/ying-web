@@ -1,7 +1,7 @@
-import { tsWebConfig } from '@ying-web/eslint-config';
+import { tsNodeConfig } from '@ying-web/eslint-config';
 
 export default [
-    ...tsWebConfig,
+    ...tsNodeConfig,
     {
         ignores: [
             'node_modules/**',

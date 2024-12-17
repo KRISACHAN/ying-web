@@ -1,3 +1,8 @@
+import React, { useEffect, useState } from 'react';
+import Confetti from 'react-confetti';
+import { useParams } from 'react-router-dom';
+import { CSSTransition } from 'react-transition-group';
+
 import {
     Box,
     Button,
@@ -14,20 +19,16 @@ import {
 } from '@mui/material';
 import type { AxiosError } from 'axios';
 import { Disc3, Gift, Heart, Loader2 } from 'lucide-react';
-import React, { useEffect, useState } from 'react';
-import Confetti from 'react-confetti';
-import { useParams } from 'react-router-dom';
-import { CSSTransition } from 'react-transition-group';
 import { useLocalStorage } from 'usehooks-ts';
 
+import HeaderInterface from '@/components/Header/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
-import { luckyNumberTheme } from '../styles/index';
 
-import HeaderInterface from '@/components/Header/Index';
 import NumberAnimation from '../components/NumberAnimation';
+import { luckyNumberTheme } from '../styles/index';
 
 import './Page.less';
 

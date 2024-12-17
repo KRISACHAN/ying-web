@@ -4,8 +4,8 @@ import dayjs from 'dayjs';
 import logger from 'koa-logger';
 import ratelimit from 'koa-ratelimit';
 import Router from 'koa-router';
-import requireDirectory from 'require-directory';
 import path from 'path';
+import requireDirectory from 'require-directory';
 
 export const initLoadRouters = app => {
     const apiDirectory = path.join(__dirname, '../api');

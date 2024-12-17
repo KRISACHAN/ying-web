@@ -18,12 +18,13 @@ Please make sure your code follows our standards and includes necessary tests/do
 
 <!-- Check affected projects -->
 
--   [ ] @ying-web/diary
--   [ ] @ying-web/fe-docs
--   [ ] @ying-web/admin
--   [ ] @ying-web/events
--   [ ] @ying-web/tools
 -   [ ] @ying-web/api-service
+-   [ ] @ying-web/events
+-   [ ] @ying-web/admin
+-   [ ] @ying-web/tools
+-   [ ] @ying-web/fe-docs
+-   [ ] @ying-web/test-config
+-   [ ] @ying-web/eslint-config
 
 ## Changes 📝
 
