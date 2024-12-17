@@ -1,8 +1,7 @@
-import { message } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 
-import { Button, Card, Popconfirm, Space, Table } from 'antd';
+import { Button, Card, message, Popconfirm, Space, Table } from 'antd';
 
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';

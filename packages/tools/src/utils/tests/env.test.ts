@@ -1,4 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+
 import { isBrowser, isServer } from '../env';
 
 describe('[@ying-web/tools] utils/env', () => {

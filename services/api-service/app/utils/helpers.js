@@ -77,11 +77,11 @@ export function hasFileAccess(filePath) {
 
 export function mkdirPath(pathStr) {
     let projectPath = path.resolve(__dirname, '..');
-    let tempDirArray = pathStr.split('\\');
+    const tempDirArray = pathStr.split('\\');
     for (let i = 0; i < tempDirArray.length; i++) {
         projectPath = projectPath + '/' + tempDirArray[i];
         if (hasFileAccess(projectPath)) {
-            let tempstats = fs.statSync(projectPath);
+            const tempstats = fs.statSync(projectPath);
             if (!tempstats.isDirectory()) {
                 fs.unlinkSync(projectPath);
                 fs.mkdirSync(projectPath);

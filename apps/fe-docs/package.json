@@ -26,6 +26,7 @@
         "@types/react-dom": "^18.2.0",
         "@typescript-eslint/eslint-plugin": "^7.0.2",
         "@typescript-eslint/parser": "^7.0.2",
+        "@ying-web/eslint-config": "workspace:^",
         "autoprefixer": "^10.4.17",
         "eslint": "^9.9.1",
         "eslint-config-prettier": "^9.1.0",

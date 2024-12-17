@@ -54,7 +54,7 @@ export const createValidator = (rules, source = 'body') => {
             }),
         );
 
-        if (error && isArray(error.errors)) {
+        if (error && Array.isArray(error.errors)) {
             log.error(error.errors.map(e => e.message).join(','));
             throw BAD_REQUEST(error.errors.map(e => e.message).join(','));
         }

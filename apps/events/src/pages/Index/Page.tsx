@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import HeaderInterface from '@/components/Header/Index';
 import {
     Box,
     List,
@@ -10,6 +9,8 @@ import {
     ListItemIcon,
 } from '@mui/material';
 import { Heart } from 'lucide-react';
+
+import HeaderInterface from '@/components/Header/Index';
 
 const routes = [{ path: '/promise', label: '抽取经文', icon: Heart }];
 

@@ -1,4 +1,5 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
+
 import Logger, { logger, type LoggerType } from '../logger';
 
 describe('[@ying-web/tools] utils/logger', () => {

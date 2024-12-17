@@ -28,6 +28,10 @@
             "name": "@ying-web/test-config",
             "path": "packages/test-config",
         },
+        {
+            "name": "@ying-web/eslint-config",
+            "path": "packages/eslint-config",
+        },
     ],
     "settings": {
         "typescript.tsdk": "node_modules/typescript/lib",

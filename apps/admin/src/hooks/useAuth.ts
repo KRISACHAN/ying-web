@@ -1,3 +1,8 @@
+import { useCallback, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+import { useLocalStorage } from 'usehooks-ts';
+
 import axiosInstance from '@/services/axios';
 import { localCache } from '@/services/storage';
 import type {
@@ -7,9 +12,6 @@ import type {
     RefreshTokenResponse,
 } from '@/types/auth';
 import { KEYS } from '@/utils/constants';
-import { useCallback, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useLocalStorage } from 'usehooks-ts';
 
 export const useAuth = () => {
     const navigate = useNavigate();
