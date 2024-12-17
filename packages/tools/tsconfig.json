@@ -1,27 +1,21 @@
 {
     "compilerOptions": {
-        "target": "ES2018",
+        "target": "ES2020",
         "module": "ESNext",
-        "lib": ["ES2018", "DOM"],
+        "lib": ["DOM", "ESNext"],
         "declaration": true,
         "declarationMap": true,
         "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
         "strict": true,
         "moduleResolution": "node",
+        "baseUrl": "./",
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
-        "types": ["vitest"],
-        "typeRoots": ["node_modules/@types", "node_modules/tslib"],
-        "baseUrl": "./"
+        "types": ["node"]
     },
-    "include": [
-        "src/**/*.ts",
-        "src/**/*.test.ts",
-        "src/**/tests/**/*.ts"
-    ],
-    "exclude": [
-        "node_modules",
-        "dist"
-    ]
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
 }

@@ -5,5 +5,10 @@
         "outDir": "dist/esm",
         "declaration": false,
         "declarationMap": false
-    }
+    },
+    "exclude": [
+        "src/**/*.test.ts",
+        "src/**/tests/**/*.ts",
+        "**/__tests__/**"
+    ]
 }
