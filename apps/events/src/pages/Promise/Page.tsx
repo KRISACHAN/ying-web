@@ -1,26 +1,42 @@
-import React, { useState } from 'react';
-
 import { Box, Button, Snackbar } from '@mui/material';
+import { Gift } from 'lucide-react';
+import React, { useState } from 'react';
 import { useDebounceCallback } from 'usehooks-ts';
 
 import HeaderInterface from '@/components/Header/Index';
+import InitialState from '@/components/InitialState/Index';
+import LoadingState from '@/components/LoadingState/Index';
+import TipBar from '@/components/TipBar/Index';
+import TransitionWrapper from '@/components/TransitionWrapper/Index';
 import axiosInstance from '@/services/axios';
+
+import './Page.less';
+
 const PromisePage: React.FC = () => {
-    const [promise, setPromise] = useState<string>('请点击抽取经文！');
+    const [promise, setPromise] = useState<string>('');
     const [isInit, setIsInit] = useState(true);
     const [isLoading, setIsLoading] = useState(false);
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
+    const [isTransitioning, setIsTransitioning] = useState(false);
+    const [showResult, setShowResult] = useState(false);
 
     const fetchPromise = async () => {
         setIsInit(false);
         setIsLoading(true);
+        setIsTransitioning(true);
+        setShowResult(false);
+
         try {
             const response = await axiosInstance.get('/promise/result');
-            const data = response.data;
-            setPromise(data);
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            setPromise(response.data);
+            setIsTransitioning(false);
+            setShowResult(true);
         } catch {
             setPromise('获取经文失败，请重试。');
+            setIsTransitioning(false);
+            setShowResult(true);
         } finally {
             setIsLoading(false);
         }
@@ -44,10 +60,8 @@ const PromisePage: React.FC = () => {
             sx={{
                 minHeight: '100vh',
                 width: '100%',
-                px: { xs: 2, sm: 4 },
-                py: { xs: 2, sm: 4 },
-                background:
-                    'linear-gradient(135deg, #EBF5FF 0%, #F0F7FF 50%, #E6F3FF 100%)',
+                p: { xs: 2, sm: 4 },
+                backgroundColor: '#F87171',
             }}
         >
             <Box
@@ -56,42 +70,62 @@ const PromisePage: React.FC = () => {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    gap: 4,
+                    gap: 2,
                 }}
             >
-                <HeaderInterface
-                    name="圣经应许"
-                    description="圣经应许"
-                    color="#1976d2"
-                />
+                <HeaderInterface name="圣经应许" description="圣经应许" />
 
-                <div className="w-full max-w-xl bg-white/80 rounded-xl p-6 mb-8 shadow-sm overflow-y-auto max-h-[300px]">
-                    <p className="text-2xl text-left text-[#1976d2]">
-                        {promise}
-                    </p>
-                </div>
+                <TipBar message="快来看看今天神要对你说什么吧！" />
 
-                <div className="w-[calc(100%-32px)] max-w-xl flex gap-4 fixed bottom-8">
-                    <Button
+                {isTransitioning ? (
+                    <LoadingState message="正在抽取今日经文" />
+                ) : isInit ? (
+                    <InitialState
+                        title="准备好了吗？"
+                        subtitle="点击按钮，获取今日经文"
+                        buttonText="开始抽取"
+                        loading={isLoading}
                         onClick={debouncedFetchPromise}
-                        disabled={isLoading}
-                        className={`flex-1`}
-                        size="large"
-                        variant="contained"
-                    >
-                        抽取经文
-                    </Button>
+                        icon={<Gift />}
+                    />
+                ) : (
+                    <TransitionWrapper show={showResult}>
+                        <Box sx={{ textAlign: 'center' }}>
+                            <p className="text-2xl text-[#F87171]">{promise}</p>
+                        </Box>
+                    </TransitionWrapper>
+                )}
 
-                    <Button
-                        onClick={copyToClipboard}
-                        disabled={isLoading || isInit}
-                        className={`flex-1`}
-                        size="large"
-                        variant="outlined"
-                    >
-                        复制
-                    </Button>
-                </div>
+                {!isInit && !isTransitioning && (
+                    <Box sx={{ width: '100%', maxWidth: 600, mt: 2 }}>
+                        <Button
+                            onClick={copyToClipboard}
+                            disabled={isLoading}
+                            variant="outlined"
+                            fullWidth
+                            size="large"
+                            sx={{
+                                mb: 2,
+                                color: '#fff',
+                                borderColor: '#fff',
+                            }}
+                        >
+                            复制经文
+                        </Button>
+                        <Button
+                            onClick={debouncedFetchPromise}
+                            disabled={isLoading}
+                            variant="contained"
+                            fullWidth
+                            size="large"
+                            className="opacity-75"
+                            sx={{ color: '#F87171', backgroundColor: '#fff' }}
+                        >
+                            再次抽取
+                        </Button>
+                    </Box>
+                )}
+
                 <Snackbar
                     autoHideDuration={2000}
                     anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
