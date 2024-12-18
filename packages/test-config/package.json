@@ -43,7 +43,6 @@
     "devDependencies": {
         "@types/node": "^20.17.6",
         "@ying-web/eslint-config": "workspace:*",
-        "eslint": "^9.9.1",
         "rimraf": "^5.0.5",
         "tsup": "^8.0.2",
         "typescript": "~5.5.3"
