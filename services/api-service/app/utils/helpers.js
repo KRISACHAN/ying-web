@@ -107,3 +107,17 @@ export function genPaginationRequest(page_num = 1, page_size = 10) {
 export function getUserIP(ctx) {
     return ctx.headers['x-forwarded-for'] || ctx.ip;
 }
+
+export const getResourceType = url => {
+    if (!url) return null;
+
+    const imageExts = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
+    const videoExts = ['.mp4', '.webm', '.avi', '.mov', '.wmv', '.flv', '.mkv'];
+    const audioExts = ['.mp3', '.wav', '.ogg', '.aac', '.m4a', '.flac', '.wma'];
+
+    if (imageExts.some(e => url.toLowerCase().endsWith(e))) return 'image';
+    if (videoExts.some(e => url.toLowerCase().endsWith(e))) return 'video';
+    if (audioExts.some(e => url.toLowerCase().endsWith(e))) return 'audio';
+
+    return null;
+};

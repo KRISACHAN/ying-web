@@ -180,7 +180,7 @@ export class AdminRoleDao {
             }
 
             return {
-                page: {
+                pagination: {
                     count: pageNum,
                     size: pageSize,
                     total: result.count,

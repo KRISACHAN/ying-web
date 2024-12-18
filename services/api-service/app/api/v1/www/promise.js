@@ -1,3 +1,5 @@
+import { PromiseDao } from '@dao/promise/promise';
+import { PromiseCategoryDao } from '@dao/promise/promise-category';
 import { getRandomInt } from '@utils/helpers';
 import { NOT_FOUND } from '@utils/http-errors';
 import fs from 'fs';
@@ -35,6 +37,27 @@ router.get('/promise/result', async ctx => {
 
     const dataIndex = getRandomInt(0, data.length - 1);
     ctx.body = data[dataIndex];
+});
+
+router.get('/promise-category', async ctx => {
+    const result = await PromiseCategoryDao.query({
+        is_published: true,
+        // Maybe we don't have too much categories
+        // so we just return 100 categories
+        page_size: 100,
+    });
+    ctx.body = result.data;
+});
+
+router.get('/promise/random/:category_id?', async ctx => {
+    const { category_id } = ctx.params;
+
+    const promise = await PromiseDao.random({
+        category_id: category_id ? parseInt(category_id, 10) : undefined,
+        is_published: true,
+    });
+
+    ctx.body = promise;
 });
 
 export default router;

@@ -12,7 +12,10 @@ import { Heart } from 'lucide-react';
 
 import HeaderInterface from '@/components/Header/Index';
 
-const routes = [{ path: '/promise', label: '抽取经文', icon: Heart }];
+const routes = [
+    { path: '/promise', label: '抽取经文', icon: Heart },
+    { path: '/promise-new', label: '抽取经文(新版)', icon: Heart },
+];
 
 const IndexPage: React.FC = () => {
     return (

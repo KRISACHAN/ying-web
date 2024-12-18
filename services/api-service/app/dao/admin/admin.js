@@ -168,7 +168,7 @@ export class AdminDao {
             }
 
             return {
-                page: {
+                pagination: {
                     count: pageNum,
                     size: pageSize,
                     total: result.count,

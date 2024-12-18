@@ -6,6 +6,7 @@ import NotFoundPage from './pages/404/Page';
 import IndexPage from './pages/Index/Page';
 import LuckyNumberActivityPage from './pages/LuckyNumber/Activity/Page';
 import LuckyNumberListPage from './pages/LuckyNumber/List/Page';
+import PromiseNewPage from './pages/Promise/New/Page';
 import PromisePage from './pages/Promise/Page';
 
 import './styles/index.less';
@@ -18,6 +19,10 @@ function App() {
                     <Routes>
                         <Route path="/" element={<IndexPage />} />
                         <Route path="/promise" element={<PromisePage />} />
+                        <Route
+                            path="/promise-new"
+                            element={<PromiseNewPage />}
+                        />
                         <Route
                             path="/lucky-number/:activityKey"
                             element={<LuckyNumberListPage />}

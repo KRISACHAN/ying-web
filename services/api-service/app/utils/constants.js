@@ -24,6 +24,14 @@ export const ADMIN_PERMISSIONS = Object.freeze({
     EDIT_EVENT: 'edit_event',
     DELETE_EVENT: 'delete_event',
     WATCH_EVENT: 'watch_event',
+    CREATE_PROMISE_CATEGORY: 'create_promise_category',
+    EDIT_PROMISE_CATEGORY: 'edit_promise_category',
+    DELETE_PROMISE_CATEGORY: 'delete_promise_category',
+    WATCH_PROMISE_CATEGORY: 'watch_promise_category',
+    CREATE_PROMISE: 'create_promise',
+    EDIT_PROMISE: 'edit_promise',
+    DELETE_PROMISE: 'delete_promise',
+    WATCH_PROMISE: 'watch_promise',
 });
 
 export const LUCKY_NUMBER_STATUS = Object.freeze({

@@ -11,6 +11,13 @@ import LoginPage from './pages/Login/Page';
 import LuckyNumberCreatePage from './pages/LuckyNumber/Create/Page';
 import LuckyNumberDetailPage from './pages/LuckyNumber/Detail/Page';
 import LuckyNumberListPage from './pages/LuckyNumber/List/Page';
+import PromiseCategoryCreatePage from './pages/Promise/Category/Create/Page';
+import PromiseCategoryDetailPage from './pages/Promise/Category/Detail/Page';
+import PromiseCategoryListPage from './pages/Promise/Category/List/Page';
+import PromiseCreatePage from './pages/Promise/Create/Page';
+import PromiseDetailPage from './pages/Promise/Detail/Page';
+import PromiseEditPage from './pages/Promise/Edit/Page';
+import PromiseListPage from './pages/Promise/List/Page';
 
 function App() {
     return (
@@ -38,6 +45,31 @@ function App() {
                         <Route
                             path="lucky-number/:key"
                             element={<LuckyNumberDetailPage />}
+                        />
+                        <Route
+                            path="promise/category"
+                            element={<PromiseCategoryListPage />}
+                        />
+                        <Route
+                            path="promise/category/create"
+                            element={<PromiseCategoryCreatePage />}
+                        />
+                        <Route
+                            path="promise/category/:id"
+                            element={<PromiseCategoryDetailPage />}
+                        />
+                        <Route path="promise" element={<PromiseListPage />} />
+                        <Route
+                            path="promise/create"
+                            element={<PromiseCreatePage />}
+                        />
+                        <Route
+                            path="promise/edit/:id"
+                            element={<PromiseEditPage />}
+                        />
+                        <Route
+                            path="promise/:id"
+                            element={<PromiseDetailPage />}
                         />
                     </Route>
                     <Route path="*" element={<NotFoundPage />} />

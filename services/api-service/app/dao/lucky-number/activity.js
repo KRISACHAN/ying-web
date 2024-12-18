@@ -101,7 +101,7 @@ export class ActivityDao {
             }
 
             return {
-                page: {
+                pagination: {
                     count: pageNum,
                     size: pageSize,
                     total: result.length,
