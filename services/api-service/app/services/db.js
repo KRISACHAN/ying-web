@@ -80,12 +80,6 @@ const initDb = async () => {
             createAdmin();
         });
     }
-
-    if (eq(process.env.CREATE_PROMISE, 'true')) {
-        import('../scripts/promise').then(({ default: { importPromises } }) => {
-            importPromises();
-        });
-    }
 };
 
 initDb();

@@ -109,7 +109,7 @@ Required variables:
 ```bash
 # Server Configuration
 PORT=3000                           # API server port
-MAIN_HOSTNAME="http://localhost:3000"  # Main application hostname
+MAIN_HOSTNAME="localhost:3000"  # Main application hostname
 APP_ENV="dev"                       # Application environment (dev/prod)
 NODE_ENV="development"              # Node environment (development/production)
 

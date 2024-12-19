@@ -223,6 +223,7 @@ const PromiseList = () => {
                         fetchPromises({
                             page_num: page,
                             page_size: pageSize,
+                            ...form.getFieldsValue(),
                         });
                     },
                 }}
