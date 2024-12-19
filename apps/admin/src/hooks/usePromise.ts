@@ -114,7 +114,7 @@ export const usePromise = () => {
         setLoading(true);
         try {
             const response = await axiosInstance.get<PromiseCategory>(
-                `/promise/category/detail/${id}`,
+                `/promise/category/${id}`,
             );
             return response;
         } finally {
@@ -218,7 +218,7 @@ export const usePromise = () => {
             setLoading(true);
             try {
                 const response = await axiosInstance.put<PromiseItem>(
-                    `/promise/update/${id}`,
+                    `/promise/${id}`,
                     data,
                 );
                 return response;
@@ -233,7 +233,7 @@ export const usePromise = () => {
         setLoading(true);
         try {
             const response = await axiosInstance.get<PromiseItem>(
-                `/promise/detail/${id}`,
+                `/promise/${id}`,
             );
             return response;
         } finally {

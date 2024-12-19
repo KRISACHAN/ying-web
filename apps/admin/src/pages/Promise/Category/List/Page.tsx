@@ -98,12 +98,6 @@ const PromiseCategoryList = () => {
             key: 'name',
         },
         {
-            title: '描述',
-            dataIndex: 'description',
-            key: 'description',
-            ellipsis: true,
-        },
-        {
             title: '创建时间',
             dataIndex: 'created_at',
             key: 'created_at',
@@ -171,9 +165,6 @@ const PromiseCategoryList = () => {
             >
                 <Form.Item name="name">
                     <Input placeholder="分类名称" />
-                </Form.Item>
-                <Form.Item name="description">
-                    <Input placeholder="分类描述" />
                 </Form.Item>
                 <Form.Item name="is_published">
                     <Select
