@@ -74,9 +74,16 @@ const initDb = async () => {
     }
     log.verbose('        - Status: db connect success');
     log.verbose('');
+
     if (eq(process.env.CREATE_ADMIN, 'true')) {
         import('../scripts/admin').then(({ default: { createAdmin } }) => {
             createAdmin();
+        });
+    }
+
+    if (eq(process.env.CREATE_PROMISE, 'true')) {
+        import('../scripts/promise').then(({ default: { importPromises } }) => {
+            importPromises();
         });
     }
 };

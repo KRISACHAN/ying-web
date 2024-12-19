@@ -128,4 +128,13 @@ export class PromiseCategoryDao {
             throw error;
         }
     }
+
+    static async delete(id) {
+        try {
+            await CategoryModel.destroy({ where: { id } });
+        } catch (error) {
+            log.error(error);
+            throw error;
+        }
+    }
 }

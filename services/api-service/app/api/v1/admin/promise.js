@@ -71,7 +71,7 @@ router.get(
 );
 
 router.get(
-    '/promise/category/detail/:id',
+    '/promise/category/:id',
     watchPromiseCategoryMiddleware,
     getPromiseCategoryDetailValidator,
     async ctx => {
@@ -100,6 +100,18 @@ router.put(
     },
 );
 
+router.delete(
+    '/promise/category/:id',
+    editPromiseCategoryMiddleware,
+    getPromiseCategoryDetailValidator,
+    async ctx => {
+        const { id } = ctx.params;
+        await PromiseCategoryDao.delete(id);
+        ctx.response.status = httpStatus.OK;
+        ctx.body = { message: '分类删除成功' };
+    },
+);
+
 router.post(
     '/promise/create',
     createPromiseMiddleware,
@@ -116,7 +128,7 @@ router.post(
 
         const resource_type = getResourceType(resource_url);
 
-        if (!resource_type) {
+        if (resource_url && !resource_type) {
             throw BAD_REQUEST('资源类型不支持');
         }
 
@@ -176,7 +188,7 @@ router.get(
 );
 
 router.get(
-    '/promise/detail/:id',
+    '/promise/:id',
     watchPromiseMiddleware,
     getPromiseDetailValidator,
     async ctx => {
@@ -192,7 +204,7 @@ router.get(
 );
 
 router.put(
-    '/promise/update/:id',
+    '/promise/:id',
     editPromiseMiddleware,
     updatePromiseValidator,
     async ctx => {
@@ -223,6 +235,18 @@ router.put(
 
         ctx.response.status = httpStatus.OK;
         ctx.body = { message: '经文更新成功' };
+    },
+);
+
+router.delete(
+    '/promise/:id',
+    editPromiseMiddleware,
+    getPromiseDetailValidator,
+    async ctx => {
+        const { id } = ctx.params;
+        await PromiseDao.delete(id);
+        ctx.response.status = httpStatus.OK;
+        ctx.body = { message: '经文删除成功' };
     },
 );
 
