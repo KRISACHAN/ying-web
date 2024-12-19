@@ -110,12 +110,10 @@ const InitialInterface = ({
 
 const ResultInterface = ({
     promise,
-    showResult,
     handleReset,
     copyToClipboard,
 }: {
-    promise: Promise;
-    showResult: boolean;
+    promise: Promise | null;
     handleReset: () => void;
     copyToClipboard: (promise: Promise) => void;
 }) => {
@@ -127,7 +125,7 @@ const ResultInterface = ({
             />
             <TipBar message="点击下方按钮返回分类列表" />
 
-            <TransitionWrapper show={showResult}>
+            <TransitionWrapper show={true}>
                 <Box sx={{ width: '100%', maxWidth: 800 }}>
                     <Typography
                         variant="h5"
@@ -140,7 +138,7 @@ const ResultInterface = ({
                             mb: 2,
                         }}
                     >
-                        {promise.chapter}
+                        {promise?.chapter ?? '暂无经文'}
                     </Typography>
                     <Typography
                         variant="body1"
@@ -150,9 +148,9 @@ const ResultInterface = ({
                             textAlign: 'center',
                         }}
                     >
-                        {promise.text}
+                        {promise?.text}
                     </Typography>
-                    {promise.description && (
+                    {promise?.description && (
                         <Typography
                             variant="body2"
                             sx={{
@@ -165,7 +163,7 @@ const ResultInterface = ({
                             {promise.description}
                         </Typography>
                     )}
-                    {ResourceInterface(promise)}
+                    {promise && ResourceInterface(promise)}
                     <Box
                         sx={{
                             mt: 2,
@@ -175,7 +173,9 @@ const ResultInterface = ({
                         }}
                     >
                         <Button
-                            onClick={async () => await copyToClipboard(promise)}
+                            onClick={async () =>
+                                promise && (await copyToClipboard(promise))
+                            }
                             variant="outlined"
                             fullWidth
                             size="large"
@@ -291,10 +291,9 @@ const PromiseNewPage = () => {
         >
             {isTransitioning ? (
                 <TransitioningInterface />
-            ) : promise ? (
+            ) : showResult ? (
                 <ResultInterface
                     promise={promise}
-                    showResult={showResult}
                     handleReset={handleReset}
                     copyToClipboard={copyToClipboard}
                 />

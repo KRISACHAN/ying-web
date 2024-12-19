@@ -1,3 +1,9 @@
+DROP TABLE IF EXISTS `admin`;
+DROP TABLE IF EXISTS `role`;
+DROP TABLE IF EXISTS `admin_role`;
+DROP TABLE IF EXISTS `permissions`;
+DROP TABLE IF EXISTS `role_permissions`;
+
 CREATE TABLE `admin` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `username` VARCHAR(255) NOT NULL UNIQUE,

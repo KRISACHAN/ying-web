@@ -31,12 +31,7 @@ router.get('/promise/result', async ctx => {
         .filter(item => !!item)
         .map(item => item.trim());
 
-    if (data.length === 0) {
-        throw NOT_FOUND('没有找到对应的经文，请重新试试');
-    }
-
-    const dataIndex = getRandomInt(0, data.length - 1);
-    ctx.body = data[dataIndex];
+    ctx.body = data.length > 0 ? data[getRandomInt(0, data.length - 1)] : '';
 });
 
 router.get('/promise-category', async ctx => {

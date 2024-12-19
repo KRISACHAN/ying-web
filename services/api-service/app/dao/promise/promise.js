@@ -248,7 +248,7 @@ export class PromiseDao {
             });
 
             if (!result) {
-                throw NOT_FOUND('没有找到对应的经文，请重新试试');
+                return '';
             }
 
             return result;

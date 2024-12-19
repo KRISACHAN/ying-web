@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS `promise_category`;
+DROP TABLE IF EXISTS `promise`;
+
 CREATE TABLE `promise_category` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(20) NOT NULL UNIQUE,

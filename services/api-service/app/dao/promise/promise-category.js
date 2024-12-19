@@ -2,6 +2,7 @@ import { CategoryModel } from '@models/promise';
 import { INTERNAL_SERVER_ERROR, NOT_FOUND } from '@utils/http-errors';
 import log from '@utils/log';
 import { isUndefined } from 'lodash';
+import { Op } from 'sequelize';
 
 export class PromiseCategoryDao {
     static async create({ name, description, is_published = false }) {

@@ -44,7 +44,9 @@ class OssService {
                     size: get(obj, 'size', 0),
                 };
                 const [curKey] = data.name.split('/');
-                data.url = this.replaceUrl(data.url, curKey);
+                // @FIXME: tencent cloud DNS resolution has a little problem
+                // Cause domin name can not be access
+                // data.url = this.replaceUrl(data.url, curKey);
                 data.name = data.name.replace(prefix, '');
                 return data;
             });
@@ -79,8 +81,8 @@ class OssService {
 
     replaceUrl(url, curKey) {
         return url.replace(
-            `https://${process.env.OSS_ENDPOINT}/${curKey}`,
-            `https://${process.env.MAIN_HOSTNAME}/${curKey}`,
+            `${process.env.OSS_HOSTNAME}/${curKey}`,
+            `${process.env.MAIN_HOSTNAME}/${curKey}`,
         );
     }
 
