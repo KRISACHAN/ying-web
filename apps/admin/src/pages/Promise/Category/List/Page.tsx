@@ -197,6 +197,7 @@ const PromiseCategoryList = () => {
                         fetchCategories({
                             page_num: page,
                             page_size: pageSize,
+                            ...form.getFieldsValue(),
                         });
                     },
                 }}

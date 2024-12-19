@@ -1,3 +1,7 @@
+DROP TABLE IF EXISTS `lucky_number_activity`;
+DROP TABLE IF EXISTS `lucky_number_pool`;
+DROP TABLE IF EXISTS `lucky_number_user_participation`;
+
 CREATE TABLE `lucky_number_activity` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `key` VARCHAR(20) NOT NULL UNIQUE,
