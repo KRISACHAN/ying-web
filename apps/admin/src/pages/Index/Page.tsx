@@ -12,6 +12,11 @@ const Index = () => {
             icon: <Activity className="h-8 w-8 text-blue-500" />,
             onClick: () => navigate('/lucky-number'),
         },
+        {
+            title: '圣经应许',
+            icon: <Activity className="h-8 w-8 text-blue-500" />,
+            onClick: () => navigate('/promise/category'),
+        },
     ];
 
     return (

@@ -62,11 +62,6 @@ export interface LuckyNumberActivity {
 }
 
 export type QueryLuckyNumberListResponse = LuckyNumberActivity[];
-export interface Pagination {
-    count: number;
-    size: number;
-    total: number;
-}
 
 // PUT /api/v1/admin/lucky-number/cancel-participation
 export interface CancelParticipationLuckyNumberRequest {

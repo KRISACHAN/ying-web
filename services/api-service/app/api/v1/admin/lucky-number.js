@@ -182,7 +182,7 @@ router.get('/lucky-number/list', watchEventMiddleware, async ctx => {
     });
 
     ctx.response.status = httpStatus.OK;
-    ctx.set('x-pagination', JSON.stringify(result.page));
+    ctx.set('x-pagination', JSON.stringify(result.pagination));
     ctx.body = result.data;
 });
 

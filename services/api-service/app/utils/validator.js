@@ -2,7 +2,7 @@ import { BAD_REQUEST } from '@utils/http-errors';
 import log from '@utils/log';
 import Validator from 'async-validator';
 import to from 'await-to-js';
-import { cloneDeepWith, isString } from 'lodash';
+import { cloneDeepWith, eq, isString } from 'lodash';
 import xss from 'xss';
 
 const sanitizeValue = value => {
@@ -42,7 +42,10 @@ export const createValidator = (rules, source = 'body') => {
     const validator = new Validator(rules);
 
     const validatorMiddleware = async (ctx, next) => {
-        const sanitizedData = cloneDeepWith(ctx.request[source], value => {
+        const sourceData = eq(source, 'query')
+            ? ctx.query
+            : ctx.request[source];
+        const sanitizedData = cloneDeepWith(sourceData, value => {
             if (isString(value)) {
                 return sanitizeValue(value);
             }
