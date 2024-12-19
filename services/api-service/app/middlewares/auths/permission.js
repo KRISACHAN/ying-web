@@ -70,3 +70,27 @@ export const deleteEventMiddleware = eventHandler(
     ADMIN_PERMISSIONS.DELETE_EVENT,
 );
 export const watchEventMiddleware = eventHandler(ADMIN_PERMISSIONS.WATCH_EVENT);
+export const createPromiseCategoryMiddleware = eventHandler(
+    ADMIN_PERMISSIONS.CREATE_PROMISE_CATEGORY,
+);
+export const editPromiseCategoryMiddleware = eventHandler(
+    ADMIN_PERMISSIONS.EDIT_PROMISE_CATEGORY,
+);
+export const deletePromiseCategoryMiddleware = eventHandler(
+    ADMIN_PERMISSIONS.DELETE_PROMISE_CATEGORY,
+);
+export const watchPromiseCategoryMiddleware = eventHandler(
+    ADMIN_PERMISSIONS.WATCH_PROMISE_CATEGORY,
+);
+export const createPromiseMiddleware = eventHandler(
+    ADMIN_PERMISSIONS.CREATE_PROMISE,
+);
+export const editPromiseMiddleware = eventHandler(
+    ADMIN_PERMISSIONS.EDIT_PROMISE,
+);
+export const deletePromiseMiddleware = eventHandler(
+    ADMIN_PERMISSIONS.DELETE_PROMISE,
+);
+export const watchPromiseMiddleware = eventHandler(
+    ADMIN_PERMISSIONS.WATCH_PROMISE,
+);

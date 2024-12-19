@@ -191,7 +191,7 @@ const LuckyNumberActivityPage: React.FC = () => {
             setTempResult(null);
         } catch (error: unknown) {
             setSnackbarMessage(
-                (error as AxiosError).response?.data?.message ??
+                (error as AxiosError)?.response?.data?.message ??
                     '抽取失败，请刷新页面后重试',
             );
             setSnackbarOpen(true);

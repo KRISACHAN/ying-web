@@ -116,7 +116,7 @@ export class RoleDao {
             }
 
             return {
-                page: {
+                pagination: {
                     count: pageNum,
                     size: pageSize,
                     total: result.count,

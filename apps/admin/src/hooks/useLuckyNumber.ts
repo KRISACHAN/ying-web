@@ -1,13 +1,13 @@
 import { useCallback, useState } from 'react';
 
 import axiosInstance from '@/services/axios';
+import type { Pagination } from '@/types';
 import type {
     CancelParticipationLuckyNumberRequest,
     CancelParticipationLuckyNumberResponse,
     CreateLuckyNumberRequest,
     CreateLuckyNumberResponse,
     DeleteLuckyNumberResponse,
-    Pagination,
     QueryLuckyNumberListResponse,
     QueryLuckyNumberResponse,
 } from '@/types/luckyNumber';

@@ -22,3 +22,26 @@ export const KEYS = Object.freeze({
     ACCESS_TOKEN: 'YING_ADMIN_ACCESS_TOKEN',
     REFRESH_TOKEN: 'YING_ADMIN_REFRESH_TOKEN',
 });
+
+export const ALLOWED_RESOURCE_TYPES = Object.freeze({
+    'image/jpg': 'image',
+    'image/jpeg': 'image',
+    'image/png': 'image',
+    'image/gif': 'image',
+    'image/webp': 'image',
+    'image/svg+xml': 'image',
+    'video/mp4': 'video',
+    'video/webm': 'video',
+    'video/avi': 'video',
+    'video/mov': 'video',
+    'video/wmv': 'video',
+    'video/flv': 'video',
+    'video/mkv': 'video',
+    'audio/mp3': 'audio',
+    'audio/wav': 'audio',
+    'audio/ogg': 'audio',
+    'audio/aac': 'audio',
+    'audio/m4a': 'audio',
+    'audio/flac': 'audio',
+    'audio/wma': 'audio',
+});

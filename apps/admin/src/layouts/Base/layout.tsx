@@ -53,6 +53,23 @@ const BaseLayout = () => {
                             },
                             {
                                 key: '1',
+                                label: '圣经应许',
+                                children: [
+                                    {
+                                        key: '1-1',
+                                        label: '分类管理',
+                                        onClick: () =>
+                                            navigate('/promise/category'),
+                                    },
+                                    {
+                                        key: '1-2',
+                                        label: '经文管理',
+                                        onClick: () => navigate('/promise'),
+                                    },
+                                ],
+                            },
+                            {
+                                key: '2',
                                 label: '幸运号码活动',
                                 onClick: () => navigate('/lucky-number'),
                             },

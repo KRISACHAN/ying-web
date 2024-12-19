@@ -46,6 +46,7 @@ const initDb = async () => {
     if (createTables) {
         await import('@models/admin/index');
         await import('@models/lucky-number/index');
+        await import('@models/promise/index');
     }
     await sequelize.sync({ force: createTables });
     const [error] = await to(sequelize.authenticate());
