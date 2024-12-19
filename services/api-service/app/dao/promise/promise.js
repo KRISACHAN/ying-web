@@ -257,4 +257,13 @@ export class PromiseDao {
             throw error;
         }
     }
+
+    static async delete(id) {
+        try {
+            await PromiseModel.destroy({ where: { id } });
+        } catch (error) {
+            log.error(error);
+            throw error;
+        }
+    }
 }
