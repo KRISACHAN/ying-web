@@ -8,10 +8,5 @@
         "tests/**/*.ts",
         "tests/**/*.tsx"
     ],
-    "exclude": [
-        "node_modules",
-        ".next",
-        "dist",
-        "build"
-    ]
+    "exclude": ["node_modules", ".next", "dist", "build"]
 }

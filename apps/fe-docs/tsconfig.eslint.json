@@ -10,10 +10,5 @@
         "next-env.d.ts",
         "theme.config.tsx"
     ],
-    "exclude": [
-        "node_modules",
-        ".next",
-        "dist",
-        "build"
-    ]
+    "exclude": ["node_modules", ".next", "dist", "build"]
 }

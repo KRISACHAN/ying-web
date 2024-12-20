@@ -6,9 +6,5 @@
         "declaration": false,
         "declarationMap": false
     },
-    "exclude": [
-        "src/**/*.test.ts",
-        "src/**/tests/**/*.ts",
-        "**/__tests__/**"
-    ]
+    "exclude": ["src/**/*.test.ts", "src/**/tests/**/*.ts", "**/__tests__/**"]
 }
