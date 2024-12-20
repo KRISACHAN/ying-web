@@ -15,15 +15,6 @@ public/
 .git/
 .gitignore
 
-# Config files
-.prettierignore
-.prettierrc
-prettier.config.js
-.eslintignore
-.eslintrc
-eslint.config.js
-*.json
-
 # Package specific
 **/coverage/
 **/.next/

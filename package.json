@@ -13,6 +13,8 @@
         "build:events": "turbo run build --filter @ying-web/events",
         "build:fe-docs": "turbo run build --filter @ying-web/fe-docs",
         "build:tools": "turbo run build --filter @ying-web/tools",
+        "build:test-config": "turbo run build --filter @ying-web/test-config",
+        "build:eslint-config": "turbo run build --filter @ying-web/eslint-config",
         "clean": "node scripts/clean.js",
         "deploy": "node scripts/deploy.js",
         "prepare": "husky install",
@@ -26,7 +28,6 @@
         "test:watch": "turbo run test:watch",
         "test:coverage": "turbo run test:coverage",
         "format": "prettier --write .",
-        "format:check": "prettier --check .",
         "lint": "turbo run lint"
     },
     "config": {
