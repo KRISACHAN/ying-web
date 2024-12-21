@@ -12,11 +12,11 @@ const LuckyNumberCreate = () => {
         key: string;
         name: string;
         description: string;
-        numberRange: string;
+        numbers: string;
         participant_limit: number;
     }) => {
         try {
-            const numbers = values.numberRange
+            const numbers = values.numbers
                 .split(',')
                 .map(n => parseInt(n.trim()))
                 .filter(n => !isNaN(n));
@@ -30,7 +30,8 @@ const LuckyNumberCreate = () => {
             });
             message.success('活动创建成功');
             navigate('/lucky-number');
-        } catch {
+        } catch (error) {
+            console.error(error);
             message.error('活动创建失败');
         }
     };
@@ -94,18 +95,17 @@ const LuckyNumberCreate = () => {
 
                     <Form.Item
                         label="号码范围"
-                        name="numberRange"
+                        name="numbers"
                         rules={[
                             {
                                 required: true,
                                 message: '请输入号码范围',
                             },
                             {
-                                max: 300,
-                                message: '号码范围长度不能超过 300 个字符',
+                                pattern: /^[0-9,]+$/,
+                                message: '请输入数字，用逗号分隔',
                             },
                         ]}
-                        help="请输入号码，用逗号分隔，例如：1,2,3,4,5"
                     >
                         <Input.TextArea
                             placeholder="请输入号码，用逗号分隔"
