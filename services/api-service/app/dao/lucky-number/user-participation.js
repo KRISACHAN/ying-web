@@ -99,4 +99,57 @@ export class UserParticipationDao {
             })),
         };
     }
+
+    static async query({
+        page_num = 1,
+        page_size = 10,
+        activity_id,
+        username,
+        drawn_number,
+        order = 'DESC',
+    }) {
+        try {
+            const whereQuery = {
+                deleted_at: null,
+            };
+            if (activity_id) {
+                whereQuery.activity_id = activity_id;
+            }
+            if (username) {
+                whereQuery.username = {
+                    [Op.like]: `%${username}%`,
+                };
+            }
+            if (drawn_number) {
+                whereQuery.drawn_number = {
+                    [Op.like]: `%${drawn_number}%`,
+                };
+            }
+
+            const result = await UserParticipationModel.findAndCountAll({
+                attributes: [
+                    'id',
+                    'activity_id',
+                    'username',
+                    'drawn_number',
+                    'created_at',
+                ],
+                where: whereQuery,
+                offset: (page_num - 1) * page_size,
+                limit: page_size,
+                order: [['id', order]],
+            });
+            return {
+                data: result.rows,
+                pagination: {
+                    count: page_num,
+                    size: page_size,
+                    total: result.count,
+                },
+            };
+        } catch (error) {
+            log.error(error);
+            throw INTERNAL_SERVER_ERROR('查询用户参与记录失败');
+        }
+    }
 }

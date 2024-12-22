@@ -31,4 +31,13 @@ export class NumberPoolDao {
             throw INTERNAL_SERVER_ERROR('查询可用幸运号码失败');
         }
     }
+
+    static async getCount(activityId) {
+        const res = await NumberPoolModel.count({
+            where: {
+                activity_id: activityId,
+            },
+        });
+        return res;
+    }
 }

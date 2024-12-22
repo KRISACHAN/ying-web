@@ -13,8 +13,10 @@ export const LUCKY_NUMBER_STATUS_MAP = Object.freeze({
     [LUCKY_NUMBER_STATUS.ENDED]: '已结束',
 });
 
-export const getLuckyNumberStatusLabel = (status: LuckyNumberStatus) => {
-    return LUCKY_NUMBER_STATUS_MAP[status];
+export const getLuckyNumberStatusLabel = (
+    status: LuckyNumberStatus | undefined,
+) => {
+    return status ? LUCKY_NUMBER_STATUS_MAP[status] : '';
 };
 
 export const KEYS = Object.freeze({

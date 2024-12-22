@@ -5,6 +5,7 @@ export interface LuckyNumber {
     id: number;
     drawn_number: number;
     username: string | null;
+    created_at: string | null;
 }
 
 export interface QueryLuckyNumberResponse {
@@ -43,4 +44,16 @@ export interface DrawLuckyNumberRequest {
 
 export interface DrawLuckyNumberResponse {
     drawn_number: number;
+    message: string;
+}
+
+// GET /api/v1/admin/lucky-number/info/:key
+export interface ActivityInfo {
+    id: number;
+    activity_key: string;
+    name: string;
+    description: string;
+    participant_limit: number;
+    status: LuckyNumberStatus;
+    count: number;
 }

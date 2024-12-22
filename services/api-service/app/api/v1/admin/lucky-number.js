@@ -9,7 +9,7 @@ import {
 import {
     cancelParticipatedLuckyNumberValidatorMiddleware,
     createLuckyNumberValidatorMiddleware,
-    deleteLuckyNumberValidatorMiddleware,
+    luckyNumberKeyValidatorMiddleware,
     queryLuckyNumberValidatorMiddleware,
 } from '@middlewares/validators/lucky-number';
 import { sequelize } from '@services/db';
@@ -74,49 +74,55 @@ router.post(
 router.get(
     '/lucky-number/query/:key',
     watchEventMiddleware,
+    luckyNumberKeyValidatorMiddleware,
     queryLuckyNumberValidatorMiddleware,
     async ctx => {
         const { key } = ctx.params;
+        const { page_num = 1, page_size = 10 } = ctx.query;
 
         const activity = await ActivityDao.search({ key });
         if (!activity) {
             throw BAD_REQUEST('活动不存在');
         }
 
-        const summary = await UserParticipationDao.getActivitySummary(
-            activity.id,
-        );
+        const result = await UserParticipationDao.query({
+            page_num: parseInt(page_num, 10),
+            page_size: parseInt(page_size, 10),
+            activity_id: activity.id,
+        });
 
         ctx.response.status = httpStatus.OK;
-        ctx.body = {
-            id: activity.id,
-            activity_key: activity.key,
-            name: activity.name,
-            description: activity.description,
-            participant_limit: activity.participant_limit,
-            status: activity.status,
-            participations: summary.participations,
-            statistics: {
-                ...summary.statistics,
-                remaining_slots:
-                    activity.participant_limit > 0
-                        ? activity.participant_limit -
-                          summary.statistics.total_participants
-                        : null,
-            },
-            numbers: summary.participations.map(p => ({
-                drawn_number: p.drawn_number,
-                username: p.username,
-                drawn_at: p.drawn_at,
-            })),
-        };
+        ctx.set('x-pagination', JSON.stringify(result.pagination));
+        ctx.body = result.data;
     },
 );
+
+router.get('/lucky-number/info/:key', async ctx => {
+    const { key } = ctx.params;
+
+    const activity = await ActivityDao.search({ key });
+    if (!activity) {
+        throw BAD_REQUEST('活动不存在');
+    }
+
+    const count = await NumberPoolDao.getCount(activity.id);
+
+    ctx.response.status = httpStatus.OK;
+    ctx.body = {
+        id: activity.id,
+        activity_key: activity.key,
+        name: activity.name,
+        description: activity.description,
+        participant_limit: activity.participant_limit,
+        status: activity.status,
+        count,
+    };
+});
 
 router.delete(
     '/lucky-number/delete/:key',
     editEventMiddleware,
-    deleteLuckyNumberValidatorMiddleware,
+    luckyNumberKeyValidatorMiddleware,
     async ctx => {
         const { key } = ctx.params;
         await ActivityDao.delete({ key });

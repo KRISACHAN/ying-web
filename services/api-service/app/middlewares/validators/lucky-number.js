@@ -12,18 +12,31 @@ export const createLuckyNumberValidatorMiddleware = createValidator({
     ],
 });
 
-export const queryLuckyNumberValidatorMiddleware = createValidator(
+export const luckyNumberKeyValidatorMiddleware = createValidator(
     {
         key: [{ type: 'string', required: true, message: '活动标识是必需的' }],
     },
     'params',
 );
 
-export const deleteLuckyNumberValidatorMiddleware = createValidator(
+export const queryLuckyNumberValidatorMiddleware = createValidator(
     {
-        key: [{ type: 'string', required: true, message: '活动标识是必需的' }],
+        page_num: [
+            {
+                type: 'string',
+                message: '请输入正确的页码',
+                pattern: /^\d+$/,
+            },
+        ],
+        page_size: [
+            {
+                type: 'string',
+                message: '请输入正确的页大小',
+                pattern: /^\d+$/,
+            },
+        ],
     },
-    'params',
+    'query',
 );
 
 export const cancelParticipatedLuckyNumberValidatorMiddleware = createValidator(

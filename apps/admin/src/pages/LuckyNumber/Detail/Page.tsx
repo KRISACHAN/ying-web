@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 
+import { DownloadOutlined } from '@ant-design/icons';
 import { Button, Card, message, Popconfirm, Space, Table } from 'antd';
+import { CSVLink } from 'react-csv';
 
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
-import type { LuckyNumber } from '@/types/luckyNumber';
+import type { ActivityInfo, LuckyNumber } from '@/types/luckyNumber';
 import {
     getLuckyNumberStatusLabel,
     LUCKY_NUMBER_STATUS,
-    LuckyNumberStatus,
 } from '@/utils/constants';
 
 const ErrorInterface: React.FC = () => {
@@ -25,45 +26,63 @@ const LuckyNumberDetail = () => {
         cancelParticipation,
         updateActivityStatus,
         deleteActivity,
+        getActivityInfo,
+        getAllParticipations,
     } = useLuckyNumber();
     const [numbers, setNumbers] = useState<LuckyNumber[]>([]);
     const [activityKey, setActivityKey] = useState<string>('');
-    const [activityName, setActivityName] = useState<string>('');
-    const [activityDescription, setActivityDescription] = useState<string>('');
     const [error, setError] = useState<Error | null>(null);
-    const [status, setStatus] = useState<LuckyNumberStatus>(
-        LUCKY_NUMBER_STATUS.NOT_STARTED,
-    );
-    const [statistics, setStatistics] = useState<{
-        total_participants: number;
-        remaining_slots: number | null;
+    const [pagination, setPagination] = useState<{
+        current: number;
+        pageSize: number;
+        total: number;
     }>({
-        total_participants: 0,
-        remaining_slots: null,
+        current: 1,
+        pageSize: 10,
+        total: 0,
     });
+    const [activityInfo, setActivityInfo] = useState<ActivityInfo | null>(null);
+    const [csvData, setCSVData] = useState<
+        Array<{
+            drawn_number: number;
+            username: string;
+            created_at: string;
+        }>
+    >([]);
 
-    const fetchActivity = async () => {
+    const fetchActivity = async (page = 1, pageSize = 10) => {
         if (!key) return;
         try {
-            const data = await queryActivity(key);
+            const data = await queryActivity(key, page, pageSize);
+            setActivityKey(key);
+            setNumbers(data.list);
+            setPagination({
+                current: page,
+                pageSize: pageSize,
+                total: data.pagination.total,
+            });
+
+            const allData = await getAllParticipations(key);
+            const exportData = allData.map(record => ({
+                drawn_number: record.drawn_number,
+                username: record.username || '-',
+                created_at: record.created_at
+                    ? new Date(record.created_at).toLocaleString('zh-CN')
+                    : '-',
+            }));
+            setCSVData(exportData);
+        } catch (err) {
+            setError(err as Error);
+            console.error(err);
+        }
+    };
+
+    const fetchActivityInfo = async () => {
+        if (!key) return;
+        try {
+            const data = await getActivityInfo(key);
+            setActivityInfo(data);
             setActivityKey(data.activity_key);
-            setActivityName(data.name);
-            setActivityDescription(data.description);
-            setStatus(data.status);
-            const allNumbers = [
-                ...(data.participations || []).map(p => ({
-                    drawn_number: p.drawn_number,
-                    username: p.username,
-                    drawn_at: p.drawn_at,
-                })),
-            ];
-            setNumbers(allNumbers);
-            setStatistics(
-                data.statistics || {
-                    total_participants: 0,
-                    remaining_slots: null,
-                },
-            );
         } catch (err) {
             setError(err as Error);
             console.error(err);
@@ -102,8 +121,9 @@ const LuckyNumberDetail = () => {
     };
 
     useEffect(() => {
-        fetchActivity();
-    }, [key, queryActivity]);
+        fetchActivityInfo();
+        fetchActivity(1, pagination.pageSize);
+    }, [key]);
 
     const columns = [
         {
@@ -119,8 +139,8 @@ const LuckyNumberDetail = () => {
         },
         {
             title: '抽取时间',
-            dataIndex: 'drawn_at',
-            key: 'drawn_at',
+            dataIndex: 'created_at',
+            key: 'created_at',
             render: (text: string | null) =>
                 text ? new Date(text).toLocaleString('zh-CN') : '-',
         },
@@ -151,48 +171,72 @@ const LuckyNumberDetail = () => {
     return (
         <div className="p-6">
             <Card
-                title={`活动详情 - ${activityKey}`}
+                title={`活动详情 - ${activityInfo?.activity_key}`}
                 loading={loading}
                 className="mb-6"
                 extra={
-                    status === LUCKY_NUMBER_STATUS.NOT_STARTED && (
-                        <Popconfirm
-                            title="确认删除"
-                            description="确定要删除这个活动吗？删除后无法恢复"
-                            onConfirm={handleDelete}
-                            okText="确定"
-                            cancelText="取消"
+                    <Space>
+                        <CSVLink
+                            data={csvData}
+                            headers={[
+                                { label: '号码', key: 'drawn_number' },
+                                { label: '抽取人', key: 'username' },
+                                { label: '抽取时间', key: 'created_at' },
+                            ]}
+                            filename={`幸运号码-${activityInfo?.name || '未命名'}-${new Date().toLocaleDateString('zh-CN')}.csv`}
+                            className="ant-btn ant-btn-primary"
+                            onClick={event => {
+                                if (csvData.length === 0) {
+                                    event.preventDefault();
+                                    message.warning('没有数据可导出');
+                                }
+                            }}
                         >
-                            <Button type="primary" danger>
-                                删除活动
-                            </Button>
-                        </Popconfirm>
-                    )
+                            <Space>
+                                <DownloadOutlined />
+                                导出列表
+                            </Space>
+                        </CSVLink>
+                        {activityInfo?.status ===
+                            LUCKY_NUMBER_STATUS.NOT_STARTED && (
+                            <Popconfirm
+                                title="确认删除"
+                                description="确定要删除这个活动吗？删除后无法恢复"
+                                onConfirm={handleDelete}
+                                okText="确定"
+                                cancelText="取消"
+                            >
+                                <Button type="primary" danger>
+                                    删除活动
+                                </Button>
+                            </Popconfirm>
+                        )}
+                    </Space>
                 }
             >
                 <div className="grid grid-cols-2 gap-4">
                     <div>
                         <p className="font-bold">活动名称：</p>
-                        <p>{activityName || '-'}</p>
+                        <p>{activityInfo?.name || '-'}</p>
                     </div>
                     <div>
                         <p className="font-bold">活动描述：</p>
-                        <p>{activityDescription || '-'}</p>
+                        <p>{activityInfo?.description || '-'}</p>
                     </div>
                     <div>
                         <p className="font-bold">总号码数量：</p>
-                        <p>{Array.isArray(numbers) ? numbers.length : 0}</p>
+                        <p>{activityInfo?.count || '-'}</p>
                     </div>
                     <div>
                         <p className="font-bold">访问链接：</p>
                         <p>
-                            {activityKey ? (
+                            {activityInfo?.activity_key ? (
                                 <Link
                                     className="text-blue-500 hover:text-blue-700"
-                                    to={`${import.meta.env.VITE_EVENTS_BASE_URL}/lucky-number/${activityKey}/activity`}
+                                    to={`${import.meta.env.VITE_EVENTS_BASE_URL}/lucky-number/${activityInfo.activity_key}/activity`}
                                     target="_blank"
                                 >
-                                    {`${import.meta.env.VITE_EVENTS_BASE_URL}/lucky-number/${activityKey}/activity`}
+                                    {`${import.meta.env.VITE_EVENTS_BASE_URL}/lucky-number/${activityInfo.activity_key}/activity`}
                                 </Link>
                             ) : (
                                 '-'
@@ -202,8 +246,13 @@ const LuckyNumberDetail = () => {
                     <div>
                         <p className="font-bold">活动状态：</p>
                         <Space>
-                            <span>{getLuckyNumberStatusLabel(status)}</span>
-                            {status === LUCKY_NUMBER_STATUS.NOT_STARTED && (
+                            <span>
+                                {getLuckyNumberStatusLabel(
+                                    activityInfo?.status,
+                                )}
+                            </span>
+                            {activityInfo?.status ===
+                                LUCKY_NUMBER_STATUS.NOT_STARTED && (
                                 <Popconfirm
                                     title="确认开始"
                                     description="确定要开始这个活动吗？"
@@ -220,7 +269,8 @@ const LuckyNumberDetail = () => {
                                     </Button>
                                 </Popconfirm>
                             )}
-                            {status === LUCKY_NUMBER_STATUS.ONGOING && (
+                            {activityInfo?.status ===
+                                LUCKY_NUMBER_STATUS.ONGOING && (
                                 <Popconfirm
                                     title="确认结束"
                                     description="确定要结束这个活动吗？结束后将无法继续抽取"
@@ -240,12 +290,11 @@ const LuckyNumberDetail = () => {
                         </Space>
                     </div>
                     <div>
-                        <p className="font-bold">参与情况：</p>
+                        <p className="font-bold">参与限制：</p>
                         <p>
-                            已参与人数：{statistics.total_participants}
-                            {statistics.remaining_slots !== null && (
-                                <>，剩余名额：{statistics.remaining_slots}</>
-                            )}
+                            {activityInfo?.participant_limit
+                                ? `限制 ${activityInfo.participant_limit} 人参与`
+                                : '不限制参与人数'}
                         </p>
                     </div>
                 </div>
@@ -259,7 +308,12 @@ const LuckyNumberDetail = () => {
                 }
                 loading={loading}
                 pagination={{
-                    pageSize: 50,
+                    current: pagination.current,
+                    pageSize: pagination.pageSize,
+                    total: pagination.total,
+                    onChange: (page, pageSize) => {
+                        fetchActivity(page, pageSize);
+                    },
                 }}
             />
         </div>

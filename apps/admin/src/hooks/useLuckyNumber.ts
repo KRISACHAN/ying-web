@@ -3,13 +3,14 @@ import { useCallback, useState } from 'react';
 import axiosInstance from '@/services/axios';
 import type { Pagination } from '@/types';
 import type {
+    ActivityInfo,
     CancelParticipationLuckyNumberRequest,
     CancelParticipationLuckyNumberResponse,
     CreateLuckyNumberRequest,
     CreateLuckyNumberResponse,
     DeleteLuckyNumberResponse,
+    LuckyNumber,
     QueryLuckyNumberListResponse,
-    QueryLuckyNumberResponse,
 } from '@/types/luckyNumber';
 
 export const useLuckyNumber = () => {
@@ -61,22 +62,35 @@ export const useLuckyNumber = () => {
         [],
     );
 
-    const queryActivity = useCallback(async (key: string) => {
-        setLoading(true);
-        setError(null);
-        try {
-            const response = await axiosInstance.get<QueryLuckyNumberResponse>(
-                `/lucky-number/query/${key}`,
-            );
-            const { data } = response ?? {};
-            return data;
-        } catch (err) {
-            setError('查询活动失败');
-            throw err;
-        } finally {
-            setLoading(false);
-        }
-    }, []);
+    const queryActivity = useCallback(
+        async (key: string, pageNum = 1, pageSize = 10) => {
+            setLoading(true);
+            setError(null);
+            try {
+                const response = await axiosInstance.get<
+                    {},
+                    {
+                        data: LuckyNumber[];
+                        pagination: Pagination;
+                    }
+                >(
+                    `/lucky-number/query/${key}?page_num=${pageNum}&page_size=${pageSize}`,
+                );
+
+                const { data, pagination } = response ?? {};
+                return {
+                    list: data,
+                    pagination,
+                };
+            } catch (err) {
+                setError('查询活动失败');
+                throw err;
+            } finally {
+                setLoading(false);
+            }
+        },
+        [],
+    );
 
     const deleteActivity = useCallback(async (key: string) => {
         setLoading(true);
@@ -145,6 +159,45 @@ export const useLuckyNumber = () => {
         [],
     );
 
+    const getActivityInfo = useCallback(async (key: string) => {
+        setLoading(true);
+        setError(null);
+        try {
+            const response = await axiosInstance.get<ActivityInfo>(
+                `/lucky-number/info/${key}`,
+            );
+            const { data } = response ?? {};
+            return data;
+        } catch (err) {
+            setError('获取活动详情失败');
+            throw err;
+        } finally {
+            setLoading(false);
+        }
+    }, []);
+
+    const getAllParticipations = useCallback(async (key: string) => {
+        setLoading(true);
+        setError(null);
+        try {
+            const response = await axiosInstance.get<
+                {},
+                {
+                    data: LuckyNumber[];
+                    pagination: Pagination;
+                }
+            >(`/lucky-number/query/${key}?page_num=1&page_size=999999`);
+
+            const { data } = response ?? {};
+            return data;
+        } catch (err) {
+            setError('获取所有参与记录失败');
+            throw err;
+        } finally {
+            setLoading(false);
+        }
+    }, []);
+
     return {
         createActivity,
         queryActivity,
@@ -152,6 +205,8 @@ export const useLuckyNumber = () => {
         cancelParticipation,
         getActivityList,
         updateActivityStatus,
+        getActivityInfo,
+        getAllParticipations,
         loading,
         error,
     };

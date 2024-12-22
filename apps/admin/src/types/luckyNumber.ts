@@ -18,7 +18,7 @@ export interface CreateLuckyNumberResponse {
 export interface LuckyNumber {
     drawn_number: number;
     username: string | null;
-    drawn_at: string | null;
+    created_at: string | null;
 }
 
 export interface QueryLuckyNumberResponse {
@@ -31,7 +31,7 @@ export interface QueryLuckyNumberResponse {
     participations: {
         drawn_number: number;
         username: string;
-        drawn_at: string;
+        created_at: string;
     }[];
     statistics: {
         total_participants: number;
@@ -74,4 +74,14 @@ export interface CancelParticipationLuckyNumberResponse {
     message: string;
     username: string;
     drawn_number: number;
+}
+
+export interface ActivityInfo {
+    id: number;
+    activity_key: string;
+    name: string;
+    description: string;
+    participant_limit: number;
+    status: LuckyNumberStatus;
+    count: number;
 }
