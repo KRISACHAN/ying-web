@@ -3,7 +3,7 @@ import { NumberPoolDao } from '@dao/lucky-number/number-pool';
 import { UserParticipationDao } from '@dao/lucky-number/user-participation';
 import {
     drawLuckyNumberValidatorMiddleware,
-    queryLuckyNumberValidatorMiddleware,
+    luckyNumberKeyValidatorMiddleware,
 } from '@middlewares/validators/lucky-number';
 import { sequelize } from '@services/db';
 import { LUCKY_NUMBER_STATUS } from '@utils/constants';
@@ -93,7 +93,35 @@ router.post(
 
 router.get(
     '/lucky-number/query/:key',
-    queryLuckyNumberValidatorMiddleware,
+    luckyNumberKeyValidatorMiddleware,
+    async ctx => {
+        const { key } = ctx.params;
+        const { page_num = 1, page_size = 10 } = ctx.query;
+
+        const activity = await ActivityDao.search({ key });
+        if (!activity) {
+            throw BAD_REQUEST('活动不存在');
+        }
+
+        if (!eq(activity.status, LUCKY_NUMBER_STATUS.ONGOING)) {
+            throw BAD_REQUEST('活动未开始或已结束');
+        }
+
+        const result = await UserParticipationDao.query({
+            page_num: parseInt(page_num, 10),
+            page_size: parseInt(page_size, 10),
+            activity_id: activity.id,
+        });
+
+        ctx.response.status = httpStatus.OK;
+        ctx.set('x-pagination', JSON.stringify(result.pagination));
+        ctx.body = result.data;
+    },
+);
+
+router.get(
+    '/lucky-number/info/:key',
+    luckyNumberKeyValidatorMiddleware,
     async ctx => {
         const { key } = ctx.params;
 
@@ -102,13 +130,11 @@ router.get(
             throw BAD_REQUEST('活动不存在');
         }
 
-        if (activity.status !== LUCKY_NUMBER_STATUS.ONGOING) {
+        if (!eq(activity.status, LUCKY_NUMBER_STATUS.ONGOING)) {
             throw BAD_REQUEST('活动未开始或已结束');
         }
 
-        const summary = await UserParticipationDao.getActivitySummary(
-            activity.id,
-        );
+        const count = await NumberPoolDao.getCount(activity.id);
 
         ctx.response.status = httpStatus.OK;
         ctx.body = {
@@ -118,20 +144,7 @@ router.get(
             description: activity.description,
             participant_limit: activity.participant_limit,
             status: activity.status,
-            participations: summary.participations,
-            statistics: {
-                ...summary.statistics,
-                remaining_slots:
-                    activity.participant_limit > 0
-                        ? activity.participant_limit -
-                          summary.statistics.total_participants
-                        : null,
-            },
-            numbers: summary.participations.map(p => ({
-                drawn_number: p.drawn_number,
-                username: p.username,
-                drawn_at: p.drawn_at,
-            })),
+            count,
         };
     },
 );

@@ -2,9 +2,10 @@ import { useCallback, useState } from 'react';
 
 import axiosInstance from '@/services/axios';
 import type {
+    ActivityInfo,
     DrawLuckyNumberRequest,
     DrawLuckyNumberResponse,
-    QueryLuckyNumberResponse,
+    LuckyNumber,
 } from '@/types/luckyNumber';
 
 export const useLuckyNumber = () => {
@@ -20,12 +21,33 @@ export const useLuckyNumber = () => {
         setLoading(true);
 
         try {
-            const response = await axiosInstance.get<QueryLuckyNumberResponse>(
-                `/lucky-number/query/${activityKey}`,
+            const response = await axiosInstance.get<ActivityInfo>(
+                `/lucky-number/info/${activityKey}`,
             );
             return response.data;
         } catch (err) {
             setError('获取活动信息失败');
+            throw err;
+        } finally {
+            setLoading(false);
+        }
+    }, []);
+
+    const queryParticipations = useCallback(async (activityKey?: string) => {
+        setError(null);
+        if (!activityKey) {
+            setError('活动key不能为空');
+            throw new Error('活动key不能为空');
+        }
+        setLoading(true);
+
+        try {
+            const response = await axiosInstance.get<LuckyNumber[]>(
+                `/lucky-number/query/${activityKey}?page=1&page_size=10000`,
+            );
+            return response.data;
+        } catch (err) {
+            setError('获取参与记录失败');
             throw err;
         } finally {
             setLoading(false);
@@ -58,6 +80,7 @@ export const useLuckyNumber = () => {
         loading,
         error,
         queryActivityInfo,
+        queryParticipations,
         drawLuckyNumber,
     };
 };

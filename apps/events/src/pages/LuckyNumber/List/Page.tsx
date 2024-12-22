@@ -20,7 +20,7 @@ import HeaderInterface from '@/components/Header/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
-import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
+import type { ActivityInfo, LuckyNumber } from '@/types/luckyNumber';
 
 import { luckyNumberTheme } from '../styles/index';
 
@@ -44,11 +44,11 @@ const headerCellStyle = {
 };
 
 const TableInterface: React.FC<{
-    activityInfo: QueryLuckyNumberResponse | null;
-}> = ({ activityInfo }) => {
-    if (!activityInfo) return null;
+    participations: LuckyNumber[];
+}> = ({ participations }) => {
+    if (!participations) return null;
 
-    const isEmpty = activityInfo.participations.length === 0;
+    const isEmpty = participations.length === 0;
 
     const EmptyInterface: React.FC = () => (
         <TableRow>
@@ -67,7 +67,7 @@ const TableInterface: React.FC<{
 
     const ExistingInterface: React.FC = () => (
         <>
-            {activityInfo.participations.map((record, index) => (
+            {participations.map((record, index) => (
                 <TableRow key={index}>
                     <TableCell align="center" colSpan={4}>
                         {record.username}
@@ -76,7 +76,11 @@ const TableInterface: React.FC<{
                         {record.drawn_number}
                     </TableCell>
                     <TableCell align="center" colSpan={4}>
-                        {new Date(record.drawn_at).toLocaleString('zh-CN')}
+                        {record.created_at
+                            ? new Date(record.created_at).toLocaleString(
+                                  'zh-CN',
+                              )
+                            : '-'}
                     </TableCell>
                 </TableRow>
             ))}
@@ -131,21 +135,31 @@ const TableInterface: React.FC<{
 
 const LuckyNumberListPage: React.FC = () => {
     const { activityKey } = useParams();
-    const { queryActivityInfo } = useLuckyNumber();
-    const [activityInfo, setActivityInfo] =
-        useState<QueryLuckyNumberResponse | null>(null);
+    const { queryActivityInfo, queryParticipations } = useLuckyNumber();
+    const [activityInfo, setActivityInfo] = useState<ActivityInfo | null>(null);
+    const [participations, setParticipations] = useState<LuckyNumber[]>([]);
     const [error, setError] = useState<Error | null>(null);
     const headerContext = useHeader();
 
     const fetchActivityInfo = async () => {
         try {
-            const data = await queryActivityInfo(activityKey);
-            setActivityInfo(data);
+            const info = await queryActivityInfo(activityKey);
+            setActivityInfo(info);
             headerContext.setHeaderInfo({
-                title: data.name,
-                description: data.description,
-                keywords: data.activity_key,
+                title: info.name,
+                description: info.description,
+                keywords: info.activity_key,
             });
+        } catch (err) {
+            setError(err as Error);
+        }
+    };
+
+    const fetchParticipations = async () => {
+        if (!activityKey) return;
+        try {
+            const records = await queryParticipations(activityKey);
+            setParticipations(records);
         } catch (err) {
             setError(err as Error);
         }
@@ -154,11 +168,12 @@ const LuckyNumberListPage: React.FC = () => {
     useEffect(() => {
         if (!activityKey || !!error) return;
         fetchActivityInfo();
+        fetchParticipations();
     }, [activityKey]);
 
     useInterval(
         () => {
-            fetchActivityInfo();
+            fetchParticipations();
         },
         !activityKey || !!error ? null : 2000,
     );
@@ -219,7 +234,7 @@ const LuckyNumberListPage: React.FC = () => {
                 {error ? (
                     <Alert severity="error">获取活动数据失败，请稍后再试</Alert>
                 ) : (
-                    <TableInterface activityInfo={activityInfo} />
+                    <TableInterface participations={participations} />
                 )}
             </Box>
         </Box>
