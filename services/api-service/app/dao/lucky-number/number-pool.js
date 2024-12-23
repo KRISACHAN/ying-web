@@ -4,7 +4,7 @@ import { INTERNAL_SERVER_ERROR } from '@utils/http-errors';
 import log from '@utils/log';
 
 export class NumberPoolDao {
-    static async createNumberPoolEntries(entries, transaction) {
+    static async create(entries, transaction) {
         try {
             const res = await NumberPoolModel.bulkCreate(entries, {
                 transaction,
@@ -16,7 +16,7 @@ export class NumberPoolDao {
         }
     }
 
-    static async findAvailableNumber(activityId) {
+    static async search(activityId) {
         try {
             const res = await NumberPoolModel.scope('df').findOne({
                 order: sequelize.random(),
@@ -36,6 +36,7 @@ export class NumberPoolDao {
         const res = await NumberPoolModel.count({
             where: {
                 activity_id: activityId,
+                deleted_at: null,
             },
         });
         return res;

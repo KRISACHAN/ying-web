@@ -36,8 +36,8 @@ export const useAuth = () => {
             localCache.set(KEYS.ACCESS_TOKEN, data.access_token);
             localCache.set(KEYS.REFRESH_TOKEN, data.refresh_token);
             return response;
-        } catch (err) {
-            setError('登录失败');
+        } catch (err: any) {
+            setError(err.response?.data?.message ?? '登录失败');
             throw err;
         } finally {
             setLoading(false);

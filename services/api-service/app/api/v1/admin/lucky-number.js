@@ -49,10 +49,7 @@ router.post(
                 activity_id: activity.id,
                 drawn_number: number,
             }));
-            await NumberPoolDao.createNumberPoolEntries(
-                numberPoolEntries,
-                transaction,
-            );
+            await NumberPoolDao.create(numberPoolEntries, transaction);
 
             await transaction.commit();
 
@@ -148,7 +145,7 @@ router.put(
                 throw BAD_REQUEST('活动不存在');
             }
 
-            const participation = await UserParticipationDao.findParticipation({
+            const participation = await UserParticipationDao.search({
                 activity_id: activity.id,
                 username,
             });
@@ -159,10 +156,7 @@ router.put(
 
             const drawnNumber = participation.drawn_number;
 
-            await UserParticipationDao.deleteParticipation(
-                participation.id,
-                transaction,
-            );
+            await UserParticipationDao.delete(participation.id, transaction);
 
             await transaction.commit();
 
