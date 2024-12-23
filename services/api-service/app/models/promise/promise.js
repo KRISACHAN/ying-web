@@ -53,11 +53,11 @@ PromiseModel.init(
         sequelize,
         tableName: 'promise',
         modelName: 'promise',
-        timestamps: true,
-        paranoid: true,
         createdAt: 'created_at',
         updatedAt: 'updated_at',
         deletedAt: 'deleted_at',
+        timestamps: true,
+        paranoid: true,
         indexes: [
             {
                 fields: ['category_id'],

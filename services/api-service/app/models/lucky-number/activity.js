@@ -44,9 +44,10 @@ ActivityModel.init(
         sequelize,
         modelName: 'lucky_number_activity',
         tableName: 'lucky_number_activity',
-        timestamps: true,
         deletedAt: 'deleted_at',
         createdAt: 'created_at',
         updatedAt: 'updated_at',
+        timestamps: true,
+        paranoid: true,
     },
 );

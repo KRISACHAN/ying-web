@@ -14,7 +14,7 @@ export class ActivityDao {
     ) {
         try {
             const existedActivity = await ActivityModel.findOne({
-                where: { key, deleted_at: null },
+                where: { key },
             });
 
             if (existedActivity) {
@@ -42,9 +42,7 @@ export class ActivityDao {
 
     static async search({ key }) {
         try {
-            const whereQuery = {
-                deleted_at: null,
-            };
+            const whereQuery = {};
             if (key) {
                 whereQuery.key = key;
             }
@@ -66,7 +64,7 @@ export class ActivityDao {
     static async delete({ key }) {
         try {
             const activity = await ActivityModel.findOne({
-                where: { key, deleted_at: null },
+                where: { key },
             });
 
             if (!activity) {
@@ -90,7 +88,7 @@ export class ActivityDao {
         try {
             const pagination = genPaginationRequest(pageNum, pageSize);
             const result = await ActivityModel.scope('df').findAndCountAll({
-                where: { deleted_at: null },
+                where: {},
                 limit: pagination.limit,
                 offset: pagination.offset,
                 order: [['id', 'DESC']],
@@ -117,7 +115,7 @@ export class ActivityDao {
     static async updateStatus({ key, status }) {
         try {
             const activity = await ActivityModel.findOne({
-                where: { key, deleted_at: null },
+                where: { key },
             });
 
             if (!activity) {

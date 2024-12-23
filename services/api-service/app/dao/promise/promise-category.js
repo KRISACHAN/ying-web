@@ -29,7 +29,7 @@ export class PromiseCategoryDao {
     static async update(id, { name, description, is_published }) {
         try {
             const category = await CategoryModel.findOne({
-                where: { id, deleted_at: null },
+                where: { id },
             });
 
             if (!category) {
@@ -68,7 +68,7 @@ export class PromiseCategoryDao {
         order = 'DESC',
     }) {
         try {
-            const whereQuery = { deleted_at: null };
+            const whereQuery = {};
             if (!isUndefined(is_published)) {
                 whereQuery.is_published = is_published;
             }
@@ -109,7 +109,6 @@ export class PromiseCategoryDao {
         try {
             const whereQuery = {
                 id,
-                deleted_at: null,
             };
             if (!isUndefined(is_published)) {
                 whereQuery.is_published = is_published;

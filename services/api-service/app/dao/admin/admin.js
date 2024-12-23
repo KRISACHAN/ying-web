@@ -13,7 +13,7 @@ export class AdminDao {
     static async create({ username, email, password }) {
         try {
             const existedAdmin = await AdminModel.findOne({
-                where: { email, deleted_at: null },
+                where: { email },
             });
 
             if (existedAdmin) {
@@ -37,7 +37,7 @@ export class AdminDao {
     static async verify({ email, password }) {
         try {
             const admin = await AdminModel.findOne({
-                where: { email, deleted_at: null },
+                where: { email },
             });
 
             if (!admin) {
@@ -67,9 +67,7 @@ export class AdminDao {
         },
     ) {
         try {
-            const whereQuery = {
-                deleted_at: null,
-            };
+            const whereQuery = {};
             if (email) {
                 whereQuery.email = email;
             }
@@ -99,7 +97,7 @@ export class AdminDao {
     static async update(id, { email, password, username }) {
         try {
             const admin = await AdminModel.findOne({
-                where: { id, deleted_at: null },
+                where: { id },
             });
 
             if (!admin) {
@@ -134,7 +132,7 @@ export class AdminDao {
     static async delete(id) {
         try {
             const admin = await AdminModel.findOne({
-                where: { id, deleted_at: null },
+                where: { id },
             });
 
             if (!admin) {
@@ -157,7 +155,7 @@ export class AdminDao {
     static async query({ pageNum = 1, pageSize = 10 }) {
         try {
             const result = await AdminModel.scope('bh').findAndCountAll({
-                where: { deleted_at: null },
+                where: {},
                 offset: (pageNum - 1) * pageSize,
                 limit: pageSize,
                 order: [['id', 'DESC']],

@@ -30,14 +30,15 @@ NumberPoolModel.init(
         sequelize,
         modelName: 'lucky_number_pool',
         tableName: 'lucky_number_pool',
-        timestamps: true,
         deletedAt: 'deleted_at',
         createdAt: 'created_at',
         updatedAt: 'updated_at',
+        timestamps: true,
+        paranoid: true,
         indexes: [
             {
                 unique: true,
-                fields: ['activity_id', 'drawn_number'],
+                fields: ['activity_id', 'drawn_number', 'deleted_at'],
                 name: 'unique_activity_number',
             },
         ],

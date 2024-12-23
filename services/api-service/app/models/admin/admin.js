@@ -36,10 +36,11 @@ AdminModel.init(
         sequelize,
         modelName: 'admin',
         tableName: 'admin',
-        timestamps: true,
         deletedAt: 'deleted_at',
         createdAt: 'created_at',
         updatedAt: 'updated_at',
+        timestamps: true,
+        paranoid: true,
         hooks: {
             beforeCreate: async admin => {
                 const salt = await bcrypt.genSalt(10);
