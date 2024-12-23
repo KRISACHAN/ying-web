@@ -23,7 +23,7 @@ CREATE TABLE `lucky_number_pool` (
   `updated_at` DATETIME NOT NULL,
   `deleted_at` DATETIME,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `unique_activity_number` (`activity_id`, `drawn_number`),
+  UNIQUE KEY `unique_activity_number` (`activity_id`, `drawn_number`, `deleted_at`),
   FOREIGN KEY (`activity_id`) REFERENCES `lucky_number_activity`(`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -36,6 +36,6 @@ CREATE TABLE `lucky_number_user_participation` (
   `updated_at` DATETIME NOT NULL,
   `deleted_at` DATETIME,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `unique_user_activity` (`activity_id`, `username`),
+  UNIQUE KEY `unique_user_activity` (`activity_id`, `username`, `deleted_at`),
   FOREIGN KEY (`activity_id`) REFERENCES `lucky_number_activity`(`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
