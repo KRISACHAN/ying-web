@@ -29,10 +29,10 @@ CategoryModel.init(
         sequelize,
         tableName: 'promise_category',
         modelName: 'promise_category',
-        timestamps: true,
-        paranoid: true,
         createdAt: 'created_at',
         updatedAt: 'updated_at',
         deletedAt: 'deleted_at',
+        timestamps: true,
+        paranoid: true,
     },
 );

@@ -10,7 +10,7 @@ export class RoleDao {
     static async create({ name, description }) {
         try {
             const existedRole = await RoleModel.findOne({
-                where: { name, deleted_at: null },
+                where: { name },
             });
 
             if (existedRole) {
@@ -34,7 +34,7 @@ export class RoleDao {
     static async search(id) {
         try {
             const role = await RoleModel.scope('df').findOne({
-                where: { id, deleted_at: null },
+                where: { id },
             });
 
             if (!role) {
@@ -51,7 +51,7 @@ export class RoleDao {
     static async update(id, { name, description }) {
         try {
             const role = await RoleModel.findOne({
-                where: { id, deleted_at: null },
+                where: { id },
             });
 
             if (!role) {
@@ -82,7 +82,7 @@ export class RoleDao {
     static async delete(id) {
         try {
             const role = await RoleModel.findOne({
-                where: { id, deleted_at: null },
+                where: { id },
             });
 
             if (!role) {
@@ -105,7 +105,7 @@ export class RoleDao {
     static async query({ pageNum = 1, pageSize = 10 }) {
         try {
             const result = await RoleModel.scope('df').findAndCountAll({
-                where: { deleted_at: null },
+                where: {},
                 offset: (pageNum - 1) * pageSize,
                 limit: pageSize,
                 order: [['id', 'DESC']],

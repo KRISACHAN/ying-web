@@ -20,7 +20,7 @@ export class PromiseDao {
     }) {
         try {
             const category = await CategoryModel.findOne({
-                where: { id: category_id, deleted_at: null },
+                where: { id: category_id },
             });
 
             if (!category) {
@@ -65,7 +65,7 @@ export class PromiseDao {
     ) {
         try {
             const promise = await PromiseModel.findOne({
-                where: { id, deleted_at: null },
+                where: { id },
             });
 
             if (!promise) {
@@ -74,7 +74,7 @@ export class PromiseDao {
 
             if (category_id) {
                 const category = await CategoryModel.findOne({
-                    where: { id: category_id, deleted_at: null },
+                    where: { id: category_id },
                 });
                 if (!category) {
                     throw PRECONDITION_FAILED('分类不存在');
@@ -127,7 +127,7 @@ export class PromiseDao {
         order = 'DESC',
     }) {
         try {
-            const whereQuery = { deleted_at: null };
+            const whereQuery = {};
             if (category_id) {
                 whereQuery.category_id = category_id;
             }
@@ -190,7 +190,6 @@ export class PromiseDao {
         try {
             const whereQuery = {
                 id,
-                deleted_at: null,
             };
             if (!isUndefined(is_published)) {
                 whereQuery.is_published = is_published;
@@ -223,7 +222,7 @@ export class PromiseDao {
 
     static async random({ category_id, is_published } = {}) {
         try {
-            const whereQuery = { deleted_at: null };
+            const whereQuery = {};
             if (!isUndefined(is_published)) {
                 whereQuery.is_published = is_published;
             }

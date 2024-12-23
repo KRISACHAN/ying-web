@@ -5,9 +5,7 @@ import log from '@utils/log';
 export class RolePermissionsDao {
     static async create({ roleId, permissionId }) {
         try {
-            const whereQuery = {
-                deleted_at: null,
-            };
+            const whereQuery = {};
             if (roleId) {
                 whereQuery.role_id = roleId;
             }
@@ -40,7 +38,7 @@ export class RolePermissionsDao {
     static async updateBoundPermission({ roleId, permissionId }) {
         try {
             const rolePermission = await RolePermissionsModel.findOne({
-                where: { role_id: roleId, deleted_at: null },
+                where: { role_id: roleId },
             });
             if (!rolePermission) {
                 throw INTERNAL_SERVER_ERROR('角色权限不存在');
@@ -67,7 +65,6 @@ export class RolePermissionsDao {
         try {
             const rolePermission = await RolePermissionsModel.findOne({
                 permission_id: permissionId,
-                deleted_at: null,
             });
             if (!rolePermission) {
                 throw INTERNAL_SERVER_ERROR('权限所属的角色不存在');
@@ -95,7 +92,7 @@ export class RolePermissionsDao {
             const rolePermission = await RolePermissionsModel.scope(
                 'df',
             ).findAll({
-                where: { role_id: roleId, deleted_at: null },
+                where: { role_id: roleId },
             });
 
             if (!rolePermission) {
@@ -115,7 +112,6 @@ export class RolePermissionsDao {
                 'df',
             ).findAll({
                 permission_id: permissionId,
-                deleted_at: null,
             });
 
             if (!rolePermission) {
@@ -132,7 +128,7 @@ export class RolePermissionsDao {
     static async deleteByRole(roleId) {
         try {
             const rolePermission = await RolePermissionsModel.deleteMany({
-                where: { role_id: roleId, deleted_at: null },
+                where: { role_id: roleId },
             });
 
             if (!rolePermission) {
@@ -150,7 +146,6 @@ export class RolePermissionsDao {
         try {
             const rolePermission = await RolePermissionsModel.deleteMany({
                 permission_id: permissionId,
-                deleted_at: null,
             });
 
             if (!rolePermission) {
@@ -169,7 +164,7 @@ export class RolePermissionsDao {
             const result = await RolePermissionsModel.scope(
                 'df',
             ).findAndCountAll({
-                where: { deleted_at: null },
+                where: {},
                 offset: (pageNum - 1) * pageSize,
                 limit: pageSize,
                 order: [['id', 'DESC']],

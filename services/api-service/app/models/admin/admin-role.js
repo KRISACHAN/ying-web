@@ -24,14 +24,15 @@ AdminRoleModel.init(
         sequelize,
         modelName: 'admin_role',
         tableName: 'admin_role',
-        timestamps: true,
         deletedAt: 'deleted_at',
         createdAt: 'created_at',
         updatedAt: 'updated_at',
+        timestamps: true,
+        paranoid: true,
         indexes: [
             {
                 unique: true,
-                fields: ['admin_id', 'role_id'],
+                fields: ['admin_id', 'role_id', 'deleted_at'],
             },
         ],
     },

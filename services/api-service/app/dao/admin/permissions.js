@@ -10,7 +10,7 @@ export class PermissionsDao {
     static async create({ name, description }) {
         try {
             const existedPermission = await PermissionsModel.findOne({
-                where: { name, deleted_at: null },
+                where: { name },
             });
 
             if (existedPermission) {
@@ -33,9 +33,7 @@ export class PermissionsDao {
 
     static async search({ id, name }) {
         try {
-            const whereQuery = {
-                deleted_at: null,
-            };
+            const whereQuery = {};
             if (name) {
                 whereQuery.name = name;
             }
@@ -60,7 +58,7 @@ export class PermissionsDao {
     static async update(id, { name, description }) {
         try {
             const permission = await PermissionsModel.findOne({
-                where: { id, deleted_at: null },
+                where: { id },
             });
 
             if (!permission) {
@@ -91,7 +89,7 @@ export class PermissionsDao {
     static async delete(id) {
         try {
             const permission = await PermissionsModel.findOne({
-                where: { id, deleted_at: null },
+                where: { id },
             });
 
             if (!permission) {
@@ -114,7 +112,7 @@ export class PermissionsDao {
     static async query({ pageNum = 1, pageSize = 10 }) {
         try {
             const result = await PermissionsModel.scope('df').findAndCountAll({
-                where: { deleted_at: null },
+                where: {},
                 offset: (pageNum - 1) * pageSize,
                 limit: pageSize,
                 order: [['id', 'DESC']],

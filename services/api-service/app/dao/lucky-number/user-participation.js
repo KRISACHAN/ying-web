@@ -11,7 +11,6 @@ export class UserParticipationDao {
                 where: {
                     activity_id,
                     username,
-                    deleted_at: null,
                 },
             });
 
@@ -41,9 +40,7 @@ export class UserParticipationDao {
 
     static async search({ activity_id, id, drawn_number, username }) {
         try {
-            const where = {
-                deleted_at: null,
-            };
+            const where = {};
             if (activity_id) {
                 where.activity_id = activity_id;
             }
@@ -70,7 +67,7 @@ export class UserParticipationDao {
     static async delete(id, transaction) {
         try {
             const res = await UserParticipationModel.destroy({
-                where: { id, deleted_at: null },
+                where: { id },
                 transaction,
             });
             return res;
@@ -84,7 +81,6 @@ export class UserParticipationDao {
         const count = await UserParticipationModel.count({
             where: {
                 activity_id: activityId,
-                deleted_at: null,
             },
         });
 
@@ -100,9 +96,7 @@ export class UserParticipationDao {
         order = 'DESC',
     }) {
         try {
-            const whereQuery = {
-                deleted_at: null,
-            };
+            const whereQuery = {};
             if (activity_id) {
                 whereQuery.activity_id = activity_id;
             }

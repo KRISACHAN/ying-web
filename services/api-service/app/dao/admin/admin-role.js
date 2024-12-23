@@ -5,9 +5,7 @@ import log from '@utils/log';
 export class AdminRoleDao {
     static async create({ roleId, adminId }) {
         try {
-            const whereQuery = {
-                deleted_at: null,
-            };
+            const whereQuery = {};
             if (roleId) {
                 whereQuery.role_id = roleId;
             }
@@ -37,7 +35,6 @@ export class AdminRoleDao {
             const AdminRole = await AdminRoleModel.findOne({
                 where: {
                     role_id: roleId,
-                    deleted_at: null,
                 },
             });
             if (!AdminRole) {
@@ -66,7 +63,6 @@ export class AdminRoleDao {
             const AdminRole = await AdminRoleModel.findOne({
                 where: {
                     admin_id: adminId,
-                    deleted_at: null,
                 },
             });
             if (!AdminRole) {
@@ -95,7 +91,6 @@ export class AdminRoleDao {
             const adminRoles = await AdminRoleModel.scope('df').findAll({
                 where: {
                     role_id: roleId,
-                    deleted_at: null,
                 },
             });
 
@@ -115,7 +110,6 @@ export class AdminRoleDao {
             const adminRoles = await AdminRoleModel.scope('df').findAll({
                 where: {
                     admin_id: adminId,
-                    deleted_at: null,
                 },
             });
 
@@ -134,7 +128,6 @@ export class AdminRoleDao {
         try {
             const result = await AdminRoleModel.deleteMany({
                 role_id: roleId,
-                deleted_at: null,
             });
 
             if (!result) {
@@ -152,7 +145,6 @@ export class AdminRoleDao {
         try {
             const result = await AdminRoleModel.deleteMany({
                 admin_id: adminId,
-                deleted_at: null,
             });
 
             if (!result) {
@@ -169,7 +161,7 @@ export class AdminRoleDao {
     static async query({ pageNum = 1, pageSize = 10 }) {
         try {
             const result = await AdminRoleModel.scope('df').findAndCountAll({
-                where: { deleted_at: null },
+                where: {},
                 offset: (pageNum - 1) * pageSize,
                 limit: pageSize,
                 order: [['id', 'DESC']],

@@ -22,7 +22,6 @@ export class NumberPoolDao {
                 order: sequelize.random(),
                 where: {
                     activity_id: activityId,
-                    deleted_at: null,
                 },
             });
             return res;
@@ -36,7 +35,6 @@ export class NumberPoolDao {
         const res = await NumberPoolModel.count({
             where: {
                 activity_id: activityId,
-                deleted_at: null,
             },
         });
         return res;

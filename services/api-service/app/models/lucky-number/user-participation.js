@@ -34,14 +34,15 @@ UserParticipationModel.init(
         sequelize,
         modelName: 'lucky_number_user_participation',
         tableName: 'lucky_number_user_participation',
-        timestamps: true,
         createdAt: 'created_at',
         updatedAt: 'updated_at',
         deletedAt: 'deleted_at',
+        timestamps: true,
+        paranoid: true,
         indexes: [
             {
                 unique: true,
-                fields: ['activity_id', 'username'],
+                fields: ['activity_id', 'username', 'deleted_at'],
                 name: 'unique_user_activity',
             },
         ],
