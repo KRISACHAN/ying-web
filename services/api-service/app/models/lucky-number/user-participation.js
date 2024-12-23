@@ -20,6 +20,7 @@ UserParticipationModel.init(
                 model: ActivityModel,
                 key: 'id',
             },
+            onDelete: 'CASCADE',
         },
         username: {
             type: DataTypes.STRING(40),

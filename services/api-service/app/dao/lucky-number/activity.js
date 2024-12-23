@@ -88,7 +88,6 @@ export class ActivityDao {
         try {
             const pagination = genPaginationRequest(pageNum, pageSize);
             const result = await ActivityModel.scope('df').findAndCountAll({
-                where: {},
                 limit: pagination.limit,
                 offset: pagination.offset,
                 order: [['id', 'DESC']],

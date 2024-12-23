@@ -161,7 +161,6 @@ export class AdminRoleDao {
     static async query({ pageNum = 1, pageSize = 10 }) {
         try {
             const result = await AdminRoleModel.scope('df').findAndCountAll({
-                where: {},
                 offset: (pageNum - 1) * pageSize,
                 limit: pageSize,
                 order: [['id', 'DESC']],

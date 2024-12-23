@@ -14,10 +14,20 @@ AdminRoleModel.init(
         admin_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
+            references: {
+                model: 'admin',
+                key: 'id',
+            },
+            onDelete: 'CASCADE',
         },
         role_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
+            references: {
+                model: 'role',
+                key: 'id',
+            },
+            onDelete: 'CASCADE',
         },
     },
     {

@@ -18,10 +18,17 @@ PromiseModel.init(
                 model: CategoryModel,
                 key: 'id',
             },
+            onDelete: 'CASCADE',
         },
         category_name: {
             type: DataTypes.STRING(20),
             allowNull: false,
+            references: {
+                model: CategoryModel,
+                key: 'name',
+            },
+            onDelete: 'CASCADE',
+            onUpdate: 'CASCADE',
         },
         chapter: {
             type: DataTypes.STRING(20),

@@ -20,6 +20,7 @@ NumberPoolModel.init(
                 model: ActivityModel,
                 key: 'id',
             },
+            onDelete: 'CASCADE',
         },
         drawn_number: {
             type: DataTypes.INTEGER,

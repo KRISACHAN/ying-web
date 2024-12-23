@@ -105,7 +105,6 @@ export class RoleDao {
     static async query({ pageNum = 1, pageSize = 10 }) {
         try {
             const result = await RoleModel.scope('df').findAndCountAll({
-                where: {},
                 offset: (pageNum - 1) * pageSize,
                 limit: pageSize,
                 order: [['id', 'DESC']],
