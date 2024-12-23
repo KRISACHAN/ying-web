@@ -76,8 +76,11 @@ axiosInstance.interceptors.response.use(
     },
     async err => {
         const originalRequest = err.config;
-
-        if (eq(err.response?.status, 401) && !originalRequest._retry) {
+        if (
+            eq(err.response?.status, 401) &&
+            !originalRequest._retry &&
+            !eq(originalRequest.url, '/login')
+        ) {
             if (isRefreshing) {
                 return new Promise((resolve, reject) => {
                     failedQueue.push({ resolve, reject });

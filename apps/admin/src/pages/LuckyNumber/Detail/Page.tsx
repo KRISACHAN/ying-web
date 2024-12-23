@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
-
 import { DownloadOutlined } from '@ant-design/icons';
 import { Button, Card, message, Popconfirm, Space, Table } from 'antd';
+import React, { type MouseEventHandler, useEffect, useState } from 'react';
 import { CSVLink } from 'react-csv';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
@@ -12,6 +11,7 @@ import {
     getLuckyNumberStatusLabel,
     LUCKY_NUMBER_STATUS,
 } from '@/utils/constants';
+import { eq } from 'lodash';
 
 const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
@@ -185,9 +185,12 @@ const LuckyNumberDetail = () => {
                             ]}
                             filename={`幸运号码-${activityInfo?.name || '未命名'}-${new Date().toLocaleDateString('zh-CN')}.csv`}
                             className="ant-btn ant-btn-primary"
-                            onClick={event => {
-                                if (csvData.length === 0) {
-                                    event.preventDefault();
+                            onClick={(
+                                event: MouseEventHandler<HTMLAnchorElement>,
+                            ) => {
+                                if (!csvData.length) {
+                                    // @ts-ignore
+                                    event?.preventDefault?.();
                                     message.warning('没有数据可导出');
                                 }
                             }}
@@ -197,8 +200,10 @@ const LuckyNumberDetail = () => {
                                 导出列表
                             </Space>
                         </CSVLink>
-                        {activityInfo?.status ===
-                            LUCKY_NUMBER_STATUS.NOT_STARTED && (
+                        {eq(
+                            activityInfo?.status,
+                            LUCKY_NUMBER_STATUS.NOT_STARTED,
+                        ) && (
                             <Popconfirm
                                 title="确认删除"
                                 description="确定要删除这个活动吗？删除后无法恢复"
@@ -251,8 +256,10 @@ const LuckyNumberDetail = () => {
                                     activityInfo?.status,
                                 )}
                             </span>
-                            {activityInfo?.status ===
-                                LUCKY_NUMBER_STATUS.NOT_STARTED && (
+                            {eq(
+                                activityInfo?.status,
+                                LUCKY_NUMBER_STATUS.NOT_STARTED,
+                            ) && (
                                 <Popconfirm
                                     title="确认开始"
                                     description="确定要开始这个活动吗？"
@@ -269,8 +276,10 @@ const LuckyNumberDetail = () => {
                                     </Button>
                                 </Popconfirm>
                             )}
-                            {activityInfo?.status ===
-                                LUCKY_NUMBER_STATUS.ONGOING && (
+                            {eq(
+                                activityInfo?.status,
+                                LUCKY_NUMBER_STATUS.ONGOING,
+                            ) && (
                                 <Popconfirm
                                     title="确认结束"
                                     description="确定要结束这个活动吗？结束后将无法继续抽取"

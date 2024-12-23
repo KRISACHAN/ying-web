@@ -37,7 +37,7 @@ export class RolePermissionsDao {
         }
     }
 
-    static async updateByRole({ roleId, permissionId }) {
+    static async updateBoundPermission({ roleId, permissionId }) {
         try {
             const rolePermission = await RolePermissionsModel.findOne({
                 where: { role_id: roleId, deleted_at: null },
@@ -63,7 +63,7 @@ export class RolePermissionsDao {
         }
     }
 
-    static async updateByPermission({ roleId, permissionId }) {
+    static async updateBoundRole({ roleId, permissionId }) {
         try {
             const rolePermission = await RolePermissionsModel.findOne({
                 permission_id: permissionId,

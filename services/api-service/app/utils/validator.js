@@ -62,7 +62,6 @@ export const createValidator = (rules, source = 'body') => {
             throw BAD_REQUEST(error.errors.map(e => e.message).join(','));
         }
 
-        log.info('Validated data:', value);
         ctx.validate = value;
         await next();
     };

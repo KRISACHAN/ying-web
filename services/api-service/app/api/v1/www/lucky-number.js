@@ -39,36 +39,28 @@ router.post(
                 );
             }
 
-            const existingParticipation =
-                await UserParticipationDao.findParticipation({
-                    activity_id: activity.id,
-                    username,
-                });
+            const existingParticipation = await UserParticipationDao.search({
+                activity_id: activity.id,
+                username,
+            });
 
             if (existingParticipation) {
                 throw BAD_REQUEST('用户已参与过此活动，请勿重复抽取');
             }
 
             if (activity.participant_limit > 0) {
-                const summary = await UserParticipationDao.getActivitySummary(
-                    activity.id,
-                );
-                if (
-                    summary.statistics.total_participants >=
-                    activity.participant_limit
-                ) {
+                const count = await UserParticipationDao.getCount(activity.id);
+                if (count >= activity.participant_limit) {
                     throw BAD_REQUEST('活动参与人数已达上限');
                 }
             }
 
-            const numberEntry = await NumberPoolDao.findAvailableNumber(
-                activity.id,
-            );
+            const numberEntry = await NumberPoolDao.search(activity.id);
             if (!numberEntry) {
                 throw BAD_REQUEST('号码池已空');
             }
 
-            await UserParticipationDao.createUserParticipation(
+            await UserParticipationDao.create(
                 {
                     activity_id: activity.id,
                     username: username,

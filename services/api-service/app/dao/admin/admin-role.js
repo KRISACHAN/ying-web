@@ -32,7 +32,7 @@ export class AdminRoleDao {
         }
     }
 
-    static async updateByRole({ roleId, adminId }) {
+    static async updateBoundAdmin({ roleId, adminId }) {
         try {
             const AdminRole = await AdminRoleModel.findOne({
                 where: {
@@ -61,7 +61,7 @@ export class AdminRoleDao {
         }
     }
 
-    static async updateByAdmin({ roleId, adminId }) {
+    static async updateBoundRole({ roleId, adminId }) {
         try {
             const AdminRole = await AdminRoleModel.findOne({
                 where: {

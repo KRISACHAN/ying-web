@@ -10,14 +10,9 @@ const Login = () => {
     const { handler, state } = useAuth();
 
     const onFinish = async (values: LoginParams) => {
-        try {
-            await handler.login(values);
-            message.success('登录成功');
-            navigate('/');
-        } catch (err) {
-            console.error(err);
-            message.error('登录失败');
-        }
+        await handler.login(values);
+        message.success('登录成功');
+        navigate('/');
     };
 
     return (

@@ -5,10 +5,7 @@ import log from '@utils/log';
 import { eq } from 'lodash';
 
 export class UserParticipationDao {
-    static async createUserParticipation(
-        { activity_id, username, drawn_number },
-        transaction,
-    ) {
+    static async create({ activity_id, username, drawn_number }, transaction) {
         try {
             const existingParticipation = await UserParticipationModel.findOne({
                 where: {
@@ -42,20 +39,23 @@ export class UserParticipationDao {
         }
     }
 
-    static async findParticipation({
-        activity_id,
-        id,
-        drawn_number,
-        username,
-    }) {
+    static async search({ activity_id, id, drawn_number, username }) {
         try {
             const where = {
                 deleted_at: null,
             };
-            if (activity_id) where.activity_id = activity_id;
-            if (username) where.username = username;
-            if (drawn_number) where.drawn_number = drawn_number;
-            if (id) where.id = id;
+            if (activity_id) {
+                where.activity_id = activity_id;
+            }
+            if (username) {
+                where.username = username;
+            }
+            if (drawn_number) {
+                where.drawn_number = drawn_number;
+            }
+            if (id) {
+                where.id = id;
+            }
 
             const res = await UserParticipationModel.scope('df').findOne({
                 where,
@@ -67,37 +67,28 @@ export class UserParticipationDao {
         }
     }
 
-    static async deleteParticipation(id, transaction) {
+    static async delete(id, transaction) {
         try {
-            await UserParticipationModel.destroy({
+            const res = await UserParticipationModel.destroy({
                 where: { id, deleted_at: null },
                 transaction,
             });
+            return res;
         } catch (error) {
             log.error(error);
             throw INTERNAL_SERVER_ERROR('删除用户参与记录失败');
         }
     }
 
-    static async getActivitySummary(activityId) {
-        const participations = await UserParticipationModel.findAll({
+    static async getCount(activityId) {
+        const count = await UserParticipationModel.count({
             where: {
                 activity_id: activityId,
                 deleted_at: null,
             },
-            order: [['created_at', 'DESC']],
         });
 
-        return {
-            statistics: {
-                total_participants: participations.length,
-            },
-            participations: participations.map(p => ({
-                drawn_number: p.drawn_number,
-                username: p.username,
-                drawn_at: p.created_at,
-            })),
-        };
+        return count;
     }
 
     static async query({
