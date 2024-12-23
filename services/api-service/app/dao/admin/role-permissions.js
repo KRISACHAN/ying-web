@@ -164,7 +164,6 @@ export class RolePermissionsDao {
             const result = await RolePermissionsModel.scope(
                 'df',
             ).findAndCountAll({
-                where: {},
                 offset: (pageNum - 1) * pageSize,
                 limit: pageSize,
                 order: [['id', 'DESC']],

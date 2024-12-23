@@ -14,10 +14,20 @@ RolePermissionsModel.init(
         role_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
+            references: {
+                model: 'role',
+                key: 'id',
+            },
+            onDelete: 'CASCADE',
         },
         permission_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
+            references: {
+                model: 'permissions',
+                key: 'id',
+            },
+            onDelete: 'CASCADE',
         },
     },
     {
