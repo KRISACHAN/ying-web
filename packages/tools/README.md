@@ -4,12 +4,12 @@ A pure TypeScript utility collection designed for the @ying-web ecosystem.
 
 ## Overview 🌟
 
-This package provides a collection of essential utilities and tools for the `@ying-web` ecosystem. Currently, it focuses on providing a robust and flexible storage solution through the `UniversalStorage` class, with plans to expand its functionality in the future.
+This package provides a collection of essential utilities and tools for the `@ying-web` ecosystem, focusing on providing robust and flexible solutions for common development needs.
 
 ## Tech Stack 💻
 
 -   📘 **TypeScript** - Type-safe development
--   🧪 **Jest** - Unit testing
+-   🧪 **Vitest** - Unit testing
 -   📚 **TypeDoc** - Documentation generation
 -   🔍 **ESLint** - Code linting
 -   🎨 **Prettier** - Code formatting
@@ -26,8 +26,6 @@ npm install @ying-web/tools
 # Using yarn
 yarn add @ying-web/tools
 ```
-
-## Usage 📖 [wip]
 
 ## Development 🔧
 
@@ -47,20 +45,16 @@ pnpm test:coverage
 # Run linting
 pnpm lint
 
-# Format code
-pnpm prettier
-
 # Generate documentation
 pnpm docs
 ```
 
 ## Project Structure 📂
 
-```txt
+```
 packages/tools/
 ├── src/                # Source code
 │   ├── packages/      # Main packages
-│   │   └── storage/   # Storage implementation
 │   ├── utils/         # Utility functions
 │   └── types/         # TypeScript types
 ├── dist/              # Compiled output
@@ -78,8 +72,8 @@ packages/tools/
 
 ## License 📄
 
-MIT
+MIT © [Kris Chan](https://github.com/KRISACHAN)
 
 ---
 
-Made with ❤️ by Kris Chan
+Made with ❤️ by the @ying-web

@@ -6,155 +6,143 @@ A robust, Koa.js-powered API service with MySQL integration for the @ying-web ec
 
 This service is the backbone of the `@ying-web` ecosystem, built with Koa.js, MySQL and JavaScript (**Why not TypeScript? Because it has created for a long time, it almost was my first Api service. So, for remembrance, I don't want to change it**). It provides RESTful APIs for various applications within the ecosystem.
 
-## Tech Stack 🚀
+## Tech Stack 🛠
 
 -   🌐 **Koa.js** - Next-generation web framework for Node.js
 -   🗄️ **MySQL** - Reliable relational database
+-   📡 **Redis** - In-memory data structure store
 -   🔄 **Gulp** - Automated build system
 -   🐳 **Docker** - Containerization
 -   📡 **PM2** - Production process manager
--   🧪 **Jest** - Testing framework
--   � **ESLint & Prettier** - Code quality tools
+-   🧪 **Vitest** - Modern testing framework
+-   🔍 **ESLint & Prettier** - Code quality tools
 -   📦 **Babel** - JavaScript compiler
 
-## Getting Started 🎯
-
-### Prerequisites
-
-> **Note:** The same as the root project's `package.json`
+## Prerequisites 📋
 
 -   Node.js >= 18.16.0
--   Pnpm: 9.14.2
+-   Pnpm: 8.5.1
 -   MySQL >= 8.0
--   PM2 (optional)
--   Docker (optional)
+-   Redis >= 6.0
+-   PM2 (optional for production)
+-   Docker (optional for containerization)
 
-### Installation
+## Local Development 💻
+
+1. Install dependencies:
 
 ```bash
-# Install dependencies
 pnpm install
+```
 
+2. Configure environment:
+
+```bash
 # Copy environment file
 cp .env.example .env
+
+# Edit .env file with your configurations
+vim .env
 ```
 
-### Development
+3. Start development server:
 
 ```bash
-# Start development server
+# Start with hot reload
 pnpm dev
-
-# Run tests
-pnpm jest
-
-# Run linting
-pnpm lint
-
-# Run linting on all files
-pnpm lint:all
-
-# Format code
-pnpm prettier
-
-# Format code on all files
-pnpm prettier:all
 ```
 
-### Production Deployment
-
-#### Using PM2
+4. Run tests:
 
 ```bash
-# Build the application
-pnpm build
+# Run tests
+pnpm test
 
+# Run tests in watch mode
+pnpm test:watch
+
+# Generate coverage report
+pnpm test:coverage
+```
+
+## Production Deployment 🚀
+
+### Using PM2
+
+1. Build the application:
+
+```bash
+pnpm build
+```
+
+2. Configure PM2:
+
+```bash
 # Start with PM2
 pnpm pm2
 ```
 
-#### Using Docker
+### Using Docker
+
+1. Build Docker image:
 
 ```bash
-# Build Docker image
+# Build image
 docker build -t api-service .
+```
 
-# Run with docker-compose
+2. Run container:
+
+```bash
+# Run with environment variables
+docker run -d \
+  --name api-service \
+  -p 3000:3000 \
+  -e DB_HOST=host.docker.internal \
+  -e DB_PORT=3306 \
+  -e DB_NAME=your_db_name \
+  -e DB_USER=your_db_user \
+  -e DB_PASSWORD=your_db_password \
+  -e REDIS_HOST=host.docker.internal \
+  -e REDIS_PORT=6379 \
+  api-service
+
+# Or use docker-compose
 docker-compose up -d
 ```
+
+## API Documentation 📚
+
+API documentation is available in the `services/api-service/introduction` directory.
+
+### Main API Routes:
+
+-   🔐 `/api/v1/admin/*` - Admin management APIs
+-   🌐 `/api/v1/www/*` - Public APIs
 
 ## Project Structure 📁
 
 ```
 services/api-service/
 ├── app/                # Source code
-│   ├── controllers/   # API controllers
+│   ├── api/           # API routes & controllers
+│   ├── dao/           # Data Access Objects
 │   ├── models/        # Database models
-│   ├── routes/        # API routes
-│   ├── services/      # Business logic
-│   ├── utils/         # Utility functions
-│   └── validators/    # Request validators
+│   ├── services/      # Business logic services
+│   ├── middlewares/   # Custom middlewares
+│   └── utils/         # Utility functions
 ├── tests/             # Test files
-├── scripts/           # Build scripts
 ├── introduction/      # API documentation
 └── dist/             # Build output
 ```
 
 ## Environment Variables 🔧
 
-Copy `.env.example` to create your `.env` file:
-
-Required variables:
-
-```bash
-# Server Configuration
-PORT=3000                           # API server port
-MAIN_HOSTNAME="localhost:3000"  # Main application hostname
-APP_ENV="dev"                       # Application environment (dev/prod)
-NODE_ENV="development"              # Node environment (development/production)
-
-# Database Configuration
-DB_HOST="localhost"                 # MySQL host
-DB_PORT=3306                        # MySQL port
-DB_NAME=""                          # MySQL database name
-DB_USER=""                          # MySQL username
-DB_PASSWORD=                        # MySQL password
-
-# Redis Configuration
-REDIS_HOST="localhost"              # Redis host
-REDIS_PORT="6379"                   # Redis port
-
-# JWT Authentication
-ADMIN_ACCESS_SECRET_KEY=""            # Secret key for JWT access token
-ADMIN_REFRESH_SECRET_KEY=""           # Secret key for JWT refresh token
-ADMIN_ACCESS_EXPIRED=604800           # Access token expiration time (in seconds, default: 7 days)
-ADMIN_REFRESH_EXPIRED=2592000         # Refresh token expiration time (in seconds, default: 30 days)
-
-# OSS Configuration
-OSS_REGION=""                       # Aliyun OSS region (e.g., oss-cn-beijing)
-OSS_ACCESS_KEY_ID=""                # Aliyun OSS access key ID
-OSS_ACCESS_KEY_SECRET=""            # Aliyun OSS access key secret
-OSS_BUCKET=""                       # Aliyun OSS bucket name
-OSS_ENDPOINT=""                     # Aliyun OSS endpoint
-OSS_STORE_KEY=""                    # Aliyun OSS store key prefix
-
-# Initial Setup Flags
-CREATE_TABLE="false"                # Whether to create database tables on startup
-CREATE_ADMIN="false"                # Whether to create initial admin user
-
-# Initial Admin Account
-INITED_ADMIN_USERNAME=""           # Initial admin username
-INITED_ADMIN_PASSWORD=""           # Initial admin password
-INITED_ADMIN_EMAIL=""             # Initial admin email
-```
-
-## Introduction Documentation 📚
-
-Something about the backend experiences of mine is available `services/api-service/introduction`
+See `.env.example` for all required environment variables.
 
 ## License 📝
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author ✨
 
