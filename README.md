@@ -55,11 +55,15 @@ Every modern project needs a solid foundation:
 
 The backbone of our ecosystem! While it's starting simple, it's destined to power the entire `@ying-web` system. Watch this space! 🚀
 
+And see the detail at [README.md](./apps/api-service/README.md)
+
 ### @ying-web/admin 🎛️
 
 A sleek admin system built on our RBAC foundation in `@ying-web/api-service`.
 
 Check it out at [https://admin.krissarea.com](https://admin.krissarea.com)! ✨
+
+And see the detail at [README.md](./apps/admin/README.md)
 
 ### @ying-web/events ⛪
 
@@ -69,11 +73,15 @@ Check it out at [https://events.krissarea.com](https://events.krissarea.com)
 
 (Psst... might rename it to `@ying-web/christian` later, but first things first!)
 
+And see the detail at [README.md](./apps/events/README.md)
+
 ### @ying-web/diary 📔
 
 My personal diary project - a place to record my thoughts and experiences. It's not just a blog, it's a personal journal! 📖
 
 Check it out at [https://diary.krissarea.com](https://diary.krissarea.com)
+
+And see the detail at [README.md](./apps/diary/README.md)
 
 ### @ying-web/fe-docs 📚
 
@@ -81,9 +89,7 @@ My documentation site - a place to share my knowledge and experiences with the F
 
 Check it out at [https://fe.krissarea.com](https://fe.krissarea.com)! ✨
 
-### @ying-web/tools 🛠️
-
-My personal collection of handy utilities. Sure, npm has alternatives, but sometimes you just want to build your own tools, right? 😊
+And see the detail at [README.md](./apps/fe-docs/README.md)
 
 ### [wip] @ying-web/home 🏠
 
