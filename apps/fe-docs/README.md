@@ -4,7 +4,7 @@ A comprehensive front-end documentation site built with Next.js and Nextra.
 
 ## Overview 🌟
 
-This documentation site is part of the `@ying-web` ecosystem, built with Next.js 14 and Nextra. It serves as my knowledge base for front-end development, sharing experiences, and interview preparation resources.
+This documentation site is part of the `@ying-web` ecosystem, built with Next.js 14 and Nextra. It serves as a knowledge base for front-end development, sharing experiences, and interview preparation resources.
 
 ## Tech Stack 💻
 
@@ -17,20 +17,23 @@ This documentation site is part of the `@ying-web` ecosystem, built with Next.js
 -   🔍 **Full-text Search** - Quick content access
 -   📱 **Responsive Design** - Mobile-first approach
 
-## Getting Started 🚀
-
-### Prerequisites
+## Prerequisites 📋
 
 -   Node.js >= 18.16.0
 -   PNPM: 8.15.8 or 9.14.2
 
-### Development
+## Local Development 💻
+
+1. Install dependencies:
 
 ```bash
-# Install dependencies
 pnpm install
+```
 
-# Start development server (port 8080)
+2. Start development server:
+
+```bash
+# Start with hot reload (port 8080)
 pnpm dev
 
 # Run linting
@@ -38,12 +41,27 @@ pnpm lint
 
 # Run style linting
 pnpm stylelint
-
-# Format code
-pnpm prettier
 ```
 
-### Building for Production
+## Production Deployment 🚀
+
+### Vercel Deployment (Recommended) ▲
+
+This project is optimized for [Vercel](https://vercel.com) deployment.
+
+1. Connect your GitHub repository to Vercel
+2. Configure the following settings:
+
+    - Framework Preset: `Next.js`
+    - Build Command: `pnpm build`
+    - Output Directory: `.next`
+    - Install Command: `pnpm install`
+
+3. Deploy! Vercel will automatically handle the build and deployment process.
+
+Current deployment: [https://fe.krissarea.com](https://fe.krissarea.com)
+
+### Manual Deployment
 
 ```bash
 # Build for production
@@ -55,36 +73,18 @@ pnpm start
 
 ## Project Structure 📂
 
-```txt
+```
 apps/fe-docs/
 ├── pages/              # Documentation pages
 │   ├── interview/     # Interview preparation
-│   │   ├── general/   # General concepts
-│   │   ├── html/      # HTML topics
-│   │   ├── css/       # CSS topics
-│   │   ├── javascript/# JavaScript topics
-│   │   ├── typescript/# TypeScript topics
-│   │   ├── browser/   # Browser concepts
-│   │   ├── network/   # Network topics
-│   │   ├── algorithm/ # Algorithm topics
-│   │   ├── react/     # React topics
-│   │   └── vue/       # Vue topics
 │   └── _meta.json     # Navigation structure
 ├── components/        # Reusable components
+│   ├── layout/       # Layout components
+│   ├── common/       # Common UI components
+│   └── mdx/          # MDX-specific components
 ├── public/           # Static files
 └── theme.config.tsx  # Nextra theme configuration
 ```
-
-## Documentation Structure 📚
-
--   🎯 **Interview Preparation**
-    -   General Web Development
-    -   HTML, CSS, JavaScript
-    -   TypeScript
-    -   Browser & Network
-    -   React & Vue
-    -   Algorithms & Patterns
--   🛠️ **Project Documentation** [wip]
 
 ## License 📄
 
@@ -92,4 +92,4 @@ MIT © [Kris Chan](https://github.com/KRISACHAN)
 
 ---
 
-Made with ❤️ by Kris Chan
+Made with ❤️ by the @ying-web (Created with [Nextra](https://nextra.site/docs/docs-theme/start))

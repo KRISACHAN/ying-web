@@ -99,13 +99,91 @@ Stay tuned for more awesome stuff! ✨
 
 Remember: The best code is written with passion and a sprinkle of fun! 🎮
 
-## Project Structure 📂
+## Getting Started 🚀
+
+### Prerequisites 📋
+
+-   Node.js >= 18.16.0
+-   PNPM: 9.14.4
+-   Git
+
+### Local Development 💻
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/KRISACHAN/ying-web.git
+cd ying-web
+```
+
+2. Install dependencies:
+
+```bash
+pnpm install
+```
+
+3. Start a project:
+
+```bash
+pnpm dev
+# Select a project from the interactive CLI menu
+```
+
+4. Build projects:
+
+```bash
+# Build all projects
+pnpm build
+
+# Build specific project
+pnpm build:admin     # Build admin dashboard
+pnpm build:diary     # Build diary site
+pnpm build:events    # Build events platform
+pnpm build:fe-docs   # Build documentation site
+pnpm build:api-service # Build API service
+```
+
+### Deployment 🌐
+
+#### Frontend Projects
+
+Most frontend projects are deployed on Vercel:
+
+-   Admin Dashboard: [admin.krissarea.com](https://admin.krissarea.com)
+-   Diary: [diary.krissarea.com](https://diary.krissarea.com)
+-   Events: [events.krissarea.com](https://events.krissarea.com)
+-   Documentation: [fe.krissarea.com](https://fe.krissarea.com)
+
+#### Backend Services
+
+API Service is deployed using PM2:
+
+```bash
+pnpm deploy
+```
+
+### Development Scripts 🛠
+
+-   `pnpm dev` - Start development server (interactive)
+-   `pnpm build` - Build all projects
+-   `pnpm clean` - Clean build artifacts
+-   `pnpm deploy` - Deploy services
+-   `pnpm test` - Run tests
+-   `pnpm lint` - Run linting
+-   `pnpm format` - Format code
+-   `pnpm cz` - Commit changes using Commitizen
+-   `pnpm changeset` - Create a changeset
+-   `pnpm version` - Update versions
+-   `pnpm release` - Publish packages
+
+### Project Structure 📂
 
 ```txt
 @ying-web/
-├── apps/                   # Frontend applications
-├── packages/              # Shared packages
-└── services/             # Backend services
+├── apps/              # Frontend applications
+├── packages/         # Shared packages
+├── services/        # Backend services
+└── scripts/        # Build & deployment scripts
 ```
 
 ## License 📄
