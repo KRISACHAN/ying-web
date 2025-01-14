@@ -17,10 +17,6 @@
             "path": "packages/tools",
         },
         {
-            "name": "@ying-web/fe-docs",
-            "path": "apps/fe-docs",
-        },
-        {
             "name": "@ying-web/diary",
             "path": "apps/diary",
         },

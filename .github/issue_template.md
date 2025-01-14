@@ -45,35 +45,13 @@
 ### Applications
 
 -   [ ] @ying-web/diary (Blog)
-    -   [ ] Frontend
-    -   [ ] Content
-    -   [ ] SEO
-    -   [ ] Performance
--   [ ] @ying-web/fe-docs (Documentation)
-    -   [ ] Content Structure
-    -   [ ] Search Functionality
-    -   [ ] Navigation
-    -   [ ] Examples
 -   [ ] @ying-web/admin (Dashboard)
-    -   [ ] User Management
-    -   [ ] Analytics
-    -   [ ] Settings
 -   [ ] @ying-web/events (Platform)
-    -   [ ] Event Management
-    -   [ ] User Interface
-    -   [ ] Integration
 
 ### Infrastructure
 
 -   [ ] @ying-web/tools (Utilities)
-    -   [ ] Storage
-    -   [ ] Types
-    -   [ ] Utils
 -   [ ] @ying-web/api-service (Backend)
-    -   [ ] API Endpoints
-    -   [ ] Database
-    -   [ ] Authentication
-    -   [ ] Performance
 
 ## Current Behavior 🔍
 

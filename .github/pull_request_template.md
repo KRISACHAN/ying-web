@@ -22,7 +22,6 @@ Please make sure your code follows our standards and includes necessary tests/do
 -   [ ] @ying-web/events
 -   [ ] @ying-web/admin
 -   [ ] @ying-web/tools
--   [ ] @ying-web/fe-docs
 -   [ ] @ying-web/test-config
 -   [ ] @ying-web/eslint-config
 

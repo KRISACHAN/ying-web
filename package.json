@@ -11,7 +11,6 @@
         "build:admin": "turbo run build --filter @ying-web/admin",
         "build:diary": "turbo run build --filter @ying-web/diary",
         "build:events": "turbo run build --filter @ying-web/events",
-        "build:fe-docs": "turbo run build --filter @ying-web/fe-docs",
         "build:tools": "turbo run build --filter @ying-web/tools",
         "build:test-config": "turbo run build --filter @ying-web/test-config",
         "build:eslint-config": "turbo run build --filter @ying-web/eslint-config",

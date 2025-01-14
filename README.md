@@ -83,14 +83,6 @@ Check it out at [https://diary.krissarea.com](https://diary.krissarea.com)
 
 And see the detail at [README.md](./apps/diary/README.md)
 
-### @ying-web/fe-docs 📚
-
-My documentation site - a place to share my knowledge and experiences with the Front-end developer field! 📚
-
-Check it out at [https://fe.krissarea.com](https://fe.krissarea.com)! ✨
-
-And see the detail at [README.md](./apps/fe-docs/README.md)
-
 ### [wip] @ying-web/home 🏠
 
 My main website (maybe just an entry of my projects) at [https://www.krissarea.com](https://www.krissarea.com).
@@ -145,7 +137,6 @@ pnpm build
 pnpm build:admin     # Build admin dashboard
 pnpm build:diary     # Build diary site
 pnpm build:events    # Build events platform
-pnpm build:fe-docs   # Build documentation site
 pnpm build:api-service # Build API service
 ```
 
