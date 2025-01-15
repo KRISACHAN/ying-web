@@ -1,8 +1,7 @@
-import { Box, Snackbar, Typography, useTheme } from '@mui/material';
+import { Box, Snackbar, useTheme } from '@mui/material';
 import type { AxiosError } from 'axios';
-import { Gift, Heart } from 'lucide-react';
+import { Gift } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
-import Confetti from 'react-confetti';
 import { useParams } from 'react-router-dom';
 import { useLocalStorage } from 'usehooks-ts';
 
@@ -10,15 +9,15 @@ import HeaderInterface from '@/components/Header/Index';
 import InitialState from '@/components/InitialState/Index';
 import LoadingState from '@/components/LoadingState/Index';
 import TipBar from '@/components/TipBar/Index';
-import TransitionWrapper from '@/components/TransitionWrapper/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 import { getQuery } from '@/utils/query';
 
+import DialogInterface from '@/components/DialogInterface/Index';
+import ResultInterface from '@/components/ResultInterface/Index';
 import NumberAnimation from '../components/NumberAnimation';
-import { DialogInterface } from './components/DialogInterface';
 
 import './Page.less';
 
@@ -26,66 +25,6 @@ type GetActivityResponse = Pick<
     QueryLuckyNumberResponse,
     'activity_key' | 'name' | 'description'
 >;
-
-const ResultInterface: React.FC<{
-    luckyNumber: number;
-    storedName: string | null;
-    show: boolean;
-}> = ({ luckyNumber, storedName, show }) => {
-    return (
-        <>
-            <Confetti
-                width={window.innerWidth}
-                height={window.innerHeight}
-                recycle={false}
-                numberOfPieces={300}
-            />
-            <TransitionWrapper show={show}>
-                <Typography
-                    variant="h4"
-                    component="h2"
-                    sx={{
-                        mb: 1,
-                        color: '#F87171',
-                        fontWeight: 'bold',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: 1,
-                    }}
-                >
-                    <Heart />
-                    恭喜 {storedName}
-                </Typography>
-                <Typography
-                    variant="h6"
-                    sx={{
-                        mb: 1,
-                        color: '#F87171',
-                        textAlign: 'center',
-                    }}
-                >
-                    你的幸运号码是
-                </Typography>
-                <Box sx={{ position: 'relative', mb: 2 }}>
-                    <NumberAnimation number={luckyNumber ?? 0} />
-                </Box>
-                <Typography
-                    variant="body1"
-                    sx={{
-                        fontStyle: 'italic',
-                        color: '#F87171',
-                        textAlign: 'center',
-                    }}
-                >
-                    愿这个数字背后所蕴含的祝福，
-                    <br />
-                    能成为你未来日子的能力！
-                </Typography>
-            </TransitionWrapper>
-        </>
-    );
-};
 
 const LuckyNumberActivityPage: React.FC = () => {
     const { activityKey } = useParams<{ activityKey: string }>();
@@ -262,9 +201,19 @@ const LuckyNumberActivityPage: React.FC = () => {
                     />
                 ) : (
                     <ResultInterface
-                        luckyNumber={luckyNumber}
-                        storedName={storedName}
                         show={showResult}
+                        name={storedName}
+                        subtitle="你的幸运号码是"
+                        footer={
+                            <>
+                                愿这个数字背后所蕴含的祝福，
+                                <br />
+                                能成为你未来日子的能力！
+                            </>
+                        }
+                        resultComponent={
+                            <NumberAnimation number={luckyNumber} />
+                        }
                     />
                 )}
 

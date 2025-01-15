@@ -205,6 +205,202 @@ async function refreshAccessToken() {
 }
 ```
 
-## 6. Conclusion
+## 6. Security Best Practices
+
+### Token Storage
+
+When storing tokens in the frontend, consider the following security implications:
+
+-   **Access Token**: Store in memory when possible, or use `sessionStorage` for short-lived sessions
+-   **Refresh Token**: Store in `HttpOnly` cookies to prevent XSS attacks
+
+```javascript
+// Set HttpOnly cookie for Refresh Token
+ctx.cookies.set('refreshToken', refreshToken, {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'strict',
+    maxAge: 30 * 24 * 60 * 60 * 1000, // 30 days
+});
+```
+
+### Enhanced Token Security
+
+Use additional options when generating tokens to improve security:
+
+```javascript
+const tokenOptions = {
+    expiresIn: '15m',
+    algorithm: 'HS256',
+    audience: 'your-api',
+    issuer: 'your-service',
+};
+
+function generateAccessToken(user) {
+    return jwt.sign(
+        { id: user.id, email: user.email },
+        process.env.ACCESS_TOKEN_SECRET,
+        tokenOptions,
+    );
+}
+```
+
+### CSRF Protection
+
+Implement CSRF tokens for sensitive operations:
+
+```javascript
+const csrf = require('koa-csrf');
+
+// Add CSRF middleware
+app.use(
+    csrf({
+        invalidTokenMessage: 'Invalid CSRF token',
+        invalidTokenStatusCode: 403,
+        excludedMethods: ['GET', 'HEAD', 'OPTIONS'],
+        disableQuery: false,
+    }),
+);
+
+// Add CSRF token to protected routes
+router.post('/protected', verifyToken, async ctx => {
+    ctx.assertCSRF(ctx.request.body._csrf);
+    // ... rest of the handler
+});
+```
+
+### Token Rotation Strategy
+
+Implement token rotation to enhance security:
+
+```javascript
+async function rotateRefreshToken(oldRefreshToken) {
+    try {
+        const decoded = jwt.verify(
+            oldRefreshToken,
+            process.env.REFRESH_TOKEN_SECRET,
+        );
+        // Invalidate old refresh token
+        await invalidateRefreshToken(oldRefreshToken);
+        // Generate new refresh token
+        const user = { id: decoded.id };
+        return generateRefreshToken(user);
+    } catch (err) {
+        throw new Error('Invalid refresh token');
+    }
+}
+
+// Update refresh token endpoint
+router.post('/refresh-token', async ctx => {
+    const { refreshToken } = ctx.request.body;
+    try {
+        // Verify and rotate refresh token
+        const newRefreshToken = await rotateRefreshToken(refreshToken);
+        const decoded = jwt.verify(
+            refreshToken,
+            process.env.REFRESH_TOKEN_SECRET,
+        );
+        const newAccessToken = generateAccessToken({ id: decoded.id });
+
+        ctx.body = {
+            accessToken: newAccessToken,
+            refreshToken: newRefreshToken,
+        };
+    } catch (err) {
+        ctx.status = 403;
+        ctx.body = { message: 'Invalid refresh token' };
+    }
+});
+```
+
+### Rate Limiting
+
+Implement rate limiting to prevent abuse:
+
+```javascript
+const rateLimit = require('koa-ratelimit');
+const Redis = require('ioredis');
+
+// Rate limiting configuration
+app.use(
+    rateLimit({
+        driver: 'redis',
+        db: new Redis(),
+        duration: 60000, // 1 minute
+        max: 100, // limit each IP to 100 requests per duration
+        errorMessage: 'Too many requests, please try again later.',
+        id: ctx => ctx.ip,
+    }),
+);
+```
+
+### Improved Error Handling
+
+Implement detailed error handling for different token scenarios:
+
+```javascript
+async function verifyToken(ctx, next) {
+    const token = ctx.headers['authorization']?.split(' ')[1];
+    if (!token) {
+        ctx.status = 401;
+        ctx.body = { message: 'Token not found' };
+        return;
+    }
+
+    try {
+        const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET);
+        ctx.user = decoded;
+        await next();
+    } catch (err) {
+        if (err instanceof jwt.TokenExpiredError) {
+            ctx.status = 401;
+            ctx.body = { message: 'Token expired', code: 'TOKEN_EXPIRED' };
+        } else if (err instanceof jwt.JsonWebTokenError) {
+            ctx.status = 403;
+            ctx.body = { message: 'Invalid token', code: 'INVALID_TOKEN' };
+        } else {
+            ctx.status = 500;
+            ctx.body = { message: 'Internal server error' };
+        }
+    }
+}
+```
+
+## 7. Handling Concurrent Requests
+
+When dealing with multiple concurrent requests and token expiration:
+
+```javascript
+// Frontend utility for handling token refresh
+let refreshTokenPromise = null;
+
+async function getValidAccessToken() {
+    const accessToken = localStorage.getItem('accessToken');
+
+    if (!isTokenExpired(accessToken)) {
+        return accessToken;
+    }
+
+    // Ensure only one refresh request is made
+    if (!refreshTokenPromise) {
+        refreshTokenPromise = refreshAccessToken().finally(() => {
+            refreshTokenPromise = null;
+        });
+    }
+
+    await refreshTokenPromise;
+    return localStorage.getItem('accessToken');
+}
+
+// Usage in API calls
+async function apiCall() {
+    const accessToken = await getValidAccessToken();
+    // Make API request with valid token
+}
+```
+
+## 8. Conclusion
 
 JWT authentication, through the collaboration of Access Tokens and Refresh Tokens, provides secure and stateless user identity verification. Access Tokens are used for short-term authorization, while Refresh Tokens are used to obtain new Access Tokens, enhancing user experience. The Koa.js example demonstrates how to implement this process, ensuring security and convenience when users access protected resources.
+
+Additionally, implementing proper security measures such as secure token storage, CSRF protection, token rotation, and rate limiting is crucial for a robust JWT authentication system. Careful consideration of these security aspects, along with proper error handling and concurrent request management, ensures a secure and reliable authentication mechanism for your application.

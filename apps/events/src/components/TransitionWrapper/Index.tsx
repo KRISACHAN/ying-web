@@ -29,8 +29,7 @@ const TransitionWrapper: React.FC<TransitionWrapperProps> = ({
                     <Paper
                         elevation={4}
                         sx={{
-                            py: 4,
-                            px: 4,
+                            p: 2,
                             borderRadius: 4,
                             background: 'rgba(255, 255, 255, 0.9)',
                             backdropFilter: 'blur(10px)',

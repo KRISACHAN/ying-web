@@ -6,6 +6,8 @@ import NotFoundPage from './pages/404/Page';
 import IndexPage from './pages/Index/Page';
 import LuckyNumberActivityPage from './pages/LuckyNumber/Activity/Page';
 import LuckyNumberListPage from './pages/LuckyNumber/List/Page';
+import OptionDrawActivityPage from './pages/OptionDraw/Activity/Page';
+import OptionDrawListPage from './pages/OptionDraw/List/Page';
 import PromiseNewPage from './pages/Promise/New/Page';
 import PromisePage from './pages/Promise/Page';
 
@@ -30,6 +32,14 @@ function App() {
                         <Route
                             path="/lucky-number/:activityKey/activity"
                             element={<LuckyNumberActivityPage />}
+                        />
+                        <Route
+                            path="/option-draw/:activityKey"
+                            element={<OptionDrawListPage />}
+                        />
+                        <Route
+                            path="/option-draw/:activityKey/activity"
+                            element={<OptionDrawActivityPage />}
                         />
                         <Route path="*" element={<NotFoundPage />} />
                     </Routes>

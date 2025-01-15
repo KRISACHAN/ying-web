@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS `permissions`;
 DROP TABLE IF EXISTS `role_permissions`;
 
 CREATE TABLE `admin` (
-  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `username` VARCHAR(255) NOT NULL UNIQUE,
   `password` VARCHAR(255) NOT NULL,
   `email` VARCHAR(255) NOT NULL UNIQUE,
@@ -17,7 +17,7 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `role` (
-  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(255) NOT NULL UNIQUE,
   `description` TEXT,
   `created_at` DATETIME NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE `role` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `permissions` (
-  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(255) NOT NULL UNIQUE,
   `description` TEXT,
   `created_at` DATETIME NOT NULL,
@@ -37,9 +37,9 @@ CREATE TABLE `permissions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `role_permissions` (
-  `id` INT(11) NOT NULL AUTO_INCREMENT,
-  `role_id` INT(11) NOT NULL,
-  `permission_id` INT(11) NOT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `role_id` INT NOT NULL,
+  `permission_id` INT NOT NULL,
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
   `deleted_at` DATETIME,
@@ -50,9 +50,9 @@ CREATE TABLE `role_permissions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `admin_role` (
-  `id` INT(11) NOT NULL AUTO_INCREMENT,
-  `admin_id` INT(11) NOT NULL,
-  `role_id` INT(11) NOT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `admin_id` INT NOT NULL,
+  `role_id` INT NOT NULL,
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
   `deleted_at` DATETIME,

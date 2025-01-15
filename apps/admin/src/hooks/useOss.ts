@@ -18,7 +18,6 @@ export const useOss = () => {
     const uploadFile = useCallback(async (file: File) => {
         setLoading(true);
         try {
-            // 检查文件类型
             if (!Object.keys(ALLOWED_RESOURCE_TYPES).includes(file.type)) {
                 message.error('不支持的文件类型，仅支持图片、视频和音频文件');
                 return Promise.reject();
@@ -45,7 +44,6 @@ export const useOss = () => {
                 },
             );
 
-            // 添加资源类型到返回值
             return {
                 ...response,
                 data: {

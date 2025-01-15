@@ -30,7 +30,7 @@ export const useLuckyNumber = () => {
                 const { data } = response ?? {};
                 return data;
             } catch (err) {
-                setError('创建活动失败');
+                setError('创建新活动失败');
                 throw err;
             } finally {
                 setLoading(false);

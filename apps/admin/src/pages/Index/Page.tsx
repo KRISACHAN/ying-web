@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
 import { Card, Col, Row } from 'antd';
-import { Activity } from 'lucide-react';
+import { Activity, Book, Gift } from 'lucide-react';
 
 const Index = () => {
     const navigate = useNavigate();
@@ -9,12 +9,17 @@ const Index = () => {
     const cards = [
         {
             title: '幸运号码活动',
-            icon: <Activity className="h-8 w-8 text-blue-500" />,
+            icon: <Gift className="h-8 w-8 text-blue-500" />,
             onClick: () => navigate('/lucky-number'),
         },
         {
+            title: '选项抽取活动',
+            icon: <Activity className="h-8 w-8 text-green-500" />,
+            onClick: () => navigate('/option-draw'),
+        },
+        {
             title: '圣经应许',
-            icon: <Activity className="h-8 w-8 text-blue-500" />,
+            icon: <Book className="h-8 w-8 text-purple-500" />,
             onClick: () => navigate('/promise/category'),
         },
     ];
