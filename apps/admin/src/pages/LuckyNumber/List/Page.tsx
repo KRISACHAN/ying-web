@@ -6,7 +6,8 @@ import dayjs from 'dayjs';
 
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
-import type { LuckyNumberActivity, Pagination } from '@/types/luckyNumber';
+import type { Pagination } from '@/types';
+import type { LuckyNumberActivity } from '@/types/luckyNumber';
 import { LUCKY_NUMBER_STATUS } from '@/utils/constants';
 
 const ErrorInterface: React.FC = () => {
@@ -62,14 +63,14 @@ const LuckyNumberList = () => {
 
     const columns = [
         {
-            title: '活动ID',
-            dataIndex: 'id',
-            key: 'id',
-        },
-        {
             title: '活动标识',
             dataIndex: 'key',
             key: 'key',
+        },
+        {
+            title: '活动名称',
+            dataIndex: 'name',
+            key: 'name',
         },
         {
             title: '创建时间',

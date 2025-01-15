@@ -32,11 +32,16 @@ export class NumberPoolDao {
     }
 
     static async getCount(activityId) {
-        const res = await NumberPoolModel.count({
-            where: {
-                activity_id: activityId,
-            },
-        });
-        return res;
+        try {
+            const res = await NumberPoolModel.count({
+                where: {
+                    activity_id: activityId,
+                },
+            });
+            return res;
+        } catch (error) {
+            log.error(error);
+            throw INTERNAL_SERVER_ERROR('获取幸运号码数量失败');
+        }
     }
 }
