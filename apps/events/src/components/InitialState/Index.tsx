@@ -56,6 +56,7 @@ const InitialState: React.FC<InitialStateProps> = ({
                         animation: 'float 3s ease-in-out infinite',
                         mx: 'auto',
                         display: 'block',
+                        boxShadow: 'none',
                     }}
                 />
                 <Typography

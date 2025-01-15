@@ -1,5 +1,5 @@
 import { DownloadOutlined } from '@ant-design/icons';
-import { Button, Card, message, Popconfirm, Space, Table } from 'antd';
+import { Button, Card, message, Popconfirm, Space, Table, Tag } from 'antd';
 import React, { type MouseEventHandler, useEffect, useState } from 'react';
 import { CSVLink } from 'react-csv';
 import { Link, useNavigate, useParams } from 'react-router-dom';
@@ -251,11 +251,25 @@ const LuckyNumberDetail = () => {
                     <div>
                         <p className="font-bold">活动状态：</p>
                         <Space>
-                            <span>
+                            <Tag
+                                color={
+                                    eq(
+                                        activityInfo?.status,
+                                        LUCKY_NUMBER_STATUS.NOT_STARTED,
+                                    )
+                                        ? 'default'
+                                        : eq(
+                                                activityInfo?.status,
+                                                LUCKY_NUMBER_STATUS.ONGOING,
+                                            )
+                                          ? 'processing'
+                                          : 'error'
+                                }
+                            >
                                 {getLuckyNumberStatusLabel(
                                     activityInfo?.status,
                                 )}
-                            </span>
+                            </Tag>
                             {eq(
                                 activityInfo?.status,
                                 LUCKY_NUMBER_STATUS.NOT_STARTED,

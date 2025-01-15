@@ -4,6 +4,7 @@ import { UserParticipationDao } from '@dao/lucky-number/user-participation';
 import {
     drawLuckyNumberValidatorMiddleware,
     luckyNumberKeyValidatorMiddleware,
+    queryLuckyNumberValidatorMiddleware,
 } from '@middlewares/validators/lucky-number';
 import { sequelize } from '@services/db';
 import { LUCKY_NUMBER_STATUS } from '@utils/constants';
@@ -86,6 +87,7 @@ router.post(
 router.get(
     '/lucky-number/query/:key',
     luckyNumberKeyValidatorMiddleware,
+    queryLuckyNumberValidatorMiddleware,
     async ctx => {
         const { key } = ctx.params;
         const { page_num = 1, page_size = 10 } = ctx.query;

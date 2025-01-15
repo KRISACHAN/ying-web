@@ -144,7 +144,7 @@ const LuckyNumberCreate = () => {
                             htmlType="submit"
                             loading={loading}
                         >
-                            创建活动
+                            创建新活动
                         </Button>
                     </Form.Item>
                 </Form>

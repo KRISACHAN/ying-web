@@ -73,6 +73,11 @@ const BaseLayout = () => {
                                 label: '幸运号码活动',
                                 onClick: () => navigate('/lucky-number'),
                             },
+                            {
+                                key: '3',
+                                label: '选项抽取活动',
+                                onClick: () => navigate('/option-draw'),
+                            },
                         ]}
                     />
                 </Sider>
