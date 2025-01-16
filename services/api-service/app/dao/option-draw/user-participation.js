@@ -1,11 +1,12 @@
-import { UserParticipationModel } from '@models/lucky-number/user-participation';
+import { UserParticipationModel } from '@models/option-draw/user-participation';
 import { ERROR_NAMES } from '@utils/constants';
 import { INTERNAL_SERVER_ERROR, PRECONDITION_FAILED } from '@utils/http-errors';
 import log from '@utils/log';
 import { eq } from 'lodash';
+import { Op } from 'sequelize';
 
 export class UserParticipationDao {
-    static async create({ activity_id, username, drawn_number }, transaction) {
+    static async create({ activity_id, username, drawn_option }, transaction) {
         try {
             const existingParticipation = await UserParticipationModel.findOne({
                 where: {
@@ -15,14 +16,14 @@ export class UserParticipationDao {
             });
 
             if (existingParticipation) {
-                throw PRECONDITION_FAILED('用户已经参与过该活动');
+                throw PRECONDITION_FAILED('用户已参与该活动');
             }
 
             const res = await UserParticipationModel.create(
                 {
                     activity_id,
                     username,
-                    drawn_number,
+                    drawn_option,
                 },
                 {
                     transaction,
@@ -32,13 +33,13 @@ export class UserParticipationDao {
         } catch (error) {
             log.error(error);
             if (eq(error.name, ERROR_NAMES.SEQUELIZE_UNIQUE_CONSTRAINT_ERROR)) {
-                throw PRECONDITION_FAILED('用户已经参与过该活动');
+                throw PRECONDITION_FAILED('用户已参与该活动');
             }
             throw error;
         }
     }
 
-    static async search({ activity_id, id, drawn_number, username }) {
+    static async search({ activity_id, id, drawn_option, username }) {
         try {
             const where = {};
             if (activity_id) {
@@ -47,8 +48,8 @@ export class UserParticipationDao {
             if (username) {
                 where.username = username;
             }
-            if (drawn_number) {
-                where.drawn_number = drawn_number;
+            if (drawn_option) {
+                where.drawn_option = drawn_option;
             }
             if (id) {
                 where.id = id;
@@ -96,7 +97,7 @@ export class UserParticipationDao {
         page_size = 10,
         activity_id,
         username,
-        drawn_number,
+        drawn_option,
         order = 'DESC',
     }) {
         try {
@@ -109,9 +110,9 @@ export class UserParticipationDao {
                     [Op.like]: `%${username}%`,
                 };
             }
-            if (drawn_number) {
-                whereQuery.drawn_number = {
-                    [Op.like]: `%${drawn_number}%`,
+            if (drawn_option) {
+                whereQuery.drawn_option = {
+                    [Op.like]: `%${drawn_option}%`,
                 };
             }
 
@@ -120,7 +121,7 @@ export class UserParticipationDao {
                     'id',
                     'activity_id',
                     'username',
-                    'drawn_number',
+                    'drawn_option',
                     'created_at',
                 ],
                 where: whereQuery,

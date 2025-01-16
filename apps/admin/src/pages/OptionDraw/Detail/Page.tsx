@@ -4,12 +4,12 @@ import React, { type MouseEventHandler, useEffect, useState } from 'react';
 import { CSVLink } from 'react-csv';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 
-import { useLuckyNumber } from '@/hooks/useLuckyNumber';
+import { useOptionDraw } from '@/hooks/useOptionDraw';
 import NotFoundPage from '@/pages/404/Page';
-import type { ActivityInfo, LuckyNumber } from '@/types/luckyNumber';
+import type { ActivityInfo, OptionDraw } from '@/types/optionDraw';
 import {
-    getLuckyNumberStatusLabel,
-    LUCKY_NUMBER_STATUS,
+    getOptionDrawStatusLabel,
+    OPTION_DRAW_STATUS,
 } from '@/utils/constants';
 import { eq } from 'lodash';
 
@@ -17,21 +17,22 @@ const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
 };
 
-const LuckyNumberDetail = () => {
+const OptionDrawDetail = () => {
     const { key } = useParams<{ key: string }>();
     const navigate = useNavigate();
     const {
         queryActivity,
         loading,
+        error,
         cancelParticipation,
         updateActivityStatus,
         deleteActivity,
-        getActivityInfo,
+        getActivityDetail,
         getAllParticipations,
-    } = useLuckyNumber();
-    const [numbers, setNumbers] = useState<LuckyNumber[]>([]);
+    } = useOptionDraw();
+    const [participations, setParticipations] = useState<OptionDraw[]>([]);
     const [activityKey, setActivityKey] = useState<string>('');
-    const [error, setError] = useState<Error | null>(null);
+    const [activityInfo, setActivityInfo] = useState<ActivityInfo | null>(null);
     const [pagination, setPagination] = useState<{
         current: number;
         pageSize: number;
@@ -41,10 +42,9 @@ const LuckyNumberDetail = () => {
         pageSize: 10,
         total: 0,
     });
-    const [activityInfo, setActivityInfo] = useState<ActivityInfo | null>(null);
     const [csvData, setCSVData] = useState<
         Array<{
-            drawn_number: number;
+            drawn_option: string;
             username: string;
             created_at: string;
         }>
@@ -55,7 +55,7 @@ const LuckyNumberDetail = () => {
         try {
             const data = await queryActivity(key, page, pageSize);
             setActivityKey(key);
-            setNumbers(data.list);
+            setParticipations(data.list);
             setPagination({
                 current: page,
                 pageSize: pageSize,
@@ -64,7 +64,7 @@ const LuckyNumberDetail = () => {
 
             const allData = await getAllParticipations(key);
             const exportData = allData.map(record => ({
-                drawn_number: record.drawn_number,
+                drawn_option: record.drawn_option || '-',
                 username: record.username || '-',
                 created_at: record.created_at
                     ? new Date(record.created_at).toLocaleString('zh-CN')
@@ -72,7 +72,6 @@ const LuckyNumberDetail = () => {
             }));
             setCSVData(exportData);
         } catch (err) {
-            setError(err as Error);
             console.error(err);
         }
     };
@@ -80,23 +79,31 @@ const LuckyNumberDetail = () => {
     const fetchActivityInfo = async () => {
         if (!key) return;
         try {
-            const data = await getActivityInfo(key);
+            const data = await getActivityDetail(key);
             setActivityInfo(data);
             setActivityKey(data.activity_key);
         } catch (err) {
-            setError(err as Error);
             console.error(err);
         }
     };
 
-    const handleCancel = async (record: LuckyNumber) => {
-        return cancelParticipation({
-            key: activityKey,
-            drawn_number: record.drawn_number,
-            username: record.username || '',
-        }).finally(() => {
-            fetchActivity();
-        });
+    useEffect(() => {
+        fetchActivity();
+        fetchActivityInfo();
+    }, [key]);
+
+    const handleCancel = async (record: OptionDraw) => {
+        if (!record.username) return;
+        try {
+            await cancelParticipation({
+                key: activityKey,
+                username: record.username,
+            });
+            message.success('取消参与成功');
+            fetchActivity(pagination.current, pagination.pageSize);
+        } catch {
+            message.error('取消参与失败');
+        }
     };
 
     const handleUpdateStatus = async (newStatus: string) => {
@@ -104,6 +111,7 @@ const LuckyNumberDetail = () => {
             await updateActivityStatus(activityKey, newStatus);
             message.success('状态更新成功');
             fetchActivity();
+            fetchActivityInfo();
         } catch {
             message.error('状态更新失败');
         }
@@ -111,67 +119,64 @@ const LuckyNumberDetail = () => {
 
     const handleDelete = async () => {
         try {
-            await deleteActivity(activityKey!);
+            if (!key) return;
+            await deleteActivity(key);
             message.success('活动删除成功');
-            navigate('/lucky-number');
-        } catch (err) {
-            message.error('删除失败，请稍后重试');
-            console.error('Delete activity error:', err);
+            navigate('/option-draw');
+        } catch {
+            message.error('删除失败');
         }
     };
-
-    useEffect(() => {
-        fetchActivityInfo();
-        fetchActivity(1, pagination.pageSize);
-    }, [key]);
-
-    const columns = [
-        {
-            title: '号码',
-            dataIndex: 'drawn_number',
-            key: 'drawn_number',
-        },
-        {
-            title: '抽取人',
-            dataIndex: 'username',
-            key: 'username',
-            render: (text: string | null) => text || '-',
-        },
-        {
-            title: '抽取时间',
-            dataIndex: 'created_at',
-            key: 'created_at',
-            render: (text: string | null) =>
-                text ? new Date(text).toLocaleString('zh-CN') : '-',
-        },
-        {
-            title: '操作',
-            key: 'action',
-            render: (_: any, record: LuckyNumber) =>
-                record.username ? (
-                    <Popconfirm
-                        title="确认取消"
-                        description="确定要取消该用户的抽取记录吗？"
-                        onConfirm={() => handleCancel(record)}
-                        okText="确定"
-                        cancelText="取消"
-                    >
-                        <Button type="link" danger>
-                            取消抽取
-                        </Button>
-                    </Popconfirm>
-                ) : null,
-        },
-    ];
 
     if (error?.toString?.()?.includes('404')) {
         return <ErrorInterface />;
     }
 
+    const columns = [
+        {
+            title: '用户名',
+            dataIndex: 'username',
+            key: 'username',
+        },
+        {
+            title: '抽取选项',
+            dataIndex: 'drawn_option',
+            key: 'drawn_option',
+        },
+        {
+            title: '参与时间',
+            dataIndex: 'created_at',
+            key: 'created_at',
+            render: (text: string) =>
+                text ? new Date(text).toLocaleString('zh-CN') : '-',
+        },
+        {
+            title: '操作',
+            key: 'action',
+            render: (_: unknown, record: OptionDraw) => (
+                <Space>
+                    {record.username && (
+                        <Popconfirm
+                            title="确认取消"
+                            description="确定要取消该用户的抽取记录吗？"
+                            onConfirm={() => handleCancel(record)}
+                            okText="确定"
+                            cancelText="取消"
+                        >
+                            <Button type="link" danger>
+                                取消抽取
+                            </Button>
+                        </Popconfirm>
+                    )}
+                </Space>
+            ),
+        },
+    ];
+
     return (
         <div className="p-6">
             <Card
-                title={`活动详情 - ${activityInfo?.activity_key}`}
+                title={`活动详情 - ${activityInfo?.activity_key || ''}`}
                 loading={loading}
                 className="mb-6"
                 extra={
@@ -179,11 +184,13 @@ const LuckyNumberDetail = () => {
                         <CSVLink
                             data={csvData}
                             headers={[
-                                { label: '号码', key: 'drawn_number' },
+                                { label: '选项', key: 'drawn_option' },
                                 { label: '抽取人', key: 'username' },
                                 { label: '抽取时间', key: 'created_at' },
                             ]}
-                            filename={`幸运号码-${activityInfo?.name || '未命名'}-${new Date().toLocaleDateString('zh-CN')}.csv`}
+                            filename={`选项抽取-${
+                                activityInfo?.name || '未命名'
+                            }-${new Date().toLocaleDateString('zh-CN')}.csv`}
                             className="ant-btn ant-btn-primary"
                             onClick={(
                                 event: MouseEventHandler<HTMLAnchorElement>,
@@ -202,7 +209,7 @@ const LuckyNumberDetail = () => {
                         </CSVLink>
                         {eq(
                             activityInfo?.status,
-                            LUCKY_NUMBER_STATUS.NOT_STARTED,
+                            OPTION_DRAW_STATUS.NOT_STARTED,
                         ) && (
                             <Popconfirm
                                 title="确认删除"
@@ -229,7 +236,7 @@ const LuckyNumberDetail = () => {
                         <p>{activityInfo?.description || '-'}</p>
                     </div>
                     <div>
-                        <p className="font-bold">总号码数量：</p>
+                        <p className="font-bold">选项数量：</p>
                         <p>{activityInfo?.count || '-'}</p>
                     </div>
                     <div>
@@ -238,10 +245,10 @@ const LuckyNumberDetail = () => {
                             {activityInfo?.activity_key ? (
                                 <Link
                                     className="text-blue-500 hover:text-blue-700"
-                                    to={`${import.meta.env.VITE_EVENTS_BASE_URL}/lucky-number/${activityInfo.activity_key}/activity`}
+                                    to={`${import.meta.env.VITE_EVENTS_BASE_URL}/option-draw/${activityInfo.activity_key}/activity`}
                                     target="_blank"
                                 >
-                                    {`${import.meta.env.VITE_EVENTS_BASE_URL}/lucky-number/${activityInfo.activity_key}/activity`}
+                                    {`${import.meta.env.VITE_EVENTS_BASE_URL}/option-draw/${activityInfo.activity_key}/activity`}
                                 </Link>
                             ) : (
                                 '-'
@@ -255,31 +262,29 @@ const LuckyNumberDetail = () => {
                                 color={
                                     eq(
                                         activityInfo?.status,
-                                        LUCKY_NUMBER_STATUS.NOT_STARTED,
+                                        OPTION_DRAW_STATUS.NOT_STARTED,
                                     )
                                         ? 'default'
                                         : eq(
                                                 activityInfo?.status,
-                                                LUCKY_NUMBER_STATUS.ONGOING,
+                                                OPTION_DRAW_STATUS.ONGOING,
                                             )
                                           ? 'processing'
                                           : 'error'
                                 }
                             >
-                                {getLuckyNumberStatusLabel(
-                                    activityInfo?.status,
-                                )}
+                                {getOptionDrawStatusLabel(activityInfo?.status)}
                             </Tag>
                             {eq(
                                 activityInfo?.status,
-                                LUCKY_NUMBER_STATUS.NOT_STARTED,
+                                OPTION_DRAW_STATUS.NOT_STARTED,
                             ) && (
                                 <Popconfirm
                                     title="确认开始"
                                     description="确定要开始这个活动吗？"
                                     onConfirm={() =>
                                         handleUpdateStatus(
-                                            LUCKY_NUMBER_STATUS.ONGOING,
+                                            OPTION_DRAW_STATUS.ONGOING,
                                         )
                                     }
                                     okText="确定"
@@ -292,14 +297,14 @@ const LuckyNumberDetail = () => {
                             )}
                             {eq(
                                 activityInfo?.status,
-                                LUCKY_NUMBER_STATUS.ONGOING,
+                                OPTION_DRAW_STATUS.ONGOING,
                             ) && (
                                 <Popconfirm
                                     title="确认结束"
                                     description="确定要结束这个活动吗？结束后将无法继续抽取"
                                     onConfirm={() =>
                                         handleUpdateStatus(
-                                            LUCKY_NUMBER_STATUS.ENDED,
+                                            OPTION_DRAW_STATUS.ENDED,
                                         )
                                     }
                                     okText="确定"
@@ -320,27 +325,45 @@ const LuckyNumberDetail = () => {
                                 : '不限制参与人数'}
                         </p>
                     </div>
+                    <div>
+                        <p className="font-bold">允许重复选项：</p>
+                        <p>
+                            {activityInfo?.allow_duplicate_options
+                                ? '是'
+                                : '否'}
+                        </p>
+                    </div>
                 </div>
             </Card>
 
-            <Table
-                columns={columns}
-                dataSource={numbers}
-                rowKey={record =>
-                    `${record.drawn_number}_${record.username || 'empty'}`
-                }
-                loading={loading}
-                pagination={{
-                    current: pagination.current,
-                    pageSize: pagination.pageSize,
-                    total: pagination.total,
-                    onChange: (page, pageSize) => {
-                        fetchActivity(page, pageSize);
-                    },
-                }}
-            />
+            <Card title="选项列表" className="mb-6">
+                <div className="flex flex-wrap gap-2">
+                    {activityInfo?.options.map(option => (
+                        <Tag key={option}>{option}</Tag>
+                    ))}
+                </div>
+            </Card>
+
+            <Card title="参与记录">
+                <Table
+                    columns={columns}
+                    dataSource={participations}
+                    rowKey={record =>
+                        `${record.drawn_option}_${record.username || 'empty'}`
+                    }
+                    loading={loading}
+                    pagination={{
+                        current: pagination.current,
+                        pageSize: pagination.pageSize,
+                        total: pagination.total,
+                        onChange: (page, pageSize) => {
+                            fetchActivity(page, pageSize);
+                        },
+                    }}
+                />
+            </Card>
         </div>
     );
 };
 
-export default LuckyNumberDetail;
+export default OptionDrawDetail;
