@@ -8,7 +8,7 @@ This RBAC (Role-Based Access Control) system is designed to manage user permissi
 
 | Column Name | Type         | Description                           |
 | ----------- | ------------ | ------------------------------------- |
-| id          | int(11)      | Primary key, auto-increment           |
+| id          | INT          | Primary key, auto-increment           |
 | username    | varchar(255) | Unique username                       |
 | password    | varchar(255) | User password                         |
 | email       | varchar(255) | Unique email address                  |
@@ -20,7 +20,7 @@ This RBAC (Role-Based Access Control) system is designed to manage user permissi
 
 | Column Name | Type         | Description                 |
 | ----------- | ------------ | --------------------------- |
-| id          | int(11)      | Primary key, auto-increment |
+| id          | INT          | Primary key, auto-increment |
 | name        | varchar(255) | Unique role name            |
 | description | text         | Role description            |
 | created_at  | datetime     | Record creation timestamp   |
@@ -30,7 +30,7 @@ This RBAC (Role-Based Access Control) system is designed to manage user permissi
 
 | Column Name | Type         | Description                 |
 | ----------- | ------------ | --------------------------- |
-| id          | int(11)      | Primary key, auto-increment |
+| id          | INT          | Primary key, auto-increment |
 | name        | varchar(255) | Unique permission name      |
 | description | text         | Permission description      |
 | created_at  | datetime     | Record creation timestamp   |
@@ -40,9 +40,9 @@ This RBAC (Role-Based Access Control) system is designed to manage user permissi
 
 | Column Name   | Type     | Description                        |
 | ------------- | -------- | ---------------------------------- |
-| id            | int(11)  | Primary key, auto-increment        |
-| role_id       | int(11)  | Role ID, unique with permission_id |
-| permission_id | int(11)  | Permission ID, unique with role_id |
+| id            | INT      | Primary key, auto-increment        |
+| role_id       | INT      | Role ID, unique with permission_id |
+| permission_id | INT      | Permission ID, unique with role_id |
 | created_at    | datetime | Record creation timestamp          |
 | updated_at    | datetime | Record update timestamp            |
 
@@ -50,9 +50,9 @@ This RBAC (Role-Based Access Control) system is designed to manage user permissi
 
 | Column Name | Type     | Description                   |
 | ----------- | -------- | ----------------------------- |
-| id          | int(11)  | Primary key, auto-increment   |
-| admin_id    | int(11)  | User ID, unique with role_id  |
-| role_id     | int(11)  | Role ID, unique with admin_id |
+| id          | INT      | Primary key, auto-increment   |
+| admin_id    | INT      | User ID, unique with role_id  |
+| role_id     | INT      | Role ID, unique with admin_id |
 | created_at  | datetime | Record creation timestamp     |
 | updated_at  | datetime | Record update timestamp       |
 

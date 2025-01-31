@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS `promise_category`;
 DROP TABLE IF EXISTS `promise`;
 
 CREATE TABLE `promise_category` (
-  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(20) NOT NULL UNIQUE,
   `description` VARCHAR(100),
   `is_published` BOOLEAN NOT NULL DEFAULT FALSE,
@@ -13,8 +13,8 @@ CREATE TABLE `promise_category` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `promise` (
-  `id` INT(11) NOT NULL AUTO_INCREMENT,
-  `category_id` INT(11) NOT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `category_id` INT NOT NULL,
   `category_name` VARCHAR(20) NOT NULL,
   `chapter` VARCHAR(20) NOT NULL,
   `text` VARCHAR(255) NOT NULL,

@@ -78,13 +78,17 @@ export class UserParticipationDao {
     }
 
     static async getCount(activityId) {
-        const count = await UserParticipationModel.count({
-            where: {
-                activity_id: activityId,
-            },
-        });
-
-        return count;
+        try {
+            const count = await UserParticipationModel.count({
+                where: {
+                    activity_id: activityId,
+                },
+            });
+            return count;
+        } catch (error) {
+            log.error(error);
+            throw INTERNAL_SERVER_ERROR('获取用户参与记录数量失败');
+        }
     }
 
     static async query({

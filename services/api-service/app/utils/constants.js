@@ -35,7 +35,12 @@ export const ADMIN_PERMISSIONS = Object.freeze({
 });
 
 export const LUCKY_NUMBER_STATUS = Object.freeze({
-    NOT_FOUND: 'not_found',
+    NOT_STARTED: 'not_started',
+    ONGOING: 'ongoing',
+    ENDED: 'ended',
+});
+
+export const OPTION_DRAW_STATUS = Object.freeze({
     NOT_STARTED: 'not_started',
     ONGOING: 'ongoing',
     ENDED: 'ended',

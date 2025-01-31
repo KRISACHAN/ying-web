@@ -11,6 +11,9 @@ import LoginPage from './pages/Login/Page';
 import LuckyNumberCreatePage from './pages/LuckyNumber/Create/Page';
 import LuckyNumberDetailPage from './pages/LuckyNumber/Detail/Page';
 import LuckyNumberListPage from './pages/LuckyNumber/List/Page';
+import OptionDrawCreatePage from './pages/OptionDraw/Create/Page';
+import OptionDrawDetailPage from './pages/OptionDraw/Detail/Page';
+import OptionDrawListPage from './pages/OptionDraw/List/Page';
 import PromiseCategoryCreatePage from './pages/Promise/Category/Create/Page';
 import PromiseCategoryDetailPage from './pages/Promise/Category/Detail/Page';
 import PromiseCategoryListPage from './pages/Promise/Category/List/Page';
@@ -45,6 +48,18 @@ function App() {
                         <Route
                             path="lucky-number/:key"
                             element={<LuckyNumberDetailPage />}
+                        />
+                        <Route
+                            path="option-draw"
+                            element={<OptionDrawListPage />}
+                        />
+                        <Route
+                            path="option-draw/create"
+                            element={<OptionDrawCreatePage />}
+                        />
+                        <Route
+                            path="option-draw/:key"
+                            element={<OptionDrawDetailPage />}
                         />
                         <Route
                             path="promise/category"
