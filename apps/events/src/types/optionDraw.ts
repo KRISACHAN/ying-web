@@ -4,11 +4,7 @@ export interface ActivityInfo {
     activity_key: string;
     name: string;
     description: string;
-    participant_limit: number;
-    allow_duplicate_options: boolean;
     status: string;
-    count: number;
-    options: string[];
 }
 
 // GET /api/v1/option-draw/query/:key

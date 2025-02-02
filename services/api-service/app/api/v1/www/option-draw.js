@@ -127,20 +127,13 @@ router.get(
             throw BAD_REQUEST('活动未开始或已结束');
         }
 
-        const options = await OptionPoolDao.getOptionsByActivityId(activity.id);
-        const count = await UserParticipationDao.getCount(activity.id);
-
         ctx.response.status = httpStatus.OK;
         ctx.body = {
             id: activity.id,
             activity_key: activity.key,
             name: activity.name,
             description: activity.description,
-            participant_limit: activity.participant_limit,
-            allow_duplicate_options: activity.allow_duplicate_options,
             status: activity.status,
-            options,
-            count,
         };
     },
 );
