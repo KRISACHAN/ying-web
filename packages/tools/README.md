@@ -1,6 +1,8 @@
+[English Documentation](/packages/tools/README.md) · [中文文档](/packages/tools/README.zh-CN.md)
+
 # @ying-web/tools 🛠️
 
-A pure TypeScript utility collection designed for the @ying-web ecosystem.
+A pure TypeScript utility collection designed for the @ying-web.
 
 ## Overview 🌟
 
@@ -72,7 +74,11 @@ packages/tools/
 
 ## License 📄
 
-MIT © [Kris Chan](https://github.com/KRISACHAN)
+MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author ✨
+
+Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
 
 ---
 

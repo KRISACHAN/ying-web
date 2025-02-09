@@ -1,6 +1,8 @@
+[English Documentation](/services/api-service/README.md) · [中文文档](/services/api-service/README.zh-CN.md)
+
 # @ying-web/api-service 🚀
 
-A robust, Koa.js-powered API service with MySQL integration for the @ying-web ecosystem.
+A robust, Koa.js-powered API service with MySQL integration for the @ying-web.
 
 ## Overview 🌟
 

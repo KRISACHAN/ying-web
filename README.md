@@ -1,3 +1,5 @@
+[English Documentation](/README.md) · [中文文档](/README.zh-CN.md)
+
 # @ying-web 🌟
 
 ## Who am I? 👋
@@ -53,13 +55,13 @@ Every modern project needs a solid foundation:
 
 ### @ying-web/api-service 🔌
 
-The backbone of our ecosystem! While it's starting simple, it's destined to power the entire `@ying-web` system. Watch this space! 🚀
+The backbone of current ecosystem! While it's starting simple, it's destined to power the entire `@ying-web` system. Watch this space! 🚀
 
 And see the detail at [README.md](./apps/api-service/README.md)
 
 ### @ying-web/admin 🎛️
 
-A sleek admin system built on our RBAC foundation in `@ying-web/api-service`.
+A sleek admin system built on current RBAC foundation in `@ying-web/api-service`.
 
 Check it out at [https://admin.krissarea.com](https://admin.krissarea.com)! ✨
 
@@ -149,7 +151,6 @@ Most frontend projects are deployed on Vercel:
 -   Admin Dashboard: [admin.krissarea.com](https://admin.krissarea.com)
 -   Diary: [diary.krissarea.com](https://diary.krissarea.com)
 -   Events: [events.krissarea.com](https://events.krissarea.com)
--   Documentation: [fe.krissarea.com](https://fe.krissarea.com)
 
 #### Backend Services
 
