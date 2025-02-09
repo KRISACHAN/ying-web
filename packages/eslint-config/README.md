@@ -1,6 +1,8 @@
+[English Documentation](/packages/eslint-config/README.md) · [中文文档](/packages/eslint-config/README.zh-CN.md)
+
 # @ying-web/eslint-config 🎯
 
-Shared ESLint configurations for the @ying-web ecosystem.
+Shared ESLint configurations for the @ying-web.
 
 ## Overview 🌟
 
@@ -103,7 +105,11 @@ pnpm build
 
 ## License 📄
 
-MIT © [Kris Chan](https://github.com/KRISACHAN)
+MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author ✨
+
+Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
 
 ---
 

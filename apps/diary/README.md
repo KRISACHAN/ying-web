@@ -1,3 +1,5 @@
+[English Documentation](/apps/diary/README.md) · [中文文档](/apps/diary/README.zh-CN.md)
+
 # @ying-web/diary 📝
 
 A modern, TypeScript-powered personal blog built with Next.js 14 and Markdown support.
@@ -136,8 +138,12 @@ NEXT_PUBLIC_BASE_URL=""                   # Base URL for the blog
 
 ## License 📄
 
-MIT © [Kris Chan](https://github.com/KRISACHAN)
+MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author ✨
+
+Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
 
 ---
 
-Made with ❤️ by the @ying-web (Forked from [https://www.wisp.blog/](https://www.wisp.blog/))
+Made with ❤️ by the @ying-web

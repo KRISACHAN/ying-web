@@ -1,3 +1,5 @@
+[English Documentation](/apps/events/README.md) · [中文文档](/apps/events/README.zh-CN.md)
+
 # @ying-web/events 🙏
 
 A modern, TypeScript-powered Christian events platform for managing various spiritual activities and engagements.

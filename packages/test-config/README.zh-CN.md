@@ -2,26 +2,26 @@
 
 # @ying-web/test-config 🧪
 
-Shared Vitest configurations for JavaScript and TypeScript projects in the @ying-web monorepo.
+@ying-web 单体仓库的标准化测试配置
 
-## Overview 🌟
+## 概述 🌟
 
-This package provides standardized test configurations for the `@ying-web` ecosystem, ensuring consistent testing setups across all JavaScript and TypeScript projects.
+本包为 JavaScript 和 TypeScript 项目提供统一的 Vitest 测试配置，确保生态系统内所有项目的测试环境一致性。
 
-## Prerequisites 📋
+## 环境要求 📋
 
 -   Node.js >= 18.16.0
--   PNPM: 8.5.1 or higher
+-   PNPM: 8.5.1 或更高版本
 
-## Installation 💻
+## 安装 💻
 
 ```bash
 pnpm add -D @ying-web/test-config
 ```
 
-## Usage 🚀
+## 使用指南 🚀
 
-### For JavaScript Projects
+### JavaScript 项目
 
 ```javascript
 // vitest.config.js
@@ -30,7 +30,7 @@ import { jsConfig } from '@ying-web/test-config';
 export default jsConfig;
 ```
 
-### For TypeScript Projects
+### TypeScript 项目
 
 ```typescript
 // vitest.config.ts
@@ -39,9 +39,9 @@ import { tsConfig } from '@ying-web/test-config';
 export default tsConfig;
 ```
 
-## Configuration Details 🔧
+## 配置详情 🔧
 
-### JavaScript Config ⚡️
+### JavaScript 配置 ⚡️
 
 ```typescript
 {
@@ -63,7 +63,7 @@ export default tsConfig;
 }
 ```
 
-### TypeScript Config 📘
+### TypeScript 配置 📘
 
 ```typescript
 {
@@ -87,50 +87,50 @@ export default tsConfig;
 }
 ```
 
-## Project Structure 📂
+## 项目结构 📂
 
 ```
 packages/test-config/
 ├── src/
-│   ├── js.config.ts   # JavaScript configuration
-│   ├── ts.config.ts   # TypeScript configuration
-│   └── index.ts       # Main entry
-├── dist/              # Build output
-└── types/             # Type declarations
+│   ├── js.config.ts   # JavaScript 配置
+│   ├── ts.config.ts   # TypeScript 配置
+│   └── index.ts       # 主入口
+├── dist/              # 构建产物
+└── types/             # 类型声明
 ```
 
-## Development 🛠
+## 开发指南 🛠
 
-1. Install dependencies:
+1. 安装依赖：
 
 ```bash
 pnpm install
 ```
 
-2. Build the package:
+2. 构建项目：
 
 ```bash
-# Build all
+# 完整构建
 pnpm build
 
-# Build types only
+# 仅构建类型
 pnpm build:types
 
-# Build JavaScript only
+# 仅构建 JavaScript
 pnpm build:js
 
-# Development with watch mode
+# 开发模式（监听变化）
 pnpm dev
 ```
 
-## License 📄
+## 开源协议 📄
 
-MIT License - see the [LICENSE](LICENSE) file for details.
+本项目采用 MIT 协议 - 详见 [LICENSE](LICENSE) 文件。
 
-## Author ✨
+## 作者 ✨
 
-Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
+Kris（鱼头） - [个人网站](https://www.krissarea.com) - [联系邮箱](mailto:chenjinwen77@gmail.com)
 
 ---
 
-Made with ❤️ by the @ying-web
+来自 @ying-web ❤️

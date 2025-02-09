@@ -1,3 +1,5 @@
+[English Documentation](/apps/admin/README.md) · [中文文档](/apps/admin/README.zh-CN.md)
+
 # @ying-web/admin 🚀
 
 A modern, TypeScript-powered admin dashboard for managing various web applications.
