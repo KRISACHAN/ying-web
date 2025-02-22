@@ -1,12 +1,10 @@
 'use client';
-import { FunctionComponent } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-
-import { formatDate } from 'date-fns';
-
 import { cn } from '@/lib/utils';
 import { GetPostsResult } from '@/lib/wisp';
+import { formatDate } from 'date-fns';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FunctionComponent } from 'react';
 
 export const BlogPostPreview: FunctionComponent<{
     post: GetPostsResult['posts'][0];

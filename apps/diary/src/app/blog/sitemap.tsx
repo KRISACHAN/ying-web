@@ -1,9 +1,7 @@
-import type { MetadataRoute } from 'next';
-
-import urlJoin from 'url-join';
-
 import { config } from '@/config';
 import { wisp } from '@/lib/wisp';
+import type { MetadataRoute } from 'next';
+import urlJoin from 'url-join';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const result = await wisp.getPosts();

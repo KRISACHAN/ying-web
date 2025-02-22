@@ -1,7 +1,6 @@
+import { config } from '@/config';
 import { createHmac } from 'crypto';
 import urlJoin from 'url-join';
-
-import { config } from '@/config';
 
 // Secret is used for signing and verifying the url to prevent misuse of your service to generate images for others
 const secret = config.ogImageSecret;

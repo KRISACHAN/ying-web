@@ -1,14 +1,13 @@
 'use client';
-import Link from 'next/link';
-
-import sanitize, { defaults } from 'sanitize-html';
-
 import { GetPostResult } from '@/lib/wisp';
+import Link from 'next/link';
+import sanitize, { defaults } from 'sanitize-html';
 
 export const PostContent = ({ content }: { content: string }) => {
     const sanitizedContent = sanitize(content, {
         allowedTags: [
             'b',
+            'br',
             'i',
             'em',
             'strong',

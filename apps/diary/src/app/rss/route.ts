@@ -1,14 +1,10 @@
-// 1 hour
+export const revalidate = 3600; // 1 hour
 
 import { NextResponse } from 'next/server';
-
 import RSS from 'rss';
 import urlJoin from 'url-join';
-
-import { config } from '@/config';
-
 import { wisp } from '../../lib/wisp';
-export const revalidate = 60 * 60;
+import { config } from '@/config';
 
 const baseUrl = config.baseUrl;
 

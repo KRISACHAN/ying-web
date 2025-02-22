@@ -1,11 +1,10 @@
 'use client';
 
-import type { FunctionComponent } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-
 import { AspectRatio } from '@radix-ui/react-aspect-ratio';
 import type { GetRelatedPostsResult } from '@wisp-cms/client';
+import Image from 'next/image';
+import Link from 'next/link';
+import type { FunctionComponent } from 'react';
 
 export const RelatedPosts: FunctionComponent<{
     posts: GetRelatedPostsResult['posts'];
@@ -15,7 +14,7 @@ export const RelatedPosts: FunctionComponent<{
     }
 
     return (
-        <div className="my-8 max-w-prose text-xl mx-auto">
+        <div className="my-8">
             <div className="mb-6 text-lg font-semibold tracking-tight">
                 Related Posts
             </div>

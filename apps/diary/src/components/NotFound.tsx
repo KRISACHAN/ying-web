@@ -1,10 +1,8 @@
 'use client';
 
-import Link from 'next/link';
-
-import { Undo } from 'lucide-react';
-
 import { Button } from '@/components/ui/button';
+import { Undo } from 'lucide-react';
+import Link from 'next/link';
 
 export const NotFound = () => {
     return (
