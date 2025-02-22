@@ -1,10 +1,4 @@
 'use client';
-import { FunctionComponent } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-
-import { Menu } from 'lucide-react';
-
 import {
     Sheet,
     SheetContent,
@@ -14,6 +8,10 @@ import {
 } from '@/components/ui/sheet';
 import { config } from '@/config';
 import { cn } from '@/lib/utils';
+import { Menu } from 'lucide-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { FunctionComponent } from 'react';
 interface MenuItem {
     name: string;
     href: string;

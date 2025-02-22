@@ -1,7 +1,5 @@
 import type { MetadataRoute } from 'next';
-
 import urlJoin from 'url-join';
-
 import { config } from '@/config';
 import { wisp } from '@/lib/wisp';
 

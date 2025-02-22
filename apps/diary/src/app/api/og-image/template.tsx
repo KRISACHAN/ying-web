@@ -1,7 +1,5 @@
-import { ImageResponse } from 'next/og';
-
 import { OpenGraphImageParams } from '@/lib/og-image';
-
+import { ImageResponse } from 'next/og';
 import type { FontMap } from './fonts';
 
 export const generateBannerImage = (
