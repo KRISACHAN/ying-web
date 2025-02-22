@@ -1,5 +1,4 @@
 'use client';
-
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
@@ -66,13 +65,10 @@ export function CommentForm({ slug, config, onSuccess }: CommentFormProps) {
             try {
                 return await wisp.createComment(input);
             } catch (e) {
-                if (e instanceof AxiosError) {
-                    const errorData = e.response?.data as
-                        | ErrorResponse
-                        | undefined;
-                    if (errorData?.error?.message) {
-                        throw new Error(errorData.error.message);
-                    }
+                // @ts-ignore
+                const errorData = e.response?.data as ErrorResponse | undefined;
+                if (errorData?.error?.message) {
+                    throw new Error(errorData.error.message);
                 }
                 throw e;
             }
