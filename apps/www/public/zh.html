@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陈劲文 | 个人简历</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+        
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+        
+        .progress-bar {
+            height: 8px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background-color: #3B82F6;
+            border-radius: 4px;
+        }
+        
+        .language-btn.active {
+            background-color: #3B82F6;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="zh.html" class="text-blue-600 font-bold text-xl">陈劲文</a>
+            
+            <div class="flex items-center space-x-6">
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-6">
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition">关于我</a>
+                    <a href="#skills" class="text-gray-700 hover:text-blue-600 transition">技能</a>
+                    <a href="#experience" class="text-gray-700 hover:text-blue-600 transition">经验</a>
+                    <a href="#projects" class="text-gray-700 hover:text-blue-600 transition">项目</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">联系</a>
+                </div>
+                
+                <!-- Language Switcher -->
+                <div class="flex items-center border rounded-full overflow-hidden">
+                    <a href="zh.html" class="px-3 py-1 text-sm language-btn active">中文</a>
+                    <a href="en.html" class="px-3 py-1 text-sm language-btn">English</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="container mx-auto px-4 py-2 space-y-1">
+                <a href="#about" class="block py-2 text-gray-700 hover:text-blue-600">关于我</a>
+                <a href="#skills" class="block py-2 text-gray-700 hover:text-blue-600">技能</a>
+                <a href="#experience" class="block py-2 text-gray-700 hover:text-blue-600">经验</a>
+                <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-600">项目</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">联系</a>
+                <!-- Mobile language switcher -->
+                <div class="flex py-2 space-x-4">
+                    <a href="zh.html" class="text-blue-600 font-medium">中文</a>
+                    <a href="en.html" class="text-gray-700 hover:text-blue-600">English</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 md:py-32 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+        <div class="container mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <div class="rounded-full w-48 h-48 mx-auto md:mx-0 overflow-hidden border-4 border-white shadow-xl">
+                    <!-- Profile image -->
+                    <img src="me.jpg" alt="陈劲文" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-bold mb-2">陈劲文</h1>
+                <h2 class="text-xl md:text-2xl font-medium mb-6 text-blue-100">前端工程师 | 8+年经验</h2>
+                <p class="text-lg max-w-lg">具有丰富的前端开发经验，专注于解决复杂问题并提升项目性能。目前寻求远程工作机会，追求工作与生活的平衡。</p>
+                <div class="mt-8 space-x-4">
+                    <a href="#contact" class="inline-block bg-white text-blue-600 font-medium py-2 px-6 rounded-lg shadow-md hover:bg-blue-50 transition">联系我</a>
+                    <a href="#projects" class="inline-block bg-transparent border-2 border-white text-white font-medium py-2 px-6 rounded-lg hover:bg-white/10 transition">查看项目</a>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="mt-6 flex space-x-4 justify-center md:justify-start">
+                    <a href="https://github.com/KRISACHAN" target="_blank" class="text-white hover:text-blue-100 transition" title="GitHub">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="mailto:chenjinwen77@gmail.com" class="text-white hover:text-blue-100 transition" title="Email">
+                        <i class="fas fa-envelope text-2xl"></i>
+                    </a>
+                    <a href="https://juejin.cn/user/835284564452397/posts" target="_blank" class="text-white hover:text-blue-100 transition" title="掘金博客">
+                        <i class="fas fa-book text-2xl"></i>
+                    </a>
+                    <a href="https://diary.krissarea.com/" target="_blank" class="text-white hover:text-blue-100 transition" title="生活博客">
+                        <i class="fas fa-pen text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">关于我</h2>
+            
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-bold mb-4 text-blue-600">我的哲学</h3>
+                    <p class="text-gray-700 leading-relaxed mb-6">我相信我们只有一次生命，所以我们应该过我们想要的生活，而不是别人期望的生活。我追求工作与生活的平衡，认为做我喜欢的事情（比如旅行或照顾我的家人）同时工作是一件很酷的事情。这可能是一个艰难的目标，但我相信我可以实现它。即使需要很长时间或失败，我也不会放弃。我会继续在这条路上前进，永不回头。</p>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-bold mb-4 text-blue-600">我的优势</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">技术深度</h4>
+                            <p class="text-gray-700">通过深入理解业务需求和技术实现细节，我可以设计高性能、可扩展的前端架构解决方案。</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-gray-800">拥抱挑战</h4>
+                            <p class="text-gray-700">主动承担不熟悉领域的项目，如商业化、DevOps迁移和SEO优化，不断扩展我的技术广度。作为一个风险承担者，我并不害怕任何挑战。</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-gray-800">团队合作</h4>
+                            <p class="text-gray-700">保持积极和乐观的工作态度，与团队成员建立良好的合作关系，促进知识共享和经验转移。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">技术技能</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Frontend Skills -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-code text-xl"></i>
+                        </div>
+                        <h3 class="ml-4 font-bold text-xl">前端技术</h3>
+                    </div>
+                    
+                    <ul class="space-y-3">
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Vue.js (2 & 3)</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 95%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>React/Next.js</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>TypeScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Webpack</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>CSS/Less</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-server text-xl"></i>
+                        </div>
+                        <h3 class="ml-4 font-bold text-xl">后端技术</h3>
+                    </div>
+                    
+                    <ul class="space-y-3">
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Node.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Koa.js</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>RESTful API设计</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>BFF架构</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>微服务架构</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- DevOps Skills -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-cogs text-xl"></i>
+                        </div>
+                        <h3 class="ml-4 font-bold text-xl">DevOps</h3>
+                    </div>
+                    
+                    <ul class="space-y-3">
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Docker</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>CI/CD</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>监控和告警</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>PM2</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">工作经验</h2>
+            
+            <div class="relative border-l-4 border-blue-500 pl-8 ml-4 md:ml-12 space-y-12">
+                <!-- Gaoding Technology -->
+                <div class="relative">
+                    <div class="absolute -left-12 mt-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold">稿定（厦门）科技有限公司</h3>
+                        <p class="text-blue-600 font-medium">高级前端工程师 <span class="text-gray-500">| 2020年7月 - 2024年7月</span></p>
+                        
+                        <div class="mt-4 space-y-6">
+                            <!-- Project 1 -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-gray-800">商业前端开发</h4>
+                                <p class="text-gray-600 text-sm mb-3">负责架构重建和性能优化，商业购买页面每天访问量超过50,000</p>
+                                <ul class="text-gray-700 list-disc pl-5 space-y-1">
+                                    <li>设计基于适配器模式的跨平台统一SDK</li>
+                                    <li>将商业模块重建为独立子项目</li>
+                                    <li>结果：业务转化率提高7%</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Project 2 -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-gray-800">核心KoaJS渲染服务</h4>
+                                <p class="text-gray-600 text-sm mb-3">优化核心渲染服务，每天访问量超过400万</p>
+                                <ul class="text-gray-700 list-disc pl-5 space-y-1">
+                                    <li>使用JSX重构，将路由注册从业务逻辑中分离</li>
+                                    <li>实现基于QPS的限流策略</li>
+                                    <li>结果：确保99.99%的SLA稳定性</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Project 3 (SEO Project - Adding back) -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-gray-800">SEO爬虫稳定性项目</h4>
+                                <p class="text-gray-600 text-sm mb-3">主导建立公司首个SEO稳定性标准体系</p>
+                                <ul class="text-gray-700 list-disc pl-5 space-y-1">
+                                    <li>基于爬虫行为特征分析，建立核心指标评估体系</li>
+                                    <li>优化核心页面响应速度和爬虫抓取策略</li>
+                                    <li>结果：核心页面500ms内响应占比从40%提升至90%</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Project 4 (DevOps Project - Adding back) -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-gray-800">稿定主站DevOps改造</h4>
+                                <p class="text-gray-600 text-sm mb-3">负责主站技术架构升级与DevOps改造</p>
+                                <ul class="text-gray-700 list-disc pl-5 space-y-1">
+                                    <li>完成容器化迁移（GitHub + K8s + Docker）</li>
+                                    <li>优化构建流程，构建时间减少50%（年省21,000分钟）</li>
+                                    <li>结果：实现全自动化部署，显著提升代码可维护性</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sitianjichuang -->
+                <div class="relative">
+                    <div class="absolute -left-12 mt-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold">深圳市思天极创教育科技有限公司</h3>
+                        <p class="text-blue-600 font-medium">前端开发 <span class="text-gray-500">| 2018年12月 - 2020年7月</span></p>
+                        
+                        <div class="mt-4 bg-gray-50 p-4 rounded-lg">
+                            <p class="text-gray-700">领导开发了教育APP "EZBLOCK"的核心功能，设计并实现了基于Webpack和Blockly的代码转换系统，获得了发明专利（CN110941432A）。开源了项目脚手架，获得了100+星。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tongyin Investment -->
+                <div class="relative">
+                    <div class="absolute -left-12 mt-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold">通印投资集团</h3>
+                        <p class="text-blue-600 font-medium">Web开发 <span class="text-gray-500">| 2016年7月 - 2018年9月</span></p>
+                        
+                        <div class="mt-4 bg-gray-50 p-4 rounded-lg">
+                            <p class="text-gray-700">作为核心开发者，完成了公司网站和微信商城的Vue2重建，实现了前端后端分离，优化了用户体验，累计服务了6,000+用户。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">开源项目</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-blue-400 to-indigo-500 flex items-center justify-center">
+                        <h3 class="text-2xl font-bold text-white">ying-web</h3>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold">ying-web</h3>
+                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">24+ Stars</span>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-4">基于现代前端技术栈的多项目monorepo，具有全栈开发能力</p>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-medium text-gray-900 mb-2">技术:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">React</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Next.js</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Koa.js</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">TypeScript</span>
+                            </div>
+                        </div>
+                        
+                        <a href="https://github.com/KRISACHAN/ying-web" target="_blank" class="inline-flex items-center text-blue-600 hover:underline">
+                            View on GitHub
+                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
+                        <h3 class="text-2xl font-bold text-white">ying-template</h3>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold">ying-template</h3>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">100+ Stars</span>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-4">一个可用的前端项目模板，具有全面的工具和最佳实践</p>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-medium text-gray-900 mb-2">技术:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Vue</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Webpack</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">TypeScript</span>
+                            </div>
+                        </div>
+                        
+                        <a href="https://github.com/KRISACHAN/ying-template" target="_blank" class="inline-flex items-center text-blue-600 hover:underline">
+                            View on GitHub
+                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 (New) -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-purple-400 to-pink-500 flex items-center justify-center">
+                        <h3 class="text-2xl font-bold text-white">ying-datastructures-algorithms</h3>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold">ying-datastructures-algorithms</h3>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">55+ Stars</span>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-4">以TypeScript为描述语言的算法与数据结构入门仓库，面向想要学习或查漏补缺的前端开发者</p>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-medium text-gray-900 mb-2">技术:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">TypeScript</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">数据结构</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">算法</span>
+                            </div>
+                        </div>
+                        
+                        <a href="https://github.com/KRISACHAN/ying-datastructures-algorithms" target="_blank" class="inline-flex items-center text-blue-600 hover:underline">
+                            View on GitHub
+                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">联系我</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-blue-50 p-8 rounded-xl shadow-md">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">获取联系</h3>
+                            <p class="text-gray-700 mb-6">如果您对我的经验和能力感兴趣，可以通过以下任何渠道与我联系：</p>
+                            
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fas fa-envelope text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Email</h4>
+                                        <a href="mailto:chenjinwen77@gmail.com" class="text-blue-600 hover:underline">chenjinwen77@gmail.com</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fab fa-github text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">GitHub</h4>
+                                        <a href="https://github.com/KRISACHAN" target="_blank" class="text-blue-600 hover:underline">github.com/KRISACHAN</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fas fa-globe text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Website</h4>
+                                        <a href="https://www.krissarea.com" target="_blank" class="text-blue-600 hover:underline">www.krissarea.com</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fab fa-weixin text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">WeChat</h4>
+                                        <p>krisChans95</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fas fa-book text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">技术博客</h4>
+                                        <a href="https://juejin.cn/user/835284564452397/posts" target="_blank" class="text-blue-600 hover:underline">掘金博客</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fas fa-pen text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">英文博客</h4>
+                                        <a href="https://medium.com/@fish_head_chan" target="_blank" class="text-blue-600 hover:underline">Medium</a> | 
+                                        <a href="https://diary.krissarea.com/" target="_blank" class="text-blue-600 hover:underline">生活日记</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">发送消息</h3>
+                            <form class="space-y-4">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                                    <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                                    <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                
+                                <div>
+                                    <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                                    <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"></textarea>
+                                </div>
+                                
+                                <button type="submit" class="bg-blue-600 text-white font-medium py-2 px-6 rounded-lg hover:bg-blue-700 transition">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h2 class="text-xl font-bold">陈劲文</h2>
+                    <p class="text-gray-400">前端工程师</p>
+                </div>
+                
+                <div class="flex space-x-4">
+                    <a href="https://github.com/KRISACHAN" target="_blank" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                    <a href="mailto:chenjinwen77@gmail.com" class="text-gray-400 hover:text-white">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </a>
+                    <a href="https://blog.krissarea.com/" target="_blank" class="text-gray-400 hover:text-white">
+                        <i class="fas fa-blog text-xl"></i>
+                    </a>
+                </div>
+                
+                <div class="mt-4 md:mt-0 text-sm text-gray-400">
+                    &copy; 2024 陈劲文. 版权所有.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

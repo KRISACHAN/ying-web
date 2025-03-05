@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kris Chen | Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .progress-bar {
+            height: 8px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background-color: #3B82F6;
+            border-radius: 4px;
+        }
+        
+        .language-btn.active {
+            background-color: #3B82F6;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="en.html" class="text-blue-600 font-bold text-xl">Kris Chen</a>
+            
+            <div class="flex items-center space-x-6">
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-6">
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+                    <a href="#skills" class="text-gray-700 hover:text-blue-600 transition">Skills</a>
+                    <a href="#experience" class="text-gray-700 hover:text-blue-600 transition">Experience</a>
+                    <a href="#projects" class="text-gray-700 hover:text-blue-600 transition">Projects</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+                </div>
+                
+                <!-- Language Switcher -->
+                <div class="flex items-center border rounded-full overflow-hidden">
+                    <a href="en.html" class="px-3 py-1 text-sm language-btn active">English</a>
+                    <a href="zh.html" class="px-3 py-1 text-sm language-btn">中文</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="container mx-auto px-4 py-2 space-y-1">
+                <a href="#about" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+                <a href="#skills" class="block py-2 text-gray-700 hover:text-blue-600">Skills</a>
+                <a href="#experience" class="block py-2 text-gray-700 hover:text-blue-600">Experience</a>
+                <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-600">Projects</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+                <!-- Mobile language switcher -->
+                <div class="flex py-2 space-x-4">
+                    <a href="en.html" class="text-blue-600 font-medium">English</a>
+                    <a href="zh.html" class="text-gray-700 hover:text-blue-600">中文</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 md:py-32 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+        <div class="container mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <div class="rounded-full w-48 h-48 mx-auto md:mx-0 overflow-hidden border-4 border-white shadow-xl">
+                    <!-- Profile image -->
+                    <img src="me.jpg" alt="Kris Chen" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-bold mb-2">Kris Chen</h1>
+                <h2 class="text-xl md:text-2xl font-medium mb-6 text-blue-100">Frontend Engineer | 8+ Years Experience</h2>
+                <p class="text-lg max-w-lg">Experienced frontend developer focused on solving complex problems and enhancing project performance. Currently seeking remote work opportunities with work-life balance.</p>
+                <div class="mt-8 space-x-4">
+                    <a href="#contact" class="inline-block bg-white text-blue-600 font-medium py-2 px-6 rounded-lg shadow-md hover:bg-blue-50 transition">Contact Me</a>
+                    <a href="#projects" class="inline-block bg-transparent border-2 border-white text-white font-medium py-2 px-6 rounded-lg hover:bg-white/10 transition">View Projects</a>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="mt-6 flex space-x-4 justify-center md:justify-start">
+                    <a href="https://github.com/KRISACHAN" target="_blank" class="text-white hover:text-blue-100 transition" title="GitHub">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="mailto:chenjinwen77@gmail.com" class="text-white hover:text-blue-100 transition" title="Email">
+                        <i class="fas fa-envelope text-2xl"></i>
+                    </a>
+                    <a href="https://juejin.cn/user/835284564452397/posts" target="_blank" class="text-white hover:text-blue-100 transition" title="Technical Blog">
+                        <i class="fas fa-book text-2xl"></i>
+                    </a>
+                    <a href="https://diary.krissarea.com/" target="_blank" class="text-white hover:text-blue-100 transition" title="Lifestyle Blog">
+                        <i class="fas fa-pen text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">About Me</h2>
+            
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-bold mb-4 text-blue-600">My Philosophy</h3>
+                    <p class="text-gray-700 leading-relaxed mb-6">I believe we only live once, so we should live the life we desire, not the one others expect of us. I pursue work-life balance, considering it super cool to do what I love (like traveling or taking care of my family) while working. It might be a tough goal, but I believe I can pull it off. Even if it takes a long time or I fail, I won't give up. I'll keep moving forward on this path and never look back.</p>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-bold mb-4 text-blue-600">My Strengths</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Technical Depth</h4>
+                            <p class="text-gray-700">Through deep understanding of business requirements and technical implementation details, I can design high-performance, scalable frontend architecture solutions.</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-gray-800">Embracing Challenges</h4>
+                            <p class="text-gray-700">Proactively took on projects in unfamiliar areas such as commercialization, DevOps migration, and SEO optimization, constantly expanding my technical breadth. As a risk-taker, I'm not scared of any challenges.</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-gray-800">Team Collaboration</h4>
+                            <p class="text-gray-700">Maintain a positive and optimistic work attitude, establishing good cooperative relationships with team members and promoting knowledge sharing and experience transfer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Technical Skills</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Frontend Skills -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-code text-xl"></i>
+                        </div>
+                        <h3 class="ml-4 font-bold text-xl">Frontend Technologies</h3>
+                    </div>
+                    
+                    <ul class="space-y-3">
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Vue.js (2 & 3)</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 95%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>React/Next.js</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>TypeScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Webpack</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>CSS/Less</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-server text-xl"></i>
+                        </div>
+                        <h3 class="ml-4 font-bold text-xl">Backend Technologies</h3>
+                    </div>
+                    
+                    <ul class="space-y-3">
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Node.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Koa.js</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>RESTful API Design</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>BFF Architecture</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Microservices Architecture</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- DevOps Skills -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-cogs text-xl"></i>
+                        </div>
+                        <h3 class="ml-4 font-bold text-xl">DevOps</h3>
+                    </div>
+                    
+                    <ul class="space-y-3">
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Docker</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>CI/CD</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>Monitoring & Alerting</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-between mb-1">
+                                <span>PM2</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Work Experience</h2>
+            
+            <div class="relative border-l-4 border-blue-500 pl-8 ml-4 md:ml-12 space-y-12">
+                <!-- Gaoding Technology -->
+                <div class="relative">
+                    <div class="absolute -left-12 mt-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold">Gaoding Technology Co., Ltd.</h3>
+                        <p class="text-blue-600 font-medium">Senior Frontend Engineer <span class="text-gray-500">| July 2020 - July 2024</span></p>
+                        
+                        <div class="mt-4 space-y-6">
+                            <!-- Project 1 -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-gray-800">Commercial Frontend Development</h4>
+                                <p class="text-gray-600 text-sm mb-3">Responsible for architecture reconstruction and performance optimization of commercial purchase pages with 50,000+ daily visits</p>
+                                <ul class="text-gray-700 list-disc pl-5 space-y-1">
+                                    <li>Designed cross-platform unified SDK based on adapter pattern</li>
+                                    <li>Reconstructed commercial modules as independent sub-projects</li>
+                                    <li>Results: 7% increase in business conversion rate</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Project 2 -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-gray-800">Core KoaJS Rendering Service</h4>
+                                <p class="text-gray-600 text-sm mb-3">Optimized core rendering service handling 4M+ daily visits</p>
+                                <ul class="text-gray-700 list-disc pl-5 space-y-1">
+                                    <li>Restructured using JSX, separating route registration from business logic</li>
+                                    <li>Implemented QPS-based rate limiting strategy</li>
+                                    <li>Results: Ensured 99.99% SLA stability</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Project 3 (SEO Project - Adding back) -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-gray-800">SEO Crawler Stability Project</h4>
+                                <p class="text-gray-600 text-sm mb-3">Led the establishment of the company's first SEO stability standard system</p>
+                                <ul class="text-gray-700 list-disc pl-5 space-y-1">
+                                    <li>Built core metrics evaluation system based on crawler behavior analysis</li>
+                                    <li>Optimized core page response speed and crawler acquisition strategy</li>
+                                    <li>Results: Increased core page response within 500ms from 40% to 90%</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Project 4 (DevOps Project - Adding back) -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-gray-800">Main Website DevOps Transformation</h4>
+                                <p class="text-gray-600 text-sm mb-3">Responsible for main site technology architecture upgrade and DevOps transformation</p>
+                                <ul class="text-gray-700 list-disc pl-5 space-y-1">
+                                    <li>Completed containerization migration (GitHub + K8s + Docker)</li>
+                                    <li>Optimized build process, reducing build time by 50% (saving 21,000 minutes annually)</li>
+                                    <li>Results: Implemented fully automated deployment, significantly improved code maintainability</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sitianjichuang -->
+                <div class="relative">
+                    <div class="absolute -left-12 mt-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold">Shenzhen Sitianjichuang Education Technology Co., Ltd.</h3>
+                        <p class="text-blue-600 font-medium">Frontend Developer <span class="text-gray-500">| December 2018 - July 2020</span></p>
+                        
+                        <div class="mt-4 bg-gray-50 p-4 rounded-lg">
+                            <p class="text-gray-700">Led the development of core features for the educational APP "EZBLOCK", designed and implemented a code conversion system based on Webpack and Blockly, obtaining an invention patent (CN110941432A). Open-sourced the project scaffold, gaining 100+ stars.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tongyin Investment -->
+                <div class="relative">
+                    <div class="absolute -left-12 mt-1 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold">Tongyin Investment Group</h3>
+                        <p class="text-blue-600 font-medium">Web Developer <span class="text-gray-500">| July 2016 - September 2018</span></p>
+                        
+                        <div class="mt-4 bg-gray-50 p-4 rounded-lg">
+                            <p class="text-gray-700">As a core developer, completed Vue2 reconstruction of the company website and WeChat mall, implementing frontend-backend separation, optimizing user experience, and serving 6,000+ users cumulatively.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Open Source Projects</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-blue-400 to-indigo-500 flex items-center justify-center">
+                        <h3 class="text-2xl font-bold text-white">ying-web</h3>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold">ying-web</h3>
+                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">24+ Stars</span>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-4">Multi-project monorepo based on modern frontend tech stack with full-stack development capabilities</p>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-medium text-gray-900 mb-2">Technologies:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">React</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Next.js</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Koa.js</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">TypeScript</span>
+                            </div>
+                        </div>
+                        
+                        <a href="https://github.com/KRISACHAN/ying-web" target="_blank" class="inline-flex items-center text-blue-600 hover:underline">
+                            View on GitHub
+                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
+                        <h3 class="text-2xl font-bold text-white">ying-template</h3>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold">ying-template</h3>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">100+ Stars</span>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-4">A ready-to-use frontend project template with comprehensive tooling and best practices</p>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-medium text-gray-900 mb-2">Technologies:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Vue</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Webpack</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">TypeScript</span>
+                            </div>
+                        </div>
+                        
+                        <a href="https://github.com/KRISACHAN/ying-template" target="_blank" class="inline-flex items-center text-blue-600 hover:underline">
+                            View on GitHub
+                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 (New) -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="h-48 bg-gradient-to-r from-purple-400 to-pink-500 flex items-center justify-center">
+                        <h3 class="text-2xl font-bold text-white">ying-datastructures-algorithms</h3>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold">ying-datastructures-algorithms</h3>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">55+ Stars</span>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-4">An algorithm and data structure learning repository using TypeScript, aimed at frontend developers wanting to learn or improve their knowledge</p>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-medium text-gray-900 mb-2">Technologies:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">TypeScript</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Data Structures</span>
+                                <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Algorithms</span>
+                            </div>
+                        </div>
+                        
+                        <a href="https://github.com/KRISACHAN/ying-datastructures-algorithms" target="_blank" class="inline-flex items-center text-blue-600 hover:underline">
+                            View on GitHub
+                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Me</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-blue-50 p-8 rounded-xl shadow-md">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">Get In Touch</h3>
+                            <p class="text-gray-700 mb-6">If you're interested in my experience and abilities, feel free to contact me through any of these channels:</p>
+                            
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fas fa-envelope text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Email</h4>
+                                        <a href="mailto:chenjinwen77@gmail.com" class="text-blue-600 hover:underline">chenjinwen77@gmail.com</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fab fa-github text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">GitHub</h4>
+                                        <a href="https://github.com/KRISACHAN" target="_blank" class="text-blue-600 hover:underline">github.com/KRISACHAN</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fas fa-globe text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Website</h4>
+                                        <a href="https://www.krissarea.com" target="_blank" class="text-blue-600 hover:underline">www.krissarea.com</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fab fa-weixin text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">WeChat</h4>
+                                        <p>krisChans95</p>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fas fa-book text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Technical Blog</h4>
+                                        <a href="https://juejin.cn/user/835284564452397/posts" target="_blank" class="text-blue-600 hover:underline">Juejin (Chinese)</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center mr-3 mt-1">
+                                        <i class="fas fa-pen text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">English Blogs</h4>
+                                        <a href="https://medium.com/@fish_head_chan" target="_blank" class="text-blue-600 hover:underline">Medium</a> | 
+                                        <a href="https://diary.krissarea.com/" target="_blank" class="text-blue-600 hover:underline">Lifestyle Diary</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">Send a Message</h3>
+                            <form class="space-y-4">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                                    <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                                    <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                
+                                <div>
+                                    <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                                    <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"></textarea>
+                                </div>
+                                
+                                <button type="submit" class="bg-blue-600 text-white font-medium py-2 px-6 rounded-lg hover:bg-blue-700 transition">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h2 class="text-xl font-bold">Kris Chen</h2>
+                    <p class="text-gray-400">Frontend Engineer</p>
+                </div>
+                
+                <div class="flex space-x-4">
+                    <a href="https://github.com/KRISACHAN" target="_blank" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                    <a href="mailto:chenjinwen77@gmail.com" class="text-gray-400 hover:text-white">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </a>
+                    <a href="https://blog.krissarea.com/" target="_blank" class="text-gray-400 hover:text-white">
+                        <i class="fas fa-blog text-xl"></i>
+                    </a>
+                </div>
+                
+                <div class="mt-4 md:mt-0 text-sm text-gray-400">
+                    &copy; 2024 Kris Chen. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
