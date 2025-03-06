@@ -17,14 +17,24 @@ app.use(
     cors({
         // x-pagination is used to return pagination information
         exposeHeaders: ['x-pagination'],
-        origin:
-            process.env.APP_ENV === 'dev'
-                ? '*'
-                : [
-                      'https://www.krissarea.com',
-                      'https://api.krissarea.com',
-                      'https://admin.krissarea.com',
-                  ],
+        origin: ctx => {
+            const requestOrigin = ctx.request.header.origin;
+
+            if (process.env.APP_ENV === 'dev') {
+                return '*';
+            }
+
+            if (
+                requestOrigin &&
+                requestOrigin.match(
+                    /^https:\/\/([a-zA-Z0-9-]+\.)?krissarea\.com$/,
+                )
+            ) {
+                return requestOrigin;
+            }
+
+            return false;
+        },
         methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
         allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
         credentials: true,
