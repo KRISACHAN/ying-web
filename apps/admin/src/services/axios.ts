@@ -13,7 +13,7 @@ interface CustomAxiosResponse<T = any> extends AxiosResponse<T> {
 }
 
 const axiosInstance = axios.create({
-    baseURL: `${import.meta.env.VITE_REQUEST_BASE_URL}/api/v1/admin`,
+    baseURL: `${import.meta.env.VITE_REQUEST_BASE_URL}/v1/admin`,
     timeout: 10000,
 });
 
@@ -103,7 +103,7 @@ axiosInstance.interceptors.response.use(
                 }
 
                 const response = await axios.post(
-                    `${import.meta.env.VITE_REQUEST_BASE_URL}/api/v1/admin/refresh-token`,
+                    `${import.meta.env.VITE_REQUEST_BASE_URL}/v1/admin/refresh-token`,
                     {
                         refresh_token: refreshToken,
                     },
