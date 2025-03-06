@@ -1,6 +1,7 @@
 import { defaultLocale, locales } from '@/lib/i18n';
 import { NextRequest, NextResponse } from 'next/server';
 
+// @todo: remove this middleware
 export function middleware(request: NextRequest) {
     // get request path
     const { pathname } = request.nextUrl;
