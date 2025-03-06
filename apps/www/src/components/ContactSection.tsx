@@ -13,7 +13,7 @@ export default function ContactSection({ dictionary }: ContactSectionProps) {
     return (
         <section id="contact" className="py-16 bg-gray-50">
             <div className="container mx-auto px-4 md:px-8">
-                <h2 className="text-3xl font-bold text-center mb-12">
+                <h2 className="text-3xl font-bold text-center mb-12 text-blue-600">
                     {contact.title}
                     <span className="block w-24 h-1 bg-blue-500 mx-auto mt-4"></span>
                 </h2>

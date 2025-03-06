@@ -139,21 +139,30 @@
                 "description": "基于现代前端技术栈的多项目monorepo，具有全栈开发能力",
                 "stars": "24+ Stars",
                 "technologies": ["React", "Next.js", "Koa.js", "TypeScript"],
-                "link": "https://github.com/KRISACHAN/ying-web"
+                "link": "https://github.com/KRISACHAN/ying-web",
+                "gradient": "from-blue-400 to-indigo-500",
+                "badgeColor": { "bg": "bg-blue-100", "text": "text-blue-800" }
             },
             {
                 "title": "ying-template",
                 "description": "一个可用的前端项目模板，具有全面的工具和最佳实践",
                 "stars": "100+ Stars",
                 "technologies": ["Vue", "Webpack", "TypeScript"],
-                "link": "https://github.com/KRISACHAN/ying-template"
+                "link": "https://github.com/KRISACHAN/ying-template",
+                "gradient": "from-green-400 to-teal-500",
+                "badgeColor": { "bg": "bg-green-100", "text": "text-green-800" }
             },
             {
                 "title": "ying-datastructures-algorithms",
                 "description": "以TypeScript为描述语言的算法与数据结构入门仓库，面向想要学习或查漏补缺的前端开发者",
                 "stars": "55+ Stars",
                 "technologies": ["TypeScript", "数据结构", "算法"],
-                "link": "https://github.com/KRISACHAN/ying-datastructures-algorithms"
+                "link": "https://github.com/KRISACHAN/ying-datastructures-algorithms",
+                "gradient": "from-purple-400 to-pink-500",
+                "badgeColor": {
+                    "bg": "bg-purple-100",
+                    "text": "text-purple-800"
+                }
             }
         ]
     },

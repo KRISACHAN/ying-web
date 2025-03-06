@@ -8,7 +8,6 @@ type SkillsSectionProps = {
 export default function SkillsSection({ dictionary }: SkillsSectionProps) {
     const skills = dictionary.skills;
 
-    // 处理不同的数据结构
     const getFrontendSkills = () => {
         if (Array.isArray(skills.frontend)) {
             return skills.frontend;
@@ -43,7 +42,7 @@ export default function SkillsSection({ dictionary }: SkillsSectionProps) {
     return (
         <section id="skills" className="py-16 bg-gray-50">
             <div className="container mx-auto px-4 md:px-8">
-                <h2 className="text-3xl font-bold text-center mb-12">
+                <h2 className="text-3xl font-bold text-center mb-12 text-blue-600">
                     {skills.title}
                     <span className="block w-24 h-1 bg-blue-500 mx-auto mt-4"></span>
                 </h2>

@@ -2,16 +2,16 @@ import { defaultLocale, locales } from '@/lib/i18n';
 import { NextRequest, NextResponse } from 'next/server';
 
 export function middleware(request: NextRequest) {
-    // 获取请求路径
+    // get request path
     const { pathname } = request.nextUrl;
 
-    // 检查路径是否已经包含有效的语言代码
+    // check if the path already contains a valid language code
     const pathnameHasLocale = locales.some(
         locale =>
             pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
     );
 
-    // 如果路径不包含语言代码，重定向到默认语言
+    // if the path does not contain a language code, redirect to the default language
     if (!pathnameHasLocale) {
         return NextResponse.redirect(
             new URL(
@@ -22,10 +22,10 @@ export function middleware(request: NextRequest) {
     }
 }
 
-// 配置匹配的路径
+// configure matching paths
 export const config = {
     matcher: [
-        // 排除不需要重定向的路径
+        // exclude paths that do not need to be redirected
         '/((?!api|_next/static|_next/image|favicon.ico|.*\\..*|_vercel).*)',
     ],
 };

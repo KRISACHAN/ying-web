@@ -1,4 +1,4 @@
-// 社交媒体链接数据
+// social links
 export const SOCIAL_LINKS = [
     {
         id: 'github',
@@ -32,7 +32,7 @@ export const SOCIAL_LINKS = [
     },
 ];
 
-// 导航链接数据
+// navigation links
 export const NAV_LINKS = [
     {
         id: 'about',
