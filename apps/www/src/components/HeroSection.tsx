@@ -1,6 +1,9 @@
+'use client';
+
 import { SOCIAL_LINKS } from '@/lib/constants';
 import { Locale } from '@/types';
 import Image from 'next/image';
+import QRCodePopover from './QRCodePopover';
 
 type HeroSectionProps = {
     locale: Locale;
@@ -39,37 +42,62 @@ export default function HeroSection({ dictionary }: HeroSectionProps) {
                     <p className="text-lg max-w-lg mx-auto md:mx-0">
                         {hero.description}
                     </p>
-                    <div className="mt-8 space-x-4">
+                    <div className="mt-8 flex flex-row space-x-3 sm:space-x-4 justify-center md:justify-start">
                         <a
                             href="#contact"
-                            className="inline-block bg-white text-blue-600 font-medium py-3 px-6 rounded-full shadow-md hover:bg-blue-50 transition transform hover:-translate-y-1 hover:shadow-lg"
+                            className="inline-flex items-center justify-center whitespace-nowrap bg-white text-blue-600 font-medium text-sm sm:text-base py-2 sm:py-3 px-4 sm:px-6 rounded-full shadow-md hover:bg-blue-50 transition transform hover:-translate-y-1 hover:shadow-lg"
                         >
-                            <i className="fas fa-paper-plane mr-2"></i>
-                            {hero.contactButton}
+                            <i className="fas fa-paper-plane mr-1 sm:mr-2 flex-shrink-0"></i>
+                            <span className="whitespace-nowrap">
+                                {hero.contactButton}
+                            </span>
                         </a>
                         <a
                             href="#projects"
-                            className="inline-block bg-transparent border-2 border-white text-white font-medium py-3 px-6 rounded-full hover:bg-white/10 transition transform hover:-translate-y-1"
+                            className="inline-flex items-center justify-center whitespace-nowrap bg-transparent border-2 border-white text-white font-medium text-sm sm:text-base py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-white/10 transition transform hover:-translate-y-1"
                         >
-                            <i className="fas fa-project-diagram mr-2"></i>
-                            {hero.projectsButton}
+                            <i className="fas fa-project-diagram mr-1 sm:mr-2 flex-shrink-0"></i>
+                            <span className="whitespace-nowrap">
+                                {hero.projectsButton}
+                            </span>
                         </a>
                     </div>
 
                     {/* Social Links */}
                     <div className="mt-6 flex space-x-4 justify-center md:justify-start">
-                        {SOCIAL_LINKS.map(link => (
-                            <a
-                                key={link.id}
-                                href={link.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-12 h-12 flex items-center justify-center text-white hover:text-blue-100 transition bg-white/10 p-3 rounded-full hover:bg-white/20"
-                                title={link.title}
-                            >
-                                <i className={`${link.icon} text-xl`}></i>
-                            </a>
-                        ))}
+                        {SOCIAL_LINKS.map(link => {
+                            if (link.showQRCode) {
+                                return (
+                                    <QRCodePopover
+                                        key={link.id}
+                                        qrCodeImage={link.qrCodeImage}
+                                        title={link.title}
+                                    >
+                                        <div
+                                            className="w-12 h-12 flex items-center justify-center text-white hover:text-blue-100 transition bg-white/10 p-3 rounded-full hover:bg-white/20 cursor-pointer"
+                                            title={link.title}
+                                        >
+                                            <i
+                                                className={`${link.icon} text-xl`}
+                                            ></i>
+                                        </div>
+                                    </QRCodePopover>
+                                );
+                            }
+
+                            return (
+                                <a
+                                    key={link.id}
+                                    href={link.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-12 h-12 flex items-center justify-center text-white hover:text-blue-100 transition bg-white/10 p-3 rounded-full hover:bg-white/20"
+                                    title={link.title}
+                                >
+                                    <i className={`${link.icon} text-xl`}></i>
+                                </a>
+                            );
+                        })}
                     </div>
                 </div>
             </div>

@@ -43,20 +43,20 @@ export default function ProjectsSection({ dictionary }: ProjectsSectionProps) {
                                 className="bg-white rounded-xl shadow-md overflow-hidden"
                             >
                                 <div
-                                    className={`h-48 bg-gradient-to-r ${gradient} flex items-center justify-center`}
+                                    className={`h-48 bg-gradient-to-r ${gradient} flex items-center justify-center p-4 text-center`}
                                 >
-                                    <h3 className="text-2xl font-bold text-white">
+                                    <h3 className="text-2xl font-bold text-white whitespace-nowrap overflow-hidden text-ellipsis max-w-full">
                                         {project.title}
                                     </h3>
                                 </div>
 
                                 <div className="p-6">
                                     <div className="flex items-center justify-between mb-4">
-                                        <h3 className="text-xl font-bold">
+                                        <h3 className="text-xl font-bold truncate mr-2">
                                             {project.title}
                                         </h3>
                                         <span
-                                            className={`${badgeColor.bg} ${badgeColor.text} text-xs font-medium px-2.5 py-0.5 rounded-full`}
+                                            className={`${badgeColor.bg} ${badgeColor.text} text-xs font-medium px-2.5 py-0.5 rounded-full whitespace-nowrap flex-shrink-0`}
                                         >
                                             {project.stars}
                                         </span>

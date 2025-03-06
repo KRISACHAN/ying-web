@@ -13,6 +13,14 @@ export const SOCIAL_LINKS = [
         icon: 'fas fa-envelope',
     },
     {
+        id: 'wechat',
+        url: 'https://wechat.com/krisChans95',
+        title: 'WeChat',
+        icon: 'fab fa-weixin',
+        showQRCode: true,
+        qrCodeImage: '/qrcode.jpg',
+    },
+    {
         id: 'juejin',
         url: 'https://juejin.cn/user/835284564452397/posts',
         title: 'Technical Blog',

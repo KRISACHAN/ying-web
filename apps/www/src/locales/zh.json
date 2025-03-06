@@ -184,7 +184,7 @@
                     "title": "GitHub",
                     "value": "github.com/KRISACHAN",
                     "link": "https://github.com/KRISACHAN",
-                    "icon": "fas fa-github"
+                    "icon": "fab fa-github"
                 },
                 {
                     "type": "website",
@@ -197,7 +197,9 @@
                     "type": "wechat",
                     "title": "WeChat",
                     "value": "krisChans95",
-                    "icon": "fab fa-weixin"
+                    "icon": "fab fa-weixin",
+                    "showQRCode": true,
+                    "qrCodeImage": "/qrcode.jpg"
                 },
                 {
                     "type": "blog",

@@ -1,6 +1,7 @@
 'use client';
 
 import { Locale } from '@/types';
+import QRCodePopover from './QRCodePopover';
 
 type ContactSectionProps = {
     locale: Locale;
@@ -31,57 +32,89 @@ export default function ContactSection({ dictionary }: ContactSectionProps) {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             {contact.getInTouch.channels.map(
-                                (channel: any, index: number) => (
-                                    <div
-                                        key={index}
-                                        className="flex items-start hover:transform hover:translate-x-1 transition-transform duration-300"
-                                    >
-                                        <div className="w-12 h-12 flex items-center justify-center bg-blue-500 text-white p-3 rounded-full mr-4 shadow-md">
-                                            <i
-                                                className={`${channel.icon}`}
-                                            ></i>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-lg font-semibold text-gray-800">
-                                                {channel.title}
-                                            </h4>
-                                            {channel.link ? (
-                                                <a
-                                                    href={channel.link}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="text-blue-600 hover:underline"
-                                                >
-                                                    {channel.value}
-                                                </a>
-                                            ) : (
-                                                <p className="text-gray-600">
-                                                    {channel.value}
-                                                </p>
-                                            )}
-                                            {channel.items && (
-                                                <div className="mt-1 flex flex-wrap gap-2">
-                                                    {channel.items.map(
-                                                        (
-                                                            item: any,
-                                                            i: number,
-                                                        ) => (
-                                                            <a
-                                                                key={i}
-                                                                href={item.link}
-                                                                target="_blank"
-                                                                rel="noopener noreferrer"
-                                                                className="text-sm text-blue-600 hover:underline mr-3"
-                                                            >
-                                                                {item.title}
-                                                            </a>
-                                                        ),
-                                                    )}
+                                (channel: any, index: number) => {
+                                    if (channel.showQRCode) {
+                                        return (
+                                            <QRCodePopover
+                                                key={index}
+                                                qrCodeImage={
+                                                    channel.qrCodeImage
+                                                }
+                                                title={channel.title}
+                                            >
+                                                <div className="flex items-start hover:transform hover:translate-x-1 transition-transform duration-300 cursor-pointer">
+                                                    <div className="w-12 h-12 flex items-center justify-center bg-blue-500 text-white p-3 rounded-full mr-4 shadow-md">
+                                                        <i
+                                                            className={`${channel.icon}`}
+                                                        ></i>
+                                                    </div>
+                                                    <div>
+                                                        <h4 className="text-lg font-semibold text-gray-800">
+                                                            {channel.title}
+                                                        </h4>
+                                                        <p className="text-gray-600">
+                                                            {channel.value}
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                            )}
+                                            </QRCodePopover>
+                                        );
+                                    }
+
+                                    return (
+                                        <div
+                                            key={index}
+                                            className="flex items-start hover:transform hover:translate-x-1 transition-transform duration-300"
+                                        >
+                                            <div className="w-12 h-12 flex items-center justify-center bg-blue-500 text-white p-3 rounded-full mr-4 shadow-md">
+                                                <i
+                                                    className={`${channel.icon}`}
+                                                ></i>
+                                            </div>
+                                            <div>
+                                                <h4 className="text-lg font-semibold text-gray-800">
+                                                    {channel.title}
+                                                </h4>
+                                                {channel.link ? (
+                                                    <a
+                                                        href={channel.link}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-blue-600 hover:underline"
+                                                    >
+                                                        {channel.value}
+                                                    </a>
+                                                ) : (
+                                                    <p className="text-gray-600">
+                                                        {channel.value}
+                                                    </p>
+                                                )}
+                                                {channel.items && (
+                                                    <div className="mt-1 flex flex-wrap gap-2">
+                                                        {channel.items.map(
+                                                            (
+                                                                item: any,
+                                                                i: number,
+                                                            ) => (
+                                                                <a
+                                                                    key={i}
+                                                                    href={
+                                                                        item.link
+                                                                    }
+                                                                    target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    className="text-sm text-blue-600 hover:underline mr-3"
+                                                                >
+                                                                    {item.title}
+                                                                </a>
+                                                            ),
+                                                        )}
+                                                    </div>
+                                                )}
+                                            </div>
                                         </div>
-                                    </div>
-                                ),
+                                    );
+                                },
                             )}
                         </div>
                     </div>

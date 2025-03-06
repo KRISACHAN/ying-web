@@ -1,5 +1,8 @@
-import { NAV_LINKS, SOCIAL_LINKS } from '@/lib/constants';
+'use client';
+
+import { NAV_LINKS } from '@/lib/constants';
 import { Locale } from '@/types';
+import QRCodePopover from './QRCodePopover';
 
 type FooterProps = {
     locale: Locale;
@@ -9,6 +12,7 @@ type FooterProps = {
 export default function Footer({ dictionary }: FooterProps) {
     const footer = dictionary.footer;
     const nav = dictionary.nav;
+    const contact = dictionary.contact;
     const currentYear = new Date().getFullYear();
 
     return (
@@ -26,18 +30,41 @@ export default function Footer({ dictionary }: FooterProps) {
                     </div>
 
                     <div className="flex space-x-4">
-                        {SOCIAL_LINKS.map(link => (
-                            <a
-                                key={link.id}
-                                href={link.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-12 h-12 flex items-center justify-center text-white hover:text-blue-100 transition bg-white/10 p-3 rounded-full hover:bg-white/20"
-                                title={link.title}
-                            >
-                                <i className={`${link.icon} text-xl`}></i>
-                            </a>
-                        ))}
+                        {contact.getInTouch.channels.map((channel: any) => {
+                            if (channel.showQRCode) {
+                                return (
+                                    <QRCodePopover
+                                        key={channel.type}
+                                        qrCodeImage={channel.qrCodeImage}
+                                        title={channel.title}
+                                    >
+                                        <div
+                                            className="w-12 h-12 flex items-center justify-center text-white hover:text-blue-100 transition bg-white/10 p-3 rounded-full hover:bg-white/20 cursor-pointer"
+                                            title={channel.title}
+                                        >
+                                            <i
+                                                className={`${channel.icon} text-xl`}
+                                            ></i>
+                                        </div>
+                                    </QRCodePopover>
+                                );
+                            }
+
+                            return (
+                                <a
+                                    key={channel.type}
+                                    href={channel.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-12 h-12 flex items-center justify-center text-white hover:text-blue-100 transition bg-white/10 p-3 rounded-full hover:bg-white/20"
+                                    title={channel.title}
+                                >
+                                    <i
+                                        className={`${channel.icon} text-xl`}
+                                    ></i>
+                                </a>
+                            );
+                        })}
                     </div>
                 </div>
 
