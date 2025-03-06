@@ -15,8 +15,15 @@ const nextConfig = {
         ],
     },
     redirects: async () => {
-        return [];
+        return [
+            {
+                source: '/',
+                destination: '/en',
+                permanent: false,
+            },
+        ];
     },
+    output: 'standalone',
     webpack(config, options) {
         config.module.rules.push({
             test: /\.md$/,

@@ -1,21 +1,6 @@
 {
     "version": 2,
-    "routes": [
-        { "src": "^/$", "dest": "/en" },
-        { "src": "/zh", "dest": "/zh" },
-        { "src": "/en", "dest": "/en" },
-        { "handle": "filesystem" },
-        { "src": "/(.*)", "status": 404, "dest": "/404" }
-    ],
+    "routes": [{ "src": "^/$", "dest": "/en" }],
     "buildCommand": "turbo run build --filter @ying-web/www",
-    "outputDirectory": ".next",
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@vercel/node",
-            "config": {
-                "pnpmVersion": "9.14.2"
-            }
-        }
-    ]
+    "outputDirectory": ".next"
 }

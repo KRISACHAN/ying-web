@@ -51,14 +51,14 @@ export default function Navigation({ locale, dictionary }: NavigationProps) {
                     <div className="flex items-center border rounded-full overflow-hidden shadow-sm">
                         <a
                             href="/en"
-                            className={`px-3 py-1 text-sm language-btn flex items-center ${locale === 'en' ? 'active bg-blue-50 text-blue-600' : ''}`}
+                            className={`px-3 py-1 text-sm language-btn flex items-center ${locale === 'en' ? 'active bg-blue-50 text-blue-600' : 'text-blue-600'}`}
                         >
                             <i className="fas fa-globe-americas mr-1"></i>
                             {languages.en}
                         </a>
                         <a
                             href="/zh"
-                            className={`px-3 py-1 text-sm language-btn flex items-center ${locale === 'zh' ? 'active bg-blue-50 text-blue-600' : ''}`}
+                            className={`px-3 py-1 text-sm language-btn flex items-center ${locale === 'zh' ? 'active bg-blue-50 text-blue-600' : 'text-blue-600'}`}
                         >
                             <i className="fas fa-globe-asia mr-1"></i>
                             {languages.zh}
