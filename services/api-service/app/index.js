@@ -17,6 +17,18 @@ app.use(
     cors({
         // x-pagination is used to return pagination information
         exposeHeaders: ['x-pagination'],
+        origin:
+            process.env.APP_ENV === 'dev'
+                ? '*'
+                : [
+                      'https://www.krissarea.com',
+                      'https://api.krissarea.com',
+                      'https://admin.krissarea.com',
+                  ],
+        methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+        allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+        credentials: true,
+        maxAge: 86400,
     }),
 );
 app.use(catchErrorMiddleware);

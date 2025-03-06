@@ -1,4 +1,4 @@
-// GET /api/v1/option-draw/info/:key
+// GET /v1/option-draw/info/:key
 export interface ActivityInfo {
     id: number;
     activity_key: string;
@@ -7,7 +7,7 @@ export interface ActivityInfo {
     status: string;
 }
 
-// GET /api/v1/option-draw/query/:key
+// GET /ption-draw/query/:key
 export interface OptionDraw {
     id: number;
     activity_id: number;
@@ -16,7 +16,7 @@ export interface OptionDraw {
     created_at: string | null;
 }
 
-// POST /api/v1/option-draw/draw
+// POST /ption-draw/draw
 export interface DrawOptionRequest {
     key: string;
     username: string;
@@ -30,7 +30,7 @@ export interface DrawOptionResponse {
     message: string;
 }
 
-// GET /api/v1/option-draw/list
+// GET /ption-draw/list
 export interface OptionDrawActivity {
     id: number;
     key: string;

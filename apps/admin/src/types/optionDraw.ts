@@ -1,4 +1,4 @@
-// POST /api/v1/admin/option-draw/create
+// POST /v1/admin/option-draw/create
 export interface CreateOptionDrawRequest {
     key: string;
     name: string;
@@ -13,7 +13,7 @@ export interface CreateOptionDrawResponse {
     activity_key: string;
 }
 
-// GET /api/v1/admin/option-draw/query/:key
+// GET /dmin/option-draw/query/:key
 export interface OptionDraw {
     id: number;
     activity_id: number;
@@ -41,7 +41,7 @@ export interface QueryOptionDrawResponse {
     options: OptionDraw[];
 }
 
-// DELETE /api/v1/admin/option-draw/delete/:key
+// DELETE /dmin/option-draw/delete/:key
 export interface DeleteOptionDrawRequest {
     key: string;
 }
@@ -50,7 +50,7 @@ export interface DeleteOptionDrawResponse {
     message: string;
 }
 
-// GET /api/v1/admin/option-draw/list
+// GET /dmin/option-draw/list
 export interface OptionDrawActivity {
     id: number;
     key: string;
@@ -65,7 +65,7 @@ export interface OptionDrawActivity {
 
 export type QueryOptionDrawListResponse = OptionDrawActivity[];
 
-// PUT /api/v1/admin/option-draw/cancel-participation
+// PUT /dmin/option-draw/cancel-participation
 export interface CancelParticipationOptionDrawRequest {
     key: string;
     username: string;
@@ -77,7 +77,7 @@ export interface CancelParticipationOptionDrawResponse {
     drawn_option: string;
 }
 
-// GET /api/v1/admin/option-draw/info/:key
+// GET /dmin/option-draw/info/:key
 export interface ActivityInfo {
     id: number;
     activity_key: string;

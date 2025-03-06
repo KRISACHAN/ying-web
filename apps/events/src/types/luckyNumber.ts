@@ -1,6 +1,6 @@
 import type { LuckyNumberStatus } from '@/utils/constants';
 
-// GET /api/v1/admin/lucky-number/query/:key
+// GET /v1/admin/lucky-number/query/:key
 export interface LuckyNumber {
     id: number;
     drawn_number: number;
@@ -27,7 +27,7 @@ export interface QueryLuckyNumberResponse {
     numbers: LuckyNumber[];
 }
 
-// GET /api/v1/admin/lucky-number/list
+// GET /dmin/lucky-number/list
 export interface LuckyNumberActivity {
     id: number;
     key: string;
@@ -36,7 +36,7 @@ export interface LuckyNumberActivity {
 
 export type QueryLuckyNumberListResponse = LuckyNumberActivity[];
 
-// POST /api/v1/admin/lucky-number/draw
+// POST /dmin/lucky-number/draw
 export interface DrawLuckyNumberRequest {
     key: string;
     username: string;
@@ -47,7 +47,7 @@ export interface DrawLuckyNumberResponse {
     message: string;
 }
 
-// GET /api/v1/admin/lucky-number/info/:key
+// GET /dmin/lucky-number/info/:key
 export interface ActivityInfo {
     id: number;
     activity_key: string;
