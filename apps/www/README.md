@@ -41,7 +41,7 @@ NEXT_PUBLIC_SITE_NAME="Ying Web"
 NEXT_PUBLIC_SITE_COPYRIGHT="krissarea"
 NEXT_DEFAULT_METADATA_DEFAULT_TITLE="Ying Web - Modern Web Development"
 NEXT_PUBLIC_SITE_DESCRIPTION="A modern web development platform with React, Next.js, and TypeScript."
-NEXT_PUBLIC_BASE_URL="https://www.krissarea.com"
+NEXT_PUBLIC_BASE_URL="https://www.krissarea.com" # my main site
 ```
 
 3. Start development server:
