@@ -1,0 +1,232 @@
+{
+    "meta": {
+        "title": "陈大鱼头 | 个人简历",
+        "description": "拥有8年以上前端开发经验的工程师"
+    },
+    "languages": {
+        "en": "English",
+        "zh": "中文"
+    },
+    "nav": {
+        "about": "关于我",
+        "skills": "技能",
+        "experience": "经验",
+        "projects": "项目",
+        "contact": "联系"
+    },
+    "hero": {
+        "name": "陈大鱼头",
+        "title": "前端工程师 | 8+年经验",
+        "description": "具有丰富的前端开发经验，专注于解决复杂问题并提升项目性能。目前寻求远程工作机会，追求工作与生活的平衡。",
+        "contactButton": "联系我",
+        "projectsButton": "查看项目"
+    },
+    "about": {
+        "title": "关于我",
+        "philosophy": {
+            "title": "我的哲学",
+            "description": "我相信我们只有一次生命，所以我们应该过我们想要的生活，而不是别人期望的生活。我追求工作与生活的平衡，认为做我喜欢的事情（比如旅行或照顾我的家人）同时工作是一件很酷的事情。这可能是一个艰难的目标，但我相信我可以实现它。即使需要很长时间或失败，我也不会放弃。我会继续在这条路上前进，永不回头。"
+        },
+        "strengths": {
+            "title": "我的优势",
+            "items": [
+                {
+                    "title": "技术深度",
+                    "description": "通过深入理解业务需求和技术实现细节，我可以设计高性能、可扩展的前端架构解决方案。"
+                },
+                {
+                    "title": "拥抱挑战",
+                    "description": "主动承担不熟悉领域的项目，如商业化、DevOps迁移和SEO优化，不断扩展我的技术广度。作为一个风险承担者，我并不害怕任何挑战。"
+                },
+                {
+                    "title": "团队合作",
+                    "description": "保持积极和乐观的工作态度，与团队成员建立良好的合作关系，促进知识共享和经验转移。"
+                }
+            ]
+        }
+    },
+    "skills": {
+        "title": "技术技能",
+        "frontendTitle": "前端技术",
+        "backendTitle": "后端技术",
+        "otherTitle": "DevOps",
+        "frontend": [
+            { "name": "Vue.js (2 & 3)", "percentage": 95 },
+            { "name": "React/Next.js", "percentage": 90 },
+            { "name": "TypeScript", "percentage": 85 },
+            { "name": "Webpack", "percentage": 80 },
+            { "name": "CSS/Less", "percentage": 90 }
+        ],
+        "backend": [
+            { "name": "Node.js", "percentage": 85 },
+            { "name": "Koa.js", "percentage": 80 },
+            { "name": "RESTful API设计", "percentage": 85 },
+            { "name": "BFF架构", "percentage": 80 },
+            { "name": "微服务架构", "percentage": 75 }
+        ],
+        "other": [
+            { "name": "Docker", "percentage": 85 },
+            { "name": "CI/CD", "percentage": 80 },
+            { "name": "监控和告警", "percentage": 75 },
+            { "name": "PM2", "percentage": 85 }
+        ]
+    },
+    "experience": {
+        "title": "工作经验",
+        "jobs": [
+            {
+                "company": "稿定（厦门）科技有限公司",
+                "position": "高级前端工程师",
+                "period": "2020年7月 - 2024年7月",
+                "projects": [
+                    {
+                        "title": "商业前端开发",
+                        "description": "负责架构重建和性能优化，商业购买页面每天访问量超过50,000",
+                        "achievements": [
+                            "设计基于适配器模式的跨平台统一SDK",
+                            "将商业模块重建为独立子项目",
+                            "结果：业务转化率提高7%"
+                        ]
+                    },
+                    {
+                        "title": "核心KoaJS渲染服务",
+                        "description": "优化核心渲染服务，每天访问量超过400万",
+                        "achievements": [
+                            "使用JSX重构，将路由注册从业务逻辑中分离",
+                            "实现基于QPS的限流策略",
+                            "结果：确保99.99%的SLA稳定性"
+                        ]
+                    },
+                    {
+                        "title": "SEO爬虫稳定性项目",
+                        "description": "主导建立公司首个SEO稳定性标准体系",
+                        "achievements": [
+                            "基于爬虫行为特征分析，建立核心指标评估体系",
+                            "优化核心页面响应速度和爬虫抓取策略",
+                            "结果：核心页面500ms内响应占比从40%提升至90%"
+                        ]
+                    },
+                    {
+                        "title": "稿定主站DevOps改造",
+                        "description": "负责主站技术架构升级与DevOps改造",
+                        "achievements": [
+                            "完成容器化迁移（GitHub + K8s + Docker）",
+                            "优化构建流程，构建时间减少50%（年省21,000分钟）",
+                            "结果：实现全自动化部署，显著提升代码可维护性"
+                        ]
+                    }
+                ]
+            },
+            {
+                "company": "深圳市思天极创教育科技有限公司",
+                "position": "前端开发",
+                "period": "2018年12月 - 2020年7月",
+                "description": "领导开发了教育APP \"EZBLOCK\"的核心功能，设计并实现了基于Webpack和Blockly的代码转换系统，获得了发明专利（CN110941432A）。开源了项目脚手架，获得了100+星。"
+            },
+            {
+                "company": "通印投资集团",
+                "position": "Web开发",
+                "period": "2016年7月 - 2018年9月",
+                "description": "作为核心开发者，完成了公司网站和微信商城的Vue2重建，实现了前端后端分离，优化了用户体验，累计服务了6,000+用户。"
+            }
+        ]
+    },
+    "projects": {
+        "title": "开源项目",
+        "items": [
+            {
+                "title": "ying-web",
+                "description": "基于现代前端技术栈的多项目monorepo，具有全栈开发能力",
+                "stars": "24+ Stars",
+                "technologies": ["React", "Next.js", "Koa.js", "TypeScript"],
+                "link": "https://github.com/KRISACHAN/ying-web"
+            },
+            {
+                "title": "ying-template",
+                "description": "一个可用的前端项目模板，具有全面的工具和最佳实践",
+                "stars": "100+ Stars",
+                "technologies": ["Vue", "Webpack", "TypeScript"],
+                "link": "https://github.com/KRISACHAN/ying-template"
+            },
+            {
+                "title": "ying-datastructures-algorithms",
+                "description": "以TypeScript为描述语言的算法与数据结构入门仓库，面向想要学习或查漏补缺的前端开发者",
+                "stars": "55+ Stars",
+                "technologies": ["TypeScript", "数据结构", "算法"],
+                "link": "https://github.com/KRISACHAN/ying-datastructures-algorithms"
+            }
+        ]
+    },
+    "contact": {
+        "title": "联系我",
+        "getInTouch": {
+            "title": "获取联系",
+            "description": "如果您对我的经验和能力感兴趣，可以通过以下任何渠道与我联系：",
+            "channels": [
+                {
+                    "type": "email",
+                    "title": "Email",
+                    "value": "chenjinwen77@gmail.com",
+                    "link": "mailto:chenjinwen77@gmail.com",
+                    "icon": "fas fa-envelope"
+                },
+                {
+                    "type": "github",
+                    "title": "GitHub",
+                    "value": "github.com/KRISACHAN",
+                    "link": "https://github.com/KRISACHAN",
+                    "icon": "fas fa-github"
+                },
+                {
+                    "type": "website",
+                    "title": "Website",
+                    "value": "www.krissarea.com",
+                    "link": "https://www.krissarea.com",
+                    "icon": "fas fa-globe"
+                },
+                {
+                    "type": "wechat",
+                    "title": "WeChat",
+                    "value": "krisChans95",
+                    "icon": "fab fa-weixin"
+                },
+                {
+                    "type": "blog",
+                    "title": "技术博客",
+                    "value": "掘金博客",
+                    "link": "https://juejin.cn/user/835284564452397/posts",
+                    "icon": "fas fa-book"
+                },
+                {
+                    "type": "blogs",
+                    "title": "英文博客",
+                    "items": [
+                        {
+                            "title": "Medium",
+                            "link": "https://medium.com/@fish_head_chan"
+                        },
+                        {
+                            "title": "生活日记",
+                            "link": "https://diary.krissarea.com/"
+                        }
+                    ],
+                    "icon": "fas fa-pen"
+                }
+            ]
+        },
+        "form": {
+            "title": "发送消息",
+            "fields": {
+                "name": "Name",
+                "email": "Email",
+                "message": "Message"
+            },
+            "submitButton": "发送消息"
+        }
+    },
+    "footer": {
+        "name": "陈大鱼头",
+        "description": "前端工程师",
+        "copyright": "版权所有"
+    }
+}

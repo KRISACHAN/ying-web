@@ -85,11 +85,23 @@ Check it out at [https://diary.krissarea.com](https://diary.krissarea.com)
 
 And see the detail at [README.md](./apps/diary/README.md)
 
-### [wip] @ying-web/home 🏠
+### @ying-web/www 📄
 
-My main website (maybe just an entry of my projects) at [https://www.krissarea.com](https://www.krissarea.com).
+My modern resume website built with Next.js 15 and React 19, featuring SSG/SSR rendering and multi-language support (English/Chinese). It provides a clean and elegant interface to showcase my professional experience, skills, and projects.
 
-Still brainstorming how to make it extra special! 🎨
+The site features a responsive design with beautiful UI elements including:
+
+-   Interactive timeline for work experience
+-   Skill progress bars with categorization
+-   Project cards with gradient headers
+-   Contact information with social links
+-   Font Awesome icons for visual enhancement
+
+All content is managed through JSON locale files, making it easy to update and maintain.
+
+Check it out at [https://www.krissarea.com](https://www.krissarea.com)
+
+And see the detail at [README.md](./apps/www/README.md)
 
 ## The Future is Bright! 🌈
 
@@ -140,6 +152,7 @@ pnpm build:admin     # Build admin dashboard
 pnpm build:diary     # Build diary site
 pnpm build:events    # Build events platform
 pnpm build:api-service # Build API service
+pnpm build:www       # Build resume website
 ```
 
 ### Deployment 🌐
@@ -151,6 +164,7 @@ Most frontend projects are deployed on Vercel:
 -   Admin Dashboard: [admin.krissarea.com](https://admin.krissarea.com)
 -   Diary: [diary.krissarea.com](https://diary.krissarea.com)
 -   Events: [events.krissarea.com](https://events.krissarea.com)
+-   Resume Website: [www.krissarea.com](https://www.krissarea.com)
 
 #### Backend Services
 
