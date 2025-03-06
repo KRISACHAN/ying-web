@@ -21,6 +21,10 @@
             "path": "apps/diary",
         },
         {
+            "name": "@ying-web/www",
+            "path": "apps/www",
+        },
+        {
             "name": "@ying-web/test-config",
             "path": "packages/test-config",
         },

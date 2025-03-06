@@ -1,0 +1,232 @@
+{
+    "meta": {
+        "title": "Kris Chen | Resume",
+        "description": "Frontend Engineer with 8+ years of experience in web development"
+    },
+    "languages": {
+        "en": "English",
+        "zh": "中文"
+    },
+    "nav": {
+        "about": "About",
+        "skills": "Skills",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "name": "Kris Chen",
+        "title": "Frontend Engineer | 8+ Years Experience",
+        "description": "Experienced frontend developer focused on solving complex problems and enhancing project performance. Currently seeking remote work opportunities with work-life balance.",
+        "contactButton": "Contact Me",
+        "projectsButton": "View Projects"
+    },
+    "about": {
+        "title": "About Me",
+        "philosophy": {
+            "title": "My Philosophy",
+            "description": "I believe we only live once, so we should live the life we desire, not the one others expect of us. I pursue work-life balance, considering it super cool to do what I love (like traveling or taking care of my family) while working. It might be a tough goal, but I believe I can pull it off. Even if it takes a long time or I fail, I won't give up. I'll keep moving forward on this path and never look back."
+        },
+        "strengths": {
+            "title": "My Strengths",
+            "items": [
+                {
+                    "title": "Technical Depth",
+                    "description": "Through deep understanding of business requirements and technical implementation details, I can design high-performance, scalable frontend architecture solutions."
+                },
+                {
+                    "title": "Embracing Challenges",
+                    "description": "Proactively took on projects in unfamiliar areas such as commercialization, DevOps migration, and SEO optimization, constantly expanding my technical breadth. As a risk-taker, I'm not scared of any challenges."
+                },
+                {
+                    "title": "Team Collaboration",
+                    "description": "Maintain a positive and optimistic work attitude, establishing good cooperative relationships with team members and promoting knowledge sharing and experience transfer."
+                }
+            ]
+        }
+    },
+    "skills": {
+        "title": "Technical Skills",
+        "frontendTitle": "Frontend Technologies",
+        "backendTitle": "Backend Technologies",
+        "otherTitle": "DevOps",
+        "frontend": [
+            { "name": "Vue.js (2 & 3)", "percentage": 95 },
+            { "name": "React/Next.js", "percentage": 90 },
+            { "name": "TypeScript", "percentage": 85 },
+            { "name": "Webpack", "percentage": 80 },
+            { "name": "CSS/Less", "percentage": 90 }
+        ],
+        "backend": [
+            { "name": "Node.js", "percentage": 85 },
+            { "name": "Koa.js", "percentage": 80 },
+            { "name": "RESTful API Design", "percentage": 85 },
+            { "name": "BFF Architecture", "percentage": 80 },
+            { "name": "Microservices Architecture", "percentage": 75 }
+        ],
+        "other": [
+            { "name": "Docker", "percentage": 85 },
+            { "name": "CI/CD", "percentage": 80 },
+            { "name": "Monitoring & Alerting", "percentage": 75 },
+            { "name": "PM2", "percentage": 85 }
+        ]
+    },
+    "experience": {
+        "title": "Work Experience",
+        "jobs": [
+            {
+                "company": "Gaoding Technology Co., Ltd.",
+                "position": "Senior Frontend Engineer",
+                "period": "July 2020 - July 2024",
+                "projects": [
+                    {
+                        "title": "Commercial Frontend Development",
+                        "description": "Responsible for architecture reconstruction and performance optimization of commercial purchase pages with 50,000+ daily visits",
+                        "achievements": [
+                            "Designed cross-platform unified SDK based on adapter pattern",
+                            "Reconstructed commercial modules as independent sub-projects",
+                            "Results: 7% increase in business conversion rate"
+                        ]
+                    },
+                    {
+                        "title": "Core KoaJS Rendering Service",
+                        "description": "Optimized core rendering service handling 4M+ daily visits",
+                        "achievements": [
+                            "Restructured using JSX, separating route registration from business logic",
+                            "Implemented QPS-based rate limiting strategy",
+                            "Results: Ensured 99.99% SLA stability"
+                        ]
+                    },
+                    {
+                        "title": "SEO Crawler Stability Project",
+                        "description": "Led the establishment of the company's first SEO stability standard system",
+                        "achievements": [
+                            "Built core metrics evaluation system based on crawler behavior analysis",
+                            "Optimized core page response speed and crawler acquisition strategy",
+                            "Results: Increased core page response within 500ms from 40% to 90%"
+                        ]
+                    },
+                    {
+                        "title": "Main Website DevOps Transformation",
+                        "description": "Responsible for main site technology architecture upgrade and DevOps transformation",
+                        "achievements": [
+                            "Completed containerization migration (GitHub + K8s + Docker)",
+                            "Optimized build process, reducing build time by 50% (saving 21,000 minutes annually)",
+                            "Results: Implemented fully automated deployment, significantly improved code maintainability"
+                        ]
+                    }
+                ]
+            },
+            {
+                "company": "Shenzhen Sitianjichuang Education Technology Co., Ltd.",
+                "position": "Frontend Developer",
+                "period": "December 2018 - July 2020",
+                "description": "Led the development of core features for the educational APP \"EZBLOCK\", designed and implemented a code conversion system based on Webpack and Blockly, obtaining an invention patent (CN110941432A). Open-sourced the project scaffold, gaining 100+ stars."
+            },
+            {
+                "company": "Tongyin Investment Group",
+                "position": "Web Developer",
+                "period": "July 2016 - September 2018",
+                "description": "As a core developer, completed Vue2 reconstruction of the company website and WeChat mall, implementing frontend-backend separation, optimizing user experience, and serving 6,000+ users cumulatively."
+            }
+        ]
+    },
+    "projects": {
+        "title": "Open Source Projects",
+        "items": [
+            {
+                "title": "ying-web",
+                "description": "Multi-project monorepo based on modern frontend tech stack with full-stack development capabilities",
+                "stars": "24+ Stars",
+                "technologies": ["React", "Next.js", "Koa.js", "TypeScript"],
+                "link": "https://github.com/KRISACHAN/ying-web"
+            },
+            {
+                "title": "ying-template",
+                "description": "A ready-to-use frontend project template with comprehensive tooling and best practices",
+                "stars": "100+ Stars",
+                "technologies": ["Vue", "Webpack", "TypeScript"],
+                "link": "https://github.com/KRISACHAN/ying-template"
+            },
+            {
+                "title": "ying-datastructures-algorithms",
+                "description": "An algorithm and data structure learning repository using TypeScript, aimed at frontend developers wanting to learn or improve their knowledge",
+                "stars": "55+ Stars",
+                "technologies": ["TypeScript", "Data Structures", "Algorithms"],
+                "link": "https://github.com/KRISACHAN/ying-datastructures-algorithms"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact Me",
+        "getInTouch": {
+            "title": "Get In Touch",
+            "description": "If you're interested in my experience and abilities, feel free to contact me through any of these channels:",
+            "channels": [
+                {
+                    "type": "email",
+                    "title": "Email",
+                    "value": "chenjinwen77@gmail.com",
+                    "link": "mailto:chenjinwen77@gmail.com",
+                    "icon": "fas fa-envelope"
+                },
+                {
+                    "type": "github",
+                    "title": "GitHub",
+                    "value": "github.com/KRISACHAN",
+                    "link": "https://github.com/KRISACHAN",
+                    "icon": "fas fa-github"
+                },
+                {
+                    "type": "website",
+                    "title": "Website",
+                    "value": "www.krissarea.com",
+                    "link": "https://www.krissarea.com",
+                    "icon": "fas fa-globe"
+                },
+                {
+                    "type": "wechat",
+                    "title": "WeChat",
+                    "value": "krisChans95",
+                    "icon": "fab fa-weixin"
+                },
+                {
+                    "type": "blog",
+                    "title": "Technical Blog",
+                    "value": "Juejin (Chinese)",
+                    "link": "https://juejin.cn/user/835284564452397/posts",
+                    "icon": "fas fa-book"
+                },
+                {
+                    "type": "blogs",
+                    "title": "English Blogs",
+                    "items": [
+                        {
+                            "title": "Medium",
+                            "link": "https://medium.com/@fish_head_chan"
+                        },
+                        {
+                            "title": "Lifestyle Diary",
+                            "link": "https://diary.krissarea.com/"
+                        }
+                    ],
+                    "icon": "fas fa-pen"
+                }
+            ]
+        },
+        "form": {
+            "title": "Send a Message",
+            "fields": {
+                "name": "Name",
+                "email": "Email",
+                "message": "Message"
+            },
+            "submitButton": "Send Message"
+        }
+    },
+    "footer": {
+        "name": "Kris Chen",
+        "description": "Frontend Engineer",
+        "copyright": "All rights reserved"
+    }
+}

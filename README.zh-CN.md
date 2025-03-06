@@ -85,11 +85,23 @@ PS：目前正在寻找新的机会，欢迎联系！🤝
 
 详见 [README.md](./apps/diary/README.zh-CN.md)
 
-### [开发中] @ying-web/home 🏠
+### @ying-web/www 📄
 
-主站（可能作为项目入口）[https://www.krissarea.com](https://www.krissarea.com)
+使用 Next.js 15 和 React 19 构建的现代简历网站，支持 SSG/SSR 渲染和中英文双语切换。它提供了一个简洁优雅的界面，用于展示我的专业经验、技能和项目。
 
-正在构思如何打造独特体验！🎨
+网站特点包括响应式设计和精美UI元素：
+
+-   工作经验的交互式时间轴
+-   分类展示的技能进度条
+-   带渐变标题的项目卡片
+-   社交链接的联系信息
+-   使用Font Awesome图标增强视觉效果
+
+所有内容通过JSON语言文件管理，便于更新和维护。
+
+访问 [https://www.krissarea.com](https://www.krissarea.com)
+
+详见 [README.md](./apps/www/README.zh-CN.md)
 
 ## 未来展望 🌈
 
@@ -140,6 +152,7 @@ pnpm build:admin     # 构建管理后台
 pnpm build:diary     # 构建日记站点
 pnpm build:events    # 构建活动平台
 pnpm build:api-service # 构建API服务
+pnpm build:www       # 构建简历网站
 ```
 
 ### 部署指南 🌐
@@ -151,6 +164,7 @@ pnpm build:api-service # 构建API服务
 -   管理后台: [admin.krissarea.com](https://admin.krissarea.com)
 -   日记: [diary.krissarea.com](https://diary.krissarea.com)
 -   活动平台: [events.krissarea.com](https://events.krissarea.com)
+-   简历网站: [www.krissarea.com](https://www.krissarea.com)
 
 #### 后端服务
 
