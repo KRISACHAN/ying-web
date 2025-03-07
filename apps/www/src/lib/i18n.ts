@@ -1,4 +1,4 @@
-import type { Locale } from '@/types';
+import type { Dictionary, Locale } from '@/types';
 import 'server-only';
 
 // Define the available locales
@@ -14,12 +14,10 @@ export function isValidLocale(locale: string): locale is Locale {
 import enDictionary from '@/locales/en.json';
 import zhDictionary from '@/locales/zh.json';
 
-type Dictionary = typeof enDictionary;
-
 // Dictionary cache to avoid reloading the same dictionary
 const dictionaries: Record<Locale, Dictionary> = {
-    en: enDictionary,
-    zh: zhDictionary,
+    en: enDictionary as Dictionary,
+    zh: zhDictionary as Dictionary,
 };
 
 // Function to get dictionary based on locale
