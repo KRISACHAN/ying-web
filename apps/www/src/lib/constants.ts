@@ -32,12 +32,12 @@ export const SOCIAL_LINKS = [
         title: 'Life Diary',
         icon: 'fas fa-pen',
     },
-    {
-        id: 'medium',
-        url: 'https://medium.com/@fish_head_chan',
-        title: 'Medium',
-        icon: 'fab fa-medium',
-    },
+    // {
+    //     id: 'medium',
+    //     url: 'https://medium.com/@fish_head_chan',
+    //     title: 'Medium',
+    //     icon: 'fab fa-medium',
+    // },
 ];
 
 // navigation links

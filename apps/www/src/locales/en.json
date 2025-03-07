@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "Kris Chen | Resume",
+        "title": "Kris Chen, 8+ Years FE Engineer resume",
         "description": "Frontend Engineer with 8+ years of experience in web development"
     },
     "languages": {
@@ -16,7 +16,7 @@
     },
     "hero": {
         "name": "Kris Chen",
-        "title": "Frontend Engineer | 8+ Years Experience",
+        "title": "FE | 8+ Years Experience",
         "description": "Experienced frontend developer focused on solving complex problems and enhancing project performance. Currently seeking remote work opportunities with work-life balance.",
         "contactButton": "Contact Me",
         "projectsButton": "View Projects"
@@ -187,13 +187,6 @@
                     "icon": "fab fa-github"
                 },
                 {
-                    "type": "website",
-                    "title": "Website",
-                    "value": "www.krissarea.com",
-                    "link": "https://www.krissarea.com",
-                    "icon": "fas fa-globe"
-                },
-                {
                     "type": "wechat",
                     "title": "WeChat",
                     "value": "krisChans95",
@@ -210,17 +203,9 @@
                 },
                 {
                     "type": "blogs",
-                    "title": "English Blogs",
-                    "items": [
-                        {
-                            "title": "Medium",
-                            "link": "https://medium.com/@fish_head_chan"
-                        },
-                        {
-                            "title": "Lifestyle Diary",
-                            "link": "https://diary.krissarea.com/"
-                        }
-                    ],
+                    "title": "Lifestyle Diary",
+                    "value": "Ying Diary",
+                    "link": "https://diary.krissarea.com/",
                     "icon": "fas fa-pen"
                 }
             ]

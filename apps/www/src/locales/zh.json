@@ -187,13 +187,6 @@
                     "icon": "fab fa-github"
                 },
                 {
-                    "type": "website",
-                    "title": "Website",
-                    "value": "www.krissarea.com",
-                    "link": "https://www.krissarea.com",
-                    "icon": "fas fa-globe"
-                },
-                {
                     "type": "wechat",
                     "title": "WeChat",
                     "value": "krisChans95",
