@@ -2,20 +2,6 @@
 description: Apply common rules to JavaScript, TypeScript, CSS, and LESS files to ensure consistent coding standards and best practices across the entire frontend and backend codebase
 globs: **/*,!**/node_modules/**,!**/dist/**,!**/build/*,!**/.git/**,!**/.next/**,!**/.nuxt/**,!**/coverage/**,!**/.cache/**,!**/.temp/**
 ---
----
-description: Apply common rules to JavaScript, TypeScript, CSS, and LESS files to ensure consistent coding standards and best practices across the entire frontend and backend codebase.
-globs:
-  - "**/*"
-  - "!**/node_modules/**"
-  - "!**/dist/**"
-  - "!**/build/**"
-  - "!**/.git/**"
-  - "!**/.next/**"
-  - "!**/.nuxt/**"
-  - "!**/coverage/**"
-  - "!**/.cache/**"
-  - "!**/.temp/**"
----
 
 ## Role
 

@@ -74,6 +74,15 @@ export default function Footer({ dictionary }: FooterProps) {
                         {currentYear} {footer.copyright}
                     </p>
 
+                    <a
+                        href="https://beian.miit.gov.cn/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 text-sm mb-4 md:mb-0 flex items-center"
+                    >
+                        网站备案号：粤ICP备17113436号-1
+                    </a>
+
                     <div className="flex flex-wrap gap-4 text-sm text-gray-400">
                         {NAV_LINKS.map(link => (
                             <a
