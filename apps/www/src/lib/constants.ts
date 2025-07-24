@@ -14,7 +14,7 @@ export const SOCIAL_LINKS = [
     },
     {
         id: 'wechat',
-        url: 'https://wechat.com/krisChans95',
+        url: '#',
         title: 'WeChat',
         icon: 'fab fa-weixin',
         showQRCode: true,
@@ -22,22 +22,10 @@ export const SOCIAL_LINKS = [
     },
     {
         id: 'juejin',
-        url: 'https://juejin.cn/user/835284564452397/posts',
+        url: 'https://juejin.cn/user/835284564452397',
         title: 'Technical Blog',
         icon: 'fas fa-book',
     },
-    {
-        id: 'lifediary',
-        url: 'https://diary.krissarea.com/',
-        title: 'Life Diary',
-        icon: 'fas fa-pen',
-    },
-    // {
-    //     id: 'medium',
-    //     url: 'https://medium.com/@fish_head_chan',
-    //     title: 'Medium',
-    //     icon: 'fab fa-medium',
-    // },
 ];
 
 // navigation links

@@ -80,7 +80,7 @@ export default function Footer({ dictionary }: FooterProps) {
                         rel="noopener noreferrer"
                         className="text-gray-400 text-sm mb-4 md:mb-0 flex items-center"
                     >
-                        网站备案号：粤ICP备17113436号-1
+                        {footer.icp}
                     </a>
 
                     <div className="flex flex-wrap gap-4 text-sm text-gray-400">

@@ -113,6 +113,7 @@ export type Dictionary = {
         name: string;
         description: string;
         copyright: string;
+        icp: string;
     };
 };
 
