@@ -17,9 +17,9 @@ const notoSansSC = Noto_Sans_SC({
 });
 
 export const metadata: Metadata = {
-    title: 'Kris Chen, 8+ Years FE Engineer resume',
+    title: 'Kris Chen - Senior Frontend Engineer with 9 Years Experience',
     description:
-        'Frontend Engineer with 8+ years of experience in web development',
+        'Senior Frontend Engineer with 9 years of experience in web development, specializing in Vue, React, Node.js, and large-scale application architecture',
 };
 
 export default function RootLayout({

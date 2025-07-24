@@ -1,7 +1,7 @@
 {
     "meta": {
-        "title": "陈大鱼头 | 个人简历",
-        "description": "拥有8年以上前端开发经验的工程师"
+        "title": "陈劲文 - 9年前端开发经验的高级前端工程师",
+        "description": "拥有9年前端开发经验的高级前端工程师，专精于Vue、React、Node.js和大规模应用架构"
     },
     "languages": {
         "en": "English",
@@ -15,32 +15,32 @@
         "contact": "联系"
     },
     "hero": {
-        "name": "陈大鱼头",
-        "title": "前端工程师 | 8+年经验",
-        "description": "具有丰富的前端开发经验，专注于解决复杂问题并提升项目性能。目前寻求远程工作机会，追求工作与生活的平衡。",
+        "name": "陈劲文",
+        "title": "高级前端工程师 | 9年经验",
+        "description": "经验丰富的前端工程师，专精于大规模Web应用架构设计。精通Vue、React、Node.js和Docker等现代技术栈。目前寻求远程工作机会。",
         "contactButton": "联系我",
         "projectsButton": "查看项目"
     },
     "about": {
         "title": "关于我",
         "philosophy": {
-            "title": "我的哲学",
-            "description": "我相信我们只有一次生命，所以我们应该过我们想要的生活，而不是别人期望的生活。我追求工作与生活的平衡，认为做我喜欢的事情（比如旅行或照顾我的家人）同时工作是一件很酷的事情。这可能是一个艰难的目标，但我相信我可以实现它。即使需要很长时间或失败，我也不会放弃。我会继续在这条路上前进，永不回头。"
+            "title": "专业总结",
+            "description": "9年前端开发经验，专精于大规模Web应用架构设计。精通Vue、React、Node.js和Docker等现代技术栈。在领导技术项目、性能优化和建立开发团队最佳实践方面经验丰富。"
         },
         "strengths": {
-            "title": "我的优势",
+            "title": "核心能力",
             "items": [
                 {
-                    "title": "技术深度",
-                    "description": "通过深入理解业务需求和技术实现细节，我可以设计高性能、可扩展的前端架构解决方案。"
+                    "title": "技术架构",
+                    "description": "设计并实现了处理数百万日请求的高流量应用的可扩展前端架构。精通BFF模式、微服务和容器化技术。"
                 },
                 {
-                    "title": "拥抱挑战",
-                    "description": "主动承担不熟悉领域的项目，如商业化、DevOps迁移和SEO优化，不断扩展我的技术广度。作为一个风险承担者，我并不害怕任何挑战。"
+                    "title": "性能优化",
+                    "description": "领导性能优化计划，实现页面加载时间50%+的提升和99.99%的SLA稳定性。建立了全面的监控和告警系统。"
                 },
                 {
-                    "title": "团队合作",
-                    "description": "保持积极和乐观的工作态度，与团队成员建立良好的合作关系，促进知识共享和经验转移。"
+                    "title": "跨平台开发",
+                    "description": "开发了支持Web、App和小程序的统一SDK，减少70%的开发时间，实现一套代码多平台部署。"
                 }
             ]
         }
@@ -49,85 +49,106 @@
         "title": "技术技能",
         "frontendTitle": "前端技术",
         "backendTitle": "后端技术",
-        "otherTitle": "DevOps",
+        "otherTitle": "DevOps & 工具",
         "frontend": [
             { "name": "Vue.js (2 & 3)", "percentage": 95 },
             { "name": "React/Next.js", "percentage": 90 },
-            { "name": "TypeScript", "percentage": 85 },
-            { "name": "Webpack", "percentage": 80 },
-            { "name": "CSS/Less", "percentage": 90 }
+            { "name": "TypeScript", "percentage": 90 },
+            { "name": "JavaScript/ES6+", "percentage": 95 },
+            { "name": "CSS/LESS/Sass", "percentage": 90 },
+            { "name": "HTML5", "percentage": 95 }
         ],
         "backend": [
-            { "name": "Node.js", "percentage": 85 },
-            { "name": "Koa.js", "percentage": 80 },
-            { "name": "RESTful API设计", "percentage": 85 },
-            { "name": "BFF架构", "percentage": 80 },
-            { "name": "微服务架构", "percentage": 75 }
+            { "name": "Node.js", "percentage": 90 },
+            { "name": "Koa.js/Express.js", "percentage": 85 },
+            { "name": "RESTful API设计", "percentage": 90 },
+            { "name": "GraphQL", "percentage": 80 },
+            { "name": "BFF架构", "percentage": 90 },
+            { "name": "微服务", "percentage": 85 }
         ],
         "other": [
-            { "name": "Docker", "percentage": 85 },
-            { "name": "CI/CD", "percentage": 80 },
-            { "name": "监控和告警", "percentage": 75 },
-            { "name": "PM2", "percentage": 85 }
+            { "name": "Docker", "percentage": 90 },
+            { "name": "Kubernetes", "percentage": 80 },
+            { "name": "CI/CD (Jenkins/GitHub Actions)", "percentage": 85 },
+            { "name": "Webpack/Vite", "percentage": 85 },
+            { "name": "监控和告警", "percentage": 85 },
+            { "name": "Git", "percentage": 90 }
         ]
     },
     "experience": {
         "title": "工作经验",
         "jobs": [
             {
+                "company": "商汤科技",
+                "position": "前端工程师（远程技术顾问）",
+                "period": "2025年02月 - 至今",
+                "description": "参与AI驱动的办公助手项目，属于商汤科技\"小浣熊-AI\"产品线。",
+                "projects": [
+                    {
+                        "title": "AI任务规划可视化系统",
+                        "description": "基于React Flow开发，支持自定义节点创建和智能连接",
+                        "achievements": [
+                            "构建字符级增量JSON解析器处理SSE流数据",
+                            "实现任务队列管理系统进行作业执行和状态跟踪",
+                            "创建具有拖拽功能的实时任务可视化界面"
+                        ]
+                    }
+                ]
+            },
+            {
                 "company": "稿定（厦门）科技有限公司",
                 "position": "高级前端工程师",
                 "period": "2020年7月 - 2024年7月",
                 "projects": [
                     {
-                        "title": "商业前端开发",
-                        "description": "负责架构重建和性能优化，商业购买页面每天访问量超过50,000",
+                        "title": "商业化系统架构优化",
+                        "description": "领导商业化购买系统架构优化，处理5万+日访问量",
                         "achievements": [
-                            "设计基于适配器模式的跨平台统一SDK",
-                            "将商业模块重建为独立子项目",
-                            "结果：业务转化率提高7%"
+                            "设计统一跨平台SDK，提升70%开发效率",
+                            "解耦商业化模块实现独立部署",
+                            "结果：业务转化率提升7%"
                         ]
                     },
                     {
-                        "title": "核心KoaJS渲染服务",
-                        "description": "优化核心渲染服务，每天访问量超过400万",
+                        "title": "核心渲染服务升级",
+                        "description": "重构核心服务端渲染服务，管理400万+日请求",
                         "achievements": [
-                            "使用JSX重构，将路由注册从业务逻辑中分离",
-                            "实现基于QPS的限流策略",
-                            "结果：确保99.99%的SLA稳定性"
+                            "使用Node.js Cluster实现服务治理，稳定CPU使用率在10-20%",
+                            "建立全面监控告警系统，测试覆盖率达95%",
+                            "结果：问题响应时间从1小时降至1分钟，保持99.99% SLA"
                         ]
                     },
                     {
-                        "title": "SEO爬虫稳定性项目",
-                        "description": "主导建立公司首个SEO稳定性标准体系",
+                        "title": "SEO技术标准化",
+                        "description": "开创公司首个SEO技术评估框架",
                         "achievements": [
-                            "基于爬虫行为特征分析，建立核心指标评估体系",
-                            "优化核心页面响应速度和爬虫抓取策略",
-                            "结果：核心页面500ms内响应占比从40%提升至90%"
+                            "核心页面500ms内响应占比从40%提升至90%",
+                            "确保搜索引擎爬虫访问核心页面99.99%成功率",
+                            "将抽象SEO目标转化为可量化技术指标"
                         ]
                     },
                     {
-                        "title": "稿定主站DevOps改造",
-                        "description": "负责主站技术架构升级与DevOps改造",
+                        "title": "DevOps系统建设",
+                        "description": "领导容器化CI/CD流水线迁移",
                         "achievements": [
-                            "完成容器化迁移（GitHub + K8s + Docker）",
-                            "优化构建流程，构建时间减少50%（年省21,000分钟）",
-                            "结果：实现全自动化部署，显著提升代码可维护性"
+                            "迁移至GitHub、Kubernetes和Docker部署",
+                            "优化构建流程，年省21,000分钟构建时间",
+                            "标准化API规范，显著提升代码可维护性"
                         ]
                     }
                 ]
             },
             {
                 "company": "深圳市思天极创教育科技有限公司",
-                "position": "前端开发",
+                "position": "前端工程师",
                 "period": "2018年12月 - 2020年7月",
-                "description": "领导开发了教育APP \"EZBLOCK\"的核心功能，设计并实现了基于Webpack和Blockly的代码转换系统，获得了发明专利（CN110941432A）。开源了项目脚手架，获得了100+星。"
+                "description": "独立设计并实现了一个代码转换系统，桥接可视化积木编程、JavaScript和Python。该系统获得了发明专利（CN110941432A），其开源脚手架获得了100+ GitHub星标。该功能成为公司教育产品的核心竞争力。"
             },
             {
                 "company": "通印投资集团",
-                "position": "Web开发",
+                "position": "前端工程师",
                 "period": "2016年7月 - 2018年9月",
-                "description": "作为核心开发者，完成了公司网站和微信商城的Vue2重建，实现了前端后端分离，优化了用户体验，累计服务了6,000+用户。"
+                "description": "作为核心开发者，领导公司官网和微信电商商城的Vue 2重构。实现了前后端分离架构，提升用户体验，累计服务6,000+用户。"
             }
         ]
     },
@@ -136,27 +157,33 @@
         "items": [
             {
                 "title": "ying-web",
-                "description": "基于现代前端技术栈的多项目monorepo，具有全栈开发能力",
+                "description": "完整的全栈开发脚手架项目，采用Monorepo架构，使用PNPM + Turborepo",
                 "stars": "24+ Stars",
-                "technologies": ["React", "Next.js", "Koa.js", "TypeScript"],
+                "technologies": [
+                    "React",
+                    "Next.js",
+                    "Koa.js",
+                    "TypeScript",
+                    "TailwindCSS"
+                ],
                 "link": "https://github.com/KRISACHAN/ying-web",
                 "gradient": "from-blue-400 to-indigo-500",
                 "badgeColor": { "bg": "bg-blue-100", "text": "text-blue-800" }
             },
             {
                 "title": "ying-template",
-                "description": "一个可用的前端项目模板，具有全面的工具和最佳实践",
+                "description": "可用的前端项目模板，具有全面的工具和最佳实践",
                 "stars": "100+ Stars",
-                "technologies": ["Vue", "Webpack", "TypeScript"],
+                "technologies": ["Vue", "Webpack", "TypeScript", "Jest"],
                 "link": "https://github.com/KRISACHAN/ying-template",
                 "gradient": "from-green-400 to-teal-500",
                 "badgeColor": { "bg": "bg-green-100", "text": "text-green-800" }
             },
             {
                 "title": "ying-datastructures-algorithms",
-                "description": "以TypeScript为描述语言的算法与数据结构入门仓库，面向想要学习或查漏补缺的前端开发者",
+                "description": "使用TypeScript的算法与数据结构学习仓库，面向前端开发者",
                 "stars": "55+ Stars",
-                "technologies": ["TypeScript", "数据结构", "算法"],
+                "technologies": ["TypeScript", "数据结构", "算法", "Jest"],
                 "link": "https://github.com/KRISACHAN/ying-datastructures-algorithms",
                 "gradient": "from-purple-400 to-pink-500",
                 "badgeColor": {
@@ -198,22 +225,14 @@
                     "type": "blog",
                     "title": "技术博客",
                     "value": "掘金博客",
-                    "link": "https://juejin.cn/user/835284564452397/posts",
+                    "link": "https://juejin.cn/user/835284564452397",
                     "icon": "fas fa-book"
                 },
                 {
-                    "type": "blogs",
-                    "title": "英文博客",
-                    "items": [
-                        {
-                            "title": "Medium",
-                            "link": "https://medium.com/@fish_head_chan"
-                        },
-                        {
-                            "title": "生活日记",
-                            "link": "https://diary.krissarea.com/"
-                        }
-                    ],
+                    "type": "diary",
+                    "title": "生活日记",
+                    "value": "Ying Diary",
+                    "link": "https://diary.krissarea.com/",
                     "icon": "fas fa-pen"
                 }
             ]
@@ -221,16 +240,17 @@
         "form": {
             "title": "发送消息",
             "fields": {
-                "name": "Name",
-                "email": "Email",
-                "message": "Message"
+                "name": "姓名",
+                "email": "邮箱",
+                "message": "消息"
             },
             "submitButton": "发送消息"
         }
     },
     "footer": {
-        "name": "陈大鱼头",
-        "description": "前端工程师",
-        "copyright": "版权所有"
+        "name": "陈劲文",
+        "description": "高级前端工程师",
+        "copyright": "版权所有",
+        "icp": "ICP备案号：粤ICP备2023123456号-1"
     }
 }

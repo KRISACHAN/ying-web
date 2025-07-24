@@ -3,9 +3,9 @@ import { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
-    title: "Jinwen Chen's resume",
+    title: "Kris Chen's Resume - Senior Frontend Engineer",
     description:
-        "Ying Web, A 8-year experience FE developer, Jinwen Chen's resume",
+        'Kris Chen, Senior Frontend Engineer with 9 years of experience in web development, specializing in Vue, React, Node.js, and large-scale application architecture',
 };
 
 export default function RootPage() {

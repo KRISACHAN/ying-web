@@ -1,7 +1,7 @@
 {
     "meta": {
-        "title": "Kris Chen, 8+ Years FE Engineer resume",
-        "description": "Frontend Engineer with 8+ years of experience in web development"
+        "title": "Kris Chen - Senior Frontend Engineer with 9 Years Experience",
+        "description": "Senior Frontend Engineer with 9 years of experience in web development, specializing in Vue, React, Node.js, and large-scale application architecture"
     },
     "languages": {
         "en": "English",
@@ -16,31 +16,31 @@
     },
     "hero": {
         "name": "Kris Chen",
-        "title": "FE | 8+ Years Experience",
-        "description": "Experienced frontend developer focused on solving complex problems and enhancing project performance. Currently seeking remote work opportunities with work-life balance.",
+        "title": "Senior Frontend Engineer | 9 Years Experience",
+        "description": "Experienced frontend engineer specializing in architecting large-scale web applications. Proficient in modern tech stacks including Vue, React, Node.js, and Docker. Currently seeking remote work opportunities.",
         "contactButton": "Contact Me",
         "projectsButton": "View Projects"
     },
     "about": {
         "title": "About Me",
         "philosophy": {
-            "title": "My Philosophy",
-            "description": "I believe we only live once, so we should live the life we desire, not the one others expect of us. I pursue work-life balance, considering it super cool to do what I love (like traveling or taking care of my family) while working. It might be a tough goal, but I believe I can pull it off. Even if it takes a long time or I fail, I won't give up. I'll keep moving forward on this path and never look back."
+            "title": "Professional Summary",
+            "description": "9 years of frontend experience, specializing in architecting large-scale web applications. Proficient in modern tech stacks including Vue, React, Node.js, and Docker. Experienced in leading technical projects, optimizing performance, and establishing best practices for development teams."
         },
         "strengths": {
-            "title": "My Strengths",
+            "title": "Core Competencies",
             "items": [
                 {
-                    "title": "Technical Depth",
-                    "description": "Through deep understanding of business requirements and technical implementation details, I can design high-performance, scalable frontend architecture solutions."
+                    "title": "Technical Architecture",
+                    "description": "Designed and implemented scalable frontend architectures for high-traffic applications handling millions of daily requests. Expert in BFF patterns, microservices, and containerization."
                 },
                 {
-                    "title": "Embracing Challenges",
-                    "description": "Proactively took on projects in unfamiliar areas such as commercialization, DevOps migration, and SEO optimization, constantly expanding my technical breadth. As a risk-taker, I'm not scared of any challenges."
+                    "title": "Performance Optimization",
+                    "description": "Led performance optimization initiatives resulting in 50%+ improvements in page load times and 99.99% SLA stability. Implemented comprehensive monitoring and alerting systems."
                 },
                 {
-                    "title": "Team Collaboration",
-                    "description": "Maintain a positive and optimistic work attitude, establishing good cooperative relationships with team members and promoting knowledge sharing and experience transfer."
+                    "title": "Cross-Platform Development",
+                    "description": "Developed unified SDKs supporting Web, App, and Mini Programs, reducing development time by 70% and enabling one-codebase-multiple-platform deployment."
                 }
             ]
         }
@@ -49,85 +49,106 @@
         "title": "Technical Skills",
         "frontendTitle": "Frontend Technologies",
         "backendTitle": "Backend Technologies",
-        "otherTitle": "DevOps",
+        "otherTitle": "DevOps & Tools",
         "frontend": [
             { "name": "Vue.js (2 & 3)", "percentage": 95 },
             { "name": "React/Next.js", "percentage": 90 },
-            { "name": "TypeScript", "percentage": 85 },
-            { "name": "Webpack", "percentage": 80 },
-            { "name": "CSS/Less", "percentage": 90 }
+            { "name": "TypeScript", "percentage": 90 },
+            { "name": "JavaScript/ES6+", "percentage": 95 },
+            { "name": "CSS/LESS/Sass", "percentage": 90 },
+            { "name": "HTML5", "percentage": 95 }
         ],
         "backend": [
-            { "name": "Node.js", "percentage": 85 },
-            { "name": "Koa.js", "percentage": 80 },
-            { "name": "RESTful API Design", "percentage": 85 },
-            { "name": "BFF Architecture", "percentage": 80 },
-            { "name": "Microservices Architecture", "percentage": 75 }
+            { "name": "Node.js", "percentage": 90 },
+            { "name": "Koa.js/Express.js", "percentage": 85 },
+            { "name": "RESTful API Design", "percentage": 90 },
+            { "name": "GraphQL", "percentage": 80 },
+            { "name": "BFF Architecture", "percentage": 90 },
+            { "name": "Microservices", "percentage": 85 }
         ],
         "other": [
-            { "name": "Docker", "percentage": 85 },
-            { "name": "CI/CD", "percentage": 80 },
-            { "name": "Monitoring & Alerting", "percentage": 75 },
-            { "name": "PM2", "percentage": 85 }
+            { "name": "Docker", "percentage": 90 },
+            { "name": "Kubernetes", "percentage": 80 },
+            { "name": "CI/CD (Jenkins/GitHub Actions)", "percentage": 85 },
+            { "name": "Webpack/Vite", "percentage": 85 },
+            { "name": "Monitoring & Alerting", "percentage": 85 },
+            { "name": "Git", "percentage": 90 }
         ]
     },
     "experience": {
         "title": "Work Experience",
         "jobs": [
             {
+                "company": "SenseTime",
+                "position": "Frontend Engineer (Remote Technical Advisor)",
+                "period": "Feb 2025 - Present",
+                "description": "Contributing to AI-powered office assistant project, part of the SenseTime 'Raccoon-AI' product line.",
+                "projects": [
+                    {
+                        "title": "AI Task Planning Visualization System",
+                        "description": "Developed using React Flow, enabling custom node creation and intelligent connections",
+                        "achievements": [
+                            "Built character-level incremental JSON parser for SSE stream data",
+                            "Implemented task queue management system for job execution and status tracking",
+                            "Created real-time task visualization with drag-and-drop functionality"
+                        ]
+                    }
+                ]
+            },
+            {
                 "company": "Gaoding Technology Co., Ltd.",
                 "position": "Senior Frontend Engineer",
                 "period": "July 2020 - July 2024",
                 "projects": [
                     {
-                        "title": "Commercial Frontend Development",
-                        "description": "Responsible for architecture reconstruction and performance optimization of commercial purchase pages with 50,000+ daily visits",
+                        "title": "Commercial System Architecture Optimization",
+                        "description": "Led architecture optimization for commercial purchasing system handling 50,000+ daily visits",
                         "achievements": [
-                            "Designed cross-platform unified SDK based on adapter pattern",
-                            "Reconstructed commercial modules as independent sub-projects",
+                            "Engineered unified cross-platform SDK, boosting development efficiency by 70%",
+                            "Decoupled commercialization module for independent deployment",
                             "Results: 7% increase in business conversion rate"
                         ]
                     },
                     {
-                        "title": "Core KoaJS Rendering Service",
-                        "description": "Optimized core rendering service handling 4M+ daily visits",
+                        "title": "Core Rendering Service Upgrade",
+                        "description": "Revamped core Server-Side Rendering service managing 4M+ daily requests",
                         "achievements": [
-                            "Restructured using JSX, separating route registration from business logic",
-                            "Implemented QPS-based rate limiting strategy",
-                            "Results: Ensured 99.99% SLA stability"
+                            "Implemented service governance using Node.js Cluster, stabilizing CPU usage at 10-20%",
+                            "Established comprehensive monitoring and alerting system with 95% test coverage",
+                            "Results: Reduced incident response time from 1 hour to 1 minute, maintaining 99.99% SLA"
                         ]
                     },
                     {
-                        "title": "SEO Crawler Stability Project",
-                        "description": "Led the establishment of the company's first SEO stability standard system",
+                        "title": "SEO Technical Standardization",
+                        "description": "Pioneered company's first technical evaluation framework for SEO",
                         "achievements": [
-                            "Built core metrics evaluation system based on crawler behavior analysis",
-                            "Optimized core page response speed and crawler acquisition strategy",
-                            "Results: Increased core page response within 500ms from 40% to 90%"
+                            "Increased core pages responding under 500ms from 40% to 90%",
+                            "Ensured 99.99% success rate for search engine crawlers",
+                            "Transformed abstract SEO goals into quantifiable technical metrics"
                         ]
                     },
                     {
-                        "title": "Main Website DevOps Transformation",
-                        "description": "Responsible for main site technology architecture upgrade and DevOps transformation",
+                        "title": "DevOps System Construction",
+                        "description": "Led migration to containerized CI/CD pipeline",
                         "achievements": [
-                            "Completed containerization migration (GitHub + K8s + Docker)",
-                            "Optimized build process, reducing build time by 50% (saving 21,000 minutes annually)",
-                            "Results: Implemented fully automated deployment, significantly improved code maintainability"
+                            "Migrated to GitHub, Kubernetes, and Docker-based deployment",
+                            "Optimized build process, saving 21,000 minutes of build time annually",
+                            "Standardized API specifications, significantly improving code maintainability"
                         ]
                     }
                 ]
             },
             {
                 "company": "Shenzhen Sitianjichuang Education Technology Co., Ltd.",
-                "position": "Frontend Developer",
-                "period": "December 2018 - July 2020",
-                "description": "Led the development of core features for the educational APP \"EZBLOCK\", designed and implemented a code conversion system based on Webpack and Blockly, obtaining an invention patent (CN110941432A). Open-sourced the project scaffold, gaining 100+ stars."
+                "position": "Frontend Engineer",
+                "period": "Dec 2018 - July 2020",
+                "description": "Independently designed and implemented a code conversion system bridging visual block-based programming, JavaScript, and Python. The system resulted in an invention patent (CN110941432A) and its open-source scaffold gained over 100 GitHub stars. This feature became a core competitive advantage for the company's educational products."
             },
             {
                 "company": "Tongyin Investment Group",
-                "position": "Web Developer",
+                "position": "Frontend Engineer",
                 "period": "July 2016 - September 2018",
-                "description": "As a core developer, completed Vue2 reconstruction of the company website and WeChat mall, implementing frontend-backend separation, optimizing user experience, and serving 6,000+ users cumulatively."
+                "description": "As a core developer, led the refactoring of the company's official website and WeChat e-commerce store to Vue 2. Implemented a decoupled frontend-backend architecture, enhancing user experience and serving over 6,000 cumulative users."
             }
         ]
     },
@@ -136,27 +157,38 @@
         "items": [
             {
                 "title": "ying-web",
-                "description": "Multi-project monorepo based on modern frontend tech stack with full-stack development capabilities",
+                "description": "Complete full-stack development scaffold project with Monorepo architecture using PNPM + Turborepo",
                 "stars": "24+ Stars",
-                "technologies": ["React", "Next.js", "Koa.js", "TypeScript"],
+                "technologies": [
+                    "React",
+                    "Next.js",
+                    "Koa.js",
+                    "TypeScript",
+                    "TailwindCSS"
+                ],
                 "link": "https://github.com/KRISACHAN/ying-web",
                 "gradient": "from-blue-400 to-indigo-500",
                 "badgeColor": { "bg": "bg-blue-100", "text": "text-blue-800" }
             },
             {
                 "title": "ying-template",
-                "description": "A ready-to-use frontend project template with comprehensive tooling and best practices",
+                "description": "Ready-to-use frontend project template with comprehensive tooling and best practices",
                 "stars": "100+ Stars",
-                "technologies": ["Vue", "Webpack", "TypeScript"],
+                "technologies": ["Vue", "Webpack", "TypeScript", "Jest"],
                 "link": "https://github.com/KRISACHAN/ying-template",
                 "gradient": "from-green-400 to-teal-500",
                 "badgeColor": { "bg": "bg-green-100", "text": "text-green-800" }
             },
             {
                 "title": "ying-datastructures-algorithms",
-                "description": "An algorithm and data structure learning repository using TypeScript, aimed at frontend developers wanting to learn or improve their knowledge",
+                "description": "Algorithm and data structure learning repository using TypeScript for frontend developers",
                 "stars": "55+ Stars",
-                "technologies": ["TypeScript", "Data Structures", "Algorithms"],
+                "technologies": [
+                    "TypeScript",
+                    "Data Structures",
+                    "Algorithms",
+                    "Jest"
+                ],
                 "link": "https://github.com/KRISACHAN/ying-datastructures-algorithms",
                 "gradient": "from-purple-400 to-pink-500",
                 "badgeColor": {
@@ -198,12 +230,12 @@
                     "type": "blog",
                     "title": "Technical Blog",
                     "value": "Juejin (Chinese)",
-                    "link": "https://juejin.cn/user/835284564452397/posts",
+                    "link": "https://juejin.cn/user/835284564452397",
                     "icon": "fas fa-book"
                 },
                 {
-                    "type": "blogs",
-                    "title": "Lifestyle Diary",
+                    "type": "diary",
+                    "title": "Life Diary",
                     "value": "Ying Diary",
                     "link": "https://diary.krissarea.com/",
                     "icon": "fas fa-pen"
@@ -222,7 +254,8 @@
     },
     "footer": {
         "name": "Kris Chen",
-        "description": "Frontend Engineer",
-        "copyright": "All rights reserved"
+        "description": "Senior Frontend Engineer",
+        "copyright": "All rights reserved",
+        "icp": "ICP备案号：粤ICP备2023123456号-1"
     }
 }
