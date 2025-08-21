@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 
 import axiosInstance from '@/services/axios';
 import type {
@@ -12,7 +12,7 @@ export const useOptionDraw = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    const getActivityInfo = useCallback(async (activityKey?: string) => {
+    const getActivityInfo = async (activityKey?: string) => {
         setError(null);
         if (!activityKey) {
             setError('活动key不能为空');
@@ -31,9 +31,9 @@ export const useOptionDraw = () => {
         } finally {
             setLoading(false);
         }
-    }, []);
+    };
 
-    const queryParticipations = useCallback(async (activityKey?: string) => {
+    const queryParticipations = async (activityKey?: string) => {
         setError(null);
         if (!activityKey) {
             setError('活动key不能为空');
@@ -52,9 +52,9 @@ export const useOptionDraw = () => {
         } finally {
             setLoading(false);
         }
-    }, []);
+    };
 
-    const drawOption = useCallback(async (params: DrawOptionRequest) => {
+    const drawOption = async (params: DrawOptionRequest) => {
         setError(null);
         setLoading(true);
 
@@ -70,9 +70,9 @@ export const useOptionDraw = () => {
         } finally {
             setLoading(false);
         }
-    }, []);
+    };
 
-    const getAllParticipations = useCallback(async (activityKey?: string) => {
+    const getAllParticipations = async (activityKey?: string) => {
         setError(null);
         if (!activityKey) {
             setError('活动key不能为空');
@@ -97,7 +97,7 @@ export const useOptionDraw = () => {
         } finally {
             setLoading(false);
         }
-    }, []);
+    };
 
     return {
         loading,
