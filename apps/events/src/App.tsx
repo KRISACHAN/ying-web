@@ -5,6 +5,7 @@ import BaseLayout from './layouts/Base/Layout';
 import NotFoundPage from './pages/404/Page';
 import IndexPage from './pages/Index/Page';
 import LuckyNumberActivityPage from './pages/LuckyNumber/Activity/Page';
+import LuckyNumberHistoryPage from './pages/LuckyNumber/History/Page';
 import LuckyNumberListPage from './pages/LuckyNumber/List/Page';
 import OptionDrawActivityPage from './pages/OptionDraw/Activity/Page';
 import OptionDrawListPage from './pages/OptionDraw/List/Page';
@@ -32,6 +33,10 @@ function App() {
                         <Route
                             path="/lucky-number/:activityKey/activity"
                             element={<LuckyNumberActivityPage />}
+                        />
+                        <Route
+                            path="/lucky-number/:activityKey/history"
+                            element={<LuckyNumberHistoryPage />}
                         />
                         <Route
                             path="/option-draw/:activityKey"

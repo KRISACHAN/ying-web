@@ -2,7 +2,7 @@ import { Box, Snackbar, useTheme } from '@mui/material';
 import type { AxiosError } from 'axios';
 import { Gift } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useLocalStorage } from 'usehooks-ts';
 
 import HeaderInterface from '@/components/Header/Index';
@@ -26,9 +26,17 @@ type GetActivityResponse = Pick<
     'activity_key' | 'name' | 'description'
 >;
 
+type LuckyNumberResult = {
+    number: number;
+    name: string;
+    timestamp: number;
+};
+
 const LuckyNumberActivityPage: React.FC = () => {
     const { activityKey } = useParams<{ activityKey: string }>();
-    const { queryActivityInfo, drawLuckyNumber } = useLuckyNumber();
+    const navigate = useNavigate();
+    const { queryActivityInfo, drawLuckyNumber, queryParticipations } =
+        useLuckyNumber();
     const [activityInfo, setActivityInfo] =
         useState<GetActivityResponse | null>(null);
     const [open, setOpen] = useState(false);
@@ -37,17 +45,17 @@ const LuckyNumberActivityPage: React.FC = () => {
     const headerContext = useHeader();
     const theme = useTheme();
 
-    const localLuckyNumberKey = `YING_EVENTS_LUCKY_NUMBER_NUMBER_${activityKey}`;
-    const localNameKey = `YING_EVENTS_LUCKY_NUMBER_NAME_${activityKey}`;
+    const localResultsKey = `YING_EVENTS_LUCKY_NUMBER_RESULTS_${activityKey}`;
 
-    const [luckyNumber, setLuckyNumber] = useLocalStorage<number | null>(
-        localLuckyNumberKey,
-        null,
-    );
-    const [storedName, setStoredName] = useLocalStorage<string | null>(
-        localNameKey,
-        null,
-    );
+    const [luckyNumberResults, setLuckyNumberResults] = useLocalStorage<
+        LuckyNumberResult[]
+    >(localResultsKey, []);
+
+    // Get the latest result for display
+    const latestResult =
+        luckyNumberResults.length > 0
+            ? luckyNumberResults[luckyNumberResults.length - 1]
+            : null;
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
     const [error, setError] = useState<Error | null>(null);
@@ -63,8 +71,7 @@ const LuckyNumberActivityPage: React.FC = () => {
         if (!needClean) {
             return;
         }
-        setLuckyNumber(null);
-        setStoredName(null);
+        setLuckyNumberResults([]);
     };
 
     const fetchActivityInfo = async () => {
@@ -82,12 +89,56 @@ const LuckyNumberActivityPage: React.FC = () => {
         }
     };
 
+    const syncWithServerData = async () => {
+        if (!activityKey) return;
+
+        try {
+            // 获取服务器端的参与记录
+            const serverParticipations = await queryParticipations(activityKey);
+
+            // 如果本地有数据，进行同步
+            if (luckyNumberResults.length > 0) {
+                // 创建服务器数据的查找映射
+                const serverDataMap = new Set(
+                    serverParticipations.map(
+                        p => `${p.drawn_number}_${p.username}`,
+                    ),
+                );
+
+                // 过滤本地数据，只保留服务器上存在的记录
+                const validLocalResults = luckyNumberResults.filter(
+                    localResult => {
+                        const key = `${localResult.number}_${localResult.name}`;
+                        return serverDataMap.has(key);
+                    },
+                );
+
+                // 如果过滤后的数据与原数据不同，更新本地存储
+                if (validLocalResults.length !== luckyNumberResults.length) {
+                    setLuckyNumberResults(validLocalResults);
+                    console.log(
+                        `已同步本地数据，移除了 ${luckyNumberResults.length - validLocalResults.length} 条无效记录`,
+                    );
+                }
+            }
+        } catch (err) {
+            console.error('同步服务器数据失败:', err);
+            // 同步失败不影响正常功能，只记录错误
+        }
+    };
+
     useEffect(() => {
         cleanUserResult();
         if (!activityKey) {
             return;
         }
-        fetchActivityInfo();
+
+        const initializeData = async () => {
+            await fetchActivityInfo();
+            await syncWithServerData();
+        };
+
+        initializeData();
     }, [activityKey]);
 
     const handleClickOpen = () => {
@@ -97,6 +148,10 @@ const LuckyNumberActivityPage: React.FC = () => {
     const handleClose = () => {
         setOpen(false);
         setName('');
+    };
+
+    const handleViewHistory = () => {
+        navigate(`/lucky-number/${activityKey}/history`);
     };
 
     const handleSubmit = async () => {
@@ -113,6 +168,12 @@ const LuckyNumberActivityPage: React.FC = () => {
                 username: name.trim(),
             });
 
+            const newResult: LuckyNumberResult = {
+                number: response.drawn_number,
+                name: name.trim(),
+                timestamp: Date.now(),
+            };
+
             setTempResult({
                 number: response.drawn_number,
                 name: name.trim(),
@@ -123,8 +184,7 @@ const LuckyNumberActivityPage: React.FC = () => {
 
             await new Promise(resolve => setTimeout(resolve, 1000));
 
-            setLuckyNumber(response.drawn_number);
-            setStoredName(name.trim());
+            setLuckyNumberResults(prev => [...prev, newResult]);
             setIsTransitioning(false);
             setShowResult(true);
             setTempResult(null);
@@ -190,7 +250,7 @@ const LuckyNumberActivityPage: React.FC = () => {
                     <LoadingState
                         message={`正在为 ${tempResult?.name} 抽取幸运数字`}
                     />
-                ) : luckyNumber === null ? (
+                ) : latestResult === null ? (
                     <InitialState
                         title="准备好了吗？"
                         subtitle="点击按钮，开启幸运之旅"
@@ -202,17 +262,91 @@ const LuckyNumberActivityPage: React.FC = () => {
                 ) : (
                     <ResultInterface
                         show={showResult}
-                        name={storedName}
+                        name={latestResult.name}
                         subtitle="你的幸运号码是"
                         footer={
                             <>
                                 愿这个数字背后所蕴含的祝福，
                                 <br />
                                 能成为你未来日子的能力！
+                                <br />
+                                <Box sx={{ mt: 2 }}>
+                                    <Box
+                                        sx={{
+                                            display: 'flex',
+                                            gap: 2,
+                                            justifyContent: 'center',
+                                            flexWrap: 'wrap',
+                                        }}
+                                    >
+                                        <button
+                                            onClick={handleClickOpen}
+                                            style={{
+                                                backgroundColor: '#ffffff',
+                                                color: '#F87171',
+                                                border: '2px solid #F87171',
+                                                borderRadius: '25px',
+                                                padding: '12px 24px',
+                                                fontSize: '16px',
+                                                fontWeight: 'bold',
+                                                cursor: 'pointer',
+                                                transition: 'all 0.3s ease',
+                                                boxShadow:
+                                                    '0 2px 8px rgba(248, 113, 113, 0.3)',
+                                            }}
+                                            onMouseEnter={e => {
+                                                e.currentTarget.style.backgroundColor =
+                                                    '#F87171';
+                                                e.currentTarget.style.color =
+                                                    '#ffffff';
+                                            }}
+                                            onMouseLeave={e => {
+                                                e.currentTarget.style.backgroundColor =
+                                                    '#ffffff';
+                                                e.currentTarget.style.color =
+                                                    '#F87171';
+                                            }}
+                                            disabled={loading}
+                                        >
+                                            帮他人抽取
+                                        </button>
+                                        <button
+                                            onClick={handleViewHistory}
+                                            style={{
+                                                backgroundColor: '#ffffff',
+                                                color: '#F87171',
+                                                border: '2px solid #F87171',
+                                                borderRadius: '25px',
+                                                padding: '12px 24px',
+                                                fontSize: '16px',
+                                                fontWeight: 'bold',
+                                                cursor: 'pointer',
+                                                transition: 'all 0.3s ease',
+                                                boxShadow:
+                                                    '0 2px 8px rgba(248, 113, 113, 0.3)',
+                                            }}
+                                            onMouseEnter={e => {
+                                                e.currentTarget.style.backgroundColor =
+                                                    '#F87171';
+                                                e.currentTarget.style.color =
+                                                    '#ffffff';
+                                            }}
+                                            onMouseLeave={e => {
+                                                e.currentTarget.style.backgroundColor =
+                                                    '#ffffff';
+                                                e.currentTarget.style.color =
+                                                    '#F87171';
+                                            }}
+                                            disabled={loading}
+                                        >
+                                            查看历史
+                                        </button>
+                                    </Box>
+                                </Box>
                             </>
                         }
                         resultComponent={
-                            <NumberAnimation number={luckyNumber} />
+                            <NumberAnimation number={latestResult.number} />
                         }
                     />
                 )}

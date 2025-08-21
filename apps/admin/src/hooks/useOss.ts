@@ -1,5 +1,5 @@
 import { message } from 'antd';
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 
 import axiosInstance from '@/services/axios';
 import { ALLOWED_RESOURCE_TYPES } from '@/utils/constants';
@@ -15,7 +15,7 @@ export interface OssUploadResponse {
 export const useOss = () => {
     const [loading, setLoading] = useState(false);
 
-    const uploadFile = useCallback(async (file: File) => {
+    const uploadFile = async (file: File) => {
         setLoading(true);
         try {
             if (!Object.keys(ALLOWED_RESOURCE_TYPES).includes(file.type)) {
@@ -57,7 +57,7 @@ export const useOss = () => {
         } finally {
             setLoading(false);
         }
-    }, []);
+    };
 
     return {
         uploadFile,

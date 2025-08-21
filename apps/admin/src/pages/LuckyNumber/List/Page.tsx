@@ -136,6 +136,22 @@ const LuckyNumberList = () => {
                             </Button>
                         </Popconfirm>
                     )}
+                    {record.status === LUCKY_NUMBER_STATUS.ENDED && (
+                        <Popconfirm
+                            title="确认重新开始"
+                            description="确定要重新开始这个活动吗？活动将重置为未开始状态"
+                            onConfirm={() =>
+                                handleUpdateStatus(
+                                    record.key,
+                                    LUCKY_NUMBER_STATUS.NOT_STARTED,
+                                )
+                            }
+                            okText="确定"
+                            cancelText="取消"
+                        >
+                            <Button type="link">重新开始</Button>
+                        </Popconfirm>
+                    )}
                     {record.status === LUCKY_NUMBER_STATUS.NOT_STARTED && (
                         <Popconfirm
                             title="确认删除"
