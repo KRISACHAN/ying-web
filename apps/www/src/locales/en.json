@@ -82,15 +82,24 @@
                 "company": "SenseTime",
                 "position": "Frontend Engineer (Remote Technical Advisor)",
                 "period": "Feb 2025 - Present",
-                "description": "Contributing to AI-powered office assistant project, part of the SenseTime 'Raccoon-AI' product line.",
+                "description": "Working as a remote advisor for SenseTime Technology, developing frontend solutions for their SenseTime Little Raccoon AI series products. Responsible for technical selection and MVP development of task planning features, developing solutions for handling incomplete JSON data, and implementing automated task execution functionality. Daily iterative requirements include knowledge management module refactoring and business requirement development, commercialization, and other module business requirement development.",
                 "projects": [
                     {
-                        "title": "AI Task Planning Visualization System",
-                        "description": "Developed using React Flow, enabling custom node creation and intelligent connections",
+                        "title": "Task Planning Feature Technical Selection & MVP Development",
+                        "description": "Responsible for core technical architecture design and initial implementation of SenseTime Little Raccoon AI task planning functionality",
                         "achievements": [
-                            "Built character-level incremental JSON parser for SSE stream data",
-                            "Implemented task queue management system for job execution and status tracking",
-                            "Created real-time task visualization with drag-and-drop functionality"
+                            "Completed technical selection for task planning features, determining optimal technical solutions",
+                            "Developed solutions for handling incomplete JSON data, solving AI streaming output parsing challenges",
+                            "Implemented automated task execution functionality, enhancing user experience"
+                        ]
+                    },
+                    {
+                        "title": "Knowledge Management Module Refactoring & Business Development",
+                        "description": "Responsible for knowledge management module architecture refactoring and various business requirement development implementations",
+                        "achievements": [
+                            "Refactored knowledge management module, improving code maintainability and performance",
+                            "Developed commercialization module related features, supporting product commercialization process",
+                            "Continuously iterate and optimize product features to meet evolving user needs"
                         ]
                     }
                 ]
