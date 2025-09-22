@@ -56,7 +56,7 @@ initLoadRouters(app);
 app.listen(process.env.PORT, () => {
     log.verbose('        App running at:');
     log.verbose(`        - Local: http://localhost:${process.env.PORT}`);
-    log.verbose(`        - Netword: ${getIP()}:${process.env.PORT}`);
+    log.verbose(`        - Network: ${getIP()}:${process.env.PORT}`);
 });
 
 export default app;
