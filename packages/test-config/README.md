@@ -1,27 +1,27 @@
 [English Documentation](/packages/test-config/README.md) · [中文文档](/packages/test-config/README.zh-CN.md)
 
-# @ying-web/test-config 🧪
+# @ying-web/test-config
 
-Shared Vitest configurations for JavaScript and TypeScript projects in the @ying-web monorepo.
+Shared test configurations for @ying-web.
 
-## Overview 🌟
+## Overview
 
-This package provides standardized test configurations for the `@ying-web` ecosystem, ensuring consistent testing setups across all JavaScript and TypeScript projects.
+This package provides unified Vitest test configurations for JavaScript and TypeScript projects, ensuring consistent testing environments across all projects in the ecosystem.
 
-## Prerequisites 📋
+## Prerequisites
 
 -   Node.js >= 18.16.0
 -   PNPM: 8.5.1 or higher
 
-## Installation 💻
+## Installation
 
 ```bash
 pnpm add -D @ying-web/test-config
 ```
 
-## Usage 🚀
+## Usage
 
-### For JavaScript Projects
+### JavaScript Projects
 
 ```javascript
 // vitest.config.js
@@ -30,7 +30,7 @@ import { jsConfig } from '@ying-web/test-config';
 export default jsConfig;
 ```
 
-### For TypeScript Projects
+### TypeScript Projects
 
 ```typescript
 // vitest.config.ts
@@ -39,9 +39,9 @@ import { tsConfig } from '@ying-web/test-config';
 export default tsConfig;
 ```
 
-## Configuration Details 🔧
+## Configuration Details
 
-### JavaScript Config ⚡️
+### JavaScript Config
 
 ```typescript
 {
@@ -63,7 +63,7 @@ export default tsConfig;
 }
 ```
 
-### TypeScript Config 📘
+### TypeScript Config
 
 ```typescript
 {
@@ -87,7 +87,7 @@ export default tsConfig;
 }
 ```
 
-## Project Structure 📂
+## Project Structure
 
 ```
 packages/test-config/
@@ -99,7 +99,7 @@ packages/test-config/
 └── types/             # Type declarations
 ```
 
-## Development 🛠
+## Development
 
 1. Install dependencies:
 
@@ -107,10 +107,10 @@ packages/test-config/
 pnpm install
 ```
 
-2. Build the package:
+2. Build the project:
 
 ```bash
-# Build all
+# Complete build
 pnpm build
 
 # Build types only
@@ -119,18 +119,10 @@ pnpm build:types
 # Build JavaScript only
 pnpm build:js
 
-# Development with watch mode
+# Development mode (watch changes)
 pnpm dev
 ```
 
-## License 📄
+## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author ✨
-
-Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
-
----
-
-Made with ❤️ by the @ying-web

@@ -1,27 +1,27 @@
 [English Documentation](/packages/eslint-config/README.md) · [中文文档](/packages/eslint-config/README.zh-CN.md)
 
-# @ying-web/eslint-config 🎯
+# @ying-web/eslint-config
 
 Shared ESLint configurations for the @ying-web.
 
-## Overview 🌟
+## Overview
 
-This package provides a comprehensive set of ESLint configurations for JavaScript and TypeScript projects in both Node.js and web environments, with special configurations for Next.js projects.
+This package provides a unified ESLint configuration solution for JavaScript and TypeScript projects, with special optimization for Next.js projects.
 
-## Prerequisites 📋
+## Prerequisites
 
 -   Node.js >= 18.16.0
 -   PNPM: 8.5.1 or higher
 
-## Installation 💻
+## Installation
 
 ```bash
 pnpm add -D @ying-web/eslint-config
 ```
 
-## Usage 🚀
+## Usage
 
-### For JavaScript Node.js Projects
+### JavaScript Node.js Projects
 
 ```javascript
 // .eslintrc.cjs
@@ -30,7 +30,7 @@ import { jsNodeConfig } from '@ying-web/eslint-config';
 export default jsNodeConfig;
 ```
 
-### For TypeScript Web Projects
+### TypeScript Web Projects
 
 ```javascript
 // .eslintrc.cjs
@@ -39,7 +39,7 @@ import { tsWebConfig } from '@ying-web/eslint-config';
 export default tsWebConfig;
 ```
 
-### For Next.js Projects
+### Next.js Projects
 
 ```javascript
 // .eslintrc.cjs
@@ -48,19 +48,19 @@ import { nextConfig } from '@ying-web/eslint-config';
 export default nextConfig;
 ```
 
-## Project Structure 📂
+## Project Structure
 
 ```
 packages/eslint-config/
 ├── src/
-│   ├── configs/       # Configuration presets
+│   ├── configs/       # Preset configurations
 │   ├── base.ts       # Base configuration
 │   └── index.ts      # Main entry
 ├── @types/           # Type declarations
 └── dist/            # Build output
 ```
 
-## Development 🛠
+## Development
 
 1. Install dependencies:
 
@@ -68,13 +68,13 @@ packages/eslint-config/
 pnpm install
 ```
 
-2. Build the package:
+2. Build the project:
 
 ```bash
 pnpm build
 ```
 
-## Configuration Details 🔧
+## Configuration Details
 
 ### Base Rules
 
@@ -88,7 +88,7 @@ pnpm build
 -   Strict type checking
 -   Import resolution for TypeScript files
 -   React/JSX support for web configurations
--   Next.js specific rules in next configuration
+-   Next.js specific rules
 
 ### Import Sorting Groups
 
@@ -103,14 +103,6 @@ pnpm build
 ];
 ```
 
-## License 📄
+## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author ✨
-
-Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
-
----
-
-Made with ❤️ by the @ying-web

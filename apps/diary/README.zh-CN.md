@@ -1,30 +1,30 @@
 [English Documentation](/apps/diary/README.md) · [中文文档](/apps/diary/README.zh-CN.md)
 
-# @ying-web/diary 📝
+# @ying-web/diary
 
 基于 Next.js 14 和 Markdown 的现代化个人博客系统
 
-## 概述 🌟
+## 概述
 
 本博客是 `@ying-web` 的重要组成部分，采用 Next.js 14 + TypeScript 构建，提供简洁优雅的界面用于分享个人思考、技术文章和生活体验。
 
-## 技术栈 💻
+## 技术栈
 
--   ⚛️ **React 18** - 现代 UI 开发
--   📘 **TypeScript** - 类型安全开发
--   🔄 **Next.js 14** - 生产级 React 框架
--   🎨 **Tailwind CSS** - 实用优先的 CSS
--   🌙 **next-themes** - 深色模式支持
--   📝 **React Markdown** - Markdown 渲染
--   📡 **RSS** - 订阅支持
--   🔍 **SEO 优化** - 提升搜索可见性
+-   **React 18**
+-   **TypeScript**
+-   **Next.js 14**
+-   **Tailwind CSS**
+-   **next-themes**
+-   **React Markdown**
+-   **RSS**
+-   **SEO 优化**
 
-## 环境要求 📋
+## 环境要求
 
 -   Node.js >= 18.16.0
 -   PNPM: 8.15.8 或 9.14.2
 
-## 本地开发 💻
+## 本地开发
 
 1. 安装依赖：
 
@@ -65,9 +65,9 @@ pnpm stylelint
 pnpm stylelint:fix
 ```
 
-## 生产部署 🚀
+## 生产部署
 
-### Vercel 部署 (推荐) ▲
+### Vercel 部署 (推荐)
 
 本项目已针对 [Vercel](https://vercel.com) 进行优化
 
@@ -105,7 +105,7 @@ pnpm build
 pnpm start
 ```
 
-## 项目结构 📁
+## 项目结构
 
 ```
 apps/diary/
@@ -123,7 +123,7 @@ apps/diary/
 └── content/           # 博客内容
 ```
 
-## 环境变量 🔧
+## 环境变量
 
 `.env` 中需配置：
 
@@ -136,14 +136,10 @@ NEXT_DEFAULT_METADATA_DEFAULT_TITLE=""    # 默认页面标题
 NEXT_PUBLIC_BASE_URL=""                   # 博客基础URL
 ```
 
-## 开源协议 📄
+## 开源协议
 
 本项目采用 MIT 协议 - 详见 [LICENSE](LICENSE) 文件。
 
-## 作者 ✨
-
-Kris（鱼头） - [个人网站](https://www.krissarea.com) - [联系邮箱](mailto:chenjinwen77@gmail.com)
-
 ---
 
-由 @ying-web 基于 [https://www.wisp.blog/](https://www.wisp.blog/) 二次开发 ❤️
+由 @ying-web 基于 [https://www.wisp.blog/](https://www.wisp.blog/) 二次开发

@@ -1,28 +1,28 @@
 [English Documentation](/apps/www/README.md) · [中文文档](/apps/www/README.zh-CN.md)
 
-# @ying-web/www 📄
+# @ying-web/www
 
 一个使用 Next.js 15 和 React 19 构建的现代简历网站，支持 SSG/SSR 渲染和多语言切换。
 
-## 概述 🌟
+## 概述
 
 本简历网站是 `@ying-web` 生态系统的一部分，采用 Next.js 15 和 TypeScript 构建。它提供了一个简洁优雅的界面，用于展示专业经验、技能和项目。
 
-## 技术栈 💻
+## 技术栈
 
--   ⚛️ **React 19** - 现代 UI 开发
--   📘 **TypeScript** - 类型安全的开发
--   🔄 **Next.js 15** - React 生产框架，支持 SSR/SSG
--   🎨 **Tailwind CSS** - 实用优先的 CSS
--   🌙 **next-themes** - 暗模式支持
--   🔍 **SEO 优化** - 更好的搜索可见性
+-   **React 19**
+-   **TypeScript**
+-   **Next.js 15**
+-   **Tailwind CSS**
+-   **next-themes**
+-   **SEO 优化**
 
-## 环境要求 📋
+## 环境要求
 
 -   Node.js >= 18.16.0
 -   PNPM: 8.15.8 或 9.14.2
 
-## 本地开发 💻
+## 本地开发
 
 1. 安装依赖：
 
@@ -63,9 +63,9 @@ pnpm stylelint
 pnpm stylelint:fix
 ```
 
-## 生产部署 🚀
+## 生产部署
 
-### Vercel 部署（推荐）▲
+### Vercel 部署（推荐）
 
 此项目针对 [Vercel](https://vercel.com) 部署进行了优化。
 
@@ -101,7 +101,7 @@ pnpm build
 pnpm start
 ```
 
-## 项目结构 📁
+## 项目结构
 
 ```
 apps/www/
@@ -117,7 +117,7 @@ apps/www/
 └── public/            # 静态文件
 ```
 
-## 环境变量 🔧
+## 环境变量
 
 `.env` 中的必需变量：
 
@@ -130,14 +130,6 @@ NEXT_PUBLIC_SITE_DESCRIPTION="A modern web development platform with React, Next
 NEXT_PUBLIC_BASE_URL="https://www.krissarea.com"
 ```
 
-## 开源协议 📄
+## 开源协议
 
 MIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件。
-
-## 作者 ✨
-
-Kris（鱼头） - [个人网站](https://www.krissarea.com) - [联系邮箱](mailto:chenjinwen77@gmail.com)
-
----
-
-来自 @ying-web ❤️

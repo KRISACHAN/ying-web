@@ -1,4 +1,3 @@
-// @TODO: Use rimraf instead
 const path = require('path');
 const { rimraf } = require('rimraf');
 const { promisify } = require('util');

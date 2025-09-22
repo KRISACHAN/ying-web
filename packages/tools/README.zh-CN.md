@@ -1,22 +1,22 @@
 [English Documentation](/packages/tools/README.md) · [中文文档](/packages/tools/README.zh-CN.md)
 
-# @ying-web/tools 🛠️
+# @ying-web/tools
 
-专为 @ying-web打造的 TypeScript 工具集
+`@ying-web` 专用的工具集
 
-## 概述 🌟
+## 概述
 
 本包提供一系列核心工具函数和实用程序，为生态系统内的项目开发提供可靠、灵活的解决方案。
 
-## 技术栈 💻
+## 技术栈
 
--   📘 **TypeScript** - 类型安全开发
--   🧪 **Vitest** - 单元测试
--   📚 **TypeDoc** - 文档生成
--   🔍 **ESLint** - 代码检查
--   🎨 **Prettier** - 代码格式化
+-   **TypeScript**
+-   **Vitest**
+-   **TypeDoc**
+-   **ESLint**
+-   **Prettier**
 
-## 安装 🚀
+## 安装
 
 ```bash
 # 使用 pnpm (推荐)
@@ -29,7 +29,7 @@ npm install @ying-web/tools
 yarn add @ying-web/tools
 ```
 
-## 开发指南 🔧
+## 开发指南
 
 ```bash
 # 安装依赖
@@ -51,7 +51,7 @@ pnpm lint
 pnpm docs
 ```
 
-## 项目结构 📂
+## 项目结构
 
 ```
 packages/tools/
@@ -66,20 +66,12 @@ packages/tools/
 └── docs/             # 生成文档
 ```
 
-## 构建产物 📦
+## 构建产物
 
--   📁 **CommonJS**: `dist/cjs/index.js`
--   📁 **ES 模块**: `dist/esm/index.js`
--   📁 **类型声明**: `dist/types/index.d.ts`
+-   **CommonJS**: `dist/cjs/index.js`
+-   **ES 模块**: `dist/esm/index.js`
+-   **类型声明**: `dist/types/index.d.ts`
 
-## 开源协议 📄
+## 开源协议
 
 本项目采用 MIT 协议 - 详见 [LICENSE](LICENSE) 文件。
-
-## 作者 ✨
-
-Kris（鱼头） - [个人网站](https://www.krissarea.com) - [联系邮箱](mailto:chenjinwen77@gmail.com)
-
----
-
-来自 @ying-web ❤️

@@ -1,30 +1,30 @@
 [English Documentation](/apps/diary/README.md) · [中文文档](/apps/diary/README.zh-CN.md)
 
-# @ying-web/diary 📝
+# @ying-web/diary
 
-A modern, TypeScript-powered personal blog built with Next.js 14 and Markdown support.
+Modern personal blog system based on Next.js 14 and Markdown
 
-## Overview 🌟
+## Overview
 
-This blog is part of the `@ying-web` ecosystem, built with Next.js 14 and TypeScript. It provides a clean and elegant interface for sharing personal thoughts, technical articles, and life experiences.
+This blog is an important component of `@ying-web`, built with Next.js 14 + TypeScript, providing a clean and elegant interface for sharing personal thoughts, technical articles, and life experiences.
 
-## Tech Stack 💻
+## Tech Stack
 
--   ⚛️ **React 18** - Modern UI development
--   📘 **TypeScript** - Type-safe development
--   🔄 **Next.js 14** - React framework for production
--   🎨 **Tailwind CSS** - Utility-first CSS
--   🌙 **next-themes** - Dark mode support
--   📝 **React Markdown** - Markdown rendering
--   📡 **RSS** - Feed support
--   🔍 **SEO Optimized** - Better search visibility
+-   **React 18**
+-   **TypeScript**
+-   **Next.js 14**
+-   **Tailwind CSS**
+-   **next-themes**
+-   **React Markdown**
+-   **RSS**
+-   **SEO Optimization**
 
-## Prerequisites 📋
+## Prerequisites
 
 -   Node.js >= 18.16.0
 -   PNPM: 8.15.8 or 9.14.2
 
-## Local Development 💻
+## Local Development
 
 1. Install dependencies:
 
@@ -32,46 +32,46 @@ This blog is part of the `@ying-web` ecosystem, built with Next.js 14 and TypeSc
 pnpm install
 ```
 
-2. Configure environment:
+2. Configure environment variables:
 
 ```bash
-# Copy environment file
+# Copy environment file template
 cp .env.example .env
 
-# Configure your environment variables
+# Configure environment variables
 NEXT_PUBLIC_BLOG_ID=""                    # Blog ID from wisp.blog
-NEXT_PUBLIC_BLOG_DISPLAY_NAME=""          # Display name for the blog
+NEXT_PUBLIC_BLOG_DISPLAY_NAME=""          # Blog display name
 NEXT_PUBLIC_BLOG_COPYRIGHT=""             # Copyright information
 NEXT_DEFAULT_METADATA_DEFAULT_TITLE=""    # Default page title
-NEXT_PUBLIC_BASE_URL=""                   # Base URL for the blog
+NEXT_PUBLIC_BASE_URL=""                   # Blog base URL
 ```
 
 3. Start development server:
 
 ```bash
-# Start with hot reload (port 8081)
+# With hot reload functionality (port 8081)
 pnpm dev
 
-# Run linting
+# Run code linting
 pnpm lint
 
-# Run linting for all files
+# Check all files
 pnpm lint:all
 
-# Run style linting
+# Style linting
 pnpm stylelint
 
-# Run style linting with auto-fix
+# Auto-fix style issues
 pnpm stylelint:fix
 ```
 
-## Production Deployment 🚀
+## Production Deployment
 
-### Vercel Deployment (Recommended) ▲
+### Vercel Deployment (Recommended)
 
-This project is optimized for [Vercel](https://vercel.com) deployment.
+This project is optimized for [Vercel](https://vercel.com)
 
-1. Connect your GitHub repository to Vercel
+1. Connect GitHub repository to Vercel
 2. Configure the following settings:
 
     - Framework Preset: `Next.js`
@@ -89,23 +89,23 @@ NEXT_DEFAULT_METADATA_DEFAULT_TITLE=your_title
 NEXT_PUBLIC_BASE_URL=your_production_url
 ```
 
-4. Deploy! Vercel will automatically handle the build and deployment process.
+4. Deploy! Vercel will automatically handle the build and deployment process
 
 Current deployment: [https://diary.krissarea.com](https://diary.krissarea.com)
 
 ### Manual Deployment
 
-1. Build for production:
+1. Production environment build:
 
 ```bash
-# Build the application
+# Build application
 pnpm build
 
 # Start production server
 pnpm start
 ```
 
-## Project Structure 📁
+## Project Structure
 
 ```
 apps/diary/
@@ -115,35 +115,31 @@ apps/diary/
 │   │   ├── api/       # API routes
 │   │   └── rss/       # RSS feed generation
 │   ├── components/    # Reusable components
-│   ├── hooks/         # Custom React hooks
+│   ├── hooks/         # Custom React Hooks
 │   ├── lib/           # Utility functions
 │   ├── styles/        # Global styles
-│   └── types/         # TypeScript types
+│   └── types/         # TypeScript type definitions
 ├── public/            # Static files
 └── content/           # Blog content
 ```
 
-## Environment Variables 🔧
+## Environment Variables
 
-Required variables in `.env`:
+Required in `.env`:
 
 ```bash
 # Blog Configuration
 NEXT_PUBLIC_BLOG_ID=""                    # Blog ID from wisp.blog
-NEXT_PUBLIC_BLOG_DISPLAY_NAME=""          # Display name for the blog
+NEXT_PUBLIC_BLOG_DISPLAY_NAME=""          # Blog display name
 NEXT_PUBLIC_BLOG_COPYRIGHT=""             # Copyright information
 NEXT_DEFAULT_METADATA_DEFAULT_TITLE=""    # Default page title
-NEXT_PUBLIC_BASE_URL=""                   # Base URL for the blog
+NEXT_PUBLIC_BASE_URL=""                   # Blog base URL
 ```
 
-## License 📄
+## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author ✨
-
-Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
-
 ---
 
-Made with ❤️ by the @ying-web
+Developed by @ying-web based on [https://www.wisp.blog/](https://www.wisp.blog/)
