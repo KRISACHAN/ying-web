@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { useLocalStorage } from 'usehooks-ts';
@@ -23,7 +23,7 @@ export const useAuth = () => {
         null,
     );
 
-    const login = useCallback(async (params: LoginParams) => {
+    const login = async (params: LoginParams) => {
         setLoading(true);
         setError(null);
         try {
@@ -42,9 +42,9 @@ export const useAuth = () => {
         } finally {
             setLoading(false);
         }
-    }, []);
+    };
 
-    const refreshAccessToken = useCallback(async () => {
+    const refreshAccessToken = async () => {
         const refreshToken = localCache.get(KEYS.REFRESH_TOKEN);
         if (!refreshToken) {
             throw new Error('无效的刷新令牌');
@@ -61,9 +61,9 @@ export const useAuth = () => {
         } catch {
             throw new Error('刷新令牌失败，请重新登录');
         }
-    }, []);
+    };
 
-    const getAdminInfo = useCallback(async () => {
+    const getAdminInfo = async () => {
         const accessToken = localCache.get(KEYS.ACCESS_TOKEN);
         const response = await axiosInstance.get<AdminInfo>('/me', {
             headers: {
@@ -73,26 +73,26 @@ export const useAuth = () => {
         const { data } = response ?? {};
         setAdminInfo(data);
         return response;
-    }, []);
+    };
 
-    const logout = useCallback(() => {
+    const logout = () => {
         localCache.remove(KEYS.ACCESS_TOKEN);
         localCache.remove(KEYS.REFRESH_TOKEN);
         setAdminInfo(null);
         navigate('/login');
-    }, []);
+    };
 
-    const redirectToLogin = useCallback(() => {
+    const redirectToLogin = () => {
         navigate('/login');
-    }, []);
+    };
 
-    const refreshTokenIfNeeded = useCallback(async () => {
+    const refreshTokenIfNeeded = async () => {
         try {
             await refreshAccessToken();
         } catch {
             redirectToLogin();
         }
-    }, []);
+    };
 
     return {
         handler: {
