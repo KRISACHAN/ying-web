@@ -1,28 +1,28 @@
 [English Documentation](/apps/www/README.md) · [中文文档](/apps/www/README.zh-CN.md)
 
-# @ying-web/www 📄
+# @ying-web/www
 
-A modern resume website built with Next.js 15 and React 19, featuring SSG/SSR rendering and multi-language support.
+A modern resume website built with Next.js 15 and React 19, supporting SSG/SSR rendering and multi-language switching.
 
-## Overview 🌟
+## Overview
 
 This resume website is part of the `@ying-web` ecosystem, built with Next.js 15 and TypeScript. It provides a clean and elegant interface for showcasing professional experience, skills, and projects.
 
-## Tech Stack 💻
+## Tech Stack
 
--   ⚛️ **React 19** - Modern UI development
--   📘 **TypeScript** - Type-safe development
--   🔄 **Next.js 15** - React framework with SSR/SSG support
--   🎨 **Tailwind CSS** - Utility-first CSS
--   🌙 **next-themes** - Dark mode support
--   🔍 **SEO Optimized** - Better search visibility
+-   **React 19**
+-   **TypeScript**
+-   **Next.js 15**
+-   **Tailwind CSS**
+-   **next-themes**
+-   **SEO Optimization**
 
-## Prerequisites 📋
+## Prerequisites
 
 -   Node.js >= 18.16.0
 -   PNPM: 8.15.8 or 9.14.2
 
-## Local Development 💻
+## Local Development
 
 1. Install dependencies:
 
@@ -41,7 +41,7 @@ NEXT_PUBLIC_SITE_NAME="Ying Web"
 NEXT_PUBLIC_SITE_COPYRIGHT="krissarea"
 NEXT_DEFAULT_METADATA_DEFAULT_TITLE="Ying Web - Modern Web Development"
 NEXT_PUBLIC_SITE_DESCRIPTION="A modern web development platform with React, Next.js, and TypeScript."
-NEXT_PUBLIC_BASE_URL="https://www.krissarea.com" # my main site
+NEXT_PUBLIC_BASE_URL="https://www.krissarea.com"
 ```
 
 3. Start development server:
@@ -50,10 +50,10 @@ NEXT_PUBLIC_BASE_URL="https://www.krissarea.com" # my main site
 # Start with hot reload (port 3000)
 pnpm dev
 
-# Run linting
+# Run code linting
 pnpm lint
 
-# Run linting for all files
+# Run code linting for all files
 pnpm lint:all
 
 # Run style linting
@@ -63,9 +63,9 @@ pnpm stylelint
 pnpm stylelint:fix
 ```
 
-## Production Deployment 🚀
+## Production Deployment
 
-### Vercel Deployment (Recommended) ▲
+### Vercel Deployment (Recommended)
 
 This project is optimized for [Vercel](https://vercel.com) deployment.
 
@@ -94,14 +94,14 @@ NEXT_PUBLIC_BASE_URL="https://www.krissarea.com"
 1. Build for production:
 
 ```bash
-# Build the application
+# Build application
 pnpm build
 
 # Start production server
 pnpm start
 ```
 
-## Project Structure 📁
+## Project Structure
 
 ```
 apps/www/
@@ -117,7 +117,7 @@ apps/www/
 └── public/            # Static files
 ```
 
-## Environment Variables 🔧
+## Environment Variables
 
 Required variables in `.env`:
 
@@ -130,14 +130,6 @@ NEXT_PUBLIC_SITE_DESCRIPTION="A modern web development platform with React, Next
 NEXT_PUBLIC_BASE_URL="https://www.krissarea.com"
 ```
 
-## License 📄
+## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author ✨
-
-Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
-
----
-
-Made with ❤️ by the @ying-web

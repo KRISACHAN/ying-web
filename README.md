@@ -1,125 +1,110 @@
 [English Documentation](/README.md) · [中文文档](/README.zh-CN.md)
 
-# @ying-web 🌟
+# @ying-web
 
-## Who am I? 👋
+## About Me
 
-Hey there! I'm Jinwen Chen (or just call me Kris), a passionate front-end developer from China with 8 years of experience under my belt! 🚀
+Hello everyone! I'm Jinwen Chen (Kris), a front-end developer from China with 9 years of development experience!
 
-Let's connect:
+Contact me:
 
 -   📧 Email: [chenjinwen77@gmail.com](mailto:chenjinwen77@gmail.com)
 -   🐙 Github: [https://github.com/KRISACHAN](https://github.com/KRISACHAN)
 -   💬 WeChat: krisChans95
+-   🌐 Personal Website: [https://www.krissarea.com](https://www.krissarea.com)
 
-PS: Currently on the lookout for exciting opportunities! If you've got something interesting, let's chat! 🤝
+PS: Currently looking for new opportunities, feel free to contact me!
 
-## Why "ying"? 🤔
+## Why "ying"?
 
-If you're familiar with Chinese internet culture, you probably know this one! 😉
+Of course, it comes from Chinese Internet buzzword "嘤"!
 
-It's from the Chinese word "**嘤**" - imagine a cute girl's playful cry. Super kawaii, right? 🎀
+![ying](https://bucket.krissarea.com/img/ying.jpeg)
 
-## About @ying-web 📚
+## About @ying-web
 
-Think of `@ying-web` as my coding treasure chest! 💎
+`@ying-web` is essentially my code collection repository. In the early years, due to lack of management awareness, my projects (all small projects) were scattered across GitHub, GitLab, and Gitee 😅. So to avoid future maintenance troubles, I've put them all here.
 
-After years of spreading my projects across GitHub, GitLab, and Gitee (yeah, it got a bit messy 😅), I decided it was time for a grand reunion under the `@ying-web` umbrella.
+What I want to accomplish:
 
-My mission? 🎯
+1. Unify everything on GitHub
+2. Implement automated deployment
+3. Give important applications dedicated domain names
+4. Add bilingual documentation (Chinese and English)
 
-1. Make everything neat and tidy
-2. Switch to all-English documentation
-3. Move everything to GitHub
-4. Set up proper URLs for each project
-5. Get everything running and deploying automatically
+## Overall Planning
 
-## The Master Plan 🗺️
+Current ongoing projects:
 
-Here's what's cooking:
+### Project Structure
 
-### Project Structure 🏗️
+Let's make the infrastructure as modern as possible:
 
-Every modern project needs a solid foundation:
-
-#### Root Level 🌳
+#### Root Directory Configuration
 
 -   ✅ `husky` + `lint-staged` + `commitlint`
--   🚧 `Webhook` (GitHub Actions/Vercel/etc.) + `Docker`
+-   🚧 `Webhook` (GitHub Actions/Vercel, etc.) + `Docker`
 
-#### Project Level 🌱
+#### Project-Level Configuration
 
 -   ✅ `changeset`
--   🚧 Detailed documentation
--   🚧 Completed test cases
+-   🚧 Complete documentation
+-   🚧 Complete test cases
 
-### @ying-web/api-service 🔌
+### @ying-web/api-service
 
-The backbone of current ecosystem! While it's starting simple, it's destined to power the entire `@ying-web` system. Watch this space! 🚀
+The core service layer of `@ying-web`. Although simple, it's the foundation of the entire system and will continue to iterate.
 
-And see the detail at [README.md](./apps/api-service/README.md)
+See details at [README.md](./services/api-service/README.md)
 
-### @ying-web/admin 🎛️
+### @ying-web/admin
 
-A sleek admin system built on current RBAC foundation in `@ying-web/api-service`.
+A backend system built on the RBAC foundation of `@ying-web/api-service`.
 
-Check it out at [https://admin.krissarea.com](https://admin.krissarea.com)! ✨
+Visit [https://admin.krissarea.com](https://admin.krissarea.com) to experience it!
 
-And see the detail at [README.md](./apps/admin/README.md)
+See details at [README.md](./apps/admin/README.md)
 
-### @ying-web/events ⛪
+### @ying-web/events
 
-A special project close to my heart - a Christian tool originally built in Vue3. But hey, React is the talk of the town overseas, so we're giving it a React makeover! 🔄
+A Christian tool originally built with Vue3. Given that React is more popular overseas, I'm currently doing a React refactor!
 
-Check it out at [https://events.krissarea.com](https://events.krissarea.com)
+Visit [https://events.krissarea.com](https://events.krissarea.com)
 
-(Psst... might rename it to `@ying-web/christian` later, but first things first!)
+(PS: Might rename it to `@ying-web/christian`, but let's finish the refactor first!)
 
-And see the detail at [README.md](./apps/events/README.md)
+See details at [README.md](./apps/events/README.md)
 
-### @ying-web/diary 📔
+### @ying-web/diary
 
-My personal diary project - a place to record my thoughts and experiences. It's not just a blog, it's a personal journal! 📖
+Personal diary project - a dedicated space for recording thoughts and experiences. It's not just a blog, it's a personal journal!
 
-Check it out at [https://diary.krissarea.com](https://diary.krissarea.com)
+Visit [https://diary.krissarea.com](https://diary.krissarea.com)
 
-And see the detail at [README.md](./apps/diary/README.md)
+See details at [README.md](./apps/diary/README.md)
 
-### @ying-web/www 📄
+### @ying-web/www
 
-My modern resume website built with Next.js 15 and React 19, featuring SSG/SSR rendering and multi-language support (English/Chinese). It provides a clean and elegant interface to showcase my professional experience, skills, and projects.
+A modern resume website built with Next.js 15 and React 19, supporting SSG/SSR rendering and bilingual switching (Chinese and English).
+It currently serves as my resume. Might do more things with it later.
 
-The site features a responsive design with beautiful UI elements including:
+Visit [https://www.krissarea.com](https://www.krissarea.com)
 
--   Interactive timeline for work experience
--   Skill progress bars with categorization
--   Project cards with gradient headers
--   Contact information with social links
--   Font Awesome icons for visual enhancement
+See details at [README.md](./apps/www/README.md)
 
-All content is managed through JSON locale files, making it easy to update and maintain.
+## Future Outlook
 
-Check it out at [https://www.krissarea.com](https://www.krissarea.com)
+I don't know what it will become in the future, depends on my mood!
 
-And see the detail at [README.md](./apps/www/README.md)
+## Quick Start
 
-## The Future is Bright! 🌈
-
-Who knows what cool projects might pop into my head next? I'm always excited to try new things and let creativity guide the way!
-
-Stay tuned for more awesome stuff! ✨
-
-Remember: The best code is written with passion and a sprinkle of fun! 🎮
-
-## Getting Started 🚀
-
-### Prerequisites 📋
+### Environment Requirements
 
 -   Node.js >= 18.16.0
 -   PNPM: 9.14.4
 -   Git
 
-### Local Development 💻
+### Local Development
 
 1. Clone the repository:
 
@@ -148,23 +133,23 @@ pnpm dev
 pnpm build
 
 # Build specific project
-pnpm build:admin     # Build admin dashboard
+pnpm build:admin     # Build admin backend
 pnpm build:diary     # Build diary site
 pnpm build:events    # Build events platform
 pnpm build:api-service # Build API service
 pnpm build:www       # Build resume website
 ```
 
-### Deployment 🌐
+### Deployment Guide
 
 #### Frontend Projects
 
 Most frontend projects are deployed on Vercel:
 
--   Admin Dashboard: [admin.krissarea.com](https://admin.krissarea.com)
+-   Admin Backend: [admin.krissarea.com](https://admin.krissarea.com)
 -   Diary: [diary.krissarea.com](https://diary.krissarea.com)
--   Events: [events.krissarea.com](https://events.krissarea.com)
--   Resume Website: [www.krissarea.com](https://www.krissarea.com)
+-   Events Platform: [events.krissarea.com](https://events.krissarea.com)
+-   Homepage: [www.krissarea.com](https://www.krissarea.com)
 
 #### Backend Services
 
@@ -181,14 +166,14 @@ pnpm deploy
 -   `pnpm clean` - Clean build artifacts
 -   `pnpm deploy` - Deploy services
 -   `pnpm test` - Run tests
--   `pnpm lint` - Run linting
--   `pnpm format` - Format code
+-   `pnpm lint` - Code linting
+-   `pnpm format` - Code formatting
 -   `pnpm cz` - Commit changes using Commitizen
--   `pnpm changeset` - Create a changeset
--   `pnpm version` - Update versions
+-   `pnpm changeset` - Create changeset
+-   `pnpm version` - Update version numbers
 -   `pnpm release` - Publish packages
 
-### Project Structure 📂
+### Project Structure
 
 ```txt
 @ying-web/
@@ -198,10 +183,6 @@ pnpm deploy
 └── scripts/        # Build & deployment scripts
 ```
 
-## License 📄
+## Open Source License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Made with ❤️ by the @ying-web
+This project uses the MIT License - see the [LICENSE](LICENSE) file for details.

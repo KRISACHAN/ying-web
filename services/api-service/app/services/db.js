@@ -54,7 +54,7 @@ const initDb = async () => {
         log.error('');
         log.error('         DB running message:');
         log.error(
-            `         - Netword: ${process.env.DB_HOST}:${process.env.DB_PORT}`,
+            `         - Network: ${process.env.DB_HOST}:${process.env.DB_PORT}`,
         );
         log.error('         - Status: db connect fail');
         log.error(`         - Message: ${get(error, 'message', error)}`);
@@ -63,7 +63,7 @@ const initDb = async () => {
     log.verbose('');
     log.verbose('        DB running message');
     log.verbose(
-        `        - Netword: ${process.env.DB_HOST}:${process.env.DB_PORT}`,
+        `        - Network: ${process.env.DB_HOST}:${process.env.DB_PORT}`,
     );
     if (createTables) {
         log.verbose(

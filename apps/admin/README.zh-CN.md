@@ -1,30 +1,30 @@
 [English Documentation](/apps/admin/README.md) · [中文文档](/apps/admin/README.zh-CN.md)
 
-# @ying-web/admin 🚀
+# @ying-web/admin
 
-基于 TypeScript 的现代化管理后台，用于管理各类 Web 应用
+基于 React@18 + TypeScript 的现代化管理后台，用于管理各类 Web 应用
 
-## 概述 🌟
+## 概述
 
-本后台系统是 `@ying-web` 的重要组成部分，采用 React 18 + TypeScript 构建，提供优雅的界面用于管理生态系统内的各类应用。
+本后台系统是 `@ying-web` 的重要组成部分，采用 React@18 + TypeScript 构建，提供优雅的界面用于管理生态系统内的各类应用。
 
-## 技术栈 💻
+## 技术栈
 
--   ⚛️ **React 18** - 最新版流行 UI 库
--   📘 **TypeScript** - 类型安全的代码
--   🎨 **Ant Design** - 企业级 UI 组件
--   🌊 **TailwindCSS** - 实用优先的 CSS 框架
--   🔄 **Vite** - 新一代前端工具链
--   📡 **Axios** - 基于 Promise 的 HTTP 客户端
--   🎯 **ESLint & Prettier** - 代码质量工具
--   💅 **Less** - CSS 预处理器
+-   **React 18**
+-   **TypeScript**
+-   **Ant Design**
+-   **TailwindCSS**
+-   **Vite**
+-   **Axios**
+-   **ESLint & Prettier**
+-   **Less**
 
-## 环境要求 📋
+## 环境要求
 
 -   Node.js >= 18.16.0
 -   Pnpm: 8.5.1
 
-## 本地开发 💻
+## 本地开发
 
 1. 安装依赖：
 
@@ -62,9 +62,9 @@ pnpm stylelint
 pnpm stylelint:fix
 ```
 
-## 生产部署 🚀
+## 生产部署
 
-### Vercel 部署 (推荐) ▲
+### Vercel 部署 (推荐)
 
 本项目已针对 [Vercel](https://vercel.com) 进行优化
 
@@ -110,7 +110,7 @@ pnpm build
 pnpm preview
 ```
 
-## 项目结构 📁
+## 项目结构
 
 ```
 apps/admin/
@@ -127,21 +127,13 @@ apps/admin/
 └── dist/             # 构建产物
 ```
 
-## 环境变量 🔧
+## 环境变量
 
 `.env.development` 和 `.env.production` 中需配置：
 
 -   `VITE_REQUEST_BASE_URL` - 后端 API 地址
 -   `VITE_EVENTS_BASE_URL` - 活动系统地址
 
-## 开源协议 📄
+## 开源协议
 
 本项目采用 MIT 协议 - 详见 [LICENSE](LICENSE) 文件。
-
-## 作者 ✨
-
-Kris（鱼头） - [个人网站](https://www.krissarea.com) - [联系邮箱](mailto:chenjinwen77@gmail.com)
-
----
-
-来自 @ying-web ❤️

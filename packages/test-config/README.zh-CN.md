@@ -1,25 +1,25 @@
 [English Documentation](/packages/test-config/README.md) · [中文文档](/packages/test-config/README.zh-CN.md)
 
-# @ying-web/test-config 🧪
+# @ying-web/test-config
 
-@ying-web 单体仓库的标准化测试配置
+`@ying-web` 通用的测试配置
 
-## 概述 🌟
+## 概述
 
 本包为 JavaScript 和 TypeScript 项目提供统一的 Vitest 测试配置，确保生态系统内所有项目的测试环境一致性。
 
-## 环境要求 📋
+## 环境要求
 
 -   Node.js >= 18.16.0
 -   PNPM: 8.5.1 或更高版本
 
-## 安装 💻
+## 安装
 
 ```bash
 pnpm add -D @ying-web/test-config
 ```
 
-## 使用指南 🚀
+## 使用指南
 
 ### JavaScript 项目
 
@@ -39,9 +39,9 @@ import { tsConfig } from '@ying-web/test-config';
 export default tsConfig;
 ```
 
-## 配置详情 🔧
+## 配置详情
 
-### JavaScript 配置 ⚡️
+### JavaScript 配置
 
 ```typescript
 {
@@ -63,7 +63,7 @@ export default tsConfig;
 }
 ```
 
-### TypeScript 配置 📘
+### TypeScript 配置
 
 ```typescript
 {
@@ -87,7 +87,7 @@ export default tsConfig;
 }
 ```
 
-## 项目结构 📂
+## 项目结构
 
 ```
 packages/test-config/
@@ -99,7 +99,7 @@ packages/test-config/
 └── types/             # 类型声明
 ```
 
-## 开发指南 🛠
+## 开发指南
 
 1. 安装依赖：
 
@@ -123,14 +123,6 @@ pnpm build:js
 pnpm dev
 ```
 
-## 开源协议 📄
+## 开源协议
 
 本项目采用 MIT 协议 - 详见 [LICENSE](LICENSE) 文件。
-
-## 作者 ✨
-
-Kris（鱼头） - [个人网站](https://www.krissarea.com) - [联系邮箱](mailto:chenjinwen77@gmail.com)
-
----
-
-来自 @ying-web ❤️

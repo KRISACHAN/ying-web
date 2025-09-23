@@ -1,30 +1,30 @@
 [English Documentation](/apps/events/README.md) · [中文文档](/apps/events/README.zh-CN.md)
 
-# @ying-web/events 🙏
+# @ying-web/events
 
-A modern, TypeScript-powered Christian events platform for managing various spiritual activities and engagements.
+Modern Christian events platform based on TypeScript for managing various Christian cultural activities
 
-## Overview 🌟
+## Overview
 
-This platform is part of the `@ying-web` ecosystem, built with React 18, TypeScript and Material-UI. It provides an engaging interface for various spiritual activities.
+This platform is an important component of `@ying-web`, built with React 18 + TypeScript + Material-UI, providing an interactive interface for various Christian cultural activities.
 
-## Tech Stack 💻
+## Tech Stack
 
--   ⚛️ **React 18** - Latest version of the popular UI library
--   📘 **TypeScript** - For type-safe code
--   🎨 **Material-UI** - Beautiful UI components
--   🌊 **TailwindCSS** - Utility-first CSS framework
--   🔄 **Vite** - Next-generation frontend tooling
--   📡 **Axios** - Promise-based HTTP client
--   🎯 **ESLint & Prettier** - Code quality tools
--   💅 **Less** - CSS preprocessor
+-   **React 18**
+-   **TypeScript**
+-   **Material-UI**
+-   **TailwindCSS**
+-   **Vite**
+-   **Axios**
+-   **ESLint & Prettier**
+-   **Less**
 
-## Prerequisites 📋
+## Prerequisites
 
 -   Node.js >= 18.16.0
 -   Pnpm: 9.14.2
 
-## Local Development 💻
+## Local Development
 
 1. Install dependencies:
 
@@ -32,10 +32,10 @@ This platform is part of the `@ying-web` ecosystem, built with React 18, TypeScr
 pnpm install
 ```
 
-2. Configure environment:
+2. Configure environment variables:
 
 ```bash
-# Copy environment file
+# Copy environment file template
 cp .env.example .env.development
 
 # Edit environment variables
@@ -45,29 +45,29 @@ VITE_REQUEST_BASE_URL=https://api.example.com
 3. Start development server:
 
 ```bash
-# Start with hot reload
+# With hot reload functionality
 pnpm dev
 
-# Run linting
+# Run code linting
 pnpm lint
 
-# Run linting for all files
+# Check all files
 pnpm lint:all
 
-# Run style linting
+# Style linting
 pnpm stylelint
 
-# Run style linting with auto-fix
+# Auto-fix style issues
 pnpm stylelint:fix
 ```
 
-## Production Deployment 🚀
+## Production Deployment
 
-### Vercel Deployment (Recommended) ▲
+### Vercel Deployment (Recommended)
 
-This project is optimized for [Vercel](https://vercel.com) deployment.
+This project is optimized for [Vercel](https://vercel.com)
 
-1. Connect your GitHub repository to Vercel
+1. Connect GitHub repository to Vercel
 2. Configure the following settings:
 
     - Framework Preset: `Vite`
@@ -81,7 +81,7 @@ This project is optimized for [Vercel](https://vercel.com) deployment.
 VITE_REQUEST_BASE_URL=https://api.production.com
 ```
 
-4. Deploy! Vercel will automatically handle the build and deployment process.
+4. Deploy! Vercel will automatically handle the build and deployment process
 
 Current deployment: [https://events.krissarea.com](https://events.krissarea.com)
 
@@ -90,7 +90,7 @@ Current deployment: [https://events.krissarea.com](https://events.krissarea.com)
 1. Configure production environment:
 
 ```bash
-# Copy environment file
+# Copy environment file template
 cp .env.example .env.production
 
 # Edit production environment variables
@@ -100,31 +100,31 @@ VITE_REQUEST_BASE_URL=https://api.production.com
 2. Build and preview:
 
 ```bash
-# Build for production
+# Production environment build
 pnpm build
 
-# Preview production build
+# Preview production version
 pnpm preview
 ```
 
-## Project Structure 📁
+## Project Structure
 
 ```
 apps/events/
 ├── src/                # Source code
 │   ├── components/    # Reusable components
 │   ├── contexts/      # React contexts
-│   ├── hooks/         # Custom React hooks
+│   ├── hooks/         # Custom React Hooks
 │   ├── layouts/       # Layout components
 │   ├── pages/         # Page components
 │   ├── services/      # API services
 │   ├── styles/        # Global styles
-│   └── types/         # TypeScript types
+│   └── types/         # TypeScript type definitions
 ├── public/            # Static assets
 └── dist/             # Build output
 ```
 
-## Available Routes 🛣
+## Main Routes
 
 -   `/` - Home page
 -   `/promise` - Bible promise page
@@ -132,20 +132,12 @@ apps/events/
 -   `/lucky-number/:activityKey` - Lucky number list
 -   `/lucky-number/:activityKey/activity` - Lucky number activity
 
-## Environment Variables 🔧
+## Environment Variables
 
-Required variables in `.env.development` and `.env.production`:
+Required in `.env.development` and `.env.production`:
 
 -   `VITE_REQUEST_BASE_URL` - Backend API URL
 
-## License 📄
+## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author ✨
-
-Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
-
----
-
-Made with ❤️ by the @ying-web

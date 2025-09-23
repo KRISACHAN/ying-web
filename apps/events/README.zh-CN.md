@@ -1,10 +1,10 @@
 [English Documentation](/apps/events/README.md) · [中文文档](/apps/events/README.zh-CN.md)
 
-# @ying-web/events 🙏
+# @ying-web/events
 
 基于 TypeScript 的现代化基督教活动平台，用于管理各类基督教文化活动
 
-## 概述 🌟
+## 概述
 
 本平台是 `@ying-web` 的重要组成部分，采用 React 18 + TypeScript + Material-UI 构建，为各类基督教文化活动提供互动界面。
 
@@ -19,12 +19,12 @@
 -   🎯 **ESLint & Prettier** - 代码质量工具
 -   💅 **Less** - CSS 预处理器
 
-## 环境要求 📋
+## 环境要求
 
 -   Node.js >= 18.16.0
 -   Pnpm: 9.14.2
 
-## 本地开发 💻
+## 本地开发
 
 1. 安装依赖：
 
@@ -61,9 +61,9 @@ pnpm stylelint
 pnpm stylelint:fix
 ```
 
-## 生产部署 🚀
+## 生产部署
 
-### Vercel 部署 (推荐) ▲
+### Vercel 部署 (推荐)
 
 本项目已针对 [Vercel](https://vercel.com) 进行优化
 
@@ -107,7 +107,7 @@ pnpm build
 pnpm preview
 ```
 
-## 项目结构 📁
+## 项目结构
 
 ```
 apps/events/
@@ -124,7 +124,7 @@ apps/events/
 └── dist/             # 构建产物
 ```
 
-## 主要路由 🛣
+## 主要路由
 
 -   `/` - 首页
 -   `/promise` - 圣经应许页面
@@ -132,20 +132,12 @@ apps/events/
 -   `/lucky-number/:activityKey` - 幸运号码列表
 -   `/lucky-number/:activityKey/activity` - 幸运号码活动
 
-## 环境变量 🔧
+## 环境变量
 
 `.env.development` 和 `.env.production` 中需配置：
 
 -   `VITE_REQUEST_BASE_URL` - 后端 API 地址
 
-## 开源协议 📄
+## 开源协议
 
 本项目采用 MIT 协议 - 详见 [LICENSE](LICENSE) 文件。
-
-## 作者 ✨
-
-Kris（鱼头） - [个人网站](https://www.krissarea.com) - [联系邮箱](mailto:chenjinwen77@gmail.com)
-
----
-
-来自 @ying-web ❤️

@@ -1,30 +1,30 @@
 [English Documentation](/apps/admin/README.md) · [中文文档](/apps/admin/README.zh-CN.md)
 
-# @ying-web/admin 🚀
+# @ying-web/admin
 
-A modern, TypeScript-powered admin dashboard for managing various web applications.
+Modern admin dashboard based on React@18 + TypeScript for managing various web applications
 
-## Overview 🌟
+## Overview
 
-This dashboard is part of the `@ying-web` ecosystem, built with React 18 and TypeScript. It provides a sleek interface for managing different applications.
+This admin system is an important component of `@ying-web`, built with React@18 + TypeScript, providing an elegant interface for managing various applications within the ecosystem.
 
-## Tech Stack 💻
+## Tech Stack
 
--   ⚛️ **React 18** - Latest version of the popular UI library
--   📘 **TypeScript** - For type-safe code
--   🎨 **Ant Design** - Enterprise-grade UI components
--   🌊 **TailwindCSS** - Utility-first CSS framework
--   🔄 **Vite** - Next-generation frontend tooling
--   📡 **Axios** - Promise-based HTTP client
--   🎯 **ESLint & Prettier** - Code quality tools
--   💅 **Less** - CSS preprocessor
+-   **React 18**
+-   **TypeScript**
+-   **Ant Design**
+-   **TailwindCSS**
+-   **Vite**
+-   **Axios**
+-   **ESLint & Prettier**
+-   **Less**
 
-## Prerequisites 📋
+## Prerequisites
 
 -   Node.js >= 18.16.0
 -   Pnpm: 8.5.1
 
-## Local Development 💻
+## Local Development
 
 1. Install dependencies:
 
@@ -32,10 +32,10 @@ This dashboard is part of the `@ying-web` ecosystem, built with React 18 and Typ
 pnpm install
 ```
 
-2. Configure environment:
+2. Configure environment variables:
 
 ```bash
-# Copy environment file
+# Copy environment file template
 cp .env.example .env.development
 
 # Edit environment variables
@@ -46,29 +46,29 @@ VITE_EVENTS_BASE_URL=https://events.example.com
 3. Start development server:
 
 ```bash
-# Start with hot reload
+# With hot reload functionality
 pnpm dev
 
-# Run linting
+# Run code linting
 pnpm lint
 
-# Run linting for all files
+# Check all files
 pnpm lint:all
 
-# Run style linting
+# Style linting
 pnpm stylelint
 
-# Run style linting with auto-fix
+# Auto-fix style issues
 pnpm stylelint:fix
 ```
 
-## Production Deployment 🚀
+## Production Deployment
 
-### Vercel Deployment (Recommended) ▲
+### Vercel Deployment (Recommended)
 
-This project is optimized for [Vercel](https://vercel.com) deployment.
+This project is optimized for [Vercel](https://vercel.com)
 
-1. Connect your GitHub repository to Vercel
+1. Connect GitHub repository to Vercel
 2. Configure the following settings:
 
     - Framework Preset: `Vite`
@@ -83,7 +83,7 @@ VITE_REQUEST_BASE_URL=https://api.production.com
 VITE_EVENTS_BASE_URL=https://events.production.com
 ```
 
-4. Deploy! Vercel will automatically handle the build and deployment process.
+4. Deploy! Vercel will automatically handle the build and deployment process
 
 Current deployment: [https://admin.krissarea.com](https://admin.krissarea.com)
 
@@ -92,7 +92,7 @@ Current deployment: [https://admin.krissarea.com](https://admin.krissarea.com)
 1. Configure production environment:
 
 ```bash
-# Copy environment file
+# Copy environment file template
 cp .env.example .env.production
 
 # Edit production environment variables
@@ -103,45 +103,37 @@ VITE_EVENTS_BASE_URL=https://events.production.com
 2. Build and preview:
 
 ```bash
-# Build for production
+# Production build
 pnpm build
 
-# Preview production build
+# Preview production version
 pnpm preview
 ```
 
-## Project Structure 📁
+## Project Structure
 
 ```
 apps/admin/
 ├── src/                # Source code
 │   ├── components/    # Reusable components
-│   ├── hooks/         # Custom React hooks
+│   ├── hooks/         # Custom React Hooks
 │   ├── layouts/       # Layout components
 │   ├── pages/         # Page components
 │   ├── services/      # API services
 │   ├── styles/        # Global styles
-│   ├── types/         # TypeScript types
+│   ├── types/         # TypeScript type definitions
 │   └── utils/         # Utility functions
 ├── public/            # Static assets
 └── dist/             # Build output
 ```
 
-## Environment Variables 🔧
+## Environment Variables
 
-Required variables in `.env.development` and `.env.production`:
+Required in `.env.development` and `.env.production`:
 
 -   `VITE_REQUEST_BASE_URL` - Backend API URL
 -   `VITE_EVENTS_BASE_URL` - Events system URL
 
-## License 📄
+## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author ✨
-
-Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
-
----
-
-Made with ❤️ by the @ying-web

@@ -1,35 +1,35 @@
 [English Documentation](/services/api-service/README.md) · [中文文档](/services/api-service/README.zh-CN.md)
 
-# @ying-web/api-service 🚀
+# @ying-web/api-service
 
-A robust, Koa.js-powered API service with MySQL integration for the @ying-web.
+The core API service of `@ying-web`.
 
-## Overview 🌟
+## Overview
 
-This service is the backbone of the `@ying-web` ecosystem, built with Koa.js, MySQL and JavaScript (**Why not TypeScript? Because it has created for a long time, it almost was my first Api service. So, for remembrance, I don't want to change it**). It provides RESTful APIs for various applications within the ecosystem.
+This service is the core API service of `@ying-web`, built with Koa.js + MySQL + JavaScript (Why not TypeScript? This service is an early learning project with special sentimental value, so it's kept as is). It provides RESTful API support for applications within the ecosystem.
 
-## Tech Stack 🛠
+## Tech Stack
 
--   🌐 **Koa.js** - Next-generation web framework for Node.js
--   🗄️ **MySQL** - Reliable relational database
--   📡 **Redis** - In-memory data structure store
--   🔄 **Gulp** - Automated build system
--   🐳 **Docker** - Containerization
--   📡 **PM2** - Production process manager
--   🧪 **Vitest** - Modern testing framework
--   🔍 **ESLint & Prettier** - Code quality tools
--   📦 **Babel** - JavaScript compiler
+-   **Koa.js**
+-   **MySQL**
+-   **Redis**
+-   **Gulp**
+-   **Docker**
+-   **PM2**
+-   **Vitest**
+-   **ESLint & Prettier**
+-   **Babel**
 
-## Prerequisites 📋
+## Environment Requirements
 
 -   Node.js >= 18.16.0
 -   Pnpm: 8.5.1
 -   MySQL >= 8.0
 -   Redis >= 6.0
--   PM2 (optional for production)
--   Docker (optional for containerization)
+-   PM2 (recommended for production)
+-   Docker (optional for containerized deployment)
 
-## Local Development 💻
+## Local Development
 
 1. Install dependencies:
 
@@ -37,59 +37,59 @@ This service is the backbone of the `@ying-web` ecosystem, built with Koa.js, My
 pnpm install
 ```
 
-2. Configure environment:
+2. Configure environment variables:
 
 ```bash
-# Copy environment file
+# Copy environment file template
 cp .env.example .env
 
-# Edit .env file with your configurations
+# Edit configuration information
 vim .env
 ```
 
 3. Start development server:
 
 ```bash
-# Start with hot reload
+# With hot reload functionality
 pnpm dev
 ```
 
 4. Run tests:
 
 ```bash
-# Run tests
+# Execute tests
 pnpm test
 
 # Run tests in watch mode
 pnpm test:watch
 
-# Generate coverage report
+# Generate test coverage report
 pnpm test:coverage
 ```
 
-## Production Deployment 🚀
+## Production Deployment
 
 ### Using PM2
 
-1. Build the application:
+1. Build application:
 
 ```bash
 pnpm build
 ```
 
-2. Configure PM2:
+2. PM2 configuration:
 
 ```bash
-# Start with PM2
+# Start via PM2
 pnpm pm2
 ```
 
 ### Using Docker
 
-1. Build Docker image:
+1. Build image:
 
 ```bash
-# Build image
+# Build Docker image
 docker build -t api-service .
 ```
 
@@ -113,43 +113,33 @@ docker run -d \
 docker-compose up -d
 ```
 
-## API Documentation 📚
+## API Documentation
 
-API documentation is available in the `services/api-service/introduction` directory.
+### Main Interface Routes:
 
-### Main API Routes:
+-   `/api/v1/admin/*` - Admin backend interfaces
+-   `/api/v1/www/*` - Public access interfaces
 
--   🔐 `/api/v1/admin/*` - Admin management APIs
--   🌐 `/api/v1/www/*` - Public APIs
-
-## Project Structure 📁
+## Project Structure
 
 ```
 services/api-service/
 ├── app/                # Source code
-│   ├── api/           # API routes & controllers
-│   ├── dao/           # Data Access Objects
+│   ├── api/           # Interface routes & controllers
+│   ├── dao/           # Data access layer
 │   ├── models/        # Database models
 │   ├── services/      # Business logic services
 │   ├── middlewares/   # Custom middlewares
 │   └── utils/         # Utility functions
-├── tests/             # Test files
+├── tests/             # Test cases
 ├── introduction/      # API documentation
-└── dist/             # Build output
+└── dist/             # Build artifacts
 ```
 
-## Environment Variables 🔧
+## Environment Variables
 
-See `.env.example` for all required environment variables.
+For complete environment variable configuration, please refer to the `.env.example` file
 
-## License 📝
+## Open Source License
 
-MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author ✨
-
-Kris - [Website](https://www.krissarea.com) - [Email](mailto:chenjinwen77@gmail.com)
-
----
-
-Made with ❤️ by the @ying-web
+MIT License - see the [LICENSE](LICENSE) file for details

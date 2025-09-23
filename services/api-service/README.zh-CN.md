@@ -1,26 +1,26 @@
 [English Documentation](/services/api-service/README.md) · [中文文档](/services/api-service/README.zh-CN.md)
 
-# @ying-web/api-service 🚀
+# @ying-web/api-service
 
-为 @ying-web 提供基于 Koa.js + MySQL 的稳健 API 服务
+`@ying-web` 的核心 API 服务。
 
-## 概述 🌟
+## 概述
 
-本服务是 `@ying-web` 的核心枢纽，采用 Koa.js + MySQL + JavaScript 构建（为何不用 TypeScript？因这是早期创建的首个 API 服务，为保留历史原貌未作改动）。为生态系统内各应用提供 RESTful API 支持。
+本服务是 `@ying-web` 的核心 API 服务，采用 Koa.js + MySQL + JavaScript 构建（为何不用 TypeScript？这个服务算是一个早期的学习项目，具有特殊情怀，因此保留）。为生态系统内各应用提供 RESTful API 支持。
 
-## 技术栈 🛠
+## 技术栈
 
--   🌐 **Koa.js** - 下一代 Node.js Web 框架
--   🗄️ **MySQL** - 可靠的关系型数据库
--   📡 **Redis** - 内存数据结构存储
--   🔄 **Gulp** - 自动化构建系统
--   🐳 **Docker** - 容器化部署
--   📡 **PM2** - 生产环境进程管理
--   🧪 **Vitest** - 现代化测试框架
--   🔍 **ESLint & Prettier** - 代码质量工具
--   📦 **Babel** - JavaScript 编译器
+-   **Koa.js**
+-   **MySQL**
+-   **Redis**
+-   **Gulp**
+-   **Docker**
+-   **PM2**
+-   **Vitest**
+-   **ESLint & Prettier**
+-   **Babel**
 
-## 环境要求 📋
+## 环境要求
 
 -   Node.js >= 18.16.0
 -   Pnpm: 8.5.1
@@ -29,7 +29,7 @@
 -   PM2 (生产环境推荐)
 -   Docker (容器化部署可选)
 
-## 本地开发 💻
+## 本地开发
 
 1. 安装依赖：
 
@@ -67,7 +67,7 @@ pnpm test:watch
 pnpm test:coverage
 ```
 
-## 生产部署 🚀
+## 生产部署
 
 ### 使用 PM2
 
@@ -113,16 +113,14 @@ docker run -d \
 docker-compose up -d
 ```
 
-## API 文档 📚
-
-完整 API 文档请查看 `services/api-service/introduction` 目录
+## API 文档
 
 ### 主要接口路由：
 
--   🔐 `/api/v1/admin/*` - 管理后台接口
--   🌐 `/api/v1/www/*` - 公共访问接口
+-   `/api/v1/admin/*` - 管理后台接口
+-   `/api/v1/www/*` - 公共访问接口
 
-## 项目结构 📁
+## 项目结构
 
 ```
 services/api-service/
@@ -138,18 +136,10 @@ services/api-service/
 └── dist/             # 构建产物
 ```
 
-## 环境变量 🔧
+## 环境变量
 
 完整环境变量配置请参考 `.env.example` 文件
 
-## 开源协议 📝
+## 开源协议
 
 MIT 协议 - 详见 [LICENSE](LICENSE) 文件
-
-## 作者 ✨
-
-Kris（鱼头） - [个人网站](https://www.krissarea.com) - [联系邮箱](mailto:chenjinwen77@gmail.com)
-
----
-
-来自 @ying-web ❤️
