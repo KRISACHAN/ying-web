@@ -85,21 +85,38 @@
                 "description": "Working as a remote advisor for SenseTime Technology, developing frontend solutions for their SenseTime Little Raccoon AI series products. Responsible for technical selection and MVP development of task planning features, developing solutions for handling incomplete JSON data, and implementing automated task execution functionality. Daily iterative requirements include knowledge management module refactoring and business requirement development, commercialization, and other module business requirement development.",
                 "projects": [
                     {
-                        "title": "Task Planning Feature Technical Selection & MVP Development",
-                        "description": "Responsible for core technical architecture design and initial implementation of SenseTime Little Raccoon AI task planning functionality",
+                        "title": "MVP Development for Task Planning",
+                        "description": "Responsible for MVP development of the new task planning feature",
                         "achievements": [
-                            "Completed technical selection for task planning features, determining optimal technical solutions",
-                            "Developed solutions for handling incomplete JSON data, solving AI streaming output parsing challenges",
-                            "Implemented automated task execution functionality, enhancing user experience"
+                            "Developed an AI task-planning visualization system using React Flow, enabling custom node creation and intelligent connections",
+                            "Designed and implemented a character-level incremental JSON parser to handle Server-Sent Events (SSE) stream data",
+                            "Built a task queue management system to oversee job execution, status tracking, and error handling"
                         ]
                     },
                     {
-                        "title": "Knowledge Management Module Refactoring & Business Development",
-                        "description": "Responsible for knowledge management module architecture refactoring and various business requirement development implementations",
+                        "title": "Knowledge Management Module Refactoring",
+                        "description": "Responsible for core business functionality architecture optimization, addressing legacy technical debt that hindered iteration",
                         "achievements": [
-                            "Refactored knowledge management module, improving code maintainability and performance",
-                            "Developed commercialization module related features, supporting product commercialization process",
-                            "Continuously iterate and optimize product features to meet evolving user needs"
+                            "Streamlined main entry file from 865 lines to 320 lines (-63%), reduced cyclomatic complexity from 50 to 15 (-70%)",
+                            "Established a 100-point code quality scoring system, improving AI evaluation score from 20 to 80 points",
+                            "Designed automated detection toolchain including naming conventions, architecture analysis, and complexity detection"
+                        ]
+                    },
+                    {
+                        "title": "Project Diagnosis and Optimization",
+                        "description": "Systematically analyzed technical debt and improvement opportunities in an 8-month iterative project",
+                        "achievements": [
+                            "Developed boundary and standard-based project analysis framework, establishing S/A/B/C/D five-tier rating system",
+                            "Integrated ESLint, CSpell, JSCPD and other tools to implement circular dependency detection and duplicate code detection",
+                            "Delivered comprehensive analysis reports and coordinated team efforts to resolve technical debt issues"
+                        ]
+                    },
+                    {
+                        "title": "Daily Business Requirements Development",
+                        "description": "Responsible for frontend development of daily business requirements",
+                        "achievements": [
+                            "Completed feature and commercialization adaptation for SaaS and ToB versions",
+                            "Implemented education edition membership-related functionality"
                         ]
                     }
                 ]
