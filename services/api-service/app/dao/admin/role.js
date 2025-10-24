@@ -1,4 +1,4 @@
-import { RoleModel } from '@models/admin/role';
+import { RoleModel } from '@models/admin/index';
 import {
     INTERNAL_SERVER_ERROR,
     NOT_FOUND,

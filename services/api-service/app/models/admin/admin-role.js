@@ -44,6 +44,12 @@ AdminRoleModel.init(
                 unique: true,
                 fields: ['admin_id', 'role_id', 'deleted_at'],
             },
+            {
+                fields: ['admin_id'],
+            },
+            {
+                fields: ['role_id'],
+            },
         ],
     },
 );

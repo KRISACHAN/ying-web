@@ -23,28 +23,77 @@ export const initRatelimit = app => {
     // https://github.com/koajs/ratelimit
 
     const db = new Map();
-    app.use(
-        ratelimit({
-            driver: 'memory',
-            db: db,
-            duration: 60000,
-            errorMessage: 'Sometimes You Just Have to Slow Down.',
-            id: ctx => ctx.ip,
-            headers: {
-                remaining: 'Rate-Limit-Remaining',
-                reset: 'Rate-Limit-Reset',
-                total: 'Rate-Limit-Total',
-            },
-            max: 100,
-            disableHeader: false,
-            // whitelist: ctx => {
-            //     // some logic that returns a boolean
-            // },
-            // blacklist: ctx => {
-            //     // some logic that returns a boolean
-            // },
-        }),
-    );
+
+    // Basic rate limiting configuration
+    const baseRateLimit = ratelimit({
+        driver: 'memory',
+        db: db,
+        duration: 60000,
+        errorMessage: 'Sometimes You Just Have to Slow Down.',
+        id: ctx => ctx.ip,
+        headers: {
+            remaining: 'Rate-Limit-Remaining',
+            reset: 'Rate-Limit-Reset',
+            total: 'Rate-Limit-Total',
+        },
+        max: 100,
+        disableHeader: false,
+    });
+
+    // Login endpoint rate limiting (stricter)
+    const loginRateLimit = ratelimit({
+        driver: 'memory',
+        db: db,
+        duration: 60000,
+        errorMessage: '登录尝试过于频繁，请稍后再试',
+        id: ctx => ctx.ip,
+        headers: {
+            remaining: 'Rate-Limit-Remaining',
+            reset: 'Rate-Limit-Reset',
+            total: 'Rate-Limit-Total',
+        },
+        max: 5, // 5次/分钟
+        disableHeader: false,
+    });
+
+    // Query endpoint rate limiting (more lenient)
+    const queryRateLimit = ratelimit({
+        driver: 'memory',
+        db: db,
+        duration: 60000,
+        errorMessage: '查询请求过于频繁，请稍后再试',
+        id: ctx => ctx.ip,
+        headers: {
+            remaining: 'Rate-Limit-Remaining',
+            reset: 'Rate-Limit-Reset',
+            total: 'Rate-Limit-Total',
+        },
+        max: 200, // 200次/分钟
+        disableHeader: false,
+    });
+
+    // Apply different rate limiting strategies based on path
+    app.use(async (ctx, next) => {
+        const path = ctx.path;
+
+        // Login-related endpoints use strict rate limiting
+        if (path.includes('/login') || path.includes('/auth')) {
+            return await loginRateLimit(ctx, next);
+        }
+
+        // Query endpoints use lenient rate limiting
+        if (
+            ctx.method === 'GET' &&
+            (path.includes('/query') ||
+                path.includes('/list') ||
+                path.includes('/info'))
+        ) {
+            return await queryRateLimit(ctx, next);
+        }
+
+        // Other endpoints use basic rate limiting
+        return await baseRateLimit(ctx, next);
+    });
 };
 
 export const initLogger = app => {

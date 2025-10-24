@@ -1,4 +1,4 @@
-import { RolePermissionsModel } from '@models/admin/role-permissions';
+import { RolePermissionsModel } from '@models/admin/index';
 import { INTERNAL_SERVER_ERROR, PRECONDITION_FAILED } from '@utils/http-errors';
 import log from '@utils/log';
 

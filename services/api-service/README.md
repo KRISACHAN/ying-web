@@ -126,11 +126,26 @@ docker-compose up -d
 services/api-service/
 ├── app/                # Source code
 │   ├── api/           # Interface routes & controllers
-│   ├── dao/           # Data access layer
-│   ├── models/        # Database models
-│   ├── services/      # Business logic services
-│   ├── middlewares/   # Custom middlewares
-│   └── utils/         # Utility functions
+│   ├── dao/           # Data access layer (optimized with caching)
+│   ├── models/        # Database models (with associations)
+│   ├── services/      # Business logic services (NEW)
+│   │   ├── base.service.js      # Base service with transaction management
+│   │   ├── auth.service.js      # Authentication & authorization
+│   │   ├── admin/               # Admin management services
+│   │   ├── lucky-number/        # Lucky number activity services
+│   │   ├── option-draw/         # Option draw activity services
+│   │   └── promise/             # Promise management services
+│   ├── middlewares/   # Custom middlewares (enhanced)
+│   │   ├── performance.js       # Performance monitoring
+│   │   ├── security-headers.js  # Security headers
+│   │   ├── audit-log.js         # Audit logging
+│   │   └── auths/               # Authentication middlewares
+│   ├── utils/         # Utility functions (enhanced)
+│   │   ├── permission-helper.js # Optimized permission queries
+│   │   └── init.js              # Enhanced rate limiting
+│   └── index.js       # Application entry point
+├── knowledges/        # Database schemas and documentation
+│   └── models/        # SQL schema files
 ├── tests/             # Test cases
 ├── introduction/      # API documentation
 └── dist/             # Build artifacts
@@ -139,6 +154,32 @@ services/api-service/
 ## Environment Variables
 
 For complete environment variable configuration, please refer to the `.env.example` file
+
+### Key Environment Variables:
+
+-   **Database**: `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`
+-   **Redis**: `REDIS_HOST`, `REDIS_PORT`
+-   **Authentication**: `ADMIN_ACCESS_SECRET_KEY`, `ADMIN_REFRESH_SECRET_KEY`
+-   **Application**: `APP_ENV`, `PORT`, `CREATE_TABLE`, `CREATE_ADMIN`
+
+## Performance Monitoring
+
+The system now includes comprehensive performance monitoring:
+
+-   **Response Time Tracking**: Automatic measurement of request response times
+-   **Database Query Counting**: Real-time tracking of database query frequency
+-   **Slow Query Detection**: Automatic detection and logging of queries > 100ms
+-   **Cache Hit Rate**: Monitoring of cache performance metrics
+-   **Performance Headers**: Response headers include `X-Response-Time` and `X-DB-Queries`
+
+## Security Features
+
+Enhanced security measures implemented:
+
+-   **Security Headers**: CSP, HSTS, XSS protection, clickjacking prevention
+-   **Rate Limiting**: Differentiated limits for login (5/min), queries (200/min), general (100/min)
+-   **Audit Logging**: Complete trail of admin actions and sensitive operations
+-   **Input Validation**: Enhanced request validation and sanitization
 
 ## Open Source License
 
