@@ -12,14 +12,15 @@ const LuckyNumberCreate = () => {
         key: string;
         name: string;
         description: string;
-        numbers: string;
+        maxNumber: number;
         participant_limit: number;
     }) => {
         try {
-            const numbers = values.numbers
-                .split(',')
-                .map(n => parseInt(n.trim()))
-                .filter(n => !isNaN(n));
+            // 自动生成从1到maxNumber的号码数组
+            const numbers = Array.from(
+                { length: values.maxNumber },
+                (_, i) => i + 1,
+            );
 
             await createActivity({
                 key: values.key,
@@ -94,22 +95,32 @@ const LuckyNumberCreate = () => {
                     </Form.Item>
 
                     <Form.Item
-                        label="号码范围"
-                        name="numbers"
+                        label="最大号码"
+                        name="maxNumber"
                         rules={[
                             {
                                 required: true,
-                                message: '请输入号码范围',
+                                message: '请输入最大号码',
                             },
                             {
-                                pattern: /^[0-9,]+$/,
-                                message: '请输入数字，用逗号分隔',
+                                validator: async (_, value) => {
+                                    const num = parseInt(value);
+                                    if (isNaN(num) || num < 1) {
+                                        throw new Error('最大号码必须大于0');
+                                    }
+                                    if (num > 10000) {
+                                        throw new Error(
+                                            '最大号码不能超过10000',
+                                        );
+                                    }
+                                },
                             },
                         ]}
+                        help="系统将自动生成从1到该数字的所有号码"
                     >
-                        <Input.TextArea
-                            placeholder="请输入号码，用逗号分隔"
-                            rows={4}
+                        <Input
+                            type="number"
+                            placeholder="请输入最大号码，如：10"
                         />
                     </Form.Item>
 
