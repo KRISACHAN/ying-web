@@ -1,6 +1,11 @@
 import cors from '@koa/cors';
+import auditLogMiddleware from '@middlewares/audit-log';
 import cacheMiddleware from '@middlewares/cache';
 import catchErrorMiddleware from '@middlewares/exception';
+import performanceMiddleware, {
+    dbQueryCounterMiddleware,
+} from '@middlewares/performance';
+import securityHeadersMiddleware from '@middlewares/security-headers';
 import { getIP } from '@utils/helpers';
 import { initLoadRouters, initLogger, initRatelimit } from '@utils/init';
 import log from '@utils/log';
@@ -43,10 +48,17 @@ app.use(
 );
 app.use(catchErrorMiddleware);
 app.use(cacheMiddleware);
+app.use(dbQueryCounterMiddleware);
+app.use(performanceMiddleware);
+app.use(securityHeadersMiddleware);
+app.use(auditLogMiddleware);
 app.use(
     bodyParser({
         strict: false,
         multipart: true,
+        formLimit: '10mb',
+        jsonLimit: '10mb',
+        textLimit: '10mb',
     }),
 );
 initRatelimit(app);

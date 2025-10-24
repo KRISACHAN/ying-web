@@ -1,4 +1,4 @@
-import { PermissionsModel } from '@models/admin/permissions';
+import { PermissionsModel } from '@models/admin/index';
 import {
     INTERNAL_SERVER_ERROR,
     NOT_FOUND,

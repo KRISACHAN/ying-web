@@ -1,6 +1,11 @@
-DROP TABLE IF EXISTS `option_draw_activity`;
-DROP TABLE IF EXISTS `option_draw_pool`;
-DROP TABLE IF EXISTS `option_draw_user_participation`;
+-- =============================================
+-- Option Draw Activity System Database Schema
+-- =============================================
+-- This schema defines the option draw activity system
+-- Includes: activities, option pools, and user participations
+-- Optimized with indexes for performance and proper constraints
+
+-- Drop existing tables (in reverse dependency order)
 
 CREATE TABLE `option_draw_activity` (
   `id` INT NOT NULL AUTO_INCREMENT,

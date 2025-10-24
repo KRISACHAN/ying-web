@@ -1,26 +1,14 @@
 import { ActivityModel } from '@models/lucky-number/activity';
 import { genPaginationRequest } from '@utils/helpers';
-import {
-    INTERNAL_SERVER_ERROR,
-    NOT_FOUND,
-    PRECONDITION_FAILED,
-} from '@utils/http-errors';
+import { INTERNAL_SERVER_ERROR, NOT_FOUND } from '@utils/http-errors';
 import log from '@utils/log';
 
 export class ActivityDao {
     static async create(
         { key, name, description, participant_limit = 0 },
-        transaction,
+        transaction = null,
     ) {
         try {
-            const existedActivity = await ActivityModel.findOne({
-                where: { key },
-            });
-
-            if (existedActivity) {
-                throw PRECONDITION_FAILED('活动已存在');
-            }
-
             const activity = new ActivityModel({
                 key,
                 name,
@@ -61,7 +49,7 @@ export class ActivityDao {
         }
     }
 
-    static async delete({ key }) {
+    static async delete({ key }, transaction = null) {
         try {
             const activity = await ActivityModel.findOne({
                 where: { key },
@@ -71,7 +59,7 @@ export class ActivityDao {
                 throw NOT_FOUND('活动不存在');
             }
 
-            const deletedActivity = await activity.destroy();
+            const deletedActivity = await activity.destroy({ transaction });
 
             if (!deletedActivity) {
                 throw INTERNAL_SERVER_ERROR('删除活动失败');
@@ -84,10 +72,26 @@ export class ActivityDao {
         }
     }
 
-    static async query({ pageNum = 1, pageSize = 10 }) {
+    static async query({ pageNum = 1, pageSize = 10 }, ctx = null) {
         try {
+            // Try to get total count from cache (if ctx.cache is available)
+            let total = null;
+            const cacheKey = `lucky-number:list:count`;
+
+            if (ctx && ctx.cache) {
+                total = await ctx.cache.get(cacheKey);
+            }
+
+            if (!total) {
+                total = await ActivityModel.scope('df').count();
+                // Cache total count for 5 minutes
+                if (ctx && ctx.cache) {
+                    await ctx.cache.set(cacheKey, total, 300);
+                }
+            }
+
             const pagination = genPaginationRequest(pageNum, pageSize);
-            const result = await ActivityModel.scope('df').findAndCountAll({
+            const result = await ActivityModel.scope('df').findAll({
                 limit: pagination.limit,
                 offset: pagination.offset,
                 order: [['id', 'DESC']],
@@ -101,9 +105,9 @@ export class ActivityDao {
                 pagination: {
                     count: pageNum,
                     size: pageSize,
-                    total: result.count,
+                    total: total,
                 },
-                data: result.rows,
+                data: result,
             };
         } catch (error) {
             log.error(error);
@@ -111,7 +115,7 @@ export class ActivityDao {
         }
     }
 
-    static async updateStatus({ key, status }) {
+    static async updateStatus({ key, status }, transaction = null) {
         try {
             const activity = await ActivityModel.findOne({
                 where: { key },
@@ -122,7 +126,7 @@ export class ActivityDao {
             }
 
             activity.status = status;
-            await activity.save();
+            await activity.save({ transaction });
 
             return activity;
         } catch (error) {

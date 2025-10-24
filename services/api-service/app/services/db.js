@@ -11,7 +11,14 @@ export const sequelize = new Sequelize(
         dialect: 'mysql',
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
-        logging: log.debug,
+        benchmark: true,
+        logging: (sql, timing) => {
+            if (timing > 100) {
+                log.warn(`慢查询 [${timing}ms]: ${sql}`);
+            } else {
+                log.debug(sql);
+            }
+        },
         timezone: '+08:00',
         define: {
             timestamps: true,

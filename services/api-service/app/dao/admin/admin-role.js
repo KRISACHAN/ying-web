@@ -1,4 +1,4 @@
-import { AdminRoleModel } from '@models/admin/admin-role';
+import { AdminRoleModel } from '@models/admin/index';
 import { INTERNAL_SERVER_ERROR, PRECONDITION_FAILED } from '@utils/http-errors';
 import log from '@utils/log';
 

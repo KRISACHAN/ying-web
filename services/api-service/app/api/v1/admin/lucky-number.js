@@ -1,6 +1,3 @@
-import { ActivityDao } from '@dao/lucky-number/activity';
-import { NumberPoolDao } from '@dao/lucky-number/number-pool';
-import { UserParticipationDao } from '@dao/lucky-number/user-participation';
 import {
     createEventMiddleware,
     editEventMiddleware,
@@ -12,8 +9,8 @@ import {
     luckyNumberKeyValidatorMiddleware,
     queryLuckyNumberValidatorMiddleware,
 } from '@middlewares/validators/lucky-number';
-import { sequelize } from '@services/db';
-import { ERROR_NAMES, LUCKY_NUMBER_STATUS } from '@utils/constants';
+import { luckyNumberActivityService } from '@services/lucky-number/activity.service';
+import { ERROR_NAMES } from '@utils/constants';
 import { BAD_REQUEST } from '@utils/http-errors';
 import httpStatus from 'http-status';
 import { eq } from 'lodash';
@@ -33,25 +30,14 @@ router.post(
             participant_limit = 0,
         } = ctx.request.body;
 
-        const transaction = await sequelize.transaction();
         try {
-            const activity = await ActivityDao.create(
-                {
-                    key,
-                    name,
-                    description,
-                    participant_limit,
-                    status: LUCKY_NUMBER_STATUS.NOT_STARTED,
-                },
-                transaction,
-            );
-            const numberPoolEntries = numbers.map(number => ({
-                activity_id: activity.id,
-                drawn_number: number,
-            }));
-            await NumberPoolDao.create(numberPoolEntries, transaction);
-
-            await transaction.commit();
+            const activity = await luckyNumberActivityService.createActivity({
+                key,
+                name,
+                description,
+                numbers,
+                participantLimit: participant_limit,
+            });
 
             ctx.response.status = httpStatus.CREATED;
             ctx.body = {
@@ -59,7 +45,6 @@ router.post(
                 activity_key: activity.key,
             };
         } catch (error) {
-            await transaction.rollback();
             if (eq(error.name, ERROR_NAMES.SEQUELIZE_UNIQUE_CONSTRAINT_ERROR)) {
                 throw BAD_REQUEST(`活动标识 "${key}" 已被使用，请更换其他标识`);
             }
@@ -77,16 +62,11 @@ router.get(
         const { key } = ctx.params;
         const { page_num = 1, page_size = 10 } = ctx.query;
 
-        const activity = await ActivityDao.search({ key });
-        if (!activity) {
-            throw BAD_REQUEST('活动不存在');
-        }
-
-        const result = await UserParticipationDao.query({
-            page_num: parseInt(page_num, 10),
-            page_size: parseInt(page_size, 10),
-            activity_id: activity.id,
-        });
+        const result =
+            await luckyNumberActivityService.getActivityParticipations(key, {
+                pageNum: parseInt(page_num, 10),
+                pageSize: parseInt(page_size, 10),
+            });
 
         ctx.response.status = httpStatus.OK;
         ctx.set('x-pagination', JSON.stringify(result.pagination));
@@ -97,23 +77,10 @@ router.get(
 router.get('/lucky-number/info/:key', async ctx => {
     const { key } = ctx.params;
 
-    const activity = await ActivityDao.search({ key });
-    if (!activity) {
-        throw BAD_REQUEST('活动不存在');
-    }
-
-    const count = await NumberPoolDao.getCount(activity.id);
+    const activityInfo = await luckyNumberActivityService.getActivityInfo(key);
 
     ctx.response.status = httpStatus.OK;
-    ctx.body = {
-        id: activity.id,
-        activity_key: activity.key,
-        name: activity.name,
-        description: activity.description,
-        participant_limit: activity.participant_limit,
-        status: activity.status,
-        count,
-    };
+    ctx.body = activityInfo;
 });
 
 router.delete(
@@ -122,7 +89,7 @@ router.delete(
     luckyNumberKeyValidatorMiddleware,
     async ctx => {
         const { key } = ctx.params;
-        await ActivityDao.delete({ key });
+        await luckyNumberActivityService.deleteActivity(key);
         ctx.response.status = httpStatus.OK;
         ctx.body = {
             message: '活动删除成功',
@@ -137,49 +104,30 @@ router.put(
     async ctx => {
         const { key, username } = ctx.request.body;
 
-        const transaction = await sequelize.transaction();
+        const result = await luckyNumberActivityService.cancelParticipation(
+            key,
+            username,
+        );
 
-        try {
-            const activity = await ActivityDao.search({ key });
-            if (!activity) {
-                throw BAD_REQUEST('活动不存在');
-            }
-
-            const participation = await UserParticipationDao.search({
-                activity_id: activity.id,
-                username,
-            });
-
-            if (!participation) {
-                throw BAD_REQUEST('未找到参与记录');
-            }
-
-            const drawnNumber = participation.drawn_number;
-
-            await UserParticipationDao.delete(participation.id, transaction);
-
-            await transaction.commit();
-
-            ctx.response.status = httpStatus.OK;
-            ctx.body = {
-                message: '参与记录已取消',
-                username: username,
-                drawn_number: drawnNumber,
-            };
-        } catch (error) {
-            await transaction.rollback();
-            throw error;
-        }
+        ctx.response.status = httpStatus.OK;
+        ctx.body = {
+            message: '参与记录已取消',
+            username: result.username,
+            drawn_number: result.drawn_number,
+        };
     },
 );
 
 router.get('/lucky-number/list', watchEventMiddleware, async ctx => {
     const { page_num = 1, page_size = 10 } = ctx.query;
 
-    const result = await ActivityDao.query({
-        page_num: parseInt(page_num, 10),
-        page_size: parseInt(page_size, 10),
-    });
+    const result = await luckyNumberActivityService.getActivityList(
+        {
+            pageNum: parseInt(page_num, 10),
+            pageSize: parseInt(page_size, 10),
+        },
+        ctx,
+    );
 
     ctx.response.status = httpStatus.OK;
     ctx.set('x-pagination', JSON.stringify(result.pagination));
@@ -189,17 +137,10 @@ router.get('/lucky-number/list', watchEventMiddleware, async ctx => {
 router.put('/lucky-number/update-status', editEventMiddleware, async ctx => {
     const { key, status } = ctx.request.body;
 
-    if (
-        ![
-            LUCKY_NUMBER_STATUS.NOT_STARTED,
-            LUCKY_NUMBER_STATUS.ONGOING,
-            LUCKY_NUMBER_STATUS.ENDED,
-        ].includes(status)
-    ) {
-        throw BAD_REQUEST('无效的活动状态');
-    }
-
-    const activity = await ActivityDao.updateStatus({ key, status });
+    const activity = await luckyNumberActivityService.updateActivityStatus(
+        key,
+        status,
+    );
 
     ctx.response.status = httpStatus.OK;
     ctx.body = {

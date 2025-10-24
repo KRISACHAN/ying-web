@@ -44,6 +44,12 @@ RolePermissionsModel.init(
                 unique: true,
                 fields: ['role_id', 'permission_id', 'deleted_at'],
             },
+            {
+                fields: ['role_id'],
+            },
+            {
+                fields: ['permission_id'],
+            },
         ],
     },
 );

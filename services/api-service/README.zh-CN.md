@@ -126,11 +126,26 @@ docker-compose up -d
 services/api-service/
 ├── app/                # 源代码
 │   ├── api/           # 接口路由与控制器
-│   ├── dao/           # 数据访问层
-│   ├── models/        # 数据库模型
-│   ├── services/      # 业务逻辑服务
-│   ├── middlewares/   # 自定义中间件
-│   └── utils/         # 工具函数
+│   ├── dao/           # 数据访问层（优化缓存）
+│   ├── models/        # 数据库模型（带关联关系）
+│   ├── services/      # 业务逻辑服务（新增）
+│   │   ├── base.service.js      # 基础服务，含事务管理
+│   │   ├── auth.service.js      # 认证与授权
+│   │   ├── admin/               # 管理员管理服务
+│   │   ├── lucky-number/        # 幸运数字活动服务
+│   │   ├── option-draw/         # 选项抽奖活动服务
+│   │   └── promise/             # 承诺管理服务
+│   ├── middlewares/   # 自定义中间件（增强）
+│   │   ├── performance.js       # 性能监控
+│   │   ├── security-headers.js  # 安全响应头
+│   │   ├── audit-log.js         # 审计日志
+│   │   └── auths/               # 认证中间件
+│   ├── utils/         # 工具函数（增强）
+│   │   ├── permission-helper.js # 优化权限查询
+│   │   └── init.js              # 增强限流
+│   └── index.js       # 应用入口
+├── knowledges/        # 数据库架构和文档
+│   └── models/        # SQL 架构文件
 ├── tests/             # 测试用例
 ├── introduction/      # API 文档
 └── dist/             # 构建产物
@@ -139,6 +154,32 @@ services/api-service/
 ## 环境变量
 
 完整环境变量配置请参考 `.env.example` 文件
+
+### 关键环境变量：
+
+-   **数据库**：`DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`
+-   **Redis**：`REDIS_HOST`, `REDIS_PORT`
+-   **认证**：`ADMIN_ACCESS_SECRET_KEY`, `ADMIN_REFRESH_SECRET_KEY`
+-   **应用**：`APP_ENV`, `PORT`, `CREATE_TABLE`, `CREATE_ADMIN`
+
+## 性能监控
+
+系统现在包含全面的性能监控：
+
+-   **响应时间跟踪**：自动测量请求响应时间
+-   **数据库查询计数**：实时跟踪数据库查询频率
+-   **慢查询检测**：自动检测和记录超过 100ms 的查询
+-   **缓存命中率**：监控缓存性能指标
+-   **性能响应头**：响应头包含 `X-Response-Time` 和 `X-DB-Queries`
+
+## 安全功能
+
+已实现增强的安全措施：
+
+-   **安全响应头**：CSP、HSTS、XSS 防护、点击劫持防护
+-   **限流策略**：登录（5次/分钟）、查询（200次/分钟）、通用（100次/分钟）的差异化限制
+-   **审计日志**：管理员操作和敏感操作的完整跟踪
+-   **输入验证**：增强的请求验证和清理
 
 ## 开源协议
 

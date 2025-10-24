@@ -1,8 +1,10 @@
-import { AdminModel } from '@models/admin/admin';
-import { AdminRoleModel } from '@models/admin/admin-role';
-import { PermissionsModel } from '@models/admin/permissions';
-import { RoleModel } from '@models/admin/role';
-import { RolePermissionsModel } from '@models/admin/role-permissions';
+import {
+    AdminModel,
+    AdminRoleModel,
+    PermissionsModel,
+    RoleModel,
+    RolePermissionsModel,
+} from '@models/admin/index';
 import { ADMIN_MEMBER_ROLES, ADMIN_PERMISSIONS } from '@utils/constants';
 import log from '@utils/log';
 import { eq } from 'lodash';
