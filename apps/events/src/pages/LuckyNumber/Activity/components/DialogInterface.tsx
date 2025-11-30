@@ -10,6 +10,8 @@ import {
 import { Loader2 } from 'lucide-react';
 import React from 'react';
 
+import { themeColors } from '@/theme';
+
 interface DialogInterfaceProps {
     open: boolean;
     handleClose: () => void;
@@ -46,7 +48,7 @@ export const DialogInterface: React.FC<DialogInterfaceProps> = ({
                     pb: 1,
                     textAlign: 'center',
                     borderBottom: `1px solid ${theme.palette.divider}`,
-                    color: '#F87171',
+                    color: themeColors.primary.main,
                 }}
             >
                 请输入你的名字
@@ -65,23 +67,23 @@ export const DialogInterface: React.FC<DialogInterfaceProps> = ({
                         mt: 1,
                         '& .MuiOutlinedInput-root': {
                             '& fieldset': {
-                                borderColor: '#F87171',
+                                borderColor: themeColors.primary.main,
                             },
                             '&:hover fieldset': {
-                                borderColor: '#FDA4AF',
+                                borderColor: themeColors.primary.light,
                             },
                             '&.Mui-focused fieldset': {
-                                borderColor: '#F87171',
+                                borderColor: themeColors.primary.main,
                             },
                         },
                         '& .MuiInputLabel-root': {
-                            color: '#F87171',
+                            color: themeColors.primary.main,
                             '&.Mui-focused': {
-                                color: '#F87171',
+                                color: themeColors.primary.main,
                             },
                         },
                         '& .MuiOutlinedInput-input': {
-                            color: '#F87171',
+                            color: themeColors.primary.main,
                         },
                     }}
                 />
@@ -101,11 +103,11 @@ export const DialogInterface: React.FC<DialogInterfaceProps> = ({
                     sx={{
                         borderRadius: 2,
                         px: 4,
-                        borderColor: '#F87171',
-                        color: '#F87171',
+                        borderColor: themeColors.primary.main,
+                        color: themeColors.primary.main,
                         '&:hover': {
-                            borderColor: '#FDA4AF',
-                            backgroundColor: 'rgba(248, 113, 113, 0.04)',
+                            borderColor: themeColors.primary.light,
+                            backgroundColor: themeColors.background.overlay,
                         },
                     }}
                 >
@@ -122,9 +124,11 @@ export const DialogInterface: React.FC<DialogInterfaceProps> = ({
                     sx={{
                         borderRadius: 2,
                         px: 4,
-                        background: '#F87171',
+                        background: themeColors.primary.main,
+                        color: themeColors.text.inverse,
                         '&:hover': {
-                            background: '#FDA4AF',
+                            background: themeColors.primary.light,
+                            color: themeColors.text.inverse,
                         },
                     }}
                 >

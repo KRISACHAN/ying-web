@@ -3,6 +3,7 @@ import { Heart } from 'lucide-react';
 import React from 'react';
 import Confetti from 'react-confetti';
 
+import { themeColors } from '@/theme';
 import TransitionWrapper from '../TransitionWrapper/Index';
 
 interface ResultInterfaceProps {
@@ -25,7 +26,7 @@ const ResultInterface: React.FC<ResultInterfaceProps> = ({
     title = '恭喜',
     subtitle,
     footer,
-    color = '#F87171',
+    color = themeColors.primary.main,
     icon = <Heart />,
     resultComponent,
     showConfetti = true,
@@ -85,10 +86,12 @@ const ResultInterface: React.FC<ResultInterfaceProps> = ({
                                 fontSize: '1rem',
                                 textTransform: 'none',
                                 backgroundColor: color,
+                                color: themeColors.text.inverse,
                                 '&:hover': {
                                     transform: 'translateY(-2px)',
                                     transition: 'transform 0.2s ease-in-out',
                                     backgroundColor: color,
+                                    color: themeColors.text.inverse,
                                 },
                             }}
                         >

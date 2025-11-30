@@ -9,6 +9,7 @@ import LoadingState from '@/components/LoadingState/Index';
 import TipBar from '@/components/TipBar/Index';
 import TransitionWrapper from '@/components/TransitionWrapper/Index';
 import axiosInstance from '@/services/axios';
+import { themeColors } from '@/theme';
 
 import './Page.less';
 
@@ -57,11 +58,9 @@ const PromisePage: React.FC = () => {
 
     return (
         <Box
+            className="min-h-screen w-full bg-primary"
             sx={{
-                minHeight: '100vh',
-                width: '100%',
                 p: { xs: 2, sm: 4 },
-                backgroundColor: '#F87171',
             }}
         >
             <Box
@@ -91,7 +90,7 @@ const PromisePage: React.FC = () => {
                 ) : (
                     <TransitionWrapper show={showResult}>
                         <Box sx={{ textAlign: 'center' }}>
-                            <p className="text-2xl text-[#F87171]">{promise}</p>
+                            <p className="text-2xl text-primary">{promise}</p>
                         </Box>
                     </TransitionWrapper>
                 )}
@@ -106,8 +105,8 @@ const PromisePage: React.FC = () => {
                             size="large"
                             sx={{
                                 mb: 2,
-                                color: '#fff',
-                                borderColor: '#fff',
+                                color: themeColors.text.inverse,
+                                borderColor: themeColors.text.inverse,
                             }}
                         >
                             复制经文
@@ -119,7 +118,10 @@ const PromisePage: React.FC = () => {
                             fullWidth
                             size="large"
                             className="opacity-75"
-                            sx={{ color: '#F87171', backgroundColor: '#fff' }}
+                            sx={{
+                                color: themeColors.primary.main,
+                                backgroundColor: themeColors.background.paper,
+                            }}
                         >
                             再次抽取
                         </Button>

@@ -153,11 +153,9 @@ const OptionDrawActivity: React.FC = () => {
 
     return (
         <Box
+            className="min-h-screen w-full bg-primary"
             sx={{
-                minHeight: '100vh',
-                width: '100%',
                 p: { xs: 2, sm: 4 },
-                backgroundColor: '#F87171',
             }}
         >
             <Container style={{ padding: 0 }}>

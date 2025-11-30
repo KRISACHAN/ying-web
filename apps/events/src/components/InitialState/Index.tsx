@@ -2,6 +2,8 @@ import { Box, Button, Paper, Typography } from '@mui/material';
 import { Loader2 } from 'lucide-react';
 import React from 'react';
 
+import { themeColors } from '@/theme';
+
 interface InitialStateProps {
     title: string;
     subtitle: string;
@@ -18,7 +20,7 @@ const InitialState: React.FC<InitialStateProps> = ({
     buttonText,
     loading,
     onClick,
-    color = '#F87171',
+    color = themeColors.primary.main,
     icon,
 }) => {
     return (
@@ -88,10 +90,12 @@ const InitialState: React.FC<InitialStateProps> = ({
                         textTransform: 'none',
                         width: '100%',
                         backgroundColor: color,
+                        color: themeColors.text.inverse,
                         '&:hover': {
                             transform: 'translateY(-2px)',
                             transition: 'transform 0.2s ease-in-out',
                             backgroundColor: color,
+                            color: themeColors.text.inverse,
                         },
                     }}
                 >

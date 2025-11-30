@@ -1,6 +1,8 @@
 import { Box, keyframes } from '@mui/material';
 import React from 'react';
 
+import { themeColors } from '@/theme';
+
 const float = keyframes`
   0% {
     transform: translateY(0) scale(1);
@@ -26,10 +28,10 @@ const OptionAnimation: React.FC<OptionAnimationProps> = ({ result }) => {
             sx={{
                 fontSize: '48px',
                 fontWeight: 'bold',
-                color: '#F87171',
+                color: themeColors.primary.main,
                 textAlign: 'center',
                 animation: `${float} 3s ease-in-out infinite`,
-                background: 'linear-gradient(135deg, #F87171 0%, #FCA5A5 100%)',
+                background: `linear-gradient(135deg, ${themeColors.primary.main} 0%, ${themeColors.primary.light} 100%)`,
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
             }}

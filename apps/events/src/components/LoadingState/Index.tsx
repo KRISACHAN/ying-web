@@ -2,6 +2,8 @@ import { Box, Paper, Typography } from '@mui/material';
 import { Disc3 } from 'lucide-react';
 import React from 'react';
 
+import { themeColors } from '@/theme';
+
 interface LoadingStateProps {
     message: string;
     color?: string;
@@ -9,7 +11,7 @@ interface LoadingStateProps {
 
 const LoadingState: React.FC<LoadingStateProps> = ({
     message,
-    color = '#F87171',
+    color = themeColors.primary.main,
 }) => {
     return (
         <Box

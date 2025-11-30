@@ -1,7 +1,7 @@
 import { Box, Paper } from '@mui/material';
 import React from 'react';
 import { CSSTransition } from 'react-transition-group';
-import '../Transitions/transitions.less';
+import './transitions.less';
 
 interface TransitionWrapperProps {
     show: boolean;
