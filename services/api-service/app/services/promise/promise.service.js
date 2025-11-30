@@ -33,7 +33,7 @@ export class PromiseService extends BaseService {
             // Verify category exists
             const category = await PromiseCategoryDao.findById(categoryId);
             if (!category) {
-                throw BAD_REQUEST('承诺分类不存在');
+                throw BAD_REQUEST('圣经应许经文分类不存在');
             }
 
             return await PromiseDao.create({
@@ -59,7 +59,7 @@ export class PromiseService extends BaseService {
 
             const promise = await PromiseDao.findById(id);
             if (!promise) {
-                throw NOT_FOUND('承诺不存在');
+                throw NOT_FOUND('圣经应许经文不存在');
             }
 
             // If updating category, verify category exists
@@ -68,7 +68,7 @@ export class PromiseService extends BaseService {
                     updates.categoryId,
                 );
                 if (!category) {
-                    throw BAD_REQUEST('承诺分类不存在');
+                    throw BAD_REQUEST('圣经应许经文分类不存在');
                 }
                 updates.category_id = updates.categoryId;
                 delete updates.categoryId;
@@ -89,7 +89,7 @@ export class PromiseService extends BaseService {
 
             const promise = await PromiseDao.findById(id);
             if (!promise) {
-                throw NOT_FOUND('承诺不存在');
+                throw NOT_FOUND('圣经应许经文不存在');
             }
 
             return await PromiseDao.delete(id);
@@ -103,11 +103,18 @@ export class PromiseService extends BaseService {
      * @returns {Object} Promise list
      */
     async getPromiseList(
-        { pageNum = 1, pageSize = 10, filters = {} },
+        { page_num = 1, page_size = 10, filters = {} },
         ctx = null,
     ) {
         return await this.safeExecute(async () => {
-            return await PromiseDao.query({ pageNum, pageSize, filters }, ctx);
+            return await PromiseDao.query(
+                {
+                    page_num,
+                    page_size,
+                    ...filters,
+                },
+                ctx,
+            );
         }, 'Get promise list failed');
     }
 
@@ -139,12 +146,12 @@ export class PromiseService extends BaseService {
                     status,
                 )
             ) {
-                throw BAD_REQUEST('无效的承诺状态');
+                throw BAD_REQUEST('无效的圣经应许经文状态');
             }
 
             const promise = await PromiseDao.findById(id);
             if (!promise) {
-                throw NOT_FOUND('承诺不存在');
+                throw NOT_FOUND('圣经应许经文不存在');
             }
 
             return await PromiseDao.update(id, { status });
@@ -163,7 +170,7 @@ export class PromiseService extends BaseService {
             // Check if category name already exists
             const existingCategory = await PromiseCategoryDao.findByName(name);
             if (existingCategory) {
-                throw BAD_REQUEST('承诺分类已存在');
+                throw BAD_REQUEST('圣经应许经文分类已存在');
             }
 
             return await PromiseCategoryDao.create({
@@ -186,7 +193,7 @@ export class PromiseService extends BaseService {
 
             const category = await PromiseCategoryDao.findById(id);
             if (!category) {
-                throw NOT_FOUND('承诺分类不存在');
+                throw NOT_FOUND('圣经应许经文分类不存在');
             }
 
             // If updating name, check for duplicates
@@ -195,7 +202,7 @@ export class PromiseService extends BaseService {
                     updates.name,
                 );
                 if (existingCategory) {
-                    throw BAD_REQUEST('承诺分类名称已存在');
+                    throw BAD_REQUEST('圣经应许经文分类名称已存在');
                 }
             }
 
@@ -214,13 +221,13 @@ export class PromiseService extends BaseService {
 
             const category = await PromiseCategoryDao.findById(id);
             if (!category) {
-                throw NOT_FOUND('承诺分类不存在');
+                throw NOT_FOUND('圣经应许经文分类不存在');
             }
 
             // Check if there are promises using this category
             const promisesCount = await PromiseDao.countByCategory(id);
             if (promisesCount > 0) {
-                throw BAD_REQUEST('该分类下还有承诺，无法删除');
+                throw BAD_REQUEST('该分类下还有圣经应许经文，无法删除');
             }
 
             return await PromiseCategoryDao.delete(id);
@@ -232,9 +239,12 @@ export class PromiseService extends BaseService {
      * @param {Object} params - Query parameters
      * @returns {Object} Category list
      */
-    async getPromiseCategoryList({ pageNum = 1, pageSize = 10 }) {
+    async getPromiseCategoryList({ page_num = 1, page_size = 10 }) {
         return await this.safeExecute(async () => {
-            return await PromiseCategoryDao.query({ pageNum, pageSize });
+            return await PromiseCategoryDao.query({
+                page_num,
+                page_size,
+            });
         }, 'Get promise category list failed');
     }
 

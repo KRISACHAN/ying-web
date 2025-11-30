@@ -99,11 +99,17 @@ export class AdminService extends BaseService {
      * @returns {Object} Admin list
      */
     async getAdminList(
-        { pageNum = 1, pageSize = 10, filters = {} },
+        { page_num = 1, page_size = 10, filters = {} },
         ctx = null,
     ) {
         return await this.safeExecute(async () => {
-            return await AdminDao.query({ pageNum, pageSize }, ctx);
+            return await AdminDao.query(
+                {
+                    page_num,
+                    page_size,
+                },
+                ctx,
+            );
         }, 'Get admin list failed');
     }
 

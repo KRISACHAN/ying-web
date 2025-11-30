@@ -1,3 +1,4 @@
+import { ThemeProvider } from '@mui/material/styles';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { HeaderProvider } from './contexts/HeaderContext';
@@ -11,14 +12,16 @@ import OptionDrawActivityPage from './pages/OptionDraw/Activity/Page';
 import OptionDrawListPage from './pages/OptionDraw/List/Page';
 import PromiseNewPage from './pages/Promise/New/Page';
 import PromisePage from './pages/Promise/Page';
+import { theme } from './theme';
 
 import './styles/index.less';
 
 function App() {
     return (
-        <BrowserRouter>
-            <HeaderProvider>
-                <BaseLayout>
+        <ThemeProvider theme={theme}>
+            <BrowserRouter>
+                <HeaderProvider>
+                    <BaseLayout>
                     <Routes>
                         <Route path="/" element={<IndexPage />} />
                         <Route path="/promise" element={<PromisePage />} />
@@ -48,9 +51,10 @@ function App() {
                         />
                         <Route path="*" element={<NotFoundPage />} />
                     </Routes>
-                </BaseLayout>
-            </HeaderProvider>
-        </BrowserRouter>
+                    </BaseLayout>
+                </HeaderProvider>
+            </BrowserRouter>
+        </ThemeProvider>
     );
 }
 

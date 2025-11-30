@@ -2,12 +2,17 @@ import { Paper, Typography } from '@mui/material';
 import { Heart } from 'lucide-react';
 import React from 'react';
 
+import { themeColors } from '@/theme';
+
 interface TipBarProps {
     message: string;
     color?: string;
 }
 
-const TipBar: React.FC<TipBarProps> = ({ message, color = '#F87171' }) => {
+const TipBar: React.FC<TipBarProps> = ({
+    message,
+    color = themeColors.primary.main,
+}) => {
     return (
         <Paper
             elevation={0}

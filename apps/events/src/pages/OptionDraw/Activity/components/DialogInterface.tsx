@@ -10,7 +10,7 @@ import {
 import { Loader2 } from 'lucide-react';
 import React from 'react';
 
-import { optionDrawTheme } from '../../styles';
+import { themeColors } from '@/theme';
 
 interface DialogInterfaceProps {
     open: boolean;
@@ -48,7 +48,7 @@ export const DialogInterface: React.FC<DialogInterfaceProps> = ({
                     pb: 1,
                     textAlign: 'center',
                     borderBottom: `1px solid ${theme.palette.divider}`,
-                    color: optionDrawTheme.colors.text.primary,
+                    color: themeColors.text.primary,
                 }}
             >
                 请输入你的名字
@@ -67,26 +67,23 @@ export const DialogInterface: React.FC<DialogInterfaceProps> = ({
                         mt: 1,
                         '& .MuiOutlinedInput-root': {
                             '& fieldset': {
-                                borderColor:
-                                    optionDrawTheme.colors.border.primary,
+                                borderColor: themeColors.border.primary,
                             },
                             '&:hover fieldset': {
-                                borderColor:
-                                    optionDrawTheme.colors.border.hover,
+                                borderColor: themeColors.border.hover,
                             },
                             '&.Mui-focused fieldset': {
-                                borderColor:
-                                    optionDrawTheme.colors.border.focus,
+                                borderColor: themeColors.border.focus,
                             },
                         },
                         '& .MuiInputLabel-root': {
-                            color: optionDrawTheme.colors.text.primary,
+                            color: themeColors.text.primary,
                             '&.Mui-focused': {
-                                color: optionDrawTheme.colors.text.primary,
+                                color: themeColors.text.primary,
                             },
                         },
                         '& .MuiOutlinedInput-input': {
-                            color: optionDrawTheme.colors.text.primary,
+                            color: themeColors.text.primary,
                         },
                     }}
                 />
@@ -106,12 +103,11 @@ export const DialogInterface: React.FC<DialogInterfaceProps> = ({
                     sx={{
                         borderRadius: 2,
                         px: 4,
-                        borderColor: optionDrawTheme.colors.border.primary,
-                        color: optionDrawTheme.colors.text.primary,
+                        borderColor: themeColors.border.primary,
+                        color: themeColors.text.primary,
                         '&:hover': {
-                            borderColor: optionDrawTheme.colors.border.hover,
-                            backgroundColor:
-                                optionDrawTheme.colors.background.overlay,
+                            borderColor: themeColors.border.hover,
+                            backgroundColor: themeColors.background.overlay,
                         },
                     }}
                 >
@@ -128,9 +124,9 @@ export const DialogInterface: React.FC<DialogInterfaceProps> = ({
                     sx={{
                         borderRadius: 2,
                         px: 4,
-                        background: optionDrawTheme.colors.primary,
+                        background: themeColors.primary.main,
                         '&:hover': {
-                            background: optionDrawTheme.colors.light,
+                            background: themeColors.primary.light,
                         },
                     }}
                 >

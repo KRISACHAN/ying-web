@@ -22,7 +22,7 @@ import { useOptionDraw } from '@/hooks/useOptionDraw';
 import NotFoundPage from '@/pages/404/Page';
 import type { ActivityInfo, OptionDraw } from '@/types/optionDraw';
 
-import { optionDrawTheme } from '../styles/index';
+import { themeColors } from '@/theme';
 
 const ErrorInterface: React.FC<{ message?: string }> = ({
     message = '活动不存在或已结束',
@@ -31,10 +31,10 @@ const ErrorInterface: React.FC<{ message?: string }> = ({
 };
 
 const headerCellStyle = {
-    background: optionDrawTheme.colors.background.primary,
-    color: optionDrawTheme.colors.text.primary,
+    background: themeColors.background.primary,
+    color: themeColors.text.primary,
     fontWeight: 'bold',
-    borderBottom: `0px solid ${optionDrawTheme.colors.border.primary}`,
+    borderBottom: 'none',
     '&:first-of-type': {
         borderTopLeftRadius: 12,
     },
@@ -55,8 +55,7 @@ const TableInterface: React.FC<{
             <TableCell colSpan={12}>
                 <Typography
                     variant="body1"
-                    color={optionDrawTheme.colors.text.primary}
-                    className="flex items-center gap-2"
+                    className="text-primary flex items-center gap-2"
                 >
                     <DoNotDisturbOutlined />
                     暂无参与者
@@ -95,8 +94,8 @@ const TableInterface: React.FC<{
                 width: '100%',
                 borderRadius: 3,
                 overflow: 'hidden',
-                boxShadow: `0 4px 16px ${optionDrawTheme.colors.background.overlay}`,
-                background: optionDrawTheme.colors.background.paper,
+                boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
+                background: themeColors.background.paper,
             }}
         >
             <Table>
@@ -211,7 +210,7 @@ const OptionDrawListPage: React.FC = () => {
                 minHeight: '100vh',
                 width: '100%',
                 p: { xs: 2, sm: 4 },
-                backgroundColor: '#F87171',
+                className: 'bg-primary',
             }}
         >
             <Box

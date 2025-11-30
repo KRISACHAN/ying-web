@@ -64,8 +64,8 @@ router.get(
 
         const result =
             await luckyNumberActivityService.getActivityParticipations(key, {
-                pageNum: parseInt(page_num, 10),
-                pageSize: parseInt(page_size, 10),
+                page_num: parseInt(page_num, 10),
+                page_size: parseInt(page_size, 10),
             });
 
         ctx.response.status = httpStatus.OK;
@@ -123,8 +123,8 @@ router.get('/lucky-number/list', watchEventMiddleware, async ctx => {
 
     const result = await luckyNumberActivityService.getActivityList(
         {
-            pageNum: parseInt(page_num, 10),
-            pageSize: parseInt(page_size, 10),
+            page_num: parseInt(page_num, 10),
+            page_size: parseInt(page_size, 10),
         },
         ctx,
     );

@@ -2,6 +2,8 @@ import { keyframes } from '@emotion/react';
 import { Box } from '@mui/material';
 import React from 'react';
 
+import { themeColors } from '@/theme';
+
 interface ResultCardProps {
     result?: string;
 }
@@ -21,11 +23,11 @@ const ResultCard: React.FC<ResultCardProps> = ({ result = '' }) => {
                 mx: 'auto',
                 p: 2,
                 borderRadius: 4,
-                background: '#F87171',
+                background: themeColors.primary.main,
                 boxShadow: '0 4px 12px rgba(248, 113, 113, 0.2)',
                 animation: `${floatAnimation} 2.5s ease-in-out infinite`,
                 textAlign: 'center',
-                color: 'white',
+                color: themeColors.text.inverse,
                 fontSize: '1.5rem',
                 fontWeight: 700,
                 textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)',

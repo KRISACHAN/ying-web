@@ -21,8 +21,7 @@ import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
 import type { ActivityInfo, LuckyNumber } from '@/types/luckyNumber';
-
-import { luckyNumberTheme } from '../styles/index';
+import { themeColors } from '@/theme';
 
 const ErrorInterface: React.FC<{ message?: string }> = ({
     message = '活动不存在或已结束',
@@ -31,10 +30,10 @@ const ErrorInterface: React.FC<{ message?: string }> = ({
 };
 
 const headerCellStyle = {
-    background: luckyNumberTheme.colors.background.primary,
-    color: luckyNumberTheme.colors.text.primary,
+    background: themeColors.background.primary,
+    color: themeColors.text.primary,
     fontWeight: 'bold',
-    borderBottom: `0px solid ${luckyNumberTheme.colors.border.primary}`,
+    borderBottom: 'none',
     '&:first-of-type': {
         borderTopLeftRadius: 12,
     },
@@ -55,8 +54,7 @@ const TableInterface: React.FC<{
             <TableCell colSpan={12}>
                 <Typography
                     variant="body1"
-                    color={luckyNumberTheme.colors.text.primary}
-                    className="flex items-center gap-2"
+                    className="flex items-center gap-2 text-primary"
                 >
                     <DoNotDisturbOutlined />
                     暂无参与者
@@ -95,8 +93,8 @@ const TableInterface: React.FC<{
                 width: '100%',
                 borderRadius: 3,
                 overflow: 'hidden',
-                boxShadow: `0 4px 16px ${luckyNumberTheme.colors.background.overlay}`,
-                background: luckyNumberTheme.colors.background.paper,
+                boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
+                background: themeColors.background.paper,
             }}
         >
             <Table>
@@ -211,11 +209,9 @@ const LuckyNumberListPage: React.FC = () => {
 
     return (
         <Box
+            className="min-h-screen w-full bg-primary"
             sx={{
-                minHeight: '100vh',
-                width: '100%',
                 p: { xs: 2, sm: 4 },
-                backgroundColor: '#F87171',
             }}
         >
             <Box

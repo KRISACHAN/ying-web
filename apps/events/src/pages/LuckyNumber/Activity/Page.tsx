@@ -223,11 +223,9 @@ const LuckyNumberActivityPage: React.FC = () => {
 
     return (
         <Box
+            className="min-h-screen w-full bg-primary"
             sx={{
-                minHeight: '100vh',
-                width: '100%',
                 p: { xs: 2, sm: 4 },
-                backgroundColor: '#F87171',
             }}
         >
             <Box
@@ -281,62 +279,14 @@ const LuckyNumberActivityPage: React.FC = () => {
                                     >
                                         <button
                                             onClick={handleClickOpen}
-                                            style={{
-                                                backgroundColor: '#ffffff',
-                                                color: '#F87171',
-                                                border: '2px solid #F87171',
-                                                borderRadius: '25px',
-                                                padding: '12px 24px',
-                                                fontSize: '16px',
-                                                fontWeight: 'bold',
-                                                cursor: 'pointer',
-                                                transition: 'all 0.3s ease',
-                                                boxShadow:
-                                                    '0 2px 8px rgba(248, 113, 113, 0.3)',
-                                            }}
-                                            onMouseEnter={e => {
-                                                e.currentTarget.style.backgroundColor =
-                                                    '#F87171';
-                                                e.currentTarget.style.color =
-                                                    '#ffffff';
-                                            }}
-                                            onMouseLeave={e => {
-                                                e.currentTarget.style.backgroundColor =
-                                                    '#ffffff';
-                                                e.currentTarget.style.color =
-                                                    '#F87171';
-                                            }}
+                                            className="bg-background-paper text-primary border-2 border-primary rounded-[25px] px-6 py-3 text-base font-bold cursor-pointer transition-all duration-300 shadow-primary-sm hover:bg-primary hover:text-text-inverse disabled:opacity-50 disabled:cursor-not-allowed"
                                             disabled={loading}
                                         >
                                             帮他人抽取
                                         </button>
                                         <button
                                             onClick={handleViewHistory}
-                                            style={{
-                                                backgroundColor: '#ffffff',
-                                                color: '#F87171',
-                                                border: '2px solid #F87171',
-                                                borderRadius: '25px',
-                                                padding: '12px 24px',
-                                                fontSize: '16px',
-                                                fontWeight: 'bold',
-                                                cursor: 'pointer',
-                                                transition: 'all 0.3s ease',
-                                                boxShadow:
-                                                    '0 2px 8px rgba(248, 113, 113, 0.3)',
-                                            }}
-                                            onMouseEnter={e => {
-                                                e.currentTarget.style.backgroundColor =
-                                                    '#F87171';
-                                                e.currentTarget.style.color =
-                                                    '#ffffff';
-                                            }}
-                                            onMouseLeave={e => {
-                                                e.currentTarget.style.backgroundColor =
-                                                    '#ffffff';
-                                                e.currentTarget.style.color =
-                                                    '#F87171';
-                                            }}
+                                            className="bg-background-paper text-primary border-2 border-primary rounded-[25px] px-6 py-3 text-base font-bold cursor-pointer transition-all duration-300 shadow-primary-sm hover:bg-primary hover:text-text-inverse disabled:opacity-50 disabled:cursor-not-allowed"
                                             disabled={loading}
                                         >
                                             查看历史

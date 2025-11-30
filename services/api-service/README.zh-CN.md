@@ -134,7 +134,7 @@ services/api-service/
 │   │   ├── admin/               # 管理员管理服务
 │   │   ├── lucky-number/        # 幸运数字活动服务
 │   │   ├── option-draw/         # 选项抽奖活动服务
-│   │   └── promise/             # 承诺管理服务
+│   │   └── promise/             # 圣经应许经文管理服务
 │   ├── middlewares/   # 自定义中间件（增强）
 │   │   ├── performance.js       # 性能监控
 │   │   ├── security-headers.js  # 安全响应头

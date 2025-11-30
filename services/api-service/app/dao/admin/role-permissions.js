@@ -159,13 +159,13 @@ export class RolePermissionsDao {
         }
     }
 
-    static async query({ pageNum = 1, pageSize = 10 }) {
+    static async query({ page_num = 1, page_size = 10 }) {
         try {
             const result = await RolePermissionsModel.scope(
                 'df',
             ).findAndCountAll({
-                offset: (pageNum - 1) * pageSize,
-                limit: pageSize,
+                offset: (page_num - 1) * page_size,
+                limit: page_size,
                 order: [['id', 'DESC']],
             });
 
@@ -175,8 +175,8 @@ export class RolePermissionsDao {
 
             return {
                 pagination: {
-                    count: pageNum,
-                    size: pageSize,
+                    count: page_num,
+                    size: page_size,
                     total: result.count,
                 },
                 data: result.rows,

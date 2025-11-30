@@ -10,6 +10,8 @@ import {
 import { Loader2 } from 'lucide-react';
 import React from 'react';
 
+import { themeColors } from '@/theme';
+
 interface DialogInterfaceProps {
     open: boolean;
     handleClose: () => void;
@@ -29,7 +31,7 @@ const DialogInterface: React.FC<DialogInterfaceProps> = ({
     theme,
     name,
     setName,
-    color = '#F87171',
+    color = themeColors.primary.main,
 }) => {
     return (
         <Dialog
@@ -70,7 +72,7 @@ const DialogInterface: React.FC<DialogInterfaceProps> = ({
                                 borderColor: color,
                             },
                             '&:hover fieldset': {
-                                borderColor: '#FDA4AF',
+                                borderColor: themeColors.primary.light,
                             },
                             '&.Mui-focused fieldset': {
                                 borderColor: color,
@@ -106,8 +108,8 @@ const DialogInterface: React.FC<DialogInterfaceProps> = ({
                         borderColor: color,
                         color,
                         '&:hover': {
-                            borderColor: '#FDA4AF',
-                            backgroundColor: 'rgba(248, 113, 113, 0.04)',
+                            borderColor: themeColors.primary.light,
+                            backgroundColor: themeColors.background.overlay,
                         },
                     }}
                 >
@@ -125,8 +127,10 @@ const DialogInterface: React.FC<DialogInterfaceProps> = ({
                         borderRadius: 2,
                         px: 4,
                         background: color,
+                        color: themeColors.text.inverse,
                         '&:hover': {
-                            background: '#FDA4AF',
+                            background: themeColors.primary.light,
+                            color: themeColors.text.inverse,
                         },
                     }}
                 >

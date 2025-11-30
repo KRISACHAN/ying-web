@@ -17,6 +17,7 @@ import TipBar from '@/components/TipBar/Index';
 import TransitionWrapper from '@/components/TransitionWrapper/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { usePromise } from '@/hooks/usePromise';
+import { themeColors } from '@/theme';
 import type { Promise, PromiseCategory } from '@/types/promise';
 
 const CategoryButtonInterface = ({
@@ -33,12 +34,16 @@ const CategoryButtonInterface = ({
         sx={{
             borderRadius: '12px',
             mb: 1,
-            backgroundColor: selected ? '#F87171' : 'rgba(255, 255, 255, 0.9)',
-            color: selected ? 'white' : '#F87171',
+            backgroundColor: selected
+                ? themeColors.primary.main
+                : 'rgba(255, 255, 255, 0.9)',
+            color: selected
+                ? themeColors.text.inverse
+                : themeColors.primary.main,
             transition: 'all 0.2s ease-in-out',
             '&:hover': {
-                backgroundColor: '#F87171',
-                color: 'white',
+                backgroundColor: themeColors.primary.main,
+                color: themeColors.text.inverse,
                 transform: 'translateX(8px)',
             },
         }}
@@ -132,7 +137,7 @@ const ResultInterface = ({
                         component="h3"
                         gutterBottom
                         sx={{
-                            color: '#F87171',
+                            color: themeColors.primary.main,
                             fontWeight: 'bold',
                             textAlign: 'center',
                             mb: 2,
@@ -180,8 +185,8 @@ const ResultInterface = ({
                             fullWidth
                             size="large"
                             sx={{
-                                color: '#F87171',
-                                borderColor: '#F87171',
+                                color: themeColors.primary.main,
+                                borderColor: themeColors.primary.main,
                             }}
                         >
                             复制经文
@@ -193,8 +198,8 @@ const ResultInterface = ({
                             size="large"
                             className="opacity-75"
                             sx={{
-                                color: '#fff',
-                                backgroundColor: '#F87171',
+                                color: themeColors.text.inverse,
+                                backgroundColor: themeColors.primary.main,
                             }}
                         >
                             再次抽取
