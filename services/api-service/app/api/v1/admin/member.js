@@ -49,10 +49,10 @@ router.get('/', adminAuthMiddleware, async ctx => {
         throw FORBIDDEN('无权限查询管理员列表');
     }
 
-    const { pageNum, pageSize } = ctx.query;
+    const { page_num, page_size } = ctx.query;
     const result = await AdminDao.query({
-        pageNum: parseInt(pageNum, 10) || 1,
-        pageSize: parseInt(pageSize, 10) || 10,
+        page_num: parseInt(page_num, 10) || 1,
+        page_size: parseInt(page_size, 10) || 10,
     });
 
     ctx.response.status = httpStatus.OK;

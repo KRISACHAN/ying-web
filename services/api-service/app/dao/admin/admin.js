@@ -171,7 +171,7 @@ export class AdminDao {
         }
     }
 
-    static async query({ pageNum = 1, pageSize = 10 }, ctx = null) {
+    static async query({ page_num = 1, page_size = 10 }, ctx = null) {
         try {
             // Try to get total count from cache (if ctx.cache is available)
             let total = null;
@@ -190,8 +190,8 @@ export class AdminDao {
             }
 
             const result = await AdminModel.scope('bh').findAll({
-                offset: (pageNum - 1) * pageSize,
-                limit: pageSize,
+                offset: (page_num - 1) * page_size,
+                limit: page_size,
                 order: [['id', 'DESC']],
             });
 
@@ -201,8 +201,8 @@ export class AdminDao {
 
             return {
                 pagination: {
-                    count: pageNum,
-                    size: pageSize,
+                    count: page_num,
+                    size: page_size,
                     total: total,
                 },
                 data: result,

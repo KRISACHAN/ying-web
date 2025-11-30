@@ -128,9 +128,15 @@ export class LuckyNumberActivityService extends BaseService {
      * @param {Object} ctx - Koa context (for caching)
      * @returns {Object} Activity list
      */
-    async getActivityList({ pageNum = 1, pageSize = 10 }, ctx = null) {
+    async getActivityList({ page_num = 1, page_size = 10 }, ctx = null) {
         return await this.safeExecute(async () => {
-            return await ActivityDao.query({ pageNum, pageSize }, ctx);
+            return await ActivityDao.query(
+                {
+                    page_num,
+                    page_size,
+                },
+                ctx,
+            );
         }, 'Get activity list failed');
     }
 
@@ -174,7 +180,7 @@ export class LuckyNumberActivityService extends BaseService {
      * @param {Object} params - Query parameters
      * @returns {Object} Participation records list
      */
-    async getActivityParticipations(key, { pageNum = 1, pageSize = 10 }) {
+    async getActivityParticipations(key, { page_num = 1, page_size = 10 }) {
         return await this.safeExecute(async () => {
             this.validateRequiredParams({ key }, ['key']);
 
@@ -184,8 +190,8 @@ export class LuckyNumberActivityService extends BaseService {
             }
 
             return await UserParticipationDao.query({
-                pageNum: parseInt(pageNum, 10),
-                pageSize: parseInt(pageSize, 10),
+                page_num: parseInt(page_num, 10),
+                page_size: parseInt(page_size, 10),
                 activity_id: activity.id,
             });
         }, 'Get activity participations failed');

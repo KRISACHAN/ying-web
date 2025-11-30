@@ -72,7 +72,7 @@ export class ActivityDao {
         }
     }
 
-    static async query({ pageNum = 1, pageSize = 10 }, ctx = null) {
+    static async query({ page_num = 1, page_size = 10 }, ctx = null) {
         try {
             // Try to get total count from cache (if ctx.cache is available)
             let total = null;
@@ -90,7 +90,7 @@ export class ActivityDao {
                 }
             }
 
-            const pagination = genPaginationRequest(pageNum, pageSize);
+            const pagination = genPaginationRequest(page_num, page_size);
             const result = await ActivityModel.scope('df').findAll({
                 limit: pagination.limit,
                 offset: pagination.offset,
@@ -103,8 +103,8 @@ export class ActivityDao {
 
             return {
                 pagination: {
-                    count: pageNum,
-                    size: pageSize,
+                    count: page_num,
+                    size: page_size,
                     total: total,
                 },
                 data: result,
