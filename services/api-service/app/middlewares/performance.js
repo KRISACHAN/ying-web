@@ -51,12 +51,14 @@ const performanceMiddleware = async (ctx, next) => {
     const startDbQueries = performanceData.dbQueryCount;
 
     // Monitor cache operations
-    const originalCacheGet = ctx.cache?.get;
-    const originalCacheSet = ctx.cache?.set;
+    // Store original methods bound to the cache instance to avoid circular references
+    const originalCacheGet = ctx.cache?.get?.bind(ctx.cache);
+    const originalCacheSet = ctx.cache?.set?.bind(ctx.cache);
 
-    if (ctx.cache) {
+    if (ctx.cache && originalCacheGet && originalCacheSet) {
+        // Wrap get method to track cache hits/misses
         ctx.cache.get = async function (key) {
-            const result = await originalCacheGet.call(this, key);
+            const result = await originalCacheGet(key);
             if (result !== undefined) {
                 performanceData.cacheHits++;
             } else {
@@ -65,12 +67,21 @@ const performanceMiddleware = async (ctx, next) => {
             return result;
         };
 
+        // Wrap set method (currently just passes through)
         ctx.cache.set = async function (key, value, ttl) {
-            return await originalCacheSet.call(this, key, value, ttl);
+            return await originalCacheSet(key, value, ttl);
         };
     }
 
-    await next();
+    try {
+        await next();
+    } finally {
+        // Restore original cache methods to prevent memory leaks
+        if (ctx.cache && originalCacheGet && originalCacheSet) {
+            ctx.cache.get = originalCacheGet;
+            ctx.cache.set = originalCacheSet;
+        }
+    }
 
     const responseTime = Date.now() - startTime;
     const dbQueriesInRequest = performanceData.dbQueryCount - startDbQueries;
