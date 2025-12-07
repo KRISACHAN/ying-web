@@ -206,7 +206,8 @@ const LuckyNumberHistoryPage: React.FC = () => {
                                     color: themeColors.background.paper,
                                     fontWeight: 'bold',
                                     '&:hover': {
-                                        borderColor: themeColors.background.primary,
+                                        borderColor:
+                                            themeColors.background.primary,
                                         backgroundColor:
                                             'rgba(255, 255, 255, 0.1)',
                                     },
@@ -254,10 +255,7 @@ const LuckyNumberHistoryPage: React.FC = () => {
                         >
                             暂无抽取记录
                         </Typography>
-                        <Typography
-                            variant="body2"
-                            className="text-secondary"
-                        >
+                        <Typography variant="body2" className="text-secondary">
                             去活动页面抽取一个幸运号码吧！
                         </Typography>
                     </Paper>
@@ -309,11 +307,13 @@ const LuckyNumberHistoryPage: React.FC = () => {
                                         sx={{
                                             '&:nth-of-type(odd)': {
                                                 backgroundColor:
-                                                    themeColors.background.overlay,
+                                                    themeColors.background
+                                                        .overlay,
                                             },
                                             '&:hover': {
                                                 backgroundColor:
-                                                    themeColors.background.primary,
+                                                    themeColors.background
+                                                        .primary,
                                             },
                                         }}
                                     >
@@ -323,7 +323,8 @@ const LuckyNumberHistoryPage: React.FC = () => {
                                                 size="small"
                                                 sx={{
                                                     backgroundColor:
-                                                        themeColors.primary.main,
+                                                        themeColors.primary
+                                                            .main,
                                                     color: 'white',
                                                     fontWeight: 'bold',
                                                     minWidth: 32,
@@ -334,7 +335,8 @@ const LuckyNumberHistoryPage: React.FC = () => {
                                             <Typography
                                                 variant="body2"
                                                 sx={{
-                                                    color: themeColors.text.primary,
+                                                    color: themeColors.text
+                                                        .primary,
                                                     fontWeight: 'medium',
                                                 }}
                                             >
@@ -345,7 +347,8 @@ const LuckyNumberHistoryPage: React.FC = () => {
                                             <Typography
                                                 variant="body2"
                                                 sx={{
-                                                    color: themeColors.text.primary,
+                                                    color: themeColors.text
+                                                        .primary,
                                                     fontWeight: 'medium',
                                                 }}
                                             >
@@ -356,7 +359,8 @@ const LuckyNumberHistoryPage: React.FC = () => {
                                             <Typography
                                                 variant="body2"
                                                 sx={{
-                                                    color: themeColors.text.secondary,
+                                                    color: themeColors.text
+                                                        .secondary,
                                                 }}
                                             >
                                                 {formatDateTime(

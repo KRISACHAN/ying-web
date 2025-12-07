@@ -1,3 +1,4 @@
+import { QRCodeSVG } from 'qrcode.react';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -20,8 +21,8 @@ import HeaderInterface from '@/components/Header/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
-import type { ActivityInfo, LuckyNumber } from '@/types/luckyNumber';
 import { themeColors } from '@/theme';
+import type { ActivityInfo, LuckyNumber } from '@/types/luckyNumber';
 
 const ErrorInterface: React.FC<{ message?: string }> = ({
     message = '活动不存在或已结束',
@@ -40,6 +41,59 @@ const headerCellStyle = {
     '&:last-of-type': {
         borderTopRightRadius: 12,
     },
+};
+
+const QRCodeInterface: React.FC<{ activityKey?: string }> = ({
+    activityKey,
+}) => {
+    if (!activityKey) return null;
+
+    const qrCodeUrl = `${window.location.origin}/lucky-number/${activityKey}/activity`;
+
+    return (
+        <Box
+            sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: 2,
+            }}
+        >
+            <Box
+                sx={{
+                    p: 2,
+                    borderRadius: 3,
+                    background: themeColors.background.paper,
+                    boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    width: { xs: '100%', md: '400px' },
+                    aspectRatio: '1 / 1',
+                }}
+            >
+                {/* @ts-ignore - qrcode.react type compatibility issue with React 18 */}
+                <QRCodeSVG
+                    value={qrCodeUrl}
+                    size={400}
+                    level="M"
+                    style={{
+                        width: '100%',
+                        height: '100%',
+                    }}
+                />
+            </Box>
+            <Typography
+                variant="h4"
+                sx={{
+                    color: '#fff',
+                    textAlign: 'center',
+                }}
+            >
+                扫描二维码参与活动
+            </Typography>
+        </Box>
+    );
 };
 
 const TableInterface: React.FC<{
@@ -207,6 +261,8 @@ const LuckyNumberListPage: React.FC = () => {
         return <ErrorInterface message="活动已结束" />;
     }
 
+    const isEmpty = participations.length === 0;
+
     return (
         <Box
             className="min-h-screen w-full bg-primary"
@@ -229,8 +285,50 @@ const LuckyNumberListPage: React.FC = () => {
                 />
                 {error ? (
                     <Alert severity="error">获取活动数据失败，请稍后再试</Alert>
+                ) : isEmpty ? (
+                    <Box
+                        sx={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            minHeight: '50vh',
+                            width: '100%',
+                        }}
+                    >
+                        <QRCodeInterface activityKey={activityKey} />
+                    </Box>
                 ) : (
-                    <TableInterface participations={participations} />
+                    <Box
+                        sx={{
+                            display: 'flex',
+                            flexDirection: { xs: 'column', md: 'row' },
+                            alignItems: { xs: 'center', md: 'flex-start' },
+                            justifyContent: 'center',
+                            gap: { xs: 5, md: 5 },
+                            width: '100%',
+                            maxWidth: '1400px',
+                        }}
+                    >
+                        <Box
+                            sx={{
+                                flexShrink: 0,
+                                display: 'flex',
+                                justifyContent: 'center',
+                                width: { xs: '100%', md: 'auto' },
+                            }}
+                        >
+                            <QRCodeInterface activityKey={activityKey} />
+                        </Box>
+                        <Box
+                            sx={{
+                                flex: { xs: '1 1 auto', md: '1 1 0' },
+                                width: { xs: '100%', md: 'auto' },
+                                maxWidth: { xs: '1024px', md: 'none' },
+                            }}
+                        >
+                            <TableInterface participations={participations} />
+                        </Box>
+                    </Box>
                 )}
             </Box>
         </Box>
