@@ -22,35 +22,35 @@ function App() {
             <BrowserRouter>
                 <HeaderProvider>
                     <BaseLayout>
-                    <Routes>
-                        <Route path="/" element={<IndexPage />} />
-                        <Route path="/promise" element={<PromisePage />} />
-                        <Route
-                            path="/promise-new"
-                            element={<PromiseNewPage />}
-                        />
-                        <Route
-                            path="/lucky-number/:activityKey"
-                            element={<LuckyNumberListPage />}
-                        />
-                        <Route
-                            path="/lucky-number/:activityKey/activity"
-                            element={<LuckyNumberActivityPage />}
-                        />
-                        <Route
-                            path="/lucky-number/:activityKey/history"
-                            element={<LuckyNumberHistoryPage />}
-                        />
-                        <Route
-                            path="/option-draw/:activityKey"
-                            element={<OptionDrawListPage />}
-                        />
-                        <Route
-                            path="/option-draw/:activityKey/activity"
-                            element={<OptionDrawActivityPage />}
-                        />
-                        <Route path="*" element={<NotFoundPage />} />
-                    </Routes>
+                        <Routes>
+                            <Route path="/" element={<IndexPage />} />
+                            <Route path="/promise" element={<PromisePage />} />
+                            <Route
+                                path="/promise-new"
+                                element={<PromiseNewPage />}
+                            />
+                            <Route
+                                path="/lucky-number/:activityKey"
+                                element={<LuckyNumberListPage />}
+                            />
+                            <Route
+                                path="/lucky-number/:activityKey/activity"
+                                element={<LuckyNumberActivityPage />}
+                            />
+                            <Route
+                                path="/lucky-number/:activityKey/history"
+                                element={<LuckyNumberHistoryPage />}
+                            />
+                            <Route
+                                path="/option-draw/:activityKey"
+                                element={<OptionDrawListPage />}
+                            />
+                            <Route
+                                path="/option-draw/:activityKey/activity"
+                                element={<OptionDrawActivityPage />}
+                            />
+                            <Route path="*" element={<NotFoundPage />} />
+                        </Routes>
                     </BaseLayout>
                 </HeaderProvider>
             </BrowserRouter>
