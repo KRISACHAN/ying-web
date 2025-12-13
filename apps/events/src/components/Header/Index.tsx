@@ -1,7 +1,8 @@
 import React from 'react';
 
+import giftAnimation from '@/animations/gift.json';
 import { Typography } from '@mui/material';
-import { Gift } from 'lucide-react';
+import Lottie from 'lottie-react';
 
 const Header: React.FC<{
     description?: string;
@@ -19,8 +20,15 @@ const Header: React.FC<{
                 component="h1"
                 className="inherit flex items-center gap-2 text-center justify-center"
             >
-                <Gift className="w-9 h-9" />
-                {name || ''}
+                <div className="w-9 h-9 flex items-center justify-center">
+                    <Lottie
+                        animationData={giftAnimation}
+                        loop={true}
+                        autoplay={true}
+                        style={{ width: '36px', height: '36px' }}
+                    />
+                </div>
+                <span className="relative top-1">{name || ''}</span>
             </Typography>
             <Typography variant="body1" className="inherit opacity-75">
                 {description || ''}

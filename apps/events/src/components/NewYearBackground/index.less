@@ -1,0 +1,64 @@
+@keyframes float-up {
+    0% {
+        opacity: 0;
+        transform: translateY(0) scale(1);
+    }
+
+    10% {
+        opacity: 0.8;
+    }
+
+    90% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100vh) translateX(calc(var(--end-x) - 50vw))
+            scale(0.2);
+    }
+}
+
+@keyframes glow-pulse {
+    0%,
+    100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+}
+
+.particle {
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+}
+
+.stars-container {
+    pointer-events: none;
+}
+
+.star {
+    animation: twinkle 3s ease-in-out infinite;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgb(255 255 255 / 80%);
+    position: absolute;
+}
+
+@keyframes twinkle {
+    0%,
+    100% {
+        opacity: 0.2;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
