@@ -1,7 +1,8 @@
+import celebrationAnimation from '@/animations/confetti.json';
 import { Box, Button, Typography } from '@mui/material';
+import Lottie from 'lottie-react';
 import { Heart } from 'lucide-react';
 import React from 'react';
-import Confetti from 'react-confetti';
 
 import { themeColors } from '@/theme';
 import TransitionWrapper from '../TransitionWrapper/Index';
@@ -36,12 +37,17 @@ const ResultInterface: React.FC<ResultInterfaceProps> = ({
     return (
         <>
             {showConfetti && (
-                <Confetti
-                    width={window.innerWidth}
-                    height={window.innerHeight}
-                    recycle={false}
-                    numberOfPieces={300}
-                />
+                <div
+                    className="fixed inset-0 pointer-events-none"
+                    style={{ zIndex: 100 }}
+                >
+                    <Lottie
+                        animationData={celebrationAnimation}
+                        loop={false}
+                        autoplay={true}
+                        style={{ width: '100%', height: '100%' }}
+                    />
+                </div>
             )}
             <TransitionWrapper show={show}>
                 <Typography

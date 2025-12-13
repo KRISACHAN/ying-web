@@ -16,6 +16,7 @@ import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 import { getQuery } from '@/utils/query';
 
 import DialogInterface from '@/components/DialogInterface/Index';
+import NewYearBackground from '@/components/NewYearBackground';
 import ResultInterface from '@/components/ResultInterface/Index';
 import NumberAnimation from '../components/NumberAnimation';
 
@@ -223,11 +224,12 @@ const LuckyNumberActivityPage: React.FC = () => {
 
     return (
         <Box
-            className="min-h-screen w-full bg-primary"
+            className="min-h-screen w-full"
             sx={{
                 p: { xs: 2, sm: 4 },
             }}
         >
+            <NewYearBackground showStars={true} showParticles={true} />
             <Box
                 sx={{
                     mx: 'auto',

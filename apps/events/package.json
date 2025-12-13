@@ -31,6 +31,7 @@
         "@ying-web/tools": "workspace:*",
         "axios": "^0.21.1",
         "html2canvas": "^1.4.1",
+        "lottie-react": "^2.4.1",
         "lucide-react": "^0.424.0",
         "qrcode.react": "^4.2.0",
         "rc-image": "^7.11.0",

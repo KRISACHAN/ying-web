@@ -18,6 +18,7 @@ import {
 import { useInterval } from 'usehooks-ts';
 
 import HeaderInterface from '@/components/Header/Index';
+import NewYearBackground from '@/components/NewYearBackground';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
@@ -265,13 +266,16 @@ const LuckyNumberListPage: React.FC = () => {
 
     return (
         <Box
-            className="min-h-screen w-full bg-primary"
+            className="min-h-screen w-full relative"
             sx={{
                 p: { xs: 2, sm: 4 },
             }}
         >
+            <NewYearBackground showStars={true} showParticles={true} />
             <Box
                 sx={{
+                    position: 'relative',
+                    zIndex: 1,
                     mx: 'auto',
                     display: 'flex',
                     flexDirection: 'column',
