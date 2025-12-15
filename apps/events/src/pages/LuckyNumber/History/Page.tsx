@@ -23,7 +23,6 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useLocalStorage } from 'usehooks-ts';
 
 import HeaderInterface from '@/components/Header/Index';
-import NewYearBackground from '@/components/NewYearBackground';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
@@ -132,7 +131,6 @@ const LuckyNumberHistoryPage: React.FC = () => {
                 p: { xs: 2, sm: 4 },
             }}
         >
-            <NewYearBackground showStars={true} showParticles={true} />
             <Box
                 sx={{
                     position: 'relative',
