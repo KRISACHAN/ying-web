@@ -3,6 +3,8 @@ import { Helmet } from 'react-helmet-async';
 
 import { useHeader } from '@/contexts/HeaderContext';
 
+import NewYearBackground from '@/components/NewYearBackground';
+
 const BaseLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const { title, description, keywords } = useHeader();
 
@@ -13,9 +15,8 @@ const BaseLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <meta name="description" content={description} />
                 <meta name="keywords" content={keywords} />
             </Helmet>
-            <div className="min-h-screen w-full relative bg-primary">
-                {children}
-            </div>
+            <NewYearBackground showStars={true} showParticles={true} />
+            <div className="min-h-screen w-full relative">{children}</div>
         </article>
     );
 };

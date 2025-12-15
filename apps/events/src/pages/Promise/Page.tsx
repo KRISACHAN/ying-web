@@ -58,7 +58,7 @@ const PromisePage: React.FC = () => {
 
     return (
         <Box
-            className="min-h-screen w-full bg-primary"
+            className="min-h-screen w-full"
             sx={{
                 p: { xs: 2, sm: 4 },
             }}
