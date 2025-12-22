@@ -2,7 +2,6 @@ import {
     ArrowBack,
     DeleteOutline,
     DoNotDisturbOutlined,
-    History as HistoryIcon,
 } from '@mui/icons-material';
 import {
     Alert,
@@ -176,41 +175,25 @@ const LuckyNumberHistoryPage: React.FC = () => {
                         返回活动
                     </Button>
 
-                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-                        <Chip
-                            icon={<HistoryIcon />}
-                            label={`共 ${luckyNumberResults.length} 条记录`}
+                    {!isEmpty && (
+                        <Button
+                            variant="outlined"
+                            startIcon={<DeleteOutline />}
+                            onClick={handleClearHistory}
                             sx={{
+                                borderRadius: 2,
                                 backgroundColor: themeColors.background.paper,
                                 color: themeColors.primary.main,
                                 fontWeight: 'bold',
-                                '& .MuiChip-icon': {
-                                    color: themeColors.primary.main,
+                                '&:hover': {
+                                    backgroundColor:
+                                        themeColors.background.primary,
                                 },
                             }}
-                        />
-
-                        {!isEmpty && (
-                            <Button
-                                variant="outlined"
-                                startIcon={<DeleteOutline />}
-                                onClick={handleClearHistory}
-                                sx={{
-                                    borderColor: themeColors.background.paper,
-                                    color: themeColors.background.paper,
-                                    fontWeight: 'bold',
-                                    '&:hover': {
-                                        borderColor:
-                                            themeColors.background.primary,
-                                        backgroundColor:
-                                            'rgba(255, 255, 255, 0.1)',
-                                    },
-                                }}
-                            >
-                                清空记录
-                            </Button>
-                        )}
-                    </Box>
+                        >
+                            清空记录
+                        </Button>
+                    )}
                 </Box>
 
                 {/* Content */}

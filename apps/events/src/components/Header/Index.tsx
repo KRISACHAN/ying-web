@@ -28,9 +28,14 @@ const Header: React.FC<{
                         style={{ width: '36px', height: '36px' }}
                     />
                 </div>
-                <span className="relative top-1">{name || ''}</span>
+                <span className="relative top-1 text-[36px] leading-[36px] text-center">
+                    {name || ''}
+                </span>
             </Typography>
-            <Typography variant="body1" className="inherit opacity-75">
+            <Typography
+                variant="body1"
+                className="inherit opacity-75 !text-[24px]"
+            >
                 {description || ''}
             </Typography>
         </div>
