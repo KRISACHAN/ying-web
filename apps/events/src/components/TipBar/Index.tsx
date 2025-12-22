@@ -26,7 +26,11 @@ const TipBar: React.FC<TipBarProps> = ({
             className="bg-white opacity-75"
         >
             <Heart className="w-5 h-5" style={{ color }} />
-            <Typography variant="body2" sx={{ fontWeight: 500, color }}>
+            <Typography
+                className="!text-[18px] !font-bold"
+                variant="body2"
+                sx={{ color }}
+            >
                 {message}
             </Typography>
         </Paper>
