@@ -6,6 +6,7 @@ import { DoNotDisturbOutlined } from '@mui/icons-material';
 import {
     Alert,
     Box,
+    Button,
     Paper,
     Table,
     TableBody,
@@ -92,6 +93,78 @@ const QRCodeInterface: React.FC<{ activityKey?: string }> = ({
             >
                 扫描二维码参与活动
             </Typography>
+        </Box>
+    );
+};
+
+const QRCodePlaceholder: React.FC<{
+    onConfirm: () => void;
+}> = ({ onConfirm }) => {
+    return (
+        <Box
+            sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: 2,
+            }}
+        >
+            <Box
+                sx={{
+                    p: 4,
+                    borderRadius: 3,
+                    background: themeColors.background.paper,
+                    boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    width: { xs: '100%', md: '400px' },
+                    aspectRatio: '1 / 1',
+                    flexDirection: 'column',
+                    gap: 3,
+                }}
+            >
+                <Typography
+                    variant="h5"
+                    sx={{
+                        color: themeColors.text.primary,
+                        fontWeight: 'bold',
+                        textAlign: 'center',
+                    }}
+                >
+                    准备开始活动？
+                </Typography>
+                <Typography
+                    variant="body1"
+                    sx={{
+                        color: themeColors.text.secondary,
+                        textAlign: 'center',
+                    }}
+                >
+                    确认后将显示活动二维码，参与者可以扫描参与活动
+                </Typography>
+                <Button
+                    variant="contained"
+                    size="large"
+                    onClick={onConfirm}
+                    sx={{
+                        borderRadius: 2,
+                        px: 4,
+                        py: 1.5,
+                        fontSize: '1rem',
+                        textTransform: 'none',
+                        backgroundColor: themeColors.primary.main,
+                        color: themeColors.text.inverse,
+                        '&:hover': {
+                            backgroundColor: themeColors.primary.light,
+                            transform: 'translateY(-2px)',
+                            transition: 'transform 0.2s ease-in-out',
+                        },
+                    }}
+                >
+                    确认开始
+                </Button>
+            </Box>
         </Box>
     );
 };
@@ -191,6 +264,7 @@ const LuckyNumberListPage: React.FC = () => {
     const [activityInfo, setActivityInfo] = useState<ActivityInfo | null>(null);
     const [participations, setParticipations] = useState<LuckyNumber[]>([]);
     const [error, setError] = useState<Error | null>(null);
+    const [showOverlay, setShowOverlay] = useState<boolean>(true);
     const headerContext = useHeader();
 
     const fetchActivityInfo = async () => {
@@ -235,10 +309,6 @@ const LuckyNumberListPage: React.FC = () => {
     const is400Error = errorMessage?.includes('400');
     const isNotStartedError = errorMessage?.includes('未开始');
     const isEndedError = errorMessage?.includes('已结束');
-
-    if (is404Error) {
-        return <ErrorInterface />;
-    }
 
     if (is404Error) {
         return <ErrorInterface />;
@@ -297,7 +367,13 @@ const LuckyNumberListPage: React.FC = () => {
                             width: '100%',
                         }}
                     >
-                        <QRCodeInterface activityKey={activityKey} />
+                        {showOverlay ? (
+                            <QRCodePlaceholder
+                                onConfirm={() => setShowOverlay(false)}
+                            />
+                        ) : (
+                            <QRCodeInterface activityKey={activityKey} />
+                        )}
                     </Box>
                 ) : (
                     <Box
