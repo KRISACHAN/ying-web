@@ -17,6 +17,19 @@ const ErrorInterface: React.FC = () => {
     return <NotFoundPage title="活动不存在" message="回到首页看看其它功能？" />;
 };
 
+const formatDateTime = (dateString: string | null): string => {
+    if (!dateString) return '-';
+    return new Date(dateString).toLocaleString('zh-CN');
+};
+
+const formatDateTimeForCSV = (dateString: string | null): string => {
+    if (!dateString) return '-';
+    const formatted = formatDateTime(dateString);
+    // 添加制表符前缀，防止 Excel 自动转换为日期格式
+    // 这样 Excel 会将其识别为文本，格式为 yyyy-MM-dd HH:mm:ss
+    return `\t${formatted}`;
+};
+
 const LuckyNumberDetail = () => {
     const { key } = useParams<{ key: string }>();
     const navigate = useNavigate();
@@ -66,9 +79,7 @@ const LuckyNumberDetail = () => {
             const exportData = allData.map(record => ({
                 drawn_number: record.drawn_number,
                 username: record.username || '-',
-                created_at: record.created_at
-                    ? new Date(record.created_at).toLocaleString('zh-CN')
-                    : '-',
+                created_at: formatDateTimeForCSV(record.created_at),
             }));
             setCSVData(exportData);
         } catch (err) {
@@ -142,7 +153,7 @@ const LuckyNumberDetail = () => {
             dataIndex: 'created_at',
             key: 'created_at',
             render: (text: string | null) =>
-                text ? new Date(text).toLocaleString('zh-CN') : '-',
+                text ? formatDateTime(text) : '-',
         },
         {
             title: '操作',
