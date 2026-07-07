@@ -1,7 +1,7 @@
 {
     "meta": {
-        "title": "陈劲文 - 9年前端开发经验的高级前端工程师",
-        "description": "拥有9年前端开发经验的高级前端工程师，专精于Vue、React、Node.js和大规模应用架构"
+        "title": "陈劲文 - 10年前端开发经验的高级前端工程师",
+        "description": "拥有10年前端开发经验的高级前端工程师，专精于Vue、React、Node.js和大规模应用架构"
     },
     "languages": {
         "en": "English",
@@ -16,7 +16,7 @@
     },
     "hero": {
         "name": "陈劲文",
-        "title": "高级前端工程师 | 9年经验",
+        "title": "高级前端工程师 | 10年经验",
         "description": "经验丰富的前端工程师，专精于大规模Web应用架构设计。精通Vue、React、Node.js和Docker等现代技术栈。目前寻求远程工作机会。",
         "contactButton": "联系我",
         "projectsButton": "查看项目"
@@ -25,7 +25,7 @@
         "title": "关于我",
         "philosophy": {
             "title": "专业总结",
-            "description": "9年前端开发经验，专精于大规模Web应用架构设计。精通Vue、React、Node.js和Docker等现代技术栈。在领导技术项目、性能优化和建立开发团队最佳实践方面经验丰富。"
+            "description": "10年前端开发经验，专精于大规模Web应用架构设计。精通Vue、React、Node.js和Docker等现代技术栈。在领导技术项目、性能优化和建立开发团队最佳实践方面经验丰富。"
         },
         "strengths": {
             "title": "核心能力",
@@ -55,21 +55,18 @@
             { "name": "React/Next.js", "percentage": 90 },
             { "name": "TypeScript", "percentage": 90 },
             { "name": "JavaScript/ES6+", "percentage": 95 },
-            { "name": "CSS/LESS/Sass", "percentage": 90 },
-            { "name": "HTML5", "percentage": 95 }
+            { "name": "CSS/LESS/Sass", "percentage": 90 }
         ],
         "backend": [
             { "name": "Node.js", "percentage": 90 },
-            { "name": "Koa.js/Express.js", "percentage": 85 },
+            { "name": "Koa.js/Express.js/Hono.js", "percentage": 85 },
             { "name": "RESTful API设计", "percentage": 90 },
-            { "name": "GraphQL", "percentage": 80 },
             { "name": "BFF架构", "percentage": 90 },
             { "name": "微服务", "percentage": 85 }
         ],
         "other": [
             { "name": "Docker", "percentage": 90 },
-            { "name": "Kubernetes", "percentage": 80 },
-            { "name": "CI/CD (Jenkins/GitHub Actions)", "percentage": 85 },
+            { "name": "Jenkins", "percentage": 85 },
             { "name": "Webpack/Vite", "percentage": 85 },
             { "name": "监控和告警", "percentage": 85 },
             { "name": "Git", "percentage": 90 }
@@ -82,41 +79,33 @@
                 "company": "商汤科技",
                 "position": "前端开发工程师（远程技术顾问）",
                 "period": "2025年02月 - 至今",
-                "description": "以远程顾问的模式，为商汤科技的商汤小浣熊AI系列产品做前端开发。负责任务规划功能的技术选型与MVP版本开发，开发了处理不完整JSON数据的方案，实现了任务自动执行的功能。日常迭代需求包括知识管理模块重构与业务需求开发、商业化以及其它模块的业务需求开发。",
+                "description": "2025 年 2 月起以远程顾问模式，负责商汤小浣熊 AI 系列产品前端开发，涵盖任务规划技术选型与 MVP、主项目诊断与优化、版本升级与浏览器兼容性治理及日常需求迭代。",
                 "projects": [
                     {
-                        "title": "任务规划的MVP版本搭建",
-                        "description": "负责新功能任务规划的MVP版本搭建",
+                        "title": "AI 任务规划功能",
+                        "description": "负责任务规划功能的技术选型与 MVP 版本开发，包含不完整 JSON 的处理方案",
                         "achievements": [
-                            "基于React Flow实现AI任务规划可视化系统，支持任务节点自定义与智能连接",
-                            "设计字符级增量JSON解析器，解决SSE流式数据解析问题",
-                            "实现任务队列管理系统，支持任务执行、状态追踪与异常处理"
+                            "基于 React Flow 实现任务规划可视化系统，支持节点自定义与连接有效性验证",
+                            "设计字符级增量 JSON 解析器，支持从不完整 SSE 流式数据中实时提取字段，实现打字机效果展示"
                         ]
                     },
                     {
-                        "title": "知识管理模块重构",
-                        "description": "负责核心业务功能的架构优化，解决历史包袱导致的迭代困难",
+                        "title": "主项目技术治理与架构优化",
+                        "description": "针对项目长期迭代累积的技术债务与质量问题，配合团队 Monorepo 仓库收拢整改，统筹开展代码质量治理、技术栈升级、浏览器兼容性优化工作，标准化项目研发体系。",
                         "achievements": [
-                            "主入口文件从865行精简到320行（-63%），圈复杂度从50降至15（-70%）",
-                            "建立100分制代码质量评分体系，AI评分从20分提升至80分",
-                            "设计自动化检测工具链，包含命名规范、架构分析、复杂度检测等"
-                        ]
-                    },
-                    {
-                        "title": "项目诊断与优化",
-                        "description": "系统性梳理8个月迭代项目的技术债务和改进空间",
-                        "achievements": [
-                            "制定基于边界和标准的项目分析方案，建立S/A/B/C/D五级评级标准",
-                            "集成ESLint、CSpell、JSCPD等工具，实现循环依赖检测和重复代码检测",
-                            "输出详细分析报告，协调团队解决技术债务问题"
+                            "建立代码质量管控机制：搭建量化评分与等级评价标准，落地自动化检查机制，统一项目代码规范，实现代码质量可量化、可管控",
+                            "完成项目技术整体升级：配合团队统一技术体系，主导项目核心技术版本全面升级，完成改造、全量测试及上线，统一项目技术标准",
+                            "优化用户浏览器适配体验：结合真实用户使用数据划定适配范围，针对性完成兼容改造，对老旧设备增加版本升级提示，保障用户访问稳定性",
+                            "推进项目整体优化整改：梳理项目现存问题并划分优化优先级，输出完整整改方案，协同团队落地优化，有效改善项目运行稳定性与后续迭代效率"
                         ]
                     },
                     {
                         "title": "日常业务需求开发",
-                        "description": "负责日常业务需求的前端开发",
+                        "description": "负责日常业务需求的前端开发与上线",
                         "achievements": [
-                            "完成saas与tob版本的功能与商业化适配",
-                            "教育版会员相关功能的落地实现"
+                            "完成 SaaS 与 ToB 版本的功能与商业化适配",
+                            "教育版会员相关功能落地",
+                            "作为 RO 负责运营活动的开发与上线"
                         ]
                     }
                 ]
