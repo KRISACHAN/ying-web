@@ -6,6 +6,8 @@
     :root {
         --background: 0 0% 100%;
         --foreground: 240 10% 3.9%;
+        --font-sans:
+            system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
         --card: 0 0% 100%;
         --card-foreground: 240 10% 3.9%;

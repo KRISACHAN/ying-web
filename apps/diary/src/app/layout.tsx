@@ -2,11 +2,8 @@ import { config } from '@/config';
 import { signOgImageUrl } from '@/lib/og-image';
 import { cn } from '@/lib/utils';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import './globals.css';
 import { Providers } from './providers';
-
-const fontSans = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
     title: {
@@ -36,7 +33,6 @@ export default function RootLayout({
             <body
                 className={cn(
                     'min-h-screen bg-background font-sans antialiased max-w-6xl m-auto',
-                    fontSans.variable,
                 )}
             >
                 <Providers>
