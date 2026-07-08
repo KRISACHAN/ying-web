@@ -4,7 +4,7 @@
 
 ## About Me
 
-Hello everyone! I'm Jinwen Chen (Kris), a front-end developer from China with 9 years of development experience!
+Hello everyone! I'm Jinwen Chen (Kris), a front-end developer from China with 10 years of development experience!
 
 Contact me:
 

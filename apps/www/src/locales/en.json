@@ -1,7 +1,7 @@
 {
     "meta": {
-        "title": "Kris Chen - Senior Frontend Engineer with 9 Years Experience",
-        "description": "Senior Frontend Engineer with 9 years of experience in web development, specializing in Vue, React, Node.js, and large-scale application architecture"
+        "title": "Kris Chen - Senior Frontend Engineer with 10 Years Experience",
+        "description": "Senior Frontend Engineer with 10 years of experience in web development, specializing in Vue, React, Node.js, and large-scale application architecture"
     },
     "languages": {
         "en": "English",
@@ -16,7 +16,7 @@
     },
     "hero": {
         "name": "Kris Chen",
-        "title": "Senior Frontend Engineer | 9 Years Experience",
+        "title": "Senior Frontend Engineer | 10 Years Experience",
         "description": "Experienced frontend engineer specializing in architecting large-scale web applications. Proficient in modern tech stacks including Vue, React, Node.js, and Docker. Currently seeking remote work opportunities.",
         "contactButton": "Contact Me",
         "projectsButton": "View Projects"
@@ -25,7 +25,7 @@
         "title": "About Me",
         "philosophy": {
             "title": "Professional Summary",
-            "description": "9 years of frontend experience, specializing in architecting large-scale web applications. Proficient in modern tech stacks including Vue, React, Node.js, and Docker. Experienced in leading technical projects, optimizing performance, and establishing best practices for development teams."
+            "description": "10 years of frontend experience, specializing in architecting large-scale web applications. Proficient in modern tech stacks including Vue, React, Node.js, and Docker. Experienced in leading technical projects, optimizing performance, and establishing best practices for development teams."
         },
         "strengths": {
             "title": "Core Competencies",
@@ -55,21 +55,18 @@
             { "name": "React/Next.js", "percentage": 90 },
             { "name": "TypeScript", "percentage": 90 },
             { "name": "JavaScript/ES6+", "percentage": 95 },
-            { "name": "CSS/LESS/Sass", "percentage": 90 },
-            { "name": "HTML5", "percentage": 95 }
+            { "name": "CSS/LESS/Sass", "percentage": 90 }
         ],
         "backend": [
             { "name": "Node.js", "percentage": 90 },
-            { "name": "Koa.js/Express.js", "percentage": 85 },
+            { "name": "Koa.js/Express.js/Hono.js", "percentage": 85 },
             { "name": "RESTful API Design", "percentage": 90 },
-            { "name": "GraphQL", "percentage": 80 },
             { "name": "BFF Architecture", "percentage": 90 },
             { "name": "Microservices", "percentage": 85 }
         ],
         "other": [
             { "name": "Docker", "percentage": 90 },
-            { "name": "Kubernetes", "percentage": 80 },
-            { "name": "CI/CD (Jenkins/GitHub Actions)", "percentage": 85 },
+            { "name": "Jenkins", "percentage": 85 },
             { "name": "Webpack/Vite", "percentage": 85 },
             { "name": "Monitoring & Alerting", "percentage": 85 },
             { "name": "Git", "percentage": 90 }
@@ -82,41 +79,33 @@
                 "company": "SenseTime",
                 "position": "Frontend Engineer (Remote Technical Advisor)",
                 "period": "Feb 2025 - Present",
-                "description": "Working as a remote advisor for SenseTime Technology, developing frontend solutions for their SenseTime Little Raccoon AI series products. Responsible for technical selection and MVP development of task planning features, developing solutions for handling incomplete JSON data, and implementing automated task execution functionality. Daily iterative requirements include knowledge management module refactoring and business requirement development, commercialization, and other module business requirement development.",
+                "description": "Since February 2025, I have worked as a remote technical advisor on frontend development for SenseTime's Raccoon AI product series, covering task planning technical selection and MVP delivery, main project diagnosis and optimization, version upgrades, browser compatibility governance, and daily feature iteration.",
                 "projects": [
                     {
-                        "title": "MVP Development for Task Planning",
-                        "description": "Responsible for MVP development of the new task planning feature",
+                        "title": "AI Task Planning Feature",
+                        "description": "Responsible for technical selection and MVP development of the task planning feature, including solutions for handling incomplete JSON",
                         "achievements": [
-                            "Developed an AI task-planning visualization system using React Flow, enabling custom node creation and intelligent connections",
-                            "Designed and implemented a character-level incremental JSON parser to handle Server-Sent Events (SSE) stream data",
-                            "Built a task queue management system to oversee job execution, status tracking, and error handling"
+                            "Built a task planning visualization system with React Flow, supporting custom nodes and connection validation",
+                            "Designed a character-level incremental JSON parser that extracts fields in real time from incomplete SSE streams, enabling a typewriter-style display"
                         ]
                     },
                     {
-                        "title": "Knowledge Management Module Refactoring",
-                        "description": "Responsible for core business functionality architecture optimization, addressing legacy technical debt that hindered iteration",
+                        "title": "Main Project Technical Governance and Architecture Optimization",
+                        "description": "Addressed technical debt and quality issues accumulated over long-term iteration; coordinated with the team's monorepo consolidation to govern code quality, upgrade the tech stack, optimize browser compatibility, and standardize the project development system",
                         "achievements": [
-                            "Streamlined main entry file from 865 lines to 320 lines (-63%), reduced cyclomatic complexity from 50 to 15 (-70%)",
-                            "Established a 100-point code quality scoring system, improving AI evaluation score from 20 to 80 points",
-                            "Designed automated detection toolchain including naming conventions, architecture analysis, and complexity detection"
-                        ]
-                    },
-                    {
-                        "title": "Project Diagnosis and Optimization",
-                        "description": "Systematically analyzed technical debt and improvement opportunities in an 8-month iterative project",
-                        "achievements": [
-                            "Developed boundary and standard-based project analysis framework, establishing S/A/B/C/D five-tier rating system",
-                            "Integrated ESLint, CSpell, JSCPD and other tools to implement circular dependency detection and duplicate code detection",
-                            "Delivered comprehensive analysis reports and coordinated team efforts to resolve technical debt issues"
+                            "Established code quality governance: built quantitative scoring and tiered rating standards, implemented automated checks, unified project code conventions, making code quality measurable and manageable",
+                            "Completed full project tech stack upgrade: aligned with the team to unify the technology system, led a major core framework version upgrade, completed remediation, full testing, and release, standardizing project technical standards",
+                            "Optimized browser adaptation experience: defined compatibility scope based on real user data, completed targeted compatibility work, added version upgrade prompts for legacy devices, ensuring stable user access",
+                            "Drove overall project optimization: identified existing issues and prioritized improvements, delivered a complete remediation plan, collaborated with the team on implementation, effectively improving project stability and future iteration efficiency"
                         ]
                     },
                     {
                         "title": "Daily Business Requirements Development",
-                        "description": "Responsible for frontend development of daily business requirements",
+                        "description": "Responsible for frontend development and launch of daily business requirements",
                         "achievements": [
                             "Completed feature and commercialization adaptation for SaaS and ToB versions",
-                            "Implemented education edition membership-related functionality"
+                            "Delivered education edition membership-related features",
+                            "Served as RO (responsible owner) for operational campaign development and launches"
                         ]
                     }
                 ]
