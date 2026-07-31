@@ -68,7 +68,8 @@ export default function ProjectsSection({ dictionary }: ProjectsSectionProps) {
 
                                     <div className="mb-4">
                                         <h4 className="font-medium text-gray-900 mb-2">
-                                            Technologies:
+                                            {projects.technologiesLabel ||
+                                                'Technologies:'}
                                         </h4>
                                         <div className="flex flex-wrap gap-2">
                                             {project.technologies.map(
@@ -90,7 +91,8 @@ export default function ProjectsSection({ dictionary }: ProjectsSectionProps) {
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center text-blue-600 hover:underline"
                                     >
-                                        View on GitHub
+                                        {projects.viewOnGithub ||
+                                            'View on GitHub'}
                                         <svg
                                             className="w-5 h-5 ml-1"
                                             fill="currentColor"

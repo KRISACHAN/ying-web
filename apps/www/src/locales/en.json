@@ -1,7 +1,7 @@
 {
     "meta": {
-        "title": "Kris Chen - Senior Frontend Engineer with 10 Years Experience",
-        "description": "Senior Frontend Engineer with 10 years of experience in web development, specializing in Vue, React, Node.js, and large-scale application architecture"
+        "title": "Kris Chen - AI Application Engineer | 10 Years of Software Engineering Experience",
+        "description": "AI Application Engineer with 10 years of experience across frontend development, JavaScript full-stack engineering, application architecture, and AI products"
     },
     "languages": {
         "en": "English",
@@ -16,8 +16,8 @@
     },
     "hero": {
         "name": "Kris Chen",
-        "title": "Senior Frontend Engineer | 10 Years Experience",
-        "description": "Experienced frontend engineer specializing in architecting large-scale web applications. Proficient in modern tech stacks including Vue, React, Node.js, and Docker. Currently seeking remote work opportunities.",
+        "title": "AI Application Engineer | 10 Years of Software Engineering Experience",
+        "description": "My experience spans frontend development, JavaScript full-stack engineering, application architecture, and AI applications. I currently work on SenseTime's Raccoon AI product suite, focusing on AI application development and complex product engineering.",
         "contactButton": "Contact Me",
         "projectsButton": "View Projects"
     },
@@ -25,50 +25,50 @@
         "title": "About Me",
         "philosophy": {
             "title": "Professional Summary",
-            "description": "10 years of frontend experience, specializing in architecting large-scale web applications. Proficient in modern tech stacks including Vue, React, Node.js, and Docker. Experienced in leading technical projects, optimizing performance, and establishing best practices for development teams."
+            "description": "Experienced in large-scale web applications, Node.js services, DevOps, observability, and complex business systems. I turn product goals into technical solutions, system implementations, quality governance, and reliable delivery, applying a decade of JavaScript full-stack experience to AI products."
         },
         "strengths": {
             "title": "Core Competencies",
             "items": [
                 {
-                    "title": "Technical Architecture",
-                    "description": "Designed and implemented scalable frontend architectures for high-traffic applications handling millions of daily requests. Expert in BFF patterns, microservices, and containerization."
+                    "title": "AI Application & Product Engineering",
+                    "description": "Commercial AI product experience spanning an AI Agent cross-platform entry point, task planning, streaming data, and multi-edition product delivery."
                 },
                 {
-                    "title": "Performance Optimization",
-                    "description": "Led performance optimization initiatives resulting in 50%+ improvements in page load times and 99.99% SLA stability. Implemented comprehensive monitoring and alerting systems."
+                    "title": "JavaScript Full-Stack Architecture",
+                    "description": "Hands-on expertise across React, Vue, Next.js, Node.js, and Koa.js, including core services handling more than 4 million daily requests."
                 },
                 {
-                    "title": "Cross-Platform Development",
-                    "description": "Developed unified SDKs supporting Web, App, and Mini Programs, reducing development time by 70% and enabling one-codebase-multiple-platform deployment."
+                    "title": "Engineering Governance & Delivery",
+                    "description": "Experienced in quality assessment, technology upgrades, automated testing, DevOps, observability, and cross-team project execution."
                 }
             ]
         }
     },
     "skills": {
         "title": "Technical Skills",
-        "frontendTitle": "Frontend Technologies",
-        "backendTitle": "Backend Technologies",
-        "otherTitle": "DevOps & Tools",
+        "frontendTitle": "AI Applications & Frontend",
+        "backendTitle": "Full-Stack & Data",
+        "otherTitle": "Engineering & Observability",
         "frontend": [
-            { "name": "Vue.js (2 & 3)", "percentage": 95 },
-            { "name": "React/Next.js", "percentage": 90 },
+            { "name": "AI Application Development", "percentage": 85 },
+            { "name": "React / Next.js", "percentage": 90 },
+            { "name": "Vue.js", "percentage": 90 },
             { "name": "TypeScript", "percentage": 90 },
-            { "name": "JavaScript/ES6+", "percentage": 95 },
-            { "name": "CSS/LESS/Sass", "percentage": 90 }
+            { "name": "WeChat Mini Programs / Cross-Platform", "percentage": 85 }
         ],
         "backend": [
             { "name": "Node.js", "percentage": 90 },
-            { "name": "Koa.js/Express.js/Hono.js", "percentage": 85 },
-            { "name": "RESTful API Design", "percentage": 90 },
-            { "name": "BFF Architecture", "percentage": 90 },
-            { "name": "Microservices", "percentage": 85 }
+            { "name": "Koa.js / Hono.js", "percentage": 85 },
+            { "name": "Agent Workflow / Tool Calling", "percentage": 80 },
+            { "name": "PostgreSQL / pgvector", "percentage": 80 },
+            { "name": "RESTful APIs / BFF", "percentage": 90 }
         ],
         "other": [
-            { "name": "Docker", "percentage": 90 },
-            { "name": "Jenkins", "percentage": 85 },
-            { "name": "Webpack/Vite", "percentage": 85 },
+            { "name": "Docker / Kubernetes", "percentage": 85 },
+            { "name": "CI/CD", "percentage": 85 },
             { "name": "Monitoring & Alerting", "percentage": 85 },
+            { "name": "Automated Testing & Quality Governance", "percentage": 90 },
             { "name": "Git", "percentage": 90 }
         ]
     },
@@ -77,78 +77,83 @@
         "jobs": [
             {
                 "company": "SenseTime",
-                "position": "Frontend Engineer (Remote Technical Advisor)",
+                "position": "Frontend Engineer (Remote Technical Advisor / AI Application Development)",
                 "period": "Feb 2025 - Present",
-                "description": "Since February 2025, I have worked as a remote technical advisor on frontend development for SenseTime's Raccoon AI product series, covering task planning technical selection and MVP delivery, main project diagnosis and optimization, version upgrades, browser compatibility governance, and daily feature iteration.",
+                "description": "Since February 2025, I have worked remotely on SenseTime's Raccoon AI product suite, contributing to the AI Agent WeChat Mini Program, product engineering governance, and feature delivery across consumer, SaaS, and enterprise editions.",
                 "projects": [
                     {
-                        "title": "AI Task Planning Feature",
-                        "description": "Responsible for technical selection and MVP development of the task planning feature, including solutions for handling incomplete JSON",
+                        "title": "AI Agent WeChat Mini Program",
+                        "description": "Built a mobile entry point for the desktop AI Agent within the WeChat ecosystem, allowing users to connect to and control the desktop application through a Mini Program.",
                         "achievements": [
-                            "Built a task planning visualization system with React Flow, supporting custom nodes and connection validation",
-                            "Designed a character-level incremental JSON parser that extracts fields in real time from incomplete SSE streams, enabling a typewriter-style display"
+                            "Served as project owner and independently led development from initial setup to delivery",
+                            "Owned the technical solution, project architecture, core feature development, and end-to-end delivery"
                         ]
                     },
                     {
-                        "title": "Main Project Technical Governance and Architecture Optimization",
-                        "description": "Addressed technical debt and quality issues accumulated over long-term iteration; coordinated with the team's monorepo consolidation to govern code quality, upgrade the tech stack, optimize browser compatibility, and standardize the project development system",
+                        "title": "AI Product Engineering Governance",
+                        "description": "Addressed quality issues and rising maintenance costs accumulated through long-term product iteration by assessing the project, establishing shared standards, and driving remediation of high-priority issues.",
                         "achievements": [
-                            "Established code quality governance: built quantitative scoring and tiered rating standards, implemented automated checks, unified project code conventions, making code quality measurable and manageable",
-                            "Completed full project tech stack upgrade: aligned with the team to unify the technology system, led a major core framework version upgrade, completed remediation, full testing, and release, standardizing project technical standards",
-                            "Optimized browser adaptation experience: defined compatibility scope based on real user data, completed targeted compatibility work, added version upgrade prompts for legacy devices, ensuring stable user access",
-                            "Drove overall project optimization: identified existing issues and prioritized improvements, delivered a complete remediation plan, collaborated with the team on implementation, effectively improving project stability and future iteration efficiency"
+                            "Established a quantitative scoring and tiered evaluation framework to continuously track project quality and improvement progress",
+                            "Identified issues across architecture, code quality, and collaboration workflows; produced a remediation plan and coordinated phased execution",
+                            "Drove upgrades and standardization across the project's technology foundation, followed by comprehensive testing and a stable production release",
+                            "Defined a browser support policy based on real user data, improving access across different devices"
                         ]
                     },
                     {
-                        "title": "Daily Business Requirements Development",
-                        "description": "Responsible for frontend development and launch of daily business requirements",
+                        "title": "Product Development",
+                        "description": "Delivered core AI features, multi-edition products, and marketing campaigns.",
                         "achievements": [
-                            "Completed feature and commercialization adaptation for SaaS and ToB versions",
-                            "Delivered education edition membership-related features",
-                            "Served as RO (responsible owner) for operational campaign development and launches"
+                            "Led technical selection and MVP delivery for an AI task-planning feature, including task-graph visualization and incremental parsing of incomplete JSON received through SSE streams",
+                            "Delivered product features and commercialization support across consumer, SaaS, and enterprise editions",
+                            "Served as project owner for marketing campaigns, covering technical planning, development coordination, and production launch"
                         ]
                     }
                 ]
             },
             {
-                "company": "Gaoding Technology Co., Ltd.",
-                "position": "Senior Frontend Engineer",
-                "period": "July 2020 - July 2024",
+                "company": "Gaoding (Xiamen) Technology Co., Ltd.",
+                "position": "JavaScript Full-Stack Engineer",
+                "period": "Jul 2020 - Jul 2024",
+                "description": "Developed and governed Gaoding's main website, commercialization platform, and core Node.js rendering services. Responsibilities covered frontend applications, Node.js services, DevOps, observability, and complex business systems.",
                 "projects": [
                     {
-                        "title": "Commercial System Architecture Optimization",
-                        "description": "Led architecture optimization for commercial purchasing system handling 50,000+ daily visits",
+                        "title": "Core Node.js Rendering Service Reliability",
+                        "description": "Led the refactoring and reliability improvement of a Koa.js SSR service handling more than 4 million daily requests.",
                         "achievements": [
-                            "Engineered unified cross-platform SDK, boosting development efficiency by 70%",
-                            "Decoupled commercialization module for independent deployment",
-                            "Results: 7% increase in business conversion rate"
+                            "Mapped business relationships across domains, platforms, and user identities; built a declarative JSX-based routing system and decoupled core logic",
+                            "Established automated testing, logging, monitoring, and tiered alerting, achieving 95% test coverage",
+                            "Implemented Node.js Cluster service management, graceful shutdown, smooth startup, and containerized deployment",
+                            "Reduced incident detection time from approximately one hour to one minute while maintaining a 99.99% SLA"
                         ]
                     },
                     {
-                        "title": "Core Rendering Service Upgrade",
-                        "description": "Revamped core Server-Side Rendering service managing 4M+ daily requests",
+                        "title": "Commercialization Platform Architecture",
+                        "description": "Led architecture improvements for a purchasing platform receiving more than 50,000 daily visits.",
                         "achievements": [
-                            "Implemented service governance using Node.js Cluster, stabilizing CPU usage at 10-20%",
-                            "Established comprehensive monitoring and alerting system with 95% test coverage",
-                            "Results: Reduced incident response time from 1 hour to 1 minute, maintaining 99.99% SLA"
+                            "Refactored a tightly coupled commercialization module into an independently deployable and releasable application",
+                            "Built reusable commercial components, feature modules, and page services supporting multiple integration patterns",
+                            "Designed a unified cross-platform SDK for Web, App, and WeChat Mini Program environments",
+                            "Reduced new-platform integration time from several days to approximately two hours, improving development efficiency by about 70%",
+                            "Established browser compatibility standards based on real user data; the resulting changes increased commercial conversion by approximately 7%"
                         ]
                     },
                     {
-                        "title": "SEO Technical Standardization",
-                        "description": "Pioneered company's first technical evaluation framework for SEO",
+                        "title": "DevOps and Engineering Efficiency",
+                        "description": "Led repository migration, containerized delivery, build optimization, and engineering workflow standardization.",
                         "achievements": [
-                            "Increased core pages responding under 500ms from 40% to 90%",
-                            "Ensured 99.99% success rate for search engine crawlers",
-                            "Transformed abstract SEO goals into quantifiable technical metrics"
+                            "Independently migrated the main website repository from GitLab to GitHub and integrated Jenkins, Docker, Kubernetes, and Alibaba Cloud monitoring",
+                            "Designed a selective build process that reduced build time by approximately 50%, saving about 21,000 minutes annually",
+                            "Migrated the BFF layer into an independent repository with separate build and release ownership",
+                            "Standardized API conventions, component libraries, and pull request workflows"
                         ]
                     },
                     {
-                        "title": "DevOps System Construction",
-                        "description": "Led migration to containerized CI/CD pipeline",
+                        "title": "SEO Reliability Standardization",
+                        "description": "Established the company's first quantitative framework for evaluating technical SEO reliability.",
                         "achievements": [
-                            "Migrated to GitHub, Kubernetes, and Docker-based deployment",
-                            "Optimized build process, saving 21,000 minutes of build time annually",
-                            "Standardized API specifications, significantly improving code maintainability"
+                            "Built crawler identification, end-to-end logging, success-rate monitoring, fallback handling, and automated alerting",
+                            "Increased the share of core pages responding within 500 ms from 40% to 90%",
+                            "Maintained a 99.99% success rate for search engine crawlers accessing core pages"
                         ]
                     }
                 ]
@@ -156,30 +161,47 @@
             {
                 "company": "Shenzhen Sitianjichuang Education Technology Co., Ltd.",
                 "position": "Frontend Engineer",
-                "period": "Dec 2018 - July 2020",
-                "description": "Independently designed and implemented a code conversion system bridging visual block-based programming, JavaScript, and Python. The system resulted in an invention patent (CN110941432A) and its open-source scaffold gained over 100 GitHub stars. This feature became a core competitive advantage for the company's educational products."
+                "period": "Dec 2018 - Jul 2020",
+                "description": "Independently designed and implemented a code conversion system bridging Blockly-based visual programming, JavaScript, and Python. Used ASTs and runtime abstractions to parse, transform, and execute code across programming models. The project received invention patent CN110941432A, and its open-source scaffold gained more than 100 GitHub Stars, becoming a core competitive advantage of the company's STEM education products."
             },
             {
                 "company": "Tongyin Investment Group",
                 "position": "Frontend Engineer",
-                "period": "July 2016 - September 2018",
-                "description": "As a core developer, led the refactoring of the company's official website and WeChat e-commerce store to Vue 2. Implemented a decoupled frontend-backend architecture, enhancing user experience and serving over 6,000 cumulative users."
+                "period": "Jul 2016 - Sep 2018",
+                "description": "Served as the company's primary frontend developer, maintaining web applications, the corporate website, and a WeChat commerce platform. Rebuilt the corporate website and commerce platform with Vue 2, introduced frontend-backend separation, and supported products serving more than 6,000 users."
             }
         ]
     },
     "projects": {
         "title": "Open Source Projects",
+        "technologiesLabel": "Technologies:",
+        "viewOnGithub": "View on GitHub",
         "items": [
             {
+                "title": "ying-companion",
+                "description": "A pluggable AI Companion and Agent Runtime covering workflow orchestration, tool calling, long-term memory, model adapters, graceful degradation, and runtime debugging.",
+                "stars": "Active Development",
+                "technologies": [
+                    "TypeScript",
+                    "Node.js",
+                    "PostgreSQL",
+                    "pgvector",
+                    "OpenAI / Ollama"
+                ],
+                "link": "https://github.com/KRISACHAN/ying-companion",
+                "gradient": "from-cyan-500 to-blue-600",
+                "badgeColor": { "bg": "bg-cyan-100", "text": "text-cyan-800" }
+            },
+            {
                 "title": "ying-web",
-                "description": "Complete full-stack development scaffold project with Monorepo architecture using PNPM + Turborepo",
+                "description": "A JavaScript full-stack Monorepo built with PNPM and Turborepo, containing personal websites, applications, and shared packages.",
                 "stars": "24+ Stars",
                 "technologies": [
                     "React",
                     "Next.js",
                     "Koa.js",
                     "TypeScript",
-                    "TailwindCSS"
+                    "Tailwind CSS"
                 ],
                 "link": "https://github.com/KRISACHAN/ying-web",
                 "gradient": "from-blue-400 to-indigo-500",
@@ -187,7 +209,7 @@
             },
             {
                 "title": "ying-template",
-                "description": "Ready-to-use frontend project template with comprehensive tooling and best practices",
+                "description": "A frontend project template with Webpack, TypeScript, Jest, ESLint, and engineering conventions.",
                 "stars": "100+ Stars",
                 "technologies": ["Vue", "Webpack", "TypeScript", "Jest"],
                 "link": "https://github.com/KRISACHAN/ying-template",
@@ -196,14 +218,9 @@
             },
             {
                 "title": "ying-datastructures-algorithms",
-                "description": "Algorithm and data structure learning repository using TypeScript for frontend developers",
+                "description": "Common data structures and algorithms implemented in TypeScript with Jest test coverage.",
                 "stars": "55+ Stars",
-                "technologies": [
-                    "TypeScript",
-                    "Data Structures",
-                    "Algorithms",
-                    "Jest"
-                ],
+                "technologies": ["TypeScript", "Data Structures", "Algorithms", "Jest"],
                 "link": "https://github.com/KRISACHAN/ying-datastructures-algorithms",
                 "gradient": "from-purple-400 to-pink-500",
                 "badgeColor": {
@@ -217,7 +234,7 @@
         "title": "Contact Me",
         "getInTouch": {
             "title": "Get In Touch",
-            "description": "If you're interested in my experience and abilities, feel free to contact me through any of these channels:",
+            "description": "If my experience and capabilities align with your needs, feel free to contact me through any of the following channels:",
             "channels": [
                 {
                     "type": "email",
@@ -269,7 +286,7 @@
     },
     "footer": {
         "name": "Kris Chen",
-        "description": "Senior Frontend Engineer",
+        "description": "AI Application Engineer",
         "copyright": "All rights reserved",
         "icp": "ICP备案号：粤ICP备2023123456号-1"
     }
