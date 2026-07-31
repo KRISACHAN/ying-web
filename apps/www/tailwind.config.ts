@@ -11,6 +11,7 @@ const config = {
         './app/**/*.{ts,tsx}',
         './src/**/*.{ts,tsx}',
     ],
+    safelist: ['from-cyan-500', 'to-blue-600'],
     prefix: '',
     theme: {
         container: {
