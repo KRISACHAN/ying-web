@@ -82,6 +82,8 @@ export type Dictionary = {
     };
     projects: {
         title: string;
+        technologiesLabel: string;
+        viewOnGithub: string;
         items: {
             title: string;
             description: string;
