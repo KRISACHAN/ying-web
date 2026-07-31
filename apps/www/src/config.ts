@@ -3,10 +3,10 @@ const buildConfig = () => {
     const copyright = process.env.NEXT_PUBLIC_SITE_COPYRIGHT || 'Kris';
     const defaultTitle =
         process.env.NEXT_DEFAULT_METADATA_DEFAULT_TITLE ||
-        'Ying Web - Modern Web Development';
+        'Kris Chen - AI Application Engineer';
     const defaultDescription =
         process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-        'A modern web development platform with React, Next.js, and TypeScript.';
+        'AI Application Engineer with 10 years of software engineering experience across JavaScript full-stack development, application architecture, and AI products.';
 
     return {
         baseUrl: process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000',

@@ -1,7 +1,7 @@
 {
     "meta": {
-        "title": "陈劲文 - 10年前端开发经验的高级前端工程师",
-        "description": "拥有10年前端开发经验的高级前端工程师，专精于Vue、React、Node.js和大规模应用架构"
+        "title": "陈劲文 - AI 应用开发工程师 | 10 年软件工程经验",
+        "description": "拥有 10 年软件工程经验的 AI 应用开发工程师，职业经历覆盖前端开发、JavaScript 全栈、应用架构与 AI 产品工程"
     },
     "languages": {
         "en": "English",
@@ -16,8 +16,8 @@
     },
     "hero": {
         "name": "陈劲文",
-        "title": "高级前端工程师 | 10年经验",
-        "description": "经验丰富的前端工程师，专精于大规模Web应用架构设计。精通Vue、React、Node.js和Docker等现代技术栈。目前寻求远程工作机会。",
+        "title": "AI 应用开发工程师 | 10 年软件工程经验",
+        "description": "职业经历覆盖前端开发、JavaScript 全栈、应用架构与 AI 应用工程。目前参与商汤小浣熊 AI 系列产品研发，专注 AI 应用开发与复杂产品工程。",
         "contactButton": "联系我",
         "projectsButton": "查看项目"
     },
@@ -25,50 +25,50 @@
         "title": "关于我",
         "philosophy": {
             "title": "专业总结",
-            "description": "10年前端开发经验，专精于大规模Web应用架构设计。精通Vue、React、Node.js和Docker等现代技术栈。在领导技术项目、性能优化和建立开发团队最佳实践方面经验丰富。"
+            "description": "具备大型 Web 应用、Node.js 服务、DevOps、可观测性和复杂业务系统建设经验。能够从产品目标出发完成技术方案、系统开发、质量治理和稳定交付，并将长期积累的 JavaScript 全栈能力应用于 AI 产品研发。"
         },
         "strengths": {
             "title": "核心能力",
             "items": [
                 {
-                    "title": "技术架构",
-                    "description": "设计并实现了处理数百万日请求的高流量应用的可扩展前端架构。精通BFF模式、微服务和容器化技术。"
+                    "title": "AI 应用与产品工程",
+                    "description": "参与商业 AI 产品研发，具备 AI Agent 跨端入口、任务规划、流式数据处理及多版本产品交付经验。"
                 },
                 {
-                    "title": "性能优化",
-                    "description": "领导性能优化计划，实现页面加载时间50%+的提升和99.99%的SLA稳定性。建立了全面的监控和告警系统。"
+                    "title": "JavaScript 全栈与系统架构",
+                    "description": "覆盖 React、Vue、Next.js、Node.js 与 Koa.js，负责过日均 400 万+ 请求的核心服务和复杂商业化系统。"
                 },
                 {
-                    "title": "跨平台开发",
-                    "description": "开发了支持Web、App和小程序的统一SDK，减少70%的开发时间，实现一套代码多平台部署。"
+                    "title": "工程治理与稳定交付",
+                    "description": "具备质量评估、技术升级、自动化测试、DevOps、监控告警和跨团队项目推进经验。"
                 }
             ]
         }
     },
     "skills": {
-        "title": "技术技能",
-        "frontendTitle": "前端技术",
-        "backendTitle": "后端技术",
-        "otherTitle": "DevOps & 工具",
+        "title": "技术能力",
+        "frontendTitle": "AI 应用与前端",
+        "backendTitle": "全栈与数据",
+        "otherTitle": "工程化与可观测性",
         "frontend": [
-            { "name": "Vue.js (2 & 3)", "percentage": 95 },
-            { "name": "React/Next.js", "percentage": 90 },
+            { "name": "AI 应用开发", "percentage": 85 },
+            { "name": "React / Next.js", "percentage": 90 },
+            { "name": "Vue.js", "percentage": 90 },
             { "name": "TypeScript", "percentage": 90 },
-            { "name": "JavaScript/ES6+", "percentage": 95 },
-            { "name": "CSS/LESS/Sass", "percentage": 90 }
+            { "name": "微信小程序 / 跨端", "percentage": 85 }
         ],
         "backend": [
             { "name": "Node.js", "percentage": 90 },
-            { "name": "Koa.js/Express.js/Hono.js", "percentage": 85 },
-            { "name": "RESTful API设计", "percentage": 90 },
-            { "name": "BFF架构", "percentage": 90 },
-            { "name": "微服务", "percentage": 85 }
+            { "name": "Koa.js / Hono.js", "percentage": 85 },
+            { "name": "Agent Workflow / Tool Calling", "percentage": 80 },
+            { "name": "PostgreSQL / pgvector", "percentage": 80 },
+            { "name": "RESTful API / BFF", "percentage": 90 }
         ],
         "other": [
-            { "name": "Docker", "percentage": 90 },
-            { "name": "Jenkins", "percentage": 85 },
-            { "name": "Webpack/Vite", "percentage": 85 },
-            { "name": "监控和告警", "percentage": 85 },
+            { "name": "Docker / Kubernetes", "percentage": 85 },
+            { "name": "CI/CD", "percentage": 85 },
+            { "name": "监控与告警", "percentage": 85 },
+            { "name": "自动化测试与质量治理", "percentage": 90 },
             { "name": "Git", "percentage": 90 }
         ]
     },
@@ -77,109 +77,131 @@
         "jobs": [
             {
                 "company": "商汤科技",
-                "position": "前端开发工程师（远程技术顾问）",
-                "period": "2025年02月 - 至今",
-                "description": "2025 年 2 月起以远程顾问模式，负责商汤小浣熊 AI 系列产品前端开发，涵盖任务规划技术选型与 MVP、主项目诊断与优化、版本升级与浏览器兼容性治理及日常需求迭代。",
+                "position": "前端开发工程师（远程技术顾问 / AI 应用开发方向）",
+                "period": "2025 年 2 月 - 至今",
+                "description": "2025 年 2 月起以远程顾问模式参与商汤小浣熊 AI 系列产品研发，负责 AI Agent 小程序端、项目工程治理及 ToC、SaaS、ToB 等产品功能迭代。",
                 "projects": [
                     {
-                        "title": "AI 任务规划功能",
-                        "description": "负责任务规划功能的技术选型与 MVP 版本开发，包含不完整 JSON 的处理方案",
+                        "title": "AI Agent 小程序端",
+                        "description": "建设桌面端 AI Agent 在微信生态中的移动入口，使用户可以通过小程序连接并操控电脑桌面端。",
                         "achievements": [
-                            "基于 React Flow 实现任务规划可视化系统，支持节点自定义与连接有效性验证",
-                            "设计字符级增量 JSON 解析器，支持从不完整 SSE 流式数据中实时提取字段，实现打字机效果展示"
+                            "作为项目负责人，独立承担小程序从 0 到 1 的研发",
+                            "负责技术方案、项目搭建、核心功能开发及整体交付"
                         ]
                     },
                     {
-                        "title": "主项目技术治理与架构优化",
-                        "description": "针对项目长期迭代累积的技术债务与质量问题，配合团队 Monorepo 仓库收拢整改，统筹开展代码质量治理、技术栈升级、浏览器兼容性优化工作，标准化项目研发体系。",
+                        "title": "AI 产品工程治理",
+                        "description": "针对项目长期迭代产生的质量问题与维护成本，系统梳理项目现状，建立统一标准并推动团队完成重点问题整改。",
                         "achievements": [
-                            "建立代码质量管控机制：搭建量化评分与等级评价标准，落地自动化检查机制，统一项目代码规范，实现代码质量可量化、可管控",
-                            "完成项目技术整体升级：配合团队统一技术体系，主导项目核心技术版本全面升级，完成改造、全量测试及上线，统一项目技术标准",
-                            "优化用户浏览器适配体验：结合真实用户使用数据划定适配范围，针对性完成兼容改造，对老旧设备增加版本升级提示，保障用户访问稳定性",
-                            "推进项目整体优化整改：梳理项目现存问题并划分优化优先级，输出完整整改方案，协同团队落地优化，有效改善项目运行稳定性与后续迭代效率"
+                            "建立量化评分与分级评价体系，使项目质量和改进进度可持续追踪",
+                            "梳理架构、代码质量和协作流程中的问题，输出治理方案并协调团队分阶段整改",
+                            "推动项目技术体系升级与标准统一，完成全量测试和稳定上线",
+                            "结合真实用户数据制定浏览器支持范围，改善不同设备用户的访问体验"
                         ]
                     },
                     {
-                        "title": "日常业务需求开发",
-                        "description": "负责日常业务需求的前端开发与上线",
+                        "title": "日常产品开发",
+                        "description": "负责 AI 产品核心功能、多版本产品与运营活动的开发和交付。",
                         "achievements": [
-                            "完成 SaaS 与 ToB 版本的功能与商业化适配",
-                            "教育版会员相关功能落地",
-                            "作为 RO 负责运营活动的开发与上线"
+                            "负责 AI 任务规划功能的技术选型与 MVP 开发，完成任务图可视化及不完整 SSE 流式 JSON 的增量解析",
+                            "完成 ToC、SaaS 与 ToB 版本的产品功能和商业化适配",
+                            "作为项目负责人，负责运营活动的技术方案、开发协作与上线交付"
                         ]
                     }
                 ]
             },
             {
                 "company": "稿定（厦门）科技有限公司",
-                "position": "高级前端工程师",
-                "period": "2020年7月 - 2024年7月",
+                "position": "JavaScript 全栈开发工程师",
+                "period": "2020 年 7 月 - 2024 年 7 月",
+                "description": "负责稿定主站、商业化系统及核心 Node.js 渲染服务的研发与架构治理，工作范围覆盖前端应用、Node.js 服务、DevOps、可观测性及复杂业务系统建设。",
                 "projects": [
                     {
+                        "title": "核心 Node.js 渲染服务治理",
+                        "description": "负责日访问量 400 万以上的 Koa.js SSR 核心服务重构与稳定性建设。",
+                        "achievements": [
+                            "梳理多域名、多终端和用户身份之间的业务关系，基于 JSX 构建声明式路由系统并实现核心逻辑解耦",
+                            "建立自动化测试以及日志、监控和分级告警体系，测试覆盖率达到 95%",
+                            "实现 Node.js Cluster 服务治理、优雅关闭、平滑启动和容器化部署",
+                            "将问题感知时间从约 1 小时缩短至 1 分钟，核心服务 SLA 保持在 99.99%"
+                        ]
+                    },
+                    {
                         "title": "商业化系统架构优化",
-                        "description": "领导商业化购买系统架构优化，处理5万+日访问量",
+                        "description": "负责日访问量 5 万以上的商业化购买系统。",
                         "achievements": [
-                            "设计统一跨平台SDK，提升70%开发效率",
-                            "解耦商业化模块实现独立部署",
-                            "结果：业务转化率提升7%"
+                            "将强耦合商业化模块重构为可独立部署和发布的子项目",
+                            "建设商业化基础元件、功能模块和页面服务，支持多种接入方式",
+                            "设计跨端统一 SDK，统一 Web、App 和微信小程序能力",
+                            "将新平台接入时间由数天缩短至约 2 小时，整体研发效率提升约 70%",
+                            "基于真实用户数据制定浏览器兼容标准，相关改造上线后商业化转化率提升约 7%"
                         ]
                     },
                     {
-                        "title": "核心渲染服务升级",
-                        "description": "重构核心服务端渲染服务，管理400万+日请求",
+                        "title": "DevOps 与工程效率建设",
+                        "description": "负责仓库迁移、容器化交付、构建优化及研发流程标准化。",
                         "achievements": [
-                            "使用Node.js Cluster实现服务治理，稳定CPU使用率在10-20%",
-                            "建立全面监控告警系统，测试覆盖率达95%",
-                            "结果：问题响应时间从1小时降至1分钟，保持99.99% SLA"
+                            "独立负责主站仓库从 GitLab 向 GitHub 迁移，并接入 Jenkins、Docker、Kubernetes 和阿里云监控",
+                            "设计按需构建方案，将构建时间减少约 50%，一年累计节省约 21,000 分钟",
+                            "将 BFF 层迁移至独立仓库，实现独立构建、发布和职责隔离",
+                            "推进接口规范、组件库和 PR 流程统一"
                         ]
                     },
                     {
-                        "title": "SEO技术标准化",
-                        "description": "开创公司首个SEO技术评估框架",
+                        "title": "SEO 稳定性标准化",
+                        "description": "建立公司首个可量化的 SEO 技术稳定性评价体系。",
                         "achievements": [
-                            "核心页面500ms内响应占比从40%提升至90%",
-                            "确保搜索引擎爬虫访问核心页面99.99%成功率",
-                            "将抽象SEO目标转化为可量化技术指标"
-                        ]
-                    },
-                    {
-                        "title": "DevOps系统建设",
-                        "description": "领导容器化CI/CD流水线迁移",
-                        "achievements": [
-                            "迁移至GitHub、Kubernetes和Docker部署",
-                            "优化构建流程，年省21,000分钟构建时间",
-                            "标准化API规范，显著提升代码可维护性"
+                            "设计爬虫识别、全链路日志、成功率监控、降级处理和异常告警机制",
+                            "将核心页面 500ms 内响应占比从 40% 提升至 90%",
+                            "确保搜索引擎爬虫访问核心页面的成功率达到 99.99%"
                         ]
                     }
                 ]
             },
             {
                 "company": "深圳市思天极创教育科技有限公司",
-                "position": "前端工程师",
-                "period": "2018年12月 - 2020年7月",
-                "description": "独立设计并实现了一个代码转换系统，桥接可视化积木编程、JavaScript和Python。该系统获得了发明专利（CN110941432A），其开源脚手架获得了100+ GitHub星标。该功能成为公司教育产品的核心竞争力。"
+                "position": "前端开发工程师",
+                "period": "2018 年 12 月 - 2020 年 7 月",
+                "description": "独立设计并实现代码转换系统，打通 Blockly 图形化编程、JavaScript 和 Python 三种编程方式；基于 AST 和运行时抽象完成解析、转换与执行。项目获得发明专利 CN110941432A，开源脚手架获得 100+ Stars，并成为公司 STEM 教育产品的核心竞争力。"
             },
             {
                 "company": "通印投资集团",
-                "position": "前端工程师",
-                "period": "2016年7月 - 2018年9月",
-                "description": "作为核心开发者，领导公司官网和微信电商商城的Vue 2重构。实现了前后端分离架构，提升用户体验，累计服务6,000+用户。"
+                "position": "前端开发工程师",
+                "period": "2016 年 7 月 - 2018 年 9 月",
+                "description": "作为公司主要前端开发人员，负责 Web 应用、企业官网和微信商城的开发维护；完成公司官网与微信商城的 Vue 2 重构并推进前后端分离，相关产品累计服务 6,000+ 用户。"
             }
         ]
     },
     "projects": {
         "title": "开源项目",
+        "technologiesLabel": "技术栈：",
+        "viewOnGithub": "在 GitHub 查看",
         "items": [
             {
+                "title": "ying-companion",
+                "description": "可插拔 AI Companion / Agent Runtime，覆盖工作流编排、工具调用、长期记忆、模型适配、失败降级与运行调试。",
+                "stars": "持续开发",
+                "technologies": [
+                    "TypeScript",
+                    "Node.js",
+                    "PostgreSQL",
+                    "pgvector",
+                    "OpenAI / Ollama"
+                ],
+                "link": "https://github.com/KRISACHAN/ying-companion",
+                "gradient": "from-cyan-500 to-blue-600",
+                "badgeColor": { "bg": "bg-cyan-100", "text": "text-cyan-800" }
+            },
+            {
                 "title": "ying-web",
-                "description": "完整的全栈开发脚手架项目，采用Monorepo架构，使用PNPM + Turborepo",
+                "description": "基于 PNPM 与 Turborepo 的 JavaScript 全栈 Monorepo，包含个人网站、应用与公共工具包。",
                 "stars": "24+ Stars",
                 "technologies": [
                     "React",
                     "Next.js",
                     "Koa.js",
                     "TypeScript",
-                    "TailwindCSS"
+                    "Tailwind CSS"
                 ],
                 "link": "https://github.com/KRISACHAN/ying-web",
                 "gradient": "from-blue-400 to-indigo-500",
@@ -187,7 +209,7 @@
             },
             {
                 "title": "ying-template",
-                "description": "可用的前端项目模板，具有全面的工具和最佳实践",
+                "description": "包含 Webpack、TypeScript、Jest、ESLint 与工程规范的前端项目模板。",
                 "stars": "100+ Stars",
                 "technologies": ["Vue", "Webpack", "TypeScript", "Jest"],
                 "link": "https://github.com/KRISACHAN/ying-template",
@@ -196,7 +218,7 @@
             },
             {
                 "title": "ying-datastructures-algorithms",
-                "description": "使用TypeScript的算法与数据结构学习仓库，面向前端开发者",
+                "description": "使用 TypeScript 实现常见数据结构与算法，并通过 Jest 编写测试用例。",
                 "stars": "55+ Stars",
                 "technologies": ["TypeScript", "数据结构", "算法", "Jest"],
                 "link": "https://github.com/KRISACHAN/ying-datastructures-algorithms",
@@ -212,7 +234,7 @@
         "title": "联系我",
         "getInTouch": {
             "title": "获取联系",
-            "description": "如果您对我的经验和能力感兴趣，可以通过以下任何渠道与我联系：",
+            "description": "如果您对我的经验和能力感兴趣，欢迎通过以下渠道与我联系：",
             "channels": [
                 {
                     "type": "email",
@@ -264,7 +286,7 @@
     },
     "footer": {
         "name": "陈劲文",
-        "description": "高级前端工程师",
+        "description": "AI 应用开发工程师",
         "copyright": "版权所有",
         "icp": "ICP备案号：粤ICP备2023123456号-1"
     }
