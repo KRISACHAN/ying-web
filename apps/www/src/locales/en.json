@@ -47,28 +47,29 @@
     },
     "skills": {
         "title": "Technical Skills",
-        "frontendTitle": "AI Applications & Frontend",
-        "backendTitle": "Full-Stack & Data",
+        "frontendTitle": "AI Applications",
+        "backendTitle": "Web Applications",
         "otherTitle": "Engineering & Observability",
         "frontend": [
             { "name": "AI Application Development", "percentage": 85 },
-            { "name": "React / Next.js", "percentage": 90 },
-            { "name": "Vue.js", "percentage": 90 },
-            { "name": "TypeScript", "percentage": 90 },
+            { "name": "Agent Workflow / Tool Calling", "percentage": 80 },
+            { "name": "PostgreSQL / pgvector", "percentage": 80 },
             { "name": "WeChat Mini Programs / Cross-Platform", "percentage": 85 }
         ],
         "backend": [
+            { "name": "TypeScript", "percentage": 90 },
+            { "name": "React / Next.js", "percentage": 90 },
+            { "name": "Vue.js", "percentage": 90 },
             { "name": "Node.js", "percentage": 90 },
             { "name": "Koa.js / Hono.js", "percentage": 85 },
-            { "name": "Agent Workflow / Tool Calling", "percentage": 80 },
-            { "name": "PostgreSQL / pgvector", "percentage": 80 },
+            { "name": "MySQL", "percentage": 80 },
             { "name": "RESTful APIs / BFF", "percentage": 90 }
         ],
         "other": [
-            { "name": "Docker / Kubernetes", "percentage": 85 },
+            { "name": "Docker", "percentage": 85 },
             { "name": "CI/CD", "percentage": 85 },
-            { "name": "Monitoring & Alerting", "percentage": 85 },
             { "name": "Automated Testing & Quality Governance", "percentage": 90 },
+            { "name": "Monitoring & Alerting", "percentage": 85 },
             { "name": "Git", "percentage": 90 }
         ]
     },
@@ -79,16 +80,8 @@
                 "company": "SenseTime",
                 "position": "Frontend Engineer (Remote Technical Advisor / AI Application Development)",
                 "period": "Feb 2025 - Present",
-                "description": "Since February 2025, I have worked remotely on SenseTime's Raccoon AI product suite, contributing to the AI Agent WeChat Mini Program, product engineering governance, and feature delivery across consumer, SaaS, and enterprise editions.",
+                "description": "Since February 2025, I have worked remotely on SenseTime's Raccoon AI product suite, contributing to AI product development, product engineering governance, and multi-edition delivery across consumer, SaaS, and enterprise products.",
                 "projects": [
-                    {
-                        "title": "AI Agent WeChat Mini Program",
-                        "description": "Built a mobile entry point for the desktop AI Agent within the WeChat ecosystem, allowing users to connect to and control the desktop application through a Mini Program.",
-                        "achievements": [
-                            "Served as project owner and independently led development from initial setup to delivery",
-                            "Owned the technical solution, project architecture, core feature development, and end-to-end delivery"
-                        ]
-                    },
                     {
                         "title": "AI Product Engineering Governance",
                         "description": "Addressed quality issues and rising maintenance costs accumulated through long-term product iteration by assessing the project, establishing shared standards, and driving remediation of high-priority issues.",
@@ -103,6 +96,7 @@
                         "title": "Product Development",
                         "description": "Delivered core AI features, multi-edition products, and marketing campaigns.",
                         "achievements": [
+                            "Independently led the AI Agent WeChat Mini Program from initial setup through delivery, building a mobile entry point for the desktop product within the WeChat ecosystem",
                             "Led technical selection and MVP delivery for an AI task-planning feature, including task-graph visualization and incremental parsing of incomplete JSON received through SSE streams",
                             "Delivered product features and commercialization support across consumer, SaaS, and enterprise editions",
                             "Served as project owner for marketing campaigns, covering technical planning, development coordination, and production launch"
@@ -257,20 +251,6 @@
                     "icon": "fab fa-weixin",
                     "showQRCode": true,
                     "qrCodeImage": "/qrcode.jpg"
-                },
-                {
-                    "type": "blog",
-                    "title": "Technical Blog",
-                    "value": "Juejin (Chinese)",
-                    "link": "https://juejin.cn/user/835284564452397",
-                    "icon": "fas fa-book"
-                },
-                {
-                    "type": "diary",
-                    "title": "Life Diary",
-                    "value": "Ying Diary",
-                    "link": "https://diary.krissarea.com/",
-                    "icon": "fas fa-pen"
                 }
             ]
         },

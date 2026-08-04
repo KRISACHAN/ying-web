@@ -47,28 +47,29 @@
     },
     "skills": {
         "title": "技术能力",
-        "frontendTitle": "AI 应用与前端",
-        "backendTitle": "全栈与数据",
+        "frontendTitle": "AI 应用",
+        "backendTitle": "WEB 应用",
         "otherTitle": "工程化与可观测性",
         "frontend": [
             { "name": "AI 应用开发", "percentage": 85 },
-            { "name": "React / Next.js", "percentage": 90 },
-            { "name": "Vue.js", "percentage": 90 },
-            { "name": "TypeScript", "percentage": 90 },
+            { "name": "Agent Workflow / Tool Calling", "percentage": 80 },
+            { "name": "PostgreSQL / pgvector", "percentage": 80 },
             { "name": "微信小程序 / 跨端", "percentage": 85 }
         ],
         "backend": [
+            { "name": "TypeScript", "percentage": 90 },
+            { "name": "React / Next.js", "percentage": 90 },
+            { "name": "Vue.js", "percentage": 90 },
             { "name": "Node.js", "percentage": 90 },
             { "name": "Koa.js / Hono.js", "percentage": 85 },
-            { "name": "Agent Workflow / Tool Calling", "percentage": 80 },
-            { "name": "PostgreSQL / pgvector", "percentage": 80 },
+            { "name": "MySQL", "percentage": 80 },
             { "name": "RESTful API / BFF", "percentage": 90 }
         ],
         "other": [
-            { "name": "Docker / Kubernetes", "percentage": 85 },
+            { "name": "Docker", "percentage": 85 },
             { "name": "CI/CD", "percentage": 85 },
-            { "name": "监控与告警", "percentage": 85 },
             { "name": "自动化测试与质量治理", "percentage": 90 },
+            { "name": "监控与告警", "percentage": 85 },
             { "name": "Git", "percentage": 90 }
         ]
     },
@@ -79,16 +80,8 @@
                 "company": "商汤科技",
                 "position": "前端开发工程师（远程技术顾问 / AI 应用开发方向）",
                 "period": "2025 年 2 月 - 至今",
-                "description": "2025 年 2 月起以远程顾问模式参与商汤小浣熊 AI 系列产品研发，负责 AI Agent 小程序端、项目工程治理及 ToC、SaaS、ToB 等产品功能迭代。",
+                "description": "2025 年 2 月起以远程顾问模式参与商汤小浣熊 AI 系列产品研发，负责 AI 产品功能开发、项目工程治理及 ToC、SaaS、ToB 多版本交付。",
                 "projects": [
-                    {
-                        "title": "AI Agent 小程序端",
-                        "description": "建设桌面端 AI Agent 在微信生态中的移动入口，使用户可以通过小程序连接并操控电脑桌面端。",
-                        "achievements": [
-                            "作为项目负责人，独立承担小程序从 0 到 1 的研发",
-                            "负责技术方案、项目搭建、核心功能开发及整体交付"
-                        ]
-                    },
                     {
                         "title": "AI 产品工程治理",
                         "description": "针对项目长期迭代产生的质量问题与维护成本，系统梳理项目现状，建立统一标准并推动团队完成重点问题整改。",
@@ -103,6 +96,7 @@
                         "title": "日常产品开发",
                         "description": "负责 AI 产品核心功能、多版本产品与运营活动的开发和交付。",
                         "achievements": [
+                            "独立负责 AI Agent 微信小程序从 0 到 1 的研发与交付，建设桌面端产品在微信生态中的移动入口",
                             "负责 AI 任务规划功能的技术选型与 MVP 开发，完成任务图可视化及不完整 SSE 流式 JSON 的增量解析",
                             "完成 ToC、SaaS 与 ToB 版本的产品功能和商业化适配",
                             "作为项目负责人，负责运营活动的技术方案、开发协作与上线交付"
@@ -257,20 +251,6 @@
                     "icon": "fab fa-weixin",
                     "showQRCode": true,
                     "qrCodeImage": "/qrcode.jpg"
-                },
-                {
-                    "type": "blog",
-                    "title": "技术博客",
-                    "value": "掘金博客",
-                    "link": "https://juejin.cn/user/835284564452397",
-                    "icon": "fas fa-book"
-                },
-                {
-                    "type": "diary",
-                    "title": "生活日记",
-                    "value": "Ying Diary",
-                    "link": "https://diary.krissarea.com/",
-                    "icon": "fas fa-pen"
                 }
             ]
         },
