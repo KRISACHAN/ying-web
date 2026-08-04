@@ -20,12 +20,6 @@ export const SOCIAL_LINKS = [
         showQRCode: true,
         qrCodeImage: '/qrcode.jpg',
     },
-    {
-        id: 'juejin',
-        url: 'https://juejin.cn/user/835284564452397',
-        title: 'Technical Blog',
-        icon: 'fas fa-book',
-    },
 ];
 
 // navigation links
