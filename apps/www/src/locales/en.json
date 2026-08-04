@@ -51,23 +51,25 @@
         "backendTitle": "Web Applications",
         "otherTitle": "Engineering & Observability",
         "frontend": [
-            { "name": "AI Application Development", "percentage": 85 },
-            { "name": "Agent Workflow / Tool Calling", "percentage": 80 },
-            { "name": "PostgreSQL / pgvector", "percentage": 80 },
-            { "name": "WeChat Mini Programs / Cross-Platform", "percentage": 85 }
+            { "name": "AI Agent / Multimodal Agent Development", "percentage": 85 },
+            { "name": "LangChain / LangGraph", "percentage": 80 },
+            { "name": "Function Calling / Tool Use", "percentage": 85 },
+            { "name": "RAG / Long-Term Memory / Vector DB", "percentage": 80 },
+            { "name": "Prompt / Context Engineering", "percentage": 80 },
+            { "name": "Streaming / Structured Output", "percentage": 85 }
         ],
         "backend": [
             { "name": "TypeScript", "percentage": 90 },
-            { "name": "React / Next.js", "percentage": 90 },
-            { "name": "Vue.js", "percentage": 90 },
-            { "name": "Node.js", "percentage": 90 },
+            { "name": "React / Next.js / Vue.js", "percentage": 90 },
+            { "name": "CSS / LESS / SASS", "percentage": 90 },
             { "name": "Koa.js / Hono.js", "percentage": 85 },
-            { "name": "MySQL", "percentage": 80 },
-            { "name": "RESTful APIs / BFF", "percentage": 90 }
+            { "name": "MySQL / PostgreSQL", "percentage": 80 },
+            { "name": "Webpack / Vite", "percentage": 85 }
         ],
         "other": [
             { "name": "Docker", "percentage": 85 },
             { "name": "CI/CD", "percentage": 85 },
+            { "name": "Monorepo / PNPM / Turborepo", "percentage": 85 },
             { "name": "Automated Testing & Quality Governance", "percentage": 90 },
             { "name": "Monitoring & Alerting", "percentage": 85 },
             { "name": "Git", "percentage": 90 }
