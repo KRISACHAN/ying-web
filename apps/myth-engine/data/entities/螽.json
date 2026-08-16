@@ -1,0 +1,22 @@
+{
+  "id": "螽",
+  "name": "螽",
+  "pinyin": "zhōnɡ",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "即螽斯，一类昆虫，身体绿色或褐色，善跳跃，有的对农作物有害",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-16",
+      "type": "annotation",
+      "annotationExplanation": "即螽斯，一类昆虫，身体绿色或褐色，善跳跃，有的对农作物有害"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

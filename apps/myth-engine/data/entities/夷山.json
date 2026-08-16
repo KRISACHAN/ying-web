@@ -1,0 +1,24 @@
+{
+  "id": "夷山",
+  "name": "夷山",
+  "pinyin": "",
+  "aliases": [
+    "夷之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说指今浙江境内的括苍山；一说应在今福建境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-20",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说指今浙江境内的括苍山；一说应在今福建境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

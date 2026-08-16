@@ -1,0 +1,29 @@
+{
+  "id": "鯥",
+  "name": "鯥",
+  "pinyin": "lù",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鱼名，具体所指待考。一说即穿山甲",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-05",
+      "type": "annotation",
+      "annotationExplanation": "鱼名，具体所指待考。一说即穿山甲"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-05",
+      "type": "text",
+      "context": "有鱼焉，其状如牛，陵居，蛇尾，有翼，其羽在魼下，其音如留牛，其名曰鯥"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

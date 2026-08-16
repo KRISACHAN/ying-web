@@ -1,0 +1,22 @@
+{
+  "id": "少皞",
+  "name": "少皞",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "石城金室，饮气之民，不死之野，少皞、蓐收之所司者，万二千里。其令"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 6
+  }
+}

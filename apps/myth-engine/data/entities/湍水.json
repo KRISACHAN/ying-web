@@ -1,0 +1,31 @@
+{
+  "id": "湍水",
+  "name": "湍水",
+  "pinyin": "",
+  "aliases": [
+    "湍之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今湍河，源于河南伏牛山之老君山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-100",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今湍河，源于河南伏牛山之老君山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-100",
+      "type": "text",
+      "context": "湍水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "鹿水",
+  "name": "鹿水",
+  "pinyin": "",
+  "aliases": [
+    "鹿之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说应作“丽水”，丽水是瓯(ōu)江的支流",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-22",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说应作“丽水”，丽水是瓯(ōu)江的支流"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-22",
+      "type": "text",
+      "context": "鹿水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

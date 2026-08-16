@@ -1,0 +1,24 @@
+{
+  "id": "朱卷之国",
+  "name": "朱卷之国",
+  "pinyin": "",
+  "aliases": [
+    "朱卷国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即朱卷国，国名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-12",
+      "type": "annotation",
+      "annotationExplanation": "即朱卷国，国名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

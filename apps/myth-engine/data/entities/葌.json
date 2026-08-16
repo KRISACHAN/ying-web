@@ -1,0 +1,22 @@
+{
+  "id": "葌",
+  "name": "葌",
+  "pinyin": "jiān",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "兰草，一种多年生草本植物，叶子卵圆形，花白色或带紫色，有香气",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-21",
+      "type": "annotation",
+      "annotationExplanation": "兰草，一种多年生草本植物，叶子卵圆形，花白色或带紫色，有香气"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

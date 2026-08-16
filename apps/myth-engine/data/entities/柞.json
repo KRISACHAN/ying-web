@@ -1,0 +1,22 @@
+{
+  "id": "柞",
+  "name": "柞",
+  "pinyin": "zuò",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "柞树，落叶乔木，叶子倒卵形，木质坚硬，叶子可用来养柞蚕",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-09",
+      "type": "annotation",
+      "annotationExplanation": "柞树，落叶乔木，叶子倒卵形，木质坚硬，叶子可用来养柞蚕"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

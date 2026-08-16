@@ -1,0 +1,31 @@
+{
+  "id": "鸟山",
+  "name": "鸟山",
+  "pinyin": "",
+  "aliases": [
+    "鸟之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，在今陕西境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-46",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今陕西境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-04",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今新疆境内，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

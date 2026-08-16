@@ -1,0 +1,24 @@
+{
+  "id": "良余山",
+  "name": "良余山",
+  "pinyin": "",
+  "aliases": [
+    "良余之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-41",
+      "type": "text",
+      "context": "，曰良余之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

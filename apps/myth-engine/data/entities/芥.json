@@ -1,0 +1,22 @@
+{
+  "id": "芥",
+  "name": "芥",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "芥菜，一年或二年生草本植物，开黄色花，茎叶及块根可食用",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-13",
+      "type": "annotation",
+      "annotationExplanation": "芥菜，一年或二年生草本植物，开黄色花，茎叶及块根可食用"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

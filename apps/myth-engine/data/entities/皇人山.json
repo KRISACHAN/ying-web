@@ -1,0 +1,31 @@
+{
+  "id": "皇人山",
+  "name": "皇人山",
+  "pinyin": "",
+  "aliases": [
+    "皇人之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即皇人山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-24",
+      "type": "annotation",
+      "annotationExplanation": "即皇人山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-24",
+      "type": "text",
+      "context": "，曰皇人之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

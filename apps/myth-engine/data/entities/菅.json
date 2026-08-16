@@ -1,0 +1,22 @@
+{
+  "id": "菅",
+  "name": "菅",
+  "pinyin": "jiān",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "菅茅，一种多年生草本植物，叶子细长而尖，开绿色花",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-10",
+      "type": "annotation",
+      "annotationExplanation": "菅茅，一种多年生草本植物，叶子细长而尖，开绿色花"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

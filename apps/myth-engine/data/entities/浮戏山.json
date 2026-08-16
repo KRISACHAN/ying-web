@@ -1,0 +1,31 @@
+{
+  "id": "浮戏山",
+  "name": "浮戏山",
+  "pinyin": "",
+  "aliases": [
+    "浮戏之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即浮戏山，山名，一说在今河南巩义市、荥(xínɡ)阳市、郑州市一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-62",
+      "type": "annotation",
+      "annotationExplanation": "即浮戏山，山名，一说在今河南巩义市、荥(xínɡ)阳市、郑州市一带"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-62",
+      "type": "text",
+      "context": "，曰浮戏之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

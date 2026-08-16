@@ -1,0 +1,1136 @@
+{
+  "id": "shanhaijing-13",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 13,
+  "chapterTitle": "海内东经第十三",
+  "entryCount": 26,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "海内东北陬以南者。",
+      "annotations": [
+        {
+          "term": "海内",
+          "explanation": "指海内东经所记载的地方"
+        },
+        {
+          "term": "陬(zōu)",
+          "explanation": "隅，角落"
+        }
+      ],
+      "translation": "海内东经所记载的是东北角以南的地方。",
+      "index": 1
+    },
+    {
+      "title": "钜燕",
+      "originalText": "钜燕在东北陬。",
+      "annotations": [],
+      "translation": "大燕国在东北角。",
+      "index": 2
+    },
+    {
+      "title": "国在流沙中者",
+      "originalText": "国在流沙中者埻端、玺，在昆仑虚东南。一曰海内之郡，不为郡县，在流沙中。",
+      "annotations": [
+        {
+          "term": "埻(zhǔn)端",
+          "explanation": "国名，一说可能指敦煌"
+        },
+        {
+          "term": "玺(huàn)",
+          "explanation": "国名，具体所指待考"
+        },
+        {
+          "term": "昆仑虚",
+          "explanation": "即昆仑山"
+        },
+        {
+          "term": "海内",
+          "explanation": "国境之内"
+        }
+      ],
+      "translation": "位于流沙中的国家有埻端和玺，它们在昆仑山的东南边。一说埻端和玺属于国内的郡，只是因为处在流沙中，所以才不称为郡县。",
+      "index": 3
+    },
+    {
+      "title": "国在流沙外者",
+      "originalText": "国在流沙外者，大夏、竖沙、居繇、月支之国。",
+      "annotations": [
+        {
+          "term": "大夏",
+          "explanation": "国名，位于中亚，由本居中国的大夏人(属羌族的一支)建立"
+        },
+        {
+          "term": "竖沙",
+          "explanation": "国名，具体所指待考。一说在今新疆莎车县一带；一说在今阿富汗境内"
+        },
+        {
+          "term": "居繇(yáo)",
+          "explanation": "国名，具体所指待考。一说在今阿富汗境内"
+        },
+        {
+          "term": "月支",
+          "explanation": "即月氏(zhī)，又叫大月氏，古族名，原居于中国西北地区，秦汉时远迁至中亚阿富汗一带"
+        }
+      ],
+      "translation": "位于流沙以外的国家有大夏、竖沙、居繇和月支。",
+      "index": 4
+    },
+    {
+      "title": "西胡白玉山",
+      "originalText": "西胡白玉山在大夏东，苍梧在白玉山西南，皆在流沙西，昆仑虚东南。昆仑山在西胡西，皆在西北。",
+      "annotations": [
+        {
+          "term": "西胡",
+          "explanation": "我国古代泛称北方边地与西域的民族为胡，西胡即位于西边的胡人，相对于东胡而言"
+        },
+        {
+          "term": "白玉山",
+          "explanation": "山名，具体所指待考。一说疑即玉山"
+        },
+        {
+          "term": "苍梧",
+          "explanation": "山名，位于西北地区，一说为昆仑山的群山之一"
+        }
+      ],
+      "translation": "位于西胡境内的白玉山在大夏的东边，苍梧山在白玉山的西南边，都在流沙的西边，昆仑山的东南边。昆仑山在西胡的西边，它们都在西北地区。",
+      "index": 5
+    },
+    {
+      "title": "雷泽中雷神",
+      "originalText": "雷泽中有雷神，龙身而人头，鼓其腹。在吴西。",
+      "annotations": [
+        {
+          "term": "雷泽",
+          "explanation": "古泽名，称为雷泽的地方有二：一在今山东荷泽市东北，又称雷夏；一在今山西永州市蒲州南，源出雷首山，南流入黄河。一说这里指震泽，即太湖"
+        },
+        {
+          "term": "雷神",
+          "explanation": "中国古代神话中的司雷之神，又叫雷公、雷师"
+        },
+        {
+          "term": "鼓",
+          "explanation": "敲击"
+        },
+        {
+          "term": "吴",
+          "explanation": "地名，一说即古吴都(今江苏苏州市)"
+        }
+      ],
+      "translation": "雷泽里面有一位雷神，他长着龙一样的身子，人一样的脑袋，只要敲击自己的腹部，便会发出雷声。雷泽在吴的西边。",
+      "index": 6
+    },
+    {
+      "title": "始鸠",
+      "originalText": "始鸠在海中，辕厉南。",
+      "annotations": [
+        {
+          "term": "始鸠",
+          "explanation": "一说指鸟名，即尸鸠；一说指国名"
+        },
+        {
+          "term": "辕厉",
+          "explanation": "所指待考。一说应作“韩雁”"
+        }
+      ],
+      "translation": "始鸠在大海中，位于辕厉的南边。",
+      "index": 7
+    },
+    {
+      "title": "会稽山",
+      "originalText": "会稽山在大楚南。",
+      "annotations": [
+        {
+          "term": "楚",
+          "explanation": "周代诸侯国名，楚文王时建都于郢(yǐnɡ，今湖北荆州纪南城)。一说应作“越”"
+        }
+      ],
+      "translation": "会稽山位于大楚国的南边。",
+      "index": 8
+    },
+    {
+      "title": "岷三江",
+      "originalText": "岷三江：首大江出汶山，北江出曼山，南江出高山。高山在城都西，入海在长州南。",
+      "annotations": [
+        {
+          "term": "岷",
+          "explanation": "指岷江，长江上游支流，在今四川中部，源出岷山南麓，东源出弓杠岭，西源出郎架岭，南流经松潘、汶川等县到都江堰市出峡，自此以下称都江、汶江"
+        },
+        {
+          "term": "大江",
+          "explanation": "这里指岷江的主流"
+        },
+        {
+          "term": "汶山",
+          "explanation": "即岷山"
+        },
+        {
+          "term": "北江",
+          "explanation": "水名，一说即青衣江，又叫雅河，在今四川中部，是大渡河的支流"
+        },
+        {
+          "term": "曼山",
+          "explanation": "山名，一说指蒙山，在今四川名山县西北；一说指崌(jū)山"
+        },
+        {
+          "term": "南江",
+          "explanation": "水名，一说指大渡河"
+        },
+        {
+          "term": "高山",
+          "explanation": "山名，一说指邛崃(qiónɡ lái)山；一说指大雪山"
+        },
+        {
+          "term": "城",
+          "explanation": "应为“成”"
+        },
+        {
+          "term": "长州",
+          "explanation": "一说指今江苏如皋(ɡāo)市东的沙洲"
+        }
+      ],
+      "translation": "岷江包括三条江：首条是岷江的主流，发源于汶山；北江发源于曼山；南江发源于高山。高山位于成都的西边，长江的入海处位于长州的南边。",
+      "index": 9
+    },
+    {
+      "title": "浙江",
+      "originalText": "浙江出三天子都，在其东，在闽西北，入海，余暨南。",
+      "annotations": [
+        {
+          "term": "浙江",
+          "explanation": "水名，即钱塘江，是今浙江省最大的河流，上游为新安江，源出今安徽休宁县"
+        },
+        {
+          "term": "三天子都",
+          "explanation": "山名，即三天子鄣(zhānɡ)，一说此处指黄山山脉、玉山山脉和缙(jìn)云山等"
+        },
+        {
+          "term": "其",
+          "explanation": "应作“蛮”，蛮是中国古代对长江中游及其以南地区少数民族的泛称"
+        },
+        {
+          "term": "余暨",
+          "explanation": "汉时县名，今属浙江杭州市萧山区"
+        },
+        {
+          "term": "南",
+          "explanation": "应作“北”"
+        }
+      ],
+      "translation": "浙江发源于三天子都山，位于蛮人居住地的东边，福建的西北，在余暨的南边(应在北边)入海。",
+      "index": 10
+    },
+    {
+      "title": "庐江",
+      "originalText": "庐江出三天子都，入江，彭泽西。一曰天子鄣。",
+      "annotations": [
+        {
+          "term": "庐江",
+          "explanation": "一说指江西庐源水，源出今江西婺(wù)源县西北庐岭山；一说即青弋江，在今安徽东南部，上源为清溪河"
+        },
+        {
+          "term": "三天子都",
+          "explanation": "即三天子鄣"
+        },
+        {
+          "term": "彭泽",
+          "explanation": "即彭蠡(lǐ)，古泽薮(sǒu)名，今名鄱阳湖"
+        }
+      ],
+      "translation": "庐江发源于三天子都山，在彭泽西边流入长江。一说三天子都即天子鄣。",
+      "index": 11
+    },
+    {
+      "title": "汉水",
+      "originalText": "汉水出鲋鱼之山，帝颛顼葬于阳，九嫔葬于阴，四蛇卫之。",
+      "annotations": [
+        {
+          "term": "汉水",
+          "explanation": "一说此处应作“濮(pú)水”，濮水又称濮渠水，上游分两支，合流于今河南长垣县西"
+        },
+        {
+          "term": "鲋(fù)鱼之山",
+          "explanation": "又作务隅山、附禺山。一说即嶓冢(bō zhǒnɡ)山"
+        }
+      ],
+      "translation": "汉水发源于鲋鱼山，帝颛顼葬在这座山的阳面，他的九位嫔妃葬在山的阴面，有四条蛇守卫在那里。",
+      "index": 12
+    },
+    {
+      "title": "濛水",
+      "originalText": "濛水出汉阳西，入江，聂阳西。",
+      "annotations": [
+        {
+          "term": "濛水",
+          "explanation": "水名，一说即今乌江，汉时称延江水"
+        },
+        {
+          "term": "汉阳",
+          "explanation": "汉时县名，属犍为(qián wéi)郡，在今贵州省"
+        },
+        {
+          "term": "聂阳",
+          "explanation": "地名，具体所指待考"
+        }
+      ],
+      "translation": "濛水发源于汉阳的西边，在聂阳的西边流入长江。",
+      "index": 13
+    },
+    {
+      "title": "温水",
+      "originalText": "温水出崆峒山，在临汾南，入河，华阳北。",
+      "annotations": [
+        {
+          "term": "温水",
+          "explanation": "水名，具体所指待考。一说因其水常温，故名"
+        },
+        {
+          "term": "崆峒(kōnɡ tónɡ)山",
+          "explanation": "甘肃平凉西有崆峒山，属六盘山，此处所指与此不同。一说指山西绛县的太阴山；一说属于太岳山(在今山西中南部，汾河东岸)"
+        },
+        {
+          "term": "临汾",
+          "explanation": "汉时县名，治今山西新绛县东北"
+        },
+        {
+          "term": "华阳",
+          "explanation": "地名，具体所指待考。一说可能指华山之阳"
+        }
+      ],
+      "translation": "温水发源于崆峒山，位于临汾的南边，在华阳的北边流入黄河。",
+      "index": 14
+    },
+    {
+      "title": "颍水",
+      "originalText": "颍水出少室，少室山在雍氏南，入淮西鄢北。一曰缑氏。",
+      "annotations": [
+        {
+          "term": "颍水",
+          "explanation": "即颍河，淮河的最大支流，在今安徽西北部及河南东部，源出河南登封市嵩山西南"
+        },
+        {
+          "term": "少室",
+          "explanation": "即少室山"
+        },
+        {
+          "term": "雍氏",
+          "explanation": "一说即雍梁邑(yì)，在今河南禹州市东北；一说应作“缑氏”"
+        },
+        {
+          "term": "淮西",
+          "explanation": "淮河流域西部"
+        },
+        {
+          "term": "鄢(yān)",
+          "explanation": "古国名、邑名，后改称鄢陵，在今河南鄢陵西北"
+        },
+        {
+          "term": "缑(ɡōu)氏",
+          "explanation": "古县名，秦置，治今河南偃师市东南"
+        }
+      ],
+      "translation": "颍水发源于少室山，少室山在雍氏的南边，颍水在淮河流域的西边、鄢陵的北边流入淮河。一说雍氏即缑氏。",
+      "index": 15
+    },
+    {
+      "title": "白水",
+      "originalText": "白水出蜀，而东南注江，入江州城下。",
+      "annotations": [
+        {
+          "term": "白水",
+          "explanation": "即今白水江，源出四川松潘东北，向东南流经甘肃文县，至四川广元市西南入今嘉陵江"
+        },
+        {
+          "term": "蜀",
+          "explanation": "蜀山，在今四川西北"
+        },
+        {
+          "term": "江州",
+          "explanation": "古县名，战国时治今重庆市区嘉陵江北岸，三国蜀汉时移治嘉陵江南岸，即今重庆市区"
+        }
+      ],
+      "translation": "白水发源于蜀山，向东南流到江南流到江州城下后入长江。",
+      "index": 16
+    },
+    {
+      "title": "沅水",
+      "originalText": "沅水山出象郡镡城西，入东注江，入下隽西，合洞庭中。",
+      "annotations": [
+        {
+          "term": "沅(yuán)水山",
+          "explanation": "“山”字系衍文。沅水即沅江"
+        },
+        {
+          "term": "象郡",
+          "explanation": "郡名，秦时置，治临尘(今广西崇左市境内)"
+        },
+        {
+          "term": "镡(xín)城",
+          "explanation": "古县名，一说治今湖南靖州西南"
+        },
+        {
+          "term": "入东注江",
+          "explanation": "“入”字一说系衍文，一说应作“又”。此句似应移至文末，因沅水系流入洞庭湖后再入长江"
+        },
+        {
+          "term": "下隽",
+          "explanation": "古县名，西汉置，因隽水而得名，治今湖北通城县西北"
+        }
+      ],
+      "translation": "沅水发源于象郡镡城的西边，在下隽的西边流入洞庭湖，向东流入长江。",
+      "index": 17
+    },
+    {
+      "title": "肄水",
+      "originalText": "肄水出临晋西南，而东南注海，入番禺西。",
+      "annotations": [
+        {
+          "term": "肄(yì)水",
+          "explanation": "即溱(zhēn)水，源出今湖南临武县西南，北流与武溪水合"
+        },
+        {
+          "term": "临晋",
+          "explanation": "应作“临武”"
+        },
+        {
+          "term": "番禺",
+          "explanation": "古县名，在今广东广州市番禺区"
+        }
+      ],
+      "translation": "肄水发源于临武西南，向东南流经番禺西边后入海。",
+      "index": 18
+    },
+    {
+      "title": "潢水",
+      "originalText": "潢水出桂阳西北山，东南注肄水，入敦浦西。",
+      "annotations": [
+        {
+          "term": "潢(huánɡ)水",
+          "explanation": "一作“湟(huánɡ)水”。也叫涯(yá)水，古水名，即今广东西北的湟江、连江"
+        },
+        {
+          "term": "桂阳",
+          "explanation": "古县名，汉置，治今广东连州市"
+        },
+        {
+          "term": "敦浦",
+          "explanation": "一作“郭浦”，具体所指待考。一说指涯浦关"
+        }
+      ],
+      "translation": "潢水发源于桂阳西北的山中，向东南流经敦浦西边入肄水。",
+      "index": 19
+    },
+    {
+      "title": "洛水",
+      "originalText": "洛水出洛西山，东北注河，入成皋之西。",
+      "annotations": [
+        {
+          "term": "洛水",
+          "explanation": "即洛河"
+        },
+        {
+          "term": "洛西山",
+          "explanation": "一说指今陕西的(huān)举山；一说“洛”指洛阳，在今河南洛阳市"
+        },
+        {
+          "term": "成皋(ɡāo)",
+          "explanation": "古县名，汉置，治今河南荥(xínɡ)阳市汜(sì)水镇西"
+        }
+      ],
+      "translation": "洛河发源于洛阳西部的山，向东北流经成皋的西边入黄河。",
+      "index": 20
+    },
+    {
+      "title": "汾水",
+      "originalText": "汾水出上窳北，而西南注河，入皮氏南。",
+      "annotations": [
+        {
+          "term": "上窳",
+          "explanation": "地名，具体所指待考。一说在今山西静乐县北"
+        },
+        {
+          "term": "皮氏",
+          "explanation": "古县名，在今山西河津县"
+        }
+      ],
+      "translation": "汾水发源于上窳的北面，向西南流经皮氏的南边入黄河。",
+      "index": 21
+    },
+    {
+      "title": "沁水",
+      "originalText": "沁水出井陉山东，东南注河，入怀东南。",
+      "annotations": [
+        {
+          "term": "井陉山",
+          "explanation": "山名，具体所指待考。今河北石家庄市西部有井陉山，此处所指井陉山则应在山西"
+        },
+        {
+          "term": "怀",
+          "explanation": "古县名，在今河南焦作市境内"
+        }
+      ],
+      "translation": "沁水发源于井陉山的东面，向东南流经怀县的东南入黄河。",
+      "index": 22
+    },
+    {
+      "title": "济水",
+      "originalText": "济水出共山南东丘，绝钜鹿泽，注渤海，入齐琅槐东北。",
+      "annotations": [
+        {
+          "term": "济(jǐ)水",
+          "explanation": "水名，包括黄河南北两部分，河北部分源出今河南济源市西王屋山，河南部分本系从黄河分出的一条支流"
+        },
+        {
+          "term": "共山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "绝",
+          "explanation": "穿过；经过"
+        },
+        {
+          "term": "钜(jù)鹿泽",
+          "explanation": "“鹿”应作“野”，又叫巨野泽，即大野泽，在今山东巨野县北"
+        },
+        {
+          "term": "齐",
+          "explanation": "地区名，今山东泰山以北黄河流域及胶东半岛地区，为战国时齐地，汉以后沿称齐"
+        },
+        {
+          "term": "琅(lánɡ)槐",
+          "explanation": "古县名，在今山东利津县东南"
+        }
+      ],
+      "translation": "济水发源于共山南面的东丘，穿过巨野泽，流经齐地琅槐的东北入渤海。",
+      "index": 23
+    },
+    {
+      "title": "潦水",
+      "originalText": "潦水出卫皋东，东南注渤海，入潦阳。",
+      "annotations": [
+        {
+          "term": "潦水",
+          "explanation": "即辽河，中国东北地区南部大河，流贯辽宁省中部，经盘锦市入渤海"
+        },
+        {
+          "term": "卫皋(ɡāo)",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "潦阳",
+          "explanation": "即辽阳，古县名，在今辽宁辽中县"
+        }
+      ],
+      "translation": "潦水发源于卫皋的东面，向东南流经潦阳入渤海。",
+      "index": 24
+    },
+    {
+      "title": "虖沱河",
+      "originalText": "虖沱水出晋阳城南，而西至阳曲北，而东注渤海，入越章武北。",
+      "annotations": [
+        {
+          "term": "晋阳",
+          "explanation": "古县名，在今山西太原市"
+        },
+        {
+          "term": "阳曲",
+          "explanation": "古县名，在今山西太原市北部，包括定襄县、阳曲县等"
+        },
+        {
+          "term": "越",
+          "explanation": "一说疑为衍文；一说应作“赵”；一说章武在春秋时属越，故有此说"
+        },
+        {
+          "term": "章武",
+          "explanation": "古县名，汉置，治今河北黄骅(huá)市西北"
+        }
+      ],
+      "translation": "虖沱河发源于晋阳城的南边，西流至阳曲县的北边，再向东流经章武的北边入渤海。",
+      "index": 25
+    },
+    {
+      "title": "漳水",
+      "originalText": "漳水出山阳东，东注渤海，入章武南。",
+      "annotations": [
+        {
+          "term": "山阳",
+          "explanation": "一说在河南修武县；一说疑为“阳邑(yì)”之讹，阳邑是古县名，在今山西榆次市南边"
+        }
+      ],
+      "translation": "漳河发源于山阳的东面，向东流经章武的南边入渤海。",
+      "index": 26
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "海内",
+      "entryId": "shanhaijing-13-01",
+      "entryTitle": "其一",
+      "term": "海内"
+    },
+    {
+      "entityName": "埻端",
+      "entryId": "shanhaijing-13-03",
+      "entryTitle": "国在流沙中者",
+      "term": "埻端"
+    },
+    {
+      "entityName": "玺",
+      "entryId": "shanhaijing-13-03",
+      "entryTitle": "国在流沙中者",
+      "term": "玺"
+    },
+    {
+      "entityName": "昆仑山",
+      "entryId": "shanhaijing-13-03",
+      "entryTitle": "国在流沙中者",
+      "term": "昆仑虚"
+    },
+    {
+      "entityName": "昆仑",
+      "entryId": "shanhaijing-13-03",
+      "entryTitle": "国在流沙中者",
+      "term": "昆仑"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-13-03",
+      "entryTitle": "国在流沙中者",
+      "term": "流沙"
+    },
+    {
+      "entityName": "大夏",
+      "entryId": "shanhaijing-13-04",
+      "entryTitle": "国在流沙外者",
+      "term": "大夏"
+    },
+    {
+      "entityName": "竖沙",
+      "entryId": "shanhaijing-13-04",
+      "entryTitle": "国在流沙外者",
+      "term": "竖沙"
+    },
+    {
+      "entityName": "居繇",
+      "entryId": "shanhaijing-13-04",
+      "entryTitle": "国在流沙外者",
+      "term": "居繇"
+    },
+    {
+      "entityName": "月支",
+      "entryId": "shanhaijing-13-04",
+      "entryTitle": "国在流沙外者",
+      "term": "月支"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-13-04",
+      "entryTitle": "国在流沙外者",
+      "term": "流沙"
+    },
+    {
+      "entityName": "大夏",
+      "entryId": "shanhaijing-13-04",
+      "entryTitle": "国在流沙外者",
+      "term": "大夏"
+    },
+    {
+      "entityName": "西胡",
+      "entryId": "shanhaijing-13-05",
+      "entryTitle": "西胡白玉山",
+      "term": "西胡"
+    },
+    {
+      "entityName": "白玉山",
+      "entryId": "shanhaijing-13-05",
+      "entryTitle": "西胡白玉山",
+      "term": "白玉山"
+    },
+    {
+      "entityName": "苍梧",
+      "entryId": "shanhaijing-13-05",
+      "entryTitle": "西胡白玉山",
+      "term": "苍梧"
+    },
+    {
+      "entityName": "昆仑山",
+      "entryId": "shanhaijing-13-05",
+      "entryTitle": "西胡白玉山",
+      "term": "昆仑山"
+    },
+    {
+      "entityName": "昆仑",
+      "entryId": "shanhaijing-13-05",
+      "entryTitle": "西胡白玉山",
+      "term": "昆仑"
+    },
+    {
+      "entityName": "苍梧",
+      "entryId": "shanhaijing-13-05",
+      "entryTitle": "西胡白玉山",
+      "term": "苍梧"
+    },
+    {
+      "entityName": "玉山",
+      "entryId": "shanhaijing-13-05",
+      "entryTitle": "西胡白玉山",
+      "term": "玉山"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-13-05",
+      "entryTitle": "西胡白玉山",
+      "term": "流沙"
+    },
+    {
+      "entityName": "大夏",
+      "entryId": "shanhaijing-13-05",
+      "entryTitle": "西胡白玉山",
+      "term": "大夏"
+    },
+    {
+      "entityName": "雷泽",
+      "entryId": "shanhaijing-13-06",
+      "entryTitle": "雷泽中雷神",
+      "term": "雷泽"
+    },
+    {
+      "entityName": "雷神",
+      "entryId": "shanhaijing-13-06",
+      "entryTitle": "雷泽中雷神",
+      "term": "雷神"
+    },
+    {
+      "entityName": "吴",
+      "entryId": "shanhaijing-13-06",
+      "entryTitle": "雷泽中雷神",
+      "term": "吴"
+    },
+    {
+      "entityName": "雷神",
+      "entryId": "shanhaijing-13-06",
+      "entryTitle": "雷泽中雷神",
+      "term": "雷神"
+    },
+    {
+      "entityName": "雷泽",
+      "entryId": "shanhaijing-13-06",
+      "entryTitle": "雷泽中雷神",
+      "term": "雷泽"
+    },
+    {
+      "entityName": "始鸠",
+      "entryId": "shanhaijing-13-07",
+      "entryTitle": "始鸠",
+      "term": "始鸠"
+    },
+    {
+      "entityName": "楚",
+      "entryId": "shanhaijing-13-08",
+      "entryTitle": "会稽山",
+      "term": "楚"
+    },
+    {
+      "entityName": "会稽",
+      "entryId": "shanhaijing-13-08",
+      "entryTitle": "会稽山",
+      "term": "会稽"
+    },
+    {
+      "entityName": "岷",
+      "entryId": "shanhaijing-13-09",
+      "entryTitle": "岷三江",
+      "term": "岷"
+    },
+    {
+      "entityName": "岷山",
+      "entryId": "shanhaijing-13-09",
+      "entryTitle": "岷三江",
+      "term": "汶山"
+    },
+    {
+      "entityName": "北江",
+      "entryId": "shanhaijing-13-09",
+      "entryTitle": "岷三江",
+      "term": "北江"
+    },
+    {
+      "entityName": "曼山",
+      "entryId": "shanhaijing-13-09",
+      "entryTitle": "岷三江",
+      "term": "曼山"
+    },
+    {
+      "entityName": "南江",
+      "entryId": "shanhaijing-13-09",
+      "entryTitle": "岷三江",
+      "term": "南江"
+    },
+    {
+      "entityName": "高山",
+      "entryId": "shanhaijing-13-09",
+      "entryTitle": "岷三江",
+      "term": "高山"
+    },
+    {
+      "entityName": "长州",
+      "entryId": "shanhaijing-13-09",
+      "entryTitle": "岷三江",
+      "term": "长州"
+    },
+    {
+      "entityName": "浙江",
+      "entryId": "shanhaijing-13-10",
+      "entryTitle": "浙江",
+      "term": "浙江"
+    },
+    {
+      "entityName": "三天子鄣",
+      "entryId": "shanhaijing-13-10",
+      "entryTitle": "浙江",
+      "term": "三天子都"
+    },
+    {
+      "entityName": "余暨",
+      "entryId": "shanhaijing-13-10",
+      "entryTitle": "浙江",
+      "term": "余暨"
+    },
+    {
+      "entityName": "庐江",
+      "entryId": "shanhaijing-13-11",
+      "entryTitle": "庐江",
+      "term": "庐江"
+    },
+    {
+      "entityName": "三天子鄣",
+      "entryId": "shanhaijing-13-11",
+      "entryTitle": "庐江",
+      "term": "三天子都"
+    },
+    {
+      "entityName": "彭泽",
+      "entryId": "shanhaijing-13-11",
+      "entryTitle": "庐江",
+      "term": "彭泽"
+    },
+    {
+      "entityName": "汉水",
+      "entryId": "shanhaijing-13-12",
+      "entryTitle": "汉水",
+      "term": "汉水"
+    },
+    {
+      "entityName": "鲋鱼山",
+      "entryId": "shanhaijing-13-12",
+      "entryTitle": "汉水",
+      "term": "鲋鱼之山"
+    },
+    {
+      "entityName": "颛顼",
+      "entryId": "shanhaijing-13-12",
+      "entryTitle": "汉水",
+      "term": "颛顼"
+    },
+    {
+      "entityName": "汉水",
+      "entryId": "shanhaijing-13-12",
+      "entryTitle": "汉水",
+      "term": "汉水"
+    },
+    {
+      "entityName": "濛水",
+      "entryId": "shanhaijing-13-13",
+      "entryTitle": "濛水",
+      "term": "濛水"
+    },
+    {
+      "entityName": "汉阳",
+      "entryId": "shanhaijing-13-13",
+      "entryTitle": "濛水",
+      "term": "汉阳"
+    },
+    {
+      "entityName": "聂阳",
+      "entryId": "shanhaijing-13-13",
+      "entryTitle": "濛水",
+      "term": "聂阳"
+    },
+    {
+      "entityName": "温水",
+      "entryId": "shanhaijing-13-14",
+      "entryTitle": "温水",
+      "term": "温水"
+    },
+    {
+      "entityName": "崆峒山",
+      "entryId": "shanhaijing-13-14",
+      "entryTitle": "温水",
+      "term": "崆峒山"
+    },
+    {
+      "entityName": "临汾",
+      "entryId": "shanhaijing-13-14",
+      "entryTitle": "温水",
+      "term": "临汾"
+    },
+    {
+      "entityName": "华阳",
+      "entryId": "shanhaijing-13-14",
+      "entryTitle": "温水",
+      "term": "华阳"
+    },
+    {
+      "entityName": "颍水",
+      "entryId": "shanhaijing-13-15",
+      "entryTitle": "颍水",
+      "term": "颍水"
+    },
+    {
+      "entityName": "少室山",
+      "entryId": "shanhaijing-13-15",
+      "entryTitle": "颍水",
+      "term": "少室"
+    },
+    {
+      "entityName": "雍氏",
+      "entryId": "shanhaijing-13-15",
+      "entryTitle": "颍水",
+      "term": "雍氏"
+    },
+    {
+      "entityName": "鄢",
+      "entryId": "shanhaijing-13-15",
+      "entryTitle": "颍水",
+      "term": "鄢"
+    },
+    {
+      "entityName": "缑氏",
+      "entryId": "shanhaijing-13-15",
+      "entryTitle": "颍水",
+      "term": "缑氏"
+    },
+    {
+      "entityName": "白水",
+      "entryId": "shanhaijing-13-16",
+      "entryTitle": "白水",
+      "term": "白水"
+    },
+    {
+      "entityName": "蜀",
+      "entryId": "shanhaijing-13-16",
+      "entryTitle": "白水",
+      "term": "蜀"
+    },
+    {
+      "entityName": "江州",
+      "entryId": "shanhaijing-13-16",
+      "entryTitle": "白水",
+      "term": "江州"
+    },
+    {
+      "entityName": "象郡",
+      "entryId": "shanhaijing-13-17",
+      "entryTitle": "沅水",
+      "term": "象郡"
+    },
+    {
+      "entityName": "镡城",
+      "entryId": "shanhaijing-13-17",
+      "entryTitle": "沅水",
+      "term": "镡城"
+    },
+    {
+      "entityName": "下隽",
+      "entryId": "shanhaijing-13-17",
+      "entryTitle": "沅水",
+      "term": "下隽"
+    },
+    {
+      "entityName": "洞庭",
+      "entryId": "shanhaijing-13-17",
+      "entryTitle": "沅水",
+      "term": "洞庭"
+    },
+    {
+      "entityName": "沅水",
+      "entryId": "shanhaijing-13-17",
+      "entryTitle": "沅水",
+      "term": "沅水"
+    },
+    {
+      "entityName": "肄水",
+      "entryId": "shanhaijing-13-18",
+      "entryTitle": "肄水",
+      "term": "肄水"
+    },
+    {
+      "entityName": "番禺",
+      "entryId": "shanhaijing-13-18",
+      "entryTitle": "肄水",
+      "term": "番禺"
+    },
+    {
+      "entityName": "潢水",
+      "entryId": "shanhaijing-13-19",
+      "entryTitle": "潢水",
+      "term": "潢水"
+    },
+    {
+      "entityName": "桂阳",
+      "entryId": "shanhaijing-13-19",
+      "entryTitle": "潢水",
+      "term": "桂阳"
+    },
+    {
+      "entityName": "洛河",
+      "entryId": "shanhaijing-13-20",
+      "entryTitle": "洛水",
+      "term": "洛水"
+    },
+    {
+      "entityName": "洛西山",
+      "entryId": "shanhaijing-13-20",
+      "entryTitle": "洛水",
+      "term": "洛西山"
+    },
+    {
+      "entityName": "成皋",
+      "entryId": "shanhaijing-13-20",
+      "entryTitle": "洛水",
+      "term": "成皋"
+    },
+    {
+      "entityName": "洛河",
+      "entryId": "shanhaijing-13-20",
+      "entryTitle": "洛水",
+      "term": "洛水"
+    },
+    {
+      "entityName": "上窳",
+      "entryId": "shanhaijing-13-21",
+      "entryTitle": "汾水",
+      "term": "上窳"
+    },
+    {
+      "entityName": "皮氏",
+      "entryId": "shanhaijing-13-21",
+      "entryTitle": "汾水",
+      "term": "皮氏"
+    },
+    {
+      "entityName": "井陉山",
+      "entryId": "shanhaijing-13-22",
+      "entryTitle": "沁水",
+      "term": "井陉山"
+    },
+    {
+      "entityName": "怀",
+      "entryId": "shanhaijing-13-22",
+      "entryTitle": "沁水",
+      "term": "怀"
+    },
+    {
+      "entityName": "济水",
+      "entryId": "shanhaijing-13-23",
+      "entryTitle": "济水",
+      "term": "济水"
+    },
+    {
+      "entityName": "共山",
+      "entryId": "shanhaijing-13-23",
+      "entryTitle": "济水",
+      "term": "共山"
+    },
+    {
+      "entityName": "钜鹿泽",
+      "entryId": "shanhaijing-13-23",
+      "entryTitle": "济水",
+      "term": "钜鹿泽"
+    },
+    {
+      "entityName": "齐",
+      "entryId": "shanhaijing-13-23",
+      "entryTitle": "济水",
+      "term": "齐"
+    },
+    {
+      "entityName": "琅槐",
+      "entryId": "shanhaijing-13-23",
+      "entryTitle": "济水",
+      "term": "琅槐"
+    },
+    {
+      "entityName": "渤海",
+      "entryId": "shanhaijing-13-23",
+      "entryTitle": "济水",
+      "term": "渤海"
+    },
+    {
+      "entityName": "潦水",
+      "entryId": "shanhaijing-13-24",
+      "entryTitle": "潦水",
+      "term": "潦水"
+    },
+    {
+      "entityName": "卫皋",
+      "entryId": "shanhaijing-13-24",
+      "entryTitle": "潦水",
+      "term": "卫皋"
+    },
+    {
+      "entityName": "潦阳",
+      "entryId": "shanhaijing-13-24",
+      "entryTitle": "潦水",
+      "term": "潦阳"
+    },
+    {
+      "entityName": "渤海",
+      "entryId": "shanhaijing-13-24",
+      "entryTitle": "潦水",
+      "term": "渤海"
+    },
+    {
+      "entityName": "晋阳",
+      "entryId": "shanhaijing-13-25",
+      "entryTitle": "虖沱河",
+      "term": "晋阳"
+    },
+    {
+      "entityName": "阳曲",
+      "entryId": "shanhaijing-13-25",
+      "entryTitle": "虖沱河",
+      "term": "阳曲"
+    },
+    {
+      "entityName": "章武",
+      "entryId": "shanhaijing-13-25",
+      "entryTitle": "虖沱河",
+      "term": "章武"
+    },
+    {
+      "entityName": "渤海",
+      "entryId": "shanhaijing-13-25",
+      "entryTitle": "虖沱河",
+      "term": "渤海"
+    },
+    {
+      "entityName": "山阳",
+      "entryId": "shanhaijing-13-26",
+      "entryTitle": "漳水",
+      "term": "山阳"
+    },
+    {
+      "entityName": "渤海",
+      "entryId": "shanhaijing-13-26",
+      "entryTitle": "漳水",
+      "term": "渤海"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_13.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

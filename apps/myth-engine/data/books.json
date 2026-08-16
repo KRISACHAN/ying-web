@@ -1,0 +1,759 @@
+{
+  "generatedAt": "2026-08-07",
+  "source": "太极书馆 (8bei8.com)",
+  "bookCount": 4,
+  "totalChapters": 85,
+  "totalEntries": 1057,
+  "entityCount": 1437,
+  "relationCount": 1598,
+  "entityTypes": {
+    "mountain": 370,
+    "river": 236,
+    "state": 106,
+    "creature": 105,
+    "place": 97,
+    "deity": 91,
+    "person": 79,
+    "bird": 65,
+    "plant": 53,
+    "mineral": 47,
+    "tree": 46,
+    "concept": 33,
+    "object": 30,
+    "fish": 27,
+    "serpent": 20,
+    "star": 18,
+    "unknown": 10,
+    "unit": 4
+  },
+  "books": [
+    {
+      "id": "shanhaijing",
+      "title": "山海经",
+      "titleEn": "Classic of Mountains and Seas",
+      "pinyin": "Shānhǎijīng",
+      "era": "先秦至西汉",
+      "category": "地理志 · 神话志怪",
+      "description": "《山海经》是中国先秦重要古籍，传世版本共十八卷，包括《山经》五卷、《海经》十三卷。内容主要是民间传说中的地理知识，包括山川、道里、民族、物产、药物、祭祀、巫医等，保存了夸父逐日、女娲补天、精卫填海、大禹治水等远古神话传说和寓言故事。",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "南山经第一",
+          "entryCount": 37,
+          "entityCount": 212,
+          "file": "chapters/shanhaijing/01.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_1.html"
+        },
+        {
+          "index": 2,
+          "title": "西山经第二",
+          "entryCount": 57,
+          "entityCount": 361,
+          "file": "chapters/shanhaijing/02.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_2.html"
+        },
+        {
+          "index": 3,
+          "title": "北山经第三",
+          "entryCount": 48,
+          "entityCount": 284,
+          "file": "chapters/shanhaijing/03.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_3.html"
+        },
+        {
+          "index": 4,
+          "title": "东山经第四",
+          "entryCount": 44,
+          "entityCount": 192,
+          "file": "chapters/shanhaijing/04.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_4.html"
+        },
+        {
+          "index": 5,
+          "title": "中山经第五",
+          "entryCount": 130,
+          "entityCount": 498,
+          "file": "chapters/shanhaijing/05.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_5.html"
+        },
+        {
+          "index": 6,
+          "title": "海外南经第六",
+          "entryCount": 19,
+          "entityCount": 47,
+          "file": "chapters/shanhaijing/06.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_6.html"
+        },
+        {
+          "index": 7,
+          "title": "海外西经第七",
+          "entryCount": 20,
+          "entityCount": 44,
+          "file": "chapters/shanhaijing/07.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_7.html"
+        },
+        {
+          "index": 8,
+          "title": "海外北经第八",
+          "entryCount": 15,
+          "entityCount": 44,
+          "file": "chapters/shanhaijing/08.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_8.html"
+        },
+        {
+          "index": 9,
+          "title": "海外东经第九",
+          "entryCount": 14,
+          "entityCount": 31,
+          "file": "chapters/shanhaijing/09.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_9.html"
+        },
+        {
+          "index": 10,
+          "title": "海内南经第十",
+          "entryCount": 18,
+          "entityCount": 49,
+          "file": "chapters/shanhaijing/10.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_10.html"
+        },
+        {
+          "index": 11,
+          "title": "海内西经第十一",
+          "entryCount": 19,
+          "entityCount": 54,
+          "file": "chapters/shanhaijing/11.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_11.html"
+        },
+        {
+          "index": 12,
+          "title": "海内北经第十二",
+          "entryCount": 20,
+          "entityCount": 38,
+          "file": "chapters/shanhaijing/12.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_12.html"
+        },
+        {
+          "index": 13,
+          "title": "海内东经第十三",
+          "entryCount": 26,
+          "entityCount": 94,
+          "file": "chapters/shanhaijing/13.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_13.html"
+        },
+        {
+          "index": 14,
+          "title": "大荒东经第十四",
+          "entryCount": 18,
+          "entityCount": 57,
+          "file": "chapters/shanhaijing/14.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_14.html"
+        },
+        {
+          "index": 15,
+          "title": "大荒南经第十五",
+          "entryCount": 20,
+          "entityCount": 74,
+          "file": "chapters/shanhaijing/15.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_15.html"
+        },
+        {
+          "index": 16,
+          "title": "大荒西经第十六",
+          "entryCount": 22,
+          "entityCount": 59,
+          "file": "chapters/shanhaijing/16.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_16.html"
+        },
+        {
+          "index": 17,
+          "title": "大荒北经第十七",
+          "entryCount": 19,
+          "entityCount": 54,
+          "file": "chapters/shanhaijing/17.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_17.html"
+        },
+        {
+          "index": 18,
+          "title": "海内经第十八",
+          "entryCount": 23,
+          "entityCount": 95,
+          "file": "chapters/shanhaijing/18.json",
+          "sourceUrl": "https://www.8bei8.com/book/shanhaijing_18.html"
+        }
+      ],
+      "totalEntries": 569
+    },
+    {
+      "id": "soushenji",
+      "title": "搜神记",
+      "titleEn": "In Search of the Supernatural",
+      "pinyin": "Sōushénjì",
+      "era": "东晋",
+      "category": "志怪小说 · 神话传说",
+      "description": "《搜神记》是东晋史学家干宝编撰的古代民间传说中神奇怪异故事集，共二十卷，大小故事四百五十四篇。所叙多为神灵怪异之事，也有不少民间传说和神话故事，主角有鬼、妖怪和神仙，设想奇幻，极富浪漫主义色彩。本数据集还包含十卷《搜神后记》及佚文。",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "搜神记 卷一",
+          "entryCount": 25,
+          "entityCount": 33,
+          "file": "chapters/soushenji/01.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_1.html"
+        },
+        {
+          "index": 2,
+          "title": "搜神记 卷二",
+          "entryCount": 10,
+          "entityCount": 3,
+          "file": "chapters/soushenji/02.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_2.html"
+        },
+        {
+          "index": 3,
+          "title": "搜神记 卷三",
+          "entryCount": 17,
+          "entityCount": 8,
+          "file": "chapters/soushenji/03.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_3.html"
+        },
+        {
+          "index": 4,
+          "title": "搜神记 卷四",
+          "entryCount": 14,
+          "entityCount": 13,
+          "file": "chapters/soushenji/04.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_4.html"
+        },
+        {
+          "index": 5,
+          "title": "搜神记 卷五",
+          "entryCount": 7,
+          "entityCount": 3,
+          "file": "chapters/soushenji/05.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_5.html"
+        },
+        {
+          "index": 6,
+          "title": "搜神记 卷六",
+          "entryCount": 42,
+          "entityCount": 16,
+          "file": "chapters/soushenji/06.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_6.html"
+        },
+        {
+          "index": 7,
+          "title": "搜神记 卷七",
+          "entryCount": 25,
+          "entityCount": 5,
+          "file": "chapters/soushenji/07.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_7.html"
+        },
+        {
+          "index": 8,
+          "title": "搜神记 卷八",
+          "entryCount": 7,
+          "entityCount": 12,
+          "file": "chapters/soushenji/08.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_8.html"
+        },
+        {
+          "index": 9,
+          "title": "搜神记 卷九",
+          "entryCount": 12,
+          "entityCount": 0,
+          "file": "chapters/soushenji/09.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_9.html"
+        },
+        {
+          "index": 10,
+          "title": "搜神记 卷十",
+          "entryCount": 10,
+          "entityCount": 4,
+          "file": "chapters/soushenji/10.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_10.html"
+        },
+        {
+          "index": 11,
+          "title": "搜神记 卷十一",
+          "entryCount": 25,
+          "entityCount": 9,
+          "file": "chapters/soushenji/11.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_11.html"
+        },
+        {
+          "index": 12,
+          "title": "搜神记 卷十二",
+          "entryCount": 10,
+          "entityCount": 7,
+          "file": "chapters/soushenji/12.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_12.html"
+        },
+        {
+          "index": 13,
+          "title": "搜神记 卷十三",
+          "entryCount": 10,
+          "entityCount": 3,
+          "file": "chapters/soushenji/13.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_13.html"
+        },
+        {
+          "index": 14,
+          "title": "搜神记 卷十四",
+          "entryCount": 12,
+          "entityCount": 3,
+          "file": "chapters/soushenji/14.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_14.html"
+        },
+        {
+          "index": 15,
+          "title": "搜神记 卷十五",
+          "entryCount": 11,
+          "entityCount": 5,
+          "file": "chapters/soushenji/15.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_15.html"
+        },
+        {
+          "index": 16,
+          "title": "搜神记 卷十六",
+          "entryCount": 14,
+          "entityCount": 3,
+          "file": "chapters/soushenji/16.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_16.html"
+        },
+        {
+          "index": 17,
+          "title": "搜神记 卷十七",
+          "entryCount": 8,
+          "entityCount": 5,
+          "file": "chapters/soushenji/17.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_17.html"
+        },
+        {
+          "index": 18,
+          "title": "搜神记 卷十八",
+          "entryCount": 14,
+          "entityCount": 5,
+          "file": "chapters/soushenji/18.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_18.html"
+        },
+        {
+          "index": 19,
+          "title": "搜神记 卷十九",
+          "entryCount": 4,
+          "entityCount": 2,
+          "file": "chapters/soushenji/19.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_19.html"
+        },
+        {
+          "index": 20,
+          "title": "搜神记 卷二十",
+          "entryCount": 16,
+          "entityCount": 7,
+          "file": "chapters/soushenji/20.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_20.html"
+        },
+        {
+          "index": 21,
+          "title": "搜神后记 卷一",
+          "entryCount": 8,
+          "entityCount": 4,
+          "file": "chapters/soushenji/21.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_21.html"
+        },
+        {
+          "index": 22,
+          "title": "搜神后记 卷二",
+          "entryCount": 9,
+          "entityCount": 1,
+          "file": "chapters/soushenji/22.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_22.html"
+        },
+        {
+          "index": 23,
+          "title": "搜神后记 卷三",
+          "entryCount": 7,
+          "entityCount": 0,
+          "file": "chapters/soushenji/23.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_23.html"
+        },
+        {
+          "index": 24,
+          "title": "搜神后记 卷四",
+          "entryCount": 6,
+          "entityCount": 4,
+          "file": "chapters/soushenji/24.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_24.html"
+        },
+        {
+          "index": 25,
+          "title": "搜神后记 卷五",
+          "entryCount": 6,
+          "entityCount": 1,
+          "file": "chapters/soushenji/25.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_25.html"
+        },
+        {
+          "index": 26,
+          "title": "搜神后记 卷六",
+          "entryCount": 12,
+          "entityCount": 3,
+          "file": "chapters/soushenji/26.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_26.html"
+        },
+        {
+          "index": 27,
+          "title": "搜神后记 卷七",
+          "entryCount": 6,
+          "entityCount": 0,
+          "file": "chapters/soushenji/27.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_27.html"
+        },
+        {
+          "index": 28,
+          "title": "搜神后记 卷八",
+          "entryCount": 8,
+          "entityCount": 0,
+          "file": "chapters/soushenji/28.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_28.html"
+        },
+        {
+          "index": 29,
+          "title": "搜神后记 卷九",
+          "entryCount": 15,
+          "entityCount": 4,
+          "file": "chapters/soushenji/29.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_29.html"
+        },
+        {
+          "index": 30,
+          "title": "搜神后记 卷十",
+          "entryCount": 8,
+          "entityCount": 1,
+          "file": "chapters/soushenji/30.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_30.html"
+        },
+        {
+          "index": 31,
+          "title": "搜神后记 佚文",
+          "entryCount": 5,
+          "entityCount": 0,
+          "file": "chapters/soushenji/31.json",
+          "sourceUrl": "https://www.8bei8.com/book/soushenji_31.html"
+        }
+      ],
+      "totalEntries": 383
+    },
+    {
+      "id": "chuci",
+      "title": "楚辞",
+      "titleEn": "Verses of Chu",
+      "pinyin": "Chǔcí",
+      "era": "战国至东汉",
+      "category": "诗歌总集 · 神话",
+      "description": "《楚辞》是中国文学史上第一部浪漫主义诗歌总集，西汉刘向编辑成集，东汉王逸作章句。以屈原作品为主，收录战国楚人屈原、宋玉及汉代淮南小山、东方朔、王褒、刘向等人辞赋。运用楚地文学样式、方言声韵和风土物产，具有浓厚地方色彩。其中《离骚》《九歌》《天问》等篇保存了丰富的上古神话材料。",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "离骚",
+          "entryCount": 13,
+          "entityCount": 77,
+          "file": "chapters/chuci/01.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_1.html"
+        },
+        {
+          "index": 2,
+          "title": "九歌",
+          "entryCount": 11,
+          "entityCount": 12,
+          "file": "chapters/chuci/02.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_2.html"
+        },
+        {
+          "index": 3,
+          "title": "天问",
+          "entryCount": 6,
+          "entityCount": 16,
+          "file": "chapters/chuci/03.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_3.html"
+        },
+        {
+          "index": 4,
+          "title": "九章",
+          "entryCount": 12,
+          "entityCount": 16,
+          "file": "chapters/chuci/04.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_4.html"
+        },
+        {
+          "index": 5,
+          "title": "远游",
+          "entryCount": 2,
+          "entityCount": 14,
+          "file": "chapters/chuci/05.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_5.html"
+        },
+        {
+          "index": 6,
+          "title": "卜居",
+          "entryCount": 1,
+          "entityCount": 1,
+          "file": "chapters/chuci/06.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_6.html"
+        },
+        {
+          "index": 7,
+          "title": "渔父",
+          "entryCount": 1,
+          "entityCount": 1,
+          "file": "chapters/chuci/07.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_7.html"
+        },
+        {
+          "index": 8,
+          "title": "九辩",
+          "entryCount": 9,
+          "entityCount": 4,
+          "file": "chapters/chuci/08.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_8.html"
+        },
+        {
+          "index": 9,
+          "title": "惜誓",
+          "entryCount": 2,
+          "entityCount": 6,
+          "file": "chapters/chuci/09.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_9.html"
+        },
+        {
+          "index": 10,
+          "title": "招隐士",
+          "entryCount": 1,
+          "entityCount": 0,
+          "file": "chapters/chuci/10.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_10.html"
+        },
+        {
+          "index": 11,
+          "title": "七谏",
+          "entryCount": 8,
+          "entityCount": 12,
+          "file": "chapters/chuci/11.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_11.html"
+        },
+        {
+          "index": 12,
+          "title": "九怀",
+          "entryCount": 10,
+          "entityCount": 12,
+          "file": "chapters/chuci/12.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_12.html"
+        },
+        {
+          "index": 13,
+          "title": "九叹",
+          "entryCount": 6,
+          "entityCount": 11,
+          "file": "chapters/chuci/13.json",
+          "sourceUrl": "https://www.8bei8.com/book/chuci_13.html"
+        }
+      ],
+      "totalEntries": 82
+    },
+    {
+      "id": "huainanzi",
+      "title": "淮南子",
+      "titleEn": "Huainanzi",
+      "pinyin": "Huáinánzǐ",
+      "era": "西汉",
+      "category": "哲学著作 · 神话",
+      "description": "《淮南子》（又名《淮南鸿烈》《刘安子》）是西汉淮南王刘安及其门客集体编写的道家哲学著作。内容繁富，包罗万象，涉及哲学、政治、天文、地理、农学、生物、音律、神话等方面。书中保存了女娲补天、后羿射日、嫦娥奔月等大量上古神话传说，是研究中国古代神话的重要典籍。",
+      "chapters": [
+        {
+          "index": 2,
+          "title": "原道训",
+          "entryCount": 1,
+          "entityCount": 25,
+          "file": "chapters/huainanzi/02.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_2.html"
+        },
+        {
+          "index": 3,
+          "title": "俶真训",
+          "entryCount": 1,
+          "entityCount": 20,
+          "file": "chapters/huainanzi/03.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_3.html"
+        },
+        {
+          "index": 4,
+          "title": "天文训",
+          "entryCount": 1,
+          "entityCount": 27,
+          "file": "chapters/huainanzi/04.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_4.html"
+        },
+        {
+          "index": 5,
+          "title": "地形训",
+          "entryCount": 1,
+          "entityCount": 53,
+          "file": "chapters/huainanzi/05.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_5.html"
+        },
+        {
+          "index": 6,
+          "title": "时则训",
+          "entryCount": 1,
+          "entityCount": 14,
+          "file": "chapters/huainanzi/06.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_6.html"
+        },
+        {
+          "index": 7,
+          "title": "览冥训",
+          "entryCount": 1,
+          "entityCount": 28,
+          "file": "chapters/huainanzi/07.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_7.html"
+        },
+        {
+          "index": 8,
+          "title": "精神训",
+          "entryCount": 1,
+          "entityCount": 8,
+          "file": "chapters/huainanzi/08.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_8.html"
+        },
+        {
+          "index": 9,
+          "title": "本经训",
+          "entryCount": 1,
+          "entityCount": 17,
+          "file": "chapters/huainanzi/09.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_9.html"
+        },
+        {
+          "index": 10,
+          "title": "主术训(上)",
+          "entryCount": 1,
+          "entityCount": 13,
+          "file": "chapters/huainanzi/10.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_10.html"
+        },
+        {
+          "index": 11,
+          "title": "主术训(下)",
+          "entryCount": 1,
+          "entityCount": 6,
+          "file": "chapters/huainanzi/11.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_11.html"
+        },
+        {
+          "index": 12,
+          "title": "缪称训",
+          "entryCount": 1,
+          "entityCount": 15,
+          "file": "chapters/huainanzi/12.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_12.html"
+        },
+        {
+          "index": 13,
+          "title": "齐俗训",
+          "entryCount": 1,
+          "entityCount": 27,
+          "file": "chapters/huainanzi/13.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_13.html"
+        },
+        {
+          "index": 14,
+          "title": "道应训",
+          "entryCount": 1,
+          "entityCount": 15,
+          "file": "chapters/huainanzi/14.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_14.html"
+        },
+        {
+          "index": 15,
+          "title": "氾论训",
+          "entryCount": 1,
+          "entityCount": 22,
+          "file": "chapters/huainanzi/15.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_15.html"
+        },
+        {
+          "index": 16,
+          "title": "诠言训",
+          "entryCount": 1,
+          "entityCount": 7,
+          "file": "chapters/huainanzi/16.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_16.html"
+        },
+        {
+          "index": 17,
+          "title": "说山训",
+          "entryCount": 1,
+          "entityCount": 8,
+          "file": "chapters/huainanzi/17.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_17.html"
+        },
+        {
+          "index": 18,
+          "title": "兵略训",
+          "entryCount": 1,
+          "entityCount": 18,
+          "file": "chapters/huainanzi/18.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_18.html"
+        },
+        {
+          "index": 19,
+          "title": "说林训",
+          "entryCount": 1,
+          "entityCount": 9,
+          "file": "chapters/huainanzi/19.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_19.html"
+        },
+        {
+          "index": 20,
+          "title": "人间训(上)",
+          "entryCount": 1,
+          "entityCount": 4,
+          "file": "chapters/huainanzi/20.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_20.html"
+        },
+        {
+          "index": 21,
+          "title": "人间训(下)",
+          "entryCount": 1,
+          "entityCount": 12,
+          "file": "chapters/huainanzi/21.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_21.html"
+        },
+        {
+          "index": 22,
+          "title": "修务训",
+          "entryCount": 1,
+          "entityCount": 20,
+          "file": "chapters/huainanzi/22.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_22.html"
+        },
+        {
+          "index": 23,
+          "title": "泰族训",
+          "entryCount": 1,
+          "entityCount": 25,
+          "file": "chapters/huainanzi/23.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_23.html"
+        },
+        {
+          "index": 24,
+          "title": "要略",
+          "entryCount": 1,
+          "entityCount": 16,
+          "file": "chapters/huainanzi/24.json",
+          "sourceUrl": "https://www.8bei8.com/book/huainanzi_24.html"
+        }
+      ],
+      "totalEntries": 23
+    }
+  ]
+}

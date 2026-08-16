@@ -1,0 +1,22 @@
+{
+  "id": "巴",
+  "name": "巴",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古族名，主要分布在今川东、鄂西一带。周初封为子国，称巴子国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-12",
+      "type": "annotation",
+      "annotationExplanation": "古族名，主要分布在今川东、鄂西一带。周初封为子国，称巴子国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

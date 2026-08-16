@@ -1,0 +1,24 @@
+{
+  "id": "流波山",
+  "name": "流波山",
+  "pinyin": "",
+  "aliases": [
+    "流波之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说指散布在渤海中的冀东山岭",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-18",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说指散布在渤海中的冀东山岭"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

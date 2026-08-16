@@ -1,0 +1,22 @@
+{
+  "id": "洗石",
+  "name": "洗石",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "含有碱的石头，洗澡时可用来搓去污垢",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-01",
+      "type": "annotation",
+      "annotationExplanation": "含有碱的石头，洗澡时可用来搓去污垢"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

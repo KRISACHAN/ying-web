@@ -1,0 +1,22 @@
+{
+  "id": "舜",
+  "name": "舜",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "传说中的上古帝王，有虞氏，姓姚，名重华，简称虞舜。以孝闻名。尧把帝位禅让给他，他在晚年又把帝位禅让给禹",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-07",
+      "type": "annotation",
+      "annotationExplanation": "传说中的上古帝王，有虞氏，姓姚，名重华，简称虞舜。以孝闻名。尧把帝位禅让给他，他在晚年又把帝位禅让给禹"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "獂",
+  "name": "獂",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "同“豲”，传说中的一种兽。一说指一种野猪",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-43",
+      "type": "annotation",
+      "annotationExplanation": "同“豲”，传说中的一种兽。一说指一种野猪"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-43",
+      "type": "text",
+      "context": "有兽焉，其状如牛而三足，其名曰獂"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "天山",
+  "name": "天山",
+  "pinyin": "",
+  "aliases": [
+    "天之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说即位于今甘肃张掖的祁连山；一说指今新疆天山山脉东端的博格罗山；一说指今昆仑山脉北面的帖尔斯克伊山。现在的天山指横贯新疆中部、西端伸入哈萨克斯坦和吉尔吉斯斯坦的巨大山系",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-40",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说即位于今甘肃张掖的祁连山；一说指今新疆天山山脉东端的博格罗山；一说指今昆仑山脉北面的帖尔斯克伊山。现在的天山指横贯新疆中部、西端伸入哈萨克斯坦和吉尔吉斯斯坦的巨大山系"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

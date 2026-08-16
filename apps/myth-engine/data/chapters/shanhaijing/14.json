@@ -1,0 +1,795 @@
+{
+  "id": "shanhaijing-14",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 14,
+  "chapterTitle": "大荒东经第十四",
+  "entryCount": 18,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "东海之外大壑，少昊之国。少昊孺帝颛顼于此，弃其琴瑟。有甘山者，甘水出焉，生甘渊。",
+      "annotations": [
+        {
+          "term": "孺",
+          "explanation": "这里有养育的意思"
+        },
+        {
+          "term": "甘山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "甘水",
+          "explanation": "水名，具体所指待考"
+        }
+      ],
+      "translation": "东海之外有一个大壑，少昊建国于此。少昊在这里养育颛顼，并把琴瑟丢在这里。有一座甘山，是甘水发源的地方；甘水流出后，形成了一个渊，名叫甘渊。",
+      "index": 1
+    },
+    {
+      "title": "皮母地丘",
+      "originalText": "大荒，东南隅有山，名皮母地丘。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "皮母地丘",
+          "explanation": "山名，具体所指待考"
+        }
+      ],
+      "translation": "最荒远之地的东南角有一座山，名叫皮母地丘。",
+      "index": 2
+    },
+    {
+      "title": "大言山",
+      "originalText": "东海之外，大荒之中，有山名曰大言，日月所出。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "大言",
+          "explanation": "山名，具体所指待考"
+        }
+      ],
+      "translation": "东海之外，最荒远之地中，有一座山，名叫大言，是日月升起的地方。",
+      "index": 3
+    },
+    {
+      "title": "大人国大人市",
+      "originalText": "有波谷山者，有大人之国。有大人之市，名曰大人之堂。有一大人踆其上，张其两耳。",
+      "annotations": [
+        {
+          "term": "波谷山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "大人之国",
+          "explanation": "即大人国"
+        },
+        {
+          "term": "大人之堂",
+          "explanation": "一说指山名，山的形状如堂屋；一说指大人之市中用来交易的堂屋"
+        },
+        {
+          "term": "踆",
+          "explanation": "通“蹲”"
+        },
+        {
+          "term": "耳",
+          "explanation": "一说应作“臂”"
+        }
+      ],
+      "translation": "有一座波谷山，是大人国所在的地方。国中有一个大人做买卖的集市，名叫大人堂。有一个大人张着两只手臂蹲在大人堂的上面。",
+      "index": 4
+    },
+    {
+      "title": "小人国靖人",
+      "originalText": "有小人国，名靖人。",
+      "annotations": [
+        {
+          "term": "小人国",
+          "explanation": "传说中的国名，因其国中之人身材十分矮小，故名"
+        },
+        {
+          "term": "靖人",
+          "explanation": "也叫诤人、竫(jìnɡ)人，古代传说中的小人"
+        }
+      ],
+      "translation": "有一个小人国，国中的人被称为靖人。",
+      "index": 5
+    },
+    {
+      "title": "合虚山",
+      "originalText": "大荒之中，有山名曰合虚，日月所出。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "合虚",
+          "explanation": "山名，具体所指待考"
+        }
+      ],
+      "translation": "最荒远之地中有一座山，名叫合虚，是日月升起的地方。",
+      "index": 6
+    },
+    {
+      "title": "中容国",
+      "originalText": "有中容之国，帝俊生中容，中容人食兽、木实，使四鸟：豹、虎、熊、罴。",
+      "annotations": [
+        {
+          "term": "中容之国",
+          "explanation": "即中容国，具体所指待考"
+        },
+        {
+          "term": "帝俊",
+          "explanation": "一说即帝舜；一说指帝喾；一说指颛顼"
+        },
+        {
+          "term": "生",
+          "explanation": "生育。一说这里并不指亲生，而是表明是其后裔"
+        },
+        {
+          "term": "鸟",
+          "explanation": "这里指兽"
+        }
+      ],
+      "translation": "有一个中容国。帝俊生了中容，中容国的人以兽肉和树木的果实为食，会驱使四种野兽：豹、虎、熊和罴。",
+      "index": 7
+    },
+    {
+      "title": "天吴",
+      "originalText": "有夏州之国。有盖余之国。有神人，八首人面，虎身十尾，名曰天吴。天吴",
+      "annotations": [
+        {
+          "term": "夏州之国",
+          "explanation": "即夏州国，国名，具体所指待考"
+        },
+        {
+          "term": "盖余之国",
+          "explanation": "即盖余国，国名，具体所指待考。一说即盖国"
+        }
+      ],
+      "translation": "有一个夏州国。有一个盖余国。有一位神人，长着八个脑袋，每个脑袋上都有人一样的脸，长着虎一样的身子，有十条尾巴，名字叫天吴。",
+      "index": 8
+    },
+    {
+      "title": "鞠陵于天山",
+      "originalText": "大荒之中，有山名曰鞠陵于天、东极、离瞀，日月所出。名曰折丹--东方曰折，来风曰俊--处东极以出入风。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "鞠陵于天、东极、离瞀(mào)",
+          "explanation": "均为山名，具体所指待考。一说“东极离瞀”不指山，而是对“鞠陵于天”的解释"
+        },
+        {
+          "term": "名",
+          "explanation": "一说该字前当有“有神”两字"
+        },
+        {
+          "term": "折丹",
+          "explanation": "传说中的神名"
+        },
+        {
+          "term": "俊",
+          "explanation": "一说即俊风，指春季从东方刮来的风"
+        },
+        {
+          "term": "出入风",
+          "explanation": "指掌管风的出入"
+        }
+      ],
+      "translation": "最荒远之地有三座山，分别是鞠陵于天、东极和离瞀，那里是日月升起的地方。有一位名叫折丹的神--东方称为折，春季从东方刮来的风称为俊--在大地的最东端掌管风的出入。",
+      "index": 9
+    },
+    {
+      "title": "玄股国",
+      "originalText": "有招摇山，融水出焉。有国曰玄股，黍食，使四鸟。",
+      "annotations": [
+        {
+          "term": "招摇山",
+          "explanation": "山名，一说即招摇山"
+        },
+        {
+          "term": "融水",
+          "explanation": "水名，一说即融江，是位于今广东的西江的支流"
+        },
+        {
+          "term": "玄股",
+          "explanation": "国名，一说即玄股国"
+        }
+      ],
+      "translation": "有一座招摇山，融水发源于此。有一个名叫玄股的国家，国中之人以黍为食物，会驱使虎、豹、熊、罴四种野兽。",
+      "index": 10
+    },
+    {
+      "title": "有易杀王亥",
+      "originalText": "有困民国，勾姓而食。有人曰王亥，两手操鸟，方食其头。王亥托于有易、河伯。仆牛，有易杀王亥，取仆牛。河念有易，有易潜出，为国于兽，方食之，名曰摇民。帝舜生戏，戏生摇民。",
+      "annotations": [
+        {
+          "term": "困民",
+          "explanation": "国名，应作“因民”，“因民”即下支的“摇民”，亦为“嬴民”"
+        },
+        {
+          "term": "而",
+          "explanation": "一说应作“黍”"
+        },
+        {
+          "term": "王亥",
+          "explanation": "商汤的七世祖，相传他去黄河北岸放牧，被有易首领绵臣杀死，牛羊被夺走"
+        },
+        {
+          "term": "托",
+          "explanation": "寄托"
+        },
+        {
+          "term": "有易",
+          "explanation": "国名，一说在今河北易县附近"
+        },
+        {
+          "term": "河伯",
+          "explanation": "人名，具体所指待考"
+        },
+        {
+          "term": "仆牛",
+          "explanation": "一说指大的牛群(仆：大)；一说应作“服牛”，指驯养牛群"
+        },
+        {
+          "term": "念",
+          "explanation": "顾念；怜念。这里指殷主上甲微兴师与河伯一起为王亥报仇，杀了有易的国君，河伯顾念与有易的交情"
+        },
+        {
+          "term": "另",
+          "explanation": "念前当有“伯”字"
+        },
+        {
+          "term": "帝舜",
+          "explanation": "即舜"
+        },
+        {
+          "term": "戏",
+          "explanation": "一说即有易"
+        }
+      ],
+      "translation": "有一个困民国，国中之人姓勾，以黍为食物。有一个名叫王亥的人，两只手抓着鸟，正在吃鸟的头。王亥把一大群牛寄养在有易国和河伯那里，有易国的人杀了王亥，夺走了这群牛。后来，殷主为王亥报仇，杀了有易国的国君，河伯顾念与有易国的交情，帮助有易国的人偷偷跑了出来，有易国的人在野兽成群出没的地方以食兽为生，并重新建立了一个国家，名叫摇民。帝舜生了戏，戏生了摇民。",
+      "index": 11
+    },
+    {
+      "title": "女丑、大蟹",
+      "originalText": "海内有两人，名曰女丑。女丑有大蟹。",
+      "annotations": [
+        {
+          "term": "海内",
+          "explanation": "所指待考"
+        },
+        {
+          "term": "名曰女丑",
+          "explanation": "此处文字似有脱漏，因女丑仅为一人"
+        }
+      ],
+      "translation": "海内有两个人，名字叫女丑。女丑所处之地有大蟹。",
+      "index": 12
+    },
+    {
+      "title": "孽摇羝",
+      "originalText": "大荒之中，有山名曰孽摇羝，上有扶木，柱三百里，其叶如芥。有谷曰温源谷、汤谷，上有扶木，一日方至，一日方出，皆载于乌。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "孽摇羝(yīn dī)",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "扶木",
+          "explanation": "即榑(fú)木，又叫扶桑"
+        },
+        {
+          "term": "柱",
+          "explanation": "直立高耸"
+        },
+        {
+          "term": "芥",
+          "explanation": "芥菜，一年或二年生草本植物，开黄色花，茎叶及块根可食用"
+        },
+        {
+          "term": "温源谷",
+          "explanation": "谷名，一说即汤谷"
+        },
+        {
+          "term": "乌",
+          "explanation": "乌鸦，古代传说太阳中有三足乌"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名叫孽摇羝，上面长着扶木，直立高耸达三百里，树叶像芥菜的叶子。那里有一个山谷，名叫温源谷或汤谷，谷上长着扶木，一个太阳刚接近扶木，一个太阳就离开扶木上升，它们都载在三足乌的身上。",
+      "index": 13
+    },
+    {
+      "title": "猗天苏门山",
+      "originalText": "大荒之中，有山名曰猗天苏门，日月所生。有埙民之国。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "猗(yī)天苏门",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "埙(xūn)民之国",
+          "explanation": "即埙民国，国名，具体所指待考"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名叫猗天苏门，是日月升起的地方。那里有一个埙民国。",
+      "index": 14
+    },
+    {
+      "title": "五彩鸟山",
+      "originalText": "有綦山，又有摇山。有山，又有门户山，又有盛山，又有待山。有五采之鸟。",
+      "annotations": [
+        {
+          "term": "綦(qí)山",
+          "explanation": "山名，具体所指待考"
+        }
+      ],
+      "translation": "大荒中有綦山、摇山、山、门户山、盛山、待山。这些山上都有五彩鸟。",
+      "index": 15
+    },
+    {
+      "title": "女和月母国",
+      "originalText": "有女和月母之国。有人名曰一北方曰，来之风曰一是处东极隅以止日月，使无相间出没，司其短长。",
+      "annotations": [
+        {
+          "term": "女和月母之国",
+          "explanation": "即女和月母国，国名，具体所指待考"
+        },
+        {
+          "term": "(wǎn)",
+          "explanation": "传说中的人名"
+        },
+        {
+          "term": "北方曰，来之风曰(yǎn)",
+          "explanation": "此句颇费解"
+        },
+        {
+          "term": "一说当断句为",
+          "explanation": "北方曰来之风，曰；一说应仿：“东方曰折，来风曰俊”。这里姑从第二种解法"
+        },
+        {
+          "term": "极",
+          "explanation": "一说应作“北”"
+        },
+        {
+          "term": "司",
+          "explanation": "管理，掌管"
+        }
+      ],
+      "translation": "大荒中有个女和月母国。这里有尊神，名叫。北方的人都称他鵷，北风出口处的人都叫他。他住在东北角主管日月运行的快慢，使日月的升落和日夜长短有规律。",
+      "index": 16
+    },
+    {
+      "title": "应龙杀蚩尤与夸父",
+      "originalText": "大荒东北隅中，有山名曰凶犁土丘。应龙处南极，杀蚩尤与夸父，不得复上，故下数旱。旱而为应龙之状，乃得大雨。",
+      "annotations": [
+        {
+          "term": "大荒东北隅",
+          "explanation": "一作“东荒之北隅”"
+        },
+        {
+          "term": "凶犁土丘",
+          "explanation": "山名，具体所指待考。一说可能在今河北北部"
+        },
+        {
+          "term": "应龙",
+          "explanation": "古代传说中善兴云作雨的神"
+        },
+        {
+          "term": "蚩(chī)尤",
+          "explanation": "传说中制造兵器的人，相传有兄弟八十一人，以铜做兵器。又传为主兵之神。一说为东方九黎族首领，后与黄帝战于涿鹿(今河北涿鹿东南)，兵败被杀"
+        },
+        {
+          "term": "夸父",
+          "explanation": "据传夸父与蚩尤同为炎帝之裔，在黄炎斗争中，蚩尤起兵为炎帝报仇，夸父也加入此列，最后兵败被杀"
+        },
+        {
+          "term": "上",
+          "explanation": "指上天"
+        },
+        {
+          "term": "下",
+          "explanation": "指下界"
+        }
+      ],
+      "translation": "最荒远之地的东北角有座山，名字叫凶犁土丘。应龙住在这座山的最南端，他杀了蚩尤和夸父，不能再回到天界，因此下界多次发生旱灾。每当发生旱灾时，人们便模仿应龙的形状，天上就会下大雨。",
+      "index": 17
+    },
+    {
+      "title": "东海夔牛",
+      "originalText": "东海中有流波山，入海七千里。其上有兽，状如牛，苍身而无角，一足，出入水则必风雨，其光如日月，其声如雷，其名曰夔。黄帝得之，以其皮为鼓，橛以雷兽之骨，声闻五百里，以威天下。",
+      "annotations": [
+        {
+          "term": "夔流波山",
+          "explanation": "山名，一说指散布在渤海中的冀东山岭"
+        },
+        {
+          "term": "七千",
+          "explanation": "一作“七十”"
+        },
+        {
+          "term": "夔(kuí)",
+          "explanation": "古代传说中一种奇异的动物，形状如龙(一说如牛)，只有一条腿"
+        },
+        {
+          "term": "橛(jué)",
+          "explanation": "敲，击打"
+        },
+        {
+          "term": "雷兽",
+          "explanation": "即雷神"
+        }
+      ],
+      "translation": "东海中有一座山，名叫流波山，距离海岸有七千里。山上有一种兽，形状像牛，苍色的身子，没有角，只有一条腿，它从水中出入时必会伴以风雨，它放射出的光芒像日月一样明亮，发出的声音像打雷一样巨大，它的名字叫夔。黄帝得到它后，用它的皮来蒙鼓，并用雷神身上的骨头来敲这面鼓，发出的声音可传到五百里之外，黄帝用它来震慑天下。",
+      "index": 18
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "甘山",
+      "entryId": "shanhaijing-14-01",
+      "entryTitle": "其一",
+      "term": "甘山"
+    },
+    {
+      "entityName": "甘水",
+      "entryId": "shanhaijing-14-01",
+      "entryTitle": "其一",
+      "term": "甘水"
+    },
+    {
+      "entityName": "颛顼",
+      "entryId": "shanhaijing-14-01",
+      "entryTitle": "其一",
+      "term": "颛顼"
+    },
+    {
+      "entityName": "少昊",
+      "entryId": "shanhaijing-14-01",
+      "entryTitle": "其一",
+      "term": "少昊"
+    },
+    {
+      "entityName": "甘渊",
+      "entryId": "shanhaijing-14-01",
+      "entryTitle": "其一",
+      "term": "甘渊"
+    },
+    {
+      "entityName": "东海",
+      "entryId": "shanhaijing-14-01",
+      "entryTitle": "其一",
+      "term": "东海"
+    },
+    {
+      "entityName": "甘水",
+      "entryId": "shanhaijing-14-01",
+      "entryTitle": "其一",
+      "term": "甘水"
+    },
+    {
+      "entityName": "皮母地丘",
+      "entryId": "shanhaijing-14-02",
+      "entryTitle": "皮母地丘",
+      "term": "皮母地丘"
+    },
+    {
+      "entityName": "大言",
+      "entryId": "shanhaijing-14-03",
+      "entryTitle": "大言山",
+      "term": "大言"
+    },
+    {
+      "entityName": "东海",
+      "entryId": "shanhaijing-14-03",
+      "entryTitle": "大言山",
+      "term": "东海"
+    },
+    {
+      "entityName": "波谷山",
+      "entryId": "shanhaijing-14-04",
+      "entryTitle": "大人国大人市",
+      "term": "波谷山"
+    },
+    {
+      "entityName": "大人国",
+      "entryId": "shanhaijing-14-04",
+      "entryTitle": "大人国大人市",
+      "term": "大人之国"
+    },
+    {
+      "entityName": "大人之堂",
+      "entryId": "shanhaijing-14-04",
+      "entryTitle": "大人国大人市",
+      "term": "大人之堂"
+    },
+    {
+      "entityName": "小人国",
+      "entryId": "shanhaijing-14-05",
+      "entryTitle": "小人国靖人",
+      "term": "小人国"
+    },
+    {
+      "entityName": "靖人",
+      "entryId": "shanhaijing-14-05",
+      "entryTitle": "小人国靖人",
+      "term": "靖人"
+    },
+    {
+      "entityName": "合虚",
+      "entryId": "shanhaijing-14-06",
+      "entryTitle": "合虚山",
+      "term": "合虚"
+    },
+    {
+      "entityName": "中容之国",
+      "entryId": "shanhaijing-14-07",
+      "entryTitle": "中容国",
+      "term": "中容之国"
+    },
+    {
+      "entityName": "帝俊",
+      "entryId": "shanhaijing-14-07",
+      "entryTitle": "中容国",
+      "term": "帝俊"
+    },
+    {
+      "entityName": "帝俊",
+      "entryId": "shanhaijing-14-07",
+      "entryTitle": "中容国",
+      "term": "帝俊"
+    },
+    {
+      "entityName": "夏州之国",
+      "entryId": "shanhaijing-14-08",
+      "entryTitle": "天吴",
+      "term": "夏州之国"
+    },
+    {
+      "entityName": "盖余之国",
+      "entryId": "shanhaijing-14-08",
+      "entryTitle": "天吴",
+      "term": "盖余之国"
+    },
+    {
+      "entityName": "神人",
+      "entryId": "shanhaijing-14-08",
+      "entryTitle": "天吴",
+      "term": "神人"
+    },
+    {
+      "entityName": "折丹",
+      "entryId": "shanhaijing-14-09",
+      "entryTitle": "鞠陵于天山",
+      "term": "折丹"
+    },
+    {
+      "entityName": "俊",
+      "entryId": "shanhaijing-14-09",
+      "entryTitle": "鞠陵于天山",
+      "term": "俊"
+    },
+    {
+      "entityName": "招摇山",
+      "entryId": "shanhaijing-14-10",
+      "entryTitle": "玄股国",
+      "term": "招摇山"
+    },
+    {
+      "entityName": "融水",
+      "entryId": "shanhaijing-14-10",
+      "entryTitle": "玄股国",
+      "term": "融水"
+    },
+    {
+      "entityName": "玄股",
+      "entryId": "shanhaijing-14-10",
+      "entryTitle": "玄股国",
+      "term": "玄股"
+    },
+    {
+      "entityName": "融水",
+      "entryId": "shanhaijing-14-10",
+      "entryTitle": "玄股国",
+      "term": "融水"
+    },
+    {
+      "entityName": "困民",
+      "entryId": "shanhaijing-14-11",
+      "entryTitle": "有易杀王亥",
+      "term": "困民"
+    },
+    {
+      "entityName": "王亥",
+      "entryId": "shanhaijing-14-11",
+      "entryTitle": "有易杀王亥",
+      "term": "王亥"
+    },
+    {
+      "entityName": "易",
+      "entryId": "shanhaijing-14-11",
+      "entryTitle": "有易杀王亥",
+      "term": "有易"
+    },
+    {
+      "entityName": "冰夷",
+      "entryId": "shanhaijing-14-11",
+      "entryTitle": "有易杀王亥",
+      "term": "河伯"
+    },
+    {
+      "entityName": "帝舜",
+      "entryId": "shanhaijing-14-11",
+      "entryTitle": "有易杀王亥",
+      "term": "帝舜"
+    },
+    {
+      "entityName": "帝舜",
+      "entryId": "shanhaijing-14-11",
+      "entryTitle": "有易杀王亥",
+      "term": "帝舜"
+    },
+    {
+      "entityName": "冰夷",
+      "entryId": "shanhaijing-14-11",
+      "entryTitle": "有易杀王亥",
+      "term": "河伯"
+    },
+    {
+      "entityName": "孽摇羝",
+      "entryId": "shanhaijing-14-13",
+      "entryTitle": "孽摇羝",
+      "term": "孽摇羝"
+    },
+    {
+      "entityName": "扶木",
+      "entryId": "shanhaijing-14-13",
+      "entryTitle": "孽摇羝",
+      "term": "扶木"
+    },
+    {
+      "entityName": "芥",
+      "entryId": "shanhaijing-14-13",
+      "entryTitle": "孽摇羝",
+      "term": "芥"
+    },
+    {
+      "entityName": "温源谷",
+      "entryId": "shanhaijing-14-13",
+      "entryTitle": "孽摇羝",
+      "term": "温源谷"
+    },
+    {
+      "entityName": "乌",
+      "entryId": "shanhaijing-14-13",
+      "entryTitle": "孽摇羝",
+      "term": "乌"
+    },
+    {
+      "entityName": "汤谷",
+      "entryId": "shanhaijing-14-13",
+      "entryTitle": "孽摇羝",
+      "term": "汤谷"
+    },
+    {
+      "entityName": "猗天苏门",
+      "entryId": "shanhaijing-14-14",
+      "entryTitle": "猗天苏门山",
+      "term": "猗天苏门"
+    },
+    {
+      "entityName": "埙民之国",
+      "entryId": "shanhaijing-14-14",
+      "entryTitle": "猗天苏门山",
+      "term": "埙民之国"
+    },
+    {
+      "entityName": "綦山",
+      "entryId": "shanhaijing-14-15",
+      "entryTitle": "五彩鸟山",
+      "term": "綦山"
+    },
+    {
+      "entityName": "女和月母之国",
+      "entryId": "shanhaijing-14-16",
+      "entryTitle": "女和月母国",
+      "term": "女和月母之国"
+    },
+    {
+      "entityName": "凶犁土丘",
+      "entryId": "shanhaijing-14-17",
+      "entryTitle": "应龙杀蚩尤与夸父",
+      "term": "凶犁土丘"
+    },
+    {
+      "entityName": "应龙",
+      "entryId": "shanhaijing-14-17",
+      "entryTitle": "应龙杀蚩尤与夸父",
+      "term": "应龙"
+    },
+    {
+      "entityName": "蚩尤",
+      "entryId": "shanhaijing-14-17",
+      "entryTitle": "应龙杀蚩尤与夸父",
+      "term": "蚩尤"
+    },
+    {
+      "entityName": "夸父",
+      "entryId": "shanhaijing-14-17",
+      "entryTitle": "应龙杀蚩尤与夸父",
+      "term": "夸父"
+    },
+    {
+      "entityName": "蚩尤",
+      "entryId": "shanhaijing-14-17",
+      "entryTitle": "应龙杀蚩尤与夸父",
+      "term": "蚩尤"
+    },
+    {
+      "entityName": "夸父",
+      "entryId": "shanhaijing-14-17",
+      "entryTitle": "应龙杀蚩尤与夸父",
+      "term": "夸父"
+    },
+    {
+      "entityName": "应龙",
+      "entryId": "shanhaijing-14-17",
+      "entryTitle": "应龙杀蚩尤与夸父",
+      "term": "应龙"
+    },
+    {
+      "entityName": "流波山",
+      "entryId": "shanhaijing-14-18",
+      "entryTitle": "东海夔牛",
+      "term": "流波山"
+    },
+    {
+      "entityName": "夔",
+      "entryId": "shanhaijing-14-18",
+      "entryTitle": "东海夔牛",
+      "term": "夔"
+    },
+    {
+      "entityName": "雷神",
+      "entryId": "shanhaijing-14-18",
+      "entryTitle": "东海夔牛",
+      "term": "雷兽"
+    },
+    {
+      "entityName": "黄帝",
+      "entryId": "shanhaijing-14-18",
+      "entryTitle": "东海夔牛",
+      "term": "黄帝"
+    },
+    {
+      "entityName": "东海",
+      "entryId": "shanhaijing-14-18",
+      "entryTitle": "东海夔牛",
+      "term": "东海"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_14.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

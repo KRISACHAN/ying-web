@@ -1,0 +1,22 @@
+{
+  "id": "壑市",
+  "name": "壑市",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，在西北地区，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-02",
+      "type": "annotation",
+      "annotationExplanation": "国名，在西北地区，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "视水",
+  "name": "视水",
+  "pinyin": "",
+  "aliases": [
+    "视之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-112",
+      "type": "text",
+      "context": "注于视水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

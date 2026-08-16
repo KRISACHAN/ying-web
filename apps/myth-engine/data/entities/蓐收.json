@@ -1,0 +1,64 @@
+{
+  "id": "蓐收",
+  "name": "蓐收",
+  "pinyin": "rù",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中的神名，掌管秋天万物的收藏",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-41",
+      "type": "annotation",
+      "annotationExplanation": "传说中的神名，掌管秋天万物的收藏"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-41",
+      "type": "text",
+      "context": "又西二百九十里，曰泑山，神蓐收居之。其上多婴短之玉，其阳多瑾"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-20",
+      "type": "annotation",
+      "annotationExplanation": "传说中的神名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-20",
+      "type": "text",
+      "context": "西方蓐收，左耳有蛇，乘两龙。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "凉。\n\n凤凰翼其承旗兮,\n\n遇蓐收乎西皇。\n\n揽彗星以为旖兮,\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "己。西方，金也，其帝少吴，其佐蓐收，执矩而治秋，其神为太白，其兽"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "室，饮气之民，不死之野，少皞、蓐收之所司者，万二千里。其令曰：审"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

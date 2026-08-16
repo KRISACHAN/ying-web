@@ -1,0 +1,24 @@
+{
+  "id": "芘湖",
+  "name": "芘湖",
+  "pinyin": "",
+  "aliases": [
+    "芘之湖"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-03",
+      "type": "text",
+      "context": "注于芘湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "砆石",
+  "name": "砆石",
+  "pinyin": "fū",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "一种像玉的石头",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-19",
+      "type": "annotation",
+      "annotationExplanation": "一种像玉的石头"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "陵羊泽",
+  "name": "陵羊泽",
+  "pinyin": "",
+  "aliases": [
+    "陵羊之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即陵羊泽，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-53",
+      "type": "annotation",
+      "annotationExplanation": "即陵羊泽，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-53",
+      "type": "text",
+      "context": "注于陵羊之泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

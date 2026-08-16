@@ -1,0 +1,183 @@
+{
+  "id": "流沙",
+  "name": "流沙",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古时指中国西北的沙漠地区，也指今新疆境内白龙堆沙漠一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-30",
+      "type": "annotation",
+      "annotationExplanation": "古时指中国西北的沙漠地区，也指今新疆境内白龙堆沙漠一带"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-30",
+      "type": "text",
+      "context": "曰泰器之山。观水出焉，西流注于流沙。是多文鳐鱼，状如鲤鱼，鱼身而"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-08",
+      "type": "text",
+      "context": "曰灌题之山，其上多樗柘，其下多流沙，多砥。有兽焉，其状如牛而白尾"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-27",
+      "type": "text",
+      "context": "又北水行五百里，流沙三百里，至于洹山，其上多金玉。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-14",
+      "type": "text",
+      "context": "又南水行五百里，流沙三百里，至于葛山之尾，无草木，"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-21",
+      "type": "text",
+      "context": "又南水行三百里，流沙百里，曰北姑射之山，无草木，多"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-32",
+      "type": "text",
+      "context": "又南水行五百里，曰流沙，行五百里，有山焉，曰跂踵之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-34",
+      "type": "text",
+      "context": "又南水行五百里，流沙三百里，至于无皋之山。南望幼海"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-08",
+      "type": "text",
+      "context": "流沙出钟山，西行又南行昆仑之虚，西"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-03",
+      "type": "text",
+      "context": "国在流沙中者埻端、玺，在昆仑虚东南。一"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-04",
+      "type": "text",
+      "context": "国在流沙外者，大夏、竖沙、居繇、月支之"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-05",
+      "type": "text",
+      "context": "大夏东，苍梧在白玉山西南，皆在流沙西，昆仑虚东南。昆仑山在西胡西"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-01",
+      "type": "text",
+      "context": "南海之外，赤水之西，流沙之东，有兽，左右有首，名曰䟣踢"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-21",
+      "type": "text",
+      "context": "西南海之外，赤水之南，流沙之西，有人珥两青蛇，乘两龙，名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-02",
+      "type": "text",
+      "context": "西海之内，流沙之中，有国名曰壑市。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-03",
+      "type": "text",
+      "context": "西海之内，流沙之西，有国名曰汜叶。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-04",
+      "type": "text",
+      "context": "流沙之西，有鸟山者，三水出焉。爰有"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "text",
+      "context": "流沙之东，黑水之西，有朝云之国、司"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-06",
+      "type": "text",
+      "context": "流沙之东，黑水之间，有山名不死之山"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-12",
+      "type": "text",
+      "context": "\n\n高翱翔之翼翼。\n\n乎吾行此流沙兮，\n\n遵赤水而容与。\n\n麾蛟"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "水出自穷石，至于合黎，余波入于流沙。绝流沙，南至南海。洋水出其西"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "物之归。\n\n西方之极，自昆仑绝流沙、沈羽，西至三危之国，石城金室"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "使蒙公、杨翁子将，筑修城，西属流沙，北击辽水，东结朝鲜，中国内郡"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "得天下之心。纣之地，左东海，右流沙，前交趾，后幽都，师起容关，至"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

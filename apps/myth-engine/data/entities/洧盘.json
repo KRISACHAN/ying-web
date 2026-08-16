@@ -1,0 +1,22 @@
+{
+  "id": "洧盘",
+  "name": "洧盘",
+  "pinyin": "wěi",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "神话中水名，源于崦嵫山",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "annotation",
+      "annotationExplanation": "神话中水名，源于崦嵫山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

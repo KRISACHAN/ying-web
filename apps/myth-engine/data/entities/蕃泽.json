@@ -1,0 +1,31 @@
+{
+  "id": "蕃泽",
+  "name": "蕃泽",
+  "pinyin": "",
+  "aliases": [
+    "蕃之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说即今青海的巴嘎柴达木湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-37",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说即今青海的巴嘎柴达木湖"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-37",
+      "type": "text",
+      "context": "注于蕃泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

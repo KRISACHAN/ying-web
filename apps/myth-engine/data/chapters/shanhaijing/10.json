@@ -1,0 +1,665 @@
+{
+  "id": "shanhaijing-10",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 10,
+  "chapterTitle": "海内南经第十",
+  "entryCount": 18,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "海内东南陬以西者。",
+      "annotations": [
+        {
+          "term": "海内",
+          "explanation": "指海内南经所记载的地方"
+        },
+        {
+          "term": "陬(zōu)",
+          "explanation": "隅，角落"
+        }
+      ],
+      "translation": "海内南经所记载的是东南角以西的地方。",
+      "index": 1
+    },
+    {
+      "title": "瓯居海中",
+      "originalText": "瓯居海中。闽在海中，其西北有山。一曰闽中山在海中。",
+      "annotations": [
+        {
+          "term": "瓯(ōu)",
+          "explanation": "古代地区名，在今浙江温州一带，后为温州的别称"
+        },
+        {
+          "term": "闽",
+          "explanation": "古种族名，生活在今浙江南部和福建一带。后因称福建为闽"
+        },
+        {
+          "term": "闽中山",
+          "explanation": "闽一带的山"
+        }
+      ],
+      "translation": "瓯位于海中。闽在海中，它的西北方有山。一说闽一带的山在海中。",
+      "index": 2
+    },
+    {
+      "title": "三天子鄣山",
+      "originalText": "三天子鄣山在闽西海北。一曰在海中。",
+      "annotations": [
+        {
+          "term": "三天子鄣(zhānɡ)山",
+          "explanation": "山名，一说在今安徽歙(shè)县"
+        },
+        {
+          "term": "海",
+          "explanation": "该字疑为衍文"
+        }
+      ],
+      "translation": "三天子鄣山在闽的西北。一说该山在海中。",
+      "index": 3
+    },
+    {
+      "title": "桂林八树",
+      "originalText": "桂林八树在番隅东。",
+      "annotations": [
+        {
+          "term": "桂林",
+          "explanation": "林名，非今广西桂林"
+        },
+        {
+          "term": "番(pān)隅",
+          "explanation": "即番禺"
+        }
+      ],
+      "translation": "桂林的八棵树在番禺的东边。",
+      "index": 4
+    },
+    {
+      "title": "伯虑国",
+      "originalText": "伯虑国、离耳国、雕题国、北朐国皆在郁水南。郁水出湘陵南海。一曰相虑。",
+      "annotations": [
+        {
+          "term": "伯虑国",
+          "explanation": "国名，一说又称婆利国、婆黎国等，在今印尼爪哇岛东的巴厘岛；一说指加里曼丹岛"
+        },
+        {
+          "term": "离耳国",
+          "explanation": "国名，一说即儋(dān)耳国，在今海南岛儋县"
+        },
+        {
+          "term": "雕题国",
+          "explanation": "国名，具体所指待考。雕题意为在额上文刻。一说应在今广东、广西一带"
+        },
+        {
+          "term": "北朐(qú)国",
+          "explanation": "国名，具体所指待考"
+        },
+        {
+          "term": "郁水",
+          "explanation": "水名，指今广西的右江、郁江、浔(xún)江及广东的西江"
+        },
+        {
+          "term": "湘陵",
+          "explanation": "地名，具体所指待考。一说即“湘漓”"
+        },
+        {
+          "term": "南海",
+          "explanation": "一说应作“南山”；一说前面应有“入”字"
+        },
+        {
+          "term": "相虑",
+          "explanation": "一说应作“柏虑”，柏虑即伯虑"
+        }
+      ],
+      "translation": "伯虑国、离耳国、雕题国、北朐国都在郁水的南边。郁水发源于湘陵，流入南海。一说伯虑应作相虑。",
+      "index": 5
+    },
+    {
+      "title": "枭阳国",
+      "originalText": "枭阳国在北朐之西，其为人人面长唇，黑身有毛，反踵，见人笑亦笑，左手操管。",
+      "annotations": [
+        {
+          "term": "枭(xiāo)阳国",
+          "explanation": "国名，具体所指待考。一说在今广西；一说在今中南半岛中部"
+        },
+        {
+          "term": "北朐(qú)",
+          "explanation": "即北朐国"
+        },
+        {
+          "term": "踵(zhǒnɡ)",
+          "explanation": "脚后跟"
+        },
+        {
+          "term": "笑亦笑",
+          "explanation": "一说应作“则笑”"
+        }
+      ],
+      "translation": "枭阳国在北朐国的西边，这个国家的人长着人一样的脸，嘴唇很长，浑身黑色，身上有浓密的毛，脚跟长在前面，见到别人笑就跟着笑，左手拿着竹管。",
+      "index": 6
+    },
+    {
+      "title": "兕",
+      "originalText": "兕在舜葬东，湘水南，其状如牛，苍黑，一角。",
+      "annotations": [
+        {
+          "term": "舜",
+          "explanation": "传说中的上古帝王，有虞氏，姓姚，名重华，简称虞舜。以孝闻名。尧把帝位禅让给他，他在晚年又把帝位禅让给禹"
+        },
+        {
+          "term": "湘水",
+          "explanation": "即湘江，湖南省最大的河流，上源海洋河出广西东北海洋山西麓，东北流贯湖南省东部，最后入洞庭湖"
+        }
+      ],
+      "translation": "兕生活在舜所葬之地的东边，湘江的南边，它的形状像牛，苍黑色，长着一只角。",
+      "index": 7
+    },
+    {
+      "title": "苍梧山",
+      "originalText": "苍梧之山，帝舜葬于阳，帝丹朱葬于阴。",
+      "annotations": [
+        {
+          "term": "苍梧之山",
+          "explanation": "即苍梧山，山名，又叫九薿山，在今湖南宁远南"
+        },
+        {
+          "term": "帝舜",
+          "explanation": "即舜"
+        },
+        {
+          "term": "丹朱",
+          "explanation": "传说中帝尧之子，名朱，因居丹水，名为丹朱。据说他傲慢荒淫，故尧不传位于他，而是传给了舜"
+        }
+      ],
+      "translation": "苍梧山，帝舜葬在这座山的阳面，帝丹朱葬在这座山的阴面。",
+      "index": 8
+    },
+    {
+      "title": "泛林",
+      "originalText": "泛林方三百里，在狌狌东。",
+      "annotations": [
+        {
+          "term": "泛林",
+          "explanation": "即范林"
+        }
+      ],
+      "translation": "范林方圆三百里，在猩猩生活之地的东边。",
+      "index": 9
+    },
+    {
+      "title": "狌狌知人名",
+      "originalText": "狌狌知人名，其为兽如豕而人面，在舜葬西。",
+      "annotations": [],
+      "translation": "猩猩知道人的名字，它的形状像猪，却长着人一样的脸，生活在舜所葬之地的西边。",
+      "index": 10
+    },
+    {
+      "title": "犀牛",
+      "originalText": "狌狌西北有犀牛，其状如牛而黑。",
+      "annotations": [],
+      "translation": "猩猩生活之地的西北方有犀牛，犀牛的形状像牛，浑身黑色。",
+      "index": 11
+    },
+    {
+      "title": "夏后启之臣孟涂",
+      "originalText": "夏后启之臣曰孟涂，是司神于巴。人请讼于孟涂之所，其衣有血者乃执之，是请生。居山上，在丹山西。丹山在丹阳南，丹阳居属也。",
+      "annotations": [
+        {
+          "term": "孟涂",
+          "explanation": "人名，据传启曾派他去巴地负责诉讼之事"
+        },
+        {
+          "term": "司神",
+          "explanation": "主管之神"
+        },
+        {
+          "term": "巴",
+          "explanation": "古族名，主要分布在今川东、鄂西一带。周初封为子国，称巴子国"
+        },
+        {
+          "term": "请生",
+          "explanation": "请求活命。一说指好生，即爱护生命"
+        },
+        {
+          "term": "丹山",
+          "explanation": "山名，即今巫山，在重庆、湖北边境，因山势曲折盘错，形如“巫”字，故名"
+        },
+        {
+          "term": "丹阳",
+          "explanation": "古都邑名，在今湖北秭归东南"
+        },
+        {
+          "term": "居",
+          "explanation": "应作“巴”"
+        }
+      ],
+      "translation": "夏代国君启的臣子名叫孟涂，到巴地任主管之神。当地人去孟涂那里请他审理案件，他把衣服上沾有血的人抓了起来，被抓之人就向他请求饶命。孟涂住在山上，他所住的山在巫山的西边。巫山位于丹阳的南边，丹阳是巴的属地。",
+      "index": 12
+    },
+    {
+      "title": "窫龙首",
+      "originalText": "窫窳龙首，居弱水中，在狌狌知人名之西，其状如龙首，食人。",
+      "annotations": [
+        {
+          "term": "窫窳(yà yǔ)",
+          "explanation": "古代传说中的一种怪兽"
+        },
+        {
+          "term": "弱水",
+          "explanation": "水名，名叫弱水的河流很多。古人也把浅而不能载舟的水流称为弱水"
+        },
+        {
+          "term": "龙",
+          "explanation": "传说中的一种动物"
+        }
+      ],
+      "translation": "窫窳长着龙一样的脑袋，居住在弱水中，位于能知道人的名字的猩猩所居之地的西边，它的形状像，长着龙一样的脑袋，会吃人。",
+      "index": 13
+    },
+    {
+      "title": "建木",
+      "originalText": "有木，其状如牛，引之有皮，若缨、黄蛇。其叶如罗，其实如栾，其木若，其名曰建木。在窫窳西弱水上。",
+      "annotations": [
+        {
+          "term": "引",
+          "explanation": "牵引，牵拉"
+        },
+        {
+          "term": "缨",
+          "explanation": "一种带子，用来系冠、捆绑或作装饰物等"
+        },
+        {
+          "term": "罗",
+          "explanation": "所指待考。一说指一种稀疏而柔软的丝织品；一说指网罗；一说通“萝”，指女萝"
+        },
+        {
+          "term": "栾",
+          "explanation": "木名，即栾木，又叫栾华，落叶乔木，高可达20米，羽状复叶，开黄色花。蒴(shuò)果囊状中空，三角状卵形，种子球形"
+        },
+        {
+          "term": "(qiū)",
+          "explanation": "菼(tǎn)的别称。菼指初生的荻(dí)，似苇而小。荻是多年生草本植物，根状茎外有鳞片，叶线状披针形。一说指刺榆，落叶乔木，高可达10米，树的老枝上有粗长的刺"
+        },
+        {
+          "term": "建木",
+          "explanation": "传说中的一种树"
+        }
+      ],
+      "translation": "有一种树，形状像牛，牵拉它时上面有皮，皮像缨带或黄色的蛇。它的叶子像罗，结像栾华一样的果实，树干像，它的名字叫建木。生长在窫窳所居之地西边弱水的岸上。",
+      "index": 14
+    },
+    {
+      "title": "氐人国",
+      "originalText": "氐人国在建木西，其为人人面而鱼身，无足。",
+      "annotations": [
+        {
+          "term": "氐(dī)人国",
+          "explanation": "传说中的国名，具体所指待考。氐是我国古代民族，居住在今西北一带"
+        }
+      ],
+      "translation": "氐人国在长有建木之地的西边，这个国家的人长着人一样的脸，鱼一样的身子，没有脚。",
+      "index": 15
+    },
+    {
+      "title": "巴蛇食象",
+      "originalText": "巴蛇食象，三岁而出其骨，君子服之，无心腹之疾。其为蛇青黄赤黑。一曰黑蛇青首，在犀牛西。",
+      "annotations": [
+        {
+          "term": "巴蛇",
+          "explanation": "古代传说中的一种大蛇"
+        },
+        {
+          "term": "服之",
+          "explanation": "指吃巴蛇吐出的象骨"
+        },
+        {
+          "term": "犀牛",
+          "explanation": "这里指犀牛生活的地方"
+        }
+      ],
+      "translation": "巴蛇吞吃了大象，三年后才把象骨吐出来，君子吃了这种骨头，便不会得心脏和腹部的疾病。巴蛇的身上有青、黄、红、黑四种颜色。一说是黑蛇，长着青色的脑袋，在犀牛生活之地的西边。",
+      "index": 16
+    },
+    {
+      "title": "旄马",
+      "originalText": "旄马，其状如马，四节有毛。在巴蛇西北，高山南。",
+      "annotations": [
+        {
+          "term": "旄(máo)马",
+          "explanation": "兽名，具体所指待考"
+        },
+        {
+          "term": "四节",
+          "explanation": "四肢的关节"
+        },
+        {
+          "term": "高山",
+          "explanation": "山名，具体所指待考。一说指今四川西部的大雪山"
+        }
+      ],
+      "translation": "旄马的形状像马，四肢的关节部位都长着长毛。它生活在巴蛇所居之地的西北，高山的南边。",
+      "index": 17
+    },
+    {
+      "title": "匈奴开题之国",
+      "originalText": "匈奴、开题之国、列人之国并在西北。",
+      "annotations": [
+        {
+          "term": "匈奴",
+          "explanation": "古族名，亦称胡，战国时活动于燕、赵、秦以北地区，历史上曾多次南下侵入中原地区"
+        },
+        {
+          "term": "开题之国",
+          "explanation": "即开题国，国名，具体所指待考。一说在今新疆乌鲁木齐附近"
+        },
+        {
+          "term": "列人之国",
+          "explanation": "即列人国，国名，具体所指待考"
+        }
+      ],
+      "translation": "匈奴、开题国、列人国都在西北地区。",
+      "index": 18
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "海内",
+      "entryId": "shanhaijing-10-01",
+      "entryTitle": "其一",
+      "term": "海内"
+    },
+    {
+      "entityName": "瓯",
+      "entryId": "shanhaijing-10-02",
+      "entryTitle": "瓯居海中",
+      "term": "瓯"
+    },
+    {
+      "entityName": "闽",
+      "entryId": "shanhaijing-10-02",
+      "entryTitle": "瓯居海中",
+      "term": "闽"
+    },
+    {
+      "entityName": "三天子鄣山",
+      "entryId": "shanhaijing-10-03",
+      "entryTitle": "三天子鄣山",
+      "term": "三天子鄣山"
+    },
+    {
+      "entityName": "西海",
+      "entryId": "shanhaijing-10-03",
+      "entryTitle": "三天子鄣山",
+      "term": "西海"
+    },
+    {
+      "entityName": "桂林",
+      "entryId": "shanhaijing-10-04",
+      "entryTitle": "桂林八树",
+      "term": "桂林"
+    },
+    {
+      "entityName": "番禺",
+      "entryId": "shanhaijing-10-04",
+      "entryTitle": "桂林八树",
+      "term": "番隅"
+    },
+    {
+      "entityName": "伯虑国",
+      "entryId": "shanhaijing-10-05",
+      "entryTitle": "伯虑国",
+      "term": "伯虑国"
+    },
+    {
+      "entityName": "离耳国",
+      "entryId": "shanhaijing-10-05",
+      "entryTitle": "伯虑国",
+      "term": "离耳国"
+    },
+    {
+      "entityName": "雕题国",
+      "entryId": "shanhaijing-10-05",
+      "entryTitle": "伯虑国",
+      "term": "雕题国"
+    },
+    {
+      "entityName": "北朐国",
+      "entryId": "shanhaijing-10-05",
+      "entryTitle": "伯虑国",
+      "term": "北朐国"
+    },
+    {
+      "entityName": "郁水",
+      "entryId": "shanhaijing-10-05",
+      "entryTitle": "伯虑国",
+      "term": "郁水"
+    },
+    {
+      "entityName": "湘陵",
+      "entryId": "shanhaijing-10-05",
+      "entryTitle": "伯虑国",
+      "term": "湘陵"
+    },
+    {
+      "entityName": "南海",
+      "entryId": "shanhaijing-10-05",
+      "entryTitle": "伯虑国",
+      "term": "南海"
+    },
+    {
+      "entityName": "南海",
+      "entryId": "shanhaijing-10-05",
+      "entryTitle": "伯虑国",
+      "term": "南海"
+    },
+    {
+      "entityName": "枭阳国",
+      "entryId": "shanhaijing-10-06",
+      "entryTitle": "枭阳国",
+      "term": "枭阳国"
+    },
+    {
+      "entityName": "北朐国",
+      "entryId": "shanhaijing-10-06",
+      "entryTitle": "枭阳国",
+      "term": "北朐"
+    },
+    {
+      "entityName": "舜",
+      "entryId": "shanhaijing-10-07",
+      "entryTitle": "兕",
+      "term": "舜"
+    },
+    {
+      "entityName": "湘水",
+      "entryId": "shanhaijing-10-07",
+      "entryTitle": "兕",
+      "term": "湘水"
+    },
+    {
+      "entityName": "湘水",
+      "entryId": "shanhaijing-10-07",
+      "entryTitle": "兕",
+      "term": "湘水"
+    },
+    {
+      "entityName": "狄山",
+      "entryId": "shanhaijing-10-08",
+      "entryTitle": "苍梧山",
+      "term": "苍梧之山"
+    },
+    {
+      "entityName": "帝舜",
+      "entryId": "shanhaijing-10-08",
+      "entryTitle": "苍梧山",
+      "term": "帝舜"
+    },
+    {
+      "entityName": "丹朱",
+      "entryId": "shanhaijing-10-08",
+      "entryTitle": "苍梧山",
+      "term": "丹朱"
+    },
+    {
+      "entityName": "帝舜",
+      "entryId": "shanhaijing-10-08",
+      "entryTitle": "苍梧山",
+      "term": "帝舜"
+    },
+    {
+      "entityName": "苍梧",
+      "entryId": "shanhaijing-10-08",
+      "entryTitle": "苍梧山",
+      "term": "苍梧"
+    },
+    {
+      "entityName": "狄山",
+      "entryId": "shanhaijing-10-08",
+      "entryTitle": "苍梧山",
+      "term": "苍梧山"
+    },
+    {
+      "entityName": "范林",
+      "entryId": "shanhaijing-10-09",
+      "entryTitle": "泛林",
+      "term": "泛林"
+    },
+    {
+      "entityName": "孟涂",
+      "entryId": "shanhaijing-10-12",
+      "entryTitle": "夏后启之臣孟涂",
+      "term": "孟涂"
+    },
+    {
+      "entityName": "巴",
+      "entryId": "shanhaijing-10-12",
+      "entryTitle": "夏后启之臣孟涂",
+      "term": "巴"
+    },
+    {
+      "entityName": "丹山",
+      "entryId": "shanhaijing-10-12",
+      "entryTitle": "夏后启之臣孟涂",
+      "term": "丹山"
+    },
+    {
+      "entityName": "丹阳",
+      "entryId": "shanhaijing-10-12",
+      "entryTitle": "夏后启之臣孟涂",
+      "term": "丹阳"
+    },
+    {
+      "entityName": "窫窳",
+      "entryId": "shanhaijing-10-13",
+      "entryTitle": "窫龙首",
+      "term": "窫窳"
+    },
+    {
+      "entityName": "弱水",
+      "entryId": "shanhaijing-10-13",
+      "entryTitle": "窫龙首",
+      "term": "弱水"
+    },
+    {
+      "entityName": "龙",
+      "entryId": "shanhaijing-10-13",
+      "entryTitle": "窫龙首",
+      "term": "龙"
+    },
+    {
+      "entityName": "弱水",
+      "entryId": "shanhaijing-10-13",
+      "entryTitle": "窫龙首",
+      "term": "弱水"
+    },
+    {
+      "entityName": "栾",
+      "entryId": "shanhaijing-10-14",
+      "entryTitle": "建木",
+      "term": "栾"
+    },
+    {
+      "entityName": "建木",
+      "entryId": "shanhaijing-10-14",
+      "entryTitle": "建木",
+      "term": "建木"
+    },
+    {
+      "entityName": "弱水",
+      "entryId": "shanhaijing-10-14",
+      "entryTitle": "建木",
+      "term": "弱水"
+    },
+    {
+      "entityName": "建木",
+      "entryId": "shanhaijing-10-14",
+      "entryTitle": "建木",
+      "term": "建木"
+    },
+    {
+      "entityName": "氐人国",
+      "entryId": "shanhaijing-10-15",
+      "entryTitle": "氐人国",
+      "term": "氐人国"
+    },
+    {
+      "entityName": "氐人国",
+      "entryId": "shanhaijing-10-15",
+      "entryTitle": "氐人国",
+      "term": "氐人国"
+    },
+    {
+      "entityName": "建木",
+      "entryId": "shanhaijing-10-15",
+      "entryTitle": "氐人国",
+      "term": "建木"
+    },
+    {
+      "entityName": "巴蛇",
+      "entryId": "shanhaijing-10-16",
+      "entryTitle": "巴蛇食象",
+      "term": "巴蛇"
+    },
+    {
+      "entityName": "旄马",
+      "entryId": "shanhaijing-10-17",
+      "entryTitle": "旄马",
+      "term": "旄马"
+    },
+    {
+      "entityName": "高山",
+      "entryId": "shanhaijing-10-17",
+      "entryTitle": "旄马",
+      "term": "高山"
+    },
+    {
+      "entityName": "匈奴",
+      "entryId": "shanhaijing-10-18",
+      "entryTitle": "匈奴开题之国",
+      "term": "匈奴"
+    },
+    {
+      "entityName": "开题之国",
+      "entryId": "shanhaijing-10-18",
+      "entryTitle": "匈奴开题之国",
+      "term": "开题之国"
+    },
+    {
+      "entityName": "列人之国",
+      "entryId": "shanhaijing-10-18",
+      "entryTitle": "匈奴开题之国",
+      "term": "列人之国"
+    },
+    {
+      "entityName": "匈奴",
+      "entryId": "shanhaijing-10-18",
+      "entryTitle": "匈奴开题之国",
+      "term": "匈奴"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_10.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

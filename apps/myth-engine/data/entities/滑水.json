@@ -1,0 +1,32 @@
+{
+  "id": "滑水",
+  "name": "滑水",
+  "pinyin": "",
+  "aliases": [
+    "滑之水",
+    "滑水河"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说应作“滑水”，即滑水河，在今陕西汉中",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-02",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说应作“滑水”，即滑水河，在今陕西汉中"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-02",
+      "type": "text",
+      "context": "滑水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

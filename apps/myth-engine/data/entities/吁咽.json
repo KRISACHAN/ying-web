@@ -1,0 +1,22 @@
+{
+  "id": "吁咽",
+  "name": "吁咽",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "所指待考。一说指舜",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "annotation",
+      "annotationExplanation": "所指待考。一说指舜"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

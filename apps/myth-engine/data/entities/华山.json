@@ -1,0 +1,31 @@
+{
+  "id": "华山",
+  "name": "华山",
+  "pinyin": "",
+  "aliases": [
+    "华之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，五岳中的西岳，在今陕西华阴市南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-01",
+      "type": "annotation",
+      "annotationExplanation": "山名，五岳中的西岳，在今陕西华阴市南"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-07",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能指今四川青城山；一说指岷山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

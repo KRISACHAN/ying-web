@@ -1,0 +1,24 @@
+{
+  "id": "幼海",
+  "name": "幼海",
+  "pinyin": "",
+  "aliases": [
+    "幼之海"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说指崂山西南的胶州湾",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-34",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说指崂山西南的胶州湾"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

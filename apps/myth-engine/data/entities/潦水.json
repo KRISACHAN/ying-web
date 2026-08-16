@@ -1,0 +1,24 @@
+{
+  "id": "潦水",
+  "name": "潦水",
+  "pinyin": "",
+  "aliases": [
+    "潦之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即辽河，中国东北地区南部大河，流贯辽宁省中部，经盘锦市入渤海",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-24",
+      "type": "annotation",
+      "annotationExplanation": "即辽河，中国东北地区南部大河，流贯辽宁省中部，经盘锦市入渤海"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

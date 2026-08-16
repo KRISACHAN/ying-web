@@ -1,0 +1,31 @@
+{
+  "id": "教水",
+  "name": "教水",
+  "pinyin": "",
+  "aliases": [
+    "教之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，在今山西垣曲县，经古城入黄河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-36",
+      "type": "annotation",
+      "annotationExplanation": "水名，在今山西垣曲县，经古城入黄河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-36",
+      "type": "text",
+      "context": "教水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "皇鸟",
+  "name": "皇鸟",
+  "pinyin": "",
+  "aliases": [
+    "凰"
+  ],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "即“凰”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "annotation",
+      "annotationExplanation": "即“凰”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

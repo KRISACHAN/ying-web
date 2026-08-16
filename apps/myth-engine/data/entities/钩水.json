@@ -1,0 +1,31 @@
+{
+  "id": "钩水",
+  "name": "钩水",
+  "pinyin": "",
+  "aliases": [
+    "钩之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，在今山东境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-42",
+      "type": "annotation",
+      "annotationExplanation": "水名，在今山东境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-42",
+      "type": "text",
+      "context": "钩水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

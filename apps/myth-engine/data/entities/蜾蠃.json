@@ -1,0 +1,24 @@
+{
+  "id": "蜾蠃",
+  "name": "蜾蠃",
+  "pinyin": "guǒ luǒ",
+  "aliases": [
+    "蒲卢"
+  ],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "寄生蜂的一种。亦名蒲卢。腰细，体青黑色，长约半寸，以泥土筑巢于树枝或壁上，捕捉螟蛉等害虫，为其幼虫的食物，古人误以为收养幼虫",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 13,
+      "entryId": "soushenji-13-08",
+      "type": "annotation",
+      "annotationExplanation": "寄生蜂的一种。亦名蒲卢。腰细，体青黑色，长约半寸，以泥土筑巢于树枝或壁上，捕捉螟蛉等害虫，为其幼虫的食物，古人误以为收养幼虫"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 13
+  }
+}

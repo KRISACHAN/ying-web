@@ -1,0 +1,33 @@
+{
+  "id": "长股之国",
+  "name": "长股之国",
+  "pinyin": "",
+  "aliases": [
+    "长股国",
+    "长股"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即长股国，传说中的国名，因其国中之人的腿很长(股：大腿)，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-19",
+      "type": "annotation",
+      "annotationExplanation": "即长股国，传说中的国名，因其国中之人的腿很长(股：大腿)，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-02",
+      "type": "annotation",
+      "annotationExplanation": "即长股国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

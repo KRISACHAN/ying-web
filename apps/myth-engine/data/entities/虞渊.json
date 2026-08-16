@@ -1,0 +1,31 @@
+{
+  "id": "虞渊",
+  "name": "虞渊",
+  "pinyin": "",
+  "aliases": [
+    "虞之渊"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "其女，爱息其马，是谓县车。至于虞渊，是谓黄昏。至于蒙谷，是谓定昏"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 19,
+      "entryId": "huainanzi-19-01",
+      "type": "text",
+      "context": "如一，所极同也。日出旸谷，入于虞渊，莫知其动，须臾之间，俛人之颈"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 4
+  }
+}

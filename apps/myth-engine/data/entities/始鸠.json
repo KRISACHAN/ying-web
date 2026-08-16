@@ -1,0 +1,22 @@
+{
+  "id": "始鸠",
+  "name": "始鸠",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "一说指鸟名，即尸鸠；一说指国名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-07",
+      "type": "annotation",
+      "annotationExplanation": "一说指鸟名，即尸鸠；一说指国名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

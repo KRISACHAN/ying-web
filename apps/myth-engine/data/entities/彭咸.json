@@ -1,0 +1,71 @@
+{
+  "id": "彭咸",
+  "name": "彭咸",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-03",
+      "type": "text",
+      "context": "\n\n虽不周于今之人兮，\n\n愿依彭咸之遗则！"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-13",
+      "type": "text",
+      "context": "\n既莫足与为美政兮，\n\n吾将从彭咸之所居！"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-05",
+      "type": "text",
+      "context": "光。\n\n望三五以为像兮,\n\n指彭咸以为仪。\n\n夫何极而不至兮,\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-08",
+      "type": "text",
+      "context": "也。\n\n独茕茕而南行兮,\n\n思彭咸之故也。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-11",
+      "type": "text",
+      "context": "兮,\n\n声有隐而先倡。\n\n夫何彭咸之造思兮,\n\n暨志介而不忘。\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-12",
+      "type": "text",
+      "context": "娱。\n\n凌大波而流风兮,\n\n托彭咸之所居。\n\n上高岩之峭岸兮,\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-07",
+      "type": "text",
+      "context": "匿兮,\n\n谗谀登乎明堂。\n\n弃彭咸之娱乐兮,\n\n灭巧倕之绳墨。\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-02",
+      "type": "text",
+      "context": "。\n\n九年之中不吾反兮,\n\n思彭咸之水游。\n\n惜师延之浮渚兮,\n"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

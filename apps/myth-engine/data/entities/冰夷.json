@@ -1,0 +1,101 @@
+{
+  "id": "冰夷",
+  "name": "冰夷",
+  "pinyin": "",
+  "aliases": [
+    "河伯"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "又作冯(fénɡ)夷、无夷，也叫河伯，传说中的水神名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-13",
+      "type": "annotation",
+      "annotationExplanation": "又作冯(fénɡ)夷、无夷，也叫河伯，传说中的水神名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-11",
+      "type": "annotation",
+      "annotationExplanation": "人名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-11",
+      "type": "text",
+      "context": "操鸟，方食其头。王亥托于有易、河伯。仆牛，有易杀王亥，取仆牛。河"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-03",
+      "type": "text",
+      "context": "班问：“女郎何在？”曰：“女为河伯妇。”班曰：“辄当奉书，不知缘"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-04",
+      "type": "text",
+      "context": "八月上庚日渡河，溺死。天帝署为河伯。又五行书曰：“河伯以庚辰日死"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-05",
+      "type": "text",
+      "context": "城，进厅事，上有信幡，题云：“河伯信。”俄见一人，年三十许，颜色"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 11,
+      "entryId": "soushenji-11-03",
+      "type": "text",
+      "context": "呼，水为逆流三百步。观者皆以为河伯也。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-08",
+      "type": "text",
+      "context": "怅忘归,\n\n惟极浦兮寤怀。\n\n河伯鱼鳞屋兮龙堂,\n\n紫贝阙兮珠宫"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-03",
+      "type": "text",
+      "context": "夷羿,\n\n革孽夏民。\n\n胡射夫河伯,\n\n而妻彼雒嫔？\n\n冯珧利决"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-05",
+      "type": "text",
+      "context": "旗兮电骛,\n\n倏忽兮容裔。\n\n河伯兮开门,\n\n迎余兮欢欣。\n\n顾"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 17,
+      "entryId": "huainanzi-17-01",
+      "type": "text",
+      "context": "，生子而牺，尸祝斋戒以沉诸河，河伯岂羞其所从出，辞而不享哉！\n\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 19,
+      "entryId": "huainanzi-19-01",
+      "type": "text",
+      "context": "有罗纨者必有麻蒯。鸟有沸波者，河伯为之不潮，畏其诚也。故一夫出死"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

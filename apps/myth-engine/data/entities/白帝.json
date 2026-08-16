@@ -1,0 +1,22 @@
+{
+  "id": "白帝",
+  "name": "白帝",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "古代神话中的五位天帝之一，系西方之神",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-35",
+      "type": "annotation",
+      "annotationExplanation": "古代神话中的五位天帝之一，系西方之神"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

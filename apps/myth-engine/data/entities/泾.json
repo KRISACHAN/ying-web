@@ -1,0 +1,22 @@
+{
+  "id": "泾",
+  "name": "泾",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-20",
+      "type": "text",
+      "context": "注于泾"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

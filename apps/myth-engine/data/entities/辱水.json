@@ -1,0 +1,32 @@
+{
+  "id": "辱水",
+  "name": "辱水",
+  "pinyin": "",
+  "aliases": [
+    "辱之水",
+    "秀延河"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即今陕西的清涧河，又叫秀延河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-46",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即今陕西的清涧河，又叫秀延河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-46",
+      "type": "text",
+      "context": "辱水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

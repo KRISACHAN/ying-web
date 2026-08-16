@@ -1,0 +1,31 @@
+{
+  "id": "姑儿山",
+  "name": "姑儿山",
+  "pinyin": "",
+  "aliases": [
+    "姑儿之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即姑儿山，山名，一说指今山东章丘市、邹平县界上的长白山；一说在今山东诸城市东南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-05",
+      "type": "annotation",
+      "annotationExplanation": "即姑儿山，山名，一说指今山东章丘市、邹平县界上的长白山；一说在今山东诸城市东南"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-05",
+      "type": "text",
+      "context": "，曰姑儿之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

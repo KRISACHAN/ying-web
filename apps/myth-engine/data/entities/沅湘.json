@@ -1,0 +1,22 @@
+{
+  "id": "沅湘",
+  "name": "沅湘",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "沅水、湘水，在湖南境内，流入洞庭湖",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-07",
+      "type": "annotation",
+      "annotationExplanation": "沅水、湘水，在湖南境内，流入洞庭湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

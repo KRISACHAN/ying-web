@@ -1,0 +1,22 @@
+{
+  "id": "高柳",
+  "name": "高柳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地名，在今山西阳高县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-04",
+      "type": "annotation",
+      "annotationExplanation": "地名，在今山西阳高县"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "痠石",
+  "name": "痠石",
+  "pinyin": "suān",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "石名，具体所指待考。一说指砭石的一种，能用来治病",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-118",
+      "type": "annotation",
+      "annotationExplanation": "石名，具体所指待考。一说指砭石的一种，能用来治病"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

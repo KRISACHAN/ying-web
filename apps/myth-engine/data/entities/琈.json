@@ -1,0 +1,29 @@
+{
+  "id": "琈",
+  "name": "琈",
+  "pinyin": "tū fú",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "美玉名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-04",
+      "type": "annotation",
+      "annotationExplanation": "美玉名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-06",
+      "type": "annotation",
+      "annotationExplanation": "美玉名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

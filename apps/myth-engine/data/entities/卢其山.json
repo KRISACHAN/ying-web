@@ -1,0 +1,31 @@
+{
+  "id": "卢其山",
+  "name": "卢其山",
+  "pinyin": "",
+  "aliases": [
+    "卢其之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即卢其山，山名，具体所指待考。一说在今江苏境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-19",
+      "type": "annotation",
+      "annotationExplanation": "即卢其山，山名，具体所指待考。一说在今江苏境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-19",
+      "type": "text",
+      "context": "，曰卢其之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

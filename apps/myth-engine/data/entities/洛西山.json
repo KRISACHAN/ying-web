@@ -1,0 +1,24 @@
+{
+  "id": "洛西山",
+  "name": "洛西山",
+  "pinyin": "",
+  "aliases": [
+    "洛西之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "一说指今陕西的(huān)举山；一说“洛”指洛阳，在今河南洛阳市",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-20",
+      "type": "annotation",
+      "annotationExplanation": "一说指今陕西的(huān)举山；一说“洛”指洛阳，在今河南洛阳市"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

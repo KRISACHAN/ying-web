@@ -1,0 +1,29 @@
+{
+  "id": "开明",
+  "name": "开明",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "指开明兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-17",
+      "type": "annotation",
+      "annotationExplanation": "指开明兽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-19",
+      "type": "annotation",
+      "annotationExplanation": "指开明兽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

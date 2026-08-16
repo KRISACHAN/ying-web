@@ -1,0 +1,32 @@
+{
+  "id": "登葆山",
+  "name": "登葆山",
+  "pinyin": "",
+  "aliases": [
+    "登葆之山",
+    "登备山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，也叫登备山，具体所指待考。一说从此山可上达天庭",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-10",
+      "type": "annotation",
+      "annotationExplanation": "山名，也叫登备山，具体所指待考。一说从此山可上达天庭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "annotation",
+      "annotationExplanation": "即登备山，山名，又叫登葆山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "祷过山",
+  "name": "祷过山",
+  "pinyin": "",
+  "aliases": [
+    "祷过之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即祷过山，山名，具体所指待考。一说在今广东境内；一说在今广西境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-27",
+      "type": "annotation",
+      "annotationExplanation": "即祷过山，山名，具体所指待考。一说在今广东境内；一说在今广西境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-27",
+      "type": "text",
+      "context": "，曰祷过之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

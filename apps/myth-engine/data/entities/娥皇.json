@@ -1,0 +1,29 @@
+{
+  "id": "娥皇",
+  "name": "娥皇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": "帝舜的妻子，是尧的女儿",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-05",
+      "type": "annotation",
+      "annotationExplanation": "帝舜的妻子，是尧的女儿"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-05",
+      "type": "text",
+      "context": "山，荣水穷焉。有人三身，帝俊妻娥皇，生此三身之国，姚姓，黍食，使"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

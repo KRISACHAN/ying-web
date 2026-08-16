@@ -1,0 +1,24 @@
+{
+  "id": "郁水",
+  "name": "郁水",
+  "pinyin": "",
+  "aliases": [
+    "郁之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，指今广西的右江、郁江、浔(xún)江及广东的西江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-05",
+      "type": "annotation",
+      "annotationExplanation": "水名，指今广西的右江、郁江、浔(xún)江及广东的西江"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

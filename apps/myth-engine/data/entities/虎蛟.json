@@ -1,0 +1,22 @@
+{
+  "id": "虎蛟",
+  "name": "虎蛟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "动物名，一说指鱼叚(xiā)虎鱼，体侧扁，长20厘米，牙细尖或分叉，生活在海水或淡水中；一说指马来鳄，体长1米以上，生活在江河湖泊及沼泽地带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-27",
+      "type": "annotation",
+      "annotationExplanation": "动物名，一说指鱼叚(xiā)虎鱼，体侧扁，长20厘米，牙细尖或分叉，生活在海水或淡水中；一说指马来鳄，体长1米以上，生活在江河湖泊及沼泽地带"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "漳",
+  "name": "漳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-72",
+      "type": "text",
+      "context": "注于漳"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-74",
+      "type": "text",
+      "context": "于漳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

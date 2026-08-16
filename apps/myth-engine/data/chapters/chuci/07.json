@@ -1,0 +1,30 @@
+{
+  "id": "chuci-07",
+  "bookId": "chuci",
+  "bookTitle": "楚辞",
+  "chapterIndex": 7,
+  "chapterTitle": "渔父",
+  "entryCount": 1,
+  "entries": [
+    {
+      "title": "",
+      "originalText": "屈原既放,\n\n游于江潭,\n\n行吟泽畔。\n\n颜色憔悴,\n\n形容枯槁。\n\n渔父见而问之,\n\n曰:“子非三闾大夫欤？\n\n何故至于斯？”\n\n屈原曰:\n\n“举世皆浊我独清,\n\n众人皆醉我独醒,\n\n是以见放。”\n\n渔父曰:\n\n“圣人不凝滞于物,\n\n而能与世推移。\n\n世人皆浊,\n\n何不淈其泥而扬其波？\n\n众人皆醉,\n\n何不餔其糟而啜其醨？\n\n何故深思高举,\n\n自令放为？”\n\n屈原曰:\n\n“吾闻之:\n\n新沐者必弹冠,\n\n新浴者必振衣。\n\n安能以身之察察,\n\n受物之汶汶者乎？\n\n宁赴湘流,\n\n葬身于江鱼之腹中。,\n\n安能以皓皓之白,\n\n而蒙世俗之尘埃乎？”\n\n渔父莞尔而笑,\n\n鼓枻而去。\n\n歌曰:\n\n“沧浪之水清兮,\n\n可以濯吾缨。\n\n沧浪之水浊兮,\n\n可以濯吾足。”\n\n遂去,\n\n不复与言。",
+      "annotations": [],
+      "translation": "屈原被放逐以后,\n\n在沅江岸边漫游,\n\n在大泽边上一边行走一边吟唱。\n\n脸色憔悴,\n\n身体枯瘦。\n\n渔父看见他,\n\n问道:“你不是三闾大夫吗？",
+      "index": 1
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "屈原",
+      "entryId": "chuci-07-01",
+      "entryTitle": "",
+      "term": "屈原"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/chuci_7.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

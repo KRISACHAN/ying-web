@@ -1,0 +1,52 @@
+{
+  "id": "九野",
+  "name": "九野",
+  "pinyin": "",
+  "aliases": [
+    "九之野"
+  ],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "指九州之地",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-16",
+      "type": "annotation",
+      "annotationExplanation": "指九州之地"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-16",
+      "type": "text",
+      "context": "狸。一曰鱼叚。即有神圣乘此以行九野。一曰鳖鱼在夭野北，其为鱼也如"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "，四支不动，聪明不损，而知八绒九野之形埒者，何也？执道要之柄，而"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "虹蜺彗星者，天之忌也。\n\n天有九野，九千九百九十九隅，去地五亿万"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "通乎二十篇之论，睹凡得要，以通九野，径十门，外天地，捭山川，其于"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

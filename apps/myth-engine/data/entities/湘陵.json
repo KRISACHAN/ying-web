@@ -1,0 +1,24 @@
+{
+  "id": "湘陵",
+  "name": "湘陵",
+  "pinyin": "",
+  "aliases": [
+    "湘之陵"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地名，具体所指待考。一说即“湘漓”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-05",
+      "type": "annotation",
+      "annotationExplanation": "地名，具体所指待考。一说即“湘漓”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

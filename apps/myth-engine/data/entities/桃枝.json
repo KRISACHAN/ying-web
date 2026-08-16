@@ -1,0 +1,22 @@
+{
+  "id": "桃枝",
+  "name": "桃枝",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "竹名，现名矮竹，棕紫色，每个节上生有很多小枝",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "annotation",
+      "annotationExplanation": "竹名，现名矮竹，棕紫色，每个节上生有很多小枝"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

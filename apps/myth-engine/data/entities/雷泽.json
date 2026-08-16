@@ -1,0 +1,39 @@
+{
+  "id": "雷泽",
+  "name": "雷泽",
+  "pinyin": "",
+  "aliases": [
+    "雷之泽",
+    "雷夏"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古泽名，称为雷泽的地方有二：一在今山东荷泽市东北，又称雷夏；一在今山西永州市蒲州南，源出雷首山，南流入黄河。一说这里指震泽，即太湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-06",
+      "type": "annotation",
+      "annotationExplanation": "古泽名，称为雷泽的地方有二：一在今山东荷泽市东北，又称雷夏；一在今山西永州市蒲州南，源出雷首山，南流入黄河。一说这里指震泽，即太湖"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-06",
+      "type": "text",
+      "context": "雷泽中有雷神，龙身而人头，鼓其腹。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "民在其北方三百里，狗国在其东。雷泽有神，龙身人头，鼓其腹而熙。\n"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

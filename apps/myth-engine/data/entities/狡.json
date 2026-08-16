@@ -1,0 +1,29 @@
+{
+  "id": "狡",
+  "name": "狡",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-32",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-32",
+      "type": "text",
+      "context": "有兽焉，其状如犬而豹文，其角如牛，其名曰狡"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

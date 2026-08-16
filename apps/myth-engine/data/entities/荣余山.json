@@ -1,0 +1,31 @@
+{
+  "id": "荣余山",
+  "name": "荣余山",
+  "pinyin": "",
+  "aliases": [
+    "荣余之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即荣余山，山名，在今江西北部，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-127",
+      "type": "annotation",
+      "annotationExplanation": "即荣余山，山名，在今江西北部，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-127",
+      "type": "text",
+      "context": "，曰荣余之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

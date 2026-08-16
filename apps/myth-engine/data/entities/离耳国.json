@@ -1,0 +1,22 @@
+{
+  "id": "离耳国",
+  "name": "离耳国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，一说即儋(dān)耳国，在今海南岛儋县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-05",
+      "type": "annotation",
+      "annotationExplanation": "国名，一说即儋(dān)耳国，在今海南岛儋县"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

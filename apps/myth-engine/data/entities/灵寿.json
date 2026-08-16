@@ -1,0 +1,22 @@
+{
+  "id": "灵寿",
+  "name": "灵寿",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "木名，也叫椐(jū)，多肿节，古时用来做马鞭或手杖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-08",
+      "type": "annotation",
+      "annotationExplanation": "木名，也叫椐(jū)，多肿节，古时用来做马鞭或手杖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

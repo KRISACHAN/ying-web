@@ -1,0 +1,31 @@
+{
+  "id": "丘时水",
+  "name": "丘时水",
+  "pinyin": "",
+  "aliases": [
+    "丘时之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即丘时水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "annotation",
+      "annotationExplanation": "即丘时水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "text",
+      "context": "丘时之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

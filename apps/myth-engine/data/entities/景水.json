@@ -1,0 +1,31 @@
+{
+  "id": "景水",
+  "name": "景水",
+  "pinyin": "",
+  "aliases": [
+    "景之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今洺河，源出武安市西北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-42",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今洺河，源出武安市西北"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-42",
+      "type": "text",
+      "context": "景水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

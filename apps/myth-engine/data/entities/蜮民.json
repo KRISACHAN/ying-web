@@ -1,0 +1,25 @@
+{
+  "id": "蜮民",
+  "name": "蜮民",
+  "pinyin": "",
+  "aliases": [
+    "蜮人"
+  ],
+  "type": "unknown",
+  "typeConfidence": "low",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-14",
+      "type": "annotation",
+      "annotationExplanation": "即蜮民",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

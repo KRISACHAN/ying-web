@@ -1,0 +1,32 @@
+{
+  "id": "叔均",
+  "name": "叔均",
+  "pinyin": "",
+  "aliases": [
+    "义均"
+  ],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "一说即商均，是舜的儿子",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-02",
+      "type": "annotation",
+      "annotationExplanation": "一说即商均，是舜的儿子"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-21",
+      "type": "annotation",
+      "annotationExplanation": "即叔均",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "莱山",
+  "name": "莱山",
+  "pinyin": "",
+  "aliases": [
+    "莱之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说可能指今青海境内的托来山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-26",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能指今青海境内的托来山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

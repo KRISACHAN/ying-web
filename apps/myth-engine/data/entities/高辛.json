@@ -1,0 +1,22 @@
+{
+  "id": "高辛",
+  "name": "高辛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "帝喾(kù)，姓姬，为上古五帝之一。黄帝的曾孙",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-02",
+      "type": "annotation",
+      "annotationExplanation": "帝喾(kù)，姓姬，为上古五帝之一。黄帝的曾孙"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "盈民之国",
+  "name": "盈民之国",
+  "pinyin": "",
+  "aliases": [
+    "盈民国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即盈民国，国名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-07",
+      "type": "annotation",
+      "annotationExplanation": "即盈民国，国名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

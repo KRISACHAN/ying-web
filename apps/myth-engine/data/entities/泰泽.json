@@ -1,0 +1,45 @@
+{
+  "id": "泰泽",
+  "name": "泰泽",
+  "pinyin": "",
+  "aliases": [
+    "泰之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说可能指贝加尔湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-15",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说可能指贝加尔湖"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-15",
+      "type": "text",
+      "context": "注于泰泽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-35",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-35",
+      "type": "text",
+      "context": "注于泰泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

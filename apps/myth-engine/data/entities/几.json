@@ -1,0 +1,22 @@
+{
+  "id": "几",
+  "name": "几",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "古人坐时凭依或搁置物件的小桌",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-03",
+      "type": "annotation",
+      "annotationExplanation": "古人坐时凭依或搁置物件的小桌"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

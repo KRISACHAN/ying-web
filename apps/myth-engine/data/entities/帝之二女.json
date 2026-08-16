@@ -1,0 +1,22 @@
+{
+  "id": "帝之二女",
+  "name": "帝之二女",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "指尧帝的两个女儿娥皇和女英",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-120",
+      "type": "annotation",
+      "annotationExplanation": "指尧帝的两个女儿娥皇和女英"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

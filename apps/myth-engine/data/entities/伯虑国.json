@@ -1,0 +1,24 @@
+{
+  "id": "伯虑国",
+  "name": "伯虑国",
+  "pinyin": "",
+  "aliases": [
+    "婆利国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，一说又称婆利国、婆黎国等，在今印尼爪哇岛东的巴厘岛；一说指加里曼丹岛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-05",
+      "type": "annotation",
+      "annotationExplanation": "国名，一说又称婆利国、婆黎国等，在今印尼爪哇岛东的巴厘岛；一说指加里曼丹岛"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

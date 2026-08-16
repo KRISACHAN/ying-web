@@ -1,0 +1,24 @@
+{
+  "id": "白于山",
+  "name": "白于山",
+  "pinyin": "",
+  "aliases": [
+    "白于之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即白于山，山名，在今陕西志丹县之北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-49",
+      "type": "annotation",
+      "annotationExplanation": "即白于山，山名，在今陕西志丹县之北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

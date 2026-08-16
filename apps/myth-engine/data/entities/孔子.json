@@ -1,0 +1,134 @@
+{
+  "id": "孔子",
+  "name": "孔子",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 3,
+      "entryId": "soushenji-03-01",
+      "type": "text",
+      "context": "以六枚白意。意令主簿安置几前，孔子教授堂下床首有悬瓮，意召孔诉问"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-05",
+      "type": "text",
+      "context": "鲁哀公十四年，孔子夜梦三槐之间，丰、沛之邦，有赤"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 11,
+      "entryId": "soushenji-11-10",
+      "type": "text",
+      "context": "，问母，母曰：“思尔，啮指。”孔子曰：“曾参之孝，精感万里。”"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-03",
+      "type": "text",
+      "context": "弗置。\n\n路室女之方桑兮,\n\n孔子过之以自侍。\n\n吾独乖剌而无当"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 8,
+      "entryId": "huainanzi-08-01",
+      "type": "text",
+      "context": "？夫颜回、季路、子夏、冉伯牛，孔子之通学也。然颜渊夭死，季路葅于"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "以感之也。\n\n夫荣启期一弹，而孔子三日乐，感于和：邹忌一徽，而威"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 11,
+      "entryId": "huainanzi-11-01",
+      "type": "text",
+      "context": "先自为检式仪表，故令行于天下。孔子白：“其身正，不令而行；其身不"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "纣为象箸而箕子叽，鲁以偶人葬而孔子叹，见所始则知所终。故水出于山"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "烙生乎热斗。子路撜溺而受牛谢，孔子曰：“鲁国必好救人于患。”子赣"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "，言者不知’也。”\n\n白公问于孔子曰：“人可以微言？”孔子不应。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "旋揖让以修礼，厚葬久丧以送死，孔子之所立也，而墨子非之。兼爱尚贤"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 17,
+      "entryId": "huainanzi-17-01",
+      "type": "text",
+      "context": "子罕之辞其所 不欲而得其所欲，孔子之见黏蝉者，自公胜之倒杖策也，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 20,
+      "entryId": "huainanzi-20-01",
+      "type": "text",
+      "context": "叔时教庄王封陈氏之后而霸天下。孔子读《易》至《损》《益》，未尝不"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "，是故患祸弗能伤也。\n\n人或问孔子曰：“颜回何如人也？”曰：“仁"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "而入周，百里奚转鬻，管仲束缚，孔子无黔突，墨子无暖席。是以圣人不"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "者得小即释之，非刑之所能禁也。孔子为鲁司寇，道不拾遗，市贾不预贾"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "，周公受封于鲁，以此移风易俗。孔子修成康之道，述周公之训，以教七"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 3
+  }
+}

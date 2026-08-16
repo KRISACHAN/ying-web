@@ -1,0 +1,22 @@
+{
+  "id": "黑蛇",
+  "name": "黑蛇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "一说即“巴蛇”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-12",
+      "type": "annotation",
+      "annotationExplanation": "一说即“巴蛇”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

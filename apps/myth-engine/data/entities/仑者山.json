@@ -1,0 +1,31 @@
+{
+  "id": "仑者山",
+  "name": "仑者山",
+  "pinyin": "",
+  "aliases": [
+    "仑者之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即仑者山(一作“仑山”)，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-33",
+      "type": "annotation",
+      "annotationExplanation": "即仑者山(一作“仑山”)，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-33",
+      "type": "text",
+      "context": "，曰仑者之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

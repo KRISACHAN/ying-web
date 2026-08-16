@@ -1,0 +1,24 @@
+{
+  "id": "椒丘",
+  "name": "椒丘",
+  "pinyin": "",
+  "aliases": [
+    "椒之丘"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "长有椒树的山丘",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-05",
+      "type": "annotation",
+      "annotationExplanation": "长有椒树的山丘"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "朱厌",
+  "name": "朱厌",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说指白眉长臂猿",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-21",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说指白眉长臂猿"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "麢",
+  "name": "麢",
+  "pinyin": "línɡ",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "即羚羊，哺乳动物，外形像山羊，四肢细长，动作敏捷",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-12",
+      "type": "annotation",
+      "annotationExplanation": "即羚羊，哺乳动物，外形像山羊，四肢细长，动作敏捷"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

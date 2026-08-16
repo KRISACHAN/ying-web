@@ -1,0 +1,38 @@
+{
+  "id": "讙头国",
+  "name": "讙头国",
+  "pinyin": "huān",
+  "aliases": [
+    "鹳"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名。即“鹳(ɡuàn)”，一种形状像鹤的鸟。因其国中之人长着鹳一样的头，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-08",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名。即“鹳(ɡuàn)”，一种形状像鹤的鸟。因其国中之人长着鹳一样的头，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-08",
+      "type": "text",
+      "context": "讙头国在其南，其为人人面有翼，鸟喙，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "自西南至东南方，结胸民，羽民，讙头国民，裸国民，三苗民，交股民，不"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

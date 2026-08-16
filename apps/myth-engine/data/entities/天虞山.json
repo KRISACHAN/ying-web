@@ -1,0 +1,38 @@
+{
+  "id": "天虞山",
+  "name": "天虞山",
+  "pinyin": "",
+  "aliases": [
+    "天虞之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即天虞山，山名，应在今广东境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-26",
+      "type": "annotation",
+      "annotationExplanation": "即天虞山，山名，应在今广东境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-26",
+      "type": "text",
+      "context": "，曰天虞之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-36",
+      "type": "text",
+      "context": "，自天虞之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

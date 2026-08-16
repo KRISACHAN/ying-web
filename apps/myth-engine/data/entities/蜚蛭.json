@@ -1,0 +1,22 @@
+{
+  "id": "蜚蛭",
+  "name": "蜚蛭",
+  "pinyin": "fěi zhì",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "动物名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-03",
+      "type": "annotation",
+      "annotationExplanation": "动物名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

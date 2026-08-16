@@ -1,0 +1,24 @@
+{
+  "id": "棠",
+  "name": "棠",
+  "pinyin": "",
+  "aliases": [
+    "杜梨"
+  ],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "即棠梨，也叫杜梨，落叶乔木，叶子长圆形或菱形，开白色花，果实略呈球形",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-25",
+      "type": "annotation",
+      "annotationExplanation": "即棠梨，也叫杜梨，落叶乔木，叶子长圆形或菱形，开白色花，果实略呈球形"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

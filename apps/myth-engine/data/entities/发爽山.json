@@ -1,0 +1,31 @@
+{
+  "id": "发爽山",
+  "name": "发爽山",
+  "pinyin": "",
+  "aliases": [
+    "发爽之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即发爽山，山名，具体所指待考。一说在今广西境内的大瑶山中段",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-29",
+      "type": "annotation",
+      "annotationExplanation": "即发爽山，山名，具体所指待考。一说在今广西境内的大瑶山中段"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-29",
+      "type": "text",
+      "context": "，曰发爽之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

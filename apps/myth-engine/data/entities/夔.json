@@ -1,0 +1,29 @@
+{
+  "id": "夔",
+  "name": "夔",
+  "pinyin": "kuí",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "古代传说中一种奇异的动物，形状如龙(一说如牛)，只有一条腿",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-18",
+      "type": "annotation",
+      "annotationExplanation": "古代传说中一种奇异的动物，形状如龙(一说如牛)，只有一条腿"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 12,
+      "entryId": "soushenji-12-02",
+      "type": "annotation",
+      "annotationExplanation": "古代传说中的一种龙形异兽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "女烝山",
+  "name": "女烝山",
+  "pinyin": "zhēnɡ",
+  "aliases": [
+    "女烝之山",
+    "女蚕山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即女蚕山，山名，具体所指待考。一说指山东临朐(qú)县的石膏山；一说在今河北大名县一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-38",
+      "type": "annotation",
+      "annotationExplanation": "即女蚕山，山名，具体所指待考。一说指山东临朐(qú)县的石膏山；一说在今河北大名县一带"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-38",
+      "type": "text",
+      "context": "，曰女烝之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

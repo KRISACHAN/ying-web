@@ -1,0 +1,35 @@
+{
+  "id": "楮山",
+  "name": "楮山",
+  "pinyin": "",
+  "aliases": [
+    "堵之山",
+    "堵山",
+    "堵山",
+    "楮之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "中次十一经中无堵山，中次十经中有堵山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-115",
+      "type": "annotation",
+      "annotationExplanation": "中次十一经中无堵山，中次十经中有堵山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-99",
+      "type": "annotation",
+      "annotationExplanation": "即楮山",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

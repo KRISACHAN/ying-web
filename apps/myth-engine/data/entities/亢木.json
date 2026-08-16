@@ -1,0 +1,22 @@
+{
+  "id": "亢木",
+  "name": "亢木",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "木名，一说指卫矛，落叶灌木，高可达3米，叶子倒卵形，开淡黄绿色的小花",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-62",
+      "type": "annotation",
+      "annotationExplanation": "木名，一说指卫矛，落叶灌木，高可达3米，叶子倒卵形，开淡黄绿色的小花"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

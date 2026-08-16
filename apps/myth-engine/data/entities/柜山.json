@@ -1,0 +1,24 @@
+{
+  "id": "柜山",
+  "name": "柜山",
+  "pinyin": "jǔ",
+  "aliases": [
+    "柜之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说指今浙江仙霞岭；一说指今湖南西部某山；一说可能指湖南武陵山脉的张家界山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-11",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说指今浙江仙霞岭；一说指今湖南西部某山；一说可能指湖南武陵山脉的张家界山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "䳋渠",
+  "name": "䳋渠",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-02",
+      "type": "text",
+      "context": "有鸟焉，其名曰䳋渠"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

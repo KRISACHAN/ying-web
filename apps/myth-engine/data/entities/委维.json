@@ -1,0 +1,24 @@
+{
+  "id": "委维",
+  "name": "委维",
+  "pinyin": "",
+  "aliases": [
+    "延维"
+  ],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "即委蛇，也叫延维，传说中的一种怪蛇",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-02",
+      "type": "annotation",
+      "annotationExplanation": "即委蛇，也叫延维，传说中的一种怪蛇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

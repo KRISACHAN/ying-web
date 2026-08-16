@@ -1,0 +1,31 @@
+{
+  "id": "湖灌山",
+  "name": "湖灌山",
+  "pinyin": "",
+  "aliases": [
+    "湖灌之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即湖灌山，山名，即今河北沽源县境内的dà马群山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-26",
+      "type": "annotation",
+      "annotationExplanation": "即湖灌山，山名，即今河北沽源县境内的dà马群山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-26",
+      "type": "text",
+      "context": "，曰湖灌之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

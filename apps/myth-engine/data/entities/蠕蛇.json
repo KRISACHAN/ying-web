@@ -1,0 +1,22 @@
+{
+  "id": "蠕蛇",
+  "name": "蠕蛇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "蛇名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-10",
+      "type": "annotation",
+      "annotationExplanation": "蛇名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

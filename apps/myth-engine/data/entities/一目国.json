@@ -1,0 +1,29 @@
+{
+  "id": "一目国",
+  "name": "一目国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，因其国中之人只长着一只眼睛，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-04",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，因其国中之人只长着一只眼睛，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-04",
+      "type": "text",
+      "context": "一目国在其东，一目中其面而居。曰有手"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

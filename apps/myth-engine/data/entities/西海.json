@@ -1,0 +1,101 @@
+{
+  "id": "西海",
+  "name": "西海",
+  "pinyin": "",
+  "aliases": [
+    "西之海"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说指今广西桂林附近古时的水泽；一说指北部湾",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说指今广西桂林附近古时的水泽；一说指北部湾"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "text",
+      "context": "，曰鹊山。其首曰招摇之山，临于西海之上，多桂，多金玉。有草焉，其"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-13",
+      "type": "annotation",
+      "annotationExplanation": "这里指今青海湖"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-13",
+      "type": "text",
+      "context": "又西二百五十里，曰騩山，是鐓于西海，无草木，多玉。凄水出焉，西流"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-30",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-30",
+      "type": "text",
+      "context": "而鸟翼，苍文而白首，赤喙，常行西海，游于东海，以夜飞。其音如鸾鸡"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-03",
+      "type": "text",
+      "context": "三天子鄣山在闽西海北。一曰在海中。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-02",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说指今甘肃的居延海或新疆的罗布泊"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-02",
+      "type": "text",
+      "context": "西海之内，流沙之中，有国名曰壑市。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-03",
+      "type": "text",
+      "context": "西海之内，流沙之西，有国名曰汜叶。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-12",
+      "type": "text",
+      "context": "待。\n\n路不周以左转兮，\n\n指西海以为期。\n\n屯余车其千乘兮，\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "，见野人曰：“子耕于东海，至于西海。吾马之失，安得不食子之苗？”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

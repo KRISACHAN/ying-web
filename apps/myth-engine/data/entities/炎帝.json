@@ -1,0 +1,73 @@
+{
+  "id": "炎帝",
+  "name": "炎帝",
+  "pinyin": "",
+  "aliases": [
+    "神农氏"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中上古姜姓部落的首领，号烈山氏，与黄帝一起被尊为中华民族的祖先。一说炎帝即神农氏，是农业和医药的发明者",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-41",
+      "type": "annotation",
+      "annotationExplanation": "传说中上古姜姓部落的首领，号烈山氏，与黄帝一起被尊为中华民族的祖先。一说炎帝即神农氏，是农业和医药的发明者"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-41",
+      "type": "text",
+      "context": "喙、赤足，名曰精卫，其鸣自。是炎帝之少女，名曰女娃。女娃游于东海"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-18",
+      "type": "text",
+      "context": "炎帝之孙伯陵，伯陵同吴权之妻阿女缘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-22",
+      "type": "text",
+      "context": "炎帝之妻、赤水之子听讠夭生炎居，炎"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-02",
+      "type": "text",
+      "context": "常入西王母石室中，随风雨上下。炎帝少女追之，亦得仙，俱去。至高辛"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "角，其日甲乙。南方，火也，其帝炎帝，其佐朱明，执衡而治夏，其神为"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "况人乎！此圣人所以重仁袭恩。故炎帝于火，死而为灶；禹劳天下，死而"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "绝。兵之所由来者远矣！黄帝尝与炎帝战矣，颛顼尝与共工争矣。故黄帝"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

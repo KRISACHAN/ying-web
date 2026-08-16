@@ -1,0 +1,29 @@
+{
+  "id": "毛牷",
+  "name": "毛牷",
+  "pinyin": "quán",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "带毛的纯色的全牲",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-14",
+      "type": "annotation",
+      "annotationExplanation": "带毛的纯色的全牲"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-67",
+      "type": "annotation",
+      "annotationExplanation": "带毛的纯色的全牲"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

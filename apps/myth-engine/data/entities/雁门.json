@@ -1,0 +1,31 @@
+{
+  "id": "雁门",
+  "name": "雁门",
+  "pinyin": "",
+  "aliases": [
+    "雁门塞"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今南洋河，源出山西雁门山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-24",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今南洋河，源出山西雁门山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-03",
+      "type": "annotation",
+      "annotationExplanation": "山名，又名雁门塞，在今山西代县西北。因两山对峙，雁从其间飞过而得名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

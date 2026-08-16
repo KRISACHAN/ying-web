@@ -1,0 +1,29 @@
+{
+  "id": "栎",
+  "name": "栎",
+  "pinyin": "lì",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，一说即红腹鹰，是一种猛禽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-11",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，一说即红腹鹰，是一种猛禽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-49",
+      "type": "annotation",
+      "annotationExplanation": "栎树，乔木或灌木，叶子有锯齿或分裂，果实为坚果"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

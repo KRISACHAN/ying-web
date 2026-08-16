@@ -1,0 +1,22 @@
+{
+  "id": "淯",
+  "name": "淯",
+  "pinyin": "yù",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说可能指闽江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-09",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说可能指闽江"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

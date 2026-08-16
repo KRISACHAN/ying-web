@@ -1,0 +1,24 @@
+{
+  "id": "仁举山",
+  "name": "仁举山",
+  "pinyin": "",
+  "aliases": [
+    "仁举之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-76",
+      "type": "text",
+      "context": "，曰仁举之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

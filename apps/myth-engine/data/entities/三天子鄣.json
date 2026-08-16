@@ -1,0 +1,33 @@
+{
+  "id": "三天子鄣",
+  "name": "三天子鄣",
+  "pinyin": "",
+  "aliases": [
+    "三天子都",
+    "三天子都"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，即三天子鄣(zhānɡ)，一说此处指黄山山脉、玉山山脉和缙(jìn)云山等",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-10",
+      "type": "annotation",
+      "annotationExplanation": "山名，即三天子鄣(zhānɡ)，一说此处指黄山山脉、玉山山脉和缙(jìn)云山等"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-11",
+      "type": "annotation",
+      "annotationExplanation": "即三天子鄣",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

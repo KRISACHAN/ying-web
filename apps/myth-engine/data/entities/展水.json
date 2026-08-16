@@ -1,0 +1,31 @@
+{
+  "id": "展水",
+  "name": "展水",
+  "pinyin": "",
+  "aliases": [
+    "展之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-37",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-37",
+      "type": "text",
+      "context": "注于展水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

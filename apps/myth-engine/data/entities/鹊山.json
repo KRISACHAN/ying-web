@@ -1,0 +1,24 @@
+{
+  "id": "鹊山",
+  "name": "鹊山",
+  "pinyin": "",
+  "aliases": [
+    "鹊之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山系名，具体所指待考。一说即南岭山脉；一说可能是今广西漓江上游的猫儿山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "山系名，具体所指待考。一说即南岭山脉；一说可能是今广西漓江上游的猫儿山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

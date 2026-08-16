@@ -1,0 +1,22 @@
+{
+  "id": "缟",
+  "name": "缟",
+  "pinyin": "ɡǎo",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "一种白色的丝织品",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-05",
+      "type": "annotation",
+      "annotationExplanation": "一种白色的丝织品"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

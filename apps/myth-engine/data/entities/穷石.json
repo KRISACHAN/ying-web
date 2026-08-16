@@ -1,0 +1,22 @@
+{
+  "id": "穷石",
+  "name": "穷石",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "神话中山名，相传为后羿所居之处。这句是说宓妃与后羿yín乱",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "annotation",
+      "annotationExplanation": "神话中山名，相传为后羿所居之处。这句是说宓妃与后羿yín乱"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

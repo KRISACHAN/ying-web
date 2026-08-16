@@ -1,0 +1,22 @@
+{
+  "id": "钟乳",
+  "name": "钟乳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "古钟面隆起的饰物。在钟带间，其状似乳，故称",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 10,
+      "entryId": "soushenji-10-01",
+      "type": "annotation",
+      "annotationExplanation": "古钟面隆起的饰物。在钟带间，其状似乳，故称"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 10
+  }
+}

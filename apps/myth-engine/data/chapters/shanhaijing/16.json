@@ -1,0 +1,839 @@
+{
+  "id": "shanhaijing-16",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 16,
+  "chapterTitle": "大荒西经第十六",
+  "entryCount": 22,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "西北海之外，大荒之隅，有山而不合，名曰不周负子，有两黄兽守之。有水曰寒暑之水。水西有湿山，水东有幕山。有禹攻共工国山。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "不周负子",
+          "explanation": "即不周山，传说中的山名，据传共工与颛顼(zhuān xū)争权时，怒触不周山，造成天崩地裂"
+        },
+        {
+          "term": "寒暑之水",
+          "explanation": "指冷水和热水交替涌出的泉水"
+        },
+        {
+          "term": "湿山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "幕山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "禹攻共工国山",
+          "explanation": "指禹杀共工之臣相柳的地方"
+        }
+      ],
+      "translation": "西北海的外面，最荒远之地的角落，有一座山，裂开以后就没有再合拢，名叫不周山，有两只黄色的兽守卫着它。有一条水流，名叫寒暑水。水流的西边有一座山，名叫湿山；水流的东边有一座山，名叫幕山。那里还有一座禹攻共工国山。",
+      "index": 1
+    },
+    {
+      "title": "淑士国",
+      "originalText": "有国名曰淑士，颛顼之子。",
+      "annotations": [
+        {
+          "term": "淑士",
+          "explanation": "国名，具体所指待考"
+        }
+      ],
+      "translation": "有一个国家，名叫淑士，它是由颛顼之子淑士的后代组成的。",
+      "index": 2
+    },
+    {
+      "title": "女娲之肠",
+      "originalText": "有神十人，名曰女娲之肠。化为神，处栗广之野，横道而处。",
+      "annotations": [
+        {
+          "term": "女娲(wā)",
+          "explanation": "神话中人类的始祖，传说她与其兄伏羲结合而产生了人类。又传说她曾用黄土造人，并炼五色石补天"
+        },
+        {
+          "term": "肠",
+          "explanation": "一作“腹”"
+        },
+        {
+          "term": "横",
+          "explanation": "侧，旁边"
+        }
+      ],
+      "translation": "有十位神人，名字叫女娲之肠。他们是由女娲的肠子变成的。居住在栗广的原野上，紧挨着道路。",
+      "index": 3
+    },
+    {
+      "title": "石夷",
+      "originalText": "有人名曰石夷，来风曰韦，处西北隅以司日月之长短。",
+      "annotations": [
+        {
+          "term": "来风曰韦",
+          "explanation": "所指不详。一说按“东方曰折，来风曰俊”句式，“来风曰韦”前应有“西方曰夷”四个字"
+        },
+        {
+          "term": "司",
+          "explanation": "管理，掌管"
+        }
+      ],
+      "translation": "有一个人，名叫石夷，风吹来的地方叫做韦，石夷在西北角掌管着日月运行时间的长短。",
+      "index": 4
+    },
+    {
+      "title": "狂鸟",
+      "originalText": "有五采之鸟，有冠，名曰狂鸟。",
+      "annotations": [
+        {
+          "term": "狂鸟",
+          "explanation": "传说中的一种鸟"
+        }
+      ],
+      "translation": "有一种五彩斑斓的鸟，头上有冠，名叫狂鸟。",
+      "index": 5
+    },
+    {
+      "title": "白氏国",
+      "originalText": "有大泽之长山，有白氏之国。",
+      "annotations": [
+        {
+          "term": "大泽之长山",
+          "explanation": "山名，具体所指待考。一说指沙漠"
+        },
+        {
+          "term": "白氏之国",
+          "explanation": "一作“白民之国”"
+        }
+      ],
+      "translation": "有一座大泽之长山，有一个白氏国。",
+      "index": 6
+    },
+    {
+      "title": "长胫国",
+      "originalText": "西北海之外，赤水一之东，有长胫之国名。",
+      "annotations": [
+        {
+          "term": "赤水",
+          "explanation": "水名，具体所指待考。一说指金沙江；一说指位于西北的额尔齐斯河或鄂毕河等"
+        },
+        {
+          "term": "长胫之国",
+          "explanation": "即长胫国，传说中的国名，因其国中之人小腿(胫：小腿)特别长，故名。一说即长股国"
+        }
+      ],
+      "translation": "西北海的外面，赤水的东边，有一个长胫国。",
+      "index": 7
+    },
+    {
+      "title": "有虫状如菟",
+      "originalText": "有虫状如菟，胸以后者裸不见，青如猿状。",
+      "annotations": [
+        {
+          "term": "虫",
+          "explanation": "这里指兽"
+        },
+        {
+          "term": "菟(tù)",
+          "explanation": "通“兔”，指兔子"
+        },
+        {
+          "term": "胸以后者裸不见",
+          "explanation": "胸部以下裸露(即不长毛)，但是看上去不像裸露"
+        }
+      ],
+      "translation": "有一种兽，形状像兔子，胸部以下裸露，但是看上去不像裸露，因为它的皮色像猿一样发青。",
+      "index": 8
+    },
+    {
+      "title": "丰沮玉门山",
+      "originalText": "大荒之中，有山名日丰沮玉门，日月所入。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "丰沮(jū)玉门",
+          "explanation": "山名，具体所指待考"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名叫丰沮玉门，是日月落下后进入的地方。",
+      "index": 9
+    },
+    {
+      "title": "灵山十巫",
+      "originalText": "有灵山，巫咸、巫即、巫朌、巫彭、巫姑、巫真、巫礼、巫抵、巫谢、巫罗十巫，从此升降，百药爰在。",
+      "annotations": [
+        {
+          "term": "灵山",
+          "explanation": "山名，一说即巫山，在西北地区"
+        },
+        {
+          "term": "朌(bān)",
+          "explanation": "一作“盼”"
+        },
+        {
+          "term": "巫",
+          "explanation": "古代以求神、占卜等为职业的人"
+        },
+        {
+          "term": "爰(yuán)",
+          "explanation": "助词"
+        }
+      ],
+      "translation": "有一座灵山，巫咸、巫即、巫盼、巫彭、巫姑、巫真、巫礼、巫抵、巫谢、巫罗十位巫师从这里上下天庭，山中生长着各种药物。",
+      "index": 10
+    },
+    {
+      "title": "沃民沃野",
+      "originalText": "西有王母之山、壑山、海山。有沃之国，沃民是处。沃之野，凤鸟之卵是食，甘露是饮。凡其所欲，其味尽存。爰有甘华、甘柤、白柳、视肉、三骓、璇瑰、瑶碧、白木、琅玕、白丹、青丹，多银铁。鸾凤自歌，凤鸟自舞，爰有百兽，相群是处，是谓沃之野。",
+      "annotations": [
+        {
+          "term": "西有王母之山",
+          "explanation": "一说应作“有西王母之山”。西王母山，山名，具体所指待考"
+        },
+        {
+          "term": "壑山",
+          "explanation": "山名，具体所指待考。一说可能指青海的柴达木山等"
+        },
+        {
+          "term": "海山",
+          "explanation": "山名，具体所指待考。一说在今青海境内"
+        },
+        {
+          "term": "沃之国",
+          "explanation": "一说应作“沃民之国”，即沃民国，国名，具体所指待考"
+        },
+        {
+          "term": "沃之野",
+          "explanation": "即“诸夭之野”"
+        },
+        {
+          "term": "甘露",
+          "explanation": "甜美的雨露"
+        },
+        {
+          "term": "爰(yuán)",
+          "explanation": "这里，那里"
+        },
+        {
+          "term": "白柳",
+          "explanation": "柳的一种，柳叶的背面苍白色或有白粉，如杞柳"
+        },
+        {
+          "term": "璇(xuán)瑰",
+          "explanation": "美玉名"
+        },
+        {
+          "term": "瑶碧",
+          "explanation": "美玉和青绿色的玉石"
+        },
+        {
+          "term": "白木",
+          "explanation": "树木名，一说指枝干呈白色的树；一说指白乳木，一种小乔木，高可达3米，树皮平滑，树枝折断后有白色汁液流出"
+        },
+        {
+          "term": "琅玕(lánɡ ɡān)",
+          "explanation": "美石"
+        },
+        {
+          "term": "丹",
+          "explanation": "这里指一种可用来制药的矿物"
+        },
+        {
+          "term": "鸾凤",
+          "explanation": "一作“鸾鸟”，应改为“鸾鸟”"
+        }
+      ],
+      "translation": "有西王母山、壑山和海山。有一个沃民国，沃民就居住在那里。他们生活在一片沃野上，吃的是凤鸟的卵，喝的是甘露。凡是他们想吃的东西，这里应有尽有。这里还有甘华、甘柤、白柳、视肉、三骓马、璇瑰、美玉、青绿色的玉石、白木、琅玕、白色的丹和青色的丹，另外还有很多银和铁。鸾鸟在自由地歌唱，凤鸟在自在地起舞，这里还有各种野兽，成群生活在一起，这就是所谓的沃野。",
+      "index": 11
+    },
+    {
+      "title": "三青鸟",
+      "originalText": "有三青鸟，赤首黑目，一名曰大，一名曰少，一名曰青鸟。",
+      "annotations": [
+        {
+          "term": "大(lí)",
+          "explanation": "鸟名，一说为白鹈(tí)鹕，一种大型鸟类，体长可达2米"
+        },
+        {
+          "term": "少",
+          "explanation": "鸟名，一说指斑嘴鹈鹕，新疆亚种，体型比大骛小。“少”前应有“曰”字"
+        }
+      ],
+      "translation": "有三只青鸟，长着红色的脑袋，黑黑的眼睛，一只名叫大，一只名叫少，一只名叫青鸟。",
+      "index": 12
+    },
+    {
+      "title": "轩辕台",
+      "originalText": "有轩辕之台，射者不敢西向射，畏轩辕之台。",
+      "annotations": [
+        {
+          "term": "轩辕之台",
+          "explanation": "即轩辕台，当为纪念黄帝的台"
+        },
+        {
+          "term": "射",
+          "explanation": "一说为衍文"
+        }
+      ],
+      "translation": "有一座轩辕台，因为敬畏轩辕台，射箭的人都不敢向西方而射。",
+      "index": 13
+    },
+    {
+      "title": "丈夫国",
+      "originalText": "有丈夫之国。",
+      "annotations": [
+        {
+          "term": "丈夫之国",
+          "explanation": "即丈夫国"
+        }
+      ],
+      "translation": "有一个丈夫国。",
+      "index": 14
+    },
+    {
+      "title": "弇州山鸣鸟",
+      "originalText": "有弇州之山，五采之鸟仰天，名曰鸣鸟。爰有百乐歌儛之风。",
+      "annotations": [
+        {
+          "term": "弇(yān)州之山",
+          "explanation": "即奔州山，山名，具体所指待考。一说即崦嵫(yān zī)山"
+        },
+        {
+          "term": "鸣鸟",
+          "explanation": "凤凰之类的鸟。一说即孟鸟"
+        },
+        {
+          "term": "爰(yuán)",
+          "explanation": "这里，那里"
+        },
+        {
+          "term": "儛(wǔ)",
+          "explanation": "跳舞"
+        }
+      ],
+      "translation": "有一座弇州山，有一只五彩斑斓的鸟，仰面向天，它的名字叫鸣鸟。这里有盛行各种音乐和唱歌跳舞的风气。",
+      "index": 15
+    },
+    {
+      "title": "轩辕国",
+      "originalText": "有轩辕之国。江山之南栖为吉。不寿者乃八百岁。",
+      "annotations": [
+        {
+          "term": "江山",
+          "explanation": "一说是山名，即穷山；一说指江和山"
+        },
+        {
+          "term": "栖",
+          "explanation": "居住"
+        }
+      ],
+      "translation": "天虞有一个轩辕国。居住在江山的南边可获吉祥。这里寿命短的人都能活八百岁。",
+      "index": 16
+    },
+    {
+      "title": "天虞",
+      "originalText": "有人反臂，名曰天虞。",
+      "annotations": [
+        {
+          "term": "反臂",
+          "explanation": "一说指胳膊反着长，即肘关节长在前面；一说指胳膊背在身后，是被捆绑的形状"
+        },
+        {
+          "term": "天虞",
+          "explanation": "人名，一说即“尸虞”，但不知尸虞所指为何"
+        }
+      ],
+      "translation": "有一个人，两只胳膊反着长，他的名字叫天虞。",
+      "index": 17
+    },
+    {
+      "title": "常羲生月",
+      "originalText": "有女子方浴月。帝俊妻常羲，生月十有二，此始浴之。",
+      "annotations": [
+        {
+          "term": "帝俊",
+          "explanation": "这里指帝喾(kù)"
+        },
+        {
+          "term": "常羲",
+          "explanation": "帝喾的妻子，又作“常仪”或“尚仪”，以善于占月之晦、朔、弦、望而闻名"
+        }
+      ],
+      "translation": "有一位女子，正在给月亮洗澡。帝俊的妻子常羲生了十二个月亮，这是她刚开始给他们洗澡。",
+      "index": 18
+    },
+    {
+      "title": "青鴍、黄鷔",
+      "originalText": "有玄丹之山。有五色之鸟，人面有发。爰有青鴍、黄鷔、青鸟、黄鸟，其所集者其国亡。",
+      "annotations": [
+        {
+          "term": "玄丹之山",
+          "explanation": "即玄丹山，山名，具体所指待考。一说因山中出黑丹，故名"
+        },
+        {
+          "term": "爰(yuán)",
+          "explanation": "这里；那里"
+        },
+        {
+          "term": "鴍(wén)",
+          "explanation": "传说中的一种鸟"
+        },
+        {
+          "term": "鷔(áo)",
+          "explanation": "传说中的一种凶鸟"
+        }
+      ],
+      "translation": "有一座玄丹山。有一种羽毛五彩缤纷的鸟，长着人一样的脸，头上有发。这里有青、黄、青鸟和黄鸟，这些鸟在哪个国家聚集，哪个国家就会灭亡。",
+      "index": 19
+    },
+    {
+      "title": "盖山国",
+      "originalText": "有盖山之国。有树，赤皮支干，青叶，名曰朱木。",
+      "annotations": [
+        {
+          "term": "盖山之国",
+          "explanation": "即盖山国，国名，具体所指待考"
+        }
+      ],
+      "translation": "有一个盖山国。有一种树，长着红色的树皮和树枝，青色的叶子，名字叫朱木。",
+      "index": 20
+    },
+    {
+      "title": "夏后开",
+      "originalText": "西南海之外，赤水之南，流沙之西，有人珥两青蛇，乘两龙，名曰夏后开。开上三嫔于天，得《九辩》与《九歌》以下。此天穆之野，高二千仞，开焉得始歌《九招》。",
+      "annotations": [
+        {
+          "term": "珥(ěr)",
+          "explanation": "耳饰，这里作动词"
+        },
+        {
+          "term": "夏后开",
+          "explanation": "即“夏后启”，因避汉景帝(刘启)名讳而改"
+        },
+        {
+          "term": "开",
+          "explanation": "即“启”"
+        },
+        {
+          "term": "上三嫔于天",
+          "explanation": "一说指向天帝献三位美女(嫔：指妇人、女子)；一说三次上天做客(嫔：通“宾”，指宾客)"
+        },
+        {
+          "term": "《九辩》与《九歌》",
+          "explanation": "皆为乐曲名，相传原为天帝的乐曲，夏启上天做客时偷偷带到人间。后为《楚辞》中的篇名"
+        },
+        {
+          "term": "天穆之野",
+          "explanation": "一作“大穆之野”，地名，具体所指待考"
+        },
+        {
+          "term": "仞(rèn)",
+          "explanation": "古时以八尺或七尺为一仞"
+        },
+        {
+          "term": "《九招》",
+          "explanation": "即“九韶”，传说中虞舜之乐的名称，因韶乐九章，故名"
+        }
+      ],
+      "translation": "西南海的外面，赤水的南边，流沙的西边，有一个人以两条青蛇为耳饰，乘着两条龙，名字叫夏后启。启三次上天做客，把天上的乐曲《九辩》和《九歌》带到了下界。在这高达两千仞的天穆之野上，启才得以开始演唱《九招》。",
+      "index": 21
+    },
+    {
+      "title": "偏句、常羊山",
+      "originalText": "有大巫山，有金之山。西南大荒之中隅，有偏句、常羊之山。",
+      "annotations": [
+        {
+          "term": "大巫山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "金之山",
+          "explanation": "即金山，山名，具体所指待考"
+        },
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "中",
+          "explanation": "疑为衍文"
+        },
+        {
+          "term": "偏句",
+          "explanation": "山名，具体所指待考"
+        }
+      ],
+      "translation": "有大巫山，有金山。西南方最荒远之地的一角，有偏句山和常羊山。",
+      "index": 22
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "湿山",
+      "entryId": "shanhaijing-16-01",
+      "entryTitle": "其一",
+      "term": "湿山"
+    },
+    {
+      "entityName": "幕山",
+      "entryId": "shanhaijing-16-01",
+      "entryTitle": "其一",
+      "term": "幕山"
+    },
+    {
+      "entityName": "禹攻共工国山",
+      "entryId": "shanhaijing-16-01",
+      "entryTitle": "其一",
+      "term": "禹攻共工国山"
+    },
+    {
+      "entityName": "共工",
+      "entryId": "shanhaijing-16-01",
+      "entryTitle": "其一",
+      "term": "共工"
+    },
+    {
+      "entityName": "北海",
+      "entryId": "shanhaijing-16-01",
+      "entryTitle": "其一",
+      "term": "北海"
+    },
+    {
+      "entityName": "淑士",
+      "entryId": "shanhaijing-16-02",
+      "entryTitle": "淑士国",
+      "term": "淑士"
+    },
+    {
+      "entityName": "颛顼",
+      "entryId": "shanhaijing-16-02",
+      "entryTitle": "淑士国",
+      "term": "颛顼"
+    },
+    {
+      "entityName": "女娲",
+      "entryId": "shanhaijing-16-03",
+      "entryTitle": "女娲之肠",
+      "term": "女娲"
+    },
+    {
+      "entityName": "女娲",
+      "entryId": "shanhaijing-16-03",
+      "entryTitle": "女娲之肠",
+      "term": "女娲"
+    },
+    {
+      "entityName": "狂鸟",
+      "entryId": "shanhaijing-16-05",
+      "entryTitle": "狂鸟",
+      "term": "狂鸟"
+    },
+    {
+      "entityName": "大泽之长山",
+      "entryId": "shanhaijing-16-06",
+      "entryTitle": "白氏国",
+      "term": "大泽之长山"
+    },
+    {
+      "entityName": "赤水",
+      "entryId": "shanhaijing-16-07",
+      "entryTitle": "长胫国",
+      "term": "赤水"
+    },
+    {
+      "entityName": "长胫之国",
+      "entryId": "shanhaijing-16-07",
+      "entryTitle": "长胫国",
+      "term": "长胫之国"
+    },
+    {
+      "entityName": "北海",
+      "entryId": "shanhaijing-16-07",
+      "entryTitle": "长胫国",
+      "term": "北海"
+    },
+    {
+      "entityName": "赤水",
+      "entryId": "shanhaijing-16-07",
+      "entryTitle": "长胫国",
+      "term": "赤水"
+    },
+    {
+      "entityName": "丰沮玉门",
+      "entryId": "shanhaijing-16-09",
+      "entryTitle": "丰沮玉门山",
+      "term": "丰沮玉门"
+    },
+    {
+      "entityName": "灵山",
+      "entryId": "shanhaijing-16-10",
+      "entryTitle": "灵山十巫",
+      "term": "灵山"
+    },
+    {
+      "entityName": "巫",
+      "entryId": "shanhaijing-16-10",
+      "entryTitle": "灵山十巫",
+      "term": "巫"
+    },
+    {
+      "entityName": "西有王母山",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "西有王母之山"
+    },
+    {
+      "entityName": "壑山",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "壑山"
+    },
+    {
+      "entityName": "海山",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "海山"
+    },
+    {
+      "entityName": "沃之国",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "沃之国"
+    },
+    {
+      "entityName": "沃野",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "沃之野"
+    },
+    {
+      "entityName": "白柳",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "白柳"
+    },
+    {
+      "entityName": "璇瑰",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "璇瑰"
+    },
+    {
+      "entityName": "瑶碧",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "瑶碧"
+    },
+    {
+      "entityName": "白木",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "白木"
+    },
+    {
+      "entityName": "鸾凤",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "鸾凤"
+    },
+    {
+      "entityName": "银",
+      "entryId": "shanhaijing-16-11",
+      "entryTitle": "沃民沃野",
+      "term": "银"
+    },
+    {
+      "entityName": "大",
+      "entryId": "shanhaijing-16-12",
+      "entryTitle": "三青鸟",
+      "term": "大"
+    },
+    {
+      "entityName": "青鸟",
+      "entryId": "shanhaijing-16-12",
+      "entryTitle": "三青鸟",
+      "term": "青鸟"
+    },
+    {
+      "entityName": "轩辕之台",
+      "entryId": "shanhaijing-16-13",
+      "entryTitle": "轩辕台",
+      "term": "轩辕之台"
+    },
+    {
+      "entityName": "丈夫国",
+      "entryId": "shanhaijing-16-14",
+      "entryTitle": "丈夫国",
+      "term": "丈夫之国"
+    },
+    {
+      "entityName": "弇州山",
+      "entryId": "shanhaijing-16-15",
+      "entryTitle": "弇州山鸣鸟",
+      "term": "弇州之山"
+    },
+    {
+      "entityName": "鸣鸟",
+      "entryId": "shanhaijing-16-15",
+      "entryTitle": "弇州山鸣鸟",
+      "term": "鸣鸟"
+    },
+    {
+      "entityName": "弇州山",
+      "entryId": "shanhaijing-16-15",
+      "entryTitle": "弇州山鸣鸟",
+      "term": "弇州山"
+    },
+    {
+      "entityName": "江山",
+      "entryId": "shanhaijing-16-16",
+      "entryTitle": "轩辕国",
+      "term": "江山"
+    },
+    {
+      "entityName": "天虞",
+      "entryId": "shanhaijing-16-17",
+      "entryTitle": "天虞",
+      "term": "天虞"
+    },
+    {
+      "entityName": "帝俊",
+      "entryId": "shanhaijing-16-18",
+      "entryTitle": "常羲生月",
+      "term": "帝俊"
+    },
+    {
+      "entityName": "常羲",
+      "entryId": "shanhaijing-16-18",
+      "entryTitle": "常羲生月",
+      "term": "常羲"
+    },
+    {
+      "entityName": "帝俊",
+      "entryId": "shanhaijing-16-18",
+      "entryTitle": "常羲生月",
+      "term": "帝俊"
+    },
+    {
+      "entityName": "常羲",
+      "entryId": "shanhaijing-16-18",
+      "entryTitle": "常羲生月",
+      "term": "常羲"
+    },
+    {
+      "entityName": "玄丹山",
+      "entryId": "shanhaijing-16-19",
+      "entryTitle": "青鴍、黄鷔",
+      "term": "玄丹之山"
+    },
+    {
+      "entityName": "鴍",
+      "entryId": "shanhaijing-16-19",
+      "entryTitle": "青鴍、黄鷔",
+      "term": "鴍"
+    },
+    {
+      "entityName": "鷔",
+      "entryId": "shanhaijing-16-19",
+      "entryTitle": "青鴍、黄鷔",
+      "term": "鷔"
+    },
+    {
+      "entityName": "青鸟",
+      "entryId": "shanhaijing-16-19",
+      "entryTitle": "青鴍、黄鷔",
+      "term": "青鸟"
+    },
+    {
+      "entityName": "玄丹山",
+      "entryId": "shanhaijing-16-19",
+      "entryTitle": "青鴍、黄鷔",
+      "term": "玄丹山"
+    },
+    {
+      "entityName": "盖山",
+      "entryId": "shanhaijing-16-20",
+      "entryTitle": "盖山国",
+      "term": "盖山"
+    },
+    {
+      "entityName": "夏后开",
+      "entryId": "shanhaijing-16-21",
+      "entryTitle": "夏后开",
+      "term": "夏后开"
+    },
+    {
+      "entityName": "天穆野",
+      "entryId": "shanhaijing-16-21",
+      "entryTitle": "夏后开",
+      "term": "天穆之野"
+    },
+    {
+      "entityName": "仞",
+      "entryId": "shanhaijing-16-21",
+      "entryTitle": "夏后开",
+      "term": "仞"
+    },
+    {
+      "entityName": "九招",
+      "entryId": "shanhaijing-16-21",
+      "entryTitle": "夏后开",
+      "term": "《九招》"
+    },
+    {
+      "entityName": "南海",
+      "entryId": "shanhaijing-16-21",
+      "entryTitle": "夏后开",
+      "term": "南海"
+    },
+    {
+      "entityName": "赤水",
+      "entryId": "shanhaijing-16-21",
+      "entryTitle": "夏后开",
+      "term": "赤水"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-16-21",
+      "entryTitle": "夏后开",
+      "term": "流沙"
+    },
+    {
+      "entityName": "大巫山",
+      "entryId": "shanhaijing-16-22",
+      "entryTitle": "偏句、常羊山",
+      "term": "大巫山"
+    },
+    {
+      "entityName": "金山",
+      "entryId": "shanhaijing-16-22",
+      "entryTitle": "偏句、常羊山",
+      "term": "金之山"
+    },
+    {
+      "entityName": "偏句",
+      "entryId": "shanhaijing-16-22",
+      "entryTitle": "偏句、常羊山",
+      "term": "偏句"
+    },
+    {
+      "entityName": "金山",
+      "entryId": "shanhaijing-16-22",
+      "entryTitle": "偏句、常羊山",
+      "term": "金山"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_16.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

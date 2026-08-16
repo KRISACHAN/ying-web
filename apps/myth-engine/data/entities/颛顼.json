@@ -1,0 +1,127 @@
+{
+  "id": "颛顼",
+  "name": "颛顼",
+  "pinyin": "zhuān xū",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中古代部族首领，号高阳氏，生于若水，居于帝丘(今河南濮阳市西南)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-12",
+      "type": "annotation",
+      "annotationExplanation": "传说中古代部族首领，号高阳氏，生于若水，居于帝丘(今河南濮阳市西南)"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-12",
+      "type": "text",
+      "context": "务隅之山，帝颛顼葬于阳，九嫔葬于阴。一曰爰有熊"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-12",
+      "type": "text",
+      "context": "汉水出鲋鱼之山，帝颛顼葬于阳，九嫔葬于阴，四蛇卫之。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-01",
+      "type": "text",
+      "context": "海之外大壑，少昊之国。少昊孺帝颛顼于此，弃其琴瑟。有甘山者，甘水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-02",
+      "type": "text",
+      "context": "有国名曰淑士，颛顼之子。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "text",
+      "context": "荒之中，河水之间，附禺之山，帝颛顼与九嫔葬焉。爰有久、文贝、离俞"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-07",
+      "type": "text",
+      "context": "有叔歜国，颛顼之子，黍食，使四鸟：虎、豹、熊"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "text",
+      "context": "渠股、豚止，取淖子曰阿女，生帝颛顼。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-05",
+      "type": "annotation",
+      "annotationExplanation": "五帝之一。相传是黄帝之孙，昌意之子，居帝邱(今河南省濮阳东南)，号高阳氏"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-05",
+      "type": "text",
+      "context": "者，殷时大夫也。姓篯，名铿。帝颛顼之孙，陆终氏之中子。历夏而至商"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 16,
+      "entryId": "soushenji-16-01",
+      "type": "text",
+      "context": "昔颛顼氏有三子，死而为疫鬼：一居江水"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "门。\n\n轶迅风于清源兮,\n\n从颛顼乎增冰。\n\n历玄冥以邪径兮,\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "星辰，地受水潦尘埃。昔者共工与颛顼争为帝，怒而触不周之山，天柱折"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "积冰、雪雹霜霰、漂润群水之野，颛顼、玄冥之所司者，万二千里。其令"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "笄，越人劗鬋，其于服，一也。帝颛顼之法，妇人不辟男子于路者，拂之"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "由来者远矣！黄帝尝与炎帝战矣，颛顼尝与共工争矣。故黄帝战于涿鹿之"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

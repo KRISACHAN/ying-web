@@ -1,0 +1,29 @@
+{
+  "id": "巫",
+  "name": "巫",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "古代以求神、占卜等为职业的人",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-99",
+      "type": "annotation",
+      "annotationExplanation": "古代以求神、占卜等为职业的人"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-10",
+      "type": "annotation",
+      "annotationExplanation": "古代以求神、占卜等为职业的人"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

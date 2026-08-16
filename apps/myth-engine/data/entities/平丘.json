@@ -1,0 +1,24 @@
+{
+  "id": "平丘",
+  "name": "平丘",
+  "pinyin": "",
+  "aliases": [
+    "平之丘"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "意为平整的丘陵地，所在之地待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-13",
+      "type": "annotation",
+      "annotationExplanation": "意为平整的丘陵地，所在之地待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

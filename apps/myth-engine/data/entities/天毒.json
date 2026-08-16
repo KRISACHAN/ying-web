@@ -1,0 +1,24 @@
+{
+  "id": "天毒",
+  "name": "天毒",
+  "pinyin": "",
+  "aliases": [
+    "身毒"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，即天竺，又叫身毒，即今印度。但印度与朝鲜所处方位差别很大，这里置于一处，疑原文有误，或应作别解",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-01",
+      "type": "annotation",
+      "annotationExplanation": "国名，即天竺，又叫身毒，即今印度。但印度与朝鲜所处方位差别很大，这里置于一处，疑原文有误，或应作别解"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

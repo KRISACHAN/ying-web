@@ -1,0 +1,24 @@
+{
+  "id": "大支山",
+  "name": "大支山",
+  "pinyin": "",
+  "aliases": [
+    "大支之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-108",
+      "type": "text",
+      "context": "，曰大支之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

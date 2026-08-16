@@ -1,0 +1,31 @@
+{
+  "id": "轩辕山",
+  "name": "轩辕山",
+  "pinyin": "",
+  "aliases": [
+    "轩辕之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即轩辕山，山名，具体所指待考。一说在今河北献县；一说可能是今山西王屋山中的一座山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-40",
+      "type": "annotation",
+      "annotationExplanation": "即轩辕山，山名，具体所指待考。一说在今河北献县；一说可能是今山西王屋山中的一座山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-40",
+      "type": "text",
+      "context": "，曰轩辕之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

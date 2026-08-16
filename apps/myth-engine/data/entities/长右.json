@@ -1,0 +1,22 @@
+{
+  "id": "长右",
+  "name": "长右",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，因其生活在长右山，故名。具体所指待考。一说指猕猴",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-12",
+      "type": "annotation",
+      "annotationExplanation": "兽名，因其生活在长右山，故名。具体所指待考。一说指猕猴"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

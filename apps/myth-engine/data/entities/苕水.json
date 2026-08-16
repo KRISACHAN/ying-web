@@ -1,0 +1,38 @@
+{
+  "id": "苕水",
+  "name": "苕水",
+  "pinyin": "tiáo",
+  "aliases": [
+    "苕之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即苕溪，在今浙江境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-17",
+      "type": "annotation",
+      "annotationExplanation": "即苕溪，在今浙江境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-20",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说应作“芮水”，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-20",
+      "type": "text",
+      "context": "苕水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

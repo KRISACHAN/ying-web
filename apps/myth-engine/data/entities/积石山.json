@@ -1,0 +1,31 @@
+{
+  "id": "积石山",
+  "name": "积石山",
+  "pinyin": "",
+  "aliases": [
+    "积石之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即积石山，山名，具体所指待考。一说在今青海、甘肃交界处",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-34",
+      "type": "annotation",
+      "annotationExplanation": "即积石山，山名，具体所指待考。一说在今青海、甘肃交界处"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-34",
+      "type": "text",
+      "context": "，曰积石之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

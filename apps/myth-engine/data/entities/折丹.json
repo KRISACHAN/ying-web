@@ -1,0 +1,22 @@
+{
+  "id": "折丹",
+  "name": "折丹",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中的神名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-09",
+      "type": "annotation",
+      "annotationExplanation": "传说中的神名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

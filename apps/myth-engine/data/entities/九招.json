@@ -1,0 +1,24 @@
+{
+  "id": "九招",
+  "name": "九招",
+  "pinyin": "",
+  "aliases": [
+    "九韶"
+  ],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "即“九韶”，传说中虞舜之乐的名称，因韶乐九章，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-21",
+      "type": "annotation",
+      "annotationExplanation": "即“九韶”，传说中虞舜之乐的名称，因韶乐九章，故名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

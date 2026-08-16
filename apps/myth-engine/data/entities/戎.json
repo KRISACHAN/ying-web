@@ -1,0 +1,22 @@
+{
+  "id": "戎",
+  "name": "戎",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古族名，殷周时有鬼戎、西戎等，位于我国西北地区。这里指传说中的国名或部族名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-10",
+      "type": "annotation",
+      "annotationExplanation": "古族名，殷周时有鬼戎、西戎等，位于我国西北地区。这里指传说中的国名或部族名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

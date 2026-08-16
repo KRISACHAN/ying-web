@@ -1,0 +1,53 @@
+{
+    "name": "@ying-web/myth-engine",
+    "private": true,
+    "version": "1.0.0",
+    "description": "中国神话知识网站 — 基于 data/ 结构化知识库",
+    "type": "module",
+    "scripts": {
+        "dev": "next dev -p 8082",
+        "build": "next build",
+        "start": "next start -p 8082",
+        "lint": "eslint --fix src",
+        "lint:all": "eslint --fix .",
+        "stylelint": "stylelint \"src/**/*.{css,less}\"",
+        "stylelint:fix": "stylelint \"src/**/*.{css,less}\" --fix"
+    },
+    "keywords": [
+        "Chinese Mythology",
+        "Next.js",
+        "React@18",
+        "TypeScript",
+        "@ying-web"
+    ],
+    "author": "Kris <chenjinwen77@gmail.com> https://www.krissarea.com",
+    "license": "MIT",
+    "dependencies": {
+        "next": "15.1.9",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@next/bundle-analyzer": "15.1.9",
+        "@next/eslint-plugin-next": "15.1.9",
+        "@types/node": "^20",
+        "@types/react": "19.0.7",
+        "@types/react-dom": "19.0.3",
+        "@ying-web/eslint-config": "workspace:*",
+        "autoprefixer": "^10.4.18",
+        "eslint": "^8",
+        "eslint-config-next": "15.1.9",
+        "globals": "^15.9.0",
+        "postcss": "^8",
+        "stylelint": "^16.10.0",
+        "stylelint-config-standard": "^36.0.1",
+        "stylelint-order": "^6.0.4",
+        "tailwindcss": "^3.4.7",
+        "typescript": "^5",
+        "typescript-eslint": "^8.3.0"
+    },
+    "overrides": {
+        "@types/react": "19.0.7",
+        "@types/react-dom": "19.0.3"
+    }
+}

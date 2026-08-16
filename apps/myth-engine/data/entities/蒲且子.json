@@ -1,0 +1,22 @@
+{
+  "id": "蒲且子",
+  "name": "蒲且子",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "其君形者而效其容，必为人笑。故蒲且子之连鸟于百仞之上，而詹何之鹜鱼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 7
+  }
+}

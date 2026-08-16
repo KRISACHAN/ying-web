@@ -1,0 +1,24 @@
+{
+  "id": "山渊",
+  "name": "山渊",
+  "pinyin": "",
+  "aliases": [
+    "山之渊"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 17,
+      "entryId": "huainanzi-17-01",
+      "type": "text",
+      "context": "于山渊"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 17
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "雄黄",
+  "name": "雄黄",
+  "pinyin": "",
+  "aliases": [
+    "鸡冠石"
+  ],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "矿物，成分是硫化砷，橘黄色，有光泽。也叫鸡冠石",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-18",
+      "type": "annotation",
+      "annotationExplanation": "矿物，成分是硫化砷，橘黄色，有光泽。也叫鸡冠石"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

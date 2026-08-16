@@ -1,0 +1,22 @@
+{
+  "id": "鹕",
+  "name": "鹕",
+  "pinyin": "lí hú",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "一说即鹈(tí)鹕，鸟名，翅膀大，嘴长，嘴下有一个可存食的皮囊，羽毛大多白色，善于游泳和捕鱼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-19",
+      "type": "annotation",
+      "annotationExplanation": "一说即鹈(tí)鹕，鸟名，翅膀大，嘴长，嘴下有一个可存食的皮囊，羽毛大多白色，善于游泳和捕鱼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

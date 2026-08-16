@@ -1,0 +1,25 @@
+{
+  "id": "留利之国",
+  "name": "留利之国",
+  "pinyin": "",
+  "aliases": [
+    "留利国",
+    "柔利国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即留利国，亦即柔利国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-05",
+      "type": "annotation",
+      "annotationExplanation": "即留利国，亦即柔利国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

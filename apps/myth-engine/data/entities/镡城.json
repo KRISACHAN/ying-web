@@ -1,0 +1,22 @@
+{
+  "id": "镡城",
+  "name": "镡城",
+  "pinyin": "xín",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，一说治今湖南靖州西南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-17",
+      "type": "annotation",
+      "annotationExplanation": "古县名，一说治今湖南靖州西南"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

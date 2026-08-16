@@ -1,0 +1,24 @@
+{
+  "id": "独苏山",
+  "name": "独苏山",
+  "pinyin": "",
+  "aliases": [
+    "独苏之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-17",
+      "type": "text",
+      "context": "，曰独苏之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

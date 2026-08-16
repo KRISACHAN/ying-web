@@ -1,0 +1,85 @@
+{
+  "id": "神农",
+  "name": "神农",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-01",
+      "type": "text",
+      "context": "神农以赭鞭鞭百草，尽知其平毒寒温之"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-02",
+      "type": "text",
+      "context": "赤松子者，神农时雨师也，服冰玉散，以教神农，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "。是故禹之决读也，因水以为师；神农之播谷也，因苗以为教。\n\n夫萍"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "之间，是故其德烦而不能一。乃至神农、黄帝，剖判大宗，窍领天地，袭"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "，尚与人化，知不能得。\n\n昔者神农之治天下也，神不驰于胸中，智不"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "奇器。历岁而后成，不周于用。故神农之法曰：“丈夫丁壮而不耕 ，天"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "汤武；宿沙之民，皆自攻其君而归神农，此世之所明知也，如何其无惧也"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "无镝衔橜策錣而御馯马也。昔者，神农无制令而民从，唐虞有制令而无刑"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "以为不然。\n\n尝试问之矣：若夫神农、尧、舜、禹、汤，可谓圣人乎？"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "，惟圣人能盛而不衰，盈而不亏。神农之初作琴也，以归神；及其淫也，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

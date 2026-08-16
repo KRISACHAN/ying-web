@@ -1,0 +1,36 @@
+{
+  "id": "海",
+  "name": "海",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "一说指西海；一说指南海，位于中国南部的某一海域",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "一说指西海；一说指南海，位于中国南部的某一海域"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-11",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。似指渤海"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-14",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说可能指罗布泊"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

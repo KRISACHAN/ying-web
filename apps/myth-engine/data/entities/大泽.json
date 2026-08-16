@@ -1,0 +1,38 @@
+{
+  "id": "大泽",
+  "name": "大泽",
+  "pinyin": "",
+  "aliases": [
+    "大之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-09",
+      "type": "annotation",
+      "annotationExplanation": "大的水泽，具体所指待考。一说即大泽"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "于大泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

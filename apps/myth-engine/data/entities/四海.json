@@ -1,0 +1,66 @@
+{
+  "id": "四海",
+  "name": "四海",
+  "pinyin": "",
+  "aliases": [
+    "四之海"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "text",
+      "context": "于四海"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-02",
+      "type": "text",
+      "context": "于四海"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "于四海"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "入于四海"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 8,
+      "entryId": "huainanzi-08-01",
+      "type": "text",
+      "context": "于四海"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "于四海"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "于四海"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

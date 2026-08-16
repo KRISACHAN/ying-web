@@ -1,0 +1,22 @@
+{
+  "id": "蒲",
+  "name": "蒲",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "即香蒲，多年生草本植物，生于浅水或池沼中，叶长而尖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-31",
+      "type": "annotation",
+      "annotationExplanation": "即香蒲，多年生草本植物，生于浅水或池沼中，叶长而尖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "胡不与之国",
+  "name": "胡不与之国",
+  "pinyin": "",
+  "aliases": [
+    "胡不与国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即胡不与国，国名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-02",
+      "type": "annotation",
+      "annotationExplanation": "即胡不与国，国名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "龙侯山",
+  "name": "龙侯山",
+  "pinyin": "",
+  "aliases": [
+    "龙侯之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即龙侯山，山名，一说在今河南济源市",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-31",
+      "type": "annotation",
+      "annotationExplanation": "即龙侯山，山名，一说在今河南济源市"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-31",
+      "type": "text",
+      "context": "，曰龙侯之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

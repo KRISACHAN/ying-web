@@ -1,0 +1,31 @@
+{
+  "id": "杂余水",
+  "name": "杂余水",
+  "pinyin": "",
+  "aliases": [
+    "杂余之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即杂余水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-16",
+      "type": "annotation",
+      "annotationExplanation": "即杂余水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-16",
+      "type": "text",
+      "context": "杂余之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "匈奴",
+  "name": "匈奴",
+  "pinyin": "",
+  "aliases": [
+    "胡"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古族名，亦称胡，战国时活动于燕、赵、秦以北地区，历史上曾多次南下侵入中原地区",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-18",
+      "type": "annotation",
+      "annotationExplanation": "古族名，亦称胡，战国时活动于燕、赵、秦以北地区，历史上曾多次南下侵入中原地区"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-18",
+      "type": "text",
+      "context": "匈奴、开题之国、列人之国并在西北。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-09",
+      "type": "text",
+      "context": "时赵王悖乱，遂与六国反，外结、匈奴以为援。《五行志》以为：犬，兵"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "有室，陆处宜牛马，舟行宜多水；匈奴出秽裘，于、越生葛絺；各生所急"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "十二诸侯皆率九夷以朝。胡、貉、匈奴之国，纵体拖发，箕倨反言，而国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

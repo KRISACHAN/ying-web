@@ -1,0 +1,31 @@
+{
+  "id": "幽都山",
+  "name": "幽都山",
+  "pinyin": "",
+  "aliases": [
+    "幽都之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即幽都山，山名，一说可能指今内蒙古的阴山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-46",
+      "type": "annotation",
+      "annotationExplanation": "即幽都山，山名，一说可能指今内蒙古的阴山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-16",
+      "type": "annotation",
+      "annotationExplanation": "即幽都山，山名，一说在今山西、河北北部，包括燕山及其以北诸山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

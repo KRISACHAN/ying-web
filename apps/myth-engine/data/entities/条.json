@@ -1,0 +1,29 @@
+{
+  "id": "条",
+  "name": "条",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "植物名，一说可能是蜀葵，二年生草本植物，茎直立，叶互生，卵圆形",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-05",
+      "type": "annotation",
+      "annotationExplanation": "植物名，一说可能是蜀葵，二年生草本植物，茎直立，叶互生，卵圆形"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-06",
+      "type": "annotation",
+      "annotationExplanation": "植物名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

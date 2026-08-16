@@ -1,0 +1,22 @@
+{
+  "id": "河之九都",
+  "name": "河之九都",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "黄河的九条支流的发源地",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-24",
+      "type": "annotation",
+      "annotationExplanation": "黄河的九条支流的发源地"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "巫山",
+  "name": "巫山",
+  "pinyin": "",
+  "aliases": [
+    "巫之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。不是今重庆、湖北边境的巫山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-04",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。不是今重庆、湖北边境的巫山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

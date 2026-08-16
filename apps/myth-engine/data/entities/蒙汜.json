@@ -1,0 +1,29 @@
+{
+  "id": "蒙汜",
+  "name": "蒙汜",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-01",
+      "type": "text",
+      "context": "星安陈？\n\n出于汤谷,\n\n次于蒙汜,\n\n自明及晦,\n\n所行几里？"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "昆仑之疏圃，饮砥柱之湍濑，邅回蒙汜之诸，尚佯冀州之际，径蹑都广，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 3
+  }
+}

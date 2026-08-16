@@ -1,0 +1,22 @@
+{
+  "id": "鯾",
+  "name": "鯾",
+  "pinyin": "biān",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鱼名，一说即鲂(fánɡ)，银灰色，长达50余厘米，略呈菱形。但鲂是淡水鱼，此处的则生活在海中",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-17",
+      "type": "annotation",
+      "annotationExplanation": "鱼名，一说即鲂(fánɡ)，银灰色，长达50余厘米，略呈菱形。但鲂是淡水鱼，此处的则生活在海中"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "帝药",
+  "name": "帝药",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "指天帝的药，当指不死之药之类",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-04",
+      "type": "annotation",
+      "annotationExplanation": "指天帝的药，当指不死之药之类"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

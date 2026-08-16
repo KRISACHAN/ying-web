@@ -1,0 +1,36 @@
+{
+  "id": "东胡",
+  "name": "东胡",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古族名，因居于匈奴(古称胡)以东而得名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-09",
+      "type": "annotation",
+      "annotationExplanation": "古族名，因居于匈奴(古称胡)以东而得名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-09",
+      "type": "text",
+      "context": "东胡在大泽东。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-10",
+      "type": "text",
+      "context": "夷人在东胡东。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

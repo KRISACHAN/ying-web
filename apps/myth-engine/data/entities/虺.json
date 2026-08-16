@@ -1,0 +1,22 @@
+{
+  "id": "虺",
+  "name": "虺",
+  "pinyin": "huǐ",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "古书上说的一种毒蛇",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 12,
+      "entryId": "soushenji-12-01",
+      "type": "annotation",
+      "annotationExplanation": "古书上说的一种毒蛇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 12
+  }
+}

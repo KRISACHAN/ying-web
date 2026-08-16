@@ -1,0 +1,22 @@
+{
+  "id": "荆",
+  "name": "荆",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "落叶灌木，枝条可用来编筐、篮等",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-21",
+      "type": "annotation",
+      "annotationExplanation": "落叶灌木，枝条可用来编筐、篮等"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

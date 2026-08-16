@@ -1,0 +1,31 @@
+{
+  "id": "汜水",
+  "name": "汜水",
+  "pinyin": "sì",
+  "aliases": [
+    "汜之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，发源于今河南巩义市东南，北流经荥阳市汜水镇西入黄河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-62",
+      "type": "annotation",
+      "annotationExplanation": "水名，发源于今河南巩义市东南，北流经荥阳市汜水镇西入黄河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-62",
+      "type": "text",
+      "context": "汜水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

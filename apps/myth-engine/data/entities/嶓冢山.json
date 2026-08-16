@@ -1,0 +1,31 @@
+{
+  "id": "嶓冢山",
+  "name": "嶓冢山",
+  "pinyin": "bō zhǒnɡ",
+  "aliases": [
+    "嶓冢之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即嶓冢山，山名，一说在今陕西境内；一说在今甘肃境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "annotation",
+      "annotationExplanation": "即嶓冢山，山名，一说在今陕西境内；一说在今甘肃境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "text",
+      "context": "，曰嶓冢之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

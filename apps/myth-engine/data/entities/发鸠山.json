@@ -1,0 +1,32 @@
+{
+  "id": "发鸠山",
+  "name": "发鸠山",
+  "pinyin": "",
+  "aliases": [
+    "发鸠之山",
+    "发苞山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即发鸠山，山名，亦名发苞山，在今山西长子县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-41",
+      "type": "annotation",
+      "annotationExplanation": "即发鸠山，山名，亦名发苞山，在今山西长子县"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-41",
+      "type": "text",
+      "context": "，曰发鸠之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

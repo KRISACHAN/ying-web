@@ -1,0 +1,22 @@
+{
+  "id": "麈",
+  "name": "麈",
+  "pinyin": "zhǔ",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "古书上指鹿一类的动物",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 20,
+      "entryId": "soushenji-20-13",
+      "type": "annotation",
+      "annotationExplanation": "古书上指鹿一类的动物"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 20
+  }
+}

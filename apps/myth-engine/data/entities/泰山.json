@@ -1,0 +1,24 @@
+{
+  "id": "泰山",
+  "name": "泰山",
+  "pinyin": "",
+  "aliases": [
+    "泰之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，在今山东泰安市北，别称岱、岱宗、岱岳，属五岳中的东岳",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-08",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今山东泰安市北，别称岱、岱宗、岱岳，属五岳中的东岳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

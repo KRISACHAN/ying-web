@@ -1,0 +1,22 @@
+{
+  "id": "雨师妾",
+  "name": "雨师妾",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-10",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

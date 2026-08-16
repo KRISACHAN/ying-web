@@ -1,0 +1,24 @@
+{
+  "id": "青海",
+  "name": "青海",
+  "pinyin": "",
+  "aliases": [
+    "青之海"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "于青海"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "亶爰山",
+  "name": "亶爰山",
+  "pinyin": "dǎn yuán",
+  "aliases": [
+    "亶爰之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即亶爰山，山名，具体所指待考。一说在今广东南雄市境内；一说可能是今广东新丰县的九连山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-06",
+      "type": "annotation",
+      "annotationExplanation": "即亶爰山，山名，具体所指待考。一说在今广东南雄市境内；一说可能是今广东新丰县的九连山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-06",
+      "type": "text",
+      "context": "，曰亶爰之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

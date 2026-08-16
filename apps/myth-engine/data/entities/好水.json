@@ -1,0 +1,31 @@
+{
+  "id": "好水",
+  "name": "好水",
+  "pinyin": "",
+  "aliases": [
+    "好之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说指今甘肃的疏勒河或黑河；一说在今新疆境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-04",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说指今甘肃的疏勒河或黑河；一说在今新疆境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-04",
+      "type": "text",
+      "context": "好水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

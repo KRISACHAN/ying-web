@@ -1,0 +1,22 @@
+{
+  "id": "朝鲜",
+  "name": "朝鲜",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "位于今朝鲜半岛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-15",
+      "type": "annotation",
+      "annotationExplanation": "位于今朝鲜半岛"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

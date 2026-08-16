@@ -1,0 +1,22 @@
+{
+  "id": "皮氏",
+  "name": "皮氏",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，在今山西河津县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-21",
+      "type": "annotation",
+      "annotationExplanation": "古县名，在今山西河津县"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

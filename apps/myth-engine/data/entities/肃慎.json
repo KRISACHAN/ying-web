@@ -1,0 +1,43 @@
+{
+  "id": "肃慎",
+  "name": "肃慎",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-18",
+      "type": "text",
+      "context": "肃慎之国在白民北。有树名曰雄常，先"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-03",
+      "type": "text",
+      "context": "大荒之中，有山名曰不咸。有肃慎氏之国。有蜚蛭，四翼。有虫，兽"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "夫能理三苗，朝羽民，徙裸国，纳肃慎，未发号施令而移风易俗者，其唯"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "西北至西南方，有修股民，天民，肃慎民，白民，沃民，女子民，丈夫民"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

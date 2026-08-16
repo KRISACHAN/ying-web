@@ -1,0 +1,190 @@
+{
+  "id": "昆仑",
+  "name": "昆仑",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": "山名，具体所指待考。一说此处可能指阴山，在今内蒙古境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "text",
+      "context": "鸟翼，徇于四海，其音如榴。南望昆仑，其光熊熊，其气魂魂；西望大泽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-14",
+      "type": "text",
+      "context": "凿齿战于寿华之野，羿射杀之。在昆仑虚东。羿持弓矢，凿齿持盾，一曰"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-06",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说此处可能指阴山，在今内蒙古境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-06",
+      "type": "text",
+      "context": "，三仞三沮，乃以为众帝之台。在昆仑之北，柔利之东。相柳者，九首人"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-08",
+      "type": "text",
+      "context": "流沙出钟山，西行又南行昆仑之虚，西南入海，黑水之山。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-16",
+      "type": "text",
+      "context": "昆仑南渊深三百仞。开明兽身大类虎而"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-03",
+      "type": "text",
+      "context": "其南有三青鸟，为西王母取食。在昆仑虚北。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-12",
+      "type": "text",
+      "context": "昆仑虚南所，有泛林方三百里。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-03",
+      "type": "text",
+      "context": "国在流沙中者埻端、玺，在昆仑虚东南。一曰海内之郡，不为郡县"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-05",
+      "type": "text",
+      "context": "苍梧在白玉山西南，皆在流沙西，昆仑虚东南。昆仑山在西胡西，皆在西"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-02",
+      "type": "text",
+      "context": "玉散，以教神农，能入火不烧。至昆仑山，常入西王母石室中，随风雨上"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 15,
+      "entryId": "soushenji-15-06",
+      "type": "text",
+      "context": "授符箓，给吏从幡麾，将上蓬莱、昆仑、积石、太室、庐、衡等山，既而"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-12",
+      "type": "text",
+      "context": "\n吾将远逝以自疏。\n\n邅吾道夫昆仑兮，\n\n路修远以周流。\n\n扬云"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-08",
+      "type": "text",
+      "context": "荷盖,\n\n驾两龙兮骖螭。\n\n登昆仑兮四望,\n\n心飞扬兮浩荡。\n\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-02",
+      "type": "text",
+      "context": "\n南北顺椭,\n\n其衍几何？\n\n昆仑县圃,\n\n其尻安在？\n\n增城九"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-03",
+      "type": "text",
+      "context": "\n\n吾与重华游兮瑶之圃。\n\n登昆仑兮食玉英,\n\n与天地兮同寿,\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-12",
+      "type": "text",
+      "context": "息兮,\n\n忽倾寤以婵媛。\n\n冯昆仑以瞰雾兮,\n\n隐岷山以清江。\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 9,
+      "entryId": "chuci-09-01",
+      "type": "text",
+      "context": "\n驰骛于杳冥之中兮,\n\n休息乎昆仑之墟。\n\n乐穷极而不厌兮,\n\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "摇抮抱羊角而上，经纪山川，蹈腾昆仑；排阊阖，沦天门。末世之御，虽"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "禹乃以息土填洪水，以为名山。掘昆仑虚以下地，中有增城九重，其高万"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "建侯，立贤辅。\n\n中央之极，自昆仑东绝两恒山，日月之所道，江汉之"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "曾逝万仞之上，翱翔四海之外，过昆仑之疏圃，饮砥柱之湍濑，邅回蒙汜"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "哭；伯益作井，而龙登玄云，神栖昆仑，能愈多而德愈薄矣。故周鼎著倕"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "冯夷得道以潜大川，钳且得道以处昆仑。扁鹊以治病，造父以御马，羿以"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 17,
+      "entryId": "huainanzi-17-01",
+      "type": "text",
+      "context": "者大则所照者博。江出岷山，河出昆仑，济出王屋，颖出少室，汉出，分"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

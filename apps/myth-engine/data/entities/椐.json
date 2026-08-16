@@ -1,0 +1,24 @@
+{
+  "id": "椐",
+  "name": "椐",
+  "pinyin": "",
+  "aliases": [
+    "灵寿木"
+  ],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "古书上说的一种树，又叫灵寿木，枝节肿大，可以做拐杖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-05",
+      "type": "annotation",
+      "annotationExplanation": "古书上说的一种树，又叫灵寿木，枝节肿大，可以做拐杖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

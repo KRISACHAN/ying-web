@@ -1,0 +1,22 @@
+{
+  "id": "畦",
+  "name": "畦",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "《说文》：“田五十亩曰畦。”这里作种植用。留夷、揭车均为香草名",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-03",
+      "type": "annotation",
+      "annotationExplanation": "《说文》：“田五十亩曰畦。”这里作种植用。留夷、揭车均为香草名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

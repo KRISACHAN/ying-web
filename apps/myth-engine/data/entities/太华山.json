@@ -1,0 +1,31 @@
+{
+  "id": "太华山",
+  "name": "太华山",
+  "pinyin": "",
+  "aliases": [
+    "太华之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即太华山，山名，是西岳华山的主峰",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-03",
+      "type": "annotation",
+      "annotationExplanation": "即太华山，山名，是西岳华山的主峰"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-03",
+      "type": "text",
+      "context": "，曰太华之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

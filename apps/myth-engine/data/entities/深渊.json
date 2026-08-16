@@ -1,0 +1,24 @@
+{
+  "id": "深渊",
+  "name": "深渊",
+  "pinyin": "",
+  "aliases": [
+    "深之渊"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 14,
+      "entryId": "soushenji-14-11",
+      "type": "text",
+      "context": "入于深渊"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 14
+  }
+}

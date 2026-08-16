@@ -1,0 +1,71 @@
+{
+  "id": "后土",
+  "name": "后土",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说是共工的儿子句龙",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-13",
+      "type": "annotation",
+      "annotationExplanation": "传说是共工的儿子句龙"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-13",
+      "type": "text",
+      "context": "珥两黄蛇，把两黄蛇，名曰夸父。后土生信，信生夸父。夸父不量力，欲"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-22",
+      "type": "text",
+      "context": "颠，是复土穰，以处江水。共工生后土，后土生噎鸣，噎鸣生岁十有二。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 8,
+      "entryId": "chuci-08-04",
+      "type": "text",
+      "context": "通。\n\n皇天淫溢而秋霖兮,\n\n后土何时而得漧？\n\n块独守此无泽兮"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-03",
+      "type": "text",
+      "context": "不可为。\n\n皇天保其高兮,\n\n后土持其久。\n\n服清白以逍遥兮,\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-04",
+      "type": "text",
+      "context": "。\n\n云服阴阳之正道兮,\n\n御后土之中和。\n\n佩苍龙之蚴虬兮,\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "丁。中央，土也，其帝黄帝，其佐后土，执绳而制四方，其神为镇星，其"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "堙洪水之州，东至于碣石，黄帝、后土之所司者，万二千里。其令曰：平"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "崦嵫",
+  "name": "崦嵫",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "神话中山名，日落之处",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "annotation",
+      "annotationExplanation": "神话中山名，日落之处"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

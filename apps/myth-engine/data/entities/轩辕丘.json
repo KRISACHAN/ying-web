@@ -1,0 +1,31 @@
+{
+  "id": "轩辕丘",
+  "name": "轩辕丘",
+  "pinyin": "",
+  "aliases": [
+    "轩辕之丘"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即轩辕丘，山名，是传说中黄帝娶嫘祖的地方，具体位置待考。一说位于帕米尔高原的山峰雪岭的东段；一说地属葱岭",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-33",
+      "type": "annotation",
+      "annotationExplanation": "即轩辕丘，山名，是传说中黄帝娶嫘祖的地方，具体位置待考。一说位于帕米尔高原的山峰雪岭的东段；一说地属葱岭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-14",
+      "type": "annotation",
+      "annotationExplanation": "丘名，具体所指待考。一说当在今四川境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

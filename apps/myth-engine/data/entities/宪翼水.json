@@ -1,0 +1,31 @@
+{
+  "id": "宪翼水",
+  "name": "宪翼水",
+  "pinyin": "",
+  "aliases": [
+    "宪翼之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即宪翼水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "annotation",
+      "annotationExplanation": "即宪翼水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "text",
+      "context": "注于宪翼之水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

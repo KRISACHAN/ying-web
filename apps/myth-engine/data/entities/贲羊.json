@@ -1,0 +1,22 @@
+{
+  "id": "贲羊",
+  "name": "贲羊",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "古代传说中的土怪",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 12,
+      "entryId": "soushenji-12-02",
+      "type": "annotation",
+      "annotationExplanation": "古代传说中的土怪"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 12
+  }
+}

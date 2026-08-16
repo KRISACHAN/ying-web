@@ -93,6 +93,12 @@ PS：目前正在寻找新的机会，欢迎联系！
 
 详见 [README.md](./apps/www/README.zh-CN.md)
 
+### @ying-web/myth-engine
+
+基于 Next.js 15 App Router 构建的中国神话知识网站，收录《山海经》《搜神记》《楚辞》《淮南子》四部典籍。人物、神祇、异兽、山川、草木金石均回溯到原文与注释，构建时预渲染 1500+ 静态页面。
+
+详见 [README.md](./apps/myth-engine/README.md)
+
 ## 未来展望
 
 我也不知道后续会做成什么样，看心情吧！
@@ -137,6 +143,7 @@ pnpm build
 pnpm build:admin     # 构建管理后台
 pnpm build:diary     # 构建日记站点
 pnpm build:events    # 构建活动平台
+pnpm build:myth-engine # 构建神话索引
 pnpm build:api-service # 构建API服务
 pnpm build:www       # 构建简历网站
 ```

@@ -1,0 +1,22 @@
+{
+  "id": "几席",
+  "name": "几席",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "几和席，为古人凭依、坐卧的器具",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 3,
+      "entryId": "soushenji-03-01",
+      "type": "annotation",
+      "annotationExplanation": "几和席，为古人凭依、坐卧的器具"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 3
+  }
+}

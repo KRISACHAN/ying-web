@@ -1,0 +1,29 @@
+{
+  "id": "增城",
+  "name": "增城",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-02",
+      "type": "text",
+      "context": "\n昆仑县圃,\n\n其尻安在？\n\n增城九重,\n\n其高几里？\n\n四方之"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "以为名山。掘昆仑虚以下地，中有增城九重，其高万一千里百一十四步二"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 3
+  }
+}

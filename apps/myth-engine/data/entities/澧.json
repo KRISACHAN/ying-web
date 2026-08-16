@@ -1,0 +1,22 @@
+{
+  "id": "澧",
+  "name": "澧",
+  "pinyin": "lǐ",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即澧水，源出今湖南西北部的桑植县，在澧县新洲附近流入洞庭湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-120",
+      "type": "annotation",
+      "annotationExplanation": "水名，即澧水，源出今湖南西北部的桑植县，在澧县新洲附近流入洞庭湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "滂水",
+  "name": "滂水",
+  "pinyin": "",
+  "aliases": [
+    "滂之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即瓯(ōu)江，是今浙江的第二大河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-21",
+      "type": "annotation",
+      "annotationExplanation": "水名，即瓯(ōu)江，是今浙江的第二大河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-21",
+      "type": "text",
+      "context": "滂水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-22",
+      "type": "text",
+      "context": "注于滂水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-23",
+      "type": "text",
+      "context": "注于滂水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

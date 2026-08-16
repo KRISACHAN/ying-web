@@ -1,0 +1,22 @@
+{
+  "id": "饕餮",
+  "name": "饕餮",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "故割革而为甲，铄铁而为刃。贪味饕餮之人，残贼天下，万人搔动，莫宁"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 18
+  }
+}

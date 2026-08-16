@@ -1,0 +1,71 @@
+{
+  "id": "伯夷",
+  "name": "伯夷",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 18,
+      "entryId": "soushenji-18-08",
+      "type": "text",
+      "context": "北部督邮西平到伯夷，年三十许，大有才决，长沙太守"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 29,
+      "entryId": "soushenji-29-11",
+      "type": "text",
+      "context": "衣或白或黄，辄蒲博相戏。时有郅伯夷者，宿于此亭，明烛而坐诵经。至"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-10",
+      "type": "text",
+      "context": "岁虽少,\n\n可师长兮。\n\n行比伯夷,\n\n置以为象兮。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-12",
+      "type": "text",
+      "context": "策。\n\n求介子之所存兮,\n\n见伯夷之放迹。\n\n心调度而弗去兮,\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-02",
+      "type": "text",
+      "context": "见攘。\n\n世俗更而变化兮,\n\n伯夷饿于首阳。\n\n独廉洁而不容兮,"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "矣，而三王独称；贫贱者多矣，而伯夷独举。以贵为圣乎？则圣者众矣；"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "而乐直行尽忠以死节，故不为也。伯夷、叔齐非不能受禄任官以致其功也"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "可。舜、许由异行而皆圣，伊尹、伯夷异道而皆仁，箕子、比干异趋而皆"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 18
+  }
+}

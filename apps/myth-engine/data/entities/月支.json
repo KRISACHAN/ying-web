@@ -1,0 +1,24 @@
+{
+  "id": "月支",
+  "name": "月支",
+  "pinyin": "",
+  "aliases": [
+    "大月氏"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即月氏(zhī)，又叫大月氏，古族名，原居于中国西北地区，秦汉时远迁至中亚阿富汗一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-04",
+      "type": "annotation",
+      "annotationExplanation": "即月氏(zhī)，又叫大月氏，古族名，原居于中国西北地区，秦汉时远迁至中亚阿富汗一带"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

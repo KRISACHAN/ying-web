@@ -1,0 +1,22 @@
+{
+  "id": "盐长之国",
+  "name": "盐长之国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即盐(一作“监”)长国，国名，具体所指待考。一说“盐长”之名当与产盐有关，可能在今四川境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-11",
+      "type": "annotation",
+      "annotationExplanation": "即盐(一作“监”)长国，国名，具体所指待考。一说“盐长”之名当与产盐有关，可能在今四川境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

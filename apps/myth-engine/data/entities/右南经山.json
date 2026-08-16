@@ -1,0 +1,24 @@
+{
+  "id": "右南经山",
+  "name": "右南经山",
+  "pinyin": "",
+  "aliases": [
+    "右南经之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-37",
+      "type": "text",
+      "context": "右南经之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

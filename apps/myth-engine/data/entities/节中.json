@@ -1,0 +1,22 @@
+{
+  "id": "节中",
+  "name": "节中",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "适中，不偏不过",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-07",
+      "type": "annotation",
+      "annotationExplanation": "适中，不偏不过"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "苦辛",
+  "name": "苦辛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "一作“苦莘”，草名；一说指细辛，多年生草本植物，高12~24厘米，根茎细长，叶子心形或肾形",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-55",
+      "type": "annotation",
+      "annotationExplanation": "一作“苦莘”，草名；一说指细辛，多年生草本植物，高12~24厘米，根茎细长，叶子心形或肾形"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

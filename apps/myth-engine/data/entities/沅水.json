@@ -1,0 +1,24 @@
+{
+  "id": "沅水",
+  "name": "沅水",
+  "pinyin": "",
+  "aliases": [
+    "沅之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-17",
+      "type": "text",
+      "context": "沅水山出象郡镡城西，入东注江，入下"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

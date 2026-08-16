@@ -1,0 +1,22 @@
+{
+  "id": "干宝",
+  "name": "干宝",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 24,
+      "entryId": "soushenji-24-02",
+      "type": "text",
+      "context": "干宝字令升，其先新蔡人。父莹，有嬖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 24
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "神",
+  "name": "神",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "指山神",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-10",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-25",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-36",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-43",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-16",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-29",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-47",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-10",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-25",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-35",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-19",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-78",
+      "type": "annotation",
+      "annotationExplanation": "指山神"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

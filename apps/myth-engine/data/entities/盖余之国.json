@@ -1,0 +1,24 @@
+{
+  "id": "盖余之国",
+  "name": "盖余之国",
+  "pinyin": "",
+  "aliases": [
+    "盖余国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即盖余国，国名，具体所指待考。一说即盖国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-08",
+      "type": "annotation",
+      "annotationExplanation": "即盖余国，国名，具体所指待考。一说即盖国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

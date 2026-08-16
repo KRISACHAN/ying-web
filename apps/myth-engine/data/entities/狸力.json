@@ -1,0 +1,29 @@
+{
+  "id": "狸力",
+  "name": "狸力",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说即猪獾，别名沙獾，吻端与猪鼻相似，四肢粗短有力，穴居，有冬眠习性",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-11",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说即猪獾，别名沙獾，吻端与猪鼻相似，四肢粗短有力，穴居，有冬眠习性"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-11",
+      "type": "text",
+      "context": "有兽焉，其状如豚，有距，其音如狗吠，其名曰狸力"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

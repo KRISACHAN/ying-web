@@ -1,0 +1,127 @@
+{
+  "id": "九州",
+  "name": "九州",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "传说中的中国上古行政区划，起于春秋战国时代，有各种不同的说法",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-21",
+      "type": "annotation",
+      "annotationExplanation": "传说中的中国上古行政区划，起于春秋战国时代，有各种不同的说法"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-21",
+      "type": "text",
+      "context": "，是始为国。禹、鲧是始布土，定九州。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-23",
+      "type": "text",
+      "context": "鲧复生禹。帝乃命禹卒布土，以定九州。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-10",
+      "type": "text",
+      "context": "合兮，\n\n孰信修而慕之？\n\n思九州之博大兮，\n\n岂惟是其有女？”"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-05",
+      "type": "text",
+      "context": "\n\n逾空桑兮从女。\n\n纷总总兮九州,\n\n何寿夭兮在予。\n\n高飞兮"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-02",
+      "type": "text",
+      "context": "冯怒,\n\n墬何故以东南倾？\n\n九州安错？\n\n川谷何洿？\n\n东流不"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-04",
+      "type": "text",
+      "context": "上征,\n\n竦余驾兮入冥。\n\n历九州兮索合,\n\n谁可与兮终生？\n\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-08",
+      "type": "text",
+      "context": "袭兴,\n\n幸咎繇兮获谋。\n\n悲九州兮靡君,\n\n抚轼叹兮作诗。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "入于虞渊之汜，曙于蒙谷之浦，行九州七舍，有五亿万七千三百九里，禹"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "时，要之以太岁。\n\n天地之间，九州八极。土有九山，山有九塞，泽有"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "之道也。\n\n往古之时，四极废，九州裂；天不兼覆，地不周载；火爁炎"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "，平通沟陆，流注东海。鸿水漏，九州干，万民皆宁其性。是以称尧、舜"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 11,
+      "entryId": "huainanzi-11-01",
+      "type": "text",
+      "context": "不可使搏鼠也。今人之才，或欲平九州，并方外，存危国，继绝世，志在"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "执一而勿失，万物之情既矣，四夷九州服矣。夫一者至贵，无适于天下。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 19,
+      "entryId": "huainanzi-19-01",
+      "type": "text",
+      "context": "何顾！畏首畏尾，身凡有几！欲观九州之上，足无千里之行；心无政教之"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "及也；至众，非数之所能领也。故九州不可顷亩也，八极不可道里也，太"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

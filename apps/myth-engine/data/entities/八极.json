@@ -1,0 +1,71 @@
+{
+  "id": "八极",
+  "name": "八极",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "夫道者，覆天载地，廓四方，柝八极；高不可际，深不可测；包裹天地"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "要之以太岁。\n\n天地之间，九州八极。土有九山，山有九塞，泽有九薮"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 8,
+      "entryId": "huainanzi-08-01",
+      "type": "text",
+      "context": "其所止息；于是乃别为阴阳，离为八极；刚柔相成，万物乃形；烦气为虫"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "山川；含吐阴阳，伸曳四时；纪纲八极，经纬六合；覆露照导，普汜无私"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "之用也。此见隅曲之一指，而不知八极之广大也。故东面而望，不见西墙"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 20,
+      "entryId": "huainanzi-20-01",
+      "type": "text",
+      "context": "其举错不惑。发一端，散无竟，周八极，总一筦谓之心。见本而知末，观"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "之所能领也。故九州不可顷亩也，八极不可道里也，太山不可丈尺也，江"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "摹以自几也。\n\n《泰族》者，横八极，致高崇，上明三光，下和水上，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 2
+  }
+}

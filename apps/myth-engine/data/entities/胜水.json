@@ -1,0 +1,31 @@
+{
+  "id": "胜水",
+  "name": "胜水",
+  "pinyin": "",
+  "aliases": [
+    "胜之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，在今山西境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-20",
+      "type": "annotation",
+      "annotationExplanation": "水名，在今山西境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-20",
+      "type": "text",
+      "context": "胜水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

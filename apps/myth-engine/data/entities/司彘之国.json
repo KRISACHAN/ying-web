@@ -1,0 +1,24 @@
+{
+  "id": "司彘之国",
+  "name": "司彘之国",
+  "pinyin": "zhì",
+  "aliases": [
+    "司彘国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即司彘国，国名，具体所指待考。一说在今四川、甘肃、青海边境",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "annotation",
+      "annotationExplanation": "即司彘国，国名，具体所指待考。一说在今四川、甘肃、青海边境"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

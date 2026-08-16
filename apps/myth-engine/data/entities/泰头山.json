@@ -1,0 +1,31 @@
+{
+  "id": "泰头山",
+  "name": "泰头山",
+  "pinyin": "",
+  "aliases": [
+    "泰头之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即泰头山，山名，具体所指待考。一说在今山西境内；一说在今河南境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-39",
+      "type": "annotation",
+      "annotationExplanation": "即泰头山，山名，具体所指待考。一说在今山西境内；一说在今河南境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-39",
+      "type": "text",
+      "context": "，曰泰头之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

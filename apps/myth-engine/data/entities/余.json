@@ -1,0 +1,22 @@
+{
+  "id": "余",
+  "name": "余",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "犹今言“咱们”，指女媭和屈原两人",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-06",
+      "type": "annotation",
+      "annotationExplanation": "犹今言“咱们”，指女媭和屈原两人"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "凤皇",
+  "name": "凤皇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "即凤凰，传说中的百鸟之王，羽毛美丽，雄的叫凤，雌的叫凰",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-28",
+      "type": "annotation",
+      "annotationExplanation": "即凤凰，传说中的百鸟之王，羽毛美丽，雄的叫凤，雌的叫凰"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "潢水",
+  "name": "潢水",
+  "pinyin": "huánɡ",
+  "aliases": [
+    "潢之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "一作“湟(huánɡ)水”。也叫涯(yá)水，古水名，即今广东西北的湟江、连江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-19",
+      "type": "annotation",
+      "annotationExplanation": "一作“湟(huánɡ)水”。也叫涯(yá)水，古水名，即今广东西北的湟江、连江"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

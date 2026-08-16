@@ -1,0 +1,29 @@
+{
+  "id": "山",
+  "name": "山",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说在今新疆境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-39",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在今新疆境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-15",
+      "type": "annotation",
+      "annotationExplanation": "一说可能指长白山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

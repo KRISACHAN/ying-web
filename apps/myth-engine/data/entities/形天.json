@@ -1,0 +1,22 @@
+{
+  "id": "形天",
+  "name": "形天",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "又作刑天，神话传说中的人物，因与天帝争权，被砍掉脑袋",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-07",
+      "type": "annotation",
+      "annotationExplanation": "又作刑天，神话传说中的人物，因与天帝争权，被砍掉脑袋"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "高阳",
+  "name": "高阳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "古帝颛顼(zhuān xū)的号。传说颛顼为高阳部落首领，因以为号",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-01",
+      "type": "annotation",
+      "annotationExplanation": "古帝颛顼(zhuān xū)的号。传说颛顼为高阳部落首领，因以为号"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

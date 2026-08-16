@@ -1,0 +1,22 @@
+{
+  "id": "东皇太一",
+  "name": "东皇太一",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-01",
+      "type": "text",
+      "context": "吉日兮辰良,\n\n东皇太一穆将愉兮上皇。\n\n抚长剑兮玉珥"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 2
+  }
+}

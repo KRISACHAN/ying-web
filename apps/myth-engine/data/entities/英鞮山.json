@@ -1,0 +1,31 @@
+{
+  "id": "英鞮山",
+  "name": "英鞮山",
+  "pinyin": "",
+  "aliases": [
+    "英鞮之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即英鞮山，山名，具体所指待考。一说在今甘肃境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-53",
+      "type": "annotation",
+      "annotationExplanation": "即英鞮山，山名，具体所指待考。一说在今甘肃境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-53",
+      "type": "text",
+      "context": "，曰英鞮之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

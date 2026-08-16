@@ -1,0 +1,24 @@
+{
+  "id": "海山",
+  "name": "海山",
+  "pinyin": "",
+  "aliases": [
+    "海之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说在今青海境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-11",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在今青海境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

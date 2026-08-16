@@ -1,0 +1,24 @@
+{
+  "id": "员神磈氏",
+  "name": "员神磈氏",
+  "pinyin": "",
+  "aliases": [
+    "圆"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "一说即少昊；一说员即“圆”，圆神即日神",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-35",
+      "type": "annotation",
+      "annotationExplanation": "一说即少昊；一说员即“圆”，圆神即日神"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

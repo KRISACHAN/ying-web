@@ -1,0 +1,22 @@
+{
+  "id": "英招",
+  "name": "英招",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "text",
+      "context": "多采黄金、银。实惟帝之平圃，神英招司之，其状马身而人面，虎文而鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

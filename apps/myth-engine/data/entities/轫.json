@@ -1,0 +1,22 @@
+{
+  "id": "轫",
+  "name": "轫",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "刹住车轮的横木",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "annotation",
+      "annotationExplanation": "刹住车轮的横木"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

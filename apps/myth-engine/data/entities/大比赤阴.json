@@ -1,0 +1,22 @@
+{
+  "id": "大比赤阴",
+  "name": "大比赤阴",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "人名，一说即“赤国妻氏”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-21",
+      "type": "annotation",
+      "annotationExplanation": "人名，一说即“赤国妻氏”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

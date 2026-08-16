@@ -1,0 +1,106 @@
+{
+  "id": "武王",
+  "name": "武王",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-04",
+      "type": "text",
+      "context": "武王伐纣，至河上，雨甚。疾雷，晦冥"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "障险阴，其无所逃之亦明矣。\n\n武王伐纣，渡于孟津，阳侯之波，逆流"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "三百乘，伐桀于南巢，放之夏台；武王甲卒三千，破纣牧野，杀之于宣室"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "之道明矣。文王智而好间，故圣；武王勇而好问，故胜，夫乘众人之智，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 11,
+      "entryId": "huainanzi-11-01",
+      "type": "text",
+      "context": "，舜立诽谤之木，汤有司直之人，武王立戒慎之鞀，过若毫厘，而既已备"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "，人也。太公望、周公旦，天非为武王造之也；崇侯、恶来，天非为纣生"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "禹令民聚上积薪，择丘陵而外之。武王伐纣，载尸而行，海内未定，故不"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "\n\n昔尧之佐九人，舜之佐七人，武王之佐五人。尧、舜、武王于九、七"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "也。立子以长，文王舍伯邑考而用武王，非制也。礼三十而娶，文王十三"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "天下应之者，积怨在于民也。\n\n武王伐纣，东面而迎岁，至记而水，至"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "；文王葬死人之骸，而九夷归之；武王荫喝人于樾下，左拥而右扇之，而"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "忠臣也，而未可谓弟也。汤放桀，武王伐纣，以为天下去残除贼，可谓惠"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "之谋生焉。\n\n文王业之而不卒，武王继文王之业，用大公之谋，悉索薄"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 8
+  }
+}

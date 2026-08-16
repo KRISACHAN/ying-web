@@ -1,0 +1,31 @@
+{
+  "id": "诸钩山",
+  "name": "诸钩山",
+  "pinyin": "",
+  "aliases": [
+    "诸钩之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即诸钩山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-28",
+      "type": "annotation",
+      "annotationExplanation": "即诸钩山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-28",
+      "type": "text",
+      "context": "，曰诸钩之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "轩辕国",
+  "name": "轩辕国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-14",
+      "type": "text",
+      "context": "其北，不敢西射，畏轩辕之丘。在轩辕国北。其丘方，四蛇相绕。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

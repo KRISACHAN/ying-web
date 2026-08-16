@@ -1,0 +1,22 @@
+{
+  "id": "齐",
+  "name": "齐",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地区名，今山东泰山以北黄河流域及胶东半岛地区，为战国时齐地，汉以后沿称齐",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-23",
+      "type": "annotation",
+      "annotationExplanation": "地区名，今山东泰山以北黄河流域及胶东半岛地区，为战国时齐地，汉以后沿称齐"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

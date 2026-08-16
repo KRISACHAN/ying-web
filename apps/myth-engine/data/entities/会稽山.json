@@ -1,0 +1,31 @@
+{
+  "id": "会稽山",
+  "name": "会稽山",
+  "pinyin": "kuài",
+  "aliases": [
+    "会稽之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即会稽山，山名，在今浙江境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-19",
+      "type": "annotation",
+      "annotationExplanation": "即会稽山，山名，在今浙江境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-19",
+      "type": "text",
+      "context": "，曰会稽之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

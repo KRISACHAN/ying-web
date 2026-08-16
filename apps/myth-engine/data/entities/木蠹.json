@@ -1,0 +1,22 @@
+{
+  "id": "木蠹",
+  "name": "木蠹",
+  "pinyin": "dù",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "蛀蚀木头的虫子",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 13,
+      "entryId": "soushenji-13-09",
+      "type": "annotation",
+      "annotationExplanation": "蛀蚀木头的虫子"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "鴸",
+  "name": "鴸",
+  "pinyin": "zhū",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-11",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鸟"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-11",
+      "type": "text",
+      "context": "有鸟焉，其状如鸱而人手，其音如痺，其名曰鴸"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

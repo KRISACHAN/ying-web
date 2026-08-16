@@ -1,0 +1,92 @@
+{
+  "id": "鸾鸟",
+  "name": "鸾鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中凤凰一类的鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-19",
+      "type": "annotation",
+      "annotationExplanation": "传说中凤凰一类的鸟"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-19",
+      "type": "text",
+      "context": "有鸟焉，其状如翟而五采文，名曰鸾鸟，见则天下安宁。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-15",
+      "type": "text",
+      "context": "此诸夭之野，鸾鸟自歌，凤鸟自舞。凤皇卵，民食之"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-17",
+      "type": "text",
+      "context": "开明西有凤皇、鸾鸟，皆戴蛇践蛇，膺有赤蛇。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-11",
+      "type": "text",
+      "context": "不稼不穑，食也。爰有歌舞之鸟，鸾鸟自歌，凤鸟自舞。爰有百兽，相群"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "text",
+      "context": "九嫔葬焉。爰有久、文贝、离俞、鸾鸟、皇鸟、大物、小物。有青鸟、琅"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-08",
+      "type": "text",
+      "context": "黍、膏稷，百谷自生，冬夏播琴。鸾鸟自歌，凤鸟自儛，灵寿实华，草木"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-14",
+      "type": "text",
+      "context": "有鸾鸟自歌，凤鸟自舞。凤鸟首文曰德，"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-03",
+      "type": "text",
+      "context": "\n\n固将重昏而终身。\n\n乱曰:鸾鸟凤皇,\n\n日以远兮。\n\n燕雀乌"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "。\n\n祝融戒而还衡兮,\n\n腾告鸾鸟迎宓妃。\n\n张咸池奏承云兮,\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "羽嘉生飞龙，飞龙生凤皇，凤皇生鸾鸟，驾鸟生庶鸟，凡羽者生于庶鸟。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "肥𧔥",
+  "name": "肥𧔥",
+  "pinyin": "wèi",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "传说中的一种蛇",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-03",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种蛇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

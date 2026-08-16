@@ -1,0 +1,22 @@
+{
+  "id": "鸾凤",
+  "name": "鸾凤",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "一作“鸾鸟”，应改为“鸾鸟”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-11",
+      "type": "annotation",
+      "annotationExplanation": "一作“鸾鸟”，应改为“鸾鸟”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

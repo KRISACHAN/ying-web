@@ -1,0 +1,22 @@
+{
+  "id": "䮝",
+  "name": "䮝",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-30",
+      "type": "text",
+      "context": "有兽焉，其状如麢羊而四角，马尾而有距，其名曰䮝"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

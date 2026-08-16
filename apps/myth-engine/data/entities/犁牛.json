@@ -1,0 +1,22 @@
+{
+  "id": "犁牛",
+  "name": "犁牛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "杂色牛。一说即耕牛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-01",
+      "type": "annotation",
+      "annotationExplanation": "杂色牛。一说即耕牛"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

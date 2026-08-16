@@ -1,0 +1,24 @@
+{
+  "id": "堤山",
+  "name": "堤山",
+  "pinyin": "",
+  "aliases": [
+    "堤之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说指今西伯利亚的屯金山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-15",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说指今西伯利亚的屯金山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

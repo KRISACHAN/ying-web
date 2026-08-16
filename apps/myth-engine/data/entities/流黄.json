@@ -1,0 +1,24 @@
+{
+  "id": "流黄",
+  "name": "流黄",
+  "pinyin": "",
+  "aliases": [
+    "流黄酆氏"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古国名，即流黄酆氏、流黄辛氏",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-11",
+      "type": "annotation",
+      "annotationExplanation": "古国名，即流黄酆氏、流黄辛氏"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

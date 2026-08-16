@@ -1,0 +1,25 @@
+{
+  "id": "樕𧑤山",
+  "name": "樕𧑤山",
+  "pinyin": "",
+  "aliases": [
+    "樕𧑤之山",
+    "黄山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，即今山东淄博市的石门山，又名黄山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-01",
+      "type": "annotation",
+      "annotationExplanation": "山名，即今山东淄博市的石门山，又名黄山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

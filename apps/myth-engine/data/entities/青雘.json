@@ -1,0 +1,92 @@
+{
+  "id": "青雘",
+  "name": "青雘",
+  "pinyin": "huò",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "青色的可作颜料的矿物",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-08",
+      "type": "annotation",
+      "annotationExplanation": "青色的可作颜料的矿物"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-08",
+      "type": "text",
+      "context": "多青雘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-18",
+      "type": "annotation",
+      "annotationExplanation": "青色的可作颜料的矿物"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-18",
+      "type": "text",
+      "context": "多青雘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-33",
+      "type": "text",
+      "context": "多青雘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-70",
+      "type": "text",
+      "context": "多青雘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-72",
+      "type": "text",
+      "context": "多青雘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-75",
+      "type": "text",
+      "context": "多青雘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-97",
+      "type": "text",
+      "context": "多青雘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-103",
+      "type": "text",
+      "context": "多青雘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-105",
+      "type": "text",
+      "context": "多青雘"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

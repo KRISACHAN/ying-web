@@ -1,0 +1,24 @@
+{
+  "id": "丹山",
+  "name": "丹山",
+  "pinyin": "",
+  "aliases": [
+    "丹之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，即今巫山，在重庆、湖北边境，因山势曲折盘错，形如“巫”字，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-12",
+      "type": "annotation",
+      "annotationExplanation": "山名，即今巫山，在重庆、湖北边境，因山势曲折盘错，形如“巫”字，故名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "海泽",
+  "name": "海泽",
+  "pinyin": "",
+  "aliases": [
+    "海之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说在今河北曲周县以北；一说可能指渤海边的沼泽地带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-42",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说在今河北曲周县以北；一说可能指渤海边的沼泽地带"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-42",
+      "type": "text",
+      "context": "注于海泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "蛩蛩",
+  "name": "蛩蛩",
+  "pinyin": "qiónɡ",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-14",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

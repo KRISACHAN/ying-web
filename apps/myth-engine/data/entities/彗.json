@@ -1,0 +1,22 @@
+{
+  "id": "彗",
+  "name": "彗",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "high",
+  "description": "彗星，俗称扫帚星",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-10",
+      "type": "annotation",
+      "annotationExplanation": "彗星，俗称扫帚星"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

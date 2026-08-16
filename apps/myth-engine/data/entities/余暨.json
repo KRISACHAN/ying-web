@@ -1,0 +1,22 @@
+{
+  "id": "余暨",
+  "name": "余暨",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "汉时县名，今属浙江杭州市萧山区",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-10",
+      "type": "annotation",
+      "annotationExplanation": "汉时县名，今属浙江杭州市萧山区"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

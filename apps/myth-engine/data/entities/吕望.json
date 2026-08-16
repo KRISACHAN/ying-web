@@ -1,0 +1,71 @@
+{
+  "id": "吕望",
+  "name": "吕望",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-03",
+      "type": "text",
+      "context": "吕望钓于渭阳。文王出游猎，占曰：“"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-11",
+      "type": "text",
+      "context": "傅岩兮，\n\n武丁用而不疑。\n\n吕望之鼓刀兮，\n\n遭周文而得举。\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-09",
+      "type": "text",
+      "context": "为虏兮,\n\n伊尹烹于庖厨。\n\n吕望屠于朝歌兮,\n\n宁戚歌而饭牛。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-02",
+      "type": "text",
+      "context": "\n纣暴虐以失位兮,\n\n周得佐乎吕望。\n\n修往古以行恩兮,\n\n封比"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-03",
+      "type": "text",
+      "context": "弊辇兮,\n\n遇孙阳而得代。\n\n吕望穷困而不聊生兮,\n\n遭周文而舒"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "于东庙，无术以御之也。文王两用吕望、召公奭而王，楚庄王专任孙叔敖"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 19,
+      "entryId": "huainanzi-19-01",
+      "type": "text",
+      "context": "，所为之则同，其所以为之则异。吕望使老者奋，项托使婴儿矜，以类相"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "步之人观之，则伊尹负鼎而干汤，吕望鼓刀而入周，百里奚转鬻，管仲束"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 8
+  }
+}

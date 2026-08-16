@@ -1,0 +1,31 @@
+{
+  "id": "薰吴山",
+  "name": "薰吴山",
+  "pinyin": "",
+  "aliases": [
+    "薰吴之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即薰吴山，山名，具体所指待考。一说在今甘肃境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-23",
+      "type": "annotation",
+      "annotationExplanation": "即薰吴山，山名，具体所指待考。一说在今甘肃境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-23",
+      "type": "text",
+      "context": "，曰薰吴之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "皮母地丘",
+  "name": "皮母地丘",
+  "pinyin": "",
+  "aliases": [
+    "皮母地之丘"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-02",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "临汾",
+  "name": "临汾",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "汉时县名，治今山西新绛县东北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-14",
+      "type": "annotation",
+      "annotationExplanation": "汉时县名，治今山西新绛县东北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

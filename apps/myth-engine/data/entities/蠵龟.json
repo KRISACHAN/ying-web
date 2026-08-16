@@ -1,0 +1,24 @@
+{
+  "id": "蠵龟",
+  "name": "蠵龟",
+  "pinyin": "xī",
+  "aliases": [
+    "赤蠵龟"
+  ],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "也叫赤蠵龟，一种海龟，长约1米，背面褐色，杂有黄色纹，腹面淡黄，四肢呈桨状",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-32",
+      "type": "annotation",
+      "annotationExplanation": "也叫赤蠵龟，一种海龟，长约1米，背面褐色，杂有黄色纹，腹面淡黄，四肢呈桨状"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

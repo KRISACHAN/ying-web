@@ -1,0 +1,29 @@
+{
+  "id": "罴",
+  "name": "罴",
+  "pinyin": "pí",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "即棕熊，哺乳动物，身体大，多为棕褐色，能爬树，会游泳",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "annotation",
+      "annotationExplanation": "即棕熊，哺乳动物，身体大，多为棕褐色，能爬树，会游泳"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-44",
+      "type": "text",
+      "context": "有兽焉，其状如麋，其川在尾上，其名曰罴"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "湮山",
+  "name": "湮山",
+  "pinyin": "yīn",
+  "aliases": [
+    "湮之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说可能指今安徽宿州市西北的睢阳山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-24",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能指今安徽宿州市西北的睢阳山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

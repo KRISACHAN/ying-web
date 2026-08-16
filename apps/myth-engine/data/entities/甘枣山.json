@@ -1,0 +1,38 @@
+{
+  "id": "甘枣山",
+  "name": "甘枣山",
+  "pinyin": "",
+  "aliases": [
+    "甘枣之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即甘枣山，山名，一说指今山西芮城县东北的甘桑山；一说在今山西永济市南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-01",
+      "type": "annotation",
+      "annotationExplanation": "即甘枣山，山名，一说指今山西芮城县东北的甘桑山；一说在今山西永济市南"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-01",
+      "type": "text",
+      "context": "，曰甘枣之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-10",
+      "type": "text",
+      "context": "，自甘枣之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

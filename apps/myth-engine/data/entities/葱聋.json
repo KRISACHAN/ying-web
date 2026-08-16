@@ -1,0 +1,22 @@
+{
+  "id": "葱聋",
+  "name": "葱聋",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，一种野羊。一说指藏羚",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-05",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一种野羊。一说指藏羚"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

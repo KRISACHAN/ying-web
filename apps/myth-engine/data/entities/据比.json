@@ -1,0 +1,22 @@
+{
+  "id": "据比",
+  "name": "据比",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "一说即诸比，天神名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-07",
+      "type": "annotation",
+      "annotationExplanation": "一说即诸比，天神名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

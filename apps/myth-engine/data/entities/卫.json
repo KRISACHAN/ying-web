@@ -1,0 +1,22 @@
+{
+  "id": "卫",
+  "name": "卫",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "应置于下句“丘”前。卫丘是山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "annotation",
+      "annotationExplanation": "应置于下句“丘”前。卫丘是山名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

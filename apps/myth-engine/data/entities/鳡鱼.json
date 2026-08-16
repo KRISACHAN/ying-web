@@ -1,0 +1,24 @@
+{
+  "id": "鳡鱼",
+  "name": "鳡鱼",
+  "pinyin": "ɡǎn",
+  "aliases": [
+    "黄钻"
+  ],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鱼名，也叫黄钻、竿鱼等。体延长，亚圆筒形，长可达1米。青黄色，口大，眼小，性凶猛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-04",
+      "type": "annotation",
+      "annotationExplanation": "鱼名，也叫黄钻、竿鱼等。体延长，亚圆筒形，长可达1米。青黄色，口大，眼小，性凶猛"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

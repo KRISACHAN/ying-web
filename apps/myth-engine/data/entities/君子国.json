@@ -1,0 +1,43 @@
+{
+  "id": "君子国",
+  "name": "君子国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，因其国中之人讲究礼仪揖让，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-03",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，因其国中之人讲究礼仪揖让，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-03",
+      "type": "text",
+      "context": "君子国在其北，衣冠带剑，食兽，使二大"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-04",
+      "type": "text",
+      "context": "下虫)在其北，各有两首。一曰在君子国北。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "民。自东南至东北方，有大人国，君子国，黑齿民，玄股民，毛民，劳民。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

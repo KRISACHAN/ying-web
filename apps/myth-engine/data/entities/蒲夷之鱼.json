@@ -1,0 +1,25 @@
+{
+  "id": "蒲夷之鱼",
+  "name": "蒲夷之鱼",
+  "pinyin": "",
+  "aliases": [
+    "冉遗之鱼",
+    "蒲夷鱼"
+  ],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "即蒲夷鱼，鱼名，一说疑即“冉遗之鱼”；一说指中华鲮，体长10余厘米，前部平扁，后部侧扁，有小须四对",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-45",
+      "type": "annotation",
+      "annotationExplanation": "即蒲夷鱼，鱼名，一说疑即“冉遗之鱼”；一说指中华鲮，体长10余厘米，前部平扁，后部侧扁，有小须四对"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "玄丹山",
+  "name": "玄丹山",
+  "pinyin": "",
+  "aliases": [
+    "玄丹之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即玄丹山，山名，具体所指待考。一说因山中出黑丹，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-19",
+      "type": "annotation",
+      "annotationExplanation": "即玄丹山，山名，具体所指待考。一说因山中出黑丹，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-19",
+      "type": "text",
+      "context": "有玄丹之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

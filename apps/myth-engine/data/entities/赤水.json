@@ -1,0 +1,129 @@
+{
+  "id": "赤水",
+  "name": "赤水",
+  "pinyin": "",
+  "aliases": [
+    "赤之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-11",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-11",
+      "type": "text",
+      "context": "东望长右。英水出焉，西南流注于赤水，其中多白玉，多丹粟。有兽焉，"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-24",
+      "type": "text",
+      "context": "下多青雄黄。皇水出焉，西流注于赤水，其中多丹粟。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-10",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说可能指位于中国云南和越南的红河；一说指发源于云贵高原的盘江，是西江的上源"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-10",
+      "type": "text",
+      "context": "三株树在厌火北，生赤水上，其为树如柏，叶皆为珠。一曰"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-01",
+      "type": "text",
+      "context": "南海之外，赤水之西，流沙之东，有兽，左右有首"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-02",
+      "type": "text",
+      "context": "阿山者。南海之中，有泛天之山，赤水穷焉。赤水之东有苍梧之野，舜与"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-07",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说指金沙江；一说指位于西北的额尔齐斯河或鄂毕河等"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-07",
+      "type": "text",
+      "context": "西北海之外，赤水一之东，有长胫之国名。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-21",
+      "type": "text",
+      "context": "西南海之外，赤水之南，流沙之西，有人珥两青蛇，"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-19",
+      "type": "text",
+      "context": "烛阴西北海之外，赤水之北，有章尾山。有神，人面蛇身"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-22",
+      "type": "annotation",
+      "annotationExplanation": "一说指部族名；一说指黄河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-22",
+      "type": "text",
+      "context": "炎帝之妻、赤水之子听讠夭生炎居，炎居生节并，"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-12",
+      "type": "annotation",
+      "annotationExplanation": "神话中水名，源出昆仑山"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-12",
+      "type": "text",
+      "context": "翼。\n\n乎吾行此流沙兮，\n\n遵赤水而容与。\n\n麾蛟龙使梁津兮，\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "寒风。\n\n何谓六水？曰：河水、赤水、辽水、黑水、江水、淮水。\n\n"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

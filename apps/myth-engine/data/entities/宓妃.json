@@ -1,0 +1,43 @@
+{
+  "id": "宓妃",
+  "name": "宓妃",
+  "pinyin": "fú",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "相传为伏羲氏之女，溺死于洛水，遂成为洛水女神",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "annotation",
+      "annotationExplanation": "相传为伏羲氏之女，溺死于洛水，遂成为洛水女神"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "text",
+      "context": "诒。\n\n吾令丰隆乘云兮，\n\n求宓妃之所在。\n\n解佩纕以结言兮，\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "祝融戒而还衡兮,\n\n腾告鸾鸟迎宓妃。\n\n张咸池奏承云兮,\n\n二女"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "日而使风雨；臣雷公，役夸父，妾宓妃，妻织女，天地之间何足以留其志"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

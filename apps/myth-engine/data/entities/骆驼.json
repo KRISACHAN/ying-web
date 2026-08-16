@@ -1,0 +1,25 @@
+{
+  "id": "骆驼",
+  "name": "骆驼",
+  "pinyin": "",
+  "aliases": [
+    "橐驼"
+  ],
+  "type": "unknown",
+  "typeConfidence": "low",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-05",
+      "type": "annotation",
+      "annotationExplanation": "即骆驼",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

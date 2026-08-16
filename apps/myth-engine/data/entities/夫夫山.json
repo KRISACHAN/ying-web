@@ -1,0 +1,31 @@
+{
+  "id": "夫夫山",
+  "name": "夫夫山",
+  "pinyin": "",
+  "aliases": [
+    "夫夫之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即夫(一作“大”)夫山，山名，具体所指待考。一说在今湖南境内；一说在今湖北境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-119",
+      "type": "annotation",
+      "annotationExplanation": "即夫(一作“大”)夫山，山名，具体所指待考。一说在今湖南境内；一说在今湖北境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-119",
+      "type": "text",
+      "context": "，曰夫夫之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

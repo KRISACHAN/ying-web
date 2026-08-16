@@ -1,0 +1,31 @@
+{
+  "id": "禺号",
+  "name": "禺号",
+  "pinyin": "",
+  "aliases": [
+    "禺貌"
+  ],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "即“禺貌(mào)”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-11",
+      "type": "annotation",
+      "annotationExplanation": "即“禺貌(mào)”"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-20",
+      "type": "annotation",
+      "annotationExplanation": "即“禺貌(mào)”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

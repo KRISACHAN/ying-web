@@ -1,0 +1,64 @@
+{
+  "id": "扶桑",
+  "name": "扶桑",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "神话传说中的一种树",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-09",
+      "type": "annotation",
+      "annotationExplanation": "神话传说中的一种树"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-09",
+      "type": "text",
+      "context": "下有汤谷，汤谷上有扶桑，十日所浴，在黑齿北。居水中，"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "annotation",
+      "annotationExplanation": "神话中树名，在汤谷上"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "text",
+      "context": "\n饮余马于咸池兮，\n\n总余辔乎扶桑。\n\n折若木以拂日兮，\n\n聊逍"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-07",
+      "type": "text",
+      "context": "暾将出兮东方,\n\n照吾槛兮扶桑。\n\n抚余马兮安驱,\n\n夜皎皎"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "\n\n日出于旸谷，浴于咸池，拂于扶桑，是谓晨明。登于扶桑，爱始将行"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "两曰：“子何以知之？”景曰：“扶桑受谢，日照宇宙，昭昭之光，辉烛"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "玄股国",
+  "name": "玄股国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即玄股国，传说中的国名，因其国中之人的大腿是黑色的，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-11",
+      "type": "annotation",
+      "annotationExplanation": "即玄股国，传说中的国名，因其国中之人的大腿是黑色的，故名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "叔齐",
+  "name": "叔齐",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-02",
+      "type": "text",
+      "context": "首阳。\n\n独廉洁而不容兮,\n\n叔齐久而逾明。\n\n浮云陈而蔽晦兮,"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "行尽忠以死节，故不为也。伯夷、叔齐非不能受禄任官以致其功也，然而"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 11
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "阳盱河",
+  "name": "阳盱河",
+  "pinyin": "",
+  "aliases": [
+    "阳盱之河"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "于阳盱之河"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 22
+  }
+}

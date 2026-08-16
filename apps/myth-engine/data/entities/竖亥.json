@@ -1,0 +1,22 @@
+{
+  "id": "竖亥",
+  "name": "竖亥",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "神话传说中的人物",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-07",
+      "type": "annotation",
+      "annotationExplanation": "神话传说中的人物"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

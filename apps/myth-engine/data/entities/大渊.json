@@ -1,0 +1,24 @@
+{
+  "id": "大渊",
+  "name": "大渊",
+  "pinyin": "",
+  "aliases": [
+    "大之渊"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "于大渊"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 7
+  }
+}

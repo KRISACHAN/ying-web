@@ -1,0 +1,29 @@
+{
+  "id": "彘",
+  "name": "彘",
+  "pinyin": "zhì",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，一说指野猪；一说疑为华南虎之类",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-17",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说指野猪；一说疑为华南虎之类"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-17",
+      "type": "text",
+      "context": "有兽焉，其状如虎而牛尾，其音如犬吠，其名曰彘"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "西胡",
+  "name": "西胡",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "我国古代泛称北方边地与西域的民族为胡，西胡即位于西边的胡人，相对于东胡而言",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-05",
+      "type": "annotation",
+      "annotationExplanation": "我国古代泛称北方边地与西域的民族为胡，西胡即位于西边的胡人，相对于东胡而言"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "丰沮玉门",
+  "name": "丰沮玉门",
+  "pinyin": "jū",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-09",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

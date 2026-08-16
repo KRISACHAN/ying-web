@@ -1,0 +1,25 @@
+{
+  "id": "肃慎氏之国",
+  "name": "肃慎氏之国",
+  "pinyin": "",
+  "aliases": [
+    "肃慎国",
+    "肃慎氏国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即肃慎氏国，也叫肃慎国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-03",
+      "type": "annotation",
+      "annotationExplanation": "即肃慎氏国，也叫肃慎国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

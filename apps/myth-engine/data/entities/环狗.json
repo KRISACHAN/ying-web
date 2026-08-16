@@ -1,0 +1,22 @@
+{
+  "id": "环狗",
+  "name": "环狗",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "这里当指环狗国，传说中的国名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-08",
+      "type": "annotation",
+      "annotationExplanation": "这里当指环狗国，传说中的国名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

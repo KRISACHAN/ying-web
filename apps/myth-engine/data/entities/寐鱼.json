@@ -1,0 +1,24 @@
+{
+  "id": "寐鱼",
+  "name": "寐鱼",
+  "pinyin": "",
+  "aliases": [
+    "嘉鱼"
+  ],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "即鱼未(wèi)鱼，也叫嘉鱼，形状与鲤鱼相似，鳞细",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-28",
+      "type": "annotation",
+      "annotationExplanation": "即鱼未(wèi)鱼，也叫嘉鱼，形状与鲤鱼相似，鳞细"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

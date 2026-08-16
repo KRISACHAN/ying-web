@@ -1,0 +1,22 @@
+{
+  "id": "天虞",
+  "name": "天虞",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "人名，一说即“尸虞”，但不知尸虞所指为何",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-17",
+      "type": "annotation",
+      "annotationExplanation": "人名，一说即“尸虞”，但不知尸虞所指为何"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

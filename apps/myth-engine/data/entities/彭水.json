@@ -1,0 +1,31 @@
+{
+  "id": "彭水",
+  "name": "彭水",
+  "pinyin": "",
+  "aliases": [
+    "彭之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说指今新疆境内的奎屯河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-03",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说指今新疆境内的奎屯河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-03",
+      "type": "text",
+      "context": "彭水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

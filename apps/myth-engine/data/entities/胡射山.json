@@ -1,0 +1,31 @@
+{
+  "id": "胡射山",
+  "name": "胡射山",
+  "pinyin": "",
+  "aliases": [
+    "胡射之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即胡射山，山名，具体所指待考。一说在今日本境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-30",
+      "type": "annotation",
+      "annotationExplanation": "即胡射山，山名，具体所指待考。一说在今日本境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-30",
+      "type": "text",
+      "context": "，曰胡射之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "王乔",
+  "name": "王乔",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-13",
+      "type": "text",
+      "context": "汉明帝时，尚书郎河东王乔，为邺令。乔有神术，每月朔，尝"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-01",
+      "type": "text",
+      "context": "\n\n轩辕不可攀援兮,\n\n吾将从王乔而娱戏。\n\n餐六气而饮沆瀣兮,"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 9,
+      "entryId": "chuci-09-01",
+      "type": "text",
+      "context": "。\n\n乃至少原之野兮,\n\n赤松王乔皆在旁。\n\n二子拥瑟而调均兮,"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "可爱也，而欧冶之巧可贵也。今夫王乔、赤诵子，吹呕呼吸，吐故纳新，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "哉，方指所言而取一概焉尔。\n\n王乔、赤松去尘埃之间，离群慝之纷，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

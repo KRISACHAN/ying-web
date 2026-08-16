@@ -1,0 +1,22 @@
+{
+  "id": "都广",
+  "name": "都广",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一作“广都”，一说在今成都一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-08",
+      "type": "annotation",
+      "annotationExplanation": "一作“广都”，一说在今成都一带"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

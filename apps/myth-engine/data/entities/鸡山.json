@@ -1,0 +1,24 @@
+{
+  "id": "鸡山",
+  "name": "鸡山",
+  "pinyin": "",
+  "aliases": [
+    "鸡之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说即今广东韶关的桂山；一说应在今广西境内；一说可能在今江西境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-32",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说即今广东韶关的桂山；一说应在今广西境内；一说可能在今江西境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

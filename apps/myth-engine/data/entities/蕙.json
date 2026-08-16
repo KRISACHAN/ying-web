@@ -1,0 +1,22 @@
+{
+  "id": "蕙",
+  "name": "蕙",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "即蕙兰，兰花的一种，初夏开黄绿色花，有香气",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "annotation",
+      "annotationExplanation": "即蕙兰，兰花的一种，初夏开黄绿色花，有香气"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

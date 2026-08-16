@@ -1,0 +1,22 @@
+{
+  "id": "双双",
+  "name": "双双",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-01",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

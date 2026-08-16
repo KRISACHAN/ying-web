@@ -1,0 +1,22 @@
+{
+  "id": "神女",
+  "name": "神女",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-25",
+      "type": "text",
+      "context": "，字义起，以嘉平中夜独宿，梦有神女来从之。自称：“天上玉女，东郡"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

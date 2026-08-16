@@ -1,0 +1,85 @@
+{
+  "id": "五帝",
+  "name": "五帝",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-01",
+      "type": "text",
+      "context": "之兮,\n\n指苍天以为正。\n\n令五帝以折中兮,\n\n戒六神与向服。\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-04",
+      "type": "text",
+      "context": "神。\n\n指列宿以白情兮,\n\n诉五帝以置词。\n\n北斗为我折中兮,\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "暗晦而不明，道澜漫而不修；弃捐五帝之恩刑，推蹶三王之法籍；是以至"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "镂于金石，可传于人者，其粗也。五帝三王，殊事而同指，异路而同归。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "，此未可与言术也，所谓礼义者，五帝三王之法籍风俗，一世之迹也。譬"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "周《武象》，此乐之不同者也。故五帝异道而德覆天下，三王殊事而名施"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "水之浦，舜伐有苗，启攻有扈，自五帝而弗能偃也，又况衰世乎！\n\n夫"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "之于滫，则不能保其芳矣。古者，五帝贵德，三王用义，五霸任力，今取"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "拂其性则法县而不用。\n\n昔者，五帝三王之莅政施教，必用参五。何谓"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "明之精，以与天和相婴薄。所以览五帝三王，怀天气，抱天心，执中含和"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 4
+  }
+}

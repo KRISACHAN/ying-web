@@ -1,0 +1,22 @@
+{
+  "id": "蝮虫",
+  "name": "蝮虫",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "即蝮蛇，一种毒蛇",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-03",
+      "type": "annotation",
+      "annotationExplanation": "即蝮蛇，一种毒蛇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

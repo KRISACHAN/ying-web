@@ -1,0 +1,22 @@
+{
+  "id": "汉阳",
+  "name": "汉阳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "汉时县名，属犍为(qián wéi)郡，在今贵州省",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-13",
+      "type": "annotation",
+      "annotationExplanation": "汉时县名，属犍为(qián wéi)郡，在今贵州省"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

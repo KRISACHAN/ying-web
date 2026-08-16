@@ -1,0 +1,31 @@
+{
+  "id": "尧光山",
+  "name": "尧光山",
+  "pinyin": "",
+  "aliases": [
+    "尧光之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即尧光山，山名，具体所指待考。一说可能指湘赣边界的景阳山；一说可能指湘鄂边界的武功山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-13",
+      "type": "annotation",
+      "annotationExplanation": "即尧光山，山名，具体所指待考。一说可能指湘赣边界的景阳山；一说可能指湘鄂边界的武功山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-13",
+      "type": "text",
+      "context": "，曰尧光之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "晡",
+  "name": "晡",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "申时，即午后三点至五点",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 18,
+      "entryId": "soushenji-18-08",
+      "type": "annotation",
+      "annotationExplanation": "申时，即午后三点至五点"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 18
+  }
+}

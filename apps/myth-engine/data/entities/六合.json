@@ -1,0 +1,85 @@
+{
+  "id": "六合",
+  "name": "六合",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-01",
+      "type": "text",
+      "context": "地之所载，六合之间，四海之内，照之以日月，经"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "，施之无穷而无所朝夕；舒之幎于六合，卷之不盈于一握。约而能张，幽"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "也。\n\n夫天之所覆，地之所载，六合所包，阴阳所呴，雨露所濡，道德"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "地形之所载，六合之间，四极之内，照之以日月，经"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "；毋行水，毋发藏，毋释罪。\n\n六合：孟春与孟秋为合，仲春与仲秋为"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "此观之，天地宇宙，一人之身也；六合之内，一人之制也。是故明于性者"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "焉己。虽无除其患害，天地之间，六合之内，可陶冶而变化也。齐国之政"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "不窕，浸乎金石，润乎草木，字中六合，振豪之末，莫不顺比。道之浸洽"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "逮。夫天之所覆，地之所载，包于六合之内，托于宇宙之间，阴阳之所生"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "泰族》也。\n\n《原道》者，卢牟六合，混沌万物，象太一之容，测窈冥"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "荣水",
+  "name": "荣水",
+  "pinyin": "",
+  "aliases": [
+    "荣之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-03",
+      "type": "text",
+      "context": "荣水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

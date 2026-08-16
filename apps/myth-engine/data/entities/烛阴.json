@@ -1,0 +1,67 @@
+{
+  "id": "烛阴",
+  "name": "烛阴",
+  "pinyin": "",
+  "aliases": [
+    "烛龙"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中的神名，即烛龙，据传它张开眼睛就能照亮天下",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-03",
+      "type": "annotation",
+      "annotationExplanation": "传说中的神名，即烛龙，据传它张开眼睛就能照亮天下"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-03",
+      "type": "text",
+      "context": "钟山之神，名曰烛阴，视为昼，瞑为夜；吹为冬，呼为"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-19",
+      "type": "text",
+      "context": "烛阴西北海之外，赤水之北，有章尾山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-19",
+      "type": "text",
+      "context": "不息，风雨是谒。是烛九阴，是谓烛龙。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-02",
+      "type": "text",
+      "context": "\n何气通焉？\n\n日安不到,\n\n烛龙何照？\n\n羲和之未扬,\n\n若华"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "。孟诸在沛。少室、太室在冀州。烛龙在雁门北，蔽于委羽之山，不见日"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-19",
+      "type": "annotation",
+      "annotationExplanation": "即烛阴",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

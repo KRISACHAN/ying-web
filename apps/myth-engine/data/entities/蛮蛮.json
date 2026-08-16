@@ -1,0 +1,31 @@
+{
+  "id": "蛮蛮",
+  "name": "蛮蛮",
+  "pinyin": "",
+  "aliases": [
+    "比翼鸟"
+  ],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "即比翼鸟，是传说中的一种鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-28",
+      "type": "annotation",
+      "annotationExplanation": "即比翼鸟，是传说中的一种鸟"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-52",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说指水獭"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "鲧",
+  "name": "鲧",
+  "pinyin": "ɡǔn",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "禹的父亲",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-06",
+      "type": "annotation",
+      "annotationExplanation": "禹的父亲"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

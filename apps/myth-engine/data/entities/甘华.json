@@ -1,0 +1,22 @@
+{
+  "id": "甘华",
+  "name": "甘华",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "植物名，具体所指待考。一说这种植物的枝干皆为红色，叶子黄色；一说属于柑橘类",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-13",
+      "type": "annotation",
+      "annotationExplanation": "植物名，具体所指待考。一说这种植物的枝干皆为红色，叶子黄色；一说属于柑橘类"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "泾水",
+  "name": "泾水",
+  "pinyin": "",
+  "aliases": [
+    "泾之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今泾河，源出宁夏南部六盘山东麓，至陕西高陵县境入渭河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-18",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今泾河，源出宁夏南部六盘山东麓，至陕西高陵县境入渭河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-18",
+      "type": "text",
+      "context": "碧、雄黄，其木多棕，其草多竹。泾水出焉，而东流注于渭，其中多磬石"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-20",
+      "type": "text",
+      "context": "其阴多铁。苕水出焉，东南流注于泾水，其中多美玉。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-51",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即今泾河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-51",
+      "type": "text",
+      "context": "又西五十五里，曰泾谷之山。泾水出焉，东南流注于渭，是多白金、"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

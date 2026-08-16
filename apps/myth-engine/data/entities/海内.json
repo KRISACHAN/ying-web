@@ -1,0 +1,43 @@
+{
+  "id": "海内",
+  "name": "海内",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "指海内南经所记载的地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-01",
+      "type": "annotation",
+      "annotationExplanation": "指海内南经所记载的地方"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-01",
+      "type": "annotation",
+      "annotationExplanation": "指海内西经所记载的地方"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-01",
+      "type": "annotation",
+      "annotationExplanation": "指海内北经所记载的地方"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-01",
+      "type": "annotation",
+      "annotationExplanation": "指海内东经所记载的地方"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

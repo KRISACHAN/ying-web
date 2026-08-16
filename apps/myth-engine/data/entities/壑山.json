@@ -1,0 +1,24 @@
+{
+  "id": "壑山",
+  "name": "壑山",
+  "pinyin": "",
+  "aliases": [
+    "壑之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说可能指青海的柴达木山等",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-11",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能指青海的柴达木山等"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

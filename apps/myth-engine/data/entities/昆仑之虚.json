@@ -1,0 +1,22 @@
+{
+  "id": "昆仑之虚",
+  "name": "昆仑之虚",
+  "pinyin": "",
+  "aliases": [],
+  "type": "unknown",
+  "typeConfidence": "low",
+  "description": "一作“昆仑之墟”，指昆仑山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-08",
+      "type": "annotation",
+      "annotationExplanation": "一作“昆仑之墟”，指昆仑山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

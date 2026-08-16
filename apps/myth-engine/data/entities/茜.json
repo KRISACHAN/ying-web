@@ -1,0 +1,22 @@
+{
+  "id": "茜",
+  "name": "茜",
+  "pinyin": "qiàn",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "即茜草，多年生草本植物，根圆锥形，黄赤色，茎有倒生刺，叶心脏形或长卵形，花冠黄色，果实球形",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-20",
+      "type": "annotation",
+      "annotationExplanation": "即茜草，多年生草本植物，根圆锥形，黄赤色，茎有倒生刺，叶心脏形或长卵形，花冠黄色，果实球形"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

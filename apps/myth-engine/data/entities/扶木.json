@@ -1,0 +1,24 @@
+{
+  "id": "扶木",
+  "name": "扶木",
+  "pinyin": "",
+  "aliases": [
+    "扶桑"
+  ],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "即榑(fú)木，又叫扶桑",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-13",
+      "type": "annotation",
+      "annotationExplanation": "即榑(fú)木，又叫扶桑"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

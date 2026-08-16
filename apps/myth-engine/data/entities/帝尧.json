@@ -1,0 +1,29 @@
+{
+  "id": "帝尧",
+  "name": "帝尧",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "即尧，传说中远古时期的部落联盟首领，号陶唐氏，名放勋，史称唐尧。他死后由舜继位",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "annotation",
+      "annotationExplanation": "即尧，传说中远古时期的部落联盟首领，号陶唐氏，名放勋，史称唐尧。他死后由舜继位"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "text",
+      "context": "狄山，帝尧葬于阳，帝喾葬于阴。爰有熊、罴"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

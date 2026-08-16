@@ -1,0 +1,24 @@
+{
+  "id": "隗山",
+  "name": "隗山",
+  "pinyin": "wěi",
+  "aliases": [
+    "隗之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说可能在今湖南境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能在今湖南境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "巴蛇",
+  "name": "巴蛇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "古代传说中的一种大蛇",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-16",
+      "type": "annotation",
+      "annotationExplanation": "古代传说中的一种大蛇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

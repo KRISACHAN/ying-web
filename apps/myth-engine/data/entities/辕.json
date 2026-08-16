@@ -1,0 +1,22 @@
+{
+  "id": "辕",
+  "name": "辕",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "车辕，车前驾牲畜的部分",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-13",
+      "type": "annotation",
+      "annotationExplanation": "车辕，车前驾牲畜的部分"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

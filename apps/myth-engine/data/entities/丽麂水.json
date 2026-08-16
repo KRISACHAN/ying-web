@@ -1,0 +1,31 @@
+{
+  "id": "丽麂水",
+  "name": "丽麂水",
+  "pinyin": "jǐ",
+  "aliases": [
+    "丽麂之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即丽水，水名，具体所指待考。一说指今广东的连江；一说指漓江；一说指位于今广西的钦江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "即丽水，水名，具体所指待考。一说指今广东的连江；一说指漓江；一说指位于今广西的钦江"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "text",
+      "context": "丽麂之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

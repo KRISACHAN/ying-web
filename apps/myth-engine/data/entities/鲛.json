@@ -1,0 +1,73 @@
+{
+  "id": "鲛",
+  "name": "鲛",
+  "pinyin": "jiāo",
+  "aliases": [
+    "蛟龙"
+  ],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "即鲨鱼。一说指“蛟”，也叫蛟龙，古代传说中的一种龙",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-69",
+      "type": "annotation",
+      "annotationExplanation": "即鲨鱼。一说指“蛟”，也叫蛟龙，古代传说中的一种龙"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 21,
+      "entryId": "soushenji-21-01",
+      "type": "text",
+      "context": "曰：“从此西行，有天井，其中多蛟龙。但投身入井，自当出。若饿，取"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-12",
+      "type": "text",
+      "context": "沙兮，\n\n遵赤水而容与。\n\n麾蛟龙使梁津兮，\n\n诏西皇使涉予。\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-11",
+      "type": "text",
+      "context": "不芳。\n\n鱼葺鳞以自别兮,\n\n蛟龙隐其文章。\n\n故荼荠不同亩兮,"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-05",
+      "type": "text",
+      "context": "舫兮下流,\n\n东注兮礚礚。\n\n蛟龙兮导引,\n\n文鱼兮上濑。\n\n抽"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "于土；鸟排虚而飞，兽踱实而走；蛟龙水居，虎豹山处，天地之性也，两"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "生庶兽，凡毛者生于庶兽。介鳞生蛟龙，蛟龙生鲲鲠，鲲鲠生建邪，建邪"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "鸟也；流源千里，渊深百侧，非为蛟龙也；致其高崇，成其广大，山居木"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

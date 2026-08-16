@@ -1,0 +1,22 @@
+{
+  "id": "吴",
+  "name": "吴",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地名，一说即古吴都(今江苏苏州市)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-06",
+      "type": "annotation",
+      "annotationExplanation": "地名，一说即古吴都(今江苏苏州市)"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

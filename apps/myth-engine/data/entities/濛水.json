@@ -1,0 +1,38 @@
+{
+  "id": "濛水",
+  "name": "濛水",
+  "pinyin": "",
+  "aliases": [
+    "濛之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今甘肃天水市的来谷河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-55",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今甘肃天水市的来谷河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-55",
+      "type": "text",
+      "context": "濛水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-13",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即今乌江，汉时称延江水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

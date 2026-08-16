@@ -1,0 +1,22 @@
+{
+  "id": "三首国",
+  "name": "三首国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-15",
+      "type": "text",
+      "context": "三首国在其东，其为人一身三首。一曰在"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

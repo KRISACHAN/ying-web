@@ -1,0 +1,22 @@
+{
+  "id": "旄马",
+  "name": "旄马",
+  "pinyin": "máo",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-17",
+      "type": "annotation",
+      "annotationExplanation": "兽名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

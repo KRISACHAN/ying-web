@@ -1,0 +1,64 @@
+{
+  "id": "祝融",
+  "name": "祝融",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中楚国君主的祖先，名重黎，是颛顼(zhuānxū)的后代，帝喾(kù)时任掌管火的官，后人尊他为火神",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-19",
+      "type": "annotation",
+      "annotationExplanation": "传说中楚国君主的祖先，名重黎，是颛顼(zhuānxū)的后代，帝喾(kù)时任掌管火的官，后人尊他为火神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-19",
+      "type": "text",
+      "context": "南方祝融，兽身人面，乘两龙。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-22",
+      "type": "text",
+      "context": "炎居生节并，节并生戏器，戏器生祝融。祝融降处于江水，生共工。共工"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-23",
+      "type": "text",
+      "context": "息壤。以堙洪水，不待帝命。帝令祝融杀鲧于羽郊。鲧复生禹。帝乃命禹"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "荒忽兮,\n\n沛罔象而自浮。\n\n祝融戒而还衡兮,\n\n腾告鸾鸟迎宓妃"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-04",
+      "type": "text",
+      "context": "缤纷,\n\n高太息兮自怜。\n\n使祝融兮先行,\n\n令昭明兮开门。\n\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "之国，南至委火炎风之野，赤帝、祝融之所司者，万二千里。其令曰：爵"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

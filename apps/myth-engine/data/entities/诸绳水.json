@@ -1,0 +1,31 @@
+{
+  "id": "诸绳水",
+  "name": "诸绳水",
+  "pinyin": "",
+  "aliases": [
+    "诸绳之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即诸绳水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-06",
+      "type": "annotation",
+      "annotationExplanation": "即诸绳水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-06",
+      "type": "text",
+      "context": "诸绳之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

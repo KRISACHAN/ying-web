@@ -1,0 +1,22 @@
+{
+  "id": "诵鸟",
+  "name": "诵鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-19",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

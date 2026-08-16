@@ -1,0 +1,22 @@
+{
+  "id": "琅鸟",
+  "name": "琅鸟",
+  "pinyin": "lánɡ",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

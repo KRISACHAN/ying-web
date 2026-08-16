@@ -1,0 +1,32 @@
+{
+  "id": "浙江",
+  "name": "浙江",
+  "pinyin": "",
+  "aliases": [
+    "浙之江",
+    "钱塘江"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即钱塘江，是今浙江省最大的河流，上游为新安江，源出今安徽休宁县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-10",
+      "type": "annotation",
+      "annotationExplanation": "水名，即钱塘江，是今浙江省最大的河流，上游为新安江，源出今安徽休宁县"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 10,
+      "entryId": "soushenji-10-09",
+      "type": "text",
+      "context": "于浙江"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

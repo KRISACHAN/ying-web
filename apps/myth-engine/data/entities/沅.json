@@ -1,0 +1,22 @@
+{
+  "id": "沅",
+  "name": "沅",
+  "pinyin": "yuán",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即沅江，在今湖南西部，上游叫清水江，源出今贵州云雾山，东北流经湖南常德市到汉寿县入洞庭湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-120",
+      "type": "annotation",
+      "annotationExplanation": "水名，即沅江，在今湖南西部，上游叫清水江，源出今贵州云雾山，东北流经湖南常德市到汉寿县入洞庭湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

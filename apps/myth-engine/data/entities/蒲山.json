@@ -1,0 +1,24 @@
+{
+  "id": "蒲山",
+  "name": "蒲山",
+  "pinyin": "",
+  "aliases": [
+    "蒲之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说可能是今湖南张家界中的山峰",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说可能是今湖南张家界中的山峰"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

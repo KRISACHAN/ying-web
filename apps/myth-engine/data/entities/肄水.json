@@ -1,0 +1,24 @@
+{
+  "id": "肄水",
+  "name": "肄水",
+  "pinyin": "yì",
+  "aliases": [
+    "肄之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即溱(zhēn)水，源出今湖南临武县西南，北流与武溪水合",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-18",
+      "type": "annotation",
+      "annotationExplanation": "即溱(zhēn)水，源出今湖南临武县西南，北流与武溪水合"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

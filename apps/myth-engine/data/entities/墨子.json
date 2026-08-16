@@ -1,0 +1,78 @@
+{
+  "id": "墨子",
+  "name": "墨子",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 18,
+      "entryId": "soushenji-18-05",
+      "type": "text",
+      "context": "，嘉善而矜不能，奈何憎人学问？墨子兼爱，其若是耶？”言卒，便求退"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "投清冷之渊，不可以为世仪；鲁般墨子以木为鸢而飞之，三日不集，而不"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "子劲构国门之关，而不肯以力闻。墨子为守攻，公输般服，而不肯以兵知"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "葬久丧以送死，孔子之所立也，而墨子非之。兼爱尚贤，右鬼非命，墨子"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 17,
+      "entryId": "huainanzi-17-01",
+      "type": "text",
+      "context": "失者。曾子立孝，不过胜母之阎；墨子非乐，不入朝歌之邑；曾子立廉，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 19,
+      "entryId": "huainanzi-19-01",
+      "type": "text",
+      "context": "逵路而哭之，为其可以南可以北；墨子见练丝而泣之，为其可以黄可以黑"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "奚转鬻，管仲束缚，孔子无黔突，墨子无暖席。是以圣人不高山，不广河"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "为文章，行为仪表，教之所成也。墨子服役者百八十人，皆可使赴火蹈刃"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "修其篇籍，故儒者之学生焉。\n\n墨子学儒者之业，受孔子之术，以为其"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 18
+  }
+}

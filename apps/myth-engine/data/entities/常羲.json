@@ -1,0 +1,29 @@
+{
+  "id": "常羲",
+  "name": "常羲",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "帝喾的妻子，又作“常仪”或“尚仪”，以善于占月之晦、朔、弦、望而闻名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-18",
+      "type": "annotation",
+      "annotationExplanation": "帝喾的妻子，又作“常仪”或“尚仪”，以善于占月之晦、朔、弦、望而闻名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-18",
+      "type": "text",
+      "context": "有女子方浴月。帝俊妻常羲，生月十有二，此始浴之。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

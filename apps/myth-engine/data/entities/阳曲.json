@@ -1,0 +1,22 @@
+{
+  "id": "阳曲",
+  "name": "阳曲",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，在今山西太原市北部，包括定襄县、阳曲县等",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-25",
+      "type": "annotation",
+      "annotationExplanation": "古县名，在今山西太原市北部，包括定襄县、阳曲县等"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

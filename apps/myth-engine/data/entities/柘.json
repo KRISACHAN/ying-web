@@ -1,0 +1,22 @@
+{
+  "id": "柘",
+  "name": "柘",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "柘树，落叶灌木或小乔木，叶子卵形或椭圆形，柘木可提取黄色染料",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-08",
+      "type": "annotation",
+      "annotationExplanation": "柘树，落叶灌木或小乔木，叶子卵形或椭圆形，柘木可提取黄色染料"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

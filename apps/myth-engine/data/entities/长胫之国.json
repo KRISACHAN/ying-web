@@ -1,0 +1,24 @@
+{
+  "id": "长胫之国",
+  "name": "长胫之国",
+  "pinyin": "",
+  "aliases": [
+    "长胫国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即长胫国，传说中的国名，因其国中之人小腿(胫：小腿)特别长，故名。一说即长股国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-07",
+      "type": "annotation",
+      "annotationExplanation": "即长胫国，传说中的国名，因其国中之人小腿(胫：小腿)特别长，故名。一说即长股国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "云中君",
+  "name": "云中君",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-02",
+      "type": "text",
+      "context": "兮周章。\n\n灵皇皇兮既降,\n\n云中君猋远举兮云中。\n\n览冀州兮有余"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 2
+  }
+}

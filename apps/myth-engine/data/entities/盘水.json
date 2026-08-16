@@ -1,0 +1,24 @@
+{
+  "id": "盘水",
+  "name": "盘水",
+  "pinyin": "",
+  "aliases": [
+    "盘之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "于盘水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 13
+  }
+}

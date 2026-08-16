@@ -1,0 +1,22 @@
+{
+  "id": "琅槐",
+  "name": "琅槐",
+  "pinyin": "lánɡ",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，在今山东利津县东南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-23",
+      "type": "annotation",
+      "annotationExplanation": "古县名，在今山东利津县东南"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "汾水",
+  "name": "汾水",
+  "pinyin": "",
+  "aliases": [
+    "汾之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-17",
+      "type": "text",
+      "context": "汾水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-18",
+      "type": "text",
+      "context": "注于汾水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-19",
+      "type": "text",
+      "context": "注于汾水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-20",
+      "type": "text",
+      "context": "注于汾水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

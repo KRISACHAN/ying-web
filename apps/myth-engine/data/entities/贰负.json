@@ -1,0 +1,22 @@
+{
+  "id": "贰负",
+  "name": "贰负",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中的神名，形状为人面蛇身",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-02",
+      "type": "annotation",
+      "annotationExplanation": "传说中的神名，形状为人面蛇身"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

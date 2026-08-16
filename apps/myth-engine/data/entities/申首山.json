@@ -1,0 +1,31 @@
+{
+  "id": "申首山",
+  "name": "申首山",
+  "pinyin": "",
+  "aliases": [
+    "申首之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即申首山(一说“申”应作“由”)，山名，具体所指待考。一说在今陕西境内；一说在今宁夏境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-50",
+      "type": "annotation",
+      "annotationExplanation": "即申首山(一说“申”应作“由”)，山名，具体所指待考。一说在今陕西境内；一说在今宁夏境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-50",
+      "type": "text",
+      "context": "，曰申首之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "离朱",
+  "name": "离朱",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中的一种神禽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种神禽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

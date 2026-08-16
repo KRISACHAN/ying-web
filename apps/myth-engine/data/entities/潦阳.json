@@ -1,0 +1,22 @@
+{
+  "id": "潦阳",
+  "name": "潦阳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "即辽阳，古县名，在今辽宁辽中县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-24",
+      "type": "annotation",
+      "annotationExplanation": "即辽阳，古县名，在今辽宁辽中县"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

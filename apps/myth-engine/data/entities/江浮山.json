@@ -1,0 +1,24 @@
+{
+  "id": "江浮山",
+  "name": "江浮山",
+  "pinyin": "",
+  "aliases": [
+    "江浮之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-124",
+      "type": "text",
+      "context": "，曰江浮之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

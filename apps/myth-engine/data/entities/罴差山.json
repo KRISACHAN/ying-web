@@ -1,0 +1,31 @@
+{
+  "id": "罴差山",
+  "name": "罴差山",
+  "pinyin": "",
+  "aliases": [
+    "罴差之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即罴差山，山名，在今内蒙古境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-13",
+      "type": "annotation",
+      "annotationExplanation": "即罴差山，山名，在今内蒙古境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-13",
+      "type": "text",
+      "context": "，曰罴差之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

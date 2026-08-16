@@ -1,0 +1,29 @@
+{
+  "id": "鬿雀",
+  "name": "鬿雀",
+  "pinyin": "qí",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种鸟。一说即胡兀鹫，一种大型猛禽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-36",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鸟。一说即胡兀鹫，一种大型猛禽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-36",
+      "type": "text",
+      "context": "有兽焉，其状如狼，赤首鼠目，其音如豚，名曰猲狙，是食人。有鸟焉，其状如鸡而白首，鼠足而虎爪，其名曰鬿雀"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

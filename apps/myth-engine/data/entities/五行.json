@@ -1,0 +1,113 @@
+{
+  "id": "五行",
+  "name": "五行",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-04",
+      "type": "text",
+      "context": "日渡河，溺死。天帝署为河伯。又五行书曰：“河伯以庚辰日死，不可治"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-01",
+      "type": "text",
+      "context": "外，形神气质，表里之用也。本于五行，通于五事，虽消息升降，化动万"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-09",
+      "type": "text",
+      "context": "与六国反，外结、匈奴以为援。《五行志》以为：犬，兵革失众之占，豕"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-10",
+      "type": "text",
+      "context": "，斗于燕宫中池上，乌堕池死。《五行志》以为楚、燕皆骨肉，藩臣骄恣"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-13",
+      "type": "text",
+      "context": "将。至永光中有献雄鸡生角者。《五行志》以为王氏之应。京房《易传》"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "其德优天地而和阴阳，节四时而调五行； 呴谕覆育，万物群生；润于草"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "以火化金，以金治木，木复反土。五行相治，所以成器用。\n\n凡海外三"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 8,
+      "entryId": "huainanzi-08-01",
+      "type": "text",
+      "context": "也象天，足之方也象地。天有四时五行九解三百六十六日，人亦有四支五"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "天地之生财也，本不过五。圣人节五行，则治不荒。凡人之性，心和欲得"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "不在法律中而可以便国佐治，必参五行之，阴考以观其归，并用周听以察"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "之道也。\n\n武王克殷，欲筑宫于五行之山，周公曰：“不可！夫五行之"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "也。\n\n将者，必有三隧、四义、五行、十守。所谓三隧者，上知天道，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "业不得不多端，趋行不得不殊方。五行异气而皆适调，六艺异科而皆同道"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "；原人情而不言大圣之德，则不知五行之差；言帝道而水言君事，则不知"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 4
+  }
+}

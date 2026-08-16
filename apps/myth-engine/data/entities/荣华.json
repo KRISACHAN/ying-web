@@ -1,0 +1,22 @@
+{
+  "id": "荣华",
+  "name": "荣华",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "花。草本花称荣，木本称华",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "annotation",
+      "annotationExplanation": "花。草本花称荣，木本称华"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

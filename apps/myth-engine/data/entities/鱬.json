@@ -1,0 +1,24 @@
+{
+  "id": "鱬",
+  "name": "鱬",
+  "pinyin": "rú",
+  "aliases": [
+    "它为人鱼"
+  ],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "传说中的一种鱼。一说即儒艮，生活在海中或河口，体长15~28米，前肢呈鳍状，后肢退化。人们又称它为人鱼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-08",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鱼。一说即儒艮，生活在海中或河口，体长15~28米，前肢呈鳍状，后肢退化。人们又称它为人鱼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

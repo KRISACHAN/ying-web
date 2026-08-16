@@ -1,0 +1,22 @@
+{
+  "id": "倕",
+  "name": "倕",
+  "pinyin": "chuí",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "古代相传的巧匠名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-21",
+      "type": "annotation",
+      "annotationExplanation": "古代相传的巧匠名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

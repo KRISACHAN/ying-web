@@ -1,0 +1,38 @@
+{
+  "id": "空桑山",
+  "name": "空桑山",
+  "pinyin": "",
+  "aliases": [
+    "空桑之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即空桑山，山名，一说在今山东曲阜市北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-11",
+      "type": "annotation",
+      "annotationExplanation": "即空桑山，山名，一说在今山东曲阜市北"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-11",
+      "type": "text",
+      "context": "，曰空桑之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-25",
+      "type": "text",
+      "context": "，自空桑之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

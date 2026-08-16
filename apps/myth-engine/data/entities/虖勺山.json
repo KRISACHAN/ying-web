@@ -1,0 +1,31 @@
+{
+  "id": "虖勺山",
+  "name": "虖勺山",
+  "pinyin": "",
+  "aliases": [
+    "虖勺之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即虖勺山，山名，应在今浙江境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-21",
+      "type": "annotation",
+      "annotationExplanation": "即虖勺山，山名，应在今浙江境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-21",
+      "type": "text",
+      "context": "，曰虖勺之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

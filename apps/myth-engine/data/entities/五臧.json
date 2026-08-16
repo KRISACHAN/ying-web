@@ -1,0 +1,24 @@
+{
+  "id": "五臧",
+  "name": "五臧",
+  "pinyin": "",
+  "aliases": [
+    "五藏"
+  ],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "即“五藏”，指南山经、西山经、北山经、东山经、中山经五种山经",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-130",
+      "type": "annotation",
+      "annotationExplanation": "即“五藏”，指南山经、西山经、北山经、东山经、中山经五种山经"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

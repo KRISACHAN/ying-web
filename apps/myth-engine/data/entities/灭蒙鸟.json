@@ -1,0 +1,31 @@
+{
+  "id": "灭蒙鸟",
+  "name": "灭蒙鸟",
+  "pinyin": "",
+  "aliases": [
+    "孟鸟"
+  ],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，一说又叫孟鸟、狂鸟、蒙鸟等，属于高空飞翔的鸟类；一说属凤凰一类的鸟。这里指灭蒙鸟栖息的地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-02",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，一说又叫孟鸟、狂鸟、蒙鸟等，属于高空飞翔的鸟类；一说属凤凰一类的鸟。这里指灭蒙鸟栖息的地方"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-12",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，一说即灭蒙鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

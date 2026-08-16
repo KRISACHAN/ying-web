@@ -1,0 +1,92 @@
+{
+  "id": "帝俊",
+  "name": "帝俊",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "一说即帝舜；一说指帝喾；一说指颛顼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-07",
+      "type": "annotation",
+      "annotationExplanation": "一说即帝舜；一说指帝喾；一说指颛顼"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-07",
+      "type": "text",
+      "context": "有中容之国，帝俊生中容，中容人食兽、木实，使四"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-05",
+      "type": "annotation",
+      "annotationExplanation": "这里指帝舜"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-05",
+      "type": "text",
+      "context": "不庭之山，荣水穷焉。有人三身，帝俊妻娥皇，生此三身之国，姚姓，黍"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-10",
+      "type": "annotation",
+      "annotationExplanation": "这里指帝喾"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-10",
+      "type": "text",
+      "context": "有重阴之山。有人食兽，曰季釐。帝俊生季釐，故曰季釐之国。有缗渊。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-18",
+      "type": "annotation",
+      "annotationExplanation": "这里指帝喾(kù)"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-18",
+      "type": "text",
+      "context": "有女子方浴月。帝俊妻常羲，生月十有二，此始浴之。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "text",
+      "context": "皆出卫于山。丘方员三百里，丘南帝俊竹林在焉，大可为舟。竹南有赤泽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-20",
+      "type": "text",
+      "context": "帝俊生禺号，禺号生淫梁，淫梁生番禺"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-21",
+      "type": "text",
+      "context": "帝俊生三身，三身生义均，义均是始为"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

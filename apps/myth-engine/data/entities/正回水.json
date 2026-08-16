@@ -1,0 +1,31 @@
+{
+  "id": "正回水",
+  "name": "正回水",
+  "pinyin": "",
+  "aliases": [
+    "正回之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即正回水，水名，一说即强川水，在今河南孟津县西北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-22",
+      "type": "annotation",
+      "annotationExplanation": "即正回水，水名，一说即强川水，在今河南孟津县西北"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-22",
+      "type": "text",
+      "context": "正回之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "絜钩",
+  "name": "絜钩",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种鸟。一说指啄木鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-24",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鸟。一说指啄木鸟"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-24",
+      "type": "text",
+      "context": "有鸟焉，其状如凫而鼠尾，善登木，其名曰絜钩"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

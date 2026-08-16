@@ -1,0 +1,38 @@
+{
+  "id": "敖岸山",
+  "name": "敖岸山",
+  "pinyin": "",
+  "aliases": [
+    "敖岸之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即敖岸山，山名，具体所指待考。一说在今河南渑(miǎn)池县西北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-20",
+      "type": "annotation",
+      "annotationExplanation": "即敖岸山，山名，具体所指待考。一说在今河南渑(miǎn)池县西北"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-20",
+      "type": "text",
+      "context": "，曰敖岸之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-25",
+      "type": "text",
+      "context": "，自敖岸之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "讹火",
+  "name": "讹火",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "野火。一说指怪火",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-36",
+      "type": "annotation",
+      "annotationExplanation": "野火。一说指怪火"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

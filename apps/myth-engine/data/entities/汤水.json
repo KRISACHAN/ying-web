@@ -1,0 +1,45 @@
+{
+  "id": "汤水",
+  "name": "汤水",
+  "pinyin": "",
+  "aliases": [
+    "汤之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一作“阳水”，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "annotation",
+      "annotationExplanation": "水名，一作“阳水”，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "text",
+      "context": "注于汤水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-47",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-47",
+      "type": "text",
+      "context": "汤水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

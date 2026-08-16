@@ -1,0 +1,31 @@
+{
+  "id": "小咸山",
+  "name": "小咸山",
+  "pinyin": "",
+  "aliases": [
+    "小咸之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即小咸山，山名，具体所指待考。一说可能是今新疆北部的友谊峰；一说应在今新疆哈密附近",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-10",
+      "type": "annotation",
+      "annotationExplanation": "即小咸山，山名，具体所指待考。一说可能是今新疆北部的友谊峰；一说应在今新疆哈密附近"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-10",
+      "type": "text",
+      "context": "，曰小咸之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

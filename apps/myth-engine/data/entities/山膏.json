@@ -1,0 +1,22 @@
+{
+  "id": "山膏",
+  "name": "山膏",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说指猩猩",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-59",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说指猩猩"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

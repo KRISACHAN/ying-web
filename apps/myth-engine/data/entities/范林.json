@@ -1,0 +1,46 @@
+{
+  "id": "范林",
+  "name": "范林",
+  "pinyin": "",
+  "aliases": [
+    "泛林"
+  ],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "所指待考。似应指树林或森林",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "annotation",
+      "annotationExplanation": "所指待考。似应指树林或森林"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-11",
+      "type": "annotation",
+      "annotationExplanation": "一说即泛林，树木生长在海中的浮土上，能随着海浪摆动"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-12",
+      "type": "annotation",
+      "annotationExplanation": "分布十分广泛的树林"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-09",
+      "type": "annotation",
+      "annotationExplanation": "即范林",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

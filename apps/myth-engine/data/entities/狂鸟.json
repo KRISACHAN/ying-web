@@ -1,0 +1,22 @@
+{
+  "id": "狂鸟",
+  "name": "狂鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-05",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "余不溪",
+  "name": "余不溪",
+  "pinyin": "",
+  "aliases": [
+    "余不之溪"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 20,
+      "entryId": "soushenji-20-06",
+      "type": "text",
+      "context": "于余不溪"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 20
+  }
+}

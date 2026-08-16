@@ -1,0 +1,22 @@
+{
+  "id": "𪁺𩿧",
+  "name": "𪁺𩿧",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-07",
+      "type": "text",
+      "context": "有鸟焉，其状如鸡而三首、六目、六足、三翼，其名曰𪁺𩿧"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

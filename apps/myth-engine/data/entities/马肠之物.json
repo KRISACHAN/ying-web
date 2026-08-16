@@ -1,0 +1,22 @@
+{
+  "id": "马肠之物",
+  "name": "马肠之物",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "一说即“马腹”；一说指两栖类蛙类所产成堆的呈带状的卵子",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-32",
+      "type": "annotation",
+      "annotationExplanation": "一说即“马腹”；一说指两栖类蛙类所产成堆的呈带状的卵子"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

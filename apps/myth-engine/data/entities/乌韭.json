@@ -1,0 +1,22 @@
+{
+  "id": "乌韭",
+  "name": "乌韭",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一种苔藓类植物，多生于潮湿的地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-04",
+      "type": "annotation",
+      "annotationExplanation": "一种苔藓类植物，多生于潮湿的地方"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

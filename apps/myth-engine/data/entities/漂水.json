@@ -1,0 +1,31 @@
+{
+  "id": "漂水",
+  "name": "漂水",
+  "pinyin": "",
+  "aliases": [
+    "漂之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "一作“栗水”，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "annotation",
+      "annotationExplanation": "一作“栗水”，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "text",
+      "context": "漂水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

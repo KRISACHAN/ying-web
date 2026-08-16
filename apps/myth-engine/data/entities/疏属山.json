@@ -1,0 +1,24 @@
+{
+  "id": "疏属山",
+  "name": "疏属山",
+  "pinyin": "",
+  "aliases": [
+    "疏属之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即疏属山，山名，一说在今陕西绥德县；一说指今陕西富县和洛川县间的雕山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-02",
+      "type": "annotation",
+      "annotationExplanation": "即疏属山，山名，一说在今陕西绥德县；一说指今陕西富县和洛川县间的雕山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

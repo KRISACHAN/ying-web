@@ -1,0 +1,22 @@
+{
+  "id": "钜燕",
+  "name": "钜燕",
+  "pinyin": "jù",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "即大燕，指燕国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-14",
+      "type": "annotation",
+      "annotationExplanation": "即大燕，指燕国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

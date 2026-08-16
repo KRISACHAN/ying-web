@@ -1,0 +1,22 @@
+{
+  "id": "笠",
+  "name": "笠",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "用竹篾或棕皮编制的遮阳挡雨的帽子",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 19,
+      "entryId": "soushenji-19-03",
+      "type": "annotation",
+      "annotationExplanation": "用竹篾或棕皮编制的遮阳挡雨的帽子"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 19
+  }
+}

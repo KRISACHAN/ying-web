@@ -1,0 +1,57 @@
+{
+  "id": "周公",
+  "name": "周公",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "近，成文于远。\n\n夫察所夜行，周公惭乎景，故君子慎其独也。释近斯"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "物者，难与言化。\n\n昔太公望、周公旦受封而相见，太公问周公曰：“"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "也。故道可道者，非常道也。\n\n周公事文王也，行无专制，事无由己，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 16,
+      "entryId": "huainanzi-16-01",
+      "type": "text",
+      "context": "，而歌《南风》之诗，以治天下。周公骰蠕不收于前，钟鼓不解于悬，以"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "，可谓养性矣，而未可谓孝子也。周公诛管叔、蔡叔，以平国饵乱，可谓"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "蔡叔、管叔辅公子禄父而欲为乱。周公继文王之业，持天子之政，以股肱"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 12
+  }
+}

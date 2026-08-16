@@ -1,0 +1,57 @@
+{
+  "id": "三苗",
+  "name": "三苗",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-39",
+      "type": "text",
+      "context": "凤元年六月，交址稗草化为稻。昔三苗将亡，五谷变种。此草妖也。其后"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "是故不道之道，莽乎大哉！夫能理三苗，朝羽民，徙裸国，纳肃慎，未发"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "胸民，羽民，讙头国民，裸国民，三苗民，交股民，不死民，穿胸民，反"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "驱，或近或远，唯造父能尽其力；三苗之民，皆可使忠信，或贤或不肖，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "血也，所由各异，其于信，一也。三苗髽首，羌人括领，中国冠笄，越人"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "都，南道交趾。放讙兜子崇山，窜三苗于三危，流共工于幽州，殛鲧于羽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 6
+  }
+}

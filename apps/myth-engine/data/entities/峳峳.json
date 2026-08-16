@@ -1,0 +1,29 @@
+{
+  "id": "峳峳",
+  "name": "峳峳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说指鹅喉羚，尾短，四肢细长，背部灰黄色，腹及臀部白色",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-24",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说指鹅喉羚，尾短，四肢细长，背部灰黄色，腹及臀部白色"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-24",
+      "type": "text",
+      "context": "有兽焉，其状如马而羊目、四角、牛尾，其音如狗獆，其名曰峳峳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

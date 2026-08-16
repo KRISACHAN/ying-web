@@ -1,0 +1,29 @@
+{
+  "id": "劳民国",
+  "name": "劳民国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，一说因其国中之人勤劳，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-13",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，一说因其国中之人勤劳，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-13",
+      "type": "text",
+      "context": "劳民国在其北，其为人黑。或曰教民。一"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

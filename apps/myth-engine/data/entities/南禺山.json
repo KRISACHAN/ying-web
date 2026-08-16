@@ -1,0 +1,38 @@
+{
+  "id": "南禺山",
+  "name": "南禺山",
+  "pinyin": "",
+  "aliases": [
+    "南禺之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即南禺山，山名，具体所指待考。一说即今广东的番禺山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-35",
+      "type": "annotation",
+      "annotationExplanation": "即南禺山，山名，具体所指待考。一说即今广东的番禺山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-35",
+      "type": "text",
+      "context": "，曰南禺之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-36",
+      "type": "text",
+      "context": "至南禺之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

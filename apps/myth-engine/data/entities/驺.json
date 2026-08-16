@@ -1,0 +1,22 @@
+{
+  "id": "驺",
+  "name": "驺",
+  "pinyin": "zōu",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "古代贵族的骑马的侍从",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-03",
+      "type": "annotation",
+      "annotationExplanation": "古代贵族的骑马的侍从"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 4
+  }
+}

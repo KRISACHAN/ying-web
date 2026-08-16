@@ -1,0 +1,134 @@
+{
+  "id": "文王",
+  "name": "文王",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "指周文王，商朝末年周族首领，姓姬，名昌。他先后征服了邻近的一些部落，为武王灭纣、建立周朝打下了基础",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "annotation",
+      "annotationExplanation": "指周文王，商朝末年周族首领，姓姬，名昌。他先后征服了邻近的一些部落，为武王灭纣、建立周朝打下了基础"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "text",
+      "context": "文虎、、豹、离朱、视肉，吁咽、文王皆葬其所。一曰汤山。一曰爰有熊"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-02",
+      "type": "text",
+      "context": "文王以太公望为灌坛令，期年，风不鸣"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-03",
+      "type": "text",
+      "context": "吕望钓于渭阳。文王出游猎，占曰：“今曰猎得一狩，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "知其化。孔子学鼓琴于师襄，而谕文王之志，见微以知明矣。延陵季子听"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 11,
+      "entryId": "huainanzi-11-01",
+      "type": "text",
+      "context": "，遂成军宋城之下，权柄重也。楚文王好服獬冠，楚国效之；赵武灵王贝"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "至辱。其消息也，离朱弗能见也。文王闻善如不及，宿不善如不祥。非为"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "，放蔡叔，诛管叔，克殷残商，把文王于明堂，七年而致政成王。夫武王"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "：“从事于道者，同于道。”\n\n文王砥德修政，三年而天下二垂归之，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "舜不告而娶，非礼也。立子以长，文王舍伯邑考而用武王，非制也。礼三"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 16,
+      "entryId": "huainanzi-16-01",
+      "type": "text",
+      "context": "可夺也。舜修之历山而海内从化，文王修之歧周而天下移风。使舜趋天下"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 17,
+      "entryId": "huainanzi-17-01",
+      "type": "text",
+      "context": "而骂其东家母，德不报而身见殆。文王污膺，鲍申伛背，以成楚国之治。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 19,
+      "entryId": "huainanzi-19-01",
+      "type": "text",
+      "context": "生而暮死，而尽其乐。纣醢梅伯，文王与诸侯构之；桀辜谏者，汤使人哭"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "归之。汤教祝网者，而四十国朝；文王葬死人之骸，而九夷归之；武王荫"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "，不待学问而合于道者，尧、舜、文王也；沉湎耽荒，不可教以道，不可"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "举贤以立功，不肖主举其所与同。文王举大公望、召公爽而王，桓公任管"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "兮浩兮，旷旷兮，可以游矣！\n\n文王之时，纣为天子，赋敛无度，杀戮"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

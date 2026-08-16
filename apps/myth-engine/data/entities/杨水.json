@@ -1,0 +1,31 @@
+{
+  "id": "杨水",
+  "name": "杨水",
+  "pinyin": "",
+  "aliases": [
+    "杨之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-55",
+      "type": "annotation",
+      "annotationExplanation": "水名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-55",
+      "type": "text",
+      "context": "杨水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

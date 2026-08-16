@@ -1,0 +1,29 @@
+{
+  "id": "长臂国",
+  "name": "长臂国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，据说这个国家的人的手臂长得比身子还要长",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-17",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，据说这个国家的人的手臂长得比身子还要长"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-17",
+      "type": "text",
+      "context": "长臂国在其东，捕鱼水中，两手各操一鱼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

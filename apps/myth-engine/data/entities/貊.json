@@ -1,0 +1,22 @@
+{
+  "id": "貊",
+  "name": "貊",
+  "pinyin": "mò",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古族名，初分布在中国北方地区，秦汉前，居今长城以内者，或迁东北，或与当地居民融合；居今关外者，分布在松嫩平原、鸭绿江流域及朝鲜半岛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-11",
+      "type": "annotation",
+      "annotationExplanation": "古族名，初分布在中国北方地区，秦汉前，居今长城以内者，或迁东北，或与当地居民融合；居今关外者，分布在松嫩平原、鸭绿江流域及朝鲜半岛"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

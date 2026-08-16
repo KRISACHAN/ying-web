@@ -1,0 +1,22 @@
+{
+  "id": "晋阳",
+  "name": "晋阳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，在今山西太原市",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-25",
+      "type": "annotation",
+      "annotationExplanation": "古县名，在今山西太原市"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "开明兽",
+  "name": "开明兽",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-16",
+      "type": "text",
+      "context": "昆仑南渊深三百仞。开明兽身大类虎而九首，皆人面，东向立"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

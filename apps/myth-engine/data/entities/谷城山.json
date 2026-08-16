@@ -1,0 +1,24 @@
+{
+  "id": "谷城山",
+  "name": "谷城山",
+  "pinyin": "",
+  "aliases": [
+    "谷城之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即谷城山，山名，在今河南洛阳市西",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-46",
+      "type": "annotation",
+      "annotationExplanation": "即谷城山，山名，在今河南洛阳市西"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "六首蛟",
+  "name": "六首蛟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "长着六个脑袋的蛟龙",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-19",
+      "type": "annotation",
+      "annotationExplanation": "长着六个脑袋的蛟龙"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

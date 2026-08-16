@@ -1,0 +1,38 @@
+{
+  "id": "滽滽水",
+  "name": "滽滽水",
+  "pinyin": "yōnɡ",
+  "aliases": [
+    "滽滽之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即滽滽水，水名，在今河南孟津县界。一说可能是今河南新安县北的横河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-23",
+      "type": "annotation",
+      "annotationExplanation": "即滽滽水，水名，在今河南孟津县界。一说可能是今河南新安县北的横河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-23",
+      "type": "text",
+      "context": "滽滽之水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-27",
+      "type": "text",
+      "context": "滽滽之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

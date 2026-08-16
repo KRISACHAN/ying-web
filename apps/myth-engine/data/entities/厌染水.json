@@ -1,0 +1,24 @@
+{
+  "id": "厌染水",
+  "name": "厌染水",
+  "pinyin": "",
+  "aliases": [
+    "厌染之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即厌染水，水名，今名厌梁河，在今河南宜阳县北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-52",
+      "type": "annotation",
+      "annotationExplanation": "即厌染水，水名，今名厌梁河，在今河南宜阳县北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

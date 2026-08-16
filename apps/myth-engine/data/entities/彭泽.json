@@ -1,0 +1,24 @@
+{
+  "id": "彭泽",
+  "name": "彭泽",
+  "pinyin": "",
+  "aliases": [
+    "彭之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即彭蠡(lǐ)，古泽薮(sǒu)名，今名鄱阳湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-11",
+      "type": "annotation",
+      "annotationExplanation": "即彭蠡(lǐ)，古泽薮(sǒu)名，今名鄱阳湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

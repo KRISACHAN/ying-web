@@ -1,0 +1,31 @@
+{
+  "id": "馀如泽",
+  "name": "馀如泽",
+  "pinyin": "",
+  "aliases": [
+    "馀如之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即馀如泽，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-40",
+      "type": "annotation",
+      "annotationExplanation": "即馀如泽，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-40",
+      "type": "text",
+      "context": "注于馀如之泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

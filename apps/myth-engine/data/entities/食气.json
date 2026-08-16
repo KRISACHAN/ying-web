@@ -1,0 +1,22 @@
+{
+  "id": "食气",
+  "name": "食气",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "古代的一种养生术，通过调节呼吸来摄取空气中的营养物质",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-17",
+      "type": "annotation",
+      "annotationExplanation": "古代的一种养生术，通过调节呼吸来摄取空气中的营养物质"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

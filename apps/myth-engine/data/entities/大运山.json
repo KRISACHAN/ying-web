@@ -1,0 +1,24 @@
+{
+  "id": "大运山",
+  "name": "大运山",
+  "pinyin": "",
+  "aliases": [
+    "大运之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，在今中国的西南部，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-03",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今中国的西南部，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

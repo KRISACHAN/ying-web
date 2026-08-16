@@ -1,0 +1,22 @@
+{
+  "id": "糈",
+  "name": "糈",
+  "pinyin": "xǔ",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "精米。这里椒、糈都是享神的用物",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-11",
+      "type": "annotation",
+      "annotationExplanation": "精米。这里椒、糈都是享神的用物"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

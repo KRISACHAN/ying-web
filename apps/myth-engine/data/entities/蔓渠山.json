@@ -1,0 +1,31 @@
+{
+  "id": "蔓渠山",
+  "name": "蔓渠山",
+  "pinyin": "",
+  "aliases": [
+    "蔓渠之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即蔓渠山，山名，一说指今河南栾川县的闷顿岭",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-18",
+      "type": "annotation",
+      "annotationExplanation": "即蔓渠山，山名，一说指今河南栾川县的闷顿岭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-18",
+      "type": "text",
+      "context": "，曰蔓渠之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

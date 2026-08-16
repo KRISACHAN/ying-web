@@ -1,0 +1,22 @@
+{
+  "id": "丹阳",
+  "name": "丹阳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古都邑名，在今湖北秭归东南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-12",
+      "type": "annotation",
+      "annotationExplanation": "古都邑名，在今湖北秭归东南"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

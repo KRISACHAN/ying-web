@@ -1,0 +1,22 @@
+{
+  "id": "韩流",
+  "name": "韩流",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "传说中的人名，长相奇特",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "annotation",
+      "annotationExplanation": "传说中的人名，长相奇特"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

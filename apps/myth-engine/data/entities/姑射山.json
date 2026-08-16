@@ -1,0 +1,32 @@
+{
+  "id": "姑射山",
+  "name": "姑射山",
+  "pinyin": "yè",
+  "aliases": [
+    "姑射之山",
+    "古石孔山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即姑射山，山名，即古石孔山，在今山西临汾西",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-20",
+      "type": "annotation",
+      "annotationExplanation": "即姑射山，山名，即古石孔山，在今山西临汾西"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-20",
+      "type": "text",
+      "context": "，曰姑射之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

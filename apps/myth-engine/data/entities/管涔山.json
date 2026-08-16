@@ -1,0 +1,38 @@
+{
+  "id": "管涔山",
+  "name": "管涔山",
+  "pinyin": "",
+  "aliases": [
+    "管涔之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即管涔山，山名，在今山西宁武县境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-17",
+      "type": "annotation",
+      "annotationExplanation": "即管涔山，山名，在今山西宁武县境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-17",
+      "type": "text",
+      "context": "，其名曰管涔之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-29",
+      "type": "text",
+      "context": "，自管涔之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "麋石",
+  "name": "麋石",
+  "pinyin": "mí",
+  "aliases": [
+    "画眉石"
+  ],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "即眉石，也叫画眉石，指石墨、煤",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-50",
+      "type": "annotation",
+      "annotationExplanation": "即眉石，也叫画眉石，指石墨、煤"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

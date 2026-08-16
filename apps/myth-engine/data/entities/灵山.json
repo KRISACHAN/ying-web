@@ -1,0 +1,24 @@
+{
+  "id": "灵山",
+  "name": "灵山",
+  "pinyin": "",
+  "aliases": [
+    "灵之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说即巫山，在西北地区",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-10",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说即巫山，在西北地区"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

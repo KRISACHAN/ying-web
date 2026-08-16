@@ -1,0 +1,29 @@
+{
+  "id": "鼍",
+  "name": "鼍",
+  "pinyin": "tuò",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "鼍龙，即扬子鳄，爬行动物，是鳄的一种，俗称猪婆龙",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-79",
+      "type": "annotation",
+      "annotationExplanation": "鼍龙，即扬子鳄，爬行动物，是鳄的一种，俗称猪婆龙"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 3,
+      "entryId": "soushenji-03-14",
+      "type": "annotation",
+      "annotationExplanation": "爬行动物，吻短，穴居江河岸边，皮可以蒙鼓"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

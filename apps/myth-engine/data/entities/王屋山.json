@@ -1,0 +1,31 @@
+{
+  "id": "王屋山",
+  "name": "王屋山",
+  "pinyin": "",
+  "aliases": [
+    "王屋之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即王屋山，山名，在今山西垣曲县和河南济源市等之间",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-35",
+      "type": "annotation",
+      "annotationExplanation": "即王屋山，山名，在今山西垣曲县和河南济源市等之间"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-35",
+      "type": "text",
+      "context": "，曰王屋之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

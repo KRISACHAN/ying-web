@@ -1,0 +1,22 @@
+{
+  "id": "虬",
+  "name": "虬",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "古代传说中有角的小龙",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 30,
+      "entryId": "soushenji-30-03",
+      "type": "annotation",
+      "annotationExplanation": "古代传说中有角的小龙"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 30
+  }
+}

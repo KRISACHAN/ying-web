@@ -1,0 +1,31 @@
+{
+  "id": "江渊",
+  "name": "江渊",
+  "pinyin": "",
+  "aliases": [
+    "江之渊"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-119",
+      "type": "text",
+      "context": "于江渊"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-120",
+      "type": "text",
+      "context": "于江渊"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

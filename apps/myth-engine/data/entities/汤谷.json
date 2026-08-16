@@ -1,0 +1,66 @@
+{
+  "id": "汤谷",
+  "name": "汤谷",
+  "pinyin": "yánɡ",
+  "aliases": [
+    "汤之谷"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说指今吐鲁番盆地",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-40",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说指今吐鲁番盆地"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-40",
+      "type": "text",
+      "context": "青雄黄。英水出焉，而西南流注于汤谷。有神焉，其状如黄囊，赤如丹火"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-09",
+      "type": "annotation",
+      "annotationExplanation": "即旸(yánɡ)谷，传说中的日出之处"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-09",
+      "type": "text",
+      "context": "下有汤谷，汤谷上有扶桑，十日所浴，在黑"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-13",
+      "type": "text",
+      "context": "百里，其叶如芥。有谷曰温源谷、汤谷，上有扶木，一日方至，一日方出"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-01",
+      "type": "text",
+      "context": "月安属？\n\n列星安陈？\n\n出于汤谷,\n\n次于蒙汜,\n\n自明及晦,"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "\n\n留不死之旧乡。\n\n朝濯发于汤谷兮,\n\n夕晞余身兮九阳。\n\n吸"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

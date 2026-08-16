@@ -1,0 +1,52 @@
+{
+  "id": "丹水",
+  "name": "丹水",
+  "pinyin": "",
+  "aliases": [
+    "丹之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说指今广东的流溪河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-28",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说指今广东的流溪河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-28",
+      "type": "text",
+      "context": "丹水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-38",
+      "type": "annotation",
+      "annotationExplanation": "水名，流经山西高平市、晋城市，在河南沁阳市入沁河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-38",
+      "type": "text",
+      "context": "丹水出焉"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "于丹水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

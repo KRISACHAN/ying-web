@@ -1,0 +1,43 @@
+{
+  "id": "干将",
+  "name": "干将",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 11,
+      "entryId": "soushenji-11-04",
+      "type": "text",
+      "context": "楚干将莫邪为楚王作剑，三年乃成，王怒"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-02",
+      "type": "text",
+      "context": "。\n\n舒佩兮綝纚,\n\n竦余剑兮干将。\n\n腾蛇兮后从,\n\n飞駏兮步"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-03",
+      "type": "text",
+      "context": "簏。\n\n执棠谿以剩蓬兮,\n\n秉干将以割肉。\n\n筐泽泻以豹鞟兮,\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "，攘倦一捣，则折胁伤干，为此弃干将、莫邪而以手战，则悖矣。所谓言"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 11
+  }
+}

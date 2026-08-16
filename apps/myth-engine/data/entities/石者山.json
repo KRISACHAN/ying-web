@@ -1,0 +1,31 @@
+{
+  "id": "石者山",
+  "name": "石者山",
+  "pinyin": "",
+  "aliases": [
+    "石者之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即石者山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-07",
+      "type": "annotation",
+      "annotationExplanation": "即石者山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-07",
+      "type": "text",
+      "context": "，曰石者之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

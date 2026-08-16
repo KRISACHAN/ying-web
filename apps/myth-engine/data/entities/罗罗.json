@@ -1,0 +1,29 @@
+{
+  "id": "罗罗",
+  "name": "罗罗",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，当属兀鹫、秃鹫之类",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-26",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，当属兀鹫、秃鹫之类"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-14",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说即黑虎"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

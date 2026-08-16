@@ -1,0 +1,31 @@
+{
+  "id": "馀峨山",
+  "name": "馀峨山",
+  "pinyin": "",
+  "aliases": [
+    "馀峨之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即馀峨山，山名，具体所指待考。一说可能在今江苏徐州附近",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-16",
+      "type": "annotation",
+      "annotationExplanation": "即馀峨山，山名，具体所指待考。一说可能在今江苏徐州附近"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-16",
+      "type": "text",
+      "context": "，曰馀峨之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

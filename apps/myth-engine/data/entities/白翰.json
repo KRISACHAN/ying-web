@@ -1,0 +1,22 @@
+{
+  "id": "白翰",
+  "name": "白翰",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，即白雉，又叫白鹇(xián)，雄的背部白色，有黑色的纹，腹部黑蓝色；雌的全身棕绿色，头上有冠",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，即白雉，又叫白鹇(xián)，雄的背部白色，有黑色的纹，腹部黑蓝色；雌的全身棕绿色，头上有冠"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

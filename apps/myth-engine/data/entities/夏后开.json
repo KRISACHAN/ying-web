@@ -1,0 +1,24 @@
+{
+  "id": "夏后开",
+  "name": "夏后开",
+  "pinyin": "",
+  "aliases": [
+    "夏后启"
+  ],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "即“夏后启”，因避汉景帝(刘启)名讳而改",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-21",
+      "type": "annotation",
+      "annotationExplanation": "即“夏后启”，因避汉景帝(刘启)名讳而改"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

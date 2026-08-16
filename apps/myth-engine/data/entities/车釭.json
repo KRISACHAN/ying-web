@@ -1,0 +1,22 @@
+{
+  "id": "车釭",
+  "name": "车釭",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "车毂内外口用以穿轴的铁圈",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 24,
+      "entryId": "soushenji-24-04",
+      "type": "annotation",
+      "annotationExplanation": "车毂内外口用以穿轴的铁圈"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 24
+  }
+}

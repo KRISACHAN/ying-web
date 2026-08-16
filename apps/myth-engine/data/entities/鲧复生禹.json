@@ -1,0 +1,22 @@
+{
+  "id": "鲧复生禹",
+  "name": "鲧复生禹",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "传说鲧死以后，尸体三年不腐，用刀剖开他的腹部后，诞生了禹(复：通“腹”)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-23",
+      "type": "annotation",
+      "annotationExplanation": "传说鲧死以后，尸体三年不腐，用刀剖开他的腹部后，诞生了禹(复：通“腹”)"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

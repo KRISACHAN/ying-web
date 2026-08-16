@@ -1,0 +1,24 @@
+{
+  "id": "崆峒山",
+  "name": "崆峒山",
+  "pinyin": "kōnɡ tónɡ",
+  "aliases": [
+    "崆峒之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "甘肃平凉西有崆峒山，属六盘山，此处所指与此不同。一说指山西绛县的太阴山；一说属于太岳山(在今山西中南部，汾河东岸)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-14",
+      "type": "annotation",
+      "annotationExplanation": "甘肃平凉西有崆峒山，属六盘山，此处所指与此不同。一说指山西绛县的太阴山；一说属于太岳山(在今山西中南部，汾河东岸)"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "敦头山",
+  "name": "敦头山",
+  "pinyin": "",
+  "aliases": [
+    "敦头之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即敦头山，山名，具体所指待考。一说在今内蒙古境内；一说在今山西境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-22",
+      "type": "annotation",
+      "annotationExplanation": "即敦头山，山名，具体所指待考。一说在今内蒙古境内；一说在今山西境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-22",
+      "type": "text",
+      "context": "，曰敦头之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

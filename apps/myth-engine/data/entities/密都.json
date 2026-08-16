@@ -1,0 +1,22 @@
+{
+  "id": "密都",
+  "name": "密都",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "秘密居住的行宫",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-21",
+      "type": "annotation",
+      "annotationExplanation": "秘密居住的行宫"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "嚣",
+  "name": "嚣",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，具体所指待考。一说为猴类",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-08",
+      "type": "annotation",
+      "annotationExplanation": "兽名，具体所指待考。一说为猴类"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-08",
+      "type": "text",
+      "context": "有兽焉，其状如禺而长臂，善投，其名曰嚣"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-24",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

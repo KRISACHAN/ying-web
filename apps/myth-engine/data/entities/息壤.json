@@ -1,0 +1,38 @@
+{
+  "id": "息壤",
+  "name": "息壤",
+  "pinyin": "",
+  "aliases": [
+    "息土"
+  ],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "也叫息土，传说中一种能自己生长、永不耗减的土壤",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-23",
+      "type": "annotation",
+      "annotationExplanation": "也叫息土，传说中一种能自己生长、永不耗减的土壤"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-23",
+      "type": "text",
+      "context": "洪水滔天，鲧窃帝之息壤。以堙洪水，不待帝命。帝令祝融"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "谷之所宜，龙门、河、济相贯，以息壤堙洪水之州，东至于碣石，黄帝、"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

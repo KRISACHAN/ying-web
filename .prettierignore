@@ -20,3 +20,7 @@ public/
 **/.next/
 **/build/
 **/storybook-static/
+
+# Large generated knowledge bases and source corpora
+apps/myth-engine/data/
+apps/myth-engine/sources/

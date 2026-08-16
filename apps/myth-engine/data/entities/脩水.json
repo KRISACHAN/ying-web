@@ -1,0 +1,31 @@
+{
+  "id": "脩水",
+  "name": "脩水",
+  "pinyin": "",
+  "aliases": [
+    "脩之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今内蒙古的东洋河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-24",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今内蒙古的东洋河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-24",
+      "type": "text",
+      "context": "脩水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

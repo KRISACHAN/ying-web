@@ -1,0 +1,22 @@
+{
+  "id": "四蛇",
+  "name": "四蛇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "指有四条蛇环绕的轩辕丘",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-15",
+      "type": "annotation",
+      "annotationExplanation": "指有四条蛇环绕的轩辕丘"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

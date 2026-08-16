@@ -1,0 +1,22 @@
+{
+  "id": "尧葬",
+  "name": "尧葬",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "帝尧所葬的地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-02",
+      "type": "annotation",
+      "annotationExplanation": "帝尧所葬的地方"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

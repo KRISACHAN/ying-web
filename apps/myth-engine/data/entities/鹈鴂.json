@@ -1,0 +1,22 @@
+{
+  "id": "鹈鴂",
+  "name": "鹈鴂",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，杜鹃。据说杜鹃鸣时，正是春事已过百花凋零时节",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-11",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，杜鹃。据说杜鹃鸣时，正是春事已过百花凋零时节"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

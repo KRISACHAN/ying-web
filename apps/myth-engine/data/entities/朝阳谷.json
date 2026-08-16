@@ -1,0 +1,24 @@
+{
+  "id": "朝阳谷",
+  "name": "朝阳谷",
+  "pinyin": "",
+  "aliases": [
+    "朝阳之谷"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "即朝阳谷，谷名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-05",
+      "type": "annotation",
+      "annotationExplanation": "即朝阳谷，谷名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

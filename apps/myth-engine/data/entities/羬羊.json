@@ -1,0 +1,22 @@
+{
+  "id": "羬羊",
+  "name": "羬羊",
+  "pinyin": "qián",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "一种野生的大尾羊。一说指六尺长的羊",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-01",
+      "type": "annotation",
+      "annotationExplanation": "一种野生的大尾羊。一说指六尺长的羊"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

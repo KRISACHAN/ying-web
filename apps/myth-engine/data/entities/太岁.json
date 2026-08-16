@@ -1,0 +1,50 @@
+{
+  "id": "太岁",
+  "name": "太岁",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "high",
+  "description": "古代天文学中假设的一个星名，与岁星(即木星)相对应，也称岁阴或太阴，并以每年太岁在黄道上的位置来纪年",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-01",
+      "type": "annotation",
+      "annotationExplanation": "古代天文学中假设的一个星名，与岁星(即木星)相对应，也称岁阴或太阴，并以每年太岁在黄道上的位置来纪年"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-01",
+      "type": "text",
+      "context": "经之以星辰，纪之以四时，要之以太岁，神灵所生，其物异形，或夭或寿"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-24",
+      "type": "text",
+      "context": "情无旷远，以年命未合，且小乖，太岁东方卯，当还求君。”兰香降时，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "月建寅，月从开行十二辰。咸池为太岁，二月建卯，月从右行四仲，终而"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "经之以星辰，纪之以四时，要之以太岁。\n\n天地之间，九州八极。土有"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

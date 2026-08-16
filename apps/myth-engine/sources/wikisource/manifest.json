@@ -1,0 +1,649 @@
+{
+  "generatedFrom": "https://zh.wikisource.org/w/api.php",
+  "books": {
+    "shanhaijing": {
+      "title": "山海經",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "南山經",
+          "pageTitle": "山海經/南山經",
+          "file": "shanhaijing/01_南山經.txt",
+          "charCount": 4249,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E5%8D%97%E5%B1%B1%E7%B6%93"
+        },
+        {
+          "index": 2,
+          "title": "西山經",
+          "pageTitle": "山海經/西山經",
+          "file": "shanhaijing/02_西山經.txt",
+          "charCount": 10820,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E8%A5%BF%E5%B1%B1%E7%B6%93"
+        },
+        {
+          "index": 3,
+          "title": "北山經",
+          "pageTitle": "山海經/北山經",
+          "file": "shanhaijing/03_北山經.txt",
+          "charCount": 5379,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E5%8C%97%E5%B1%B1%E7%B6%93"
+        },
+        {
+          "index": 4,
+          "title": "東山經",
+          "pageTitle": "山海經/東山經",
+          "file": "shanhaijing/04_東山經.txt",
+          "charCount": 2716,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%9D%B1%E5%B1%B1%E7%B6%93"
+        },
+        {
+          "index": 5,
+          "title": "中山經",
+          "pageTitle": "山海經/中山經",
+          "file": "shanhaijing/05_中山經.txt",
+          "charCount": 10952,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E4%B8%AD%E5%B1%B1%E7%B6%93"
+        },
+        {
+          "index": 6,
+          "title": "海外南經",
+          "pageTitle": "山海經/海外南經",
+          "file": "shanhaijing/06_海外南經.txt",
+          "charCount": 803,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%B5%B7%E5%A4%96%E5%8D%97%E7%B6%93"
+        },
+        {
+          "index": 7,
+          "title": "海外西經",
+          "pageTitle": "山海經/海外西經",
+          "file": "shanhaijing/07_海外西經.txt",
+          "charCount": 777,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%B5%B7%E5%A4%96%E8%A5%BF%E7%B6%93"
+        },
+        {
+          "index": 8,
+          "title": "海外北經",
+          "pageTitle": "山海經/海外北經",
+          "file": "shanhaijing/08_海外北經.txt",
+          "charCount": 893,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%B5%B7%E5%A4%96%E5%8C%97%E7%B6%93"
+        },
+        {
+          "index": 9,
+          "title": "海外東經",
+          "pageTitle": "山海經/海外東經",
+          "file": "shanhaijing/09_海外東經.txt",
+          "charCount": 725,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%B5%B7%E5%A4%96%E6%9D%B1%E7%B6%93"
+        },
+        {
+          "index": 10,
+          "title": "海內南經",
+          "pageTitle": "山海經/海內南經",
+          "file": "shanhaijing/10_海內南經.txt",
+          "charCount": 527,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%B5%B7%E5%85%A7%E5%8D%97%E7%B6%93"
+        },
+        {
+          "index": 11,
+          "title": "海內西經",
+          "pageTitle": "山海經/海內西經",
+          "file": "shanhaijing/11_海內西經.txt",
+          "charCount": 1069,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%B5%B7%E5%85%A7%E8%A5%BF%E7%B6%93"
+        },
+        {
+          "index": 12,
+          "title": "海內北經",
+          "pageTitle": "山海經/海內北經",
+          "file": "shanhaijing/12_海內北經.txt",
+          "charCount": 1047,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%B5%B7%E5%85%A7%E5%8C%97%E7%B6%93"
+        },
+        {
+          "index": 13,
+          "title": "海內東經",
+          "pageTitle": "山海經/海內東經",
+          "file": "shanhaijing/13_海內東經.txt",
+          "charCount": 2210,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%B5%B7%E5%85%A7%E6%9D%B1%E7%B6%93"
+        },
+        {
+          "index": 14,
+          "title": "大荒東經",
+          "pageTitle": "山海經/大荒東經",
+          "file": "shanhaijing/14_大荒東經.txt",
+          "charCount": 1290,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E5%A4%A7%E8%8D%92%E6%9D%B1%E7%B6%93"
+        },
+        {
+          "index": 15,
+          "title": "大荒南經",
+          "pageTitle": "山海經/大荒南經",
+          "file": "shanhaijing/15_大荒南經.txt",
+          "charCount": 1397,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E5%A4%A7%E8%8D%92%E5%8D%97%E7%B6%93"
+        },
+        {
+          "index": 16,
+          "title": "大荒西經",
+          "pageTitle": "山海經/大荒西經",
+          "file": "shanhaijing/16_大荒西經.txt",
+          "charCount": 1760,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E5%A4%A7%E8%8D%92%E8%A5%BF%E7%B6%93"
+        },
+        {
+          "index": 17,
+          "title": "大荒北經",
+          "pageTitle": "山海經/大荒北經",
+          "file": "shanhaijing/17_大荒北經.txt",
+          "charCount": 1561,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E5%A4%A7%E8%8D%92%E5%8C%97%E7%B6%93"
+        },
+        {
+          "index": 18,
+          "title": "海內經",
+          "pageTitle": "山海經/海內經",
+          "file": "shanhaijing/18_海內經.txt",
+          "charCount": 2088,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93/%E6%B5%B7%E5%85%A7%E7%B6%93"
+        }
+      ]
+    },
+    "soushenji": {
+      "title": "搜神記",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "序",
+          "pageTitle": "搜神記/序",
+          "file": "soushenji/01_序.txt",
+          "charCount": 424,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E5%BA%8F"
+        },
+        {
+          "index": 2,
+          "title": "第01卷",
+          "pageTitle": "搜神記/第01卷",
+          "file": "soushenji/02_第01卷.txt",
+          "charCount": 5398,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC01%E5%8D%B7"
+        },
+        {
+          "index": 3,
+          "title": "第02卷",
+          "pageTitle": "搜神記/第02卷",
+          "file": "soushenji/03_第02卷.txt",
+          "charCount": 2682,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC02%E5%8D%B7"
+        },
+        {
+          "index": 4,
+          "title": "第03卷",
+          "pageTitle": "搜神記/第03卷",
+          "file": "soushenji/04_第03卷.txt",
+          "charCount": 4528,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC03%E5%8D%B7"
+        },
+        {
+          "index": 5,
+          "title": "第04卷",
+          "pageTitle": "搜神記/第04卷",
+          "file": "soushenji/05_第04卷.txt",
+          "charCount": 3556,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC04%E5%8D%B7"
+        },
+        {
+          "index": 6,
+          "title": "第05卷",
+          "pageTitle": "搜神記/第05卷",
+          "file": "soushenji/06_第05卷.txt",
+          "charCount": 2964,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC05%E5%8D%B7"
+        },
+        {
+          "index": 7,
+          "title": "第06卷",
+          "pageTitle": "搜神記/第06卷",
+          "file": "soushenji/07_第06卷.txt",
+          "charCount": 7136,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC06%E5%8D%B7"
+        },
+        {
+          "index": 8,
+          "title": "第07卷",
+          "pageTitle": "搜神記/第07卷",
+          "file": "soushenji/08_第07卷.txt",
+          "charCount": 4296,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC07%E5%8D%B7"
+        },
+        {
+          "index": 9,
+          "title": "第08卷",
+          "pageTitle": "搜神記/第08卷",
+          "file": "soushenji/09_第08卷.txt",
+          "charCount": 1431,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC08%E5%8D%B7"
+        },
+        {
+          "index": 10,
+          "title": "第09卷",
+          "pageTitle": "搜神記/第09卷",
+          "file": "soushenji/10_第09卷.txt",
+          "charCount": 1907,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC09%E5%8D%B7"
+        },
+        {
+          "index": 11,
+          "title": "第10卷",
+          "pageTitle": "搜神記/第10卷",
+          "file": "soushenji/11_第10卷.txt",
+          "charCount": 1363,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC10%E5%8D%B7"
+        },
+        {
+          "index": 12,
+          "title": "第11卷",
+          "pageTitle": "搜神記/第11卷",
+          "file": "soushenji/12_第11卷.txt",
+          "charCount": 5824,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC11%E5%8D%B7"
+        },
+        {
+          "index": 13,
+          "title": "第12卷",
+          "pageTitle": "搜神記/第12卷",
+          "file": "soushenji/13_第12卷.txt",
+          "charCount": 3606,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC12%E5%8D%B7"
+        },
+        {
+          "index": 14,
+          "title": "第13卷",
+          "pageTitle": "搜神記/第13卷",
+          "file": "soushenji/14_第13卷.txt",
+          "charCount": 1782,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC13%E5%8D%B7"
+        },
+        {
+          "index": 15,
+          "title": "第14卷",
+          "pageTitle": "搜神記/第14卷",
+          "file": "soushenji/15_第14卷.txt",
+          "charCount": 3041,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC14%E5%8D%B7"
+        },
+        {
+          "index": 16,
+          "title": "第15卷",
+          "pageTitle": "搜神記/第15卷",
+          "file": "soushenji/16_第15卷.txt",
+          "charCount": 3851,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC15%E5%8D%B7"
+        },
+        {
+          "index": 17,
+          "title": "第16卷",
+          "pageTitle": "搜神記/第16卷",
+          "file": "soushenji/17_第16卷.txt",
+          "charCount": 6258,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC16%E5%8D%B7"
+        },
+        {
+          "index": 18,
+          "title": "第17卷",
+          "pageTitle": "搜神記/第17卷",
+          "file": "soushenji/18_第17卷.txt",
+          "charCount": 2874,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC17%E5%8D%B7"
+        },
+        {
+          "index": 19,
+          "title": "第18卷",
+          "pageTitle": "搜神記/第18卷",
+          "file": "soushenji/19_第18卷.txt",
+          "charCount": 5548,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC18%E5%8D%B7"
+        },
+        {
+          "index": 20,
+          "title": "第19卷",
+          "pageTitle": "搜神記/第19卷",
+          "file": "soushenji/20_第19卷.txt",
+          "charCount": 2088,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC19%E5%8D%B7"
+        },
+        {
+          "index": 21,
+          "title": "第20卷",
+          "pageTitle": "搜神記/第20卷",
+          "file": "soushenji/21_第20卷.txt",
+          "charCount": 2507,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%90%9C%E7%A5%9E%E8%A8%98/%E7%AC%AC20%E5%8D%B7"
+        }
+      ]
+    },
+    "chuci": {
+      "title": "楚辭",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "離騷",
+          "pageTitle": "離騷",
+          "file": "chuci/01_離騷.txt",
+          "charCount": 4496,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E9%9B%A2%E9%A8%B7"
+        },
+        {
+          "index": 2,
+          "title": "九歌",
+          "pageTitle": "九歌",
+          "file": "chuci/02_九歌.txt",
+          "charCount": 2327,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E4%B9%9D%E6%AD%8C"
+        },
+        {
+          "index": 3,
+          "title": "天問",
+          "pageTitle": "天問",
+          "file": "chuci/03_天問.txt",
+          "charCount": 2238,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%A4%A9%E5%95%8F"
+        },
+        {
+          "index": 4,
+          "title": "九章",
+          "pageTitle": "九章",
+          "file": "chuci/04_九章.txt",
+          "charCount": 5041,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E4%B9%9D%E7%AB%A0"
+        },
+        {
+          "index": 5,
+          "title": "楚辭/遠遊",
+          "pageTitle": "楚辭/遠遊",
+          "file": "chuci/05_楚辭_遠遊.txt",
+          "charCount": 1566,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%A5%9A%E8%BE%AD/%E9%81%A0%E9%81%8A"
+        },
+        {
+          "index": 6,
+          "title": "卜居_(屈原)",
+          "pageTitle": "卜居_(屈原)",
+          "file": "chuci/06_卜居_(屈原).txt",
+          "charCount": 588,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%8D%9C%E5%B1%85_%28%E5%B1%88%E5%8E%9F%29"
+        },
+        {
+          "index": 7,
+          "title": "漁父",
+          "pageTitle": "漁父",
+          "file": "chuci/07_漁父.txt",
+          "charCount": 438,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%BC%81%E7%88%B6"
+        },
+        {
+          "index": 8,
+          "title": "九辯",
+          "pageTitle": "九辯",
+          "file": "chuci/08_九辯.txt",
+          "charCount": 2340,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E4%B9%9D%E8%BE%AF"
+        },
+        {
+          "index": 9,
+          "title": "招䰟",
+          "pageTitle": "招䰟",
+          "file": "chuci/09_招䰟.txt",
+          "charCount": 1689,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%8B%9B%E4%B0%9F"
+        },
+        {
+          "index": 10,
+          "title": "大招",
+          "pageTitle": "大招",
+          "file": "chuci/10_大招.txt",
+          "charCount": 1325,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%A4%A7%E6%8B%9B"
+        },
+        {
+          "index": 11,
+          "title": "惜誓",
+          "pageTitle": "惜誓",
+          "file": "chuci/11_惜誓.txt",
+          "charCount": 675,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%83%9C%E8%AA%93"
+        },
+        {
+          "index": 12,
+          "title": "招隱士",
+          "pageTitle": "招隱士",
+          "file": "chuci/12_招隱士.txt",
+          "charCount": 478,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%8B%9B%E9%9A%B1%E5%A3%AB"
+        },
+        {
+          "index": 13,
+          "title": "七諫",
+          "pageTitle": "七諫",
+          "file": "chuci/13_七諫.txt",
+          "charCount": 3340,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E4%B8%83%E8%AB%AB"
+        },
+        {
+          "index": 14,
+          "title": "哀時命",
+          "pageTitle": "哀時命",
+          "file": "chuci/14_哀時命.txt",
+          "charCount": 1411,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E5%93%80%E6%99%82%E5%91%BD"
+        },
+        {
+          "index": 15,
+          "title": "九懷",
+          "pageTitle": "九懷",
+          "file": "chuci/15_九懷.txt",
+          "charCount": 1927,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E4%B9%9D%E6%87%B7"
+        },
+        {
+          "index": 16,
+          "title": "九歎",
+          "pageTitle": "九歎",
+          "file": "chuci/16_九歎.txt",
+          "charCount": 4706,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E4%B9%9D%E6%AD%8E"
+        },
+        {
+          "index": 17,
+          "title": "九思",
+          "pageTitle": "九思",
+          "file": "chuci/17_九思.txt",
+          "charCount": 2802,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E4%B9%9D%E6%80%9D"
+        }
+      ]
+    },
+    "huainanzi": {
+      "title": "淮南子",
+      "chapters": [
+        {
+          "index": 1,
+          "title": "敘目",
+          "pageTitle": "淮南子/敘目",
+          "file": "huainanzi/01_敘目.txt",
+          "charCount": 1060,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%95%98%E7%9B%AE"
+        },
+        {
+          "index": 2,
+          "title": "原道訓",
+          "pageTitle": "淮南子/原道訓",
+          "file": "huainanzi/02_原道訓.txt",
+          "charCount": 7128,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%8E%9F%E9%81%93%E8%A8%93"
+        },
+        {
+          "index": 3,
+          "title": "俶真訓",
+          "pageTitle": "淮南子/俶真訓",
+          "file": "huainanzi/03_俶真訓.txt",
+          "charCount": 6132,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BF%B6%E7%9C%9F%E8%A8%93"
+        },
+        {
+          "index": 4,
+          "title": "天文訓",
+          "pageTitle": "淮南子/天文訓",
+          "file": "huainanzi/04_天文訓.txt",
+          "charCount": 9050,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A4%A9%E6%96%87%E8%A8%93"
+        },
+        {
+          "index": 5,
+          "title": "墜形訓",
+          "pageTitle": "淮南子/墜形訓",
+          "file": "huainanzi/05_墜形訓.txt",
+          "charCount": 4566,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A2%9C%E5%BD%A2%E8%A8%93"
+        },
+        {
+          "index": 6,
+          "title": "時則訓",
+          "pageTitle": "淮南子/時則訓",
+          "file": "huainanzi/06_時則訓.txt",
+          "charCount": 6802,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%99%82%E5%89%87%E8%A8%93"
+        },
+        {
+          "index": 7,
+          "title": "覽冥訓",
+          "pageTitle": "淮南子/覽冥訓",
+          "file": "huainanzi/07_覽冥訓.txt",
+          "charCount": 3648,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A6%BD%E5%86%A5%E8%A8%93"
+        },
+        {
+          "index": 8,
+          "title": "精神訓",
+          "pageTitle": "淮南子/精神訓",
+          "file": "huainanzi/08_精神訓.txt",
+          "charCount": 5231,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E7%B2%BE%E7%A5%9E%E8%A8%93"
+        },
+        {
+          "index": 9,
+          "title": "本經訓",
+          "pageTitle": "淮南子/本經訓",
+          "file": "huainanzi/09_本經訓.txt",
+          "charCount": 4663,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%9C%AC%E7%B6%93%E8%A8%93"
+        },
+        {
+          "index": 10,
+          "title": "主術訓",
+          "pageTitle": "淮南子/主術訓",
+          "file": "huainanzi/10_主術訓.txt",
+          "charCount": 11931,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93"
+        },
+        {
+          "index": 11,
+          "title": "繆稱訓",
+          "pageTitle": "淮南子/繆稱訓",
+          "file": "huainanzi/11_繆稱訓.txt",
+          "charCount": 6759,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E7%B9%86%E7%A8%B1%E8%A8%93"
+        },
+        {
+          "index": 12,
+          "title": "齊俗訓",
+          "pageTitle": "淮南子/齊俗訓",
+          "file": "huainanzi/12_齊俗訓.txt",
+          "charCount": 8877,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%BD%8A%E4%BF%97%E8%A8%93"
+        },
+        {
+          "index": 13,
+          "title": "道應訓",
+          "pageTitle": "淮南子/道應訓",
+          "file": "huainanzi/13_道應訓.txt",
+          "charCount": 11366,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%81%93%E6%87%89%E8%A8%93"
+        },
+        {
+          "index": 14,
+          "title": "氾論訓",
+          "pageTitle": "淮南子/氾論訓",
+          "file": "huainanzi/14_氾論訓.txt",
+          "charCount": 9827,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B0%BE%E8%AB%96%E8%A8%93"
+        },
+        {
+          "index": 15,
+          "title": "詮言訓",
+          "pageTitle": "淮南子/詮言訓",
+          "file": "huainanzi/15_詮言訓.txt",
+          "charCount": 7129,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A9%AE%E8%A8%80%E8%A8%93"
+        },
+        {
+          "index": 16,
+          "title": "兵略訓",
+          "pageTitle": "淮南子/兵略訓",
+          "file": "huainanzi/16_兵略訓.txt",
+          "charCount": 9471,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%85%B5%E7%95%A5%E8%A8%93"
+        },
+        {
+          "index": 17,
+          "title": "說山訓",
+          "pageTitle": "淮南子/說山訓",
+          "file": "huainanzi/17_說山訓.txt",
+          "charCount": 6543,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E5%B1%B1%E8%A8%93"
+        },
+        {
+          "index": 18,
+          "title": "說林訓",
+          "pageTitle": "淮南子/說林訓",
+          "file": "huainanzi/18_說林訓.txt",
+          "charCount": 6109,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E6%9E%97%E8%A8%93"
+        },
+        {
+          "index": 19,
+          "title": "人間訓",
+          "pageTitle": "淮南子/人間訓",
+          "file": "huainanzi/19_人間訓.txt",
+          "charCount": 12581,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93"
+        },
+        {
+          "index": 20,
+          "title": "脩務訓",
+          "pageTitle": "淮南子/脩務訓",
+          "file": "huainanzi/20_脩務訓.txt",
+          "charCount": 6108,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%84%A9%E5%8B%99%E8%A8%93"
+        },
+        {
+          "index": 21,
+          "title": "泰族訓",
+          "pageTitle": "淮南子/泰族訓",
+          "file": "huainanzi/21_泰族訓.txt",
+          "charCount": 10957,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B3%B0%E6%97%8F%E8%A8%93"
+        },
+        {
+          "index": 22,
+          "title": "要略",
+          "pageTitle": "淮南子/要略",
+          "file": "huainanzi/22_要略.txt",
+          "charCount": 4167,
+          "sourceUrl": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A6%81%E7%95%A5"
+        }
+      ]
+    }
+  }
+}

@@ -11,6 +11,7 @@
         "build:admin": "turbo run build --filter @ying-web/admin",
         "build:diary": "turbo run build --filter @ying-web/diary",
         "build:events": "turbo run build --filter @ying-web/events",
+        "build:myth-engine": "turbo run build --filter @ying-web/myth-engine",
         "build:tools": "turbo run build --filter @ying-web/tools",
         "build:test-config": "turbo run build --filter @ying-web/test-config",
         "build:eslint-config": "turbo run build --filter @ying-web/eslint-config",

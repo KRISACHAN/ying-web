@@ -1,0 +1,50 @@
+{
+  "id": "句芒",
+  "name": "句芒",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中的木神，身穿白色的衣服",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-14",
+      "type": "annotation",
+      "annotationExplanation": "传说中的木神，身穿白色的衣服"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-14",
+      "type": "text",
+      "context": "东方句芒，鸟身人面，乘两龙。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "\n撰余辔而正策兮,\n\n吾将过乎句芒。\n\n历太皓以右转兮,\n\n前飞"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "？东方，木也，其帝太皞，其 佐句芒，执规而治春，其神为岁星，其兽"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "模木之地，青土树木之野，太皞、句芒之所司者，万二千里，其令曰：挺"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

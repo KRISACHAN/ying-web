@@ -1,0 +1,31 @@
+{
+  "id": "酸水",
+  "name": "酸水",
+  "pinyin": "",
+  "aliases": [
+    "酸之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今山西的文峪河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-18",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今山西的文峪河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-18",
+      "type": "text",
+      "context": "酸水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

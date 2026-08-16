@@ -1,0 +1,22 @@
+{
+  "id": "孟槐",
+  "name": "孟槐",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，一说指貉的一种",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-04",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说指貉的一种"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

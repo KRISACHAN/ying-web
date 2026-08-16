@@ -1,0 +1,24 @@
+{
+  "id": "温水",
+  "name": "温水",
+  "pinyin": "",
+  "aliases": [
+    "温之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说因其水常温，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-14",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说因其水常温，故名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "皇水",
+  "name": "皇水",
+  "pinyin": "",
+  "aliases": [
+    "皇之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说可能指今青海的湟水",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-24",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说可能指今青海的湟水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-24",
+      "type": "text",
+      "context": "皇水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

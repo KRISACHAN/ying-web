@@ -1,0 +1,22 @@
+{
+  "id": "祖状之尸",
+  "name": "祖状之尸",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "即祖状尸，一作“祖状之尸”，人名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-16",
+      "type": "annotation",
+      "annotationExplanation": "即祖状尸，一作“祖状之尸”，人名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

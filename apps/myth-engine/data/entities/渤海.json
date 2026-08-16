@@ -1,0 +1,108 @@
+{
+  "id": "渤海",
+  "name": "渤海",
+  "pinyin": "",
+  "aliases": [
+    "渤之海"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "此处当指南海，非今日所指之渤海",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-28",
+      "type": "annotation",
+      "annotationExplanation": "此处当指南海，非今日所指之渤海"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-28",
+      "type": "text",
+      "context": "上多金玉。丹水出焉，而南流注于渤海。有鸟焉，其状如鸡，五采而文，"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-29",
+      "type": "text",
+      "context": "，多白猿。汎水出焉，而南流注于渤海。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-13",
+      "type": "annotation",
+      "annotationExplanation": "一说指蒲昌海，即今新疆东南部的罗布泊"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-13",
+      "type": "text",
+      "context": "水出东北隅，以行其北，西南又入渤海；又出海外，即西而北，入禹所导"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-23",
+      "type": "text",
+      "context": "济水出共山南东丘，绝钜鹿泽，注渤海，入齐琅槐东北。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-24",
+      "type": "text",
+      "context": "潦水出卫皋东，东南注渤海，入潦阳。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-25",
+      "type": "text",
+      "context": "晋阳城南，而西至阳曲北，而东注渤海，入越章武北。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-26",
+      "type": "text",
+      "context": "漳水出山阳东，东注渤海，入章武南。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 10,
+      "entryId": "soushenji-10-08",
+      "type": "text",
+      "context": "何罪过？而听用邪孽，使绝其命！渤海王悝，既已自贬，又受诛毙。今宋"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 11,
+      "entryId": "soushenji-11-05",
+      "type": "text",
+      "context": "渤海太守史良，好一女子，许嫁而不果"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 29,
+      "entryId": "soushenji-29-15",
+      "type": "text",
+      "context": "郡，每太守到官，无几辄死。后有渤海陈斐见授此郡，忧恐不乐，就卜者"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "不死。\n\n河水出昆仑东北陬，贯渤海，入禹所导积石山。赤水出其东南"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

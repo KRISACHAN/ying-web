@@ -1,0 +1,31 @@
+{
+  "id": "蛊尾山",
+  "name": "蛊尾山",
+  "pinyin": "",
+  "aliases": [
+    "蛊尾之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即蛊(一说应作“虫”)尾山，山名，具体所指待考。一说在今陕西洛南县南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-42",
+      "type": "annotation",
+      "annotationExplanation": "即蛊(一说应作“虫”)尾山，山名，具体所指待考。一说在今陕西洛南县南"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-42",
+      "type": "text",
+      "context": "，曰蛊尾之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

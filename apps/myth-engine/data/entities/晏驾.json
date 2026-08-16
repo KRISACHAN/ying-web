@@ -1,0 +1,22 @@
+{
+  "id": "晏驾",
+  "name": "晏驾",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "车驾晚出。古代称帝王死亡的讳辞",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 7,
+      "entryId": "soushenji-07-18",
+      "type": "annotation",
+      "annotationExplanation": "车驾晚出。古代称帝王死亡的讳辞"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 7
+  }
+}

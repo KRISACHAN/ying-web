@@ -1,0 +1,22 @@
+{
+  "id": "灶神",
+  "name": "灶神",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-13",
+      "type": "text",
+      "context": "，好施。喜祀灶。腊日，晨炊，而灶神形见。子方再拜受庆，家有黄羊，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 4
+  }
+}

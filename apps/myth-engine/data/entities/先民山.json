@@ -1,0 +1,31 @@
+{
+  "id": "先民山",
+  "name": "先民山",
+  "pinyin": "",
+  "aliases": [
+    "先民之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即先民山，山名，具体所指待考。一说当在今东北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-06",
+      "type": "annotation",
+      "annotationExplanation": "即先民山，山名，具体所指待考。一说当在今东北"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-06",
+      "type": "text",
+      "context": "。有先民之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

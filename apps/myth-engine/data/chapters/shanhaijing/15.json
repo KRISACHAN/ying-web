@@ -1,0 +1,949 @@
+{
+  "id": "shanhaijing-15",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 15,
+  "chapterTitle": "大荒南经第十五",
+  "entryCount": 20,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "南海之外，赤水之西，流沙之东，有兽，左右有首，名曰䟣踢。有三青兽相并，名曰双双。",
+      "annotations": [
+        {
+          "term": "䟣(chù)踢",
+          "explanation": "传说中的一种兽"
+        },
+        {
+          "term": "并",
+          "explanation": "合并"
+        },
+        {
+          "term": "双双",
+          "explanation": "传说中的一种兽"
+        }
+      ],
+      "translation": "在南海以外的地方，赤水的西边，流沙的东边，有一种兽，身体的左右两侧各长着一个脑袋，名字叫踢。还有一种三只青兽合并在一起而成的动物，名字叫双双。",
+      "index": 1
+    },
+    {
+      "title": "苍梧之野",
+      "originalText": "有阿山者。南海之中，有泛天之山，赤水穷焉。赤水之东有苍梧之野，舜与叔均之所葬也。爰有文贝、离俞、𩿨久、鹰、贾、委维、熊、罴、象、虎、豹、狼、视肉。",
+      "annotations": [
+        {
+          "term": "阿山",
+          "explanation": "山名，具体所指待考。一说这里的“阿”是大的意思"
+        },
+        {
+          "term": "泛天之山",
+          "explanation": "即泛天山，山名，具体所指待考"
+        },
+        {
+          "term": "叔均",
+          "explanation": "一说即商均，是舜的儿子"
+        },
+        {
+          "term": "爰(yuán)",
+          "explanation": "这里，那里"
+        },
+        {
+          "term": "离俞",
+          "explanation": "即“离朱”"
+        },
+        {
+          "term": "贾(jiǎ)",
+          "explanation": "一说属鹰类；一说指乌鸦"
+        },
+        {
+          "term": "委维",
+          "explanation": "即委蛇，也叫延维，传说中的一种怪蛇"
+        }
+      ],
+      "translation": "有一座阿山。南海之中，还有一座泛天山，位于赤水的尽头处。赤水的东边有一个苍梧野，舜和叔均就葬在这里。这个地方有带花纹的贝、离朱、𩿨鸲、鹰、乌鸦、委蛇、熊、罴、象、虎、豹、狼和视肉。",
+      "index": 2
+    },
+    {
+      "title": "黑水玄蛇",
+      "originalText": "有荣山，荣水出焉。黑水之南，有玄蛇，食麈。",
+      "annotations": [
+        {
+          "term": "荣山",
+          "explanation": "一作“荥山”，山名，具体所指待考。一说即招摇山"
+        },
+        {
+          "term": "荣水",
+          "explanation": "一作“荥水”，具体所指待考。一说即融水"
+        },
+        {
+          "term": "黑水",
+          "explanation": "水名，具体所指待考。一说是越南境内的黑水河"
+        },
+        {
+          "term": "玄",
+          "explanation": "黑色"
+        }
+      ],
+      "translation": "有一座荣山，荣水发源于这座山。黑水的南边有一种黑色的蛇，爱吃麈。",
+      "index": 3
+    },
+    {
+      "title": "巫山黄鸟",
+      "originalText": "有巫山者，西有黄鸟。帝药，八斋。黄鸟于巫山，司此玄蛇。",
+      "annotations": [
+        {
+          "term": "巫山",
+          "explanation": "山名，具体所指待考。不是今重庆、湖北边境的巫山"
+        },
+        {
+          "term": "帝药",
+          "explanation": "指天帝的药，当指不死之药之类"
+        },
+        {
+          "term": "斋",
+          "explanation": "屋舍"
+        },
+        {
+          "term": "司此玄蛇",
+          "explanation": "伺察这种黑蛇，即防止它去偷天帝的不死之药(司：通“伺”，指伺察、探察)"
+        }
+      ],
+      "translation": "有一座巫山，山的西边有黄鸟。天帝的药贮放在八处屋舍中。黄鸟专门在巫山上伺察这种黑蛇。",
+      "index": 4
+    },
+    {
+      "title": "三身国",
+      "originalText": "大荒之中有不庭之山，荣水穷焉。有人三身，帝俊妻娥皇，生此三身之国，姚姓，黍食，使四鸟。有渊四方，四隅皆达，北属黑水，南属大荒，北旁名曰少和之渊，南旁名曰从渊，舜之所浴也。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "不庭之山",
+          "explanation": "即不庭山，山名，具体所指待考"
+        },
+        {
+          "term": "帝俊",
+          "explanation": "这里指帝舜"
+        },
+        {
+          "term": "娥皇",
+          "explanation": "帝舜的妻子，是尧的女儿"
+        },
+        {
+          "term": "三身之国",
+          "explanation": "即三身国"
+        },
+        {
+          "term": "隅",
+          "explanation": "边沿地方"
+        },
+        {
+          "term": "达",
+          "explanation": "通"
+        },
+        {
+          "term": "属(zhǔ)",
+          "explanation": "连接"
+        },
+        {
+          "term": "旁",
+          "explanation": "边，侧"
+        }
+      ],
+      "translation": "最荒远之地中有一座不庭山，这里是荣水的尽头处。有一种人，长着三个身子，帝俊的妻子娥皇，生了这个三身国的祖先，这个国家的人姓姚，以黍为食物，会驱使虎、豹、熊、罴四种野兽。那里有一个深潭，呈四方形，四边都与外面相通，北边与黑水相连，南边与最荒远的地方相连，北边是少和渊，南边是从渊，这里是舜沐浴的地方。",
+      "index": 5
+    },
+    {
+      "title": "不姜山",
+      "originalText": "大荒之中，有不姜之山，黑水穷焉。又有贾山，汔水出焉。又有言山，又有登备之山，有恝恝之山。又有蒲山，澧水出焉。又有隗山，其西有丹，其东有玉。又南有山，漂水出焉。有尾山，有翠山。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "不姜之山",
+          "explanation": "即不姜山，山名，具体所指待考。一说可能在今贵州境内；一说在今中南半岛北部"
+        },
+        {
+          "term": "贾山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "汔(qì)水",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "言山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "登备之山",
+          "explanation": "即登备山，山名，又叫登葆山"
+        },
+        {
+          "term": "恝(jiá)恝之山",
+          "explanation": "即恝恝山，山名，一说可能是今湖南张家界中的山峰"
+        },
+        {
+          "term": "蒲山",
+          "explanation": "山名，一说可能是今湖南张家界中的山峰"
+        },
+        {
+          "term": "澧(lǐ)水",
+          "explanation": "水名，具体所指待考。一说即今澧水"
+        },
+        {
+          "term": "隗(wěi)山",
+          "explanation": "山名，具体所指待考。一说可能在今湖南境内"
+        },
+        {
+          "term": "丹",
+          "explanation": "指丹砂"
+        },
+        {
+          "term": "漂水",
+          "explanation": "一作“栗水”，水名，具体所指待考"
+        },
+        {
+          "term": "尾山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "翠山",
+          "explanation": "山名，具体所指待考"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名叫不姜山，这里是黑水的尽头处。还有一座贾山，是汔水的发源处。又有言山、登备山和恝恝山。另有蒲山，是澧水的发源处。还有一座山，名叫隗山，它的西边有丹砂，东边有玉。在南边还有一座山，是漂水的发源处。另外还有尾山和翠山。",
+      "index": 6
+    },
+    {
+      "title": "盈民国",
+      "originalText": "有盈民之国，於姓，黍食。又有人方食木叶。",
+      "annotations": [
+        {
+          "term": "盈民之国",
+          "explanation": "即盈民国，国名，具体所指待考"
+        }
+      ],
+      "translation": "有一个盈民国，国中之人都姓於，以黍为食物。另外有人正在吃树叶。",
+      "index": 7
+    },
+    {
+      "title": "不死国",
+      "originalText": "有不死之国，阿姓，甘木是食。",
+      "annotations": [
+        {
+          "term": "不死之国",
+          "explanation": "即不死国，传说中的国名，也叫不死民"
+        },
+        {
+          "term": "甘木",
+          "explanation": "一说即不死树；一说指甘蔗"
+        }
+      ],
+      "translation": "有一个不死国，国中之人都姓阿，以甘木为食物。",
+      "index": 8
+    },
+    {
+      "title": "去痓山",
+      "originalText": "大荒之中，有山名曰去痓。南极果，北不成，去痓果。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "去痓(chì)",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "南极果，北不成，去痓果",
+          "explanation": "所指不详。一说去痓是一种能结果实的植物，它在山的南边能结果，在山的北边则不能结果；一说疑为巫师的咒语"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名叫去痓。去痓也是一种植物，它在山的南边能结果，在山的北边则不能结果。",
+      "index": 9
+    },
+    {
+      "title": "季釐国",
+      "originalText": "有襄山，又有重阴之山。有人食兽，曰季釐。帝俊生季釐，故曰季釐之国。有缗渊。少昊生倍伐，倍伐降处缗渊。有水四方，名曰俊坛。",
+      "annotations": [
+        {
+          "term": "襄山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "重阴之山",
+          "explanation": "即重阴山，山名，具体所指待考"
+        },
+        {
+          "term": "季釐",
+          "explanation": "据传为高辛氏帝喾(kù)之子，又叫季狸"
+        },
+        {
+          "term": "帝俊",
+          "explanation": "这里指帝喾"
+        },
+        {
+          "term": "降",
+          "explanation": "流放，放逐"
+        },
+        {
+          "term": "有水四方",
+          "explanation": "这里指呈四方形且高出地面的水池"
+        }
+      ],
+      "translation": "有一座襄山，另外有一座重阴山。有一个人在吃兽肉，他的名字叫季釐。帝俊生了季釐，所以季釐的后代组成的国家叫季釐国。有一个缗渊。少昊生了倍伐，倍伐被流放到了缗渊。有一个呈四方形且高出地面的水池，叫做俊坛。",
+      "index": 10
+    },
+    {
+      "title": "臷民国",
+      "originalText": "有臷民之国。帝舜生无淫，降臷处，是谓巫臷民。巫臷民朌姓，食谷，不绩不经，服也；不稼不穑，食也。爰有歌舞之鸟，鸾鸟自歌，凤鸟自舞。爰有百兽，相群爰处。百谷所聚。",
+      "annotations": [
+        {
+          "term": "臷(dié)民之国",
+          "explanation": "即臷民国，又叫臷国"
+        },
+        {
+          "term": "帝舜",
+          "explanation": "即舜"
+        },
+        {
+          "term": "降",
+          "explanation": "流放；放逐"
+        },
+        {
+          "term": "朌(bān)",
+          "explanation": "一作“盼”"
+        },
+        {
+          "term": "绩",
+          "explanation": "缉麻，即把麻纤维拧成线"
+        },
+        {
+          "term": "经",
+          "explanation": "指织布前在机杼(zhù)上绷齐并梳整纱缕，使成为经线"
+        },
+        {
+          "term": "稼",
+          "explanation": "种田"
+        },
+        {
+          "term": "穑(sè)",
+          "explanation": "收割庄稼"
+        },
+        {
+          "term": "爰(yuán)",
+          "explanation": "这里，那里"
+        }
+      ],
+      "translation": "有一个臷民国。帝舜生了无淫，无淫被流放到臷地，这个地方的人后来就叫巫臷民。巫臷民都姓盼，以谷为食物，他们不用纺织，自然有衣服穿；不用耕种，自然有粮食吃。这里生长着擅长唱歌跳舞的鸟，鸾鸟在自在地歌唱，凤鸟在自由地跳舞。这里有各种野兽，成群聚居在一起。这里还是百谷聚集生长的地方。",
+      "index": 11
+    },
+    {
+      "title": "融天山",
+      "originalText": "大荒之中，有山名曰融天，海水南入焉。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "融天",
+          "explanation": "山名，具体所指待考"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名字叫融天，海水从它的南边流入。",
+      "index": 12
+    },
+    {
+      "title": "羿杀凿齿",
+      "originalText": "有人曰凿齿，羿杀之。",
+      "annotations": [
+        {
+          "term": "杀",
+          "explanation": "指射杀"
+        }
+      ],
+      "translation": "有一个人，名叫凿齿，羿用箭射死了他。",
+      "index": 13
+    },
+    {
+      "title": "蜮民国",
+      "originalText": "有蜮山者，有蜮民之国，桑姓，食黍，射蜮是食。有人方扜弓射黄蛇，名曰蜮人。",
+      "annotations": [
+        {
+          "term": "蜮(yù)山",
+          "explanation": "山名，一说因其山中有蜮，故名。蜮是传说中一种害人的动物，能含沙射人，使人发病。也叫短狐。一说通“蝈”，指蛤蟆"
+        },
+        {
+          "term": "蜮民之国",
+          "explanation": "即蜮民国，国名，具体所指待考"
+        },
+        {
+          "term": "扜(yū)",
+          "explanation": "拉，张"
+        },
+        {
+          "term": "蜮人",
+          "explanation": "即蜮民"
+        }
+      ],
+      "translation": "有一座蜮山，那里有一个蜮民国，国中之人都姓桑，他们以黍为食物，也用箭射蜮当食物。有一个人正在拉弓射黄蛇，他的名字叫蜮人。",
+      "index": 14
+    },
+    {
+      "title": "宋山枫木",
+      "originalText": "有宋山者，有赤蛇，名曰育蛇。有木生山上，名曰枫木。枫木，蚩尤所弃其桎梏，是为枫木。",
+      "annotations": [
+        {
+          "term": "宋山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "育蛇",
+          "explanation": "蛇名，具体所指待考。一说疑为“玉蛇”的谐音"
+        },
+        {
+          "term": "枫木",
+          "explanation": "即枫树，落叶乔木，叶子通常三裂，边缘呈锯齿状，秋季叶变成红色，开黄褐色花。也叫枫香树"
+        },
+        {
+          "term": "桎梏(zhì ɡù)",
+          "explanation": "脚镣和手铐"
+        }
+      ],
+      "translation": "有一座宋山，山中有一种赤蛇，名叫育蛇。山上长着一种树，名叫枫树。蚩尤把他的脚镣和手铐扔到地上，便长成了枫树。",
+      "index": 15
+    },
+    {
+      "title": "祖状尸",
+      "originalText": "有人方齿虎尾，名曰祖状之尸。",
+      "annotations": [
+        {
+          "term": "齿",
+          "explanation": "咬啮。一说指牙齿"
+        },
+        {
+          "term": "祖状之尸",
+          "explanation": "即祖状尸，一作“祖状之尸”，人名"
+        }
+      ],
+      "translation": "有一个人正在咬老虎的尾巴，他的名字叫祖状尸。",
+      "index": 16
+    },
+    {
+      "title": "焦侥国",
+      "originalText": "有小人，名曰焦侥之国，几姓，嘉谷是食。",
+      "annotations": [
+        {
+          "term": "小人",
+          "explanation": "这里指由身材特别矮小的人组成的国家"
+        },
+        {
+          "term": "焦侥之国",
+          "explanation": "即焦侥国，也叫周饶国"
+        },
+        {
+          "term": "嘉谷",
+          "explanation": "优质的谷物"
+        }
+      ],
+      "translation": "有一个由身材特别矮小的人组成的国家，名叫焦侥国，国中之人都姓几，以优质的谷物为食物。",
+      "index": 17
+    },
+    {
+      "title": "张弘国",
+      "originalText": "有人名曰张弘，在海上捕鱼。海中有张弘之国，食鱼，使四鸟。",
+      "annotations": [
+        {
+          "term": "张弘之国",
+          "explanation": "即张弘国，国名，一说即长臂国"
+        }
+      ],
+      "translation": "有一个名叫张弘的人，正在海上捕鱼。海中有一个张弘国，国中之人以鱼为食物，会驱使虎、豹、熊、罴四种野兽。",
+      "index": 18
+    },
+    {
+      "title": "小人菌人",
+      "originalText": "有小人，名曰菌人。",
+      "annotations": [
+        {
+          "term": "小人",
+          "explanation": "指身材特别矮小的人"
+        },
+        {
+          "term": "菌人",
+          "explanation": "当与靖人属同一类人"
+        }
+      ],
+      "translation": "有一种身材特别矮小的人，名叫菌人。",
+      "index": 19
+    },
+    {
+      "title": "南类山",
+      "originalText": "有南类之山，爰有遗玉、青马、三骓、视肉、甘华，百谷所在。",
+      "annotations": [
+        {
+          "term": "南类之山",
+          "explanation": "即南类山，山名，具体所指待考。一说应在今中南半岛"
+        }
+      ],
+      "translation": "有一座南类山，这里有遗玉、青马、三骓马、视肉、甘华，各种谷物都在这里生长。",
+      "index": 20
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "双双",
+      "entryId": "shanhaijing-15-01",
+      "entryTitle": "其一",
+      "term": "双双"
+    },
+    {
+      "entityName": "南海",
+      "entryId": "shanhaijing-15-01",
+      "entryTitle": "其一",
+      "term": "南海"
+    },
+    {
+      "entityName": "赤水",
+      "entryId": "shanhaijing-15-01",
+      "entryTitle": "其一",
+      "term": "赤水"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-15-01",
+      "entryTitle": "其一",
+      "term": "流沙"
+    },
+    {
+      "entityName": "阿山",
+      "entryId": "shanhaijing-15-02",
+      "entryTitle": "苍梧之野",
+      "term": "阿山"
+    },
+    {
+      "entityName": "泛天山",
+      "entryId": "shanhaijing-15-02",
+      "entryTitle": "苍梧之野",
+      "term": "泛天之山"
+    },
+    {
+      "entityName": "叔均",
+      "entryId": "shanhaijing-15-02",
+      "entryTitle": "苍梧之野",
+      "term": "叔均"
+    },
+    {
+      "entityName": "贾",
+      "entryId": "shanhaijing-15-02",
+      "entryTitle": "苍梧之野",
+      "term": "贾"
+    },
+    {
+      "entityName": "委维",
+      "entryId": "shanhaijing-15-02",
+      "entryTitle": "苍梧之野",
+      "term": "委维"
+    },
+    {
+      "entityName": "苍梧",
+      "entryId": "shanhaijing-15-02",
+      "entryTitle": "苍梧之野",
+      "term": "苍梧"
+    },
+    {
+      "entityName": "南海",
+      "entryId": "shanhaijing-15-02",
+      "entryTitle": "苍梧之野",
+      "term": "南海"
+    },
+    {
+      "entityName": "赤水",
+      "entryId": "shanhaijing-15-02",
+      "entryTitle": "苍梧之野",
+      "term": "赤水"
+    },
+    {
+      "entityName": "泛天山",
+      "entryId": "shanhaijing-15-02",
+      "entryTitle": "苍梧之野",
+      "term": "泛天山"
+    },
+    {
+      "entityName": "荣山",
+      "entryId": "shanhaijing-15-03",
+      "entryTitle": "黑水玄蛇",
+      "term": "荣山"
+    },
+    {
+      "entityName": "黑水",
+      "entryId": "shanhaijing-15-03",
+      "entryTitle": "黑水玄蛇",
+      "term": "黑水"
+    },
+    {
+      "entityName": "黑水",
+      "entryId": "shanhaijing-15-03",
+      "entryTitle": "黑水玄蛇",
+      "term": "黑水"
+    },
+    {
+      "entityName": "荣水",
+      "entryId": "shanhaijing-15-03",
+      "entryTitle": "黑水玄蛇",
+      "term": "荣水"
+    },
+    {
+      "entityName": "巫山",
+      "entryId": "shanhaijing-15-04",
+      "entryTitle": "巫山黄鸟",
+      "term": "巫山"
+    },
+    {
+      "entityName": "帝药",
+      "entryId": "shanhaijing-15-04",
+      "entryTitle": "巫山黄鸟",
+      "term": "帝药"
+    },
+    {
+      "entityName": "不庭山",
+      "entryId": "shanhaijing-15-05",
+      "entryTitle": "三身国",
+      "term": "不庭之山"
+    },
+    {
+      "entityName": "帝俊",
+      "entryId": "shanhaijing-15-05",
+      "entryTitle": "三身国",
+      "term": "帝俊"
+    },
+    {
+      "entityName": "娥皇",
+      "entryId": "shanhaijing-15-05",
+      "entryTitle": "三身国",
+      "term": "娥皇"
+    },
+    {
+      "entityName": "三身国",
+      "entryId": "shanhaijing-15-05",
+      "entryTitle": "三身国",
+      "term": "三身之国"
+    },
+    {
+      "entityName": "帝俊",
+      "entryId": "shanhaijing-15-05",
+      "entryTitle": "三身国",
+      "term": "帝俊"
+    },
+    {
+      "entityName": "娥皇",
+      "entryId": "shanhaijing-15-05",
+      "entryTitle": "三身国",
+      "term": "娥皇"
+    },
+    {
+      "entityName": "黑水",
+      "entryId": "shanhaijing-15-05",
+      "entryTitle": "三身国",
+      "term": "黑水"
+    },
+    {
+      "entityName": "不庭山",
+      "entryId": "shanhaijing-15-05",
+      "entryTitle": "三身国",
+      "term": "不庭山"
+    },
+    {
+      "entityName": "不姜山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "不姜之山"
+    },
+    {
+      "entityName": "贾山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "贾山"
+    },
+    {
+      "entityName": "汔水",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "汔水"
+    },
+    {
+      "entityName": "言山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "言山"
+    },
+    {
+      "entityName": "登葆山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "登备之山"
+    },
+    {
+      "entityName": "恝恝山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "恝恝之山"
+    },
+    {
+      "entityName": "蒲山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "蒲山"
+    },
+    {
+      "entityName": "澧水",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "澧水"
+    },
+    {
+      "entityName": "隗山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "隗山"
+    },
+    {
+      "entityName": "漂水",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "漂水"
+    },
+    {
+      "entityName": "尾山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "尾山"
+    },
+    {
+      "entityName": "翠山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "翠山"
+    },
+    {
+      "entityName": "黑水",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "黑水"
+    },
+    {
+      "entityName": "不姜山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "不姜山"
+    },
+    {
+      "entityName": "恝恝山",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "恝恝山"
+    },
+    {
+      "entityName": "汔水",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "汔水"
+    },
+    {
+      "entityName": "澧水",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "澧水"
+    },
+    {
+      "entityName": "漂水",
+      "entryId": "shanhaijing-15-06",
+      "entryTitle": "不姜山",
+      "term": "漂水"
+    },
+    {
+      "entityName": "盈民之国",
+      "entryId": "shanhaijing-15-07",
+      "entryTitle": "盈民国",
+      "term": "盈民之国"
+    },
+    {
+      "entityName": "不死之国",
+      "entryId": "shanhaijing-15-08",
+      "entryTitle": "不死国",
+      "term": "不死之国"
+    },
+    {
+      "entityName": "甘木",
+      "entryId": "shanhaijing-15-08",
+      "entryTitle": "不死国",
+      "term": "甘木"
+    },
+    {
+      "entityName": "去痓",
+      "entryId": "shanhaijing-15-09",
+      "entryTitle": "去痓山",
+      "term": "去痓"
+    },
+    {
+      "entityName": "襄山",
+      "entryId": "shanhaijing-15-10",
+      "entryTitle": "季釐国",
+      "term": "襄山"
+    },
+    {
+      "entityName": "重阴山",
+      "entryId": "shanhaijing-15-10",
+      "entryTitle": "季釐国",
+      "term": "重阴之山"
+    },
+    {
+      "entityName": "季釐",
+      "entryId": "shanhaijing-15-10",
+      "entryTitle": "季釐国",
+      "term": "季釐"
+    },
+    {
+      "entityName": "帝俊",
+      "entryId": "shanhaijing-15-10",
+      "entryTitle": "季釐国",
+      "term": "帝俊"
+    },
+    {
+      "entityName": "帝俊",
+      "entryId": "shanhaijing-15-10",
+      "entryTitle": "季釐国",
+      "term": "帝俊"
+    },
+    {
+      "entityName": "少昊",
+      "entryId": "shanhaijing-15-10",
+      "entryTitle": "季釐国",
+      "term": "少昊"
+    },
+    {
+      "entityName": "臷民之国",
+      "entryId": "shanhaijing-15-11",
+      "entryTitle": "臷民国",
+      "term": "臷民之国"
+    },
+    {
+      "entityName": "帝舜",
+      "entryId": "shanhaijing-15-11",
+      "entryTitle": "臷民国",
+      "term": "帝舜"
+    },
+    {
+      "entityName": "帝舜",
+      "entryId": "shanhaijing-15-11",
+      "entryTitle": "臷民国",
+      "term": "帝舜"
+    },
+    {
+      "entityName": "鸾鸟",
+      "entryId": "shanhaijing-15-11",
+      "entryTitle": "臷民国",
+      "term": "鸾鸟"
+    },
+    {
+      "entityName": "融天",
+      "entryId": "shanhaijing-15-12",
+      "entryTitle": "融天山",
+      "term": "融天"
+    },
+    {
+      "entityName": "蜮山",
+      "entryId": "shanhaijing-15-14",
+      "entryTitle": "蜮民国",
+      "term": "蜮山"
+    },
+    {
+      "entityName": "蜮民之国",
+      "entryId": "shanhaijing-15-14",
+      "entryTitle": "蜮民国",
+      "term": "蜮民之国"
+    },
+    {
+      "entityName": "蜮民",
+      "entryId": "shanhaijing-15-14",
+      "entryTitle": "蜮民国",
+      "term": "蜮人"
+    },
+    {
+      "entityName": "宋山",
+      "entryId": "shanhaijing-15-15",
+      "entryTitle": "宋山枫木",
+      "term": "宋山"
+    },
+    {
+      "entityName": "育蛇",
+      "entryId": "shanhaijing-15-15",
+      "entryTitle": "宋山枫木",
+      "term": "育蛇"
+    },
+    {
+      "entityName": "枫木",
+      "entryId": "shanhaijing-15-15",
+      "entryTitle": "宋山枫木",
+      "term": "枫木"
+    },
+    {
+      "entityName": "蚩尤",
+      "entryId": "shanhaijing-15-15",
+      "entryTitle": "宋山枫木",
+      "term": "蚩尤"
+    },
+    {
+      "entityName": "祖状之尸",
+      "entryId": "shanhaijing-15-16",
+      "entryTitle": "祖状尸",
+      "term": "祖状之尸"
+    },
+    {
+      "entityName": "焦侥之国",
+      "entryId": "shanhaijing-15-17",
+      "entryTitle": "焦侥国",
+      "term": "焦侥之国"
+    },
+    {
+      "entityName": "张弘之国",
+      "entryId": "shanhaijing-15-18",
+      "entryTitle": "张弘国",
+      "term": "张弘之国"
+    },
+    {
+      "entityName": "小人",
+      "entryId": "shanhaijing-15-19",
+      "entryTitle": "小人菌人",
+      "term": "小人"
+    },
+    {
+      "entityName": "菌人",
+      "entryId": "shanhaijing-15-19",
+      "entryTitle": "小人菌人",
+      "term": "菌人"
+    },
+    {
+      "entityName": "南类山",
+      "entryId": "shanhaijing-15-20",
+      "entryTitle": "南类山",
+      "term": "南类之山"
+    },
+    {
+      "entityName": "南类山",
+      "entryId": "shanhaijing-15-20",
+      "entryTitle": "南类山",
+      "term": "南类山"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_15.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

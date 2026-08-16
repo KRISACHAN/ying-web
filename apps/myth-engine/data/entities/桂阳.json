@@ -1,0 +1,22 @@
+{
+  "id": "桂阳",
+  "name": "桂阳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，汉置，治今广东连州市",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-19",
+      "type": "annotation",
+      "annotationExplanation": "古县名，汉置，治今广东连州市"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

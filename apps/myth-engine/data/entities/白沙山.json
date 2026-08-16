@@ -1,0 +1,24 @@
+{
+  "id": "白沙山",
+  "name": "白沙山",
+  "pinyin": "",
+  "aliases": [
+    "白沙之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说在今山西境内；一说在今河北境内；一说在今内蒙古境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-21",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在今山西境内；一说在今河北境内；一说在今内蒙古境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

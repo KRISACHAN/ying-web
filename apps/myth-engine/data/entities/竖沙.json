@@ -1,0 +1,22 @@
+{
+  "id": "竖沙",
+  "name": "竖沙",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，具体所指待考。一说在今新疆莎车县一带；一说在今阿富汗境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-04",
+      "type": "annotation",
+      "annotationExplanation": "国名，具体所指待考。一说在今新疆莎车县一带；一说在今阿富汗境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "涅石",
+  "name": "涅石",
+  "pinyin": "",
+  "aliases": [
+    "黑矾石"
+  ],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "即黑矾石，可作染料",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-34",
+      "type": "annotation",
+      "annotationExplanation": "即黑矾石，可作染料"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

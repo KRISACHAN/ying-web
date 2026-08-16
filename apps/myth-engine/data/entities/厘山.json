@@ -1,0 +1,31 @@
+{
+  "id": "厘山",
+  "name": "厘山",
+  "pinyin": "",
+  "aliases": [
+    "厘之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山系名，在今河南西北部",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-26",
+      "type": "annotation",
+      "annotationExplanation": "山系名，在今河南西北部"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-27",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今河南西北部的熊耳山中"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

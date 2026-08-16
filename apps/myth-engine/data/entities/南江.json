@@ -1,0 +1,24 @@
+{
+  "id": "南江",
+  "name": "南江",
+  "pinyin": "",
+  "aliases": [
+    "南之江"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说指大渡河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-09",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说指大渡河"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "赤金",
+  "name": "赤金",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "text",
+      "context": "多赤金"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-64",
+      "type": "text",
+      "context": "多赤金"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-69",
+      "type": "text",
+      "context": "多赤金"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-75",
+      "type": "text",
+      "context": "多赤金"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-76",
+      "type": "text",
+      "context": "多赤金"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-86",
+      "type": "text",
+      "context": "多赤金"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-89",
+      "type": "text",
+      "context": "多赤金"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-93",
+      "type": "text",
+      "context": "多赤金"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-100",
+      "type": "text",
+      "context": "多赤金"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "子桐水",
+  "name": "子桐水",
+  "pinyin": "",
+  "aliases": [
+    "子桐之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即子桐水，水名，具体所指待考。一说可能是今山东的潍河；一说是今山西的潇河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-40",
+      "type": "annotation",
+      "annotationExplanation": "即子桐水，水名，具体所指待考。一说可能是今山东的潍河；一说是今山西的潇河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-40",
+      "type": "text",
+      "context": "子桐之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

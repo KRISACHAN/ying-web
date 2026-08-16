@@ -1,0 +1,22 @@
+{
+  "id": "蠃鱼",
+  "name": "蠃鱼",
+  "pinyin": "",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "传说中的一种鱼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-55",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鱼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

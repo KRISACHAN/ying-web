@@ -1,0 +1,22 @@
+{
+  "id": "常仪",
+  "name": "常仪",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "论事之局曲直，与之屈伸偃仰，无常仪表，时屈时伸。卑弱柔如蒲苇，非"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 15
+  }
+}

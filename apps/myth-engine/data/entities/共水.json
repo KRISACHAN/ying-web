@@ -1,0 +1,45 @@
+{
+  "id": "共水",
+  "name": "共水",
+  "pinyin": "",
+  "aliases": [
+    "共之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-39",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-39",
+      "type": "text",
+      "context": "共水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-01",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说指今山西芮城县东北的朱石河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-01",
+      "type": "text",
+      "context": "中山神共水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

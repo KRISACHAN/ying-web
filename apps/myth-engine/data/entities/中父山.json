@@ -1,0 +1,31 @@
+{
+  "id": "中父山",
+  "name": "中父山",
+  "pinyin": "",
+  "aliases": [
+    "中父之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即中父山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-29",
+      "type": "annotation",
+      "annotationExplanation": "即中父山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-29",
+      "type": "text",
+      "context": "，曰中父之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

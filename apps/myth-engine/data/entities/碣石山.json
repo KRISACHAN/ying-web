@@ -1,0 +1,31 @@
+{
+  "id": "碣石山",
+  "name": "碣石山",
+  "pinyin": "",
+  "aliases": [
+    "碣石之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即碣石山，山名，一说在今河北昌黎县北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-45",
+      "type": "annotation",
+      "annotationExplanation": "即碣石山，山名，一说在今河北昌黎县北"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-45",
+      "type": "text",
+      "context": "，曰碣石之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "交胫国",
+  "name": "交胫国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名。因其国中之人的小腿互相交叉，故名。一说即交趾国，在今两广、越南北部一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-11",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名。因其国中之人的小腿互相交叉，故名。一说即交趾国，在今两广、越南北部一带"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-11",
+      "type": "text",
+      "context": "交胫国在其东，其为人交胫。一曰在穿匈"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

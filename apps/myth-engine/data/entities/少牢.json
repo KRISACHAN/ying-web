@@ -1,0 +1,22 @@
+{
+  "id": "少牢",
+  "name": "少牢",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "供祭祀用的羊和猪",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-27",
+      "type": "annotation",
+      "annotationExplanation": "供祭祀用的羊和猪"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

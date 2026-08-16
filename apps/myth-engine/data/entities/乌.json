@@ -1,0 +1,22 @@
+{
+  "id": "乌",
+  "name": "乌",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "乌鸦，古代传说太阳中有三足乌",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-13",
+      "type": "annotation",
+      "annotationExplanation": "乌鸦，古代传说太阳中有三足乌"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

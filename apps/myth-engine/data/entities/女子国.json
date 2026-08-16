@@ -1,0 +1,36 @@
+{
+  "id": "女子国",
+  "name": "女子国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，因其国中之人皆为女性，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-12",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，因其国中之人皆为女性，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-12",
+      "type": "text",
+      "context": "女子国在巫咸北，两女子居，水周之。一"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-13",
+      "type": "text",
+      "context": "此穷山之际，其不寿者八百岁，在女子国北。人面蛇身，尾交首上。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

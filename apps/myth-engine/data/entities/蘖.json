@@ -1,0 +1,22 @@
+{
+  "id": "蘖",
+  "name": "蘖",
+  "pinyin": "niè",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "酒母，制酒时所用的发酵物",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-45",
+      "type": "annotation",
+      "annotationExplanation": "酒母，制酒时所用的发酵物"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

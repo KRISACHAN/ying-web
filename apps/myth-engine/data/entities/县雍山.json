@@ -1,0 +1,32 @@
+{
+  "id": "县雍山",
+  "name": "县雍山",
+  "pinyin": "",
+  "aliases": [
+    "县雍之山",
+    "龙山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即县雍山，山名，即今山西太原市西南晋祠西山，一名龙山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-19",
+      "type": "annotation",
+      "annotationExplanation": "即县雍山，山名，即今山西太原市西南晋祠西山，一名龙山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-19",
+      "type": "text",
+      "context": "，曰县雍之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

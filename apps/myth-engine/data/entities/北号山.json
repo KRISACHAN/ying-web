@@ -1,0 +1,38 @@
+{
+  "id": "北号山",
+  "name": "北号山",
+  "pinyin": "",
+  "aliases": [
+    "北号之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即北号山，山名，一说应为今小清河畔一丘阜，临于山东北面的莱州湾",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-36",
+      "type": "annotation",
+      "annotationExplanation": "即北号山，山名，一说应为今小清河畔一丘阜，临于山东北面的莱州湾"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-36",
+      "type": "text",
+      "context": "，曰北号之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-43",
+      "type": "text",
+      "context": "，自北号之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

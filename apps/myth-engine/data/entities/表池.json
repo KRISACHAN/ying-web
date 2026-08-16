@@ -1,0 +1,32 @@
+{
+  "id": "表池",
+  "name": "表池",
+  "pinyin": "",
+  "aliases": [
+    "表之池",
+    "中间立有华表的池子"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "一说指华表池，即中间立有华表的池子",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-19",
+      "type": "annotation",
+      "annotationExplanation": "一说指华表池，即中间立有华表的池子"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-19",
+      "type": "text",
+      "context": "于表池"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

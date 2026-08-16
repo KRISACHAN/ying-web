@@ -1,0 +1,25 @@
+{
+  "id": "蜮山",
+  "name": "蜮山",
+  "pinyin": "yù",
+  "aliases": [
+    "蜮之山",
+    "短狐"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说因其山中有蜮，故名。蜮是传说中一种害人的动物，能含沙射人，使人发病。也叫短狐。一说通“蝈”，指蛤蟆",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-14",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说因其山中有蜮，故名。蜮是传说中一种害人的动物，能含沙射人，使人发病。也叫短狐。一说通“蝈”，指蛤蟆"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

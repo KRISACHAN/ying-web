@@ -1,0 +1,32 @@
+{
+  "id": "即翼泽",
+  "name": "即翼泽",
+  "pinyin": "",
+  "aliases": [
+    "即翼之泽",
+    "翼山中的湖泽"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "指即翼泽，也就是即翼山中的湖泽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-08",
+      "type": "annotation",
+      "annotationExplanation": "指即翼泽，也就是即翼山中的湖泽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-08",
+      "type": "text",
+      "context": "注于即翼之泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

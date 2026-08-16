@@ -1,0 +1,22 @@
+{
+  "id": "困民",
+  "name": "困民",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，应作“因民”，“因民”即下支的“摇民”，亦为“嬴民”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-11",
+      "type": "annotation",
+      "annotationExplanation": "国名，应作“因民”，“因民”即下支的“摇民”，亦为“嬴民”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

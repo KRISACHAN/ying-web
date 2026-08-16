@@ -1,0 +1,31 @@
+{
+  "id": "潘侯山",
+  "name": "潘侯山",
+  "pinyin": "",
+  "aliases": [
+    "潘侯之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即潘侯山，山名，具体所指待考。一说在今新疆境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-09",
+      "type": "annotation",
+      "annotationExplanation": "即潘侯山，山名，具体所指待考。一说在今新疆境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-09",
+      "type": "text",
+      "context": "，曰潘侯之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

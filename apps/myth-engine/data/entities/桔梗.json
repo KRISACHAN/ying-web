@@ -1,0 +1,22 @@
+{
+  "id": "桔梗",
+  "name": "桔梗",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "多年生草本植物，叶子卵形或卵状披针形，开暗蓝色或暗紫白色花",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "annotation",
+      "annotationExplanation": "多年生草本植物，叶子卵形或卵状披针形，开暗蓝色或暗紫白色花"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "飞兽之神",
+  "name": "飞兽之神",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "呈兽形的奔走如飞的神",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-27",
+      "type": "annotation",
+      "annotationExplanation": "呈兽形的奔走如飞的神"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

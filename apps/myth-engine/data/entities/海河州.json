@@ -1,0 +1,22 @@
+{
+  "id": "海河州",
+  "name": "海河州",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "所指待考。一说指大海与河流交汇处的山地；一说指黄海和北汉江交汇处的山地；一说疑指朝鲜半岛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-16",
+      "type": "annotation",
+      "annotationExplanation": "所指待考。一说指大海与河流交汇处的山地；一说指黄海和北汉江交汇处的山地；一说疑指朝鲜半岛"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

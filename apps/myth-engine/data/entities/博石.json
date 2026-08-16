@@ -1,0 +1,22 @@
+{
+  "id": "博石",
+  "name": "博石",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "用于博戏(古代的一种棋戏)的石头",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-24",
+      "type": "annotation",
+      "annotationExplanation": "用于博戏(古代的一种棋戏)的石头"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

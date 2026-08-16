@@ -1,0 +1,39 @@
+{
+  "id": "平逢山",
+  "name": "平逢山",
+  "pinyin": "",
+  "aliases": [
+    "平逢之山",
+    "芒山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即平逢山，山名，指位于今河南洛阳市北之北邙(mánɡ)山(也叫芒山)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-46",
+      "type": "annotation",
+      "annotationExplanation": "即平逢山，山名，指位于今河南洛阳市北之北邙(mánɡ)山(也叫芒山)"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-46",
+      "type": "text",
+      "context": "，曰平逢之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-56",
+      "type": "text",
+      "context": "，自平逢之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

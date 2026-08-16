@@ -1,0 +1,22 @@
+{
+  "id": "甘木",
+  "name": "甘木",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "一说即不死树；一说指甘蔗",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-08",
+      "type": "annotation",
+      "annotationExplanation": "一说即不死树；一说指甘蔗"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

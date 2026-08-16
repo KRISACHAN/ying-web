@@ -1,0 +1,22 @@
+{
+  "id": "木瓜",
+  "name": "木瓜",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "植物名。落叶灌木或小乔木，叶子长椭圆形，开淡红色花，果实也叫木瓜，长椭圆形，黄色，有香气",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-54",
+      "type": "annotation",
+      "annotationExplanation": "植物名。落叶灌木或小乔木，叶子长椭圆形，开淡红色花，果实也叫木瓜，长椭圆形，黄色，有香气"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

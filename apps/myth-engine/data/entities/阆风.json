@@ -1,0 +1,29 @@
+{
+  "id": "阆风",
+  "name": "阆风",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "神话中山名，在昆仑山上",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "annotation",
+      "annotationExplanation": "神话中山名，在昆仑山上"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "text",
+      "context": "朝吾将济于白水兮，\n\n登阆风而緤马。\n\n忽反顾以流涕兮，\n"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

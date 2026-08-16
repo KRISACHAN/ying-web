@@ -1,0 +1,22 @@
+{
+  "id": "阊门",
+  "name": "阊门",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "苏州城门名",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 16,
+      "entryId": "soushenji-16-10",
+      "type": "annotation",
+      "annotationExplanation": "苏州城门名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 16
+  }
+}

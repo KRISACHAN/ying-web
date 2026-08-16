@@ -1,0 +1,31 @@
+{
+  "id": "江湖",
+  "name": "江湖",
+  "pinyin": "",
+  "aliases": [
+    "江之湖"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "于江湖"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "于江湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 3
+  }
+}

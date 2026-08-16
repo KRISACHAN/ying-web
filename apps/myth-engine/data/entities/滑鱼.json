@@ -1,0 +1,22 @@
+{
+  "id": "滑鱼",
+  "name": "滑鱼",
+  "pinyin": "",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鱼名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-02",
+      "type": "annotation",
+      "annotationExplanation": "鱼名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

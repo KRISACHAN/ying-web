@@ -1,0 +1,22 @@
+{
+  "id": "太牢",
+  "name": "太牢",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "祭祀时用作祭品的牛、羊、猪三牲齐备",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-14",
+      "type": "annotation",
+      "annotationExplanation": "祭祀时用作祭品的牛、羊、猪三牲齐备"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

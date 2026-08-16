@@ -1,0 +1,22 @@
+{
+  "id": "务光",
+  "name": "务光",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 8,
+      "entryId": "huainanzi-08-01",
+      "type": "text",
+      "context": "位；子罕不以玉为富，故不受宝；务光不以生害义，故自投于渊。由此观"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 8
+  }
+}

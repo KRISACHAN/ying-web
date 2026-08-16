@@ -1,0 +1,29 @@
+{
+  "id": "軨軨",
+  "name": "軨軨",
+  "pinyin": "línɡ",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说指鬣(liè)羚，体棕黄色，体长可达15米以上，角短而弯曲，颈有鬣毛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-11",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说指鬣(liè)羚，体棕黄色，体长可达15米以上，角短而弯曲，颈有鬣毛"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-11",
+      "type": "text",
+      "context": "有兽焉，其状如牛而虎文，其音如钦，其名曰軨軨"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

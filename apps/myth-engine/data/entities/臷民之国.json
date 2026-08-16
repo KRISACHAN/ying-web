@@ -1,0 +1,25 @@
+{
+  "id": "臷民之国",
+  "name": "臷民之国",
+  "pinyin": "dié",
+  "aliases": [
+    "臷国",
+    "臷民国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即臷民国，又叫臷国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-11",
+      "type": "annotation",
+      "annotationExplanation": "即臷民国，又叫臷国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

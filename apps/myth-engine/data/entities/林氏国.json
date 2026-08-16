@@ -1,0 +1,24 @@
+{
+  "id": "林氏国",
+  "name": "林氏国",
+  "pinyin": "",
+  "aliases": [
+    "林胡"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，一说又称林胡、林戎，大约在今河北北部一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-11",
+      "type": "annotation",
+      "annotationExplanation": "国名，一说又称林胡、林戎，大约在今河北北部一带"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

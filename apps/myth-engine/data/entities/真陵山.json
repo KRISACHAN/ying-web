@@ -1,0 +1,24 @@
+{
+  "id": "真陵山",
+  "name": "真陵山",
+  "pinyin": "",
+  "aliases": [
+    "真陵之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-125",
+      "type": "text",
+      "context": "，曰真陵之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

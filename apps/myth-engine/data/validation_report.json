@@ -1,0 +1,473 @@
+{
+  "chrome": [],
+  "structure": [],
+  "regression": [],
+  "relationsInText": [
+    [
+      "warn",
+      "44 relation endpoint names not literally in entry text (may be variants): [('洛河', 'shanhaijing-02-49', 'target'), ('洛河', 'shanhaijing-02-49', 'target'), ('洛河', 'shanhaijing-02-49', 'target'), ('洛河', 'shanhaijing-02-52', 'source'), ('洛河', 'shanhaijing-05-32', 'source')]"
+    ]
+  ],
+  "namesInOriginal": [
+    [
+      "info",
+      "name not found in Wikisource original: '三天子鄣' (in shanhaijing-13)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '丽麂水' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '亶爰山' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '伏羲' (in huainanzi-10)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '休与山' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '冰夷' (in shanhaijing-14, huainanzi-17, huainanzi-19)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '凄水' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '凡山' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '务隅山' (in shanhaijing-17)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '勃齐山' (in shanhaijing-04)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '勺水' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '单孤山' (in shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '发爽山' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '员神磈氏' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '嚣水' (in shanhaijing-02, shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '堂庭山' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '堤山' (in shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '堤水' (in shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '夏后开' (in shanhaijing-07)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '大比赤阴' (in shanhaijing-18)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '奇鸟余鸟' (in shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '射水' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '岷山' (in shanhaijing-13)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '嶓冢山' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '开题之国' (in shanhaijing-11)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '强良' (in shanhaijing-17)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '扶木' (in shanhaijing-09, huainanzi-04, huainanzi-14)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '拘缨国' (in shanhaijing-08)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '搏兽丘' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '文鳐鱼' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '无之国' (in shanhaijing-08)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '昆仑山' (in shanhaijing-12)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '月雚疏' (in shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '木瓜' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '杻阳山' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '枥木' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '柢山' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '櫰木' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '氐人国' (in shanhaijing-11)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '民鸟' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '汜叶' (in shanhaijing-18)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '汸水' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '沃野' (in shanhaijing-07)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '河曲' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '泑山' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '泚水' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '泛天山' (in shanhaijing-15)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '泰冒山' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '洛河' (in shanhaijing-02, shanhaijing-05, shanhaijing-13)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '洛间' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '洵水' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '浑敦' (in huainanzi-24)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '海河州' (in shanhaijing-12)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '涔水' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '涴水' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '淫水' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '湮山' (in shanhaijing-04)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '湮水' (in shanhaijing-04)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '灭蒙鸟' (in shanhaijing-11)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '烛阴' (in shanhaijing-17, huainanzi-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '牦牛' (in shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '犁牛' (in shanhaijing-04)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '犭吉页' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '狂鸟' (in shanhaijing-16)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '狄山' (in shanhaijing-10)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '狸力' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '猿翼山' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '番禺' (in shanhaijing-10)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '畾鸟' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '登葆山' (in shanhaijing-15)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '白柳' (in shanhaijing-16)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '皇鸟' (in shanhaijing-17)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '瞿鸟鹆' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '祝馀' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '禺强' (in shanhaijing-08)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '禺稿山' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '符惕山' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '羽民国' (in shanhaijing-11)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '胜遇' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '范林' (in shanhaijing-10, shanhaijing-12)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '菌狗' (in shanhaijing-18)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '蒙汜' (in huainanzi-07)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '蒲夷之鱼' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '蔓居' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '薰草' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '虫焉渊' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '蜾蠃' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '蠕蛇' (in shanhaijing-18)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '讙头国' (in huainanzi-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '讹火' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '诸水' (in shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '谿边' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '辉诸山' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '迷榖' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '邦山' (in shanhaijing-02)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '钜燕' (in shanhaijing-12)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '钜鹿泽' (in shanhaijing-13)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '长股之国' (in shanhaijing-08)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '闻獜' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '陆陒山' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '隼鸟' (in shanhaijing-11)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '雁门' (in shanhaijing-03, shanhaijing-11)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '雩琈' (in shanhaijing-05)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '雷祖' (in shanhaijing-18)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '雷神' (in shanhaijing-14)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '馀如泽' (in shanhaijing-04)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '馀峨山' (in shanhaijing-04)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '骆驼' (in shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '鱼叚' (in shanhaijing-07)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '鱼羞鱼' (in shanhaijing-04)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '鸡号山' (in shanhaijing-03)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '鸾凤' (in shanhaijing-16)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '鹊山' (in shanhaijing-01)"
+    ],
+    [
+      "info",
+      "name not found in Wikisource original: '鼍夔牛' (in shanhaijing-05)"
+    ]
+  ],
+  "stats": {
+    "namesChecked": 1641,
+    "namesMissingFromWikisource": 114
+  }
+}

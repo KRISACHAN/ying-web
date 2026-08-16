@@ -1,0 +1,31 @@
+{
+  "id": "长右山",
+  "name": "长右山",
+  "pinyin": "",
+  "aliases": [
+    "长右之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即长右山，山名，具体所指待考。一说在今湖南雪峰山中段",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-12",
+      "type": "annotation",
+      "annotationExplanation": "即长右山，山名，具体所指待考。一说在今湖南雪峰山中段"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-12",
+      "type": "text",
+      "context": "，曰长右之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

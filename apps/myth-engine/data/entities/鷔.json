@@ -1,0 +1,22 @@
+{
+  "id": "鷔",
+  "name": "鷔",
+  "pinyin": "áo",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种凶鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-19",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种凶鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

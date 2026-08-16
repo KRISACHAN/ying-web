@@ -1,0 +1,31 @@
+{
+  "id": "条菅水",
+  "name": "条菅水",
+  "pinyin": "",
+  "aliases": [
+    "条菅之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即条菅水，水名，一说即今山西南部解州附近的水流",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-33",
+      "type": "annotation",
+      "annotationExplanation": "即条菅水，水名，一说即今山西南部解州附近的水流"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-33",
+      "type": "text",
+      "context": "条菅之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

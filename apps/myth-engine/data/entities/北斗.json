@@ -1,0 +1,50 @@
+{
+  "id": "北斗",
+  "name": "北斗",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-11",
+      "type": "text",
+      "context": "腾青云，蹈梁甫兮。观见三光，遇北斗兮。驱乘风云，使玉女兮。”今所"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 3,
+      "entryId": "soushenji-03-05",
+      "type": "text",
+      "context": "大助子，且喜得增寿。北边坐人是北斗，南边坐人是南斗。南斗注生，北"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-07",
+      "type": "text",
+      "context": "狼。\n\n操余弧兮反沦降,\n\n援北斗兮酌桂浆。\n\n撰余辔兮高驼翔,"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-04",
+      "type": "text",
+      "context": "白情兮,\n\n诉五帝以置词。\n\n北斗为我折中兮,\n\n太一为余听之。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "蕃昌。以困举事，破灭死亡。\n\n北斗之神有雌雄，十一月始建于子，月"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "闾",
+  "name": "闾",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，一说即羭，指黑色的母羊",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-19",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说即羭，指黑色的母羊"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

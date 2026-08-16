@@ -1,0 +1,31 @@
+{
+  "id": "涂吾水",
+  "name": "涂吾水",
+  "pinyin": "",
+  "aliases": [
+    "涂吾之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即涂吾水，水名，具体所指待考。一说可能指今之叶尼塞河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-14",
+      "type": "annotation",
+      "annotationExplanation": "即涂吾水，水名，具体所指待考。一说可能指今之叶尼塞河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-14",
+      "type": "text",
+      "context": "注于涂吾之水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

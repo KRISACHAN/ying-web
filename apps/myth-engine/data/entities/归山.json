@@ -1,0 +1,24 @@
+{
+  "id": "归山",
+  "name": "归山",
+  "pinyin": "",
+  "aliases": [
+    "归之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说在今山西境内；一说在今河南境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-30",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在今山西境内；一说在今河南境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "褊狭",
+  "name": "褊狭",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "心胸、气量、见识等狭隘",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 3,
+      "entryId": "soushenji-03-03",
+      "type": "annotation",
+      "annotationExplanation": "心胸、气量、见识等狭隘"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 3
+  }
+}

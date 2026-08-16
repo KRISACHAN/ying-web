@@ -1,0 +1,22 @@
+{
+  "id": "榑木",
+  "name": "榑木",
+  "pinyin": "fú",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "即扶桑，传说中的一种树，据说日出于扶桑之下",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-34",
+      "type": "annotation",
+      "annotationExplanation": "即扶桑，传说中的一种树，据说日出于扶桑之下"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

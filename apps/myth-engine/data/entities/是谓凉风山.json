@@ -1,0 +1,24 @@
+{
+  "id": "是谓凉风山",
+  "name": "是谓凉风山",
+  "pinyin": "",
+  "aliases": [
+    "是谓凉风之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "，是谓凉风之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 5
+  }
+}

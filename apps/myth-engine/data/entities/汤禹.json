@@ -1,0 +1,22 @@
+{
+  "id": "汤禹",
+  "name": "汤禹",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "商汤、夏禹",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-07",
+      "type": "annotation",
+      "annotationExplanation": "商汤、夏禹"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

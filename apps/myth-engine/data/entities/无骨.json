@@ -1,0 +1,22 @@
+{
+  "id": "无骨",
+  "name": "无骨",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名或部族名。一说无骨意为身上没有骨头",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-17",
+      "type": "annotation",
+      "annotationExplanation": "国名或部族名。一说无骨意为身上没有骨头"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "蛇谷",
+  "name": "蛇谷",
+  "pinyin": "",
+  "aliases": [
+    "蛇之谷"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一说因谷中多蛇，故名；一说现名环翠谷",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-62",
+      "type": "annotation",
+      "annotationExplanation": "一说因谷中多蛇，故名；一说现名环翠谷"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "漆吴山",
+  "name": "漆吴山",
+  "pinyin": "",
+  "aliases": [
+    "漆吴之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即漆吴山，山名，具体所指待考。一说指今浙江东部海外诸岛，如舟山群岛等",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-24",
+      "type": "annotation",
+      "annotationExplanation": "即漆吴山，山名，具体所指待考。一说指今浙江东部海外诸岛，如舟山群岛等"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-24",
+      "type": "text",
+      "context": "，曰漆吴之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

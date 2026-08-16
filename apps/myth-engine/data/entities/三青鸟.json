@@ -1,0 +1,22 @@
+{
+  "id": "三青鸟",
+  "name": "三青鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种鸟。一说指三只青鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-03",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鸟。一说指三只青鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

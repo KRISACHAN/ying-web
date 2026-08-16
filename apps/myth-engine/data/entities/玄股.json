@@ -1,0 +1,22 @@
+{
+  "id": "玄股",
+  "name": "玄股",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，一说即玄股国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-10",
+      "type": "annotation",
+      "annotationExplanation": "国名，一说即玄股国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

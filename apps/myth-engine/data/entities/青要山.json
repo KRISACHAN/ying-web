@@ -1,0 +1,31 @@
+{
+  "id": "青要山",
+  "name": "青要山",
+  "pinyin": "",
+  "aliases": [
+    "青要之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即青要山，山名，在今河南新安县境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-21",
+      "type": "annotation",
+      "annotationExplanation": "即青要山，山名，在今河南新安县境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-21",
+      "type": "text",
+      "context": "，曰青要之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "鸱",
+  "name": "鸱",
+  "pinyin": "chī",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，指鹞鹰。种类较多，我国常见的有白尾鹞，是猛禽，生活在水边或沼泽地带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-11",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，指鹞鹰。种类较多，我国常见的有白尾鹞，是猛禽，生活在水边或沼泽地带"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

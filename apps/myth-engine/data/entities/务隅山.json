@@ -1,0 +1,48 @@
+{
+  "id": "务隅山",
+  "name": "务隅山",
+  "pinyin": "",
+  "aliases": [
+    "务隅之山",
+    "附禺山",
+    "附禺之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即务隅山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-12",
+      "type": "annotation",
+      "annotationExplanation": "即务隅山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-12",
+      "type": "text",
+      "context": "务隅之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "text",
+      "context": "，附禺之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "annotation",
+      "annotationExplanation": "即务隅之山",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

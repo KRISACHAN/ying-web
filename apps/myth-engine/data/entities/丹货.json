@@ -1,0 +1,22 @@
+{
+  "id": "丹货",
+  "name": "丹货",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "丹类物质，铅汞之类",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-04",
+      "type": "annotation",
+      "annotationExplanation": "丹类物质，铅汞之类"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

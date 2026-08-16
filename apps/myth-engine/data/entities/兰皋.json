@@ -1,0 +1,22 @@
+{
+  "id": "兰皋",
+  "name": "兰皋",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "生有兰草的水边之地",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-05",
+      "type": "annotation",
+      "annotationExplanation": "生有兰草的水边之地"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

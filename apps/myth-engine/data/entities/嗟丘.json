@@ -1,0 +1,24 @@
+{
+  "id": "嗟丘",
+  "name": "嗟丘",
+  "pinyin": "jiē",
+  "aliases": [
+    "嗟之丘"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-02",
+      "type": "annotation",
+      "annotationExplanation": "地名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "阿山",
+  "name": "阿山",
+  "pinyin": "",
+  "aliases": [
+    "阿之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说这里的“阿”是大的意思",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-02",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说这里的“阿”是大的意思"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

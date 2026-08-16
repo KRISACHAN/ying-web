@@ -1,0 +1,24 @@
+{
+  "id": "湮水",
+  "name": "湮水",
+  "pinyin": "yīn",
+  "aliases": [
+    "湮之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说可能指睢水，即今濉河，在睢阳山南面",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-24",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说可能指睢水，即今濉河，在睢阳山南面"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

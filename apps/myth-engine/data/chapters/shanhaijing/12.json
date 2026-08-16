@@ -1,0 +1,589 @@
+{
+  "id": "shanhaijing-12",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 12,
+  "chapterTitle": "海内北经第十二",
+  "entryCount": 20,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "海内西北陬以东者。",
+      "annotations": [
+        {
+          "term": "海内",
+          "explanation": "指海内北经所记载的地方"
+        },
+        {
+          "term": "陬(zōu)",
+          "explanation": "隅，角落"
+        }
+      ],
+      "translation": "海内北经所记载的是西北角以东的地方。",
+      "index": 1
+    },
+    {
+      "title": "蛇巫山上操柸人",
+      "originalText": "蛇巫之山，上有人操柸而东向立。一曰龟山。",
+      "annotations": [
+        {
+          "term": "蛇巫之山",
+          "explanation": "即蛇巫山，山名，一说位于昆仑山附近；一说在今四川、湖北边境"
+        },
+        {
+          "term": "柸(bēi)",
+          "explanation": "同“杯”。一说指棒"
+        }
+      ],
+      "translation": "有一座蛇巫山，山上有一个人，手中拿着杯子，面向东而立。一说是龟山。",
+      "index": 2
+    },
+    {
+      "title": "西王母",
+      "originalText": "西王母梯几而戴胜杖，其南有三青鸟，为西王母取食。在昆仑虚北。",
+      "annotations": [
+        {
+          "term": "梯",
+          "explanation": "凭；依着"
+        },
+        {
+          "term": "几",
+          "explanation": "古人坐时凭依或搁置物件的小桌"
+        },
+        {
+          "term": "戴胜杖",
+          "explanation": "一说“杖”字疑为衍文"
+        },
+        {
+          "term": "戴胜即头戴首饰(胜",
+          "explanation": "古代妇女的首饰)"
+        },
+        {
+          "term": "三青鸟",
+          "explanation": "传说中的一种鸟。一说指三只青鸟"
+        },
+        {
+          "term": "昆仑虚",
+          "explanation": "即昆仑山"
+        }
+      ],
+      "translation": "西王母身倚桌几，头戴首饰，手中持杖，在她的南边有三青鸟，专门为她取食。西王母住在昆仑山的北边。",
+      "index": 3
+    },
+    {
+      "title": "大行伯",
+      "originalText": "有人曰大行伯，把戈。其东有犬封国。贰负之尸在大行伯东。",
+      "annotations": [
+        {
+          "term": "大行伯",
+          "explanation": "人名，一说可能指共工的儿子，名叫脩(xiū)，以酷好远游著称"
+        },
+        {
+          "term": "犬封国",
+          "explanation": "传说中的国名。据传帝喾(kù)高辛氏时，有人作乱，高辛氏的家犬盘瓠(hù)杀了此作乱之人，于是高辛氏封盘瓠为会稽侯，并赏他五名美女。盘瓠与美女生下不少子女，并不断繁衍，便成为犬封国"
+        }
+      ],
+      "translation": "有一个人，名叫大行伯，手中拿着戈。大行伯所居之地的东边有一个犬封国。贰负的尸体在大行伯所居之地的东边。",
+      "index": 4
+    },
+    {
+      "title": "犬戎国",
+      "originalText": "犬封国曰犬戎国，状如犬。有一女子，方跪进柸食。有文马，缟身朱鬣，目若黄金，名曰吉量，乘之寿千岁。",
+      "annotations": [
+        {
+          "term": "犬戎国",
+          "explanation": "传说中的国名，一说即犬封国，一说两者并不相同"
+        },
+        {
+          "term": "柸(bēi)",
+          "explanation": "同“杯”"
+        },
+        {
+          "term": "缟(ɡǎo)",
+          "explanation": "一种白色的丝织品"
+        },
+        {
+          "term": "鬣(liè)",
+          "explanation": "兽类颈上的长毛"
+        },
+        {
+          "term": "吉量",
+          "explanation": "传说中的一种马"
+        }
+      ],
+      "translation": "犬封国又叫犬戎国，这个国家中的人长得像狗。有一位女子，正手持杯子，跪着进献食物。有一种带斑纹的马，全身白色，鬣毛红色，眼睛像黄金一样闪闪发亮，名字叫吉量，骑过它的人可寿达千岁。",
+      "index": 5
+    },
+    {
+      "title": "蜪犬",
+      "originalText": "蜪犬如犬，青，食人从首始。",
+      "annotations": [
+        {
+          "term": "蜪(táo)犬",
+          "explanation": "兽名，一说指野狗"
+        }
+      ],
+      "translation": "蜪犬的样子像狗，浑身青色，吃人时先吃头。",
+      "index": 6
+    },
+    {
+      "title": "据比尸",
+      "originalText": "据比之尸，其为人折颈被发，无一手。",
+      "annotations": [
+        {
+          "term": "据比",
+          "explanation": "一说即诸比，天神名"
+        },
+        {
+          "term": "被(pī)",
+          "explanation": "同“披”，指披散"
+        }
+      ],
+      "translation": "据比的尸体，是一个折断了脖子、头发披散、只有一只手的人的形状。",
+      "index": 7
+    },
+    {
+      "title": "环狗",
+      "originalText": "环狗，其为人兽首人身。一曰猬状如狗，黄色。",
+      "annotations": [
+        {
+          "term": "环狗",
+          "explanation": "这里当指环狗国，传说中的国名"
+        }
+      ],
+      "translation": "有一个环狗国，这个国家的人长着兽一样的头，人一样的身子。一说形状像刺猬，又像狗，浑身黄色。",
+      "index": 8
+    },
+    {
+      "title": "袜",
+      "originalText": "袜，其为物人身、黑首、从目。",
+      "annotations": [
+        {
+          "term": "袜",
+          "explanation": "同“魅”，指鬼怪"
+        },
+        {
+          "term": "从(zònɡ)目",
+          "explanation": "即纵目，指眼睛竖着长"
+        }
+      ],
+      "translation": "袜，这种东西长着人一样的身体，黑色的脑袋，眼睛竖着长。",
+      "index": 9
+    },
+    {
+      "title": "戎",
+      "originalText": "戎，其为人人首三角。",
+      "annotations": [
+        {
+          "term": "戎",
+          "explanation": "古族名，殷周时有鬼戎、西戎等，位于我国西北地区。这里指传说中的国名或部族名"
+        }
+      ],
+      "translation": "戎这个地方的人长着人一样的脑袋，脑袋上有三只角。",
+      "index": 10
+    },
+    {
+      "title": "林氏国驺吾",
+      "originalText": "驺吾林氏国有珍兽，大若虎，五采毕具，尾长于身，名曰驺吾，乘之日行千里。",
+      "annotations": [
+        {
+          "term": "林氏国",
+          "explanation": "国名，一说又称林胡、林戎，大约在今河北北部一带"
+        },
+        {
+          "term": "驺(zōu)吾",
+          "explanation": "传说中的一种兽"
+        }
+      ],
+      "translation": "林氏国中有一种珍奇的兽，长得像虎一样大，身上五彩斑斓，尾巴比身子还长，名字叫驺吾，骑着它可以日行千里。",
+      "index": 11
+    },
+    {
+      "title": "昆仑虚南泛林",
+      "originalText": "昆仑虚南所，有泛林方三百里。",
+      "annotations": [
+        {
+          "term": "昆仑虚",
+          "explanation": "即昆仑山"
+        },
+        {
+          "term": "泛林",
+          "explanation": "分布十分广泛的树林"
+        }
+      ],
+      "translation": "在昆仑山的南边有一片分布极广的树林，方圆达三百里。",
+      "index": 12
+    },
+    {
+      "title": "从极之渊冰夷",
+      "originalText": "从极之渊深三百仞，维冰夷恒都焉。冰夷人面，乘两龙。一曰忠极之渊。",
+      "annotations": [
+        {
+          "term": "从极之渊",
+          "explanation": "即从极渊，传说中的深渊名"
+        },
+        {
+          "term": "仞(rèn)",
+          "explanation": "古代以八尺或七尺为一仞"
+        },
+        {
+          "term": "维",
+          "explanation": "只；仅"
+        },
+        {
+          "term": "冰夷",
+          "explanation": "又作冯(fénɡ)夷、无夷，也叫河伯，传说中的水神名"
+        },
+        {
+          "term": "都",
+          "explanation": "居住"
+        }
+      ],
+      "translation": "从极渊深达三百仞，只有水神冰夷一直住在这里。冰夷长着人的面孔，乘着两条龙。一种说法认为从极渊叫做忠极渊。",
+      "index": 13
+    },
+    {
+      "title": "盖国",
+      "originalText": "盖国在钜燕南，倭北。倭属燕。",
+      "annotations": [
+        {
+          "term": "盖国",
+          "explanation": "国名，具体所指待考"
+        },
+        {
+          "term": "钜(jù)燕",
+          "explanation": "即大燕，指燕国"
+        },
+        {
+          "term": "倭",
+          "explanation": "古代指日本"
+        }
+      ],
+      "translation": "盖国在大燕国的南边，倭的北边。倭从属于燕国。",
+      "index": 14
+    },
+    {
+      "title": "朝鲜",
+      "originalText": "朝鲜在列阳东，海北山南。列阳属燕。",
+      "annotations": [
+        {
+          "term": "朝鲜",
+          "explanation": "位于今朝鲜半岛"
+        },
+        {
+          "term": "列阳",
+          "explanation": "地名，“列”指列水，一说即今朝鲜大同江，“列阳”指位于列水南边的地方"
+        },
+        {
+          "term": "海",
+          "explanation": "指黄海"
+        },
+        {
+          "term": "山",
+          "explanation": "一说可能指长白山"
+        }
+      ],
+      "translation": "朝鲜在列阳的东边，位于黄海的北边和山的南边。列阳属于燕国之地。",
+      "index": 15
+    },
+    {
+      "title": "列姑射",
+      "originalText": "列姑射在海河州中。",
+      "annotations": [
+        {
+          "term": "列姑射(yè)",
+          "explanation": "所指待考。一说指山名，意为一系列姑射山，包括姑射山、南姑射山、北姑射山等；一说指今朝鲜半岛北汉江下游江华列岛所在地；一说指今朝鲜大同江以南的一些地方"
+        },
+        {
+          "term": "海河州",
+          "explanation": "所指待考。一说指大海与河流交汇处的山地；一说指黄海和北汉江交汇处的山地；一说疑指朝鲜半岛"
+        }
+      ],
+      "translation": "列姑射位于大海与河流交会处的山地中。",
+      "index": 16
+    },
+    {
+      "title": "大鯾",
+      "originalText": "大鯾居海中。",
+      "annotations": [
+        {
+          "term": "鯾(biān)",
+          "explanation": "鱼名，一说即鲂(fánɡ)，银灰色，长达50余厘米，略呈菱形。但鲂是淡水鱼，此处的则生活在海中"
+        }
+      ],
+      "translation": "大鱼生活在海中。",
+      "index": 17
+    },
+    {
+      "title": "明组邑",
+      "originalText": "明组邑居海中。",
+      "annotations": [
+        {
+          "term": "明组邑(yì)",
+          "explanation": "所指待考。一说指海生类植物，如海带、裙带菜之类；一说指地名或聚落名"
+        }
+      ],
+      "translation": "明组邑生活在海中。",
+      "index": 18
+    },
+    {
+      "title": "蓬莱山",
+      "originalText": "蓬莱山在海中。",
+      "annotations": [
+        {
+          "term": "蓬莱山",
+          "explanation": "古代传说位于东海中的一座神山，上面有神仙居住"
+        }
+      ],
+      "translation": "蓬莱山位于大海中。",
+      "index": 19
+    },
+    {
+      "title": "大人之市",
+      "originalText": "大人之市在海中。",
+      "annotations": [
+        {
+          "term": "大人之市",
+          "explanation": "一说指身材特别高大的人的集市；一说指海市，系发生在海边的一种幻景"
+        }
+      ],
+      "translation": "大人的集市在海中。",
+      "index": 20
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "海内",
+      "entryId": "shanhaijing-12-01",
+      "entryTitle": "其一",
+      "term": "海内"
+    },
+    {
+      "entityName": "蛇巫山",
+      "entryId": "shanhaijing-12-02",
+      "entryTitle": "蛇巫山上操柸人",
+      "term": "蛇巫之山"
+    },
+    {
+      "entityName": "蛇巫山",
+      "entryId": "shanhaijing-12-02",
+      "entryTitle": "蛇巫山上操柸人",
+      "term": "蛇巫山"
+    },
+    {
+      "entityName": "几",
+      "entryId": "shanhaijing-12-03",
+      "entryTitle": "西王母",
+      "term": "几"
+    },
+    {
+      "entityName": "三青鸟",
+      "entryId": "shanhaijing-12-03",
+      "entryTitle": "西王母",
+      "term": "三青鸟"
+    },
+    {
+      "entityName": "昆仑山",
+      "entryId": "shanhaijing-12-03",
+      "entryTitle": "西王母",
+      "term": "昆仑虚"
+    },
+    {
+      "entityName": "西王母",
+      "entryId": "shanhaijing-12-03",
+      "entryTitle": "西王母",
+      "term": "西王母"
+    },
+    {
+      "entityName": "昆仑",
+      "entryId": "shanhaijing-12-03",
+      "entryTitle": "西王母",
+      "term": "昆仑"
+    },
+    {
+      "entityName": "青鸟",
+      "entryId": "shanhaijing-12-03",
+      "entryTitle": "西王母",
+      "term": "青鸟"
+    },
+    {
+      "entityName": "大行伯",
+      "entryId": "shanhaijing-12-04",
+      "entryTitle": "大行伯",
+      "term": "大行伯"
+    },
+    {
+      "entityName": "犬封国",
+      "entryId": "shanhaijing-12-04",
+      "entryTitle": "大行伯",
+      "term": "犬封国"
+    },
+    {
+      "entityName": "犬戎国",
+      "entryId": "shanhaijing-12-05",
+      "entryTitle": "犬戎国",
+      "term": "犬戎国"
+    },
+    {
+      "entityName": "缟",
+      "entryId": "shanhaijing-12-05",
+      "entryTitle": "犬戎国",
+      "term": "缟"
+    },
+    {
+      "entityName": "吉量",
+      "entryId": "shanhaijing-12-05",
+      "entryTitle": "犬戎国",
+      "term": "吉量"
+    },
+    {
+      "entityName": "蜪犬",
+      "entryId": "shanhaijing-12-06",
+      "entryTitle": "蜪犬",
+      "term": "蜪犬"
+    },
+    {
+      "entityName": "据比",
+      "entryId": "shanhaijing-12-07",
+      "entryTitle": "据比尸",
+      "term": "据比"
+    },
+    {
+      "entityName": "环狗",
+      "entryId": "shanhaijing-12-08",
+      "entryTitle": "环狗",
+      "term": "环狗"
+    },
+    {
+      "entityName": "戎",
+      "entryId": "shanhaijing-12-10",
+      "entryTitle": "戎",
+      "term": "戎"
+    },
+    {
+      "entityName": "林氏国",
+      "entryId": "shanhaijing-12-11",
+      "entryTitle": "林氏国驺吾",
+      "term": "林氏国"
+    },
+    {
+      "entityName": "驺吾",
+      "entryId": "shanhaijing-12-11",
+      "entryTitle": "林氏国驺吾",
+      "term": "驺吾"
+    },
+    {
+      "entityName": "昆仑山",
+      "entryId": "shanhaijing-12-12",
+      "entryTitle": "昆仑虚南泛林",
+      "term": "昆仑虚"
+    },
+    {
+      "entityName": "范林",
+      "entryId": "shanhaijing-12-12",
+      "entryTitle": "昆仑虚南泛林",
+      "term": "泛林"
+    },
+    {
+      "entityName": "昆仑",
+      "entryId": "shanhaijing-12-12",
+      "entryTitle": "昆仑虚南泛林",
+      "term": "昆仑"
+    },
+    {
+      "entityName": "从极渊",
+      "entryId": "shanhaijing-12-13",
+      "entryTitle": "从极之渊冰夷",
+      "term": "从极之渊"
+    },
+    {
+      "entityName": "仞",
+      "entryId": "shanhaijing-12-13",
+      "entryTitle": "从极之渊冰夷",
+      "term": "仞"
+    },
+    {
+      "entityName": "冰夷",
+      "entryId": "shanhaijing-12-13",
+      "entryTitle": "从极之渊冰夷",
+      "term": "冰夷"
+    },
+    {
+      "entityName": "盖国",
+      "entryId": "shanhaijing-12-14",
+      "entryTitle": "盖国",
+      "term": "盖国"
+    },
+    {
+      "entityName": "钜燕",
+      "entryId": "shanhaijing-12-14",
+      "entryTitle": "盖国",
+      "term": "钜燕"
+    },
+    {
+      "entityName": "朝鲜",
+      "entryId": "shanhaijing-12-15",
+      "entryTitle": "朝鲜",
+      "term": "朝鲜"
+    },
+    {
+      "entityName": "列阳",
+      "entryId": "shanhaijing-12-15",
+      "entryTitle": "朝鲜",
+      "term": "列阳"
+    },
+    {
+      "entityName": "山",
+      "entryId": "shanhaijing-12-15",
+      "entryTitle": "朝鲜",
+      "term": "山"
+    },
+    {
+      "entityName": "列姑射",
+      "entryId": "shanhaijing-12-16",
+      "entryTitle": "列姑射",
+      "term": "列姑射"
+    },
+    {
+      "entityName": "海河州",
+      "entryId": "shanhaijing-12-16",
+      "entryTitle": "列姑射",
+      "term": "海河州"
+    },
+    {
+      "entityName": "鯾",
+      "entryId": "shanhaijing-12-17",
+      "entryTitle": "大鯾",
+      "term": "鯾"
+    },
+    {
+      "entityName": "明组邑",
+      "entryId": "shanhaijing-12-18",
+      "entryTitle": "明组邑",
+      "term": "明组邑"
+    },
+    {
+      "entityName": "蓬莱山",
+      "entryId": "shanhaijing-12-19",
+      "entryTitle": "蓬莱山",
+      "term": "蓬莱山"
+    },
+    {
+      "entityName": "蓬莱",
+      "entryId": "shanhaijing-12-19",
+      "entryTitle": "蓬莱山",
+      "term": "蓬莱"
+    },
+    {
+      "entityName": "大人之市",
+      "entryId": "shanhaijing-12-20",
+      "entryTitle": "大人之市",
+      "term": "大人之市"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_12.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "玉山",
+  "name": "玉山",
+  "pinyin": "",
+  "aliases": [
+    "玉之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，因山中多玉而得名，位置当在今新疆和田市产玉的山区",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-32",
+      "type": "annotation",
+      "annotationExplanation": "山名，因山中多玉而得名，位置当在今新疆和田市产玉的山区"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-32",
+      "type": "text",
+      "context": "又西三百五十里，曰玉山，是西王母所居也。西王母其状如"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-86",
+      "type": "text",
+      "context": "又东北二百里，曰玉山，其阳多铜，其阴多赤金，其木多"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-115",
+      "type": "text",
+      "context": "，倒毛；用一璧，牛无常。堵山、玉山，冢也，皆倒祠，羞毛少牢，婴毛"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-05",
+      "type": "text",
+      "context": "西胡白玉山在大夏东，苍梧在白玉山西南，皆"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

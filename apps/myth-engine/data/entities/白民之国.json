@@ -1,0 +1,24 @@
+{
+  "id": "白民之国",
+  "name": "白民之国",
+  "pinyin": "",
+  "aliases": [
+    "白民国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即白民国，传说中的国名，因其国中之人浑身雪白，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-17",
+      "type": "annotation",
+      "annotationExplanation": "即白民国，传说中的国名，因其国中之人浑身雪白，故名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "蜪犬",
+  "name": "蜪犬",
+  "pinyin": "táo",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，一说指野狗",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-06",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说指野狗"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

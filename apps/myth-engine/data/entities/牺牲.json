@@ -1,0 +1,22 @@
+{
+  "id": "牺牲",
+  "name": "牺牲",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "供祭祀用的纯色全体牲畜",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-02",
+      "type": "annotation",
+      "annotationExplanation": "供祭祀用的纯色全体牲畜"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 8
+  }
+}

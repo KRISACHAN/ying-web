@@ -1,0 +1,31 @@
+{
+  "id": "赤松子",
+  "name": "赤松子",
+  "pinyin": "",
+  "aliases": [
+    "赤诵子"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "又名赤诵子，号左圣南极南岳真人、左仙太虚真人，秦汉传说中的上古仙人",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-02",
+      "type": "annotation",
+      "annotationExplanation": "又名赤诵子，号左圣南极南岳真人、左仙太虚真人，秦汉传说中的上古仙人"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-02",
+      "type": "text",
+      "context": "赤松子者，神农时雨师也，服冰玉散，以"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

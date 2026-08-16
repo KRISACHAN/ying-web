@@ -14,8 +14,10 @@ const directoriesToClean = [
     'coverage',
 ];
 
-async function cleanDirectory(dirPath) {
+async function cleanDirectory(dirPath, excludedDirectories = []) {
     for (const dirToClean of directoriesToClean) {
+        if (excludedDirectories.includes(dirToClean)) continue;
+
         const fullPath = path.join(dirPath, dirToClean);
         try {
             await rimraf(fullPath);
@@ -37,7 +39,7 @@ async function cleanSubprojects(parentDir) {
             .map(dirent => path.join(parentDir, dirent.name));
 
         for (const dir of subDirs) {
-            await cleanDirectory(dir);
+            await cleanDirectory(dir, ['docs']);
             await cleanSubprojects(dir);
         }
     } catch (err) {

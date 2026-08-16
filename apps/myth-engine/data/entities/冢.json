@@ -1,0 +1,22 @@
+{
+  "id": "冢",
+  "name": "冢",
+  "pinyin": "zhǒnɡ",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "大，这里当指大的山神",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-14",
+      "type": "annotation",
+      "annotationExplanation": "大，这里当指大的山神"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

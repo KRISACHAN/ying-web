@@ -1,0 +1,22 @@
+{
+  "id": "棪",
+  "name": "棪",
+  "pinyin": "yǎn",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "果木名，果实似苹果，红色。一说指野海棠",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-02",
+      "type": "annotation",
+      "annotationExplanation": "果木名，果实似苹果，红色。一说指野海棠"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

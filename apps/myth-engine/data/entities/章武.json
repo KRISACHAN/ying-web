@@ -1,0 +1,22 @@
+{
+  "id": "章武",
+  "name": "章武",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，汉置，治今河北黄骅(huá)市西北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-25",
+      "type": "annotation",
+      "annotationExplanation": "古县名，汉置，治今河北黄骅(huá)市西北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

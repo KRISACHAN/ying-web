@@ -1,0 +1,31 @@
+{
+  "id": "翠山",
+  "name": "翠山",
+  "pinyin": "",
+  "aliases": [
+    "翠之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说指今青海西宁的小积石山；一说在今甘肃境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-12",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说指今青海西宁的小积石山；一说在今甘肃境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

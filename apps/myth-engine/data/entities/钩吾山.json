@@ -1,0 +1,31 @@
+{
+  "id": "钩吾山",
+  "name": "钩吾山",
+  "pinyin": "",
+  "aliases": [
+    "钩吾之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即钩吾山，山名，具体所指待考。一说在今山西境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-23",
+      "type": "annotation",
+      "annotationExplanation": "即钩吾山，山名，具体所指待考。一说在今山西境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-23",
+      "type": "text",
+      "context": "，曰钩吾之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

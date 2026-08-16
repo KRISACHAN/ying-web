@@ -1,0 +1,24 @@
+{
+  "id": "白玉山",
+  "name": "白玉山",
+  "pinyin": "",
+  "aliases": [
+    "白玉之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说疑即玉山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-05",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说疑即玉山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

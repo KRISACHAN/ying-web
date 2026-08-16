@@ -1,0 +1,31 @@
+{
+  "id": "番条山",
+  "name": "番条山",
+  "pinyin": "fān",
+  "aliases": [
+    "番条之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即番条山，山名，一说指今山东的沂山；一说指今山东淄博市博山区西南的凤凰山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-04",
+      "type": "annotation",
+      "annotationExplanation": "即番条山，山名，一说指今山东的沂山；一说指今山东淄博市博山区西南的凤凰山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-04",
+      "type": "text",
+      "context": "，曰番条之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

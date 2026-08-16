@@ -1,0 +1,31 @@
+{
+  "id": "环水",
+  "name": "环水",
+  "pinyin": "",
+  "aliases": [
+    "环之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，发源于泰山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-08",
+      "type": "annotation",
+      "annotationExplanation": "水名，发源于泰山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-08",
+      "type": "text",
+      "context": "环水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

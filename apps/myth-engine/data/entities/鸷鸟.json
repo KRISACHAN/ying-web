@@ -1,0 +1,22 @@
+{
+  "id": "鸷鸟",
+  "name": "鸷鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鹰隼一类性情刚猛的鸟",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-04",
+      "type": "annotation",
+      "annotationExplanation": "鹰隼一类性情刚猛的鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

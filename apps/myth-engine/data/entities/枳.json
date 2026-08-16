@@ -1,0 +1,22 @@
+{
+  "id": "枳",
+  "name": "枳",
+  "pinyin": "zhǐ",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "也称枸橘、臭橘。落叶灌木或小乔木，小枝多硬刺，果实球形，味酸苦",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-07",
+      "type": "annotation",
+      "annotationExplanation": "也称枸橘、臭橘。落叶灌木或小乔木，小枝多硬刺，果实球形，味酸苦"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

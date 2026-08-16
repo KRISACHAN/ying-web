@@ -1,0 +1,24 @@
+{
+  "id": "列襄之国",
+  "name": "列襄之国",
+  "pinyin": "",
+  "aliases": [
+    "列襄国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即列襄国，国名，一说可能是夜郎国，在今四川、贵州边境",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-10",
+      "type": "annotation",
+      "annotationExplanation": "即列襄国，国名，一说可能是夜郎国，在今四川、贵州边境"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

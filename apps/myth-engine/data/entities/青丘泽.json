@@ -1,0 +1,24 @@
+{
+  "id": "青丘泽",
+  "name": "青丘泽",
+  "pinyin": "",
+  "aliases": [
+    "青丘之泽"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "于青丘之泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 9
+  }
+}

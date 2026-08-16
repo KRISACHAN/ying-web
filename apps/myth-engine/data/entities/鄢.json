@@ -1,0 +1,22 @@
+{
+  "id": "鄢",
+  "name": "鄢",
+  "pinyin": "yān",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古国名、邑名，后改称鄢陵，在今河南鄢陵西北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-15",
+      "type": "annotation",
+      "annotationExplanation": "古国名、邑名，后改称鄢陵，在今河南鄢陵西北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

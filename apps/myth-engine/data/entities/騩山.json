@@ -1,0 +1,38 @@
+{
+  "id": "騩山",
+  "name": "騩山",
+  "pinyin": "ɡuī",
+  "aliases": [
+    "騩之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，即今青海西宁的日月山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-13",
+      "type": "annotation",
+      "annotationExplanation": "山名，即今青海西宁的日月山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-22",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今河南新安县北"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-88",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说在今湖北秭归县境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

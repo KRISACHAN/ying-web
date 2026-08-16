@@ -1,0 +1,22 @@
+{
+  "id": "荀草",
+  "name": "荀草",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "草名，一说应作“苞草”，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-21",
+      "type": "annotation",
+      "annotationExplanation": "草名，一说应作“苞草”，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

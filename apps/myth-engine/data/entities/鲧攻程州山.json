@@ -1,0 +1,24 @@
+{
+  "id": "鲧攻程州山",
+  "name": "鲧攻程州山",
+  "pinyin": "",
+  "aliases": [
+    "鲧攻程州之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-05",
+      "type": "text",
+      "context": "。有鲧攻程州之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

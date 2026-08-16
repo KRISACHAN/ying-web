@@ -1,0 +1,24 @@
+{
+  "id": "视肉",
+  "name": "视肉",
+  "pinyin": "",
+  "aliases": [
+    "聚肉"
+  ],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "一说又叫聚肉，形状像牛肝，长着两只眼睛，从它身上割去一块肉，很快又会长出来",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "annotation",
+      "annotationExplanation": "一说又叫聚肉，形状像牛肝，长着两只眼睛，从它身上割去一块肉，很快又会长出来"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

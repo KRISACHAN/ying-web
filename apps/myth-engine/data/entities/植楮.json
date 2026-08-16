@@ -1,0 +1,22 @@
+{
+  "id": "植楮",
+  "name": "植楮",
+  "pinyin": "chǔ",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "植物名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-06",
+      "type": "annotation",
+      "annotationExplanation": "植物名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

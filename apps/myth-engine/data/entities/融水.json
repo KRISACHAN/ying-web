@@ -1,0 +1,31 @@
+{
+  "id": "融水",
+  "name": "融水",
+  "pinyin": "",
+  "aliases": [
+    "融之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即融江，是位于今广东的西江的支流",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-10",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即融江，是位于今广东的西江的支流"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-10",
+      "type": "text",
+      "context": "融水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

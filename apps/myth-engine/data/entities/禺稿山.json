@@ -1,0 +1,31 @@
+{
+  "id": "禺稿山",
+  "name": "禺稿山",
+  "pinyin": "",
+  "aliases": [
+    "禺稿之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即禺稿山，山名，具体所指待考。一说可能是今广州的白云山；一说当在今广东、广西交界处的云开大山中",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-34",
+      "type": "annotation",
+      "annotationExplanation": "即禺稿山，山名，具体所指待考。一说可能是今广州的白云山；一说当在今广东、广西交界处的云开大山中"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-34",
+      "type": "text",
+      "context": "，曰禺稿之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "二十八宿",
+  "name": "二十八宿",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "隅，去地五亿万里；五星，八风，二十八宿，五官，六府紫宫，太微，轩辕，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 4
+  }
+}

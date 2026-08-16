@@ -1,0 +1,29 @@
+{
+  "id": "文文",
+  "name": "文文",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-60",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-60",
+      "type": "text",
+      "context": "有兽焉，其状如蜂，枝尾而反舌，善呼，其名曰文文"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

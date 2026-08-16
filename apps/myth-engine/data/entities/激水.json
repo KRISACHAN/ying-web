@@ -1,0 +1,31 @@
+{
+  "id": "激水",
+  "name": "激水",
+  "pinyin": "",
+  "aliases": [
+    "激之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即接水，今称大清河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-09",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即接水，今称大清河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-09",
+      "type": "text",
+      "context": "激水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

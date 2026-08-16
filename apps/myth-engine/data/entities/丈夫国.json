@@ -1,0 +1,39 @@
+{
+  "id": "丈夫国",
+  "name": "丈夫国",
+  "pinyin": "",
+  "aliases": [
+    "丈夫之国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，据说国中之人均为男性，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-08",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，据说国中之人均为男性，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-08",
+      "type": "text",
+      "context": "丈夫国在维鸟北，其为人衣冠带剑。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-14",
+      "type": "annotation",
+      "annotationExplanation": "即丈夫国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

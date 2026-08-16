@@ -1,0 +1,29 @@
+{
+  "id": "鹿蜀",
+  "name": "鹿蜀",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "动物名，一说指斑马；一说是鹿的一种",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "annotation",
+      "annotationExplanation": "动物名，一说指斑马；一说是鹿的一种"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "text",
+      "context": "有兽焉，其状如马而白首，其文如虎而赤尾，其音如谣，其名曰鹿蜀"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

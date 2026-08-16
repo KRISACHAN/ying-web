@@ -1,0 +1,24 @@
+{
+  "id": "涂山",
+  "name": "涂山",
+  "pinyin": "",
+  "aliases": [
+    "涂之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "，海外宾伏，四夷纳职，合诸侯于涂山，执玉帛者万国。故机械之心藏于"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 2
+  }
+}

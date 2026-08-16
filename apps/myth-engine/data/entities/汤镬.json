@@ -1,0 +1,22 @@
+{
+  "id": "汤镬",
+  "name": "汤镬",
+  "pinyin": "huò",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "煮着滚水的大锅。古代常作刑具，用来烹煮罪人",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 11,
+      "entryId": "soushenji-11-04",
+      "type": "annotation",
+      "annotationExplanation": "煮着滚水的大锅。古代常作刑具，用来烹煮罪人"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 11
+  }
+}

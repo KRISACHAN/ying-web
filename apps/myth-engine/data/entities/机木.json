@@ -1,0 +1,22 @@
+{
+  "id": "机木",
+  "name": "机木",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "木名，即桤木，落叶乔木，叶长椭圆形，木质柔软",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-01",
+      "type": "annotation",
+      "annotationExplanation": "木名，即桤木，落叶乔木，叶长椭圆形，木质柔软"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

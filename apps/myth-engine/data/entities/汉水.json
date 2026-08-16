@@ -1,0 +1,74 @@
+{
+  "id": "汉水",
+  "name": "汉水",
+  "pinyin": "",
+  "aliases": [
+    "汉之水",
+    "濮渠水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即今汉江，是长江最长的支流。上源玉带河出陕西宁强县，东流到勉县东和褒河汇合后称汉江，在武汉入长江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-09",
+      "type": "annotation",
+      "annotationExplanation": "即今汉江，是长江最长的支流。上源玉带河出陕西宁强县，东流到勉县东和褒河汇合后称汉江，在武汉入长江"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-09",
+      "type": "text",
+      "context": "北流注于渭。清水出焉，南流注于汉水。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "text",
+      "context": "又西三百二十里，曰嶓冢之山，汉水出焉，而东南流注于沔；嚣水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-11",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说指朝鲜半岛的汉江；一说可能指松花江"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-11",
+      "type": "text",
+      "context": "貊国在汉水东北，地近于燕，灭之。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-12",
+      "type": "annotation",
+      "annotationExplanation": "一说此处应作“濮(pú)水”，濮水又称濮渠水，上游分两支，合流于今河南长垣县西"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-12",
+      "type": "text",
+      "context": "汉水出鲋鱼之山，帝颛顼葬于阳，九嫔"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "水轻利而宜禾，渭水多力而宜黍，汉水重安而宜竹，江水肥仁而宜稻。平"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

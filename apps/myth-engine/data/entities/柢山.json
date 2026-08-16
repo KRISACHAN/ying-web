@@ -1,0 +1,24 @@
+{
+  "id": "柢山",
+  "name": "柢山",
+  "pinyin": "dǐ",
+  "aliases": [
+    "柢之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说可能指今广东境内的大罗山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-05",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能指今广东境内的大罗山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

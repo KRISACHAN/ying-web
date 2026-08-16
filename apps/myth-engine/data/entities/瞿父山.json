@@ -1,0 +1,31 @@
+{
+  "id": "瞿父山",
+  "name": "瞿父山",
+  "pinyin": "",
+  "aliases": [
+    "瞿父之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即瞿父山，山名，具体所指待考。一说当指今浙江衢州的三衢山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-15",
+      "type": "annotation",
+      "annotationExplanation": "即瞿父山，山名，具体所指待考。一说当指今浙江衢州的三衢山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-15",
+      "type": "text",
+      "context": "，曰瞿父之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

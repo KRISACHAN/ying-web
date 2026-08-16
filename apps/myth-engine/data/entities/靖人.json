@@ -1,0 +1,24 @@
+{
+  "id": "靖人",
+  "name": "靖人",
+  "pinyin": "",
+  "aliases": [
+    "诤人"
+  ],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "也叫诤人、竫(jìnɡ)人，古代传说中的小人",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-05",
+      "type": "annotation",
+      "annotationExplanation": "也叫诤人、竫(jìnɡ)人，古代传说中的小人"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

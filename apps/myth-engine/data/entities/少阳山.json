@@ -1,0 +1,32 @@
+{
+  "id": "少阳山",
+  "name": "少阳山",
+  "pinyin": "",
+  "aliases": [
+    "少阳之山",
+    "南阳山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即少阳山，山名，一说即今山西古交市、静乐县界上的关帝山，又名南阳山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-18",
+      "type": "annotation",
+      "annotationExplanation": "即少阳山，山名，一说即今山西古交市、静乐县界上的关帝山，又名南阳山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-18",
+      "type": "text",
+      "context": "，曰少阳之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

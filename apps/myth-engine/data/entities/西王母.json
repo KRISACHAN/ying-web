@@ -1,0 +1,87 @@
+{
+  "id": "西王母",
+  "name": "西王母",
+  "pinyin": "",
+  "aliases": [
+    "瑶池金母"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "古代神话传说中的女神，也叫瑶池金母、王母娘娘。据传住在昆仑山上的瑶池中，园子里种有蟠桃，人吃了蟠桃能长生不老",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-32",
+      "type": "annotation",
+      "annotationExplanation": "古代神话传说中的女神，也叫瑶池金母、王母娘娘。据传住在昆仑山上的瑶池中，园子里种有蟠桃，人吃了蟠桃能长生不老"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-32",
+      "type": "text",
+      "context": "又西三百五十里，曰玉山，是西王母所居也。西王母其状如人，豹尾虎"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-03",
+      "type": "text",
+      "context": "西王母梯几而戴胜杖，其南有三青鸟，为"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-02",
+      "type": "text",
+      "context": "农，能入火不烧。至昆仑山，常入西王母石室中，随风雨上下。炎帝少女追"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-20",
+      "type": "text",
+      "context": "聚会里巷阡陌，设张博具歌舞，嗣西王母。又传书曰：“母告百姓：佩此书"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 14,
+      "entryId": "soushenji-14-07",
+      "type": "text",
+      "context": "羿请无死之药于西王母，嫦娥窃之以奔月，将往，枚筮之"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 20,
+      "entryId": "soushenji-20-04",
+      "type": "text",
+      "context": "，有黄衣童子，向宝再拜曰：“我西王母使者，使蓬莱，不慎，为鸱枭所搏"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 25,
+      "entryId": "soushenji-25-05",
+      "type": "text",
+      "context": "“我是何参军女，年十四而夭，为西王母所养，使与下土人交。”广与之缠"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "不周之北，长女简翟，少女建疵。西王母在流沙之濒。乐民、拏闾在昆仑弱"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "瀷而无源者。譬若弄请不死之药于西王母，姮娥窃以奔月，怅然有丧，无以"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

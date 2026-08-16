@@ -1,0 +1,22 @@
+{
+  "id": "封",
+  "name": "封",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "指在泰山上筑坛祭天",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-130",
+      "type": "annotation",
+      "annotationExplanation": "指在泰山上筑坛祭天"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

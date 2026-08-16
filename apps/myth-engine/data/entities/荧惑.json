@@ -1,0 +1,36 @@
+{
+  "id": "荧惑",
+  "name": "荧惑",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-07",
+      "type": "text",
+      "context": "答曰：“尔恐我乎？我非人也，乃荧惑星也，将有以告尔。三公归于司马"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "，其佐朱明，执衡而治夏，其神为荧惑，其兽朱鸟，其音徽，其日丙丁。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "是谓社稷主。”\n\n宋景公之时，荧惑在心。公惧，召子韦而问焉，曰："
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 8
+  }
+}

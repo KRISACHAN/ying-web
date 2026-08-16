@@ -1,0 +1,24 @@
+{
+  "id": "淮山",
+  "name": "淮山",
+  "pinyin": "",
+  "aliases": [
+    "淮之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说是祁连山、昆仑山的古称；一说即今新疆境内的桓山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-04",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说是祁连山、昆仑山的古称；一说即今新疆境内的桓山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

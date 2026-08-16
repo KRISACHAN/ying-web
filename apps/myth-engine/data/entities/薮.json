@@ -1,0 +1,22 @@
+{
+  "id": "薮",
+  "name": "薮",
+  "pinyin": "sǒu",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "生长着很多草的湖泽",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 20,
+      "entryId": "soushenji-20-14",
+      "type": "annotation",
+      "annotationExplanation": "生长着很多草的湖泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 20
+  }
+}

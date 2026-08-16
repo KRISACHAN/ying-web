@@ -1,0 +1,31 @@
+{
+  "id": "贲闻山",
+  "name": "贲闻山",
+  "pinyin": "",
+  "aliases": [
+    "贲闻之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即贲闻山，山名，一说指今河南济源市境内的岱嵋山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-34",
+      "type": "annotation",
+      "annotationExplanation": "即贲闻山，山名，一说指今河南济源市境内的岱嵋山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-34",
+      "type": "text",
+      "context": "，曰贲闻之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

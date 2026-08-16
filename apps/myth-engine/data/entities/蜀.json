@@ -1,0 +1,22 @@
+{
+  "id": "蜀",
+  "name": "蜀",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "蜀山，在今四川西北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-16",
+      "type": "annotation",
+      "annotationExplanation": "蜀山，在今四川西北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "寻木",
+  "name": "寻木",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "一种极其高大的树",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-07",
+      "type": "annotation",
+      "annotationExplanation": "一种极其高大的树"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-07",
+      "type": "text",
+      "context": "寻木长千里，在拘缨南，生河上西北。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

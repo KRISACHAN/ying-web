@@ -1,0 +1,24 @@
+{
+  "id": "山名不死山",
+  "name": "山名不死山",
+  "pinyin": "",
+  "aliases": [
+    "山名不死之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-06",
+      "type": "text",
+      "context": "，有山名不死之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

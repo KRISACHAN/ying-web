@@ -1,0 +1,22 @@
+{
+  "id": "奚仲",
+  "name": "奚仲",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中发明制造车的人，姓任，黄帝的后代，夏代为车正(掌车的官)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-20",
+      "type": "annotation",
+      "annotationExplanation": "传说中发明制造车的人，姓任，黄帝的后代，夏代为车正(掌车的官)"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

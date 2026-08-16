@@ -1,0 +1,24 @@
+{
+  "id": "带山",
+  "name": "带山",
+  "pinyin": "",
+  "aliases": [
+    "带之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说应为今宁夏、内蒙古界上贺兰山的一部分；一说在今新疆境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-03",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说应为今宁夏、内蒙古界上贺兰山的一部分；一说在今新疆境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}
