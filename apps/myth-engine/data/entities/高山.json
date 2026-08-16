@@ -1,0 +1,38 @@
+{
+  "id": "高山",
+  "name": "高山",
+  "pinyin": "",
+  "aliases": [
+    "高之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说指今宁夏六盘山山脉中的米缸山。“高山”前面当有“曰”字",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-18",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说指今宁夏六盘山山脉中的米缸山。“高山”前面当有“曰”字"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-17",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说指今四川西部的大雪山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-09",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说指邛崃(qiónɡ lái)山；一说指大雪山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

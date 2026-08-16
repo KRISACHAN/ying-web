@@ -1,0 +1,29 @@
+{
+  "id": "飨",
+  "name": "飨",
+  "pinyin": "xiǎnɡ",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "用酒食款待；也指祭祀",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-45",
+      "type": "annotation",
+      "annotationExplanation": "用酒食款待；也指祭祀"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-13",
+      "type": "annotation",
+      "annotationExplanation": "用酒食款待，也指祭祀"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

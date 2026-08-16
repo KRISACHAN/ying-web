@@ -1,0 +1,32 @@
+{
+  "id": "青丘",
+  "name": "青丘",
+  "pinyin": "",
+  "aliases": [
+    "青之丘",
+    "青丘山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即青丘山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-08",
+      "type": "annotation",
+      "annotationExplanation": "即青丘山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-08",
+      "type": "text",
+      "context": "，曰青丘之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

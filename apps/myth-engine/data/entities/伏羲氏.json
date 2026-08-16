@@ -1,0 +1,22 @@
+{
+  "id": "伏羲氏",
+  "name": "伏羲氏",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "之知而无所用之。及世之衰也，至伏羲氏，其道昧昧芒芒然，吟德怀和，被"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "生水",
+  "name": "生水",
+  "pinyin": "",
+  "aliases": [
+    "生之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即今陕西的无定河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-49",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即今陕西的无定河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-49",
+      "type": "text",
+      "context": "注于生水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "丹朱",
+  "name": "丹朱",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "传说中帝尧之子，名朱，因居丹水，名为丹朱。据说他傲慢荒淫，故尧不传位于他，而是传给了舜",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-08",
+      "type": "annotation",
+      "annotationExplanation": "传说中帝尧之子，名朱，因居丹水，名为丹朱。据说他傲慢荒淫，故尧不传位于他，而是传给了舜"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

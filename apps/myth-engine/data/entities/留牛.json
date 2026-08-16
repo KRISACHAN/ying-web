@@ -1,0 +1,22 @@
+{
+  "id": "留牛",
+  "name": "留牛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "所指待考。一说指瘤牛，颈项上有突起，鸣声较大；一说即犁牛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-05",
+      "type": "annotation",
+      "annotationExplanation": "所指待考。一说指瘤牛，颈项上有突起，鸣声较大；一说即犁牛"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

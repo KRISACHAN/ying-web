@@ -1,0 +1,22 @@
+{
+  "id": "龙鱼",
+  "name": "龙鱼",
+  "pinyin": "",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鱼名，具体所指待考。一说指穿山甲之类；一说是古鱼类化石",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-16",
+      "type": "annotation",
+      "annotationExplanation": "鱼名，具体所指待考。一说指穿山甲之类；一说是古鱼类化石"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

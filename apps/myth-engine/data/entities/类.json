@@ -1,0 +1,29 @@
+{
+  "id": "类",
+  "name": "类",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "动物名，具体所指待考。一说即大灵猫，身上有香囊",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-06",
+      "type": "annotation",
+      "annotationExplanation": "动物名，具体所指待考。一说即大灵猫，身上有香囊"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-06",
+      "type": "text",
+      "context": "有兽焉，其状如狸而有髦，其名曰类"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

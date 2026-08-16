@@ -1,0 +1,24 @@
+{
+  "id": "蔓居",
+  "name": "蔓居",
+  "pinyin": "",
+  "aliases": [
+    "荆"
+  ],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "木名，具体所指待考。一说指蔓荆，又叫荆，落叶小灌木，高约3米，小叶阔卵形，花冠淡紫色",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-23",
+      "type": "annotation",
+      "annotationExplanation": "木名，具体所指待考。一说指蔓荆，又叫荆，落叶小灌木，高约3米，小叶阔卵形，花冠淡紫色"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

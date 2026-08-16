@@ -1,0 +1,31 @@
+{
+  "id": "马成山",
+  "name": "马成山",
+  "pinyin": "",
+  "aliases": [
+    "马成之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即马成山，山名，具体所指待考。一说在今山西境内；一说在今河南境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-32",
+      "type": "annotation",
+      "annotationExplanation": "即马成山，山名，具体所指待考。一说在今山西境内；一说在今河南境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-32",
+      "type": "text",
+      "context": "，曰马成之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

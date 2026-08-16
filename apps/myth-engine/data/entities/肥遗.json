@@ -1,0 +1,22 @@
+{
+  "id": "肥遗",
+  "name": "肥遗",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "传说中的一种蛇",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-11",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种蛇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

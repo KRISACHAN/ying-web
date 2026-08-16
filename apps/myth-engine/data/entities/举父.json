@@ -1,0 +1,24 @@
+{
+  "id": "举父",
+  "name": "举父",
+  "pinyin": "",
+  "aliases": [
+    "四川猴"
+  ],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，一说即藏酋猴，又称四川猴、犹猴，是一种大型的猴类",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-28",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说即藏酋猴，又称四川猴、犹猴，是一种大型的猴类"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

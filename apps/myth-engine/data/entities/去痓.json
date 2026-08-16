@@ -1,0 +1,22 @@
+{
+  "id": "去痓",
+  "name": "去痓",
+  "pinyin": "chì",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-09",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

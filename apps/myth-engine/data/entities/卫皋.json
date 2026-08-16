@@ -1,0 +1,22 @@
+{
+  "id": "卫皋",
+  "name": "卫皋",
+  "pinyin": "ɡāo",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-24",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "厉",
+  "name": "厉",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "high",
+  "description": "灾疫。一说指星名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-32",
+      "type": "annotation",
+      "annotationExplanation": "灾疫。一说指星名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

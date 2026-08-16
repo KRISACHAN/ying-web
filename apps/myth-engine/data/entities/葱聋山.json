@@ -1,0 +1,31 @@
+{
+  "id": "葱聋山",
+  "name": "葱聋山",
+  "pinyin": "",
+  "aliases": [
+    "葱聋之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-04",
+      "type": "text",
+      "context": "，曰葱聋之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-35",
+      "type": "text",
+      "context": "，曰葱聋之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

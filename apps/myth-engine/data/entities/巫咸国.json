@@ -1,0 +1,22 @@
+{
+  "id": "巫咸国",
+  "name": "巫咸国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，因其国中之人都是巫师(巫咸即咸巫，意为都是巫师)，故名。一说巫咸为古代的神巫",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-10",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，因其国中之人都是巫师(巫咸即咸巫，意为都是巫师)，故名。一说巫咸为古代的神巫"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

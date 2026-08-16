@@ -1,0 +1,24 @@
+{
+  "id": "波母山",
+  "name": "波母山",
+  "pinyin": "",
+  "aliases": [
+    "波母之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "曰波母之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 5
+  }
+}

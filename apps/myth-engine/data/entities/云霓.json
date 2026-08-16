@@ -1,0 +1,22 @@
+{
+  "id": "云霓",
+  "name": "云霓",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "high",
+  "description": "以云霓为旗，一说画有云霓的旗",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-12",
+      "type": "annotation",
+      "annotationExplanation": "以云霓为旗，一说画有云霓的旗"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

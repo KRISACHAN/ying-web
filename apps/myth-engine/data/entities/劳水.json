@@ -1,0 +1,31 @@
+{
+  "id": "劳水",
+  "name": "劳水",
+  "pinyin": "",
+  "aliases": [
+    "劳之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说可能是今尧河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-42",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说可能是今尧河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-42",
+      "type": "text",
+      "context": "注于劳水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

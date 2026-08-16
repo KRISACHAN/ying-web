@@ -1,0 +1,29 @@
+{
+  "id": "磬石",
+  "name": "磬石",
+  "pinyin": "qìnɡ",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "适宜制磬的美石",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-04",
+      "type": "annotation",
+      "annotationExplanation": "适宜制磬的美石"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-18",
+      "type": "annotation",
+      "annotationExplanation": "适宜制磬的美石"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

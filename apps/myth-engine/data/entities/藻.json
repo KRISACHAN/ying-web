@@ -1,0 +1,22 @@
+{
+  "id": "藻",
+  "name": "藻",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "聚藻，一种香草",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-47",
+      "type": "annotation",
+      "annotationExplanation": "聚藻，一种香草"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

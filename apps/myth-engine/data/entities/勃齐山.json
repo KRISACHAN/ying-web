@@ -1,0 +1,31 @@
+{
+  "id": "勃齐山",
+  "name": "勃齐山",
+  "pinyin": "",
+  "aliases": [
+    "勃齐之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即勃齐山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-03",
+      "type": "annotation",
+      "annotationExplanation": "即勃齐山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-03",
+      "type": "text",
+      "context": "，曰勃齐之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

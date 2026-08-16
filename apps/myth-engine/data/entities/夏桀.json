@@ -1,0 +1,64 @@
+{
+  "id": "夏桀",
+  "name": "夏桀",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-02",
+      "type": "text",
+      "context": "夏桀之时厉山亡，秦始皇之时三山亡，"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-07",
+      "type": "text",
+      "context": "自忘兮，\n\n厥首用夫颠陨。\n\n夏桀之常违兮，\n\n乃遂焉而逢殃。\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-04",
+      "type": "text",
+      "context": "饰玉,\n\n后帝是飨。\n\n何承谋夏桀,\n\n终以灭丧？\n\n帝乃降观,"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "能与之同光者，遇唐虞之时。逮至夏桀、殷纣，燔生人，辜谏者，为炮烙"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "德上通，而智故消灭也。\n\n逮至夏桀之时，主暗晦而不明，道澜漫而不"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "百里，而立为天子者，有王道也。夏桀、殷纣之盛也，人迹所至，舟车所"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "财，而澹一人之欲，祸莫深焉。使夏桀、殷纣有害于民而立被其患，不至"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 6
+  }
+}

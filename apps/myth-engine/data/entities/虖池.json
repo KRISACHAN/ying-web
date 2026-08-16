@@ -1,0 +1,31 @@
+{
+  "id": "虖池",
+  "name": "虖池",
+  "pinyin": "",
+  "aliases": [
+    "虖之池"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今滹沱河，位于河北西部，源出山西五台山东北泰戏山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-39",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今滹沱河，位于河北西部，源出山西五台山东北泰戏山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-39",
+      "type": "text",
+      "context": "注于虖池"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "甑",
+  "name": "甑",
+  "pinyin": "zèng",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "古代蒸饭的一种瓦器",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 17,
+      "entryId": "soushenji-17-06",
+      "type": "annotation",
+      "annotationExplanation": "古代蒸饭的一种瓦器"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 17
+  }
+}

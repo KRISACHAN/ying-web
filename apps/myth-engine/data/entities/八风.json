@@ -1,0 +1,64 @@
+{
+  "id": "八风",
+  "name": "八风",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "，不能见渊中之鱼；师旷之聪，合八风之调，而不能听十里之外。故任一"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "不通此者，虽目数千羊之群，耳分八风之调，足蹀《阳阿》之舞，而手会"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "九十九隅，去地五亿万里；五星，八风，二十八宿，五官，六府紫宫，太"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "，赵之巨鹿，燕之昭余。\n\n何谓八风？东北曰炎风，东方曰条风，东南"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "，服苍玉，建青旗，食麦与羊，服八风水，爨其燧火。dōng宫御女青"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "合四时，叫呼而比雷霆，音气不戾八风，础伸不获五度。下至介鳞，上及"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "作乐也，皆合六律而调五音，以通八风；及其衰也，以沉湎淫康，不顾政"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 2
+  }
+}

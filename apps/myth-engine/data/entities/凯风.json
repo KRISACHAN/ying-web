@@ -1,0 +1,22 @@
+{
+  "id": "凯风",
+  "name": "凯风",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "high",
+  "description": "和暖的风。也指南风",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-30",
+      "type": "annotation",
+      "annotationExplanation": "和暖的风。也指南风"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

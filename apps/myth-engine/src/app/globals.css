@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: light;
+}
+
+html,
+body {
+    background-color: #f6f3ec;
+    color: #2b251b;
+}
+
+body {
+    font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui,
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+/* Subtle paper texture using layered gradients — no external assets. */
+.paper-bg {
+    background-color: #f6f3ec;
+    background-image: radial-gradient(
+            circle at 20% 10%,
+            rgb(168 50 45 / 4%),
+            transparent 40%
+        ),
+        radial-gradient(circle at 80% 0%, rgb(63 107 84 / 5%), transparent 45%),
+        repeating-linear-gradient(
+            0deg,
+            rgb(66 56 40 / 1.8%) 0,
+            rgb(66 56 40 / 1.8%) 1px,
+            transparent 1px,
+            transparent 4px
+        );
+}
+
+.vertical-text {
+    letter-spacing: 0.25em;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+
+/* Classical prose styling for original-text blocks. */
+.prose-classical {
+    font-family: 'Noto Serif SC', 'Songti SC', STSong, SimSun, serif;
+    line-height: 2;
+    text-align: justify;
+    word-break: break-all;
+}
+
+/* Thin scrollbar for filter rows. */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Anchor offset for in-chapter entry links. */
+:target {
+    scroll-margin-top: 6rem;
+}

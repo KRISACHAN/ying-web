@@ -1,0 +1,24 @@
+{
+  "id": "春浮河",
+  "name": "春浮河",
+  "pinyin": "",
+  "aliases": [
+    "春浮之河"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 20,
+      "entryId": "huainanzi-20-01",
+      "type": "text",
+      "context": "于春浮之河"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 20
+  }
+}

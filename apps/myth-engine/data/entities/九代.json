@@ -1,0 +1,22 @@
+{
+  "id": "九代",
+  "name": "九代",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "一说指乐名；一说指马名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-04",
+      "type": "annotation",
+      "annotationExplanation": "一说指乐名；一说指马名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

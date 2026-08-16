@@ -1,0 +1,22 @@
+{
+  "id": "儵",
+  "name": "儵",
+  "pinyin": "",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鱼名，长达16厘米，银白色",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-19",
+      "type": "annotation",
+      "annotationExplanation": "鱼名，长达16厘米，银白色"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "湖灌水",
+  "name": "湖灌水",
+  "pinyin": "",
+  "aliases": [
+    "湖灌之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-26",
+      "type": "text",
+      "context": "湖灌之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

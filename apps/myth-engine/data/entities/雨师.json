@@ -1,0 +1,57 @@
+{
+  "id": "雨师",
+  "name": "雨师",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-10",
+      "type": "text",
+      "context": "雨师妾在其北，其为人黑，两手各操一"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-11",
+      "type": "text",
+      "context": "人，衣鱼食，使两鸟夹之。一曰在雨师妾北。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-02",
+      "type": "text",
+      "context": "赤松子者，神农时雨师也，服冰玉散，以教神农，能入火"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-01",
+      "type": "text",
+      "context": "风伯、雨师，星也。风伯者，箕星也。雨师者"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "远兮,\n\n徐弭节而高厉。\n\n左雨师使径侍兮,\n\n右雷公以为卫。\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "区；可以步而步，可以骤而骤；令雨师洒道，使风伯塌尘；电以为鞭策，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

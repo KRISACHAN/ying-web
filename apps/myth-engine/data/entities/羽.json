@@ -1,0 +1,22 @@
+{
+  "id": "羽",
+  "name": "羽",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "羽山。传说一般都认为鲧治水失败而被杀。韩非却认为因鲧直谏尧而被杀",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-06",
+      "type": "annotation",
+      "annotationExplanation": "羽山。传说一般都认为鲧治水失败而被杀。韩非却认为因鲧直谏尧而被杀"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

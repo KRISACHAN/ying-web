@@ -1,0 +1,22 @@
+{
+  "id": "埻端",
+  "name": "埻端",
+  "pinyin": "zhǔn",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，一说可能指敦煌",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-03",
+      "type": "annotation",
+      "annotationExplanation": "国名，一说可能指敦煌"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "匠韩水",
+  "name": "匠韩水",
+  "pinyin": "",
+  "aliases": [
+    "匠韩之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即匠韩水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-08",
+      "type": "annotation",
+      "annotationExplanation": "即匠韩水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-08",
+      "type": "text",
+      "context": "匠韩之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "柔利国",
+  "name": "柔利国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-05",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-05",
+      "type": "text",
+      "context": "柔利国在一目东，为人一手一足，反膝，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

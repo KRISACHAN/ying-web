@@ -1,0 +1,31 @@
+{
+  "id": "绳水",
+  "name": "绳水",
+  "pinyin": "",
+  "aliases": [
+    "绳之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说指今河北昌黎县蒲河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-45",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说指今河北昌黎县蒲河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-45",
+      "type": "text",
+      "context": "绳水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

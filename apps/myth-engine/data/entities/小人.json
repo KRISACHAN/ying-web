@@ -1,0 +1,22 @@
+{
+  "id": "小人",
+  "name": "小人",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "指身材特别矮小的人",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-19",
+      "type": "annotation",
+      "annotationExplanation": "指身材特别矮小的人"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

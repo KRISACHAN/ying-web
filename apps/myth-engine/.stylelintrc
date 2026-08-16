@@ -1,0 +1,19 @@
+{
+    "extends": ["stylelint-config-standard"],
+    "plugins": ["stylelint-order"],
+    "rules": {
+        "order/properties-alphabetical-order": true,
+        "at-rule-no-unknown": null,
+        "selector-class-pattern": null,
+        "keyframes-name-pattern": null,
+        "no-descending-specificity": null,
+        "property-no-vendor-prefix": null,
+        "value-no-vendor-prefix": null
+    },
+    "overrides": [
+        {
+            "files": ["*.less", "**/*.less"],
+            "customSyntax": "postcss-less"
+        }
+    ]
+}

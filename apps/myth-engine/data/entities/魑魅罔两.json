@@ -1,0 +1,22 @@
+{
+  "id": "魑魅罔两",
+  "name": "魑魅罔两",
+  "pinyin": "chī mèi",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中山林中的妖怪",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 3,
+      "entryId": "soushenji-03-04",
+      "type": "annotation",
+      "annotationExplanation": "传说中山林中的妖怪"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "璋",
+  "name": "璋",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "举行典礼时所用的一种玉器，形状像圭的一半",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-10",
+      "type": "annotation",
+      "annotationExplanation": "举行典礼时所用的一种玉器，形状像圭的一半"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

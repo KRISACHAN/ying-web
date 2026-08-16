@@ -1,0 +1,22 @@
+{
+  "id": "九鼎",
+  "name": "九鼎",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "有所小用哉，然未可以保于周室之九鼎也，又况比于规形者乎？其与道相"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "武丁",
+  "name": "武丁",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "殷高宗名。传说武丁在梦中得一贤臣，就画像到处访寻，后来在傅岩筑墙的刑徒中找到了傅说，于是用为国相，国遂大治",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-11",
+      "type": "annotation",
+      "annotationExplanation": "殷高宗名。传说武丁在梦中得一贤臣，就画像到处访寻，后来在傅岩筑墙的刑徒中找到了傅说，于是用为国相，国遂大治"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

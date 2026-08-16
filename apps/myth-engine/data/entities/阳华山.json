@@ -1,0 +1,31 @@
+{
+  "id": "阳华山",
+  "name": "阳华山",
+  "pinyin": "",
+  "aliases": [
+    "阳华之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即阳华山，山名，在今陕西洛南县至华山之间",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-55",
+      "type": "annotation",
+      "annotationExplanation": "即阳华山，山名，在今陕西洛南县至华山之间"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-55",
+      "type": "text",
+      "context": "，曰阳华之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

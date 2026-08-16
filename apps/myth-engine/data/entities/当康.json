@@ -1,0 +1,29 @@
+{
+  "id": "当康",
+  "name": "当康",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-39",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-39",
+      "type": "text",
+      "context": "有兽焉，其状如豚而有牙，其名曰当康"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

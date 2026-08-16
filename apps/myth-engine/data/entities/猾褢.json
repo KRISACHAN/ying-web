@@ -1,0 +1,29 @@
+{
+  "id": "猾褢",
+  "name": "猾褢",
+  "pinyin": "huái",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，具体所指待考。一说即貉(hé)，一种野兽，毛棕灰色，耳小，嘴尖，昼伏夜出",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-13",
+      "type": "annotation",
+      "annotationExplanation": "兽名，具体所指待考。一说即貉(hé)，一种野兽，毛棕灰色，耳小，嘴尖，昼伏夜出"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-13",
+      "type": "text",
+      "context": "有兽焉，其状如人而彘鬣，穴居而冬蛰，其名曰猾褢"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

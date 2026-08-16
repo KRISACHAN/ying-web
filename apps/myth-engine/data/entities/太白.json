@@ -1,0 +1,22 @@
+{
+  "id": "太白",
+  "name": "太白",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "，其佐蓐收，执矩而治秋，其神为太白，其兽白虎，其音商，其日庚辛。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 4
+  }
+}

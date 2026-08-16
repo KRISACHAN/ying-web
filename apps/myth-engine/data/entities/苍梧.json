@@ -1,0 +1,71 @@
+{
+  "id": "苍梧",
+  "name": "苍梧",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": "山名，位于西北地区，一说为昆仑山的群山之一",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-08",
+      "type": "text",
+      "context": "苍梧之山，帝舜葬于阳，帝丹朱葬于阴"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-05",
+      "type": "annotation",
+      "annotationExplanation": "山名，位于西北地区，一说为昆仑山的群山之一"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-05",
+      "type": "text",
+      "context": "西胡白玉山在大夏东，苍梧在白玉山西南，皆在流沙西，昆仑"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-02",
+      "type": "text",
+      "context": "泛天之山，赤水穷焉。赤水之东有苍梧之野，舜与叔均之所葬也。爰有文"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "text",
+      "context": "\n\n溘埃风余上征。\n\n朝发轫于苍梧兮，\n\n夕余至乎县圃。\n\n欲少"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-01",
+      "type": "text",
+      "context": "\n\n步余马兮洞庭。\n\n平明发兮苍梧,\n\n夕投宿兮石城。\n\n芙蓉盖"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "故葬埋足以收敛盖藏而已。昔舜葬苍梧，市不变其肆；禹葬会稽之山，农"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "岩穴，各有家室。南征三苗，道死苍梧。禹沐浴淫雨，栉扶风，决江疏河"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

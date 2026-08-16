@@ -1,0 +1,56 @@
+{
+  "id": "昆仑山",
+  "name": "昆仑山",
+  "pinyin": "",
+  "aliases": [
+    "昆仑之山",
+    "昆仑虚"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-05",
+      "type": "text",
+      "context": "西南，皆在流沙西，昆仑虚东南。昆仑山在西胡西，皆在西北。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-02",
+      "type": "text",
+      "context": "玉散，以教神农，能入火不烧。至昆仑山，常入西王母石室中，随风雨上下"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-03",
+      "type": "annotation",
+      "annotationExplanation": "即昆仑山",
+      "crossReference": true
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-12",
+      "type": "annotation",
+      "annotationExplanation": "即昆仑山",
+      "crossReference": true
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-03",
+      "type": "annotation",
+      "annotationExplanation": "即昆仑山",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

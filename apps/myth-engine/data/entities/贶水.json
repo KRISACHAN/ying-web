@@ -1,0 +1,32 @@
+{
+  "id": "贶水",
+  "name": "贶水",
+  "pinyin": "kuànɡ",
+  "aliases": [
+    "贶之水",
+    "淅江"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即今淅河，也叫淅江，在河南西部，源出卢氏县熊耳山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-100",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即今淅河，也叫淅江，在河南西部，源出卢氏县熊耳山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-100",
+      "type": "text",
+      "context": "贶水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

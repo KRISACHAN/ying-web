@@ -1,0 +1,42 @@
+{
+  "id": "岷山",
+  "name": "岷山",
+  "pinyin": "",
+  "aliases": [
+    "岷之山",
+    "文山",
+    "汶山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，在今四川松潘县北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-79",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今四川松潘县北"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-91",
+      "type": "annotation",
+      "annotationExplanation": "即岷山",
+      "crossReference": true
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-09",
+      "type": "annotation",
+      "annotationExplanation": "即岷山",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

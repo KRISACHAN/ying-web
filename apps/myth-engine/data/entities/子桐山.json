@@ -1,0 +1,31 @@
+{
+  "id": "子桐山",
+  "name": "子桐山",
+  "pinyin": "",
+  "aliases": [
+    "子桐之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即子桐山，山名，具体所指待考。一说在今山东境内；一说在今山西境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-40",
+      "type": "annotation",
+      "annotationExplanation": "即子桐山，山名，具体所指待考。一说在今山东境内；一说在今山西境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-40",
+      "type": "text",
+      "context": "，曰子桐之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

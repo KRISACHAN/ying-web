@@ -1,0 +1,22 @@
+{
+  "id": "疏",
+  "name": "疏",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-03",
+      "type": "text",
+      "context": "有兽焉，其状如马，一角有错，其名曰疏"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

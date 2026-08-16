@@ -1,0 +1,22 @@
+{
+  "id": "虖勺",
+  "name": "虖勺",
+  "pinyin": "hū",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说可能指今浙江境内的富春江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-18",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说可能指今浙江境内的富春江"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

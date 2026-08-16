@@ -1,0 +1,22 @@
+{
+  "id": "方丈",
+  "name": "方丈",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 22,
+      "entryId": "soushenji-22-03",
+      "type": "text",
+      "context": "太兴中，衡阳区纯作鼠市：四方丈余，开四门，门有一木人。纵四五"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 22
+  }
+}

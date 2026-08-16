@@ -1,0 +1,22 @@
+{
+  "id": "王子乔",
+  "name": "王子乔",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-08",
+      "type": "text",
+      "context": "崔文子者，泰山人也。学仙于王子乔。子乔化为白霓，而持药与文子。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

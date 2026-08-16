@@ -1,0 +1,45 @@
+{
+  "id": "甘水",
+  "name": "甘水",
+  "pinyin": "",
+  "aliases": [
+    "甘之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即甘河，发源于今河南宜阳县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-26",
+      "type": "annotation",
+      "annotationExplanation": "水名，即甘河，发源于今河南宜阳县"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-26",
+      "type": "text",
+      "context": "甘水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-01",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-01",
+      "type": "text",
+      "context": "甘水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

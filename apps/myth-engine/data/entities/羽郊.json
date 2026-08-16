@@ -1,0 +1,22 @@
+{
+  "id": "羽郊",
+  "name": "羽郊",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "羽山之郊。此处所指羽山相传为舜杀死鲧处，一说在今山东郯(tán)城东北，一说在今山东蓬莱市东南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-23",
+      "type": "annotation",
+      "annotationExplanation": "羽山之郊。此处所指羽山相传为舜杀死鲧处，一说在今山东郯(tán)城东北，一说在今山东蓬莱市东南"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

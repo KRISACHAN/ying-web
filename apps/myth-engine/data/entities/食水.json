@@ -1,0 +1,52 @@
+{
+  "id": "食水",
+  "name": "食水",
+  "pinyin": "",
+  "aliases": [
+    "食之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即时水，今名淄河，在淄博市附近",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-01",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即时水，今名淄河，在淄博市附近"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-01",
+      "type": "text",
+      "context": "食水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-02",
+      "type": "text",
+      "context": "注于食水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-36",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说指小清河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-36",
+      "type": "text",
+      "context": "食水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

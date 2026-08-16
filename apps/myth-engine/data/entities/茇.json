@@ -1,0 +1,22 @@
+{
+  "id": "茇",
+  "name": "茇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-29",
+      "type": "text",
+      "context": "有木焉，其状如樗，其叶如桐而荚实，其名曰茇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

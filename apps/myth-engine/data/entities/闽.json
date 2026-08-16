@@ -1,0 +1,22 @@
+{
+  "id": "闽",
+  "name": "闽",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古种族名，生活在今浙江南部和福建一带。后因称福建为闽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-02",
+      "type": "annotation",
+      "annotationExplanation": "古种族名，生活在今浙江南部和福建一带。后因称福建为闽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

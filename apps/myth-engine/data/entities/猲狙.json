@@ -1,0 +1,24 @@
+{
+  "id": "猲狙",
+  "name": "猲狙",
+  "pinyin": "ɡéjū",
+  "aliases": [
+    "红狼"
+  ],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "一说应作“獦狚(ɡé dàn)”，传说中的一种兽。一说即豺狗，又名红狼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-36",
+      "type": "annotation",
+      "annotationExplanation": "一说应作“獦狚(ɡé dàn)”，传说中的一种兽。一说即豺狗，又名红狼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

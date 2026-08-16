@@ -1,0 +1,22 @@
+{
+  "id": "孟极",
+  "name": "孟极",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，具体所指待考。一说属豹的一种",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-07",
+      "type": "annotation",
+      "annotationExplanation": "兽名，具体所指待考。一说属豹的一种"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

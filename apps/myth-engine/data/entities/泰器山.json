@@ -1,0 +1,31 @@
+{
+  "id": "泰器山",
+  "name": "泰器山",
+  "pinyin": "",
+  "aliases": [
+    "泰器之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即泰器山，山名，具体所指待考。一说在今甘肃境内；一说在今新疆境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-30",
+      "type": "annotation",
+      "annotationExplanation": "即泰器山，山名，具体所指待考。一说在今甘肃境内；一说在今新疆境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-30",
+      "type": "text",
+      "context": "，曰泰器之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

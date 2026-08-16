@@ -1,0 +1,22 @@
+{
+  "id": "大人之堂",
+  "name": "大人之堂",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "一说指山名，山的形状如堂屋；一说指大人之市中用来交易的堂屋",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-04",
+      "type": "annotation",
+      "annotationExplanation": "一说指山名，山的形状如堂屋；一说指大人之市中用来交易的堂屋"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

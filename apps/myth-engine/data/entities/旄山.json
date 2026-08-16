@@ -1,0 +1,31 @@
+{
+  "id": "旄山",
+  "name": "旄山",
+  "pinyin": "máo",
+  "aliases": [
+    "旄之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说可能是今广东的罗浮山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-30",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能是今广东的罗浮山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-37",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在今河北张家口北；一说在今山东境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

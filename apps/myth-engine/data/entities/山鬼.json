@@ -1,0 +1,22 @@
+{
+  "id": "山鬼",
+  "name": "山鬼",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-09",
+      "type": "text",
+      "context": "见天,\n\n路险难兮独后来。\n\n山鬼表独立兮山之上,\n\n云容容兮而"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 2
+  }
+}

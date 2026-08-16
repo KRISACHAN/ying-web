@@ -1,0 +1,22 @@
+{
+  "id": "大蛇",
+  "name": "大蛇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "这里指传说中的一种蛇",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-46",
+      "type": "annotation",
+      "annotationExplanation": "这里指传说中的一种蛇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "济山",
+  "name": "济山",
+  "pinyin": "",
+  "aliases": [
+    "济之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山系名，具体所指待考。一说指济水所出的山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-11",
+      "type": "annotation",
+      "annotationExplanation": "山系名，具体所指待考。一说指济水所出的山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "鼓钟山",
+  "name": "鼓钟山",
+  "pinyin": "",
+  "aliases": [
+    "鼓钟之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即鼓钟山，山名，一说在今河南嵩县境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-58",
+      "type": "annotation",
+      "annotationExplanation": "即鼓钟山，山名，一说在今河南嵩县境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-58",
+      "type": "text",
+      "context": "，曰鼓钟之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

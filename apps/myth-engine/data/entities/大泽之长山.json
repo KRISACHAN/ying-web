@@ -1,0 +1,24 @@
+{
+  "id": "大泽之长山",
+  "name": "大泽之长山",
+  "pinyin": "",
+  "aliases": [
+    "大泽之长之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说指沙漠",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-06",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说指沙漠"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "麂",
+  "name": "麂",
+  "pinyin": "jǐ",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "一种小型的鹿，腿细而有力，善跳跃，雄的有长牙和短角，有黄麂、黑麂、赤麂等",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-71",
+      "type": "annotation",
+      "annotationExplanation": "一种小型的鹿，腿细而有力，善跳跃，雄的有长牙和短角，有黄麂、黑麂、赤麂等"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-121",
+      "type": "annotation",
+      "annotationExplanation": "即“麂(jǐ)”"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 17,
+      "entryId": "soushenji-17-05",
+      "type": "annotation",
+      "annotationExplanation": "哺乳动物的一属，像鹿，腿细而有力，善于跳跃，皮很软可以制革。通称“麂子”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

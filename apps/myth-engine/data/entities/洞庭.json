@@ -1,0 +1,85 @@
+{
+  "id": "洞庭",
+  "name": "洞庭",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-116",
+      "type": "text",
+      "context": "中次十二经洞庭山之首，曰篇遇之山，无草木，多"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-120",
+      "type": "text",
+      "context": "又东南一百二十里，曰洞庭之山，其上多黄金，其下多银铁，"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-128",
+      "type": "text",
+      "context": "凡洞庭山之首，自篇遇之山至于荣余之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-17",
+      "type": "text",
+      "context": "镡城西，入东注江，入下隽西，合洞庭中。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-03",
+      "type": "text",
+      "context": "\n\n驾飞龙兮兆征,\n\n邅吾道兮洞庭。\n\n薜荔柏兮蕙绸,\n\n荪桡兮"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-04",
+      "type": "text",
+      "context": "眇兮愁予。\n\n袅袅兮秋风,\n\n洞庭波兮木叶下。\n\n登白薠兮骋望,"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-04",
+      "type": "text",
+      "context": "释。\n\n将运舟而下浮兮,\n\n上洞庭而下江。\n\n去终古之所居兮,\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-01",
+      "type": "text",
+      "context": "\n\n驰余车兮玄石,\n\n步余马兮洞庭。\n\n平明发兮苍梧,\n\n夕投宿"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "，上射十日而下杀猰貐，断修蛇于洞庭，禽封豨于桑林，万民皆喜，置尧"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "岷山也，可 衣而越也，及至乎下洞庭，鹜石城，经丹徒，起波涛，舟杭"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

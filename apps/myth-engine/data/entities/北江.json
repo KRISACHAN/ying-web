@@ -1,0 +1,25 @@
+{
+  "id": "北江",
+  "name": "北江",
+  "pinyin": "",
+  "aliases": [
+    "北之江",
+    "雅河"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即青衣江，又叫雅河，在今四川中部，是大渡河的支流",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-09",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即青衣江，又叫雅河，在今四川中部，是大渡河的支流"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "荚",
+  "name": "荚",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "豆类植物的长形的果实",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-01",
+      "type": "annotation",
+      "annotationExplanation": "豆类植物的长形的果实"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

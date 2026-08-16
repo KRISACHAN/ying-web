@@ -1,0 +1,87 @@
+{
+  "id": "荆山",
+  "name": "荆山",
+  "pinyin": "",
+  "aliases": [
+    "荆之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山系名，在今湖北北部",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-68",
+      "type": "annotation",
+      "annotationExplanation": "山系名，在今湖北北部"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-68",
+      "type": "text",
+      "context": "中山八经荆山之首，曰景山，其上多金玉，其木"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-69",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今湖北南漳县西部"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-69",
+      "type": "text",
+      "context": "东北百里，曰荆山，其阴多铁，其阳多赤金，其中多"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-78",
+      "type": "text",
+      "context": "凡荆山之首，自景山至琴鼓之山，二千八"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-100",
+      "type": "annotation",
+      "annotationExplanation": "山系名，在今河南西部，是熊耳山和伏牛山的合称"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-100",
+      "type": "text",
+      "context": "中山一十一山经荆山之首，曰翼望之山。湍水出焉，东"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-115",
+      "type": "text",
+      "context": "凡荆山之首，自翼望之山至于凡山，三千"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "东流，至于东极。河出积石。睢出荆山。淮出桐柏山。睢出羽山。清漳出"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "远而贵之耳。此和氏之所以泣血于荆山之下。\n\n今剑或绝侧羸文，啮缺"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

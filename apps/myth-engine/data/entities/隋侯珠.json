@@ -1,0 +1,22 @@
+{
+  "id": "隋侯珠",
+  "name": "隋侯珠",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 20,
+      "entryId": "soushenji-20-05",
+      "type": "text",
+      "context": "明如月之照，可以烛室。故谓之“隋侯珠”，亦曰“灵蛇珠”，又曰“明月"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 20
+  }
+}

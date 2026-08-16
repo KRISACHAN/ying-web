@@ -1,0 +1,31 @@
+{
+  "id": "周饶国",
+  "name": "周饶国",
+  "pinyin": "",
+  "aliases": [
+    "僬侥国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "也叫僬侥国、焦侥国，传说中由矮人组成的国家，在中国的南方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-16",
+      "type": "annotation",
+      "annotationExplanation": "也叫僬侥国、焦侥国，传说中由矮人组成的国家，在中国的南方"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-16",
+      "type": "text",
+      "context": "周饶国在其东，其为人短小，冠带。一曰"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

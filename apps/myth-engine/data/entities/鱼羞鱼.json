@@ -1,0 +1,22 @@
+{
+  "id": "鱼羞鱼",
+  "name": "鱼羞鱼",
+  "pinyin": "qiū",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鱼名，一说指海鲇(nián)，体长可达15米，头大，略扁平，眼小，无鳞",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-37",
+      "type": "annotation",
+      "annotationExplanation": "鱼名，一说指海鲇(nián)，体长可达15米，头大，略扁平，眼小，无鳞"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

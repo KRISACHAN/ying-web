@@ -1,0 +1,85 @@
+{
+  "id": "造父",
+  "name": "造父",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-08",
+      "type": "text",
+      "context": "异路。\n\n勒骐骥而更驾兮,\n\n造父为我操之。\n\n迁逡次而勿驱兮,"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "狗，策蹄马，而欲教之，虽伊尹、造父弗能化。欲寅之心亡于中，则饥虎"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "以至于妙。然而奚仲不能为逢蒙，造父不能为伯乐者，是曰谕于一曲，而"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "大节之所由者也。\n\n昔者王良、造父之御也，上车摄辔，马为整齐而敛"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "况当世之主乎！夫载重而马羸，虽造父不能以致远；车轻马良，虽中工可"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 11,
+      "entryId": "huainanzi-11-01",
+      "type": "text",
+      "context": "行于民矣。\n\n圣主之治也，其犹造父之御：齐辑之于辔衔之际，而急缓"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "之马，皆可以驰驱，或近或远，唯造父能尽其力；三苗之民，皆可使忠信"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "钳且得道以处昆仑。扁鹊以治病，造父以御马，羿以之射，倕以之所，所"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "斗者，积恩先施也。故四马不调，造父不能以致远；弓矢不调，弄不能以"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 19,
+      "entryId": "huainanzi-19-01",
+      "type": "text",
+      "context": "羿之所以射远中微者，非弓矢也；造父之所以追速致远者，非辔衔也。海"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 4
+  }
+}

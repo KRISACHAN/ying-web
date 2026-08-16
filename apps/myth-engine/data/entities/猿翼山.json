@@ -1,0 +1,31 @@
+{
+  "id": "猿翼山",
+  "name": "猿翼山",
+  "pinyin": "",
+  "aliases": [
+    "猿翼之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即猿翼山，山名，具体所指待考。一说可能是位于今广东的云开大山；一说应在今湖南境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-03",
+      "type": "annotation",
+      "annotationExplanation": "即猿翼山，山名，具体所指待考。一说可能是位于今广东的云开大山；一说应在今湖南境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-03",
+      "type": "text",
+      "context": "，曰猿翼之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

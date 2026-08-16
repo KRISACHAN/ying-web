@@ -1,0 +1,24 @@
+{
+  "id": "芘湖水",
+  "name": "芘湖水",
+  "pinyin": "",
+  "aliases": [
+    "芘湖之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即芘(一作“茈”)湖水，水名，具体所指待考。一说指今新疆境内的艾比湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-03",
+      "type": "annotation",
+      "annotationExplanation": "即芘(一作“茈”)湖水，水名，具体所指待考。一说指今新疆境内的艾比湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

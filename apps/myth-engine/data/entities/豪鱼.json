@@ -1,0 +1,22 @@
+{
+  "id": "豪鱼",
+  "name": "豪鱼",
+  "pinyin": "",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鱼名，一说指鲟(xún)鱼，体近圆筒形，口小而尖，背部和腹部有大片硬鳞",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-03",
+      "type": "annotation",
+      "annotationExplanation": "鱼名，一说指鲟(xún)鱼，体近圆筒形，口小而尖，背部和腹部有大片硬鳞"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

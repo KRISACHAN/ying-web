@@ -1,0 +1,24 @@
+{
+  "id": "崃山",
+  "name": "崃山",
+  "pinyin": "lái",
+  "aliases": [
+    "崃之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，即邛(qiónɡ)崃山，在今四川阿坝藏族羌族自治州",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-80",
+      "type": "annotation",
+      "annotationExplanation": "山名，即邛(qiónɡ)崃山，在今四川阿坝藏族羌族自治州"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

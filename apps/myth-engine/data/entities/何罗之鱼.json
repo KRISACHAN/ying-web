@@ -1,0 +1,24 @@
+{
+  "id": "何罗之鱼",
+  "name": "何罗之鱼",
+  "pinyin": "",
+  "aliases": [
+    "何罗鱼"
+  ],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "即何罗鱼，传说中的一种鱼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-04",
+      "type": "annotation",
+      "annotationExplanation": "即何罗鱼，传说中的一种鱼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

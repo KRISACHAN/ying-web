@@ -1,0 +1,31 @@
+{
+  "id": "谯明山",
+  "name": "谯明山",
+  "pinyin": "",
+  "aliases": [
+    "谯明之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即谯明山，山名，一说指今内蒙古的卓资山；一说在今新疆境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-04",
+      "type": "annotation",
+      "annotationExplanation": "即谯明山，山名，一说指今内蒙古的卓资山；一说在今新疆境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-04",
+      "type": "text",
+      "context": "，曰谯明之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

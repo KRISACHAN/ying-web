@@ -1,0 +1,43 @@
+{
+  "id": "屈原",
+  "name": "屈原",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 6,
+      "entryId": "chuci-06-01",
+      "type": "text",
+      "context": "屈原既放,\n\n三年不得复见。\n\n竭"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 7,
+      "entryId": "chuci-07-01",
+      "type": "text",
+      "context": "屈原既放,\n\n游于江潭,\n\n行吟泽"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-02",
+      "type": "text",
+      "context": "采兮芝英。\n\n宣游兮列宿,\n\n屈原思国顺极兮彷徉。\n\n红采兮驿衣"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-01",
+      "type": "text",
+      "context": "伊伯庸之末胄兮,\n\n谅皇直之屈原。\n\n云余肇祖于高阳兮,\n\n惟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 6
+  }
+}

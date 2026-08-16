@@ -1,0 +1,25 @@
+{
+  "id": "不死之国",
+  "name": "不死之国",
+  "pinyin": "",
+  "aliases": [
+    "不死民",
+    "不死国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即不死国，传说中的国名，也叫不死民",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-08",
+      "type": "annotation",
+      "annotationExplanation": "即不死国，传说中的国名，也叫不死民"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

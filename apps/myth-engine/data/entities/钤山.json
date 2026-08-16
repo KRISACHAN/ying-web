@@ -1,0 +1,24 @@
+{
+  "id": "钤山",
+  "name": "钤山",
+  "pinyin": "qián",
+  "aliases": [
+    "钤之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说在今陕西境内；一说在今山西境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-15",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在今陕西境内；一说在今山西境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "猼訑",
+  "name": "猼訑",
+  "pinyin": "bó tuó",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-07",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-07",
+      "type": "text",
+      "context": "有兽焉，其状如羊，九尾四耳，其目在背，其名曰猼訑"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

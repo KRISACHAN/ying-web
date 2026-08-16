@@ -1,0 +1,70 @@
+{
+  "id": "洛河",
+  "name": "洛河",
+  "pinyin": "",
+  "aliases": [
+    "洛之水",
+    "洛水",
+    "洛水",
+    "洛之河"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": "水名，非现在所指之洛河。一说可能指今甘肃境内的祖厉河；一说指今宁夏境内的清水河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-49",
+      "type": "text",
+      "context": "檀，其兽多牛、羬羊，其鸟多鸮。洛水出于其阳，而东流注于渭；夹水出"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-52",
+      "type": "annotation",
+      "annotationExplanation": "水名，非现在所指之洛河。一说可能指今甘肃境内的祖厉河；一说指今宁夏境内的清水河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-52",
+      "type": "text",
+      "context": "又西二百里，至刚山之尾。洛水出焉，而北流注于河。其中多蛮蛮"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-32",
+      "type": "text",
+      "context": "又西三百五十里，曰举之山。洛水出焉，而东北流注于玄扈之水，其"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-55",
+      "type": "text",
+      "context": "多铜。门水出于河，七百九十里入洛水。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-20",
+      "type": "text",
+      "context": "洛水出洛西山，东北注河，入成皋之西"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-20",
+      "type": "annotation",
+      "annotationExplanation": "即洛河",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

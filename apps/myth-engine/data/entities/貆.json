@@ -1,0 +1,22 @@
+{
+  "id": "貆",
+  "name": "貆",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "亦作“狟”，指豪猪",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-04",
+      "type": "annotation",
+      "annotationExplanation": "亦作“狟”，指豪猪"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

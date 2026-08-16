@@ -1,0 +1,22 @@
+{
+  "id": "橐",
+  "name": "橐",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种鸟。一说指短耳鸮，即短耳猫头鹰",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-08",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鸟。一说指短耳鸮，即短耳猫头鹰"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

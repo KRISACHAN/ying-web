@@ -1,0 +1,22 @@
+{
+  "id": "凿齿",
+  "name": "凿齿",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "古代传说中的野人，据说他的牙齿像凿，长五六尺",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-14",
+      "type": "annotation",
+      "annotationExplanation": "古代传说中的野人，据说他的牙齿像凿，长五六尺"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

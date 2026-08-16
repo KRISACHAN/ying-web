@@ -1,0 +1,24 @@
+{
+  "id": "天穆野",
+  "name": "天穆野",
+  "pinyin": "",
+  "aliases": [
+    "天穆之野"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一作“大穆之野”，地名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-21",
+      "type": "annotation",
+      "annotationExplanation": "一作“大穆之野”，地名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

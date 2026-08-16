@@ -1,0 +1,22 @@
+{
+  "id": "重华",
+  "name": "重华",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "舜名。传说舜死后葬在九疑山",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-07",
+      "type": "annotation",
+      "annotationExplanation": "舜名。传说舜死后葬在九疑山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "成皋",
+  "name": "成皋",
+  "pinyin": "ɡāo",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，汉置，治今河南荥(xínɡ)阳市汜(sì)水镇西",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-20",
+      "type": "annotation",
+      "annotationExplanation": "古县名，汉置，治今河南荥(xínɡ)阳市汜(sì)水镇西"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

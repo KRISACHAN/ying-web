@@ -1,0 +1,22 @@
+{
+  "id": "风雨是谒",
+  "name": "风雨是谒",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "能请来风雨(谒：请)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-19",
+      "type": "annotation",
+      "annotationExplanation": "能请来风雨(谒：请)"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

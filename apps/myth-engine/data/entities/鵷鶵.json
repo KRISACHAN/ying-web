@@ -1,0 +1,22 @@
+{
+  "id": "鵷鶵",
+  "name": "鵷鶵",
+  "pinyin": "yuān chú",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中鸾凤一类的鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-35",
+      "type": "annotation",
+      "annotationExplanation": "传说中鸾凤一类的鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

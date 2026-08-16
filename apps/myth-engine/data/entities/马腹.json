@@ -1,0 +1,29 @@
+{
+  "id": "马腹",
+  "name": "马腹",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说指虎鼬(yòu)，体长12~40厘米，四肢粗短有力，尾长为体长之半",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-18",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说指虎鼬(yòu)，体长12~40厘米，四肢粗短有力，尾长为体长之半"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-18",
+      "type": "text",
+      "context": "有兽焉，其名曰马腹"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

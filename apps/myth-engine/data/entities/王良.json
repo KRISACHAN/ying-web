@@ -1,0 +1,36 @@
+{
+  "id": "王良",
+  "name": "王良",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-07",
+      "type": "text",
+      "context": "。\n\n当世岂无骐骥兮,\n\n诚无王良之善驭。\n\n见执辔者非其人兮,"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "而不知大节之所由者也。\n\n昔者王良、造父之御也，上车摄辔，马为整"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 11,
+      "entryId": "huainanzi-11-01",
+      "type": "text",
+      "context": "者，古今未有也：是故舆马不调，王良不足以取道；君臣不和，唐虞不能"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 11
+  }
+}

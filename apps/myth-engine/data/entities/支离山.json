@@ -1,0 +1,31 @@
+{
+  "id": "支离山",
+  "name": "支离山",
+  "pinyin": "",
+  "aliases": [
+    "支离之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即支(一作“攻”)离山，山名，在今河南嵩县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-104",
+      "type": "annotation",
+      "annotationExplanation": "即支(一作“攻”)离山，山名，在今河南嵩县"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-104",
+      "type": "text",
+      "context": "，曰支离之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

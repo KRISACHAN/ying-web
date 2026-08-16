@@ -1,0 +1,24 @@
+{
+  "id": "陆陒山",
+  "name": "陆陒山",
+  "pinyin": "",
+  "aliases": [
+    "陆陒之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-73",
+      "type": "text",
+      "context": "，曰陆陒之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

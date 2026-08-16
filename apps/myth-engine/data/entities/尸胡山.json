@@ -1,0 +1,31 @@
+{
+  "id": "尸胡山",
+  "name": "尸胡山",
+  "pinyin": "",
+  "aliases": [
+    "尸胡之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-26",
+      "type": "text",
+      "context": "，曰尸胡之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-35",
+      "type": "text",
+      "context": "，自尸胡之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "稷",
+  "name": "稷",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "古代的一种粮食作物，一说是黍属；一说即粟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-43",
+      "type": "annotation",
+      "annotationExplanation": "古代的一种粮食作物，一说是黍属；一说即粟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

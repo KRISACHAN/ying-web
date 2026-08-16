@@ -1,0 +1,31 @@
+{
+  "id": "南姑射山",
+  "name": "南姑射山",
+  "pinyin": "yè",
+  "aliases": [
+    "南姑射之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即南姑射山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-22",
+      "type": "annotation",
+      "annotationExplanation": "即南姑射山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-22",
+      "type": "text",
+      "context": "，曰南姑射之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

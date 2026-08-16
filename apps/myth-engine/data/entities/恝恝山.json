@@ -1,0 +1,31 @@
+{
+  "id": "恝恝山",
+  "name": "恝恝山",
+  "pinyin": "jiá",
+  "aliases": [
+    "恝恝之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即恝恝山，山名，一说可能是今湖南张家界中的山峰",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "annotation",
+      "annotationExplanation": "即恝恝山，山名，一说可能是今湖南张家界中的山峰"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "text",
+      "context": "，有恝恝之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

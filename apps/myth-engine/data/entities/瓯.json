@@ -1,0 +1,22 @@
+{
+  "id": "瓯",
+  "name": "瓯",
+  "pinyin": "ōu",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古代地区名，在今浙江温州一带，后为温州的别称",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-02",
+      "type": "annotation",
+      "annotationExplanation": "古代地区名，在今浙江温州一带，后为温州的别称"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

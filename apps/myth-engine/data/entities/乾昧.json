@@ -1,0 +1,22 @@
+{
+  "id": "乾昧",
+  "name": "乾昧",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说应作“干时”，在今山东桓台县、博兴县境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-01",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说应作“干时”，在今山东桓台县、博兴县境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

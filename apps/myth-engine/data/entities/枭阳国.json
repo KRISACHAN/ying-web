@@ -1,0 +1,22 @@
+{
+  "id": "枭阳国",
+  "name": "枭阳国",
+  "pinyin": "xiāo",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，具体所指待考。一说在今广西；一说在今中南半岛中部",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-06",
+      "type": "annotation",
+      "annotationExplanation": "国名，具体所指待考。一说在今广西；一说在今中南半岛中部"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

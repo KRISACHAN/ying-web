@@ -1,0 +1,25 @@
+{
+  "id": "焦侥之国",
+  "name": "焦侥之国",
+  "pinyin": "",
+  "aliases": [
+    "周饶国",
+    "焦侥国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即焦侥国，也叫周饶国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-17",
+      "type": "annotation",
+      "annotationExplanation": "即焦侥国，也叫周饶国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

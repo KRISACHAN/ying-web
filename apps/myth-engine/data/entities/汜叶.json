@@ -1,0 +1,22 @@
+{
+  "id": "汜叶",
+  "name": "汜叶",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，在西北地区，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-03",
+      "type": "annotation",
+      "annotationExplanation": "国名，在西北地区，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

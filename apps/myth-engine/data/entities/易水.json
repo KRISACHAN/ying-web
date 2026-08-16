@@ -1,0 +1,24 @@
+{
+  "id": "易水",
+  "name": "易水",
+  "pinyin": "",
+  "aliases": [
+    "易之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "于易水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 23
+  }
+}

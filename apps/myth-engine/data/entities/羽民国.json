@@ -1,0 +1,47 @@
+{
+  "id": "羽民国",
+  "name": "羽民国",
+  "pinyin": "",
+  "aliases": [
+    "羽民"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，因其国中之人身上长着羽毛而得名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-05",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，因其国中之人身上长着羽毛而得名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-05",
+      "type": "text",
+      "context": "羽民国在其东南，其为人长头，身生羽。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-06",
+      "type": "annotation",
+      "annotationExplanation": "即羽民国",
+      "crossReference": true
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-14",
+      "type": "annotation",
+      "annotationExplanation": "即羽民国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

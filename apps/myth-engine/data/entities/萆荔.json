@@ -1,0 +1,22 @@
+{
+  "id": "萆荔",
+  "name": "萆荔",
+  "pinyin": "bì",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "即薜荔，藤本植物，攀缘灌木，叶椭圆形，果实可食用，藤、叶、根等可供药用。一说是一种香草",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-04",
+      "type": "annotation",
+      "annotationExplanation": "即薜荔，藤本植物，攀缘灌木，叶椭圆形，果实可食用，藤、叶、根等可供药用。一说是一种香草"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

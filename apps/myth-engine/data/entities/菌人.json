@@ -1,0 +1,22 @@
+{
+  "id": "菌人",
+  "name": "菌人",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "当与靖人属同一类人",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-19",
+      "type": "annotation",
+      "annotationExplanation": "当与靖人属同一类人"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "笄",
+  "name": "笄",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "一种簪子，用来插住挽起的头发",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 7,
+      "entryId": "soushenji-07-08",
+      "type": "annotation",
+      "annotationExplanation": "一种簪子，用来插住挽起的头发"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 7
+  }
+}

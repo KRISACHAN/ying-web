@@ -1,0 +1,22 @@
+{
+  "id": "错",
+  "name": "错",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "琢玉用的磨刀石",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-03",
+      "type": "annotation",
+      "annotationExplanation": "琢玉用的磨刀石"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

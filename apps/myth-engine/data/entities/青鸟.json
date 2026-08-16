@@ -1,0 +1,85 @@
+{
+  "id": "青鸟",
+  "name": "青鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "medium",
+  "description": "一作“青马”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-06",
+      "type": "text",
+      "context": "北。鸟人面，居山上。一曰维鸟，青鸟、黄鸟所集。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-13",
+      "type": "annotation",
+      "annotationExplanation": "一作“青马”"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-13",
+      "type": "text",
+      "context": "平丘在三桑东，爰有遗玉、青鸟、视肉、杨柳、甘柤、甘华，百果"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-03",
+      "type": "text",
+      "context": "西王母梯几而戴胜杖，其南有三青鸟，为西王母取食。在昆仑虚北。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-12",
+      "type": "text",
+      "context": "有三青鸟，赤首黑目，一名曰大，一名曰少"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-19",
+      "type": "text",
+      "context": "鸟，人面有发。爰有青鴍、黄鷔、青鸟、黄鸟，其所集者其国亡。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "text",
+      "context": "俞、鸾鸟、皇鸟、大物、小物。有青鸟、琅鸟、玄鸟、黄鸟、虎、豹、熊"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-21",
+      "type": "text",
+      "context": "大行。尝见大风，书符掷屋上，有青鸟衔去。风即止。或问其故。曰：“"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 11,
+      "entryId": "soushenji-11-14",
+      "type": "text",
+      "context": "，乃蛇胆也。童子逡巡出户，化成青鸟飞去。得胆，药成，嫂病即愈。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 21,
+      "entryId": "soushenji-21-02",
+      "type": "text",
+      "context": "一重去，一重复，至五盖，中有小青鸟，飞去。根还知此，怅然而已。后"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

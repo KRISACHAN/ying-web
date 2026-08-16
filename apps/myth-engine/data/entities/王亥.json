@@ -1,0 +1,22 @@
+{
+  "id": "王亥",
+  "name": "王亥",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "商汤的七世祖，相传他去黄河北岸放牧，被有易首领绵臣杀死，牛羊被夺走",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-11",
+      "type": "annotation",
+      "annotationExplanation": "商汤的七世祖，相传他去黄河北岸放牧，被有易首领绵臣杀死，牛羊被夺走"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

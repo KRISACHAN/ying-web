@@ -1,0 +1,22 @@
+{
+  "id": "姮娥",
+  "name": "姮娥",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "者。譬若弄请不死之药于西王母，姮娥窃以奔月，怅然有丧，无以续之。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 7
+  }
+}

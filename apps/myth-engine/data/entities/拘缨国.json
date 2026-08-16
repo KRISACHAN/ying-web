@@ -1,0 +1,33 @@
+{
+  "id": "拘缨国",
+  "name": "拘缨国",
+  "pinyin": "",
+  "aliases": [
+    "拘缨"
+  ],
+  "type": "unknown",
+  "typeConfidence": "low",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-07",
+      "type": "annotation",
+      "annotationExplanation": "即拘缨国",
+      "crossReference": true
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-08",
+      "type": "annotation",
+      "annotationExplanation": "即拘缨国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

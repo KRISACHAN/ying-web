@@ -1,0 +1,22 @@
+{
+  "id": "焉酸",
+  "name": "焉酸",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-58",
+      "type": "text",
+      "context": "有草焉，方茎而黄华，员叶而三成，其名曰焉酸"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

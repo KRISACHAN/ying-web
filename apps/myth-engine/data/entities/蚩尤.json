@@ -1,0 +1,43 @@
+{
+  "id": "蚩尤",
+  "name": "蚩尤",
+  "pinyin": "chī",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中制造兵器的人，相传有兄弟八十一人，以铜做兵器。又传为主兵之神。一说为东方九黎族首领，后与黄帝战于涿鹿(今河北涿鹿东南)，兵败被杀",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-17",
+      "type": "annotation",
+      "annotationExplanation": "传说中制造兵器的人，相传有兄弟八十一人，以铜做兵器。又传为主兵之神。一说为东方九黎族首领，后与黄帝战于涿鹿(今河北涿鹿东南)，兵败被杀"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-17",
+      "type": "text",
+      "context": "山名曰凶犁土丘。应龙处南极，杀蚩尤与夸父，不得复上，故下数旱。旱"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-15",
+      "type": "text",
+      "context": "。有木生山上，名曰枫木。枫木，蚩尤所弃其桎梏，是为枫木。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-13",
+      "type": "text",
+      "context": "大泽，未至，死于此。应龙乃已杀蚩尤，又杀夸父，乃去南方处之，故南"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

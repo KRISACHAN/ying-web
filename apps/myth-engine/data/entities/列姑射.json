@@ -1,0 +1,22 @@
+{
+  "id": "列姑射",
+  "name": "列姑射",
+  "pinyin": "yè",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "所指待考。一说指山名，意为一系列姑射山，包括姑射山、南姑射山、北姑射山等；一说指今朝鲜半岛北汉江下游江华列岛所在地；一说指今朝鲜大同江以南的一些地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-16",
+      "type": "annotation",
+      "annotationExplanation": "所指待考。一说指山名，意为一系列姑射山，包括姑射山、南姑射山、北姑射山等；一说指今朝鲜半岛北汉江下游江华列岛所在地；一说指今朝鲜大同江以南的一些地方"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

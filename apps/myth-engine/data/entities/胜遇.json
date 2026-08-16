@@ -1,0 +1,22 @@
+{
+  "id": "胜遇",
+  "name": "胜遇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，一说即翡翠鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-32",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，一说即翡翠鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

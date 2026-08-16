@@ -1,0 +1,31 @@
+{
+  "id": "平圃",
+  "name": "平圃",
+  "pinyin": "",
+  "aliases": [
+    "玄圃"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "即“玄圃”，传说中神仙的居处",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "annotation",
+      "annotationExplanation": "即“玄圃”，传说中神仙的居处"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-02",
+      "type": "text",
+      "context": ",\n\n飞駏兮步旁国。\n\n微观兮玄圃,\n\n览察兮瑶光。\n\n启匮兮探"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

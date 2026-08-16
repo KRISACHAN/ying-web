@@ -1,0 +1,43 @@
+{
+  "id": "汾",
+  "name": "汾",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "指汾河，水名，在今山西中部，是黄河第二大支流。源出宁武县管涔山，在河津市西入黄河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-17",
+      "type": "annotation",
+      "annotationExplanation": "指汾河，水名，在今山西中部，是黄河第二大支流。源出宁武县管涔山，在河津市西入黄河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-18",
+      "type": "text",
+      "context": "注于汾"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-19",
+      "type": "text",
+      "context": "注于汾"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-20",
+      "type": "text",
+      "context": "注于汾"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

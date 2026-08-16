@@ -1,0 +1,31 @@
+{
+  "id": "灌题山",
+  "name": "灌题山",
+  "pinyin": "",
+  "aliases": [
+    "灌题之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即灌题山，山名，具体所指待考。一说在今新疆境内；一说在今甘肃境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-08",
+      "type": "annotation",
+      "annotationExplanation": "即灌题山，山名，具体所指待考。一说在今新疆境内；一说在今甘肃境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-08",
+      "type": "text",
+      "context": "，曰灌题之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

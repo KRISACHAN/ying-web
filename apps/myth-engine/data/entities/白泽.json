@@ -1,0 +1,24 @@
+{
+  "id": "白泽",
+  "name": "白泽",
+  "pinyin": "",
+  "aliases": [
+    "白之泽"
+  ],
+  "type": "creature",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 18,
+      "entryId": "soushenji-18-03",
+      "type": "text",
+      "context": "侯’。”乃烹食之。其味如狗。《白泽图》曰：“木之精名‘彭侯’，状"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 18
+  }
+}

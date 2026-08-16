@@ -1,0 +1,22 @@
+{
+  "id": "岐舌国",
+  "name": "岐舌国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，又作反舌国。岐舌指舌头有分叉，反舌指舌头倒着长。因其国中之人岐舌，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-13",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，又作反舌国。岐舌指舌头有分叉，反舌指舌头倒着长。因其国中之人岐舌，故名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

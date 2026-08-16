@@ -1,0 +1,24 @@
+{
+  "id": "耿山",
+  "name": "耿山",
+  "pinyin": "",
+  "aliases": [
+    "耿之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说可能在今江苏境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-18",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能在今江苏境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

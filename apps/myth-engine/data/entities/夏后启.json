@@ -1,0 +1,22 @@
+{
+  "id": "夏后启",
+  "name": "夏后启",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "即禹之子启，夏代国君。传说禹曾选定东夷族的伯益为继承人，禹死后，启自继王位，与伯益争斗，杀伯益，并确立帝位传子制度",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-04",
+      "type": "annotation",
+      "annotationExplanation": "即禹之子启，夏代国君。传说禹曾选定东夷族的伯益为继承人，禹死后，启自继王位，与伯益争斗，杀伯益，并确立帝位传子制度"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "大乐野",
+  "name": "大乐野",
+  "pinyin": "",
+  "aliases": [
+    "大乐之野",
+    "大穆野"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地名，也叫大穆之野、大遗之野等，具体所指待考。一说在今四川乐山市一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-04",
+      "type": "annotation",
+      "annotationExplanation": "地名，也叫大穆之野、大遗之野等，具体所指待考。一说在今四川乐山市一带"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

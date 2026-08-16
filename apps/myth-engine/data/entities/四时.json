@@ -1,0 +1,155 @@
+{
+  "id": "四时",
+  "name": "四时",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "春、夏、秋、冬四季",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-01",
+      "type": "annotation",
+      "annotationExplanation": "春、夏、秋、冬四季"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-01",
+      "type": "text",
+      "context": "照之以日月，经之以星辰，纪之以四时，要之以太岁，神灵所生，其物异"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-02",
+      "type": "text",
+      "context": "；善言人者，必本于天。”故天有四时，日月相推，寒暑迭代，其转运也"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-04",
+      "type": "text",
+      "context": "一尺五寸。京房《易妖》曰：“地四时暴长占：春、夏多吉，秋、冬多凶"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 8,
+      "entryId": "chuci-08-03",
+      "type": "text",
+      "context": "皇天平分四时兮,\n\n窃独悲此凛秋。\n\n白露"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 8,
+      "entryId": "chuci-08-07",
+      "type": "text",
+      "context": "日高兮,\n\n然惆怅而自悲。\n\n四时递来而卒岁兮,\n\n阴阳不可与俪"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-02",
+      "type": "text",
+      "context": "余辞上参于天地兮,\n\n旁引之于四时。\n\n指日月使延照兮,\n\n抚招"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "宙之总。其德优天地而和阴阳，节四时而调五行； 呴谕覆育，万物群生"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "有有无者：天地未剖，阴阳未判，四时未分，万物未生，汪然平静，寂然"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "天地之袭精为阴阳，阴阳之专精为四时，四时之散精力万物。积阳之热气"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "照之以日月，经之以星辰，纪之以四时，要之以太岁。\n\n天地之间，九"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "以治日月之行律，治阴阳之气；节四时之度，正律历之数；别男女，异雌"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 8,
+      "entryId": "huainanzi-08-01",
+      "type": "text",
+      "context": "以天为父，以地为母；阴阳为纲，四时为纪；天静以清，地定以宁；万物"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "通体于天地，同精干阴阳；一和于四时，明照于日月，与造化者相雌雄。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "纣之谤，千岁之积毁也。\n\n天有四时，人有四用。何谓四用？视而形之"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "光乎日月而载列星，阴阳之所行，四时之所生，其比夫不名之地，犹窔奥"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "谓庙战者，法天道也；神化者，法四时也。修政于境内而远方慕其德，制"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "吴王夫差，请身为臣，妻为妾，奉四时之祭祀，而入春秋之贡职，委社稷"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "天设日月，列星辰，调阴阳，张四时，日以暴之，夜以息之，风以干之"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "于内，以莙凝天地，发起阴阳，序四时，正流方，绥之斯宁，推之斯行；"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

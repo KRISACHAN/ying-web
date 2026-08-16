@@ -1,0 +1,24 @@
+{
+  "id": "钉灵之国",
+  "name": "钉灵之国",
+  "pinyin": "",
+  "aliases": [
+    "钉灵国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即钉灵国，国名，钉灵也作丁令、丁零等，是高车、回纥(hé)的先民，秦汉时主要分布在贝加尔湖以南地区",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-17",
+      "type": "annotation",
+      "annotationExplanation": "即钉灵国，国名，钉灵也作丁令、丁零等，是高车、回纥(hé)的先民，秦汉时主要分布在贝加尔湖以南地区"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

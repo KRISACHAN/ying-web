@@ -1,0 +1,22 @@
+{
+  "id": "詹",
+  "name": "詹",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，猫头鹰之类",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-06",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，猫头鹰之类"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

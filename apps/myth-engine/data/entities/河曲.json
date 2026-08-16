@@ -1,0 +1,22 @@
+{
+  "id": "河曲",
+  "name": "河曲",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "黄河弯曲的地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-21",
+      "type": "annotation",
+      "annotationExplanation": "黄河弯曲的地方"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

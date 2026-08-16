@@ -1,0 +1,24 @@
+{
+  "id": "淫水",
+  "name": "淫水",
+  "pinyin": "",
+  "aliases": [
+    "淫之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即瑶池，神话传说中神仙居住的地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "annotation",
+      "annotationExplanation": "即瑶池，神话传说中神仙居住的地方"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

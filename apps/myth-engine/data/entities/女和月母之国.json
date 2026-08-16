@@ -1,0 +1,24 @@
+{
+  "id": "女和月母之国",
+  "name": "女和月母之国",
+  "pinyin": "",
+  "aliases": [
+    "女和月母国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即女和月母国，国名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-16",
+      "type": "annotation",
+      "annotationExplanation": "即女和月母国，国名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

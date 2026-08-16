@@ -1,0 +1,22 @@
+{
+  "id": "虬龙",
+  "name": "虬龙",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-02",
+      "type": "text",
+      "context": "有石林？\n\n何兽能言？\n\n焉有虬龙,\n\n负熊以游？\n\n雄虺九首,"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 3
+  }
+}

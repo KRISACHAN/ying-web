@@ -1,0 +1,22 @@
+{
+  "id": "夷",
+  "name": "夷",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "中国古代对东方各族的泛称，也泛指四方的少数民族",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-10",
+      "type": "annotation",
+      "annotationExplanation": "中国古代对东方各族的泛称，也泛指四方的少数民族"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

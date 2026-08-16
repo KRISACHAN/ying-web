@@ -1,0 +1,22 @@
+{
+  "id": "鮆鱼",
+  "name": "鮆鱼",
+  "pinyin": "zì",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鱼名，即刀鱼，体长约10余厘米，侧扁，银白色",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-17",
+      "type": "annotation",
+      "annotationExplanation": "鱼名，即刀鱼，体长约10余厘米，侧扁，银白色"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

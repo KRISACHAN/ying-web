@@ -1,0 +1,32 @@
+{
+  "id": "北朐国",
+  "name": "北朐国",
+  "pinyin": "qú",
+  "aliases": [
+    "北朐"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-05",
+      "type": "annotation",
+      "annotationExplanation": "国名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-06",
+      "type": "annotation",
+      "annotationExplanation": "即北朐国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

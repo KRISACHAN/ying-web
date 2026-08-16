@@ -1,0 +1,22 @@
+{
+  "id": "祝",
+  "name": "祝",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "宗庙中主持祭礼的人",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-99",
+      "type": "annotation",
+      "annotationExplanation": "宗庙中主持祭礼的人"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

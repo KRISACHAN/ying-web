@@ -1,0 +1,22 @@
+{
+  "id": "龙龟",
+  "name": "龙龟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "一说指龙和龟；一说指一种大龟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-15",
+      "type": "annotation",
+      "annotationExplanation": "一说指龙和龟；一说指一种大龟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

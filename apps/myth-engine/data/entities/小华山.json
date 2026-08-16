@@ -1,0 +1,32 @@
+{
+  "id": "小华山",
+  "name": "小华山",
+  "pinyin": "",
+  "aliases": [
+    "小华之山",
+    "少华山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即小华山，山名，也叫少华山，在今陕西境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-04",
+      "type": "annotation",
+      "annotationExplanation": "即小华山，山名，也叫少华山，在今陕西境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-04",
+      "type": "text",
+      "context": "，曰小华之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

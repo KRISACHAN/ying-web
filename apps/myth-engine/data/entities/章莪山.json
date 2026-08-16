@@ -1,0 +1,31 @@
+{
+  "id": "章莪山",
+  "name": "章莪山",
+  "pinyin": "",
+  "aliases": [
+    "章莪之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即章莪山，山名，具体所指待考。一说在今甘肃境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-36",
+      "type": "annotation",
+      "annotationExplanation": "即章莪山，山名，具体所指待考。一说在今甘肃境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-36",
+      "type": "text",
+      "context": "，曰章莪之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "白䓘",
+  "name": "白䓘",
+  "pinyin": "jiù",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "一种树木的古时名称",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-33",
+      "type": "annotation",
+      "annotationExplanation": "一种树木的古时名称"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-33",
+      "type": "text",
+      "context": "有木焉，其状如榖而赤理，其汗如漆，其味如饴，食者不饥，可以释劳，其名曰白䓘"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

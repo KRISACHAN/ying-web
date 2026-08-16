@@ -1,0 +1,24 @@
+{
+  "id": "常羊山",
+  "name": "常羊山",
+  "pinyin": "",
+  "aliases": [
+    "常羊之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即常羊山，山名，具体所指待考。一说在今陕西之南、四川之北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-07",
+      "type": "annotation",
+      "annotationExplanation": "即常羊山，山名，具体所指待考。一说在今陕西之南、四川之北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

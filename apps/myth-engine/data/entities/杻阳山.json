@@ -1,0 +1,31 @@
+{
+  "id": "杻阳山",
+  "name": "杻阳山",
+  "pinyin": "niǔ",
+  "aliases": [
+    "杻阳之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即杻阳山，山名，具体所指待考。一说指今广东连县北的方山；一说可能指今广东的鼎湖山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "annotation",
+      "annotationExplanation": "即杻阳山，山名，具体所指待考。一说指今广东连县北的方山；一说可能指今广东的鼎湖山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "text",
+      "context": "，曰杻阳之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

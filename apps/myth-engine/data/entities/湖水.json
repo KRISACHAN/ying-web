@@ -1,0 +1,38 @@
+{
+  "id": "湖水",
+  "name": "湖水",
+  "pinyin": "",
+  "aliases": [
+    "湖之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说指今山东青州市、寿光市一带已经湮没的清水泊",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-02",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说指今山东青州市、寿光市一带已经湮没的清水泊"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-02",
+      "type": "text",
+      "context": "湖水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-54",
+      "type": "text",
+      "context": "湖水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

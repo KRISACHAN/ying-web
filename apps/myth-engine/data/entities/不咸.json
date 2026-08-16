@@ -1,0 +1,22 @@
+{
+  "id": "不咸",
+  "name": "不咸",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说指位于我国东北的长白山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-03",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说指位于我国东北的长白山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

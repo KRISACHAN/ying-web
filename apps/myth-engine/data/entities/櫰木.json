@@ -1,0 +1,22 @@
+{
+  "id": "櫰木",
+  "name": "櫰木",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "即櫰槐，一种落叶乔木",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-54",
+      "type": "annotation",
+      "annotationExplanation": "即櫰槐，一种落叶乔木"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

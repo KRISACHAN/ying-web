@@ -1,0 +1,22 @@
+{
+  "id": "犬封国",
+  "name": "犬封国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名。据传帝喾(kù)高辛氏时，有人作乱，高辛氏的家犬盘瓠(hù)杀了此作乱之人，于是高辛氏封盘瓠为会稽侯，并赏他五名美女。盘瓠与美女生下不少子女，并不断繁衍，便成为犬封国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-04",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名。据传帝喾(kù)高辛氏时，有人作乱，高辛氏的家犬盘瓠(hù)杀了此作乱之人，于是高辛氏封盘瓠为会稽侯，并赏他五名美女。盘瓠与美女生下不少子女，并不断繁衍，便成为犬封国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

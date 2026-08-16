@@ -1,0 +1,24 @@
+{
+  "id": "庐江",
+  "name": "庐江",
+  "pinyin": "",
+  "aliases": [
+    "庐之江"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "一说指江西庐源水，源出今江西婺(wù)源县西北庐岭山；一说即青弋江，在今安徽东南部，上源为清溪河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-11",
+      "type": "annotation",
+      "annotationExplanation": "一说指江西庐源水，源出今江西婺(wù)源县西北庐岭山；一说即青弋江，在今安徽东南部，上源为清溪河"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

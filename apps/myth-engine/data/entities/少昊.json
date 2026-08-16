@@ -1,0 +1,50 @@
+{
+  "id": "少昊",
+  "name": "少昊",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "一作少皞，传说中远古东夷族的首领，名挚(一作“质”)，一说号金天氏",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-35",
+      "type": "annotation",
+      "annotationExplanation": "一作少皞，传说中远古东夷族的首领，名挚(一作“质”)，一说号金天氏"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-35",
+      "type": "text",
+      "context": "西二百里，曰长留之山，其神白帝少昊居之。其兽皆文尾，其鸟皆文首。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-01",
+      "type": "text",
+      "context": "东海之外大壑，少昊之国。少昊孺帝颛顼于此，弃其琴"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-10",
+      "type": "text",
+      "context": "生季釐，故曰季釐之国。有缗渊。少昊生倍伐，倍伐降处缗渊。有水四方"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-16",
+      "type": "text",
+      "context": "人一目，当面中生。一曰是威姓，少昊之子，食黍。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

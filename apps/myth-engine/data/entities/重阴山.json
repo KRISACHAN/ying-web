@@ -1,0 +1,24 @@
+{
+  "id": "重阴山",
+  "name": "重阴山",
+  "pinyin": "",
+  "aliases": [
+    "重阴之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即重阴山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-10",
+      "type": "annotation",
+      "annotationExplanation": "即重阴山，山名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

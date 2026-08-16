@@ -1,0 +1,22 @@
+{
+  "id": "师门",
+  "name": "师门",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-06",
+      "type": "text",
+      "context": "师门者，啸父弟子也。能使火。食桃葩"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

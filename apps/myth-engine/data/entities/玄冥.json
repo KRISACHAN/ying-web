@@ -1,0 +1,57 @@
+{
+  "id": "玄冥",
+  "name": "玄冥",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-01",
+      "type": "text",
+      "context": "雨师：一曰屏翳，一曰号屏，一曰玄冥。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "源兮,\n\n从颛顼乎增冰。\n\n历玄冥以邪径兮,\n\n乘间维以返顾。\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "秉皓白而不黑，行纯粹而不糅，处玄冥而不暗，休于天钧而不(左石右为"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "辛。北方，水也，其帝颛顼，其佐玄冥，执权而治冬，其神为辰星，其兽"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "雪雹霜霰、漂润群水之野，颛顼、玄冥之所司者，万二千里。其令曰：申"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "合而为道德，离而为仪表，其转入玄冥，其散应无形。礼义节行，又何以"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 4
+  }
+}

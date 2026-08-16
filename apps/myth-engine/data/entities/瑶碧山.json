@@ -1,0 +1,31 @@
+{
+  "id": "瑶碧山",
+  "name": "瑶碧山",
+  "pinyin": "",
+  "aliases": [
+    "瑶碧之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即瑶碧山，山名，在今河南境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-103",
+      "type": "annotation",
+      "annotationExplanation": "即瑶碧山，山名，在今河南境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-103",
+      "type": "text",
+      "context": "，曰瑶碧之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

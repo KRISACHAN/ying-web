@@ -1,0 +1,22 @@
+{
+  "id": "江州",
+  "name": "江州",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，战国时治今重庆市区嘉陵江北岸，三国蜀汉时移治嘉陵江南岸，即今重庆市区",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-16",
+      "type": "annotation",
+      "annotationExplanation": "古县名，战国时治今重庆市区嘉陵江北岸，三国蜀汉时移治嘉陵江南岸，即今重庆市区"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

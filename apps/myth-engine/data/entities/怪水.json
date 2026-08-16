@@ -1,0 +1,31 @@
+{
+  "id": "怪水",
+  "name": "怪水",
+  "pinyin": "",
+  "aliases": [
+    "怪之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "一说指形状较为怪异的河流；一说指位于今广东的北江及其支流连江；一说可能指位于今广东的西江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "annotation",
+      "annotationExplanation": "一说指形状较为怪异的河流；一说指位于今广东的北江及其支流连江；一说可能指位于今广东的西江"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "text",
+      "context": "怪水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

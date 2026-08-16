@@ -1,0 +1,57 @@
+{
+  "id": "毕方",
+  "name": "毕方",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-36",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鸟"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-36",
+      "type": "text",
+      "context": "鹤，一足，赤文青质而白喙，名曰毕方，其鸣自叫也，见则其邑有讹火。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-07",
+      "type": "text",
+      "context": "毕方鸟在其东，青水西，其为鸟人面一"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-08",
+      "type": "text",
+      "context": "人面有翼，鸟喙，方捕鱼。一曰在毕方东。或曰朱国。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-15",
+      "type": "text",
+      "context": "西南隅，以东，又北，又西南，过毕方鸟东。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "怪也。山出枭阳，水生罔象，木生毕方，井生坟羊，人怪之，闻见鲜而识"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

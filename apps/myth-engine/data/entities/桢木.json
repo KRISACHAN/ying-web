@@ -1,0 +1,22 @@
+{
+  "id": "桢木",
+  "name": "桢木",
+  "pinyin": "zhēn",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "即女贞，常绿大灌木或小乔木，高可达10米。叶卵形，开白色花，果实椭圆形",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-42",
+      "type": "annotation",
+      "annotationExplanation": "即女贞，常绿大灌木或小乔木，高可达10米。叶卵形，开白色花，果实椭圆形"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

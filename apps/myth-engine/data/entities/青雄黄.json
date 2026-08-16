@@ -1,0 +1,22 @@
+{
+  "id": "青雄黄",
+  "name": "青雄黄",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "一说指青和雄黄；一说指雌黄，矿物名，橙黄色，可做颜料",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-24",
+      "type": "annotation",
+      "annotationExplanation": "一说指青和雄黄；一说指雌黄，矿物名，橙黄色，可做颜料"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

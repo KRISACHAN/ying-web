@@ -1,0 +1,24 @@
+{
+  "id": "虫焉渊",
+  "name": "虫焉渊",
+  "pinyin": "yān",
+  "aliases": [
+    "虫焉之渊"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地名，一说即“盐渊”，指茶卡盐湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-28",
+      "type": "annotation",
+      "annotationExplanation": "地名，一说即“盐渊”，指茶卡盐湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

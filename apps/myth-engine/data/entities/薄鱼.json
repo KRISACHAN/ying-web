@@ -1,0 +1,22 @@
+{
+  "id": "薄鱼",
+  "name": "薄鱼",
+  "pinyin": "",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "传说中的一种鱼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-38",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鱼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "大人国",
+  "name": "大人国",
+  "pinyin": "",
+  "aliases": [
+    "大人之国"
+  ],
+  "type": "state",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "民，修臂民。自东南至东北方，有大人国，君子国，黑齿民，玄股民，毛民"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-04",
+      "type": "annotation",
+      "annotationExplanation": "即大人国",
+      "crossReference": true
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-04",
+      "type": "annotation",
+      "annotationExplanation": "即大人国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "禺强",
+  "name": "禺强",
+  "pinyin": "",
+  "aliases": [
+    "禺京"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中的海神名，又叫禺京",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-15",
+      "type": "annotation",
+      "annotationExplanation": "传说中的海神名，又叫禺京"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "鲛人",
+  "name": "鲛人",
+  "pinyin": "jiāo",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "神话传说中的人鱼",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 12,
+      "entryId": "soushenji-12-08",
+      "type": "annotation",
+      "annotationExplanation": "神话传说中的人鱼"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 12,
+      "entryId": "soushenji-12-08",
+      "type": "text",
+      "context": "南海之外，有“鲛人”，水居，如鱼，不废织绩。其眼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 12
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "简狄",
+  "name": "简狄",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-04",
+      "type": "text",
+      "context": "条放致罚,\n\n而黎服大说？\n\n简狄在台,\n\n喾何宜？\n\n玄鸟致贻"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 3
+  }
+}

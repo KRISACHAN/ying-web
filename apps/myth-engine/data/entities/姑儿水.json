@@ -1,0 +1,31 @@
+{
+  "id": "姑儿水",
+  "name": "姑儿水",
+  "pinyin": "",
+  "aliases": [
+    "姑儿之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即姑儿水，水名，一说即今獭河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-05",
+      "type": "annotation",
+      "annotationExplanation": "即姑儿水，水名，一说即今獭河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-05",
+      "type": "text",
+      "context": "姑儿之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

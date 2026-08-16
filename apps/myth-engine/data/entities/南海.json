@@ -1,0 +1,80 @@
+{
+  "id": "南海",
+  "name": "南海",
+  "pinyin": "",
+  "aliases": [
+    "南之海"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "一说应作“南山”；一说前面应有“入”字",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-05",
+      "type": "annotation",
+      "annotationExplanation": "一说应作“南山”；一说前面应有“入”字"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-05",
+      "type": "text",
+      "context": "、北朐国皆在郁水南。郁水出湘陵南海。一曰相虑。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-01",
+      "type": "text",
+      "context": "南海之外，赤水之西，流沙之东，有兽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-02",
+      "type": "text",
+      "context": "有阿山者。南海之中，有泛天之山，赤水穷焉。赤"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-21",
+      "type": "text",
+      "context": "西南海之外，赤水之南，流沙之西，有人"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-09",
+      "type": "text",
+      "context": "南海之外，黑水青水之间，有木名曰若"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 12,
+      "entryId": "soushenji-12-08",
+      "type": "text",
+      "context": "南海之外，有“鲛人”，水居，如鱼，"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 17,
+      "entryId": "soushenji-17-05",
+      "type": "text",
+      "context": "然。”去后，君谓士曰：“先来，南海君也。”士是书生，君明通五经，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "积石山。赤水出其东南陬，西南注南海丹泽之东。赤水之东，弱水出自穷"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

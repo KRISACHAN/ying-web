@@ -1,0 +1,31 @@
+{
+  "id": "峄皋水",
+  "name": "峄皋水",
+  "pinyin": "",
+  "aliases": [
+    "峄皋之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即峄皋水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-13",
+      "type": "annotation",
+      "annotationExplanation": "即峄皋水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-13",
+      "type": "text",
+      "context": "峄皋之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

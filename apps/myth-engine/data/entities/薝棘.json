@@ -1,0 +1,22 @@
+{
+  "id": "薝棘",
+  "name": "薝棘",
+  "pinyin": "zhān",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "薝卜和棘，薝卜是一种花，植株高七八尺，叶子像李叶，开白色花；棘指酸枣树。一说薝棘为一种植物，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-07",
+      "type": "annotation",
+      "annotationExplanation": "薝卜和棘，薝卜是一种花，植株高七八尺，叶子像李叶，开白色花；棘指酸枣树。一说薝棘为一种植物，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

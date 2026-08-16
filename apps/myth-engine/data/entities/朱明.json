@@ -1,0 +1,22 @@
+{
+  "id": "朱明",
+  "name": "朱明",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "乙。南方，火也，其帝炎帝，其佐朱明，执衡而治夏，其神为荧惑，其兽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 4
+  }
+}

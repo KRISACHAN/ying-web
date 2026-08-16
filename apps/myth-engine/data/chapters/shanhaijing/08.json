@@ -1,0 +1,629 @@
+{
+  "id": "shanhaijing-08",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 8,
+  "chapterTitle": "海外北经第八",
+  "entryCount": 15,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "海外自东北陬至西北陬者。",
+      "annotations": [
+        {
+          "term": "海外",
+          "explanation": "指海外北经所记载的地方"
+        },
+        {
+          "term": "陬(zōu)",
+          "explanation": "隅，角落"
+        }
+      ],
+      "translation": "海外北经所记载的地方从东北角至西北角。",
+      "index": 1
+    },
+    {
+      "title": "无国",
+      "originalText": "无之国在长股东，为人无。",
+      "annotations": [
+        {
+          "term": "无(qǐ)之国",
+          "explanation": "即无国，传说中的国名，因其国中之人没有小腿肚(：小腿肚)，故名"
+        },
+        {
+          "term": "长股",
+          "explanation": "即长股国"
+        }
+      ],
+      "translation": "无国在长股国的东边，这个国家中的人没有小腿肚子。",
+      "index": 2
+    },
+    {
+      "title": "钟山之神烛阴",
+      "originalText": "钟山之神，名曰烛阴，视为昼，瞑为夜；吹为冬，呼为夏。不饮，不食，不息，息为风，身长千里。在无之东。其为物人面蛇身，赤色，居钟山下。",
+      "annotations": [
+        {
+          "term": "钟山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "烛阴",
+          "explanation": "传说中的神名，即烛龙，据传它张开眼睛就能照亮天下"
+        },
+        {
+          "term": "瞑",
+          "explanation": "闭眼"
+        },
+        {
+          "term": "息",
+          "explanation": "呼吸"
+        }
+      ],
+      "translation": "钟山的山神名叫烛阴，他睁眼视物，天下就变成了白天；他一闭上眼睛，天下就变成了黑夜；他吹一口气，天下就成了冬天；他呼一口气，天下就成了夏天。他不喝水，不吃东西，也不呼吸，只要他一呼吸，天下就会刮风，他的身子长达一千里。烛阴居住在无国的东边。他长着人一样的脸，蛇一样的身子，浑身红色，居住在钟山下。",
+      "index": 3
+    },
+    {
+      "title": "一目国",
+      "originalText": "一目国在其东，一目中其面而居。曰有手足。",
+      "annotations": [
+        {
+          "term": "一目国",
+          "explanation": "传说中的国名，因其国中之人只长着一只眼睛，故名"
+        },
+        {
+          "term": "其",
+          "explanation": "指钟山"
+        }
+      ],
+      "translation": "一目国在钟山的东边，这个国家的人只有一只眼睛，眼睛生在脸的正中。一说一目国的人长着手和脚。",
+      "index": 4
+    },
+    {
+      "title": "柔利国",
+      "originalText": "柔利国在一目东，为人一手一足，反膝，曲足居上。一云留利之国，人足反折。",
+      "annotations": [
+        {
+          "term": "柔利国",
+          "explanation": "传说中的国名"
+        },
+        {
+          "term": "一目",
+          "explanation": "指一目国"
+        },
+        {
+          "term": "反膝",
+          "explanation": "膝盖反着长"
+        },
+        {
+          "term": "曲足居上",
+          "explanation": "脚弯曲，脚心朝上"
+        },
+        {
+          "term": "留利之国",
+          "explanation": "即留利国，亦即柔利国"
+        },
+        {
+          "term": "反折",
+          "explanation": "向反方向弯折"
+        }
+      ],
+      "translation": "柔利国在一目国的东边，这个国家的人只长着一只手、一只脚，膝盖反着长，脚弯曲，脚心朝上。一说是留利国，国中之人的脚向反方向弯折。",
+      "index": 5
+    },
+    {
+      "title": "共工之臣相柳氏",
+      "originalText": "共工之臣曰相柳氏，九首，以食于九山。相柳之所抵，厥为泽谿。禹杀相柳，其血腥，不可以树五谷种。禹厥之，三仞三沮，乃以为众帝之台。在昆仑之北，柔利之东。相柳者，九首人面，蛇身而青。不敢北射，畏共工之台。台在其东。台四方，隅有一蛇，虎色，首冲南方。",
+      "annotations": [
+        {
+          "term": "共工",
+          "explanation": "神话传说中的人物。据传他与颛顼(zhuān xū)争夺帝位，发怒而触撞不周山，导致天崩地裂"
+        },
+        {
+          "term": "相柳氏",
+          "explanation": "神话传说中的人物，又叫相繇(yáo)"
+        },
+        {
+          "term": "抵",
+          "explanation": "触"
+        },
+        {
+          "term": "厥",
+          "explanation": "通“掘”，指挖掘"
+        },
+        {
+          "term": "谿",
+          "explanation": "同“溪”"
+        },
+        {
+          "term": "树",
+          "explanation": "种植"
+        },
+        {
+          "term": "仞(rèn)",
+          "explanation": "通“牣(rèn)”，指满"
+        },
+        {
+          "term": "沮(jǔ)",
+          "explanation": "毁坏，这里指向下陷"
+        },
+        {
+          "term": "众帝",
+          "explanation": "指帝尧、帝喾(kù)、帝舜等帝王"
+        },
+        {
+          "term": "昆仑",
+          "explanation": "山名，具体所指待考。一说此处可能指阴山，在今内蒙古境内"
+        },
+        {
+          "term": "其",
+          "explanation": "指众帝之台"
+        },
+        {
+          "term": "虎色",
+          "explanation": "虎一样的斑纹"
+        }
+      ],
+      "translation": "共工的一位臣子名叫相柳氏，他长着九个脑袋，从九座山上取食。相柳的身子所触的地方，都会变成池泽和溪流。禹杀了相柳，相柳身上流出的血腥臭不堪，凡是他的血浸泡过的地方都不能种植五谷。禹掘土填埋这块地方，填满了三次，却塌陷了三次，于是禹在这块地方筑起了帝尧、帝喾、帝舜等众帝之台。这些帝台在昆仑山的北边，柔利国的东边。相柳长着九个脑袋，人一样的脸，蛇一样的身子，浑身青色。这里的人因为敬畏位于北面的共工之台，都不敢向北射箭。共工之台在众帝之台的东边。台呈四方形，台角有一条蛇，身上有虎一样的斑纹，头朝着南方。",
+      "index": 6
+    },
+    {
+      "title": "寻木",
+      "originalText": "寻木长千里，在拘缨南，生河上西北。",
+      "annotations": [
+        {
+          "term": "寻木",
+          "explanation": "一种极其高大的树"
+        },
+        {
+          "term": "拘缨",
+          "explanation": "即拘缨国"
+        }
+      ],
+      "translation": "寻木高达千里，生长在拘缨国的南边，黄河上游的西北方。",
+      "index": 7
+    },
+    {
+      "title": "跂踵国",
+      "originalText": "跂踵国在拘缨东，其为人大，两足亦大。一曰大踵。",
+      "annotations": [
+        {
+          "term": "跂踵(qǐ zhǒnɡ)国",
+          "explanation": "传说中的国名，因其国中之人踮起脚跟走路(跂踵：踮起脚跟)，故名"
+        },
+        {
+          "term": "拘缨",
+          "explanation": "即拘缨国"
+        },
+        {
+          "term": "大",
+          "explanation": "一说应作“反”"
+        }
+      ],
+      "translation": "跂踵国在拘缨国的东边，这个国家的人身材十分高大，两只脚也很大。一说是大踵国。",
+      "index": 8
+    },
+    {
+      "title": "欧丝女子",
+      "originalText": "欧丝之野在大踵东，一女子跪据树欧丝。",
+      "annotations": [
+        {
+          "term": "欧丝",
+          "explanation": "即呕丝，指吐丝"
+        },
+        {
+          "term": "据",
+          "explanation": "靠着"
+        }
+      ],
+      "translation": "欧丝野在大踵国的东边，有一位女子跪在地上靠着树吐丝。",
+      "index": 9
+    },
+    {
+      "title": "三桑无枝",
+      "originalText": "三桑无枝，在欧丝东，其木长百仞，无枝。",
+      "annotations": [
+        {
+          "term": "欧丝",
+          "explanation": "指欧丝之野"
+        },
+        {
+          "term": "仞(rèn)",
+          "explanation": "古时以八尺或七尺为一仞"
+        }
+      ],
+      "translation": "有个地方长着三棵没有树枝的桑树，在欧丝野的东边，桑树高达百仞，没有树枝。",
+      "index": 10
+    },
+    {
+      "title": "范林",
+      "originalText": "范林方三百里，在三桑东，洲环其下。",
+      "annotations": [
+        {
+          "term": "范林",
+          "explanation": "一说即泛林，树木生长在海中的浮土上，能随着海浪摆动"
+        },
+        {
+          "term": "洲",
+          "explanation": "水中的陆地"
+        }
+      ],
+      "translation": "范林方圆达三百里，在长着三棵没有树枝的桑树之地的东边，周围有陆地环绕。",
+      "index": 11
+    },
+    {
+      "title": "务隅山",
+      "originalText": "务隅之山，帝颛顼葬于阳，九嫔葬于阴。一曰爰有熊、罴、文虎、离朱、久、视肉。",
+      "annotations": [
+        {
+          "term": "务隅之山",
+          "explanation": "即务隅山，山名，具体所指待考"
+        },
+        {
+          "term": "颛顼(zhuān xū)",
+          "explanation": "传说中古代部族首领，号高阳氏，生于若水，居于帝丘(今河南濮阳市西南)"
+        },
+        {
+          "term": "爰(yuán)",
+          "explanation": "这里，那里"
+        }
+      ],
+      "translation": "务隅山，帝颛顼葬在这座山的阳面，他的九位嫔妃葬在山的阴面。一说这座山中有熊、罴、有斑纹的虎、离朱、鸲鹠和视肉。",
+      "index": 12
+    },
+    {
+      "title": "平丘甘",
+      "originalText": "平丘在三桑东，爰有遗玉、青鸟、视肉、杨柳、甘柤、甘华，百果所生，有两山夹上谷，二大丘居中，名曰平丘。",
+      "annotations": [
+        {
+          "term": "平丘",
+          "explanation": "意为平整的丘陵地，所在之地待考"
+        },
+        {
+          "term": "爰(yuán)",
+          "explanation": "这里，那里"
+        },
+        {
+          "term": "遗玉",
+          "explanation": "玉石名，一说即瑿(yī)，一种黑色的琥珀，是琥珀中最珍贵的"
+        },
+        {
+          "term": "青鸟",
+          "explanation": "一作“青马”"
+        },
+        {
+          "term": "甘柤(zhā)",
+          "explanation": "植物名，具体所指待考。一说这种植物的树干、树枝皆为红色，叶子白色，开黄色的花，结黑色的果实"
+        },
+        {
+          "term": "甘华",
+          "explanation": "植物名，具体所指待考。一说这种植物的枝干皆为红色，叶子黄色；一说属于柑橘类"
+        },
+        {
+          "term": "有",
+          "explanation": "一作“在”"
+        },
+        {
+          "term": "上",
+          "explanation": "大"
+        }
+      ],
+      "translation": "平丘在长着三棵没有树枝的桑树之地的东边，那里有遗玉、青鸟、视肉、杨树、柳树、甘柤和甘华，生长着各种各样的果树，有两座山夹着一个大山谷，中间是两个大的丘陵，名字叫平丘。",
+      "index": 13
+    },
+    {
+      "title": "北海诸兽",
+      "originalText": "北海内有兽，其状如马，名曰。有兽焉，其名曰驳，状如白马，锯牙，食虎豹。有素兽焉，状如马，名曰蛩蛩。有青兽焉，状如虎，名曰罗罗。",
+      "annotations": [
+        {
+          "term": "北海",
+          "explanation": "古代泛指北方僻远之地。秦汉时也指里海、贝加尔湖等大泽"
+        },
+        {
+          "term": "(táo tú)",
+          "explanation": "马名，一说即普氏野马，性格暴烈，原产蒙古草原"
+        },
+        {
+          "term": "蛩(qiónɡ)蛩",
+          "explanation": "传说中的一种兽"
+        },
+        {
+          "term": "罗罗",
+          "explanation": "兽名，一说即黑虎"
+        }
+      ],
+      "translation": "北海内有一种兽，形状像马，名字叫。还有一种兽，名字叫驳，形状像白马，牙齿像锯，能吃虎和豹。另有一种白色的兽，形状像马，名字叫蛩蛩。另外还有一种青色的兽，形状像虎，名字叫罗罗。",
+      "index": 14
+    },
+    {
+      "title": "北方禺强",
+      "originalText": "北方禺强，人面鸟身，珥，两青蛇，践两青蛇。",
+      "annotations": [
+        {
+          "term": "禺强",
+          "explanation": "传说中的海神名，又叫禺京"
+        },
+        {
+          "term": "珥(ěr)",
+          "explanation": "耳饰，这里作动词"
+        },
+        {
+          "term": "践",
+          "explanation": "踩，踏"
+        }
+      ],
+      "translation": "北方海神名叫禺强，身形似鸟，脸似人，他耳垂上悬挂两条青蛇，脚下也踩着两条青蛇。",
+      "index": 15
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "海外",
+      "entryId": "shanhaijing-08-01",
+      "entryTitle": "其一",
+      "term": "海外"
+    },
+    {
+      "entityName": "无之国",
+      "entryId": "shanhaijing-08-02",
+      "entryTitle": "无国",
+      "term": "无之国"
+    },
+    {
+      "entityName": "长股之国",
+      "entryId": "shanhaijing-08-02",
+      "entryTitle": "无国",
+      "term": "长股"
+    },
+    {
+      "entityName": "钟山",
+      "entryId": "shanhaijing-08-03",
+      "entryTitle": "钟山之神烛阴",
+      "term": "钟山"
+    },
+    {
+      "entityName": "烛阴",
+      "entryId": "shanhaijing-08-03",
+      "entryTitle": "钟山之神烛阴",
+      "term": "烛阴"
+    },
+    {
+      "entityName": "钟山",
+      "entryId": "shanhaijing-08-03",
+      "entryTitle": "钟山之神烛阴",
+      "term": "钟山"
+    },
+    {
+      "entityName": "烛阴",
+      "entryId": "shanhaijing-08-03",
+      "entryTitle": "钟山之神烛阴",
+      "term": "烛阴"
+    },
+    {
+      "entityName": "一目国",
+      "entryId": "shanhaijing-08-04",
+      "entryTitle": "一目国",
+      "term": "一目国"
+    },
+    {
+      "entityName": "一目国",
+      "entryId": "shanhaijing-08-04",
+      "entryTitle": "一目国",
+      "term": "一目国"
+    },
+    {
+      "entityName": "留利之国",
+      "entryId": "shanhaijing-08-05",
+      "entryTitle": "柔利国",
+      "term": "柔利国"
+    },
+    {
+      "entityName": "留利之国",
+      "entryId": "shanhaijing-08-05",
+      "entryTitle": "柔利国",
+      "term": "留利之国"
+    },
+    {
+      "entityName": "留利之国",
+      "entryId": "shanhaijing-08-05",
+      "entryTitle": "柔利国",
+      "term": "柔利国"
+    },
+    {
+      "entityName": "共工",
+      "entryId": "shanhaijing-08-06",
+      "entryTitle": "共工之臣相柳氏",
+      "term": "共工"
+    },
+    {
+      "entityName": "相柳氏",
+      "entryId": "shanhaijing-08-06",
+      "entryTitle": "共工之臣相柳氏",
+      "term": "相柳氏"
+    },
+    {
+      "entityName": "昆仑",
+      "entryId": "shanhaijing-08-06",
+      "entryTitle": "共工之臣相柳氏",
+      "term": "昆仑"
+    },
+    {
+      "entityName": "共工",
+      "entryId": "shanhaijing-08-06",
+      "entryTitle": "共工之臣相柳氏",
+      "term": "共工"
+    },
+    {
+      "entityName": "昆仑",
+      "entryId": "shanhaijing-08-06",
+      "entryTitle": "共工之臣相柳氏",
+      "term": "昆仑"
+    },
+    {
+      "entityName": "寻木",
+      "entryId": "shanhaijing-08-07",
+      "entryTitle": "寻木",
+      "term": "寻木"
+    },
+    {
+      "entityName": "拘缨国",
+      "entryId": "shanhaijing-08-07",
+      "entryTitle": "寻木",
+      "term": "拘缨"
+    },
+    {
+      "entityName": "寻木",
+      "entryId": "shanhaijing-08-07",
+      "entryTitle": "寻木",
+      "term": "寻木"
+    },
+    {
+      "entityName": "跂踵国",
+      "entryId": "shanhaijing-08-08",
+      "entryTitle": "跂踵国",
+      "term": "跂踵国"
+    },
+    {
+      "entityName": "拘缨国",
+      "entryId": "shanhaijing-08-08",
+      "entryTitle": "跂踵国",
+      "term": "拘缨"
+    },
+    {
+      "entityName": "跂踵国",
+      "entryId": "shanhaijing-08-08",
+      "entryTitle": "跂踵国",
+      "term": "跂踵国"
+    },
+    {
+      "entityName": "仞",
+      "entryId": "shanhaijing-08-10",
+      "entryTitle": "三桑无枝",
+      "term": "仞"
+    },
+    {
+      "entityName": "三桑",
+      "entryId": "shanhaijing-08-10",
+      "entryTitle": "三桑无枝",
+      "term": "三桑"
+    },
+    {
+      "entityName": "范林",
+      "entryId": "shanhaijing-08-11",
+      "entryTitle": "范林",
+      "term": "范林"
+    },
+    {
+      "entityName": "三桑",
+      "entryId": "shanhaijing-08-11",
+      "entryTitle": "范林",
+      "term": "三桑"
+    },
+    {
+      "entityName": "务隅山",
+      "entryId": "shanhaijing-08-12",
+      "entryTitle": "务隅山",
+      "term": "务隅之山"
+    },
+    {
+      "entityName": "颛顼",
+      "entryId": "shanhaijing-08-12",
+      "entryTitle": "务隅山",
+      "term": "颛顼"
+    },
+    {
+      "entityName": "颛顼",
+      "entryId": "shanhaijing-08-12",
+      "entryTitle": "务隅山",
+      "term": "颛顼"
+    },
+    {
+      "entityName": "务隅山",
+      "entryId": "shanhaijing-08-12",
+      "entryTitle": "务隅山",
+      "term": "务隅山"
+    },
+    {
+      "entityName": "平丘",
+      "entryId": "shanhaijing-08-13",
+      "entryTitle": "平丘甘",
+      "term": "平丘"
+    },
+    {
+      "entityName": "遗玉",
+      "entryId": "shanhaijing-08-13",
+      "entryTitle": "平丘甘",
+      "term": "遗玉"
+    },
+    {
+      "entityName": "青鸟",
+      "entryId": "shanhaijing-08-13",
+      "entryTitle": "平丘甘",
+      "term": "青鸟"
+    },
+    {
+      "entityName": "甘柤",
+      "entryId": "shanhaijing-08-13",
+      "entryTitle": "平丘甘",
+      "term": "甘柤"
+    },
+    {
+      "entityName": "甘华",
+      "entryId": "shanhaijing-08-13",
+      "entryTitle": "平丘甘",
+      "term": "甘华"
+    },
+    {
+      "entityName": "青鸟",
+      "entryId": "shanhaijing-08-13",
+      "entryTitle": "平丘甘",
+      "term": "青鸟"
+    },
+    {
+      "entityName": "三桑",
+      "entryId": "shanhaijing-08-13",
+      "entryTitle": "平丘甘",
+      "term": "三桑"
+    },
+    {
+      "entityName": "北海",
+      "entryId": "shanhaijing-08-14",
+      "entryTitle": "北海诸兽",
+      "term": "北海"
+    },
+    {
+      "entityName": "蛩蛩",
+      "entryId": "shanhaijing-08-14",
+      "entryTitle": "北海诸兽",
+      "term": "蛩蛩"
+    },
+    {
+      "entityName": "罗罗",
+      "entryId": "shanhaijing-08-14",
+      "entryTitle": "北海诸兽",
+      "term": "罗罗"
+    },
+    {
+      "entityName": "北海",
+      "entryId": "shanhaijing-08-14",
+      "entryTitle": "北海诸兽",
+      "term": "北海"
+    },
+    {
+      "entityName": "驳",
+      "entryId": "shanhaijing-08-14",
+      "entryTitle": "北海诸兽",
+      "term": "驳"
+    },
+    {
+      "entityName": "禺强",
+      "entryId": "shanhaijing-08-15",
+      "entryTitle": "北方禺强",
+      "term": "禺强"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_8.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

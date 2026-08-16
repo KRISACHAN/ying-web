@@ -1,0 +1,22 @@
+{
+  "id": "柏高",
+  "name": "柏高",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "一作“柏子高”，柏子高是传说中的仙人。一说是尧时之人",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-07",
+      "type": "annotation",
+      "annotationExplanation": "一作“柏子高”，柏子高是传说中的仙人。一说是尧时之人"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

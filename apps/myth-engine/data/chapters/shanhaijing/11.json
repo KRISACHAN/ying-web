@@ -1,0 +1,721 @@
+{
+  "id": "shanhaijing-11",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 11,
+  "chapterTitle": "海内西经第十一",
+  "entryCount": 19,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "海内西南陬以北者。",
+      "annotations": [
+        {
+          "term": "海内",
+          "explanation": "指海内西经所记载的地方"
+        },
+        {
+          "term": "陬(zōu)",
+          "explanation": "隅，角落"
+        }
+      ],
+      "translation": "海内西经所记载的是西南角以北的地方。",
+      "index": 1
+    },
+    {
+      "title": "危与贰负杀窫窳",
+      "originalText": "贰负之臣曰危，危与贰负杀窫窳。帝乃梏之疏属之山，桎其右足，反缚两手与发，系之山上木。在开题西北。",
+      "annotations": [
+        {
+          "term": "贰负",
+          "explanation": "传说中的神名，形状为人面蛇身"
+        },
+        {
+          "term": "危",
+          "explanation": "贰负神的臣属"
+        },
+        {
+          "term": "梏(ɡù)",
+          "explanation": "古代木制的手铐，这里指拘禁"
+        },
+        {
+          "term": "疏属之山",
+          "explanation": "即疏属山，山名，一说在今陕西绥德县；一说指今陕西富县和洛川县间的雕山"
+        },
+        {
+          "term": "桎(zhì)",
+          "explanation": "脚镣，这里作动词"
+        },
+        {
+          "term": "与发",
+          "explanation": "一说此两字系衍文"
+        },
+        {
+          "term": "开题",
+          "explanation": "即开题国"
+        }
+      ],
+      "translation": "贰负有位臣子名叫危，危与贰负一起杀了窫窳。天帝知道后，便把危拘禁在疏属山中，把他的右足戴上脚镣，把他的双手与头发反缚在一起，并捆到山上的一棵树上。疏属山在开题国的西北。",
+      "index": 2
+    },
+    {
+      "title": "大泽",
+      "originalText": "大泽方百里，群鸟所生及所解。在雁门北。",
+      "annotations": [
+        {
+          "term": "解",
+          "explanation": "指鸟脱换羽毛"
+        },
+        {
+          "term": "雁门",
+          "explanation": "山名，又名雁门塞，在今山西代县西北。因两山对峙，雁从其间飞过而得名"
+        }
+      ],
+      "translation": "有一个方圆百里的大泽，众多的鸟类在这里繁殖并脱换羽毛。它位于雁门山的北边。",
+      "index": 3
+    },
+    {
+      "title": "雁门山",
+      "originalText": "雁门山，雁出其间。在高柳北。",
+      "annotations": [
+        {
+          "term": "间",
+          "explanation": "一作“门”"
+        },
+        {
+          "term": "高柳",
+          "explanation": "地名，在今山西阳高县"
+        }
+      ],
+      "translation": "雁门山，雁从它两座对峙的山中飞过。它位于高柳的北边。",
+      "index": 4
+    },
+    {
+      "title": "高柳",
+      "originalText": "高柳在代北。",
+      "annotations": [
+        {
+          "term": "代",
+          "explanation": "古国名，在今河北蔚县"
+        }
+      ],
+      "translation": "高柳在代的北边。",
+      "index": 5
+    },
+    {
+      "title": "后稷之葬",
+      "originalText": "后稷之葬，山水环之。在氐国西。",
+      "annotations": [
+        {
+          "term": "氐(dī)国",
+          "explanation": "即氐人国"
+        }
+      ],
+      "translation": "后稷所葬之地，周围有山水环绕。它位于氐国的西边。",
+      "index": 6
+    },
+    {
+      "title": "流黄酆氏国",
+      "originalText": "流黄酆氏之国，中方三百里，有涂四方，中有山。在后稷葬西。",
+      "annotations": [
+        {
+          "term": "流黄酆(fēnɡ)氏之国",
+          "explanation": "即流黄酆氏国，国名，具体所指待考"
+        },
+        {
+          "term": "涂",
+          "explanation": "通“途”，指路"
+        },
+        {
+          "term": "后稷葬",
+          "explanation": "后稷所葬之地"
+        }
+      ],
+      "translation": "流黄酆氏国，国土方圆三百里，有道路通向四方，国家的中部有山。它位于后稷所葬之地的西边。",
+      "index": 7
+    },
+    {
+      "title": "流沙",
+      "originalText": "流沙出钟山，西行又南行昆仑之虚，西南入海，黑水之山。",
+      "annotations": [
+        {
+          "term": "钟山",
+          "explanation": "山名，一说即今内蒙古阴山；一说在今新疆境内"
+        },
+        {
+          "term": "昆仑之虚",
+          "explanation": "一作“昆仑之墟”，指昆仑山"
+        },
+        {
+          "term": "海",
+          "explanation": "这里指位于西北地区的水泽，如青海湖、罗布泊等，具体所指待考"
+        },
+        {
+          "term": "黑水之山",
+          "explanation": "即黑水山，山名，具体所指待考"
+        }
+      ],
+      "translation": "流沙起自钟山，向西再向南一直延伸到昆仑山，并向西南进入海及黑水山。",
+      "index": 8
+    },
+    {
+      "title": "东胡",
+      "originalText": "东胡在大泽东。",
+      "annotations": [
+        {
+          "term": "东胡",
+          "explanation": "古族名，因居于匈奴(古称胡)以东而得名"
+        },
+        {
+          "term": "大泽",
+          "explanation": "大的水泽，具体所指待考。一说即大泽"
+        }
+      ],
+      "translation": "东胡在大泽的东边。",
+      "index": 9
+    },
+    {
+      "title": "夷人",
+      "originalText": "夷人在东胡东。",
+      "annotations": [
+        {
+          "term": "夷",
+          "explanation": "中国古代对东方各族的泛称，也泛指四方的少数民族"
+        }
+      ],
+      "translation": "夷人居住之地在东胡的东边。",
+      "index": 10
+    },
+    {
+      "title": "貊国",
+      "originalText": "貊国在汉水东北，地近于燕，灭之。",
+      "annotations": [
+        {
+          "term": "貊(mò)",
+          "explanation": "古族名，初分布在中国北方地区，秦汉前，居今长城以内者，或迁东北，或与当地居民融合；居今关外者，分布在松嫩平原、鸭绿江流域及朝鲜半岛"
+        },
+        {
+          "term": "汉水",
+          "explanation": "水名，一说指朝鲜半岛的汉江；一说可能指松花江"
+        },
+        {
+          "term": "燕",
+          "explanation": "古国名，公元前11世纪周分封的诸侯国，在今河北北部和辽宁西端，公元前3世纪为秦所灭"
+        }
+      ],
+      "translation": "貊国在汉水的东北，与燕国接近，后被燕国所灭。",
+      "index": 11
+    },
+    {
+      "title": "孟鸟",
+      "originalText": "孟鸟在貊国东北，其鸟文赤、黄、青，东乡。",
+      "annotations": [
+        {
+          "term": "孟鸟",
+          "explanation": "鸟名，一说即灭蒙鸟"
+        },
+        {
+          "term": "乡",
+          "explanation": "通“向”，指朝向"
+        }
+      ],
+      "translation": "孟鸟在貊国的东北，这种鸟的羽毛有红、黄、青三种花纹，它面朝东方而立。",
+      "index": 12
+    },
+    {
+      "title": "河水",
+      "originalText": "河水出东北隅，以行其北，西南又入渤海；又出海外，即西而北，入禹所导积石山。",
+      "annotations": [
+        {
+          "term": "其",
+          "explanation": "指昆仑山"
+        },
+        {
+          "term": "渤海",
+          "explanation": "一说指蒲昌海，即今新疆东南部的罗布泊"
+        },
+        {
+          "term": "海外",
+          "explanation": "具体所指待考。一说指异族所居之地"
+        },
+        {
+          "term": "导",
+          "explanation": "疏导"
+        }
+      ],
+      "translation": "黄河发源于昆仑山的东北角，然后向北而流，折向西南后又流入渤海；又流出海外，向西向北，流入禹所疏导的积石山。",
+      "index": 13
+    },
+    {
+      "title": "洋水",
+      "originalText": "洋水、黑水出西北隅，以东，东行，又东北，南入海，羽民南。",
+      "annotations": [
+        {
+          "term": "洋水",
+          "explanation": "水名，具体所指待考。一说可能是叶尔羌河"
+        },
+        {
+          "term": "黑水",
+          "explanation": "水名，具体所指待考。一说可能是喀什喀尔河"
+        },
+        {
+          "term": "海",
+          "explanation": "水名，一说可能指罗布泊"
+        },
+        {
+          "term": "羽民",
+          "explanation": "即羽民国"
+        }
+      ],
+      "translation": "洋水和黑水发源于昆仑山的西北角，向东流，继而向东北流，再折向南流后入海，在羽民国的南边。",
+      "index": 14
+    },
+    {
+      "title": "弱水",
+      "originalText": "弱水、青水出西南隅，以东，又北，又西南，过毕方鸟东。",
+      "annotations": [
+        {
+          "term": "弱水",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "青水",
+          "explanation": "水名，具体所指待考"
+        }
+      ],
+      "translation": "弱水和青水发源于昆仑山的西南角，向东流，又向北流，再折向西南，流过毕方鸟生活之地的东边。",
+      "index": 15
+    },
+    {
+      "title": "开明兽",
+      "originalText": "昆仑南渊深三百仞。开明兽身大类虎而九首，皆人面，东向立昆仑上。",
+      "annotations": [
+        {
+          "term": "仞(rèn)",
+          "explanation": "古代以八尺或七尺为一仞"
+        }
+      ],
+      "translation": "昆仑山南边的深渊深达三百仞。开明兽的大小与虎相似，有九个脑袋，每个脑袋上都长着人一样的脸，面向东站立在昆仑山上。",
+      "index": 16
+    },
+    {
+      "title": "开明西凤凰",
+      "originalText": "开明西有凤皇、鸾鸟，皆戴蛇践蛇，膺有赤蛇。",
+      "annotations": [
+        {
+          "term": "开明",
+          "explanation": "指开明兽"
+        },
+        {
+          "term": "践",
+          "explanation": "踏，踩"
+        },
+        {
+          "term": "膺",
+          "explanation": "胸"
+        }
+      ],
+      "translation": "开明兽所在之地的西边有凤凰、鸾鸟，它们的头上盘着蛇，脚下踩着蛇，胸前有赤蛇。",
+      "index": 17
+    },
+    {
+      "title": "服常树上三头人",
+      "originalText": "服常树，其上有三头人，伺琅玕树。",
+      "annotations": [
+        {
+          "term": "服常树",
+          "explanation": "树名，具体所指待考。一说可能是沙棠"
+        },
+        {
+          "term": "伺",
+          "explanation": "守候"
+        },
+        {
+          "term": "琅玕(lánɡ ɡān)树",
+          "explanation": "即珠树，长有珍珠的树"
+        }
+      ],
+      "translation": "有一种服常树，它的上面有长着三个脑袋的人，在守候着琅玕树。",
+      "index": 18
+    },
+    {
+      "title": "开明南树鸟",
+      "originalText": "开明南有树鸟、六首蛟、蝮、蛇、蜼、豹、鸟秩树，于表池树木，诵鸟、隼鸟、视肉。",
+      "annotations": [
+        {
+          "term": "开明",
+          "explanation": "指开明兽"
+        },
+        {
+          "term": "树鸟",
+          "explanation": "传说中的一种鸟"
+        },
+        {
+          "term": "六首蛟",
+          "explanation": "长着六个脑袋的蛟龙"
+        },
+        {
+          "term": "蝮",
+          "explanation": "指蝮蛇"
+        },
+        {
+          "term": "蜼(wèi)",
+          "explanation": "一种长尾猿"
+        },
+        {
+          "term": "鸟秩树",
+          "explanation": "树名，具体所指待考"
+        },
+        {
+          "term": "表池",
+          "explanation": "一说指华表池，即中间立有华表的池子"
+        },
+        {
+          "term": "树木",
+          "explanation": "种树"
+        },
+        {
+          "term": "诵鸟",
+          "explanation": "鸟名，具体所指待考"
+        },
+        {
+          "term": "隼鸟(sǔn)",
+          "explanation": "即雕，一类很凶猛的鸟"
+        }
+      ],
+      "translation": "开明兽所在之地的南边有树鸟、长着六个脑袋的蛟龙、蝮蛇、蛇、长尾猿、豹和鸟秩树，在华表池的边上种着树，这一带还有诵鸟、隼鸟和视肉。",
+      "index": 19
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "海内",
+      "entryId": "shanhaijing-11-01",
+      "entryTitle": "其一",
+      "term": "海内"
+    },
+    {
+      "entityName": "贰负",
+      "entryId": "shanhaijing-11-02",
+      "entryTitle": "危与贰负杀窫窳",
+      "term": "贰负"
+    },
+    {
+      "entityName": "疏属山",
+      "entryId": "shanhaijing-11-02",
+      "entryTitle": "危与贰负杀窫窳",
+      "term": "疏属之山"
+    },
+    {
+      "entityName": "开题之国",
+      "entryId": "shanhaijing-11-02",
+      "entryTitle": "危与贰负杀窫窳",
+      "term": "开题"
+    },
+    {
+      "entityName": "雁门",
+      "entryId": "shanhaijing-11-03",
+      "entryTitle": "大泽",
+      "term": "雁门"
+    },
+    {
+      "entityName": "高柳",
+      "entryId": "shanhaijing-11-04",
+      "entryTitle": "雁门山",
+      "term": "高柳"
+    },
+    {
+      "entityName": "代",
+      "entryId": "shanhaijing-11-05",
+      "entryTitle": "高柳",
+      "term": "代"
+    },
+    {
+      "entityName": "氐人国",
+      "entryId": "shanhaijing-11-06",
+      "entryTitle": "后稷之葬",
+      "term": "氐国"
+    },
+    {
+      "entityName": "流黄酆氏之国",
+      "entryId": "shanhaijing-11-07",
+      "entryTitle": "流黄酆氏国",
+      "term": "流黄酆氏之国"
+    },
+    {
+      "entityName": "钟山",
+      "entryId": "shanhaijing-11-08",
+      "entryTitle": "流沙",
+      "term": "钟山"
+    },
+    {
+      "entityName": "昆仑之虚",
+      "entryId": "shanhaijing-11-08",
+      "entryTitle": "流沙",
+      "term": "昆仑之虚"
+    },
+    {
+      "entityName": "黑水",
+      "entryId": "shanhaijing-11-08",
+      "entryTitle": "流沙",
+      "term": "黑水"
+    },
+    {
+      "entityName": "昆仑",
+      "entryId": "shanhaijing-11-08",
+      "entryTitle": "流沙",
+      "term": "昆仑"
+    },
+    {
+      "entityName": "钟山",
+      "entryId": "shanhaijing-11-08",
+      "entryTitle": "流沙",
+      "term": "钟山"
+    },
+    {
+      "entityName": "黑水",
+      "entryId": "shanhaijing-11-08",
+      "entryTitle": "流沙",
+      "term": "黑水"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-11-08",
+      "entryTitle": "流沙",
+      "term": "流沙"
+    },
+    {
+      "entityName": "黑水",
+      "entryId": "shanhaijing-11-08",
+      "entryTitle": "流沙",
+      "term": "黑水山"
+    },
+    {
+      "entityName": "东胡",
+      "entryId": "shanhaijing-11-09",
+      "entryTitle": "东胡",
+      "term": "东胡"
+    },
+    {
+      "entityName": "大泽",
+      "entryId": "shanhaijing-11-09",
+      "entryTitle": "东胡",
+      "term": "大泽"
+    },
+    {
+      "entityName": "东胡",
+      "entryId": "shanhaijing-11-09",
+      "entryTitle": "东胡",
+      "term": "东胡"
+    },
+    {
+      "entityName": "夷",
+      "entryId": "shanhaijing-11-10",
+      "entryTitle": "夷人",
+      "term": "夷"
+    },
+    {
+      "entityName": "东胡",
+      "entryId": "shanhaijing-11-10",
+      "entryTitle": "夷人",
+      "term": "东胡"
+    },
+    {
+      "entityName": "貊",
+      "entryId": "shanhaijing-11-11",
+      "entryTitle": "貊国",
+      "term": "貊"
+    },
+    {
+      "entityName": "汉水",
+      "entryId": "shanhaijing-11-11",
+      "entryTitle": "貊国",
+      "term": "汉水"
+    },
+    {
+      "entityName": "燕",
+      "entryId": "shanhaijing-11-11",
+      "entryTitle": "貊国",
+      "term": "燕"
+    },
+    {
+      "entityName": "汉水",
+      "entryId": "shanhaijing-11-11",
+      "entryTitle": "貊国",
+      "term": "汉水"
+    },
+    {
+      "entityName": "灭蒙鸟",
+      "entryId": "shanhaijing-11-12",
+      "entryTitle": "孟鸟",
+      "term": "孟鸟"
+    },
+    {
+      "entityName": "渤海",
+      "entryId": "shanhaijing-11-13",
+      "entryTitle": "河水",
+      "term": "渤海"
+    },
+    {
+      "entityName": "海外",
+      "entryId": "shanhaijing-11-13",
+      "entryTitle": "河水",
+      "term": "海外"
+    },
+    {
+      "entityName": "渤海",
+      "entryId": "shanhaijing-11-13",
+      "entryTitle": "河水",
+      "term": "渤海"
+    },
+    {
+      "entityName": "洋水",
+      "entryId": "shanhaijing-11-14",
+      "entryTitle": "洋水",
+      "term": "洋水"
+    },
+    {
+      "entityName": "黑水",
+      "entryId": "shanhaijing-11-14",
+      "entryTitle": "洋水",
+      "term": "黑水"
+    },
+    {
+      "entityName": "海",
+      "entryId": "shanhaijing-11-14",
+      "entryTitle": "洋水",
+      "term": "海"
+    },
+    {
+      "entityName": "羽民国",
+      "entryId": "shanhaijing-11-14",
+      "entryTitle": "洋水",
+      "term": "羽民"
+    },
+    {
+      "entityName": "黑水",
+      "entryId": "shanhaijing-11-14",
+      "entryTitle": "洋水",
+      "term": "黑水"
+    },
+    {
+      "entityName": "弱水",
+      "entryId": "shanhaijing-11-15",
+      "entryTitle": "弱水",
+      "term": "弱水"
+    },
+    {
+      "entityName": "青水",
+      "entryId": "shanhaijing-11-15",
+      "entryTitle": "弱水",
+      "term": "青水"
+    },
+    {
+      "entityName": "弱水",
+      "entryId": "shanhaijing-11-15",
+      "entryTitle": "弱水",
+      "term": "弱水"
+    },
+    {
+      "entityName": "毕方",
+      "entryId": "shanhaijing-11-15",
+      "entryTitle": "弱水",
+      "term": "毕方"
+    },
+    {
+      "entityName": "仞",
+      "entryId": "shanhaijing-11-16",
+      "entryTitle": "开明兽",
+      "term": "仞"
+    },
+    {
+      "entityName": "昆仑",
+      "entryId": "shanhaijing-11-16",
+      "entryTitle": "开明兽",
+      "term": "昆仑"
+    },
+    {
+      "entityName": "开明兽",
+      "entryId": "shanhaijing-11-16",
+      "entryTitle": "开明兽",
+      "term": "开明兽"
+    },
+    {
+      "entityName": "开明",
+      "entryId": "shanhaijing-11-17",
+      "entryTitle": "开明西凤凰",
+      "term": "开明"
+    },
+    {
+      "entityName": "鸾鸟",
+      "entryId": "shanhaijing-11-17",
+      "entryTitle": "开明西凤凰",
+      "term": "鸾鸟"
+    },
+    {
+      "entityName": "服常树",
+      "entryId": "shanhaijing-11-18",
+      "entryTitle": "服常树上三头人",
+      "term": "服常树"
+    },
+    {
+      "entityName": "琅玕树",
+      "entryId": "shanhaijing-11-18",
+      "entryTitle": "服常树上三头人",
+      "term": "琅玕树"
+    },
+    {
+      "entityName": "开明",
+      "entryId": "shanhaijing-11-19",
+      "entryTitle": "开明南树鸟",
+      "term": "开明"
+    },
+    {
+      "entityName": "树鸟",
+      "entryId": "shanhaijing-11-19",
+      "entryTitle": "开明南树鸟",
+      "term": "树鸟"
+    },
+    {
+      "entityName": "六首蛟",
+      "entryId": "shanhaijing-11-19",
+      "entryTitle": "开明南树鸟",
+      "term": "六首蛟"
+    },
+    {
+      "entityName": "鸟秩树",
+      "entryId": "shanhaijing-11-19",
+      "entryTitle": "开明南树鸟",
+      "term": "鸟秩树"
+    },
+    {
+      "entityName": "表池",
+      "entryId": "shanhaijing-11-19",
+      "entryTitle": "开明南树鸟",
+      "term": "表池"
+    },
+    {
+      "entityName": "诵鸟",
+      "entryId": "shanhaijing-11-19",
+      "entryTitle": "开明南树鸟",
+      "term": "诵鸟"
+    },
+    {
+      "entityName": "隼鸟",
+      "entryId": "shanhaijing-11-19",
+      "entryTitle": "开明南树鸟",
+      "term": "隼鸟"
+    },
+    {
+      "entityName": "表池",
+      "entryId": "shanhaijing-11-19",
+      "entryTitle": "开明南树鸟",
+      "term": "表池"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_11.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

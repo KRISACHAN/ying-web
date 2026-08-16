@@ -1,0 +1,24 @@
+{
+  "id": "上有水",
+  "name": "上有水",
+  "pinyin": "",
+  "aliases": [
+    "上有之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-31",
+      "type": "text",
+      "context": "其上有水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

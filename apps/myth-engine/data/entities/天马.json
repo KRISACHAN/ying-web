@@ -1,0 +1,29 @@
+{
+  "id": "天马",
+  "name": "天马",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说是一种大耳蝠，耳大而长，前臂长40~50厘米，腹面灰白色",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-32",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说是一种大耳蝠，耳大而长，前臂长40~50厘米，腹面灰白色"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-32",
+      "type": "text",
+      "context": "有兽焉，其状如白犬而黑头，见人则飞，其名曰天马"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "太山稽",
+  "name": "太山稽",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "。\n\n昔者黄帝治天下，而力牧、太山稽辅之，以治日月之行律，治阴阳之"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 7
+  }
+}

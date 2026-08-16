@@ -1,0 +1,22 @@
+{
+  "id": "步",
+  "name": "步",
+  "pinyin": "",
+  "aliases": [],
+  "type": "unit",
+  "typeConfidence": "high",
+  "description": "以脚步测量距离",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-07",
+      "type": "annotation",
+      "annotationExplanation": "以脚步测量距离"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "彭蠡",
+  "name": "彭蠡",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "，决江疏河，凿龙门，辟伊阙，修彭蠡之防，乘四载，随山栞木，平治水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 22
+  }
+}

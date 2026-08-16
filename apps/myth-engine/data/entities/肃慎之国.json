@@ -1,0 +1,24 @@
+{
+  "id": "肃慎之国",
+  "name": "肃慎之国",
+  "pinyin": "",
+  "aliases": [
+    "肃慎国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即肃慎国，国名。肃慎是古族名，古代居住在中国东北地区，周武王、周成王时他们曾以楛(kǔ)矢石磐(pán)来贡，与此处的肃慎国不同",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-18",
+      "type": "annotation",
+      "annotationExplanation": "即肃慎国，国名。肃慎是古族名，古代居住在中国东北地区，周武王、周成王时他们曾以楛(kǔ)矢石磐(pán)来贡，与此处的肃慎国不同"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

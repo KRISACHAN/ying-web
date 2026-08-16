@@ -1,0 +1,36 @@
+{
+  "id": "穷奇",
+  "name": "穷奇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-55",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-55",
+      "type": "text",
+      "context": "上有兽焉，其状如牛，猬毛，名曰穷奇，音如狗獆，是食人。\n\n濛水出"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "所生也。隅强，不周风之所生也。穷奇，广莫风之所生也。\n\n [穴"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

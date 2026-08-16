@@ -1,0 +1,57 @@
+{
+  "id": "帝舜",
+  "name": "帝舜",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "即舜",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-08",
+      "type": "annotation",
+      "annotationExplanation": "即舜"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-08",
+      "type": "text",
+      "context": "苍梧之山，帝舜葬于阳，帝丹朱葬于阴。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-11",
+      "type": "annotation",
+      "annotationExplanation": "即舜"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-11",
+      "type": "text",
+      "context": "，为国于兽，方食之，名曰摇民。帝舜生戏，戏生摇民。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-11",
+      "type": "annotation",
+      "annotationExplanation": "即舜"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-11",
+      "type": "text",
+      "context": "有臷民之国。帝舜生无淫，降臷处，是谓巫臷民。巫"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

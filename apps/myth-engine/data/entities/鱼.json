@@ -1,0 +1,22 @@
+{
+  "id": "鱼",
+  "name": "鱼",
+  "pinyin": "",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "鲇鱼的别名。鲇鱼头大，口宽，尾侧扁，身上有黏质，无鳞",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-31",
+      "type": "annotation",
+      "annotationExplanation": "鲇鱼的别名。鲇鱼头大，口宽，尾侧扁，身上有黏质，无鳞"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

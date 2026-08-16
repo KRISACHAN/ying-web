@@ -1,0 +1,38 @@
+{
+  "id": "篇遇山",
+  "name": "篇遇山",
+  "pinyin": "",
+  "aliases": [
+    "篇遇之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即篇遇山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-116",
+      "type": "annotation",
+      "annotationExplanation": "即篇遇山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-116",
+      "type": "text",
+      "context": "，曰篇遇之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-128",
+      "type": "text",
+      "context": "，自篇遇之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

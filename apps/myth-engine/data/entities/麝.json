@@ -1,0 +1,24 @@
+{
+  "id": "麝",
+  "name": "麝",
+  "pinyin": "shè",
+  "aliases": [
+    "香獐子"
+  ],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "哺乳动物，外形像鹿而小，前腿短，后腿长，善于跳跃，也叫香獐子",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-12",
+      "type": "annotation",
+      "annotationExplanation": "哺乳动物，外形像鹿而小，前腿短，后腿长，善于跳跃，也叫香獐子"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

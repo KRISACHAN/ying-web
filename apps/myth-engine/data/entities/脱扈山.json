@@ -1,0 +1,31 @@
+{
+  "id": "脱扈山",
+  "name": "脱扈山",
+  "pinyin": "hù",
+  "aliases": [
+    "脱扈之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即脱扈山，山名，在今山西芮城县北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-06",
+      "type": "annotation",
+      "annotationExplanation": "即脱扈山，山名，在今山西芮城县北"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-06",
+      "type": "text",
+      "context": "，曰脱扈之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

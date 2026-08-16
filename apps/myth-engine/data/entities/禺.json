@@ -1,0 +1,22 @@
+{
+  "id": "禺",
+  "name": "禺",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，猴属，似猕猴而较大，赤目，长尾",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "兽名，猴属，似猕猴而较大，赤目，长尾"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

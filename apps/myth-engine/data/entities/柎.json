@@ -1,0 +1,22 @@
+{
+  "id": "柎",
+  "name": "柎",
+  "pinyin": "fū",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "花萼(è)，花瓣下部的一圈小片",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-28",
+      "type": "annotation",
+      "annotationExplanation": "花萼(è)，花瓣下部的一圈小片"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

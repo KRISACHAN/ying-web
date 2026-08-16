@@ -1,0 +1,85 @@
+{
+  "id": "太一",
+  "name": "太一",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 2,
+      "entryId": "chuci-02-01",
+      "type": "text",
+      "context": "吉日兮辰良,\n\n东皇太一穆将愉兮上皇。\n\n抚长剑兮玉珥"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 9,
+      "entryId": "chuci-09-01",
+      "type": "text",
+      "context": "虚。\n\n飞朱鸟使先驱兮,\n\n驾太一之象舆。\n\n苍龙蚴虬于左骖兮,"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-03",
+      "type": "text",
+      "context": "相佯,\n\n遗光耀兮周流。\n\n望太一兮淹息,\n\n纡余辔兮自休。\n\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-04",
+      "type": "text",
+      "context": "置词。\n\n北斗为我折中兮,\n\n太一为余听之。\n\n云服阴阳之正道兮"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "、辰戌、巳亥是也。\n\n太微者，太一之庭也。紫宫者，太一之居也。轩"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 8,
+      "entryId": "huainanzi-08-01",
+      "type": "text",
+      "context": "廓之宇，游无极之野；登太皇，冯太一，玩天地于掌握之中，夫岂为贫富"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "知其他。”此之谓也。\n\n帝者体太一，王者法阴阳，霸者则四时，君者"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "玄房，各处其宅，守而勿失，上通太一。太一之精，通于天道。天道玄默"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 16,
+      "entryId": "huainanzi-16-01",
+      "type": "text",
+      "context": "地，浑沌为朴，未造而成物，谓之太一。同出于一，所为各异，有鸟有鱼"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "道》者，卢牟六合，混沌万物，象太一之容，测窈冥之深，以翔虚无之轸"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 2
+  }
+}

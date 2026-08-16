@@ -1,0 +1,22 @@
+{
+  "id": "三后",
+  "name": "三后",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "指楚国历史上的三位贤王熊绎、若敖、蚧冒",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-02",
+      "type": "annotation",
+      "annotationExplanation": "指楚国历史上的三位贤王熊绎、若敖、蚧冒"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "榛",
+  "name": "榛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "落叶灌木或小乔木，叶子圆形或倒卵形，坚果球形",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-47",
+      "type": "annotation",
+      "annotationExplanation": "落叶灌木或小乔木，叶子圆形或倒卵形，坚果球形"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

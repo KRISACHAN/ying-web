@@ -1,0 +1,22 @@
+{
+  "id": "乘黄",
+  "name": "乘黄",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说指双峰驼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-17",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说指双峰驼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

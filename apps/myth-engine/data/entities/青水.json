@@ -1,0 +1,31 @@
+{
+  "id": "青水",
+  "name": "青水",
+  "pinyin": "",
+  "aliases": [
+    "青之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-15",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-07",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说即今四川的青衣江"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

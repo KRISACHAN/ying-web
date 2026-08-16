@@ -1,0 +1,31 @@
+{
+  "id": "单狐山",
+  "name": "单狐山",
+  "pinyin": "",
+  "aliases": [
+    "单狐之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即单狐山，山名，具体所指待考。一说应为今宁夏、内蒙古界上贺兰山的一部分；一说在今新疆境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-01",
+      "type": "annotation",
+      "annotationExplanation": "即单狐山，山名，具体所指待考。一说应为今宁夏、内蒙古界上贺兰山的一部分；一说在今新疆境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-01",
+      "type": "text",
+      "context": "，曰单狐之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

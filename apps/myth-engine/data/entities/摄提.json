@@ -1,0 +1,22 @@
+{
+  "id": "摄提",
+  "name": "摄提",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "high",
+  "description": "摄提格的简称，是古代“星岁纪年法”的一个名称。古人把天宫分为十二等份，分别名之曰子、丑、寅、卯、辰、巳、午、未、申、酉、戊、亥，是为十二宫，以太岁运行的所在来纪年。当太岁运行到寅宫那一年，称“摄提格”，也就是寅年",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-01",
+      "type": "annotation",
+      "annotationExplanation": "摄提格的简称，是古代“星岁纪年法”的一个名称。古人把天宫分为十二等份，分别名之曰子、丑、寅、卯、辰、巳、午、未、申、酉、戊、亥，是为十二宫，以太岁运行的所在来纪年。当太岁运行到寅宫那一年，称“摄提格”，也就是寅年"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

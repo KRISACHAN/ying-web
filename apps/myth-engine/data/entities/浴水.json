@@ -1,0 +1,45 @@
+{
+  "id": "浴水",
+  "name": "浴水",
+  "pinyin": "",
+  "aliases": [
+    "浴之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-16",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-16",
+      "type": "text",
+      "context": "浴水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-46",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说可能指塔布河，在今内蒙古四子王旗；一说应作“治水”，治水的上游是桑干河，下游是永定河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-46",
+      "type": "text",
+      "context": "浴水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

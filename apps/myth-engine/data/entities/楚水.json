@@ -1,0 +1,31 @@
+{
+  "id": "楚水",
+  "name": "楚水",
+  "pinyin": "",
+  "aliases": [
+    "楚之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说指今陕西耀县的石川河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-17",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说指今陕西耀县的石川河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-17",
+      "type": "text",
+      "context": "楚水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

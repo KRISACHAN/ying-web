@@ -1,0 +1,24 @@
+{
+  "id": "平山",
+  "name": "平山",
+  "pinyin": "",
+  "aliases": [
+    "平之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，即今山西临汾市西的姑射山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-37",
+      "type": "annotation",
+      "annotationExplanation": "山名，即今山西临汾市西的姑射山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

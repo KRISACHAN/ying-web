@@ -1,0 +1,29 @@
+{
+  "id": "雍门子",
+  "name": "雍门子",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "所不知，而心未尝死者乎！\n\n昔雍门子以哭见于孟尝君，已而陈辞通意，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "宁戚击牛角而歌，桓公举以大政；雍门子以哭见孟尝君，涕流沾缨。歌哭，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 7
+  }
+}

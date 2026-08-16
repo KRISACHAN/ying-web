@@ -1,0 +1,22 @@
+{
+  "id": "耆童",
+  "name": "耆童",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "即老童，是颛顼的儿子。颛顼是传说中古代部族的首领，号高阳氏",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-39",
+      "type": "annotation",
+      "annotationExplanation": "即老童，是颛顼的儿子。颛顼是传说中古代部族的首领，号高阳氏"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "缴",
+  "name": "缴",
+  "pinyin": "zhuó",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "系在箭上的丝绳",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-03",
+      "type": "annotation",
+      "annotationExplanation": "系在箭上的丝绳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

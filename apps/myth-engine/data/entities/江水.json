@@ -1,0 +1,45 @@
+{
+  "id": "江水",
+  "name": "江水",
+  "pinyin": "",
+  "aliases": [
+    "江之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": "指长江的支流，一说即青衣江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-79",
+      "type": "text",
+      "context": "江水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-80",
+      "type": "annotation",
+      "annotationExplanation": "指长江的支流，一说即青衣江"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-80",
+      "type": "text",
+      "context": "江水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-22",
+      "type": "text",
+      "context": "于江水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

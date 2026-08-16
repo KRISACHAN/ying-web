@@ -1,0 +1,22 @@
+{
+  "id": "玄丘之民",
+  "name": "玄丘之民",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "一说指丘上的人物都为黑色",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-16",
+      "type": "annotation",
+      "annotationExplanation": "一说指丘上的人物都为黑色"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

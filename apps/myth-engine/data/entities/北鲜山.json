@@ -1,0 +1,31 @@
+{
+  "id": "北鲜山",
+  "name": "北鲜山",
+  "pinyin": "",
+  "aliases": [
+    "北鲜之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即北鲜山，山名，具体所指待考。一说在今蒙古境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-14",
+      "type": "annotation",
+      "annotationExplanation": "即北鲜山，山名，具体所指待考。一说在今蒙古境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-14",
+      "type": "text",
+      "context": "，曰北鲜之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

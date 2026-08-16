@@ -1,0 +1,24 @@
+{
+  "id": "西有王母山",
+  "name": "西有王母山",
+  "pinyin": "",
+  "aliases": [
+    "西有王母之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "一说应作“有西王母之山”。西王母山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-11",
+      "type": "annotation",
+      "annotationExplanation": "一说应作“有西王母之山”。西王母山，山名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

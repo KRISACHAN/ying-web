@@ -1,0 +1,22 @@
+{
+  "id": "泠石",
+  "name": "泠石",
+  "pinyin": "línɡ",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "石名，具体所指待考。一说疑为“冷石”，即滑石，色青白，质软而细，主要成分为硅酸镁",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-26",
+      "type": "annotation",
+      "annotationExplanation": "石名，具体所指待考。一说疑为“冷石”，即滑石，色青白，质软而细，主要成分为硅酸镁"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

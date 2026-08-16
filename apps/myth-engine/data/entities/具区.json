@@ -1,0 +1,22 @@
+{
+  "id": "具区",
+  "name": "具区",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今浙江和江苏两省间的太湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-17",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今浙江和江苏两省间的太湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "浮玉山",
+  "name": "浮玉山",
+  "pinyin": "",
+  "aliases": [
+    "浮玉之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即浮玉山，山名，即今浙江境内的天目山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-17",
+      "type": "annotation",
+      "annotationExplanation": "即浮玉山，山名，即今浙江境内的天目山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-17",
+      "type": "text",
+      "context": "，曰浮玉之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

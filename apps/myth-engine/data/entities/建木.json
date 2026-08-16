@@ -1,0 +1,43 @@
+{
+  "id": "建木",
+  "name": "建木",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "传说中的一种树",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-14",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种树"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-14",
+      "type": "text",
+      "context": "如罗，其实如栾，其木若，其名曰建木。在窫窳西弱水上。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-15",
+      "type": "text",
+      "context": "氐人国在建木西，其为人人面而鱼身，无足。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "居。\n\n扶木在阳州，日之所曊。建木在都广，众帝所自上下，日中无景"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

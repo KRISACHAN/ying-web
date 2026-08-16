@@ -1,0 +1,43 @@
+{
+  "id": "帝",
+  "name": "帝",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "一说指黄帝；一说指天帝；一说指黄帝或炎帝",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-28",
+      "type": "annotation",
+      "annotationExplanation": "一说指黄帝；一说指天帝；一说指黄帝或炎帝"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "annotation",
+      "annotationExplanation": "黄帝。一说指天帝"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-07",
+      "type": "annotation",
+      "annotationExplanation": "天帝。一说指禹"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-10",
+      "type": "annotation",
+      "annotationExplanation": "天帝。一说指禹"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

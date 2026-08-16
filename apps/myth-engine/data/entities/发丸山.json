@@ -1,0 +1,31 @@
+{
+  "id": "发丸山",
+  "name": "发丸山",
+  "pinyin": "",
+  "aliases": [
+    "发丸之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即发丸山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-36",
+      "type": "annotation",
+      "annotationExplanation": "即发丸山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-36",
+      "type": "text",
+      "context": "，其名曰发丸之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

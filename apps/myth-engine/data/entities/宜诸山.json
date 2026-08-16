@@ -1,0 +1,24 @@
+{
+  "id": "宜诸山",
+  "name": "宜诸山",
+  "pinyin": "",
+  "aliases": [
+    "宜诸之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-72",
+      "type": "text",
+      "context": "，曰宜诸之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

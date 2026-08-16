@@ -1,0 +1,29 @@
+{
+  "id": "岁星",
+  "name": "岁星",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-05",
+      "type": "text",
+      "context": "赤刘。陈、项为辅。五星入井，从岁星。”儿发薪下鳞，示孔子。孔子趋"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "其 佐句芒，执规而治春，其神为岁星，其兽苍龙，其音角，其日甲乙。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 8
+  }
+}

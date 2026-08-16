@@ -1,0 +1,24 @@
+{
+  "id": "凶水",
+  "name": "凶水",
+  "pinyin": "",
+  "aliases": [
+    "凶之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "于凶水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 9
+  }
+}

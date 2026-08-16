@@ -1,0 +1,31 @@
+{
+  "id": "句余山",
+  "name": "句余山",
+  "pinyin": "",
+  "aliases": [
+    "句余之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即句余山，山名，在今浙江境内，一说即四明山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-16",
+      "type": "annotation",
+      "annotationExplanation": "即句余山，山名，在今浙江境内，一说即四明山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-16",
+      "type": "text",
+      "context": "，曰句余之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

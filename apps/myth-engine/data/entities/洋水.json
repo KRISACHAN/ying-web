@@ -1,0 +1,38 @@
+{
+  "id": "洋水",
+  "name": "洋水",
+  "pinyin": "",
+  "aliases": [
+    "洋之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今甘肃天水市的藉河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-55",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今甘肃天水市的藉河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-55",
+      "type": "text",
+      "context": "注于洋水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-14",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说可能是叶尔羌河"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

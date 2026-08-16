@@ -1,0 +1,22 @@
+{
+  "id": "列阳",
+  "name": "列阳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地名，“列”指列水，一说即今朝鲜大同江，“列阳”指位于列水南边的地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-15",
+      "type": "annotation",
+      "annotationExplanation": "地名，“列”指列水，一说即今朝鲜大同江，“列阳”指位于列水南边的地方"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

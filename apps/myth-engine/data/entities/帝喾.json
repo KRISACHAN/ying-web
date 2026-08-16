@@ -1,0 +1,29 @@
+{
+  "id": "帝喾",
+  "name": "帝喾",
+  "pinyin": "kù",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中的五帝之一，黄帝之子玄嚣的后裔，居亳，号高辛氏",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "annotation",
+      "annotationExplanation": "传说中的五帝之一，黄帝之子玄嚣的后裔，居亳，号高辛氏"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "text",
+      "context": "狄山，帝尧葬于阳，帝喾葬于阴。爰有熊、罴、文虎、、豹"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

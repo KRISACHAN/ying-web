@@ -1,0 +1,22 @@
+{
+  "id": "镦",
+  "name": "镦",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "柄末端的平底金属套",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 7,
+      "entryId": "soushenji-07-10",
+      "type": "annotation",
+      "annotationExplanation": "柄末端的平底金属套"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 7
+  }
+}

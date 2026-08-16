@@ -1,0 +1,31 @@
+{
+  "id": "贾超山",
+  "name": "贾超山",
+  "pinyin": "",
+  "aliases": [
+    "贾超之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即贾超山，山名，一说在今湖北远安县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-90",
+      "type": "annotation",
+      "annotationExplanation": "即贾超山，山名，一说在今湖北远安县"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-90",
+      "type": "text",
+      "context": "，曰贾超之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

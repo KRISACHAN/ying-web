@@ -1,0 +1,43 @@
+{
+  "id": "风伯",
+  "name": "风伯",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-118",
+      "type": "text",
+      "context": "又东南五十里，曰风伯之山，其上多金玉，其下多痠石、"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-01",
+      "type": "text",
+      "context": "风伯、雨师，星也。风伯者，箕星也。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "未光兮,\n\n凌天地以径度。\n\n风伯为余先驱兮,\n\n氛埃辟而清凉。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "步，可以骤而骤；令雨师洒道，使风伯塌尘；电以为鞭策，雷以为车轮；"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

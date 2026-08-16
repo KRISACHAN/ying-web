@@ -1,0 +1,22 @@
+{
+  "id": "结匈国",
+  "name": "结匈国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即结胸国(匈：同“胸”)，传说中的国名。因其国中之人胸部的骨肉向外凸出而得名。大致方位当在今云南或云南以南地区",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-02",
+      "type": "annotation",
+      "annotationExplanation": "即结胸国(匈：同“胸”)，传说中的国名。因其国中之人胸部的骨肉向外凸出而得名。大致方位当在今云南或云南以南地区"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

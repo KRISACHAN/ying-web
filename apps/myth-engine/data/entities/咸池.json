@@ -1,0 +1,38 @@
+{
+  "id": "咸池",
+  "name": "咸池",
+  "pinyin": "",
+  "aliases": [
+    "咸之池"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "神话中池名，太阳洗沐的地方",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "annotation",
+      "annotationExplanation": "神话中池名，太阳洗沐的地方"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "text",
+      "context": "于咸池"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "于咸池"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

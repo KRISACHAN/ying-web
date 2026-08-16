@@ -1,0 +1,31 @@
+{
+  "id": "数历山",
+  "name": "数历山",
+  "pinyin": "",
+  "aliases": [
+    "数历之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即数历山，山名，具体所指待考。一说应在今陕西铜川境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-17",
+      "type": "annotation",
+      "annotationExplanation": "即数历山，山名，具体所指待考。一说应在今陕西铜川境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-17",
+      "type": "text",
+      "context": "，曰数历之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

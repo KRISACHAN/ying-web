@@ -1,0 +1,24 @@
+{
+  "id": "儋耳之国",
+  "name": "儋耳之国",
+  "pinyin": "dān",
+  "aliases": [
+    "儋耳国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即儋耳国，国名，因国中之人儋耳(儋耳：耳朵下垂)，故名。一说即聂(shè)耳国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-11",
+      "type": "annotation",
+      "annotationExplanation": "即儋耳国，国名，因国中之人儋耳(儋耳：耳朵下垂)，故名。一说即聂(shè)耳国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "梁渠山",
+  "name": "梁渠山",
+  "pinyin": "",
+  "aliases": [
+    "梁渠之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即梁渠山，山名，在今内蒙古兴和县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-24",
+      "type": "annotation",
+      "annotationExplanation": "即梁渠山，山名，在今内蒙古兴和县"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-24",
+      "type": "text",
+      "context": "，曰梁渠之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

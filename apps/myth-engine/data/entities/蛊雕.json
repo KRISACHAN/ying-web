@@ -1,0 +1,22 @@
+{
+  "id": "蛊雕",
+  "name": "蛊雕",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，具体所指待考。一说指貂熊，大小似狗獾，善奔跑，能游泳",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-23",
+      "type": "annotation",
+      "annotationExplanation": "兽名，具体所指待考。一说指貂熊，大小似狗獾，善奔跑，能游泳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

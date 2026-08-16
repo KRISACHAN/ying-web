@@ -1,0 +1,22 @@
+{
+  "id": "灵氛",
+  "name": "灵氛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "传说中的神巫名，善占卜",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-10",
+      "type": "annotation",
+      "annotationExplanation": "传说中的神巫名，善占卜"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

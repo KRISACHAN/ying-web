@@ -1,0 +1,45 @@
+{
+  "id": "招摇山",
+  "name": "招摇山",
+  "pinyin": "",
+  "aliases": [
+    "招摇之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即招摇山，山名，具体所指待考。一说即今广东连县北湘粤界上的方山；一说可能是今广西的十万大山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "即招摇山，山名，具体所指待考。一说即今广东连县北湘粤界上的方山；一说可能是今广西的十万大山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "text",
+      "context": "。其首曰招摇之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-10",
+      "type": "text",
+      "context": "，自招摇之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-10",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说即招摇山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

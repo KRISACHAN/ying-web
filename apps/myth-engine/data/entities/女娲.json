@@ -1,0 +1,43 @@
+{
+  "id": "女娲",
+  "name": "女娲",
+  "pinyin": "wā",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "神话中人类的始祖，传说她与其兄伏羲结合而产生了人类。又传说她曾用黄土造人，并炼五色石补天",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-03",
+      "type": "annotation",
+      "annotationExplanation": "神话中人类的始祖，传说她与其兄伏羲结合而产生了人类。又传说她曾用黄土造人，并炼五色石补天"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-03",
+      "type": "text",
+      "context": "有神十人，名曰女娲之肠。化为神，处栗广之野，横道"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-04",
+      "type": "text",
+      "context": "\n登立为帝,\n\n孰道尚之？\n\n女娲有体,\n\n孰制匠之？\n\n舜服厥"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "辔衔，而以善御闻于天下；伏戏、女娲不设法度，而以至德遗于后世。何"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

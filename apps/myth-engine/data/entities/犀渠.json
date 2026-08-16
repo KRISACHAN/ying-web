@@ -1,0 +1,29 @@
+{
+  "id": "犀渠",
+  "name": "犀渠",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，一说即犀牛之类",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-27",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说即犀牛之类"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-27",
+      "type": "text",
+      "context": "有兽焉，其状如牛，苍身，其音如婴儿，是食人，其名曰犀渠"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

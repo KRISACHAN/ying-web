@@ -1,0 +1,31 @@
+{
+  "id": "南类山",
+  "name": "南类山",
+  "pinyin": "",
+  "aliases": [
+    "南类之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即南类山，山名，具体所指待考。一说应在今中南半岛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-20",
+      "type": "annotation",
+      "annotationExplanation": "即南类山，山名，具体所指待考。一说应在今中南半岛"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-20",
+      "type": "text",
+      "context": "有南类之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "藑茅",
+  "name": "藑茅",
+  "pinyin": "qiónɡ",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "一种可用于占卜的草",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-10",
+      "type": "annotation",
+      "annotationExplanation": "一种可用于占卜的草"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

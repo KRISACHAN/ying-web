@@ -1,0 +1,29 @@
+{
+  "id": "合窳",
+  "name": "合窳",
+  "pinyin": "yǔ",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说是一种黄色野猪",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-41",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说是一种黄色野猪"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-41",
+      "type": "text",
+      "context": "有兽焉，其状如彘而人面，黄身而赤尾，其名曰合窳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

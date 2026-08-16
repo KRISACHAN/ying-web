@@ -1,0 +1,22 @@
+{
+  "id": "淮南王",
+  "name": "淮南王",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-11",
+      "type": "text",
+      "context": "淮南王安，好道术。设厨宰以候宾客。正"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "谿边",
+  "name": "谿边",
+  "pinyin": "xī",
+  "aliases": [
+    "树狗"
+  ],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，或作“谷遗”。一说即巨松鼠，又名树狗，体形较一般的松鼠大，生活在树上，以植物为食",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-11",
+      "type": "annotation",
+      "annotationExplanation": "兽名，或作“谷遗”。一说即巨松鼠，又名树狗，体形较一般的松鼠大，生活在树上，以植物为食"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

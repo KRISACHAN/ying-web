@@ -1,0 +1,22 @@
+{
+  "id": "犬戎国",
+  "name": "犬戎国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，一说即犬封国，一说两者并不相同",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-05",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，一说即犬封国，一说两者并不相同"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "搏兽丘",
+  "name": "搏兽丘",
+  "pinyin": "",
+  "aliases": [
+    "搏兽之丘"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "搏杀猛兽的丘陵。一说指山名，即搏兽丘，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-28",
+      "type": "annotation",
+      "annotationExplanation": "搏杀猛兽的丘陵。一说指山名，即搏兽丘，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

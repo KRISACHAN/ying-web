@@ -1,0 +1,22 @@
+{
+  "id": "钟",
+  "name": "钟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "乐器名，用铜或铁制成",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-18",
+      "type": "annotation",
+      "annotationExplanation": "乐器名，用铜或铁制成"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

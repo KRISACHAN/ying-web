@@ -1,0 +1,31 @@
+{
+  "id": "不姜山",
+  "name": "不姜山",
+  "pinyin": "",
+  "aliases": [
+    "不姜之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即不姜山，山名，具体所指待考。一说可能在今贵州境内；一说在今中南半岛北部",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "annotation",
+      "annotationExplanation": "即不姜山，山名，具体所指待考。一说可能在今贵州境内；一说在今中南半岛北部"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "text",
+      "context": "，有不姜之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

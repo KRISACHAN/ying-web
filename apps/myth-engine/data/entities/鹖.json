@@ -1,0 +1,24 @@
+{
+  "id": "鹖",
+  "name": "鹖",
+  "pinyin": "hé",
+  "aliases": [
+    "鹛鸡"
+  ],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，雉类，羽毛青色，善斗。一说即褐马鸡，也叫鹛鸡，体长约1米，羽毛大部分黑褐色兼带黄色，脚有硬距，善斗",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-11",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，雉类，羽毛青色，善斗。一说即褐马鸡，也叫鹛鸡，体长约1米，羽毛大部分黑褐色兼带黄色，脚有硬距，善斗"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

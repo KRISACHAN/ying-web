@@ -1,0 +1,22 @@
+{
+  "id": "华草",
+  "name": "华草",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "一说即多花之草；一说指草名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-01",
+      "type": "annotation",
+      "annotationExplanation": "一说即多花之草；一说指草名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "水马",
+  "name": "水马",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "动物名，具体所指待考。一说指河马",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-02",
+      "type": "annotation",
+      "annotationExplanation": "动物名，具体所指待考。一说指河马"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

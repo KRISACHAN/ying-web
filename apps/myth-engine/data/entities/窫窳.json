@@ -1,0 +1,22 @@
+{
+  "id": "窫窳",
+  "name": "窫窳",
+  "pinyin": "yà yǔ",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "古代传说中的一种怪兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-13",
+      "type": "annotation",
+      "annotationExplanation": "古代传说中的一种怪兽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

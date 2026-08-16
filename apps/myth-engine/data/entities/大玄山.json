@@ -1,0 +1,31 @@
+{
+  "id": "大玄山",
+  "name": "大玄山",
+  "pinyin": "",
+  "aliases": [
+    "大玄之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即大玄山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-16",
+      "type": "annotation",
+      "annotationExplanation": "即大玄山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-16",
+      "type": "text",
+      "context": "。有大玄之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

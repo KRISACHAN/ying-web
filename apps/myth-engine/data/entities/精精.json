@@ -1,0 +1,22 @@
+{
+  "id": "精精",
+  "name": "精精",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，一说指黄羊，体毛以棕黄为主，腹面白色，臀部有显著白斑，四肢细长，善于奔跑",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-33",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说指黄羊，体毛以棕黄为主，腹面白色，臀部有显著白斑，四肢细长，善于奔跑"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

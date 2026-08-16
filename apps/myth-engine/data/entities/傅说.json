@@ -1,0 +1,29 @@
+{
+  "id": "傅说",
+  "name": "傅说",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-01",
+      "type": "text",
+      "context": "见兮,\n\n名声著而日延。\n\n奇傅说之托星辰兮,\n\n羡韩众之得一。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "火可立致者，阴阳同气相动敢，此傅说之所以骑辰尾也。\n\n故至阴飂飂"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 5
+  }
+}

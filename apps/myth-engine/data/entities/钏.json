@@ -1,0 +1,22 @@
+{
+  "id": "钏",
+  "name": "钏",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "用珠子或玉石等穿起来做成的镯子",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 24,
+      "entryId": "soushenji-24-03",
+      "type": "annotation",
+      "annotationExplanation": "用珠子或玉石等穿起来做成的镯子"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 24
+  }
+}

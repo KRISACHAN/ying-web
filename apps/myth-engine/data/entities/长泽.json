@@ -1,0 +1,31 @@
+{
+  "id": "长泽",
+  "name": "长泽",
+  "pinyin": "",
+  "aliases": [
+    "长之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说指今山西南部解池周围的盐沼泽地",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-33",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说指今山西南部解池周围的盐沼泽地"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-33",
+      "type": "text",
+      "context": "注于长泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

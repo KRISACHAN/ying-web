@@ -1,0 +1,22 @@
+{
+  "id": "楠",
+  "name": "楠",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "楠木，常绿乔木，是一种贵重的建筑材料",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-21",
+      "type": "annotation",
+      "annotationExplanation": "楠木，常绿乔木，是一种贵重的建筑材料"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

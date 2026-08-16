@@ -1,0 +1,31 @@
+{
+  "id": "鼓镫山",
+  "name": "鼓镫山",
+  "pinyin": "dēnɡ",
+  "aliases": [
+    "鼓镫之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即鼓镫山，山名，在今山西境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-09",
+      "type": "annotation",
+      "annotationExplanation": "即鼓镫山，山名，在今山西境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-09",
+      "type": "text",
+      "context": "，曰鼓镫之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

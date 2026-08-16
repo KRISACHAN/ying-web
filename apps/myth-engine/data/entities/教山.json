@@ -1,0 +1,24 @@
+{
+  "id": "教山",
+  "name": "教山",
+  "pinyin": "",
+  "aliases": [
+    "教之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，即历山，在今山西垣曲县北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-36",
+      "type": "annotation",
+      "annotationExplanation": "山名，即历山，在今山西垣曲县北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

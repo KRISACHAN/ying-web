@@ -1,0 +1,22 @@
+{
+  "id": "贾",
+  "name": "贾",
+  "pinyin": "jiǎ",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "一说属鹰类；一说指乌鸦",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-02",
+      "type": "annotation",
+      "annotationExplanation": "一说属鹰类；一说指乌鸦"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

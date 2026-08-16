@@ -1,0 +1,22 @@
+{
+  "id": "旋龟",
+  "name": "旋龟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "龟名，一说指大头龟，头较大，呈三角形，颌部如鹰嘴",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-04",
+      "type": "annotation",
+      "annotationExplanation": "龟名，一说指大头龟，头较大，呈三角形，颌部如鹰嘴"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

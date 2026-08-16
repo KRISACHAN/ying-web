@@ -1,0 +1,22 @@
+{
+  "id": "燕",
+  "name": "燕",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古国名，公元前11世纪周分封的诸侯国，在今河北北部和辽宁西端，公元前3世纪为秦所灭",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-11",
+      "type": "annotation",
+      "annotationExplanation": "古国名，公元前11世纪周分封的诸侯国，在今河北北部和辽宁西端，公元前3世纪为秦所灭"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

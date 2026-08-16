@@ -1,0 +1,22 @@
+{
+  "id": "九嶷",
+  "name": "九嶷",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-24",
+      "type": "text",
+      "context": "，作诗曰：“逍遥云汉间，呼吸发九嶷。流汝不稽路，弱水何不之。”出"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

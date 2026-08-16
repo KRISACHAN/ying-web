@@ -1,0 +1,36 @@
+{
+  "id": "汉",
+  "name": "汉",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-09",
+      "type": "text",
+      "context": "注于汉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-100",
+      "type": "text",
+      "context": "注于汉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-104",
+      "type": "text",
+      "context": "注于汉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

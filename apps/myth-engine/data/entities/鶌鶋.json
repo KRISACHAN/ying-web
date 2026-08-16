@@ -1,0 +1,24 @@
+{
+  "id": "鶌鶋",
+  "name": "鶌鶋",
+  "pinyin": "qū jū",
+  "aliases": [
+    "鹛鸠"
+  ],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，又叫鹛鸠，即斑鸠",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-32",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，又叫鹛鸠，即斑鸠"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

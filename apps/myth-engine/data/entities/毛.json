@@ -1,0 +1,22 @@
+{
+  "id": "毛",
+  "name": "毛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "用于祭祀的带毛的动物，如猪、牛、羊等",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-10",
+      "type": "annotation",
+      "annotationExplanation": "用于祭祀的带毛的动物，如猪、牛、羊等"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

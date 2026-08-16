@@ -1,0 +1,22 @@
+{
+  "id": "餈",
+  "name": "餈",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "一种用江米(糯米)做成的食品",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 19,
+      "entryId": "soushenji-19-01",
+      "type": "annotation",
+      "annotationExplanation": "一种用江米(糯米)做成的食品"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 19
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "居暨",
+  "name": "居暨",
+  "pinyin": "",
+  "aliases": [
+    "长耳刺猬"
+  ],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "兽名，一说即短棘猬，又名长耳刺猬，属刺猬的一种",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-24",
+      "type": "annotation",
+      "annotationExplanation": "兽名，一说即短棘猬，又名长耳刺猬，属刺猬的一种"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

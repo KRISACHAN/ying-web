@@ -1,0 +1,29 @@
+{
+  "id": "迷榖",
+  "name": "迷榖",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "medium",
+  "description": "传说中的一种植物。一说即榖树；一说特指雌性榖树",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种植物。一说即榖树；一说特指雌性榖树"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "text",
+      "context": "有木焉，其状如榖而黑理，其华四照，其名曰迷榖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "槐江",
+  "name": "槐江",
+  "pinyin": "",
+  "aliases": [
+    "槐之江",
+    "槐江山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即槐江山，山名，具体所指待考。一说在今新疆境内；一说在今甘肃境内；一说在今新疆与青海交界处",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "annotation",
+      "annotationExplanation": "即槐江山，山名，具体所指待考。一说在今新疆境内；一说在今甘肃境内；一说在今新疆与青海交界处"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "text",
+      "context": "，曰槐江之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

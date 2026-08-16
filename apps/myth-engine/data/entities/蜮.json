@@ -1,0 +1,22 @@
+{
+  "id": "蜮",
+  "name": "蜮",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中一种在水里暗中害人的怪物",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-03",
+      "type": "annotation",
+      "annotationExplanation": "传说中一种在水里暗中害人的怪物"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 6
+  }
+}

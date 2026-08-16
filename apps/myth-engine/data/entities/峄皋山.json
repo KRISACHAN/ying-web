@@ -1,0 +1,31 @@
+{
+  "id": "峄皋山",
+  "name": "峄皋山",
+  "pinyin": "yì ɡāo",
+  "aliases": [
+    "峄皋之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即峄皋山，山名，一说指今峄山，在山东邹城市东南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-13",
+      "type": "annotation",
+      "annotationExplanation": "即峄皋山，山名，一说指今峄山，在山东邹城市东南"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-13",
+      "type": "text",
+      "context": "，曰峄皋之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

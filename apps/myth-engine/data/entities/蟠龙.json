@@ -1,0 +1,22 @@
+{
+  "id": "蟠龙",
+  "name": "蟠龙",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "华虫疏镂，以相缪紾；寝兕伏虎，蟠龙连组；焜昱锗眩，照耀辉煌；偃蹇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 9
+  }
+}

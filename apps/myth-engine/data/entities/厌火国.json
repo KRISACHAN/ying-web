@@ -1,0 +1,29 @@
+{
+  "id": "厌火国",
+  "name": "厌火国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，因其国中之人能口中吐火，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-09",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，因其国中之人能口中吐火，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-09",
+      "type": "text",
+      "context": "厌火国在其国南，兽身黑色，生火出其口"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

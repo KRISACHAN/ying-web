@@ -1,0 +1,22 @@
+{
+  "id": "鸣鸟",
+  "name": "鸣鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "凤凰之类的鸟。一说即孟鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-15",
+      "type": "annotation",
+      "annotationExplanation": "凤凰之类的鸟。一说即孟鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

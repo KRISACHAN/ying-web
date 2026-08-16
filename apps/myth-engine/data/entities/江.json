@@ -1,0 +1,22 @@
+{
+  "id": "江",
+  "name": "江",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "应作“汶”，水名，一说指大汶河，源出今山东莱芜市北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-08",
+      "type": "annotation",
+      "annotationExplanation": "应作“汶”，水名，一说指大汶河，源出今山东莱芜市北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "不周山",
+  "name": "不周山",
+  "pinyin": "",
+  "aliases": [
+    "不周之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "曰不周之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 5
+  }
+}

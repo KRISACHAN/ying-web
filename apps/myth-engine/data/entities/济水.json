@@ -1,0 +1,31 @@
+{
+  "id": "济水",
+  "name": "济水",
+  "pinyin": "jǐ",
+  "aliases": [
+    "济之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": "水名，包括黄河南北两部分，河北部分源出今河南济源市西王屋山，河南部分本系从黄河分出的一条支流",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-104",
+      "type": "text",
+      "context": "济水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-23",
+      "type": "annotation",
+      "annotationExplanation": "水名，包括黄河南北两部分，河北部分源出今河南济源市西王屋山，河南部分本系从黄河分出的一条支流"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

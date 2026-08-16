@@ -1,0 +1,24 @@
+{
+  "id": "井陉山",
+  "name": "井陉山",
+  "pinyin": "",
+  "aliases": [
+    "井陉之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。今河北石家庄市西部有井陉山，此处所指井陉山则应在山西",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-22",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。今河北石家庄市西部有井陉山，此处所指井陉山则应在山西"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

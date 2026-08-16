@@ -1,0 +1,24 @@
+{
+  "id": "张弘之国",
+  "name": "张弘之国",
+  "pinyin": "",
+  "aliases": [
+    "张弘国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即张弘国，国名，一说即长臂国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-18",
+      "type": "annotation",
+      "annotationExplanation": "即张弘国，国名，一说即长臂国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

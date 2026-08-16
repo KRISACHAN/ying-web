@@ -1,0 +1,22 @@
+{
+  "id": "长州",
+  "name": "长州",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "一说指今江苏如皋(ɡāo)市东的沙洲",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-09",
+      "type": "annotation",
+      "annotationExplanation": "一说指今江苏如皋(ɡāo)市东的沙洲"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

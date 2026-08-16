@@ -1,0 +1,24 @@
+{
+  "id": "桂",
+  "name": "桂",
+  "pinyin": "",
+  "aliases": [
+    "木犀"
+  ],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "桂花树，又叫木犀，花有特殊香气",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "桂花树，又叫木犀，花有特殊香气"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

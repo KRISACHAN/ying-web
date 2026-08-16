@@ -1,0 +1,24 @@
+{
+  "id": "陈留大泽",
+  "name": "陈留大泽",
+  "pinyin": "",
+  "aliases": [
+    "陈留大之泽"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 17,
+      "entryId": "soushenji-17-02",
+      "type": "text",
+      "context": "于陈留大泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 17
+  }
+}

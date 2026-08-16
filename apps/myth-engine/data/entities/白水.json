@@ -1,0 +1,38 @@
+{
+  "id": "白水",
+  "name": "白水",
+  "pinyin": "",
+  "aliases": [
+    "白之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即今白水江，源出四川松潘东北，向东南流经甘肃文县，至四川广元市西南入今嘉陵江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-16",
+      "type": "annotation",
+      "annotationExplanation": "即今白水江，源出四川松潘东北，向东南流经甘肃文县，至四川广元市西南入今嘉陵江"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "annotation",
+      "annotationExplanation": "神话中水名，源于昆仑山，饮后不死"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "text",
+      "context": "于白水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

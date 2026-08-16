@@ -1,0 +1,38 @@
+{
+  "id": "崇吾山",
+  "name": "崇吾山",
+  "pinyin": "",
+  "aliases": [
+    "崇吾之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即崇吾(一作“丘”)山，山名，具体所指待考。一说在今青海茶卡盐湖附近；一说在今甘肃境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-28",
+      "type": "annotation",
+      "annotationExplanation": "即崇吾(一作“丘”)山，山名，具体所指待考。一说在今青海茶卡盐湖附近；一说在今甘肃境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-28",
+      "type": "text",
+      "context": "，曰崇吾之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-43",
+      "type": "text",
+      "context": "，崇吾之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

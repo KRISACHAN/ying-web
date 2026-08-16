@@ -1,0 +1,24 @@
+{
+  "id": "江山",
+  "name": "江山",
+  "pinyin": "",
+  "aliases": [
+    "江之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "一说是山名，即穷山；一说指江和山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-16",
+      "type": "annotation",
+      "annotationExplanation": "一说是山名，即穷山；一说指江和山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

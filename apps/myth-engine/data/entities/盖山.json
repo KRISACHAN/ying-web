@@ -1,0 +1,25 @@
+{
+  "id": "盖山",
+  "name": "盖山",
+  "pinyin": "",
+  "aliases": [
+    "盖之山",
+    "盖山国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即盖山国，国名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-20",
+      "type": "annotation",
+      "annotationExplanation": "即盖山国，国名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

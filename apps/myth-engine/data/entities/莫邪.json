@@ -1,0 +1,50 @@
+{
+  "id": "莫邪",
+  "name": "莫邪",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 11,
+      "entryId": "soushenji-11-04",
+      "type": "text",
+      "context": "楚干将莫邪为楚王作剑，三年乃成，王怒，欲"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "则险，心有目则眩。兵莫憯于志而莫邪为下；寇莫大于阴阳而抱鼓为小，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "则生争斗。故曰：兵莫憯于意志，莫邪为下；寇莫大于阴阳，枹鼓为小。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "也，此皆相似者。故剑工惑剑之似莫邪者，唯欧冶能名其种；玉工眩玉之"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "一捣，则折胁伤干，为此弃干将、莫邪而以手战，则悖矣。所谓言者，齐"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 11
+  }
+}

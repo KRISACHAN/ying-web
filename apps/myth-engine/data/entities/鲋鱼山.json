@@ -1,0 +1,24 @@
+{
+  "id": "鲋鱼山",
+  "name": "鲋鱼山",
+  "pinyin": "fù",
+  "aliases": [
+    "鲋鱼之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "又作务隅山、附禺山。一说即嶓冢(bō zhǒnɡ)山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-12",
+      "type": "annotation",
+      "annotationExplanation": "又作务隅山、附禺山。一说即嶓冢(bō zhǒnɡ)山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

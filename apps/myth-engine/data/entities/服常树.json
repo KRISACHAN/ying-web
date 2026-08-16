@@ -1,0 +1,22 @@
+{
+  "id": "服常树",
+  "name": "服常树",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "树名，具体所指待考。一说可能是沙棠",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-18",
+      "type": "annotation",
+      "annotationExplanation": "树名，具体所指待考。一说可能是沙棠"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

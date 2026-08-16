@@ -1,0 +1,31 @@
+{
+  "id": "长沙山",
+  "name": "长沙山",
+  "pinyin": "",
+  "aliases": [
+    "长沙之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即长沙山，山名，具体所指待考。一说可能在今新疆境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-29",
+      "type": "annotation",
+      "annotationExplanation": "即长沙山，山名，具体所指待考。一说可能在今新疆境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-29",
+      "type": "text",
+      "context": "，曰长沙之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

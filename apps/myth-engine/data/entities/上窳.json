@@ -1,0 +1,22 @@
+{
+  "id": "上窳",
+  "name": "上窳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地名，具体所指待考。一说在今山西静乐县北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-21",
+      "type": "annotation",
+      "annotationExplanation": "地名，具体所指待考。一说在今山西静乐县北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

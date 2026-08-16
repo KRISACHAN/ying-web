@@ -1,0 +1,40 @@
+{
+  "id": "狄山",
+  "name": "狄山",
+  "pinyin": "",
+  "aliases": [
+    "狄之山",
+    "苍梧山",
+    "九薿山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说可能是九肾上薿山，又名苍梧山，在今湖南宁远南，相传虞舜葬于此处",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-18",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能是九肾上薿山，又名苍梧山，在今湖南宁远南，相传虞舜葬于此处"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-08",
+      "type": "annotation",
+      "annotationExplanation": "即苍梧山，山名，又叫九薿山，在今湖南宁远南"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-08",
+      "type": "text",
+      "context": "苍梧之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

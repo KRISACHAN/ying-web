@@ -1,0 +1,24 @@
+{
+  "id": "鹯",
+  "name": "鹯",
+  "pinyin": "",
+  "aliases": [
+    "晨风"
+  ],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，也叫晨风，与鹞相似，青黄色",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-31",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，也叫晨风，与鹞相似，青黄色"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

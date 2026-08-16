@@ -1,0 +1,24 @@
+{
+  "id": "大騩山",
+  "name": "大騩山",
+  "pinyin": "",
+  "aliases": [
+    "大騩之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-66",
+      "type": "text",
+      "context": "，曰大騩之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

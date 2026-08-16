@@ -1,0 +1,73 @@
+{
+  "id": "弱水",
+  "name": "弱水",
+  "pinyin": "",
+  "aliases": [
+    "弱之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，名叫弱水的河流很多。古人也把浅而不能载舟的水流称为弱水",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-13",
+      "type": "annotation",
+      "annotationExplanation": "水名，名叫弱水的河流很多。古人也把浅而不能载舟的水流称为弱水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-13",
+      "type": "text",
+      "context": "窫窳龙首，居弱水中，在狌狌知人名之西，其状如龙"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-14",
+      "type": "text",
+      "context": "，其木若，其名曰建木。在窫窳西弱水上。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-15",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-15",
+      "type": "text",
+      "context": "弱水、青水出西南隅，以东，又北，又"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-24",
+      "type": "text",
+      "context": "汉间，呼吸发九嶷。流汝不稽路，弱水何不之。”出薯蓣子三枚，大如鸡"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "西南注南海丹泽之东。赤水之东，弱水出自穷石，至于合黎，余波入于流"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "之际，径蹑都广，人日抑节，羽翼弱水，暮宿风穴，当此之时，鸿鹄鸧鸖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

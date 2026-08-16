@@ -1,0 +1,24 @@
+{
+  "id": "江河",
+  "name": "江河",
+  "pinyin": "",
+  "aliases": [
+    "江之河"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "于江河"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 23
+  }
+}

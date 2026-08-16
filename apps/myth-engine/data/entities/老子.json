@@ -1,0 +1,71 @@
+{
+  "id": "老子",
+  "name": "老子",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-16",
+      "type": "text",
+      "context": "“遽如许。”于是遂莫知所取焉。老子曰：“吾之所以为大患者，以吾有"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 5,
+      "entryId": "soushenji-05-05",
+      "type": "text",
+      "context": "许活吾，当卒恩否？”答曰：“大老子业已许卿，当复相欺耶！”见其从"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 15,
+      "entryId": "soushenji-15-06",
+      "type": "text",
+      "context": "托病不仕，还乡里。行至濑乡，经老子祠，皆是洋昔死时所见使处，但不"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "若夏就 絺绤，上车授绥之谓也。老子学商容，见舌而知守柔矣；列子学"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "、楯、肆、穷庐，故有所宜也。故老子曰 “不上贤”者，言不致鱼于木"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "而非也，孰知形之不形者乎？”故老子曰：“天下皆知善之为善，斯不善"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 16,
+      "entryId": "huainanzi-16-01",
+      "type": "text",
+      "context": "也，功所与时成也，圣人无焉。故老子曰：“虎无所措其爪，兕无所措其"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "三，为天下笑，此不知足之祸也。老子曰：“知足不辱，知止不殆，可以"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

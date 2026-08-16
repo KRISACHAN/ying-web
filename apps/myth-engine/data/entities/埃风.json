@@ -1,0 +1,22 @@
+{
+  "id": "埃风",
+  "name": "埃风",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "high",
+  "description": "卷着尘埃的大风",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "annotation",
+      "annotationExplanation": "卷着尘埃的大风"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "钩端",
+  "name": "钩端",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "竹名，现名刺竹，主枝茎及各节上有刺",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "annotation",
+      "annotationExplanation": "竹名，现名刺竹，主枝茎及各节上有刺"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

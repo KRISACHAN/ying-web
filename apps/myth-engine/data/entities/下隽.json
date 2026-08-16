@@ -1,0 +1,22 @@
+{
+  "id": "下隽",
+  "name": "下隽",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，西汉置，因隽水而得名，治今湖北通城县西北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-17",
+      "type": "annotation",
+      "annotationExplanation": "古县名，西汉置，因隽水而得名，治今湖北通城县西北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

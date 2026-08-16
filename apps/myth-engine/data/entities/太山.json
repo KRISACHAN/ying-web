@@ -1,0 +1,24 @@
+{
+  "id": "太山",
+  "name": "太山",
+  "pinyin": "",
+  "aliases": [
+    "太之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说指东泰山，在今山东临朐(qú)县东南；一说即今东岳泰山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-42",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说指东泰山，在今山东临朐(qú)县东南；一说即今东岳泰山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

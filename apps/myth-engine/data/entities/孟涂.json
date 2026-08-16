@@ -1,0 +1,22 @@
+{
+  "id": "孟涂",
+  "name": "孟涂",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "人名，据传启曾派他去巴地负责诉讼之事",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-12",
+      "type": "annotation",
+      "annotationExplanation": "人名，据传启曾派他去巴地负责诉讼之事"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

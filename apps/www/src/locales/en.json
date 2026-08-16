@@ -174,8 +174,8 @@
         "viewOnGithub": "View on GitHub",
         "items": [
             {
-                "title": "ying-companion",
-                "description": "A pluggable AI Companion and Agent Runtime covering workflow orchestration, tool calling, long-term memory, model adapters, graceful degradation, and runtime debugging.",
+                "title": "ying-ai",
+                "description": "A TypeScript AI capabilities monorepo featuring a pluggable Companion SDK, long-term memory, model adapters, web-search tools, an interactive Story Runtime, and independent AI applications.",
                 "stars": "Active Development",
                 "technologies": [
                     "TypeScript",
@@ -184,7 +184,7 @@
                     "pgvector",
                     "OpenAI / Ollama"
                 ],
-                "link": "https://github.com/KRISACHAN/ying-companion",
+                "link": "https://github.com/KRISACHAN/ying-ai",
                 "gradient": "from-cyan-500 to-blue-600",
                 "badgeColor": { "bg": "bg-cyan-100", "text": "text-cyan-800" }
             },

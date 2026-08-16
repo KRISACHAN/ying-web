@@ -1,0 +1,32 @@
+{
+  "id": "弇州山",
+  "name": "弇州山",
+  "pinyin": "yān",
+  "aliases": [
+    "弇州之山",
+    "奔州山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即奔州山，山名，具体所指待考。一说即崦嵫(yān zī)山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-15",
+      "type": "annotation",
+      "annotationExplanation": "即奔州山，山名，具体所指待考。一说即崦嵫(yān zī)山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-15",
+      "type": "text",
+      "context": "有弇州之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

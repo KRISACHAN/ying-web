@@ -1,0 +1,24 @@
+{
+  "id": "邦山",
+  "name": "邦山",
+  "pinyin": "",
+  "aliases": [
+    "邦之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，在今甘肃天水市",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-55",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今甘肃天水市"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

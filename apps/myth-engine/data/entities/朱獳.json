@@ -1,0 +1,29 @@
+{
+  "id": "朱獳",
+  "name": "朱獳",
+  "pinyin": "rú",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种兽。一说指赤狐",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-18",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种兽。一说指赤狐"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-18",
+      "type": "text",
+      "context": "有兽焉，其状如狐而鱼翼，其名曰朱獳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "幧头",
+  "name": "幧头",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "古代男子束发的头巾",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 17,
+      "entryId": "soushenji-17-03",
+      "type": "annotation",
+      "annotationExplanation": "古代男子束发的头巾"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 17
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "雕题国",
+  "name": "雕题国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，具体所指待考。雕题意为在额上文刻。一说应在今广东、广西一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-05",
+      "type": "annotation",
+      "annotationExplanation": "国名，具体所指待考。雕题意为在额上文刻。一说应在今广东、广西一带"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

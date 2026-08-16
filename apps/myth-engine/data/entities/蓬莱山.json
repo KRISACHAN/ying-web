@@ -1,0 +1,24 @@
+{
+  "id": "蓬莱山",
+  "name": "蓬莱山",
+  "pinyin": "",
+  "aliases": [
+    "蓬莱之山"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "古代传说位于东海中的一座神山，上面有神仙居住",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-19",
+      "type": "annotation",
+      "annotationExplanation": "古代传说位于东海中的一座神山，上面有神仙居住"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

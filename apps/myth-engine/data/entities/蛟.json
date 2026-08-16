@@ -1,0 +1,22 @@
+{
+  "id": "蛟",
+  "name": "蛟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "即蛟龙，传说中能引发洪水的一种龙",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-100",
+      "type": "annotation",
+      "annotationExplanation": "即蛟龙，传说中能引发洪水的一种龙"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

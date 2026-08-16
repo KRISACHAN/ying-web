@@ -1,0 +1,24 @@
+{
+  "id": "龙脩",
+  "name": "龙脩",
+  "pinyin": "",
+  "aliases": [
+    "龙须草"
+  ],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "即龙须草，多年生草本植物，茎青绿色，线形，高50厘米，茎上无叶，开淡绿色花，蒴果长椭圆形",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-90",
+      "type": "annotation",
+      "annotationExplanation": "即龙须草，多年生草本植物，茎青绿色，线形，高50厘米，茎上无叶，开淡绿色花，蒴果长椭圆形"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "白柳",
+  "name": "白柳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "柳的一种，柳叶的背面苍白色或有白粉，如杞柳",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-11",
+      "type": "annotation",
+      "annotationExplanation": "柳的一种，柳叶的背面苍白色或有白粉，如杞柳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

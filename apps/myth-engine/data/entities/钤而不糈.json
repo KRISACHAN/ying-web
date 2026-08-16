@@ -1,0 +1,22 @@
+{
+  "id": "钤而不糈",
+  "name": "钤而不糈",
+  "pinyin": "xǔ",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "一说指祈祷时不用精米；一说指用金属犁作祭物而不用精米。似应指祈祷时不用精米",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-27",
+      "type": "annotation",
+      "annotationExplanation": "一说指祈祷时不用精米；一说指用金属犁作祭物而不用精米。似应指祈祷时不用精米"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

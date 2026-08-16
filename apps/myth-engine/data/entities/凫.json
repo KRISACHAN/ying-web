@@ -1,0 +1,29 @@
+{
+  "id": "凫",
+  "name": "凫",
+  "pinyin": "fú",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "水鸟名，俗称野鸭",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-28",
+      "type": "annotation",
+      "annotationExplanation": "水鸟名，俗称野鸭"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-13",
+      "type": "annotation",
+      "annotationExplanation": "水鸟，俗称“野鸭”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

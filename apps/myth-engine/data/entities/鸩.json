@@ -1,0 +1,36 @@
+{
+  "id": "鸩",
+  "name": "鸩",
+  "pinyin": "zhèn",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种毒鸟，把它的羽毛泡在酒里，喝了可以把人毒死",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-71",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种毒鸟，把它的羽毛泡在酒里，喝了可以把人毒死"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-103",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，一说指夜鹰"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-09",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，羽有毒，置于酒中，饮之致人死命"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

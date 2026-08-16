@@ -1,0 +1,32 @@
+{
+  "id": "伦水",
+  "name": "伦水",
+  "pinyin": "",
+  "aliases": [
+    "伦之水",
+    "拒马河"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即涞水，也叫拒马河，源出今河北涞源县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-44",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即涞水，也叫拒马河，源出今河北涞源县"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-44",
+      "type": "text",
+      "context": "伦水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

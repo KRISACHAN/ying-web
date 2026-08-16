@@ -1,0 +1,22 @@
+{
+  "id": "遗玉",
+  "name": "遗玉",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "玉石名，一说即瑿(yī)，一种黑色的琥珀，是琥珀中最珍贵的",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-13",
+      "type": "annotation",
+      "annotationExplanation": "玉石名，一说即瑿(yī)，一种黑色的琥珀，是琥珀中最珍贵的"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "泺水",
+  "name": "泺水",
+  "pinyin": "luò",
+  "aliases": [
+    "泺之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，源出今山东济南市西南，向北流入古济水(此段古济水即今黄河)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-07",
+      "type": "annotation",
+      "annotationExplanation": "水名，源出今山东济南市西南，向北流入古济水(此段古济水即今黄河)"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-07",
+      "type": "text",
+      "context": "泺水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

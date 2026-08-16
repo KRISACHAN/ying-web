@@ -1,0 +1,22 @@
+{
+  "id": "雌鸡化雄",
+  "name": "雌鸡化雄",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "古时认为不祥之兆，预示着国家将倾颓",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-13",
+      "type": "annotation",
+      "annotationExplanation": "古时认为不祥之兆，预示着国家将倾颓"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 6
+  }
+}

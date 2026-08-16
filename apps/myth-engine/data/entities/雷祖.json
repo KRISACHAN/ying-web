@@ -1,0 +1,22 @@
+{
+  "id": "雷祖",
+  "name": "雷祖",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "即嫘(léi)祖，又作累祖，传说为西陵氏之女，黄帝正妃，是养蚕治丝方法的发明者",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "annotation",
+      "annotationExplanation": "即嫘(léi)祖，又作累祖，传说为西陵氏之女，黄帝正妃，是养蚕治丝方法的发明者"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

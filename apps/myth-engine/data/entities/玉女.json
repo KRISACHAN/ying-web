@@ -1,0 +1,36 @@
+{
+  "id": "玉女",
+  "name": "玉女",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-11",
+      "type": "text",
+      "context": "见三光，遇北斗兮。驱乘风云，使玉女兮。”今所谓淮南操是也。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-25",
+      "type": "text",
+      "context": "，梦有神女来从之。自称：“天上玉女，东郡人，姓成公，字知琼，早失"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 9,
+      "entryId": "chuci-09-01",
+      "type": "text",
+      "context": "騑。\n\n建日月以为盖兮,\n\n载玉女于后车。\n\n驰骛于杳冥之中兮,"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

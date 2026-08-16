@@ -1,0 +1,22 @@
+{
+  "id": "羿",
+  "name": "羿",
+  "pinyin": "yì",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "即后羿，是夏朝有穷氏的酋长，善于射箭，曾推翻夏代统治，后因沉溺于狩猎，被家臣射死。另有“后羿射日”的传说",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-14",
+      "type": "annotation",
+      "annotationExplanation": "即后羿，是夏朝有穷氏的酋长，善于射箭，曾推翻夏代统治，后因沉溺于狩猎，被家臣射死。另有“后羿射日”的传说"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

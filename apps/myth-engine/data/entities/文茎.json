@@ -1,0 +1,22 @@
+{
+  "id": "文茎",
+  "name": "文茎",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "植物名，一说指无刺枣，一种小乔木，枝上没有棘针",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-05",
+      "type": "annotation",
+      "annotationExplanation": "植物名，一说指无刺枣，一种小乔木，枝上没有棘针"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

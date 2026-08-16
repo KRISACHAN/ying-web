@@ -1,0 +1,45 @@
+{
+  "id": "漳水",
+  "name": "漳水",
+  "pinyin": "",
+  "aliases": [
+    "漳之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即漳河，在今河北、河南两省边境。有清漳河、浊漳河两源，均出今山西东南部，在河北南部合漳镇汇合后称漳河，流入卫河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-41",
+      "type": "annotation",
+      "annotationExplanation": "水名，即漳河，在今河北、河南两省边境。有清漳河、浊漳河两源，均出今山西东南部，在河北南部合漳镇汇合后称漳河，流入卫河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-41",
+      "type": "text",
+      "context": "漳水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-69",
+      "type": "annotation",
+      "annotationExplanation": "水名，发源于荆山，与沮水合流后称为沮漳河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-69",
+      "type": "text",
+      "context": "漳水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

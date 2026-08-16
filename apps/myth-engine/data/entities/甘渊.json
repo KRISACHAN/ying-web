@@ -1,0 +1,24 @@
+{
+  "id": "甘渊",
+  "name": "甘渊",
+  "pinyin": "",
+  "aliases": [
+    "甘之渊"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-01",
+      "type": "text",
+      "context": "其琴瑟。有甘山者，甘水出焉，生甘渊。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

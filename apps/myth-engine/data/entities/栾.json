@@ -1,0 +1,24 @@
+{
+  "id": "栾",
+  "name": "栾",
+  "pinyin": "",
+  "aliases": [
+    "栾华"
+  ],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "木名，即栾木，又叫栾华，落叶乔木，高可达20米，羽状复叶，开黄色花。蒴(shuò)果囊状中空，三角状卵形，种子球形",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-14",
+      "type": "annotation",
+      "annotationExplanation": "木名，即栾木，又叫栾华，落叶乔木，高可达20米，羽状复叶，开黄色花。蒴(shuò)果囊状中空，三角状卵形，种子球形"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

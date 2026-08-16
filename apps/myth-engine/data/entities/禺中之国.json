@@ -1,0 +1,24 @@
+{
+  "id": "禺中之国",
+  "name": "禺中之国",
+  "pinyin": "",
+  "aliases": [
+    "禺中国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即禺中国，国名，一说在今重庆",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-10",
+      "type": "annotation",
+      "annotationExplanation": "即禺中国，国名，一说在今重庆"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

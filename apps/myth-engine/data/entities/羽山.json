@@ -1,0 +1,24 @@
+{
+  "id": "羽山",
+  "name": "羽山",
+  "pinyin": "",
+  "aliases": [
+    "羽之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说在今浙江境内；一说应在今江西境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-14",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在今浙江境内；一说应在今江西境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

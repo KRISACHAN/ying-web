@@ -1,0 +1,24 @@
+{
+  "id": "沃之国",
+  "name": "沃之国",
+  "pinyin": "",
+  "aliases": [
+    "沃民国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "一说应作“沃民之国”，即沃民国，国名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-11",
+      "type": "annotation",
+      "annotationExplanation": "一说应作“沃民之国”，即沃民国，国名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

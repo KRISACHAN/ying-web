@@ -1,0 +1,24 @@
+{
+  "id": "北齐之国",
+  "name": "北齐之国",
+  "pinyin": "",
+  "aliases": [
+    "北齐国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即北齐国，国名，具体所指待考。一说指西周初年初封时的齐国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-08",
+      "type": "annotation",
+      "annotationExplanation": "即北齐国，国名，具体所指待考。一说指西周初年初封时的齐国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

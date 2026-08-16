@@ -1,0 +1,31 @@
+{
+  "id": "泿水",
+  "name": "泿水",
+  "pinyin": "yín",
+  "aliases": [
+    "泿之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，上游即今广西东北部的洛清河，是融江的支流",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-27",
+      "type": "annotation",
+      "annotationExplanation": "水名，上游即今广西东北部的洛清河，是融江的支流"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-27",
+      "type": "text",
+      "context": "泿水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "华阳",
+  "name": "华阳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "地名，具体所指待考。一说可能指华山之阳",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-14",
+      "type": "annotation",
+      "annotationExplanation": "地名，具体所指待考。一说可能指华山之阳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

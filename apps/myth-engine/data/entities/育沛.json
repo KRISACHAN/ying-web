@@ -1,0 +1,22 @@
+{
+  "id": "育沛",
+  "name": "育沛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "unknown",
+  "typeConfidence": "low",
+  "description": "所指待考。一说指琥珀或琥珀类的东西；一说指玳瑁(dài mào)，一种外形像龟的爬行动物，生活在海洋中",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "所指待考。一说指琥珀或琥珀类的东西；一说指玳瑁(dài mào)，一种外形像龟的爬行动物，生活在海洋中"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "钟山",
+  "name": "钟山",
+  "pinyin": "",
+  "aliases": [
+    "钟之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-03",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-03",
+      "type": "text",
+      "context": "钟山之神，名曰烛阴，视为昼，瞑为夜"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-08",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说即今内蒙古阴山；一说在今新疆境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-08",
+      "type": "text",
+      "context": "流沙出钟山，西行又南行昆仑之虚，西南入海"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 5,
+      "entryId": "soushenji-05-01",
+      "type": "text",
+      "context": "为神。”汉末，为秣陵尉，逐贼至钟山下，贼击伤额，因解绶缚之，有顷"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "临蝯眩之岸，不足以滑其和；譬若钟山之玉，炊以炉炭，三日三夜而色泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

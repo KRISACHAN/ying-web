@@ -1,0 +1,29 @@
+{
+  "id": "祝馀",
+  "name": "祝馀",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "植物名，具体所指待考。一说指山韭菜，一说指天门冬",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "annotation",
+      "annotationExplanation": "植物名，具体所指待考。一说指山韭菜，一说指天门冬"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-01",
+      "type": "text",
+      "context": "有草焉，其状如韭而青华，其名曰祝馀"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

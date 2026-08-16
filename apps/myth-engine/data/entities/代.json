@@ -1,0 +1,22 @@
+{
+  "id": "代",
+  "name": "代",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "古国名，在今河北蔚县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-05",
+      "type": "annotation",
+      "annotationExplanation": "古国名，在今河北蔚县"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

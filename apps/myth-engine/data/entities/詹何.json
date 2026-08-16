@@ -1,0 +1,43 @@
+{
+  "id": "詹何",
+  "name": "詹何",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "虽有钩箴芒距，微纶芳饵，加之以詹何、娟嬛之数，犹不能与网署争得也"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "。故蒲且子之连鸟于百仞之上，而詹何之鹜鱼于大渊之中，此皆得清净之"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "“用其光复归其明”也。楚庄王问詹何曰：“治国奈何？”对曰：“何明"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 16,
+      "entryId": "huainanzi-16-01",
+      "type": "text",
+      "context": "何；通于道者，物莫不足滑其调。詹何曰：“未尝闻身治而国乱者也。未"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 2
+  }
+}

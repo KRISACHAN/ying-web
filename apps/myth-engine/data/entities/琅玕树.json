@@ -1,0 +1,22 @@
+{
+  "id": "琅玕树",
+  "name": "琅玕树",
+  "pinyin": "lánɡ ɡān",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "即珠树，长有珍珠的树",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-18",
+      "type": "annotation",
+      "annotationExplanation": "即珠树，长有珍珠的树"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

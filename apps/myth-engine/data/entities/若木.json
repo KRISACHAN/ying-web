@@ -1,0 +1,50 @@
+{
+  "id": "若木",
+  "name": "若木",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "medium",
+  "description": "神话中树名，在昆仑山西极，太阳所入之处",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-09",
+      "type": "text",
+      "context": "海之外，黑水青水之间，有木名曰若木，若水出焉。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "annotation",
+      "annotationExplanation": "神话中树名，在昆仑山西极，太阳所入之处"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-08",
+      "type": "text",
+      "context": "池兮，\n\n总余辔乎扶桑。\n\n折若木以拂日兮，\n\n聊逍遥以相羊。\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-11",
+      "type": "text",
+      "context": "纕兮,\n\n编愁苦以为膺。\n\n折若木以蔽光兮,\n\n随飘风之所仍。\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "无景，呼而无响，盖天地之中也。若木在建木西，末有十日，其华照下地"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

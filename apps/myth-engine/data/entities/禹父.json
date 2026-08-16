@@ -1,0 +1,22 @@
+{
+  "id": "禹父",
+  "name": "禹父",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "大禹之父，即鲧(ɡǔn)，号崇伯。曾奉尧命治水，因筑堤堵水，九年未治平，被舜杀死在羽山。传说鲧死后化身为黄熊",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-21",
+      "type": "annotation",
+      "annotationExplanation": "大禹之父，即鲧(ɡǔn)，号崇伯。曾奉尧命治水，因筑堤堵水，九年未治平，被舜杀死在羽山。传说鲧死后化身为黄熊"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

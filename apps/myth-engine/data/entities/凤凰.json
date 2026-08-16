@@ -1,0 +1,43 @@
+{
+  "id": "凤凰",
+  "name": "凤凰",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 7,
+      "entryId": "soushenji-07-13",
+      "type": "text",
+      "context": "江夏，诳曜百姓，以汉祚复兴，有凤凰之瑞，圣人当世。从军者皆绛抹头"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 16,
+      "entryId": "soushenji-16-10",
+      "type": "text",
+      "context": "不造，冤如之何！羽族之长，名为凤凰；一日失雄，三年感伤；虽有众鸟"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-02",
+      "type": "text",
+      "context": "先驱兮,\n\n氛埃辟而清凉。\n\n凤凰翼其承旗兮,\n\n遇蓐收乎西皇。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-09",
+      "type": "text",
+      "context": "修洁处幽兮,\n\n贵宠沙劘。\n\n凤凰不翔兮,\n\n鹑鴳飞扬。\n\n乘虹"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 7
+  }
+}

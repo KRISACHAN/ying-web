@@ -1,0 +1,38 @@
+{
+  "id": "湘水",
+  "name": "湘水",
+  "pinyin": "",
+  "aliases": [
+    "湘之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即湘江，湖南省最大的河流，上源海洋河出广西东北海洋山西麓，东北流贯湖南省东部，最后入洞庭湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-07",
+      "type": "annotation",
+      "annotationExplanation": "即湘江，湖南省最大的河流，上源海洋河出广西东北海洋山西麓，东北流贯湖南省东部，最后入洞庭湖"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-07",
+      "type": "text",
+      "context": "兕在舜葬东，湘水南，其状如牛，苍黑，一角。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-06",
+      "type": "text",
+      "context": "\n\n上沅湘而分离。\n\n测汨罗之湘水兮,\n\n知时固而不反。\n\n伤离"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "枫木",
+  "name": "枫木",
+  "pinyin": "",
+  "aliases": [
+    "枫香树"
+  ],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "即枫树，落叶乔木，叶子通常三裂，边缘呈锯齿状，秋季叶变成红色，开黄褐色花。也叫枫香树",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-15",
+      "type": "annotation",
+      "annotationExplanation": "即枫树，落叶乔木，叶子通常三裂，边缘呈锯齿状，秋季叶变成红色，开黄褐色花。也叫枫香树"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

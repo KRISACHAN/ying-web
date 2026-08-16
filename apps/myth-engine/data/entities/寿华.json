@@ -1,0 +1,22 @@
+{
+  "id": "寿华",
+  "name": "寿华",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一作“畴华”，泽名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-14",
+      "type": "annotation",
+      "annotationExplanation": "一作“畴华”，泽名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

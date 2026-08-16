@@ -1,0 +1,31 @@
+{
+  "id": "激女水",
+  "name": "激女水",
+  "pinyin": "",
+  "aliases": [
+    "激女之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即激女(一作“汝”)水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-13",
+      "type": "annotation",
+      "annotationExplanation": "即激女(一作“汝”)水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-13",
+      "type": "text",
+      "context": "注于激女之水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

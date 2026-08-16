@@ -1,0 +1,24 @@
+{
+  "id": "南山",
+  "name": "南山",
+  "pinyin": "",
+  "aliases": [
+    "南之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说在中国西南部的横断山脉南端；一说指中南半岛",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-03",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在中国西南部的横断山脉南端；一说指中南半岛"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

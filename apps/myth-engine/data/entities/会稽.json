@@ -1,0 +1,190 @@
+{
+  "id": "会稽",
+  "name": "会稽",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-19",
+      "type": "text",
+      "context": "又东五百里，曰会稽之山，四方，其上多金玉，其下多"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-08",
+      "type": "text",
+      "context": "会稽山在大楚南。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-14",
+      "type": "text",
+      "context": "时有百岁公说：“小儿时见训卖药会稽市，颜色如此。”训不乐住洛，遂"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 3,
+      "entryId": "soushenji-03-01",
+      "type": "text",
+      "context": "汉永平中，会稽钟离意，字子阿，为鲁相。到官，"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 3,
+      "entryId": "soushenji-03-15",
+      "type": "text",
+      "context": "会稽严卿善卜筮。乡人魏序欲东行，荒"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 5,
+      "entryId": "soushenji-05-02",
+      "type": "text",
+      "context": "会稽鄮县东野有女子，姓吴，字望子，"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-02",
+      "type": "text",
+      "context": "自移，天下兵乱，社稷亡也。”故会稽山阴琅邪中有怪山，世传本琅邪东"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 7,
+      "entryId": "soushenji-07-03",
+      "type": "text",
+      "context": "晋太康四年，会稽郡蟛蚑及蟹，皆化为鼠。其众覆野"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 10,
+      "entryId": "soushenji-10-09",
+      "type": "text",
+      "context": "会稽谢奉与永嘉太守郭伯猷善，谢忽梦"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 13,
+      "entryId": "soushenji-13-10",
+      "type": "text",
+      "context": "。一云，邕告吴人曰：“吾昔尝经会稽高迁亭，见屋东间第十六竹椽可为"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 15,
+      "entryId": "soushenji-15-05",
+      "type": "text",
+      "context": "会稽贺瑀，字彦琚，曾得疾，不知人，"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 20,
+      "entryId": "soushenji-20-06",
+      "type": "text",
+      "context": "孔愉，字敬康，会稽山阴人，元帝时以讨华轶功，封侯"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 21,
+      "entryId": "soushenji-21-02",
+      "type": "text",
+      "context": "会稽剡县民袁相、根硕二人猎，经深山"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 26,
+      "entryId": "soushenji-26-01",
+      "type": "text",
+      "context": "汉时，会稽句章人至东野还，暮，不及还家。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 26,
+      "entryId": "soushenji-26-09",
+      "type": "text",
+      "context": "会稽朱弼为国郎中令，营立第舍，未成"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 26,
+      "entryId": "soushenji-26-11",
+      "type": "text",
+      "context": "沙门竺法师，会稽人也，与北中郎王坦之周旋甚厚。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 29,
+      "entryId": "soushenji-29-06",
+      "type": "text",
+      "context": "会稽句章民张然，滞役在都，经年不得"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 29,
+      "entryId": "soushenji-29-10",
+      "type": "text",
+      "context": "打，是一黄狗，遂打杀之。王时为会稽府佐，门士云：“恒见一老黄狗，"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-05",
+      "type": "text",
+      "context": "。\n\n闻南藩乐而欲往兮,\n\n至会稽而且止。\n\n见韩众而宿之兮,\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "正东阳州曰申土。\n\n何谓九山？会稽、泰山、王屋、首山、太华、歧山"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "。昔舜葬苍梧，市不变其肆；禹葬会稽之山，农不易其亩；明乎生死之分"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "践与吴战而不胜，国破身亡，困于会稽。忿心张胆，气如涌泉，选练甲卒"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "。丁壮丈夫，西至临洮狄道，东至会稽浮石，南至豫章桂林，北至飞狐阳"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "里，带甲七十万，南与越战，栖之会稽；北与齐战，破之艾陵；西遇晋公"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "之，知其可与至于霸也。勾践栖于会稽，修政不殆，谟虑不休，知祸之为"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

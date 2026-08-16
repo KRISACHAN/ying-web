@@ -1,0 +1,24 @@
+{
+  "id": "继无民",
+  "name": "继无民",
+  "pinyin": "",
+  "aliases": [
+    "无继国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名或部族名，一说应作“无继民”，无继即无继国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-17",
+      "type": "annotation",
+      "annotationExplanation": "国名或部族名，一说应作“无继民”，无继即无继国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

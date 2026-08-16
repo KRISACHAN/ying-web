@@ -1,0 +1,31 @@
+{
+  "id": "黄酸水",
+  "name": "黄酸水",
+  "pinyin": "",
+  "aliases": [
+    "黄酸之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即黄酸水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-43",
+      "type": "annotation",
+      "annotationExplanation": "即黄酸水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-43",
+      "type": "text",
+      "context": "黄酸之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

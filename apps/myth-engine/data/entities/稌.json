@@ -1,0 +1,22 @@
+{
+  "id": "稌",
+  "name": "稌",
+  "pinyin": "tú",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "粳稻；也指糯稻",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-10",
+      "type": "annotation",
+      "annotationExplanation": "粳稻；也指糯稻"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

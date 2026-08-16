@@ -1,0 +1,24 @@
+{
+  "id": "流黄酆氏之国",
+  "name": "流黄酆氏之国",
+  "pinyin": "fēnɡ",
+  "aliases": [
+    "流黄酆氏国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即流黄酆氏国，国名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-07",
+      "type": "annotation",
+      "annotationExplanation": "即流黄酆氏国，国名，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

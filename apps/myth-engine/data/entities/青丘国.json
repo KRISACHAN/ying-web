@@ -1,0 +1,29 @@
+{
+  "id": "青丘国",
+  "name": "青丘国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-06",
+      "type": "annotation",
+      "annotationExplanation": "国名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-06",
+      "type": "text",
+      "context": "青丘国在其北，其狐四足九尾。一曰在朝"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "楚",
+  "name": "楚",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "周代诸侯国名，楚文王时建都于郢(yǐnɡ，今湖北荆州纪南城)。一说应作“越”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-08",
+      "type": "annotation",
+      "annotationExplanation": "周代诸侯国名，楚文王时建都于郢(yǐnɡ，今湖北荆州纪南城)。一说应作“越”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

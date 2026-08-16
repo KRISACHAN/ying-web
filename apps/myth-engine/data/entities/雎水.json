@@ -1,0 +1,31 @@
+{
+  "id": "雎水",
+  "name": "雎水",
+  "pinyin": "jū",
+  "aliases": [
+    "雎之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即沮水，发源于今湖北保康县",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-68",
+      "type": "annotation",
+      "annotationExplanation": "水名，即沮水，发源于今湖北保康县"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-68",
+      "type": "text",
+      "context": "雎水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

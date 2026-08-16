@@ -1,0 +1,22 @@
+{
+  "id": "缑氏",
+  "name": "缑氏",
+  "pinyin": "ɡōu",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，秦置，治今河南偃师市东南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-15",
+      "type": "annotation",
+      "annotationExplanation": "古县名，秦置，治今河南偃师市东南"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

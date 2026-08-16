@@ -1,0 +1,22 @@
+{
+  "id": "大",
+  "name": "大",
+  "pinyin": "lí",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，一说为白鹈(tí)鹕，一种大型鸟类，体长可达2米",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-12",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，一说为白鹈(tí)鹕，一种大型鸟类，体长可达2米"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

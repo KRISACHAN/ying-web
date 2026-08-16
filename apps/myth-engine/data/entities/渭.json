@@ -1,0 +1,85 @@
+{
+  "id": "渭",
+  "name": "渭",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即渭河，是黄河最大的支流，位于今陕西中部。源出甘肃渭源县鸟鼠山，东流横贯陕西渭河平原，在潼关县入黄河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-02",
+      "type": "annotation",
+      "annotationExplanation": "即渭河，是黄河最大的支流，位于今陕西中部。源出甘肃渭源县鸟鼠山，东流横贯陕西渭河平原，在潼关县入黄河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-02",
+      "type": "text",
+      "context": "注于渭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-05",
+      "type": "text",
+      "context": "注于渭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-08",
+      "type": "text",
+      "context": "注于渭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-09",
+      "type": "text",
+      "context": "注于渭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-17",
+      "type": "text",
+      "context": "注于渭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-18",
+      "type": "text",
+      "context": "注于渭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-49",
+      "type": "text",
+      "context": "注于渭"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-51",
+      "type": "text",
+      "context": "注于渭"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-03",
+      "type": "text",
+      "context": "于渭"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

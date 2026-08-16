@@ -1,0 +1,22 @@
+{
+  "id": "山阳",
+  "name": "山阳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一说在河南修武县；一说疑为“阳邑(yì)”之讹，阳邑是古县名，在今山西榆次市南边",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-26",
+      "type": "annotation",
+      "annotationExplanation": "一说在河南修武县；一说疑为“阳邑(yì)”之讹，阳邑是古县名，在今山西榆次市南边"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

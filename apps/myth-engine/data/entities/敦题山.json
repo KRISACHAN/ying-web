@@ -1,0 +1,31 @@
+{
+  "id": "敦题山",
+  "name": "敦题山",
+  "pinyin": "",
+  "aliases": [
+    "敦题之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即敦题山，山名，具体所指待考。一说在今俄罗斯境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-28",
+      "type": "annotation",
+      "annotationExplanation": "即敦题山，山名，具体所指待考。一说在今俄罗斯境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-28",
+      "type": "text",
+      "context": "，曰敦题之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

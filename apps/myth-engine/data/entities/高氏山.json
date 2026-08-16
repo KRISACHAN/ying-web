@@ -1,0 +1,31 @@
+{
+  "id": "高氏山",
+  "name": "高氏山",
+  "pinyin": "",
+  "aliases": [
+    "高氏之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即高氏山，山名，具体所指待考。一说在今山东境内；一说在今安徽境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-06",
+      "type": "annotation",
+      "annotationExplanation": "即高氏山，山名，具体所指待考。一说在今山东境内；一说在今安徽境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-06",
+      "type": "text",
+      "context": "，曰高氏之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "朝云国",
+  "name": "朝云国",
+  "pinyin": "",
+  "aliases": [
+    "朝云之国"
+  ],
+  "type": "unknown",
+  "typeConfidence": "low",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "annotation",
+      "annotationExplanation": "即朝云国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

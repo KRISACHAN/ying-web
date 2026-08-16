@@ -1,0 +1,24 @@
+{
+  "id": "燕宫中池",
+  "name": "燕宫中池",
+  "pinyin": "",
+  "aliases": [
+    "燕宫中之池"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-10",
+      "type": "text",
+      "context": "于燕宫中池"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 6
+  }
+}

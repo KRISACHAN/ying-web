@@ -1,0 +1,24 @@
+{
+  "id": "白边山",
+  "name": "白边山",
+  "pinyin": "",
+  "aliases": [
+    "白边之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-30",
+      "type": "text",
+      "context": "，曰白边之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

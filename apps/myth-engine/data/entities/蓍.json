@@ -1,0 +1,22 @@
+{
+  "id": "蓍",
+  "name": "蓍",
+  "pinyin": "shī",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "蓍草，俗名蚰蜒草或锯齿草，多年生草本植物，茎直立，我国古代用它的茎来占卜",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-57",
+      "type": "annotation",
+      "annotationExplanation": "蓍草，俗名蚰蜒草或锯齿草，多年生草本植物，茎直立，我国古代用它的茎来占卜"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

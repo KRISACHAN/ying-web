@@ -1,0 +1,2138 @@
+{
+  "id": "shanhaijing-04",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 4,
+  "chapterTitle": "东山经第四",
+  "entryCount": 44,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "东山经之首，曰樕𧑤之山，北临乾昧。食水出焉，而东北流注于海。其中多鳙鳙之鱼，其状如犁牛，其音如彘鸣。",
+      "annotations": [
+        {
+          "term": "东山神樕𧑤之山",
+          "explanation": "山名，即今山东淄博市的石门山，又名黄山"
+        },
+        {
+          "term": "乾昧",
+          "explanation": "山名，一说应作“干时”，在今山东桓台县、博兴县境内"
+        },
+        {
+          "term": "食水",
+          "explanation": "水名，一说即时水，今名淄河，在淄博市附近"
+        },
+        {
+          "term": "鳙鳙之鱼",
+          "explanation": "即鳙鳙鱼，传说中的一种鱼"
+        },
+        {
+          "term": "犁牛",
+          "explanation": "杂色牛。一说即耕牛"
+        },
+        {
+          "term": "彘",
+          "explanation": "猪"
+        }
+      ],
+      "translation": "东山第一列山系的最北端的山名叫樕𧑤山，北连乾昧山。食水就发源于这座山，流出山涧后便向东北流入大海。食水中有很多鳙鳙鱼，这种鱼身形有些像犁牛，叫声似猪哼。",
+      "index": 1
+    },
+    {
+      "title": "藟山",
+      "originalText": "又南三百里，曰藟山，其上有玉，其下有金。湖水出焉，东流注于食水，其中多活师。",
+      "annotations": [
+        {
+          "term": "藟山",
+          "explanation": "山名，在今山东中部，具体所指待考"
+        },
+        {
+          "term": "湖水",
+          "explanation": "水名，具体所指待考。一说指今山东青州市、寿光市一带已经湮没的清水泊"
+        },
+        {
+          "term": "活师",
+          "explanation": "指蝌蚪"
+        }
+      ],
+      "translation": "樕山再往南三百里有座山，名叫山。这座山的山巅上有很多玉石，山坡下有很多金矿石。湖水就发源于这座山，流出山涧后便向东流去，汇入食水。湖水中有很多蝌蚪游来游去。",
+      "index": 2
+    },
+    {
+      "title": "勃齐山",
+      "originalText": "又南三百里，曰勃齐之山，无草木，无水。",
+      "annotations": [
+        {
+          "term": "勃齐之山",
+          "explanation": "即勃齐山，山名，具体所指待考"
+        }
+      ],
+      "translation": "栒状山再往南三百里有座山，名叫勃齐山。山上没有草木也没有溪水。",
+      "index": 3
+    },
+    {
+      "title": "番条山",
+      "originalText": "又南三百里，曰番条之山，无草木，多沙。減水出焉，北流注于海，其中多鳡鱼。",
+      "annotations": [
+        {
+          "term": "番(fān)条之山",
+          "explanation": "即番条山，山名，一说指今山东的沂山；一说指今山东淄博市博山区西南的凤凰山"
+        },
+        {
+          "term": "減水",
+          "explanation": "水名，一说即今孝妇河"
+        },
+        {
+          "term": "鳡(ɡǎn)鱼",
+          "explanation": "鱼名，也叫黄钻、竿鱼等。体延长，亚圆筒形，长可达1米。青黄色，口大，眼小，性凶猛"
+        }
+      ],
+      "translation": "自勃齐山再往南三百里有座山，名叫番条山，也是长年不长草木，这里堆满了沙。減水发源于这座山，流出山涧后便向北流去，汇入大海。減水中有很多鳡鱼。",
+      "index": 4
+    },
+    {
+      "title": "姑儿山",
+      "originalText": "又南四百里，曰姑儿之山，其上多漆，其下多桑、柘。姑儿之水出焉，北流注于海，其中多鳡鱼。",
+      "annotations": [
+        {
+          "term": "姑儿之山",
+          "explanation": "即姑儿山，山名，一说指今山东章丘市、邹平县界上的长白山；一说在今山东诸城市东南"
+        },
+        {
+          "term": "姑儿之水",
+          "explanation": "即姑儿水，水名，一说即今獭河"
+        }
+      ],
+      "translation": "再向南四百里是姑儿山，山上长着很多漆树，山下长着很多桑树和柘树。姑儿水发源于姑儿山，向北流入大海，水中有很多鳡鱼。",
+      "index": 5
+    },
+    {
+      "title": "高氏山",
+      "originalText": "又南四百里，曰高氏之山，其上多玉，其下多箴石。诸绳之水出焉，东流注于泽，其中多金玉。",
+      "annotations": [
+        {
+          "term": "高氏之山",
+          "explanation": "即高氏山，山名，具体所指待考。一说在今山东境内；一说在今安徽境内"
+        },
+        {
+          "term": "箴(zhēn)石",
+          "explanation": "可用来制针的石头(箴：同“针”)"
+        },
+        {
+          "term": "诸绳之水",
+          "explanation": "即诸绳水，水名，具体所指待考"
+        }
+      ],
+      "translation": "再向南四百里是高氏山，山上有很多玉，山下有很多适合制针的石头。诸绳水发源于高氏山，向东流入湖泽，水中有很多金矿石和玉。",
+      "index": 6
+    },
+    {
+      "title": "岳山",
+      "originalText": "又南三百里，曰岳山，其上多桑，其下多樗。泺水出焉，东流注于泽，其中多金玉。",
+      "annotations": [
+        {
+          "term": "岳山",
+          "explanation": "山名，一说指文峰山，在今山东泰山的北面"
+        },
+        {
+          "term": "樗(chū)",
+          "explanation": "臭椿树"
+        },
+        {
+          "term": "泺(luò)水",
+          "explanation": "水名，源出今山东济南市西南，向北流入古济水(此段古济水即今黄河)"
+        }
+      ],
+      "translation": "高氏山再往南三百里有座山，名叫岳山。山巅有很多桑树，山坡下有很多樗树。泺水就发源于这座山，流出山涧后便向东流去，汇入大泽。泺水中有很多金矿石和玉石。",
+      "index": 7
+    },
+    {
+      "title": "泰山",
+      "originalText": "又南三百里，曰泰山，其上多玉，其下多金。有兽焉，其状如豚而有珠，名曰狪狪，其鸣自䚯。环水出焉，东流注于江，其中多水玉。",
+      "annotations": [
+        {
+          "term": "泰山",
+          "explanation": "山名，在今山东泰安市北，别称岱、岱宗、岱岳，属五岳中的东岳"
+        },
+        {
+          "term": "豚(tún)",
+          "explanation": "小猪；也泛指猪"
+        },
+        {
+          "term": "狪(tónɡ)狪",
+          "explanation": "传说中的一种兽。一说为野猪之类"
+        },
+        {
+          "term": "䚯(jiào)",
+          "explanation": "同“叫”，大声呼唤"
+        },
+        {
+          "term": "环水",
+          "explanation": "水名，发源于泰山"
+        },
+        {
+          "term": "江",
+          "explanation": "应作“汶”，水名，一说指大汶河，源出今山东莱芜市北"
+        },
+        {
+          "term": "水玉",
+          "explanation": "水晶"
+        }
+      ],
+      "translation": "独山再向南三百里是泰山，山上有很多玉，山下有很多金。山中有一种兽，形状像猪，体内有珠子，名字叫狪狪，它的叫声像在喊自己的名字。环水发源于泰山，向东流入汶水，水中有很多水晶。",
+      "index": 8
+    },
+    {
+      "title": "竹山",
+      "originalText": "又南三百里，曰竹山，錞于江，无草木，多瑶碧。激水出焉，而东南流注于娶檀之水，其中多茈蠃。",
+      "annotations": [
+        {
+          "term": "竹山",
+          "explanation": "山名，具体所指待考。一说当在今山东大汶河南岸"
+        },
+        {
+          "term": "錞(cún)",
+          "explanation": "同“蹲”，指蹲踞"
+        },
+        {
+          "term": "瑶碧",
+          "explanation": "美玉和青绿色的玉石"
+        },
+        {
+          "term": "激水",
+          "explanation": "水名，一说即接水，今称大清河"
+        },
+        {
+          "term": "娶檀之水",
+          "explanation": "即娶檀水，水名，具体所指待考"
+        }
+      ],
+      "translation": "泰山再往南三百里有座山，名叫竹山。这座山雄踞江边，山上光秃秃的，寸草不生，但有很多瑶碧玉。激水就发源于这座山，从山涧流出后便向东南流去，汇入娶檀水。激水可有很多紫色螺。",
+      "index": 9
+    },
+    {
+      "title": "东山一经总括",
+      "originalText": "凡东山经之首，自樕𧑤之山以至于竹山，三千六百里。其神状皆人身龙首。祠：毛用一犬祈，䎶用鱼。",
+      "annotations": [
+        {
+          "term": "神",
+          "explanation": "指山神"
+        },
+        {
+          "term": "祠",
+          "explanation": "祭祀"
+        },
+        {
+          "term": "䎶(èr)",
+          "explanation": "用牲血涂器祭神"
+        }
+      ],
+      "translation": "总计东山经首经中的山，从樕山到竹山，距离为三千六百里。这些山的山神的形状都是人身龙首。祭祀他们的方法是：用一只狗做祭祀用的毛物进行祈祷，并把鱼血涂在祭器上。",
+      "index": 10
+    },
+    {
+      "title": "空桑山",
+      "originalText": "东次二经之首，曰空桑之山，北临食水，东望沮吴，南望沙陵，西望湣泽。有兽焉，其状如牛而虎文，其音如钦，其名曰軨軨，其鸣自叫，见则天下大水。",
+      "annotations": [
+        {
+          "term": "空桑之山",
+          "explanation": "即空桑山，山名，一说在今山东曲阜市北"
+        },
+        {
+          "term": "沮(jū)吴",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "沙陵",
+          "explanation": "沙丘"
+        },
+        {
+          "term": "湣(mǐn)泽",
+          "explanation": "水名，一说当指大小汶河汇合处的水泽"
+        },
+        {
+          "term": "钦",
+          "explanation": "通“吟”，指叹息、呻吟"
+        },
+        {
+          "term": "軨軨(línɡ)",
+          "explanation": "传说中的一种兽。一说指鬣(liè)羚，体棕黄色，体长可达15米以上，角短而弯曲，颈有鬣毛"
+        }
+      ],
+      "translation": "东山第二列山系最北端的山名叫空桑山。这座山北临食水，东可眺望沮吴山，南可眺望沙陵，西可眺望湣泽。空桑山上有一种野兽，身形似牛，但全身毛纹似虎斑，吼叫声似人呻吟。这种兽名叫车令车令。它的吼叫声似叫喊自己的名字。这种野兽一旦出现，便预示天下将发生特大水灾。",
+      "index": 11
+    },
+    {
+      "title": "曹夕山",
+      "originalText": "又南六百里，曰曹夕之山，其下多榖而无水，多鸟兽。",
+      "annotations": [
+        {
+          "term": "曹夕之山",
+          "explanation": "即曹夕山，山名，在今山东境内，具体所指待考"
+        }
+      ],
+      "translation": "空桑山再往南六百里有座山，名叫曹夕山。山坡下有很多构树，但没有水，却有很多鸟兽。",
+      "index": 12
+    },
+    {
+      "title": "峄皋山",
+      "originalText": "又西南四百里，曰峄皋之山，其上多金玉，其下多白垩。峄皋之水出焉，东流注于激女之水，其中多蜃珧。",
+      "annotations": [
+        {
+          "term": "峄皋(yì ɡāo)之山",
+          "explanation": "即峄皋山，山名，一说指今峄山，在山东邹城市东南"
+        },
+        {
+          "term": "垩(è)",
+          "explanation": "可用来涂饰的有色土"
+        },
+        {
+          "term": "峄皋之水",
+          "explanation": "即峄皋水，水名，具体所指待考"
+        },
+        {
+          "term": "激女之水",
+          "explanation": "即激女(一作“汝”)水，水名，具体所指待考"
+        },
+        {
+          "term": "蜃(shèn)",
+          "explanation": "大蛤蜊"
+        },
+        {
+          "term": "珧(yáo)",
+          "explanation": "即江珧，软体动物，壳略呈三角形，表面苍黑色，直立插入泥沙中，终生不再移动"
+        }
+      ],
+      "translation": "曹夕山再往西南四百里有座山，名叫峄皋山。这座山的山巅有很多金矿石和玉石，山坡下有很多可用来涂饰墙壁的白色土。峄皋水就发源于这座山，流出山涧后便向东流去，汇入激女水。水中有很多蜃和珧。",
+      "index": 13
+    },
+    {
+      "title": "葛山尾",
+      "originalText": "又南水行五百里，流沙三百里，至于葛山之尾，无草木，多砥砺。",
+      "annotations": [
+        {
+          "term": "葛山",
+          "explanation": "山名，具体所指待考。一说疑为今江苏邳(pī)州市西南的葛峄(yì)山"
+        },
+        {
+          "term": "砥砺(dǐ lì)",
+          "explanation": "磨刀石"
+        }
+      ],
+      "translation": "峄皋山再往南经过五百里水路、三百里流沙，就到了葛山的尾端。这里没有草木，光秃秃的，但有很多磨刀石。",
+      "index": 14
+    },
+    {
+      "title": "葛山首",
+      "originalText": "又南三百八十里，曰葛山之首，无草木。澧水出焉，东流注于余泽，其中多珠蟞鱼，其状如肺而有四目，六足，有珠，其味酸甘，食之无疠。",
+      "annotations": [
+        {
+          "term": "澧(lǐ)水",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "余泽",
+          "explanation": "水名，一说即徐泽，在今江苏邳(pī)州市境内，现已湮"
+        },
+        {
+          "term": "珠蟞(biē)鱼",
+          "explanation": "传说中的一种鱼。一说即中华鳖"
+        },
+        {
+          "term": "疠(lì)",
+          "explanation": "瘟疫；也指恶疮"
+        }
+      ],
+      "translation": "葛山的尾端再往南三百八十里，就到了葛山的首端。这里光秃秃的，寸草不生。澧水就发源于这里，流出山涧后便向东流入余泽。澧水中有很多珠蟞鱼，这种鱼形状似肉脯团，长有四只眼睛和六只脚，脚爪子嵌有珠子。这种鱼的味道酸中带甜，人吃了这种鱼可以医治瘟疫。",
+      "index": 15
+    },
+    {
+      "title": "馀峨",
+      "originalText": "又南三百八十里，曰馀峨之山，其上多梓楠，其下多荆芑。杂余之水出焉，东流注于黄水。有兽焉，其状如菟而鸟喙，鸱目蛇尾，见人则眠，名曰犰狳，其鸣自䚯，见则螽、蝗为败。",
+      "annotations": [
+        {
+          "term": "馀峨之山",
+          "explanation": "即馀峨山，山名，具体所指待考。一说可能在今江苏徐州附近"
+        },
+        {
+          "term": "芑(qǐ)",
+          "explanation": "应作“杞”"
+        },
+        {
+          "term": "杂余之水",
+          "explanation": "即杂余水，水名，具体所指待考"
+        },
+        {
+          "term": "黄水",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "菟(tù)",
+          "explanation": "通“兔”，指兔子"
+        },
+        {
+          "term": "喙(huì)",
+          "explanation": "鸟兽的嘴"
+        },
+        {
+          "term": "犰狳(qiú yú)",
+          "explanation": "哺乳动物，身体分前、中、后三段，头顶、背部、尾部和四肢有角质鳞片，中段的鳞片有筋肉相连接，可以伸缩。趾爪锐利，善于掘土。昼伏夜出，吃昆虫、蚁和鸟卵等"
+        },
+        {
+          "term": "䚯(jiào)",
+          "explanation": "同“叫”，大声叫唤"
+        },
+        {
+          "term": "螽(zhōnɡ)",
+          "explanation": "即螽斯，一类昆虫，身体绿色或褐色，善跳跃，有的对农作物有害"
+        }
+      ],
+      "translation": "葛山首端再往南三百八十里有座山，名叫余峨山。这座山的山巅生长着梓树和楠树，山坡下生长着荆棘和枸杞。杂余水就发源于这座山，流出山涧后便向东流入黄水。余峨山上生长有一种野兽，体形像兔，但却有鸟一样的嘴壳，眼睛似鸱鸟，尾巴似蛇，一见有人便装死，这种兽名叫犰狳。它的吼叫声就像是在叫喊自己的名字。这种兽一旦出现在哪里，便预示那里的田间将遭受蝗灾。",
+      "index": 16
+    },
+    {
+      "title": "杜父山",
+      "originalText": "又南三百里，曰杜父之山，无草木，多水。",
+      "annotations": [
+        {
+          "term": "杜父之山",
+          "explanation": "即杜父山，山名，具体所指待考"
+        }
+      ],
+      "translation": "再向南三百里是杜父山，山中不长草木，有很多水。",
+      "index": 17
+    },
+    {
+      "title": "耿山",
+      "originalText": "又南三百里，曰耿山，无草木，多水碧，多大蛇。有兽焉，其状如狐而鱼翼，其名曰朱獳，其鸣自䚯，见则其国有恐。",
+      "annotations": [
+        {
+          "term": "耿山",
+          "explanation": "山名，具体所指待考。一说可能在今江苏境内"
+        },
+        {
+          "term": "水碧",
+          "explanation": "指水晶"
+        },
+        {
+          "term": "朱獳(rú)",
+          "explanation": "传说中的一种兽。一说指赤狐"
+        },
+        {
+          "term": "䚯(jiào)",
+          "explanation": "同“叫”，大声叫唤"
+        }
+      ],
+      "translation": "再向南三百里是耿山，山中不长草木，有很多水晶，还有很多大蛇。山中有一种兽，形状像狐狸，却长着鱼一样的鳍，名字叫朱獳，它的叫声像在喊自己的名字。它在哪个国家出现，哪个国家就会发生令人恐慌之事。",
+      "index": 18
+    },
+    {
+      "title": "卢其山",
+      "originalText": "又南三百里，曰卢其之山，无草木，多沙石。沙水出焉，南流注于涔水，其中多鹕，其状如鸳鸯而人足，其鸣自䚯，见则其国多土功。",
+      "annotations": [
+        {
+          "term": "卢其之山",
+          "explanation": "即卢其山，山名，具体所指待考。一说在今江苏境内"
+        },
+        {
+          "term": "沙水",
+          "explanation": "水名，具体所指待考。一说指今江苏灌云县大沙河"
+        },
+        {
+          "term": "涔(cén)水",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "鹕(lí hú)",
+          "explanation": "一说即鹈(tí)鹕，鸟名，翅膀大，嘴长，嘴下有一个可存食的皮囊，羽毛大多白色，善于游泳和捕鱼"
+        },
+        {
+          "term": "土功",
+          "explanation": "土木工程"
+        }
+      ],
+      "translation": "耿山再往南三百里有座山，名叫卢其山。这座山上光秃秃的，没有草木，遍地都是沙石。沙水就发源于这座山，流出山涧后便向南流入涔水。沙水中有很多鹕鸟。这种鸟形似鸳鸯，但却长着一对人的脚，它的鸣叫声就像是在叫喊自己的名字。这种鸟一旦出现在哪里，就预示哪个国家的百姓将遭受繁重的徭役。",
+      "index": 19
+    },
+    {
+      "title": "姑射山",
+      "originalText": "又南三百八十里，曰姑射之山，无草木，多水。",
+      "annotations": [
+        {
+          "term": "姑射(yè)之山",
+          "explanation": "即姑射山，山名，即古石孔山，在今山西临汾西"
+        }
+      ],
+      "translation": "卢其山再往南三百八十里有座山，名叫姑射山。这座山上光秃秃的，寸草不生，但有很多水。",
+      "index": 20
+    },
+    {
+      "title": "北姑射山",
+      "originalText": "又南水行三百里，流沙百里，曰北姑射之山，无草木，多石。",
+      "annotations": [
+        {
+          "term": "北姑射(yè)之山",
+          "explanation": "即北姑射山，山名，具体所指待考"
+        }
+      ],
+      "translation": "姑射山再往南经三百里水路，就到了北姑射山。这座山上光秃秃的，没有一草一木，全都是石头。",
+      "index": 21
+    },
+    {
+      "title": "南姑射山",
+      "originalText": "又南三百里，曰南姑射之山，无草木，多水。",
+      "annotations": [
+        {
+          "term": "南姑射(yè)之山",
+          "explanation": "即南姑射山，山名，具体所指待考"
+        }
+      ],
+      "translation": "北姑射山再往南三百里有座山，名叫南姑射山。这座山寸草不生，但有很多水。",
+      "index": 22
+    },
+    {
+      "title": "碧山",
+      "originalText": "又南三百里，曰碧山，无草木，多大蛇，多碧、水玉。",
+      "annotations": [
+        {
+          "term": "碧山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "碧",
+          "explanation": "青绿色的玉石"
+        },
+        {
+          "term": "水玉",
+          "explanation": "水晶"
+        }
+      ],
+      "translation": "南姑射山再往南三百里有座山，名叫碧山。这座山上光秃秃的，没有草木生长，有很多巨蛇，还有很多青碧色的玉石和水晶石。",
+      "index": 23
+    },
+    {
+      "title": "湮山",
+      "originalText": "又南五百里，曰湮山，南临湮水，东望湖泽。有兽焉，其状如马而羊目、四角、牛尾，其音如狗獆，其名曰峳峳，见则其国多狡客。有鸟焉，其状如凫而鼠尾，善登木，其名曰絜钩，见则其国多疫。",
+      "annotations": [
+        {
+          "term": "湮(yīn)山",
+          "explanation": "山名，具体所指待考。一说可能指今安徽宿州市西北的睢阳山"
+        },
+        {
+          "term": "湮(yīn)水",
+          "explanation": "水名，具体所指待考。一说可能指睢水，即今濉河，在睢阳山南面"
+        },
+        {
+          "term": "湖泽",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "獆(háo)",
+          "explanation": "同“嗥”，指野兽吼叫"
+        },
+        {
+          "term": "峳峳",
+          "explanation": "传说中的一种兽。一说指鹅喉羚，尾短，四肢细长，背部灰黄色，腹及臀部白色"
+        },
+        {
+          "term": "狡客",
+          "explanation": "狡猾的人"
+        },
+        {
+          "term": "絜钩",
+          "explanation": "传说中的一种鸟。一说指啄木鸟"
+        }
+      ],
+      "translation": "再向南五百里是湮山，它南面临近湮水，东面可以看见湖泽。山中有一种兽，形状像马，长着羊一样的眼睛，四只角，牛一样的尾巴，发出的声音像狗在嗥叫。它的名字叫峳峳。它在哪个国家出现，哪个国家就会出现很多狡猾的人。山中有一种鸟，它的形状像野鸭，长着鼠一样的尾巴，擅长爬树。它的名字叫絜钩。它在哪个国家出现，哪个国家就会多发瘟疫。",
+      "index": 24
+    },
+    {
+      "title": "东山二经总括",
+      "originalText": "凡东次二经之首，自空桑之山至于湮山，六千六百四十里。其神状皆兽身人面载觡。其祠：毛用一鸡祈，婴用一璧，瘗。",
+      "annotations": [
+        {
+          "term": "神",
+          "explanation": "指山神"
+        },
+        {
+          "term": "载",
+          "explanation": "同“戴”"
+        },
+        {
+          "term": "觡(ɡé)",
+          "explanation": "麋(mí)鹿等的角"
+        },
+        {
+          "term": "祠",
+          "explanation": "祭祀"
+        },
+        {
+          "term": "婴",
+          "explanation": "颈上的饰物"
+        },
+        {
+          "term": "瘗(yì)",
+          "explanation": "埋葬"
+        }
+      ],
+      "translation": "纵观东山第二列山系，自空桑山到湮山，绵延六千六百四十里。这些山神，身形都似野兽，但却长着人样的面孔，头上还长着糜鹿似的角。祭祀这些山神时，将一只鸡，同一块玉器壁玉，埋在地下。",
+      "index": 25
+    },
+    {
+      "title": "尸胡山",
+      "originalText": "又东次三经之首，曰尸胡之山，北望羊山，其上多金玉，其下多棘。有兽焉，其状如麋而鱼目，名曰妴胡，其鸣自詨。",
+      "annotations": [],
+      "translation": "东方第三列山系之首座山，叫做尸胡山，从山上向北可以望见羊山，山上有丰富的金属矿物和玉石，山下有茂密的酸枣树。山中有一种野兽，形状像麋鹿却长着鱼一样的眼睛，名称是妴胡，它发出的叫声便是自身名称的读音。",
+      "index": 26
+    },
+    {
+      "title": "岐山",
+      "originalText": "又南水行八百里，曰岐山，其木多桃李，其兽多虎。",
+      "annotations": [
+        {
+          "term": "岐山",
+          "explanation": "山名，具体所指待考。今陕西岐山县东北有岐山，山状如柱，亦称天柱山，与此处所指不同"
+        }
+      ],
+      "translation": "尸胡山再往南经八百里水路，就到了岐山。山上生长着桃树和李树。出没的野兽主要是虎。",
+      "index": 27
+    },
+    {
+      "title": "诸钩山",
+      "originalText": "又南水行五百里，曰诸钩之山，无草木，多沙石。是山也，广员百里，多寐鱼。",
+      "annotations": [
+        {
+          "term": "诸钩之山",
+          "explanation": "即诸钩山，山名，具体所指待考"
+        },
+        {
+          "term": "员",
+          "explanation": "同“圆”"
+        },
+        {
+          "term": "寐鱼",
+          "explanation": "即鱼未(wèi)鱼，也叫嘉鱼，形状与鲤鱼相似，鳞细"
+        }
+      ],
+      "translation": "岐山再往南经五百里水路，就到了诸钩山。这座山上光秃秃的，寸草不生，遍地是沙子和石头。这座山方圆百里，山中有水，水中有很多寐鱼。",
+      "index": 28
+    },
+    {
+      "title": "中父山",
+      "originalText": "又南水行七百里，曰中父之山，无草木，多沙。",
+      "annotations": [
+        {
+          "term": "中父之山",
+          "explanation": "即中父山，山名，具体所指待考"
+        }
+      ],
+      "translation": "诸钩山再往南经七百里水路，就到了中父山。这座山上光秃秃的，遍地沙石，寸草不生。",
+      "index": 29
+    },
+    {
+      "title": "胡射山",
+      "originalText": "又东水行千里，曰胡射之山，无草木，多沙石。",
+      "annotations": [
+        {
+          "term": "胡射之山",
+          "explanation": "即胡射山，山名，具体所指待考。一说在今日本境内"
+        }
+      ],
+      "translation": "中父山再往东经一千里水路，就到了胡射山。这座山很荒凉，没有一草一木，遍地都是沙子和石头。",
+      "index": 30
+    },
+    {
+      "title": "孟子山",
+      "originalText": "又南水行七百里，曰孟子之山，其木多梓桐，多桃李，其草多菌蒲，其兽多麋鹿。是山也，广员百里，其上有水出焉，名曰碧阳，其中多鳣鲔。",
+      "annotations": [
+        {
+          "term": "孟子之山",
+          "explanation": "即孟子(一作“于”)山，山名，具体所指待考"
+        },
+        {
+          "term": "菌",
+          "explanation": "指真菌，一类低等生物，不开花，没有茎和叶子，不含叶绿素，靠寄生生活。如蘑菇、香菇、木耳等"
+        },
+        {
+          "term": "蒲",
+          "explanation": "即香蒲，多年生草本植物，生于浅水或池沼中，叶长而尖"
+        },
+        {
+          "term": "碧阳",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "鲔(wěi)",
+          "explanation": "鱼名，白鲟(xún)的古称，又名象鱼、剑鱼、琴鱼。体呈棱形，无鳞，头大，口大，眼小，长如象鼻，鳃盖膜发达，如象耳"
+        }
+      ],
+      "translation": "再向南走七百里水路，就到了孟子山。山中生长的树木多为梓树、桐树、桃树和李树，草多为菌类和香蒲，兽多为麋鹿。这座山方圆百里，有一条水流从山上流出，名字叫碧阳，水中有很多鳣鱼和白鲟。",
+      "index": 31
+    },
+    {
+      "title": "跂踵山",
+      "originalText": "又南水行五百里，曰流沙，行五百里，有山焉，曰跂踵之山，广员二百里，无草木，有大蛇，其上多玉。有水焉，广员四十里皆涌，其名曰深泽，其中多蠵龟。有鱼焉，其状如鲤而六足鸟尾，名曰之鱼，其名自叫。",
+      "annotations": [
+        {
+          "term": "跂踵(qǐ zhǒnɡ)之山",
+          "explanation": "即跂踵山，山名，具体所指待考。一说在今日本境内"
+        },
+        {
+          "term": "深泽",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "蠵(xī)龟",
+          "explanation": "也叫赤蠵龟，一种海龟，长约1米，背面褐色，杂有黄色纹，腹面淡黄，四肢呈桨状"
+        },
+        {
+          "term": "(ɡè)之鱼",
+          "explanation": "即给给鱼，传说中的一种鱼"
+        },
+        {
+          "term": "名",
+          "explanation": "一说应作“鸣”"
+        }
+      ],
+      "translation": "孟子山再往南经五百里水路，是一片流沙地，再走五百里，便到了跂踵山。这座山方圆二百里，山上光秃秃的，没有一草一木，但有很多巨蛇出没。山上还有很多玉石。这座山上有个大泽，方圆约四十里，都是从地下奔涌而出的水。这个大泽名叫深泽，泽里有很多蠵龟。水中还有种鱼，形状似鲤鱼，但长有六只爪，尾似鸟尾，这种鱼名叫鱼。这种鱼不时发出叫声，就像叫喊自己的名字。",
+      "index": 32
+    },
+    {
+      "title": "踇隅山",
+      "originalText": "又南水行九百里，曰踇隅之山，其上多草木，多金玉，多赭。有兽焉，其状如牛而马尾，名曰精精，其鸣自叫。",
+      "annotations": [
+        {
+          "term": "踇(mǔ)隅之山",
+          "explanation": "即踇隅山，山名，具体所指待考。一说在今日本境内"
+        },
+        {
+          "term": "赭(zhě)",
+          "explanation": "红土"
+        },
+        {
+          "term": "精精",
+          "explanation": "兽名，一说指黄羊，体毛以棕黄为主，腹面白色，臀部有显著白斑，四肢细长，善于奔跑"
+        }
+      ],
+      "translation": "跂踵山再往南经九百里水路，就到了踇隅山。这座山上有很多草木，还有很多金矿石、玉石，以及红色的土。山上还有一种兽，身形似牛，但尾巴似马。它名叫精精，就是根据它的叫声起的。",
+      "index": 33
+    },
+    {
+      "title": "无皋山",
+      "originalText": "又南水行五百里，流沙三百里，至于无皋之山。南望幼海，东望榑木，无草木，多风。是山也，广员百里。",
+      "annotations": [
+        {
+          "term": "无皋(ɡāo)之山",
+          "explanation": "即无皋山，山名，具体所指待考。一说在今日本境内；一说可能是今山东青岛崂山"
+        },
+        {
+          "term": "幼海",
+          "explanation": "水名，具体所指待考。一说指崂山西南的胶州湾"
+        },
+        {
+          "term": "榑(fú)木",
+          "explanation": "即扶桑，传说中的一种树，据说日出于扶桑之下"
+        }
+      ],
+      "translation": "踇隅山再往南经五百里水路、三百里流沙，就到了无皋山。站在无皋山巅，往南可远眺幼海，往东可远眺扶桑。无皋山上寸草不生，经常刮风，黄沙弥漫，这座山方圆达百里左右。",
+      "index": 34
+    },
+    {
+      "title": "东山三经总括",
+      "originalText": "凡东次三经之首，自尸胡之山至于无皋之山，六千九百里。其神状皆人身而羊角。其祠：用一牡羊，米用黍。是神也，见则风雨水为败。",
+      "annotations": [
+        {
+          "term": "神",
+          "explanation": "指山神"
+        },
+        {
+          "term": "祠",
+          "explanation": "祭祀"
+        },
+        {
+          "term": "牡羊",
+          "explanation": "公羊"
+        },
+        {
+          "term": "米",
+          "explanation": "一说应作“糈”"
+        }
+      ],
+      "translation": "纵观东山第三列山系，北自尸胡山，南到无皋山，绵延六千九百里。这九座山的山神，身形都似人，但都长有羊角。祭祀这些山神时，牲畜用一只公羊，精米用黍米。这九座山的山神，一旦什么时候出现，就会有暴风骤雨，就会有水灾毁坏农作物。",
+      "index": 35
+    },
+    {
+      "title": "北号山",
+      "originalText": "又东次四经之首，曰北号之山，临于北海。有木焉，其状如杨，赤华，其实如枣而无核，其味酸甘，食之不疟。食水出焉，而东北流注于海。有兽焉，其状如狼，赤首鼠目，其音如豚，名曰猲狙，是食人。有鸟焉，其状如鸡而白首，鼠足而虎爪，其名曰鬿雀，亦食人。",
+      "annotations": [
+        {
+          "term": "又",
+          "explanation": "此为衍字"
+        },
+        {
+          "term": "北号之山",
+          "explanation": "即北号山，山名，一说应为今小清河畔一丘阜，临于山东北面的莱州湾"
+        },
+        {
+          "term": "北海",
+          "explanation": "水名，一说这里指今莱州湾"
+        },
+        {
+          "term": "疟",
+          "explanation": "指疟疾，一种周期性发冷发烧的传染病"
+        },
+        {
+          "term": "食水",
+          "explanation": "水名，一说指小清河"
+        },
+        {
+          "term": "豚(tún)",
+          "explanation": "小猪；也泛指猪"
+        },
+        {
+          "term": "猲狙(ɡéjū)",
+          "explanation": "一说应作“獦狚(ɡé dàn)”，传说中的一种兽。一说即豺狗，又名红狼"
+        },
+        {
+          "term": "鬿(qí)雀",
+          "explanation": "传说中的一种鸟。一说即胡兀鹫，一种大型猛禽"
+        }
+      ],
+      "translation": "东部第四列山系最北端的山名叫北号山，这座山濒临北海。山上生长有一种树木，形状似杨树，花是红色的，果实似枣，但果实里没长核，味道酸中带甜，吃了这种果实就可以防治疟疾。食水就发源于北号山，从山涧流出后便向东北流入大海。北号山上有一种野兽，身形似狼，脑袋是红色的，眼睛似鼠，不时发出如小猪一样的叫声。这种野兽名叫猲狙，是一种吃人兽。北号山上还有一种鸟，身形似鸡，脑袋是白色的，脚似鼠，爪子似虎。这种鸟名叫鬿雀，这种鸟也吃人。",
+      "index": 36
+    },
+    {
+      "title": "旄山",
+      "originalText": "又南三百里，曰旄山，无草木。苍体之水出焉，而西流注于展水，其中多鱼羞鱼，其状如鲤而大首，食者不疣。",
+      "annotations": [
+        {
+          "term": "旄(máo)山",
+          "explanation": "山名，具体所指待考。一说在今河北张家口北；一说在今山东境内"
+        },
+        {
+          "term": "苍体之水",
+          "explanation": "即苍体水，水名，具体所指待考。一说为今河北洋河的支流；一说可能是流经山东潍坊市区的潍坊西河"
+        },
+        {
+          "term": "展水",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "鱼羞(qiū)鱼",
+          "explanation": "鱼名，一说指海鲇(nián)，体长可达15米，头大，略扁平，眼小，无鳞"
+        }
+      ],
+      "translation": "北号山再往南三百里有座山，名叫旄山。这座山上连一棵草都没有，光秃秃的。苍体水就发源于这座山，流出山涧后便向西流入展水。苍体水中有很多鱼羞鱼。这种鱼形似鲤鱼，鱼头较大。人吃了这种鱼就不会长赘疣。",
+      "index": 37
+    },
+    {
+      "title": "女烝山",
+      "originalText": "又东南三百里，曰女烝之山，其上无草木。石膏水出焉，而西注于鬲水，其中多薄鱼，其状如鳣鱼而一目，其音如欧，见则天下大旱。",
+      "annotations": [
+        {
+          "term": "女烝(zhēnɡ)之山",
+          "explanation": "即女蚕山，山名，具体所指待考。一说指山东临朐(qú)县的石膏山；一说在今河北大名县一带"
+        },
+        {
+          "term": "石膏水",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "鬲(ɡè)水",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "薄鱼",
+          "explanation": "传说中的一种鱼"
+        },
+        {
+          "term": "鳣(shàn)",
+          "explanation": "通“鳝”，指黄鳝"
+        },
+        {
+          "term": "欧",
+          "explanation": "通“呕”，指呕吐"
+        }
+      ],
+      "translation": "东始山再往东南三百里有座山，名叫女烝山。这座山上光秃秃的，没生长一草一木。石膏水就发源于这座山，流出山涧后便往西流去，汇入鬲水。石膏水中有很多薄鱼，形状很像黄鳝，但只长有一只眼睛，不时发出如人呕吐的声音。一旦发现这种鱼，便预示天下将有大旱出现。",
+      "index": 38
+    },
+    {
+      "title": "钦山",
+      "originalText": "又东南二百里，曰钦山，多金玉而无石。师水出焉，而北流注于皋泽，其中多鱼羞鱼，多文贝。有兽焉，其状如豚而有牙，其名曰当康，其鸣自叫，见则天下大穰。",
+      "annotations": [
+        {
+          "term": "钦山",
+          "explanation": "山名，具体所指待考。一说在今山东境内；一说在今江苏境内"
+        },
+        {
+          "term": "师水",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "皋(ɡāo)泽",
+          "explanation": "水名，具体所指待考"
+        },
+        {
+          "term": "牙",
+          "explanation": "这里指长牙或獠牙"
+        },
+        {
+          "term": "当康",
+          "explanation": "传说中的一种兽"
+        },
+        {
+          "term": "穰(ránɡ)",
+          "explanation": "丰收"
+        }
+      ],
+      "translation": "女烝山再往东南二百里有座山，名叫钦山。这座山上有很多金矿石和玉石。师水就发源于这座山。师水流出山涧后便向北流入皋泽。师水中有很多鱼羞，还有很多带有花纹的贝。钦山上生长有一种野兽，形似小猪，长着牙，它名叫当康，叫声就像在叫自己的名字。这种野兽一旦出现，就预示天下将有好收成。",
+      "index": 39
+    },
+    {
+      "title": "子桐山",
+      "originalText": "又东南二百里，曰子桐之山。子桐之水出焉，而西流注于馀如之泽。其中多鱼，其状如鱼而鸟翼，出入有光，其音如鸳鸯，见则天下大旱。",
+      "annotations": [
+        {
+          "term": "子桐之山",
+          "explanation": "即子桐山，山名，具体所指待考。一说在今山东境内；一说在今山西境内"
+        },
+        {
+          "term": "子桐之水",
+          "explanation": "即子桐水，水名，具体所指待考。一说可能是今山东的潍河；一说是今山西的潇河"
+        },
+        {
+          "term": "馀如之泽",
+          "explanation": "即馀如泽，水名，具体所指待考"
+        },
+        {
+          "term": "(huá)鱼",
+          "explanation": "传说中的一种鱼"
+        }
+      ],
+      "translation": "钦山再往东南二百里有座山，名叫子桐山。子桐水就发源于这座山，流出山涧后便向西流入余如泽。子桐水中有很多骨鱼鱼。这种鱼长有一对鸟翅膀，在水面飞上飞下，且闪闪发光，不时还发出如鸳鸯一样的叫声。这种鱼一旦出现，便预示有严重的旱灾出现。",
+      "index": 40
+    },
+    {
+      "title": "剡山",
+      "originalText": "又东北二百里，曰剡山，多金玉。有兽焉，其状如彘而人面，黄身而赤尾，其名曰合窳，其音如婴儿。是兽也，食人，亦食虫蛇，见则天下大水。",
+      "annotations": [
+        {
+          "term": "剡(shàn)山",
+          "explanation": "山名，具体所指待考。一说在今山东境内"
+        },
+        {
+          "term": "彘(zhì)",
+          "explanation": "猪"
+        },
+        {
+          "term": "合窳(yǔ)",
+          "explanation": "传说中的一种兽。一说是一种黄色野猪"
+        }
+      ],
+      "translation": "子桐山再往东北二百里有座山，名叫剡山。这座山上有很多金矿石和玉石。这座山上有一种野兽，身形似猪，但长着一副人样的面孔，全身是黄色的，尾巴是红色的。这种野兽名叫合窳，叫声如婴儿哭声。这是一种吃人兽，也吃虫和蛇。这种野兽一旦出现，天下将有严重水灾危害百姓。",
+      "index": 41
+    },
+    {
+      "title": "太山",
+      "originalText": "又东二百里，曰太山，上多金玉、桢木。有兽焉，其状如牛而白首，一目而蛇尾，其名曰蜚，行水则竭，行草则死，见则天下大疫。钩水出焉，而北流注于劳水，其中多鱼羞鱼。",
+      "annotations": [
+        {
+          "term": "太山",
+          "explanation": "山名，一说指东泰山，在今山东临朐(qú)县东南；一说即今东岳泰山"
+        },
+        {
+          "term": "桢(zhēn)木",
+          "explanation": "即女贞，常绿大灌木或小乔木，高可达10米。叶卵形，开白色花，果实椭圆形"
+        },
+        {
+          "term": "蜚(fěi)",
+          "explanation": "传说中的一种兽"
+        },
+        {
+          "term": "钩水",
+          "explanation": "水名，在今山东境内，具体所指待考"
+        },
+        {
+          "term": "劳水",
+          "explanation": "水名，一说可能是今尧河"
+        }
+      ],
+      "translation": "剡山再向东二百里有座山，名叫太山。太山上有很多金矿石和玉石，还生长有很多桢树。山上有一种野兽，身形似牛，脑袋是白色的，只长有一只眼睛，尾巴似蛇。它名叫蜚。这种野兽在水中行走，水便要枯竭；在草中行走，草便会枯死。它一旦出现，天下就将发生瘟疫灾害。钩水就发源于太山上，从山涧流出后便向北流去，汇入劳水。钩水中有很多鱼羞鱼。",
+      "index": 42
+    },
+    {
+      "title": "东山四经总括",
+      "originalText": "凡东次四经之首，自北号之山至于太山，一千七百二十里。",
+      "annotations": [],
+      "translation": "纵观东部第四列山系，自北号山至太山，绵延一千七百二十里。",
+      "index": 43
+    },
+    {
+      "title": "东山经总括",
+      "originalText": "右东经之山志，万八千八百六十里。",
+      "annotations": [],
+      "translation": "以上所述东部山系，绵延一万八千八百六十里。",
+      "index": 44
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "樕𧑤山",
+      "entryId": "shanhaijing-04-01",
+      "entryTitle": "其一",
+      "term": "樕𧑤之山"
+    },
+    {
+      "entityName": "乾昧",
+      "entryId": "shanhaijing-04-01",
+      "entryTitle": "其一",
+      "term": "乾昧"
+    },
+    {
+      "entityName": "食水",
+      "entryId": "shanhaijing-04-01",
+      "entryTitle": "其一",
+      "term": "食水"
+    },
+    {
+      "entityName": "鳙鳙之鱼",
+      "entryId": "shanhaijing-04-01",
+      "entryTitle": "其一",
+      "term": "鳙鳙之鱼"
+    },
+    {
+      "entityName": "犁牛",
+      "entryId": "shanhaijing-04-01",
+      "entryTitle": "其一",
+      "term": "犁牛"
+    },
+    {
+      "entityName": "食水",
+      "entryId": "shanhaijing-04-01",
+      "entryTitle": "其一",
+      "term": "食水"
+    },
+    {
+      "entityName": "藟山",
+      "entryId": "shanhaijing-04-02",
+      "entryTitle": "藟山",
+      "term": "藟山"
+    },
+    {
+      "entityName": "湖水",
+      "entryId": "shanhaijing-04-02",
+      "entryTitle": "藟山",
+      "term": "湖水"
+    },
+    {
+      "entityName": "湖水",
+      "entryId": "shanhaijing-04-02",
+      "entryTitle": "藟山",
+      "term": "湖水"
+    },
+    {
+      "entityName": "食水",
+      "entryId": "shanhaijing-04-02",
+      "entryTitle": "藟山",
+      "term": "食水"
+    },
+    {
+      "entityName": "勃齐山",
+      "entryId": "shanhaijing-04-03",
+      "entryTitle": "勃齐山",
+      "term": "勃齐之山"
+    },
+    {
+      "entityName": "勃齐山",
+      "entryId": "shanhaijing-04-03",
+      "entryTitle": "勃齐山",
+      "term": "勃齐山"
+    },
+    {
+      "entityName": "番条山",
+      "entryId": "shanhaijing-04-04",
+      "entryTitle": "番条山",
+      "term": "番条之山"
+    },
+    {
+      "entityName": "減水",
+      "entryId": "shanhaijing-04-04",
+      "entryTitle": "番条山",
+      "term": "減水"
+    },
+    {
+      "entityName": "鳡鱼",
+      "entryId": "shanhaijing-04-04",
+      "entryTitle": "番条山",
+      "term": "鳡鱼"
+    },
+    {
+      "entityName": "番条山",
+      "entryId": "shanhaijing-04-04",
+      "entryTitle": "番条山",
+      "term": "番条山"
+    },
+    {
+      "entityName": "減水",
+      "entryId": "shanhaijing-04-04",
+      "entryTitle": "番条山",
+      "term": "減水"
+    },
+    {
+      "entityName": "姑儿山",
+      "entryId": "shanhaijing-04-05",
+      "entryTitle": "姑儿山",
+      "term": "姑儿之山"
+    },
+    {
+      "entityName": "姑儿水",
+      "entryId": "shanhaijing-04-05",
+      "entryTitle": "姑儿山",
+      "term": "姑儿之水"
+    },
+    {
+      "entityName": "姑儿山",
+      "entryId": "shanhaijing-04-05",
+      "entryTitle": "姑儿山",
+      "term": "姑儿山"
+    },
+    {
+      "entityName": "姑儿水",
+      "entryId": "shanhaijing-04-05",
+      "entryTitle": "姑儿山",
+      "term": "姑儿水"
+    },
+    {
+      "entityName": "高氏山",
+      "entryId": "shanhaijing-04-06",
+      "entryTitle": "高氏山",
+      "term": "高氏之山"
+    },
+    {
+      "entityName": "诸绳水",
+      "entryId": "shanhaijing-04-06",
+      "entryTitle": "高氏山",
+      "term": "诸绳之水"
+    },
+    {
+      "entityName": "高氏山",
+      "entryId": "shanhaijing-04-06",
+      "entryTitle": "高氏山",
+      "term": "高氏山"
+    },
+    {
+      "entityName": "诸绳水",
+      "entryId": "shanhaijing-04-06",
+      "entryTitle": "高氏山",
+      "term": "诸绳水"
+    },
+    {
+      "entityName": "玉",
+      "entryId": "shanhaijing-04-06",
+      "entryTitle": "高氏山",
+      "term": "玉"
+    },
+    {
+      "entityName": "金玉",
+      "entryId": "shanhaijing-04-06",
+      "entryTitle": "高氏山",
+      "term": "金玉"
+    },
+    {
+      "entityName": "岳山",
+      "entryId": "shanhaijing-04-07",
+      "entryTitle": "岳山",
+      "term": "岳山"
+    },
+    {
+      "entityName": "泺水",
+      "entryId": "shanhaijing-04-07",
+      "entryTitle": "岳山",
+      "term": "泺水"
+    },
+    {
+      "entityName": "泺水",
+      "entryId": "shanhaijing-04-07",
+      "entryTitle": "岳山",
+      "term": "泺水"
+    },
+    {
+      "entityName": "金玉",
+      "entryId": "shanhaijing-04-07",
+      "entryTitle": "岳山",
+      "term": "金玉"
+    },
+    {
+      "entityName": "泰山",
+      "entryId": "shanhaijing-04-08",
+      "entryTitle": "泰山",
+      "term": "泰山"
+    },
+    {
+      "entityName": "豚",
+      "entryId": "shanhaijing-04-08",
+      "entryTitle": "泰山",
+      "term": "豚"
+    },
+    {
+      "entityName": "狪狪",
+      "entryId": "shanhaijing-04-08",
+      "entryTitle": "泰山",
+      "term": "狪狪"
+    },
+    {
+      "entityName": "环水",
+      "entryId": "shanhaijing-04-08",
+      "entryTitle": "泰山",
+      "term": "环水"
+    },
+    {
+      "entityName": "江",
+      "entryId": "shanhaijing-04-08",
+      "entryTitle": "泰山",
+      "term": "江"
+    },
+    {
+      "entityName": "环水",
+      "entryId": "shanhaijing-04-08",
+      "entryTitle": "泰山",
+      "term": "环水"
+    },
+    {
+      "entityName": "玉",
+      "entryId": "shanhaijing-04-08",
+      "entryTitle": "泰山",
+      "term": "玉"
+    },
+    {
+      "entityName": "金",
+      "entryId": "shanhaijing-04-08",
+      "entryTitle": "泰山",
+      "term": "金"
+    },
+    {
+      "entityName": "水玉",
+      "entryId": "shanhaijing-04-08",
+      "entryTitle": "泰山",
+      "term": "水玉"
+    },
+    {
+      "entityName": "竹山",
+      "entryId": "shanhaijing-04-09",
+      "entryTitle": "竹山",
+      "term": "竹山"
+    },
+    {
+      "entityName": "瑶碧",
+      "entryId": "shanhaijing-04-09",
+      "entryTitle": "竹山",
+      "term": "瑶碧"
+    },
+    {
+      "entityName": "激水",
+      "entryId": "shanhaijing-04-09",
+      "entryTitle": "竹山",
+      "term": "激水"
+    },
+    {
+      "entityName": "娶檀水",
+      "entryId": "shanhaijing-04-09",
+      "entryTitle": "竹山",
+      "term": "娶檀之水"
+    },
+    {
+      "entityName": "激水",
+      "entryId": "shanhaijing-04-09",
+      "entryTitle": "竹山",
+      "term": "激水"
+    },
+    {
+      "entityName": "娶檀水",
+      "entryId": "shanhaijing-04-09",
+      "entryTitle": "竹山",
+      "term": "娶檀水"
+    },
+    {
+      "entityName": "神",
+      "entryId": "shanhaijing-04-10",
+      "entryTitle": "东山一经总括",
+      "term": "神"
+    },
+    {
+      "entityName": "空桑山",
+      "entryId": "shanhaijing-04-11",
+      "entryTitle": "空桑山",
+      "term": "空桑之山"
+    },
+    {
+      "entityName": "沮吴",
+      "entryId": "shanhaijing-04-11",
+      "entryTitle": "空桑山",
+      "term": "沮吴"
+    },
+    {
+      "entityName": "湣泽",
+      "entryId": "shanhaijing-04-11",
+      "entryTitle": "空桑山",
+      "term": "湣泽"
+    },
+    {
+      "entityName": "軨軨",
+      "entryId": "shanhaijing-04-11",
+      "entryTitle": "空桑山",
+      "term": "軨軨"
+    },
+    {
+      "entityName": "軨軨",
+      "entryId": "shanhaijing-04-11",
+      "entryTitle": "空桑山",
+      "term": "軨軨"
+    },
+    {
+      "entityName": "空桑山",
+      "entryId": "shanhaijing-04-11",
+      "entryTitle": "空桑山",
+      "term": "空桑山"
+    },
+    {
+      "entityName": "曹夕山",
+      "entryId": "shanhaijing-04-12",
+      "entryTitle": "曹夕山",
+      "term": "曹夕之山"
+    },
+    {
+      "entityName": "曹夕山",
+      "entryId": "shanhaijing-04-12",
+      "entryTitle": "曹夕山",
+      "term": "曹夕山"
+    },
+    {
+      "entityName": "峄皋山",
+      "entryId": "shanhaijing-04-13",
+      "entryTitle": "峄皋山",
+      "term": "峄皋之山"
+    },
+    {
+      "entityName": "垩",
+      "entryId": "shanhaijing-04-13",
+      "entryTitle": "峄皋山",
+      "term": "垩"
+    },
+    {
+      "entityName": "峄皋水",
+      "entryId": "shanhaijing-04-13",
+      "entryTitle": "峄皋山",
+      "term": "峄皋之水"
+    },
+    {
+      "entityName": "激女水",
+      "entryId": "shanhaijing-04-13",
+      "entryTitle": "峄皋山",
+      "term": "激女之水"
+    },
+    {
+      "entityName": "珧",
+      "entryId": "shanhaijing-04-13",
+      "entryTitle": "峄皋山",
+      "term": "珧"
+    },
+    {
+      "entityName": "峄皋山",
+      "entryId": "shanhaijing-04-13",
+      "entryTitle": "峄皋山",
+      "term": "峄皋山"
+    },
+    {
+      "entityName": "峄皋水",
+      "entryId": "shanhaijing-04-13",
+      "entryTitle": "峄皋山",
+      "term": "峄皋水"
+    },
+    {
+      "entityName": "金玉",
+      "entryId": "shanhaijing-04-13",
+      "entryTitle": "峄皋山",
+      "term": "金玉"
+    },
+    {
+      "entityName": "激女水",
+      "entryId": "shanhaijing-04-13",
+      "entryTitle": "峄皋山",
+      "term": "激女水"
+    },
+    {
+      "entityName": "葛山",
+      "entryId": "shanhaijing-04-14",
+      "entryTitle": "葛山尾",
+      "term": "葛山"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-04-14",
+      "entryTitle": "葛山尾",
+      "term": "流沙"
+    },
+    {
+      "entityName": "澧水",
+      "entryId": "shanhaijing-04-15",
+      "entryTitle": "葛山首",
+      "term": "澧水"
+    },
+    {
+      "entityName": "余泽",
+      "entryId": "shanhaijing-04-15",
+      "entryTitle": "葛山首",
+      "term": "余泽"
+    },
+    {
+      "entityName": "珠蟞鱼",
+      "entryId": "shanhaijing-04-15",
+      "entryTitle": "葛山首",
+      "term": "珠蟞鱼"
+    },
+    {
+      "entityName": "澧水",
+      "entryId": "shanhaijing-04-15",
+      "entryTitle": "葛山首",
+      "term": "澧水"
+    },
+    {
+      "entityName": "余泽",
+      "entryId": "shanhaijing-04-15",
+      "entryTitle": "葛山首",
+      "term": "余泽"
+    },
+    {
+      "entityName": "馀峨山",
+      "entryId": "shanhaijing-04-16",
+      "entryTitle": "馀峨",
+      "term": "馀峨之山"
+    },
+    {
+      "entityName": "杂余水",
+      "entryId": "shanhaijing-04-16",
+      "entryTitle": "馀峨",
+      "term": "杂余之水"
+    },
+    {
+      "entityName": "黄水",
+      "entryId": "shanhaijing-04-16",
+      "entryTitle": "馀峨",
+      "term": "黄水"
+    },
+    {
+      "entityName": "螽",
+      "entryId": "shanhaijing-04-16",
+      "entryTitle": "馀峨",
+      "term": "螽"
+    },
+    {
+      "entityName": "馀峨山",
+      "entryId": "shanhaijing-04-16",
+      "entryTitle": "馀峨",
+      "term": "馀峨山"
+    },
+    {
+      "entityName": "杂余水",
+      "entryId": "shanhaijing-04-16",
+      "entryTitle": "馀峨",
+      "term": "杂余水"
+    },
+    {
+      "entityName": "黄水",
+      "entryId": "shanhaijing-04-16",
+      "entryTitle": "馀峨",
+      "term": "黄水"
+    },
+    {
+      "entityName": "杜父山",
+      "entryId": "shanhaijing-04-17",
+      "entryTitle": "杜父山",
+      "term": "杜父之山"
+    },
+    {
+      "entityName": "杜父山",
+      "entryId": "shanhaijing-04-17",
+      "entryTitle": "杜父山",
+      "term": "杜父山"
+    },
+    {
+      "entityName": "耿山",
+      "entryId": "shanhaijing-04-18",
+      "entryTitle": "耿山",
+      "term": "耿山"
+    },
+    {
+      "entityName": "朱獳",
+      "entryId": "shanhaijing-04-18",
+      "entryTitle": "耿山",
+      "term": "朱獳"
+    },
+    {
+      "entityName": "朱獳",
+      "entryId": "shanhaijing-04-18",
+      "entryTitle": "耿山",
+      "term": "朱獳"
+    },
+    {
+      "entityName": "卢其山",
+      "entryId": "shanhaijing-04-19",
+      "entryTitle": "卢其山",
+      "term": "卢其之山"
+    },
+    {
+      "entityName": "沙水",
+      "entryId": "shanhaijing-04-19",
+      "entryTitle": "卢其山",
+      "term": "沙水"
+    },
+    {
+      "entityName": "涔水",
+      "entryId": "shanhaijing-04-19",
+      "entryTitle": "卢其山",
+      "term": "涔水"
+    },
+    {
+      "entityName": "鹕",
+      "entryId": "shanhaijing-04-19",
+      "entryTitle": "卢其山",
+      "term": "鹕"
+    },
+    {
+      "entityName": "卢其山",
+      "entryId": "shanhaijing-04-19",
+      "entryTitle": "卢其山",
+      "term": "卢其山"
+    },
+    {
+      "entityName": "沙水",
+      "entryId": "shanhaijing-04-19",
+      "entryTitle": "卢其山",
+      "term": "沙水"
+    },
+    {
+      "entityName": "涔水",
+      "entryId": "shanhaijing-04-19",
+      "entryTitle": "卢其山",
+      "term": "涔水"
+    },
+    {
+      "entityName": "姑射山",
+      "entryId": "shanhaijing-04-20",
+      "entryTitle": "姑射山",
+      "term": "姑射之山"
+    },
+    {
+      "entityName": "姑射山",
+      "entryId": "shanhaijing-04-20",
+      "entryTitle": "姑射山",
+      "term": "姑射山"
+    },
+    {
+      "entityName": "北姑射山",
+      "entryId": "shanhaijing-04-21",
+      "entryTitle": "北姑射山",
+      "term": "北姑射之山"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-04-21",
+      "entryTitle": "北姑射山",
+      "term": "流沙"
+    },
+    {
+      "entityName": "北姑射山",
+      "entryId": "shanhaijing-04-21",
+      "entryTitle": "北姑射山",
+      "term": "北姑射山"
+    },
+    {
+      "entityName": "石",
+      "entryId": "shanhaijing-04-21",
+      "entryTitle": "北姑射山",
+      "term": "石"
+    },
+    {
+      "entityName": "南姑射山",
+      "entryId": "shanhaijing-04-22",
+      "entryTitle": "南姑射山",
+      "term": "南姑射之山"
+    },
+    {
+      "entityName": "南姑射山",
+      "entryId": "shanhaijing-04-22",
+      "entryTitle": "南姑射山",
+      "term": "南姑射山"
+    },
+    {
+      "entityName": "碧山",
+      "entryId": "shanhaijing-04-23",
+      "entryTitle": "碧山",
+      "term": "碧山"
+    },
+    {
+      "entityName": "湮山",
+      "entryId": "shanhaijing-04-24",
+      "entryTitle": "湮山",
+      "term": "湮山"
+    },
+    {
+      "entityName": "湮水",
+      "entryId": "shanhaijing-04-24",
+      "entryTitle": "湮山",
+      "term": "湮水"
+    },
+    {
+      "entityName": "湖泽",
+      "entryId": "shanhaijing-04-24",
+      "entryTitle": "湮山",
+      "term": "湖泽"
+    },
+    {
+      "entityName": "峳峳",
+      "entryId": "shanhaijing-04-24",
+      "entryTitle": "湮山",
+      "term": "峳峳"
+    },
+    {
+      "entityName": "絜钩",
+      "entryId": "shanhaijing-04-24",
+      "entryTitle": "湮山",
+      "term": "絜钩"
+    },
+    {
+      "entityName": "峳峳",
+      "entryId": "shanhaijing-04-24",
+      "entryTitle": "湮山",
+      "term": "峳峳"
+    },
+    {
+      "entityName": "絜钩",
+      "entryId": "shanhaijing-04-24",
+      "entryTitle": "湮山",
+      "term": "絜钩"
+    },
+    {
+      "entityName": "神",
+      "entryId": "shanhaijing-04-25",
+      "entryTitle": "东山二经总括",
+      "term": "神"
+    },
+    {
+      "entityName": "空桑山",
+      "entryId": "shanhaijing-04-25",
+      "entryTitle": "东山二经总括",
+      "term": "空桑山"
+    },
+    {
+      "entityName": "尸胡山",
+      "entryId": "shanhaijing-04-26",
+      "entryTitle": "尸胡山",
+      "term": "尸胡山"
+    },
+    {
+      "entityName": "金玉",
+      "entryId": "shanhaijing-04-26",
+      "entryTitle": "尸胡山",
+      "term": "金玉"
+    },
+    {
+      "entityName": "岐山",
+      "entryId": "shanhaijing-04-27",
+      "entryTitle": "岐山",
+      "term": "岐山"
+    },
+    {
+      "entityName": "诸钩山",
+      "entryId": "shanhaijing-04-28",
+      "entryTitle": "诸钩山",
+      "term": "诸钩之山"
+    },
+    {
+      "entityName": "寐鱼",
+      "entryId": "shanhaijing-04-28",
+      "entryTitle": "诸钩山",
+      "term": "寐鱼"
+    },
+    {
+      "entityName": "诸钩山",
+      "entryId": "shanhaijing-04-28",
+      "entryTitle": "诸钩山",
+      "term": "诸钩山"
+    },
+    {
+      "entityName": "中父山",
+      "entryId": "shanhaijing-04-29",
+      "entryTitle": "中父山",
+      "term": "中父之山"
+    },
+    {
+      "entityName": "中父山",
+      "entryId": "shanhaijing-04-29",
+      "entryTitle": "中父山",
+      "term": "中父山"
+    },
+    {
+      "entityName": "胡射山",
+      "entryId": "shanhaijing-04-30",
+      "entryTitle": "胡射山",
+      "term": "胡射之山"
+    },
+    {
+      "entityName": "胡射山",
+      "entryId": "shanhaijing-04-30",
+      "entryTitle": "胡射山",
+      "term": "胡射山"
+    },
+    {
+      "entityName": "孟子山",
+      "entryId": "shanhaijing-04-31",
+      "entryTitle": "孟子山",
+      "term": "孟子之山"
+    },
+    {
+      "entityName": "蒲",
+      "entryId": "shanhaijing-04-31",
+      "entryTitle": "孟子山",
+      "term": "蒲"
+    },
+    {
+      "entityName": "碧阳",
+      "entryId": "shanhaijing-04-31",
+      "entryTitle": "孟子山",
+      "term": "碧阳"
+    },
+    {
+      "entityName": "鲔",
+      "entryId": "shanhaijing-04-31",
+      "entryTitle": "孟子山",
+      "term": "鲔"
+    },
+    {
+      "entityName": "孟子山",
+      "entryId": "shanhaijing-04-31",
+      "entryTitle": "孟子山",
+      "term": "孟子山"
+    },
+    {
+      "entityName": "上有水",
+      "entryId": "shanhaijing-04-31",
+      "entryTitle": "孟子山",
+      "term": "其上有水"
+    },
+    {
+      "entityName": "跂踵山",
+      "entryId": "shanhaijing-04-32",
+      "entryTitle": "跂踵山",
+      "term": "跂踵之山"
+    },
+    {
+      "entityName": "深泽",
+      "entryId": "shanhaijing-04-32",
+      "entryTitle": "跂踵山",
+      "term": "深泽"
+    },
+    {
+      "entityName": "蠵龟",
+      "entryId": "shanhaijing-04-32",
+      "entryTitle": "跂踵山",
+      "term": "蠵龟"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-04-32",
+      "entryTitle": "跂踵山",
+      "term": "流沙"
+    },
+    {
+      "entityName": "跂踵山",
+      "entryId": "shanhaijing-04-32",
+      "entryTitle": "跂踵山",
+      "term": "跂踵山"
+    },
+    {
+      "entityName": "玉",
+      "entryId": "shanhaijing-04-32",
+      "entryTitle": "跂踵山",
+      "term": "玉"
+    },
+    {
+      "entityName": "踇隅山",
+      "entryId": "shanhaijing-04-33",
+      "entryTitle": "踇隅山",
+      "term": "踇隅之山"
+    },
+    {
+      "entityName": "精精",
+      "entryId": "shanhaijing-04-33",
+      "entryTitle": "踇隅山",
+      "term": "精精"
+    },
+    {
+      "entityName": "踇隅山",
+      "entryId": "shanhaijing-04-33",
+      "entryTitle": "踇隅山",
+      "term": "踇隅山"
+    },
+    {
+      "entityName": "金玉",
+      "entryId": "shanhaijing-04-33",
+      "entryTitle": "踇隅山",
+      "term": "金玉"
+    },
+    {
+      "entityName": "无皋山",
+      "entryId": "shanhaijing-04-34",
+      "entryTitle": "无皋山",
+      "term": "无皋之山"
+    },
+    {
+      "entityName": "幼海",
+      "entryId": "shanhaijing-04-34",
+      "entryTitle": "无皋山",
+      "term": "幼海"
+    },
+    {
+      "entityName": "榑木",
+      "entryId": "shanhaijing-04-34",
+      "entryTitle": "无皋山",
+      "term": "榑木"
+    },
+    {
+      "entityName": "流沙",
+      "entryId": "shanhaijing-04-34",
+      "entryTitle": "无皋山",
+      "term": "流沙"
+    },
+    {
+      "entityName": "神",
+      "entryId": "shanhaijing-04-35",
+      "entryTitle": "东山三经总括",
+      "term": "神"
+    },
+    {
+      "entityName": "尸胡山",
+      "entryId": "shanhaijing-04-35",
+      "entryTitle": "东山三经总括",
+      "term": "尸胡山"
+    },
+    {
+      "entityName": "北号山",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "北号之山"
+    },
+    {
+      "entityName": "北海",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "北海"
+    },
+    {
+      "entityName": "食水",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "食水"
+    },
+    {
+      "entityName": "豚",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "豚"
+    },
+    {
+      "entityName": "猲狙",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "猲狙"
+    },
+    {
+      "entityName": "鬿雀",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "鬿雀"
+    },
+    {
+      "entityName": "北海",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "北海"
+    },
+    {
+      "entityName": "鬿雀",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "鬿雀"
+    },
+    {
+      "entityName": "北号山",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "北号山"
+    },
+    {
+      "entityName": "食水",
+      "entryId": "shanhaijing-04-36",
+      "entryTitle": "北号山",
+      "term": "食水"
+    },
+    {
+      "entityName": "旄山",
+      "entryId": "shanhaijing-04-37",
+      "entryTitle": "旄山",
+      "term": "旄山"
+    },
+    {
+      "entityName": "苍体水",
+      "entryId": "shanhaijing-04-37",
+      "entryTitle": "旄山",
+      "term": "苍体之水"
+    },
+    {
+      "entityName": "展水",
+      "entryId": "shanhaijing-04-37",
+      "entryTitle": "旄山",
+      "term": "展水"
+    },
+    {
+      "entityName": "鱼羞鱼",
+      "entryId": "shanhaijing-04-37",
+      "entryTitle": "旄山",
+      "term": "鱼羞鱼"
+    },
+    {
+      "entityName": "苍体水",
+      "entryId": "shanhaijing-04-37",
+      "entryTitle": "旄山",
+      "term": "苍体水"
+    },
+    {
+      "entityName": "展水",
+      "entryId": "shanhaijing-04-37",
+      "entryTitle": "旄山",
+      "term": "展水"
+    },
+    {
+      "entityName": "女烝山",
+      "entryId": "shanhaijing-04-38",
+      "entryTitle": "女烝山",
+      "term": "女烝之山"
+    },
+    {
+      "entityName": "石膏水",
+      "entryId": "shanhaijing-04-38",
+      "entryTitle": "女烝山",
+      "term": "石膏水"
+    },
+    {
+      "entityName": "鬲水",
+      "entryId": "shanhaijing-04-38",
+      "entryTitle": "女烝山",
+      "term": "鬲水"
+    },
+    {
+      "entityName": "薄鱼",
+      "entryId": "shanhaijing-04-38",
+      "entryTitle": "女烝山",
+      "term": "薄鱼"
+    },
+    {
+      "entityName": "女烝山",
+      "entryId": "shanhaijing-04-38",
+      "entryTitle": "女烝山",
+      "term": "女烝山"
+    },
+    {
+      "entityName": "石膏水",
+      "entryId": "shanhaijing-04-38",
+      "entryTitle": "女烝山",
+      "term": "石膏水"
+    },
+    {
+      "entityName": "鬲水",
+      "entryId": "shanhaijing-04-38",
+      "entryTitle": "女烝山",
+      "term": "鬲水"
+    },
+    {
+      "entityName": "钦山",
+      "entryId": "shanhaijing-04-39",
+      "entryTitle": "钦山",
+      "term": "钦山"
+    },
+    {
+      "entityName": "师水",
+      "entryId": "shanhaijing-04-39",
+      "entryTitle": "钦山",
+      "term": "师水"
+    },
+    {
+      "entityName": "皋泽",
+      "entryId": "shanhaijing-04-39",
+      "entryTitle": "钦山",
+      "term": "皋泽"
+    },
+    {
+      "entityName": "当康",
+      "entryId": "shanhaijing-04-39",
+      "entryTitle": "钦山",
+      "term": "当康"
+    },
+    {
+      "entityName": "当康",
+      "entryId": "shanhaijing-04-39",
+      "entryTitle": "钦山",
+      "term": "当康"
+    },
+    {
+      "entityName": "师水",
+      "entryId": "shanhaijing-04-39",
+      "entryTitle": "钦山",
+      "term": "师水"
+    },
+    {
+      "entityName": "金玉",
+      "entryId": "shanhaijing-04-39",
+      "entryTitle": "钦山",
+      "term": "金玉"
+    },
+    {
+      "entityName": "皋泽",
+      "entryId": "shanhaijing-04-39",
+      "entryTitle": "钦山",
+      "term": "皋泽"
+    },
+    {
+      "entityName": "子桐山",
+      "entryId": "shanhaijing-04-40",
+      "entryTitle": "子桐山",
+      "term": "子桐之山"
+    },
+    {
+      "entityName": "子桐水",
+      "entryId": "shanhaijing-04-40",
+      "entryTitle": "子桐山",
+      "term": "子桐之水"
+    },
+    {
+      "entityName": "馀如泽",
+      "entryId": "shanhaijing-04-40",
+      "entryTitle": "子桐山",
+      "term": "馀如之泽"
+    },
+    {
+      "entityName": "子桐山",
+      "entryId": "shanhaijing-04-40",
+      "entryTitle": "子桐山",
+      "term": "子桐山"
+    },
+    {
+      "entityName": "子桐水",
+      "entryId": "shanhaijing-04-40",
+      "entryTitle": "子桐山",
+      "term": "子桐水"
+    },
+    {
+      "entityName": "馀如泽",
+      "entryId": "shanhaijing-04-40",
+      "entryTitle": "子桐山",
+      "term": "馀如泽"
+    },
+    {
+      "entityName": "剡山",
+      "entryId": "shanhaijing-04-41",
+      "entryTitle": "剡山",
+      "term": "剡山"
+    },
+    {
+      "entityName": "合窳",
+      "entryId": "shanhaijing-04-41",
+      "entryTitle": "剡山",
+      "term": "合窳"
+    },
+    {
+      "entityName": "合窳",
+      "entryId": "shanhaijing-04-41",
+      "entryTitle": "剡山",
+      "term": "合窳"
+    },
+    {
+      "entityName": "金玉",
+      "entryId": "shanhaijing-04-41",
+      "entryTitle": "剡山",
+      "term": "金玉"
+    },
+    {
+      "entityName": "太山",
+      "entryId": "shanhaijing-04-42",
+      "entryTitle": "太山",
+      "term": "太山"
+    },
+    {
+      "entityName": "桢木",
+      "entryId": "shanhaijing-04-42",
+      "entryTitle": "太山",
+      "term": "桢木"
+    },
+    {
+      "entityName": "蜚",
+      "entryId": "shanhaijing-04-42",
+      "entryTitle": "太山",
+      "term": "蜚"
+    },
+    {
+      "entityName": "钩水",
+      "entryId": "shanhaijing-04-42",
+      "entryTitle": "太山",
+      "term": "钩水"
+    },
+    {
+      "entityName": "劳水",
+      "entryId": "shanhaijing-04-42",
+      "entryTitle": "太山",
+      "term": "劳水"
+    },
+    {
+      "entityName": "蜚",
+      "entryId": "shanhaijing-04-42",
+      "entryTitle": "太山",
+      "term": "蜚"
+    },
+    {
+      "entityName": "钩水",
+      "entryId": "shanhaijing-04-42",
+      "entryTitle": "太山",
+      "term": "钩水"
+    },
+    {
+      "entityName": "金玉",
+      "entryId": "shanhaijing-04-42",
+      "entryTitle": "太山",
+      "term": "金玉"
+    },
+    {
+      "entityName": "劳水",
+      "entryId": "shanhaijing-04-42",
+      "entryTitle": "太山",
+      "term": "劳水"
+    },
+    {
+      "entityName": "北号山",
+      "entryId": "shanhaijing-04-43",
+      "entryTitle": "东山四经总括",
+      "term": "北号山"
+    },
+    {
+      "entityName": "右东经山",
+      "entryId": "shanhaijing-04-44",
+      "entryTitle": "东山经总括",
+      "term": "右东经山"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_4.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "桂林",
+  "name": "桂林",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "林名，非今广西桂林",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-04",
+      "type": "annotation",
+      "annotationExplanation": "林名，非今广西桂林"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

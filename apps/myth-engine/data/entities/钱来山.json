@@ -1,0 +1,38 @@
+{
+  "id": "钱来山",
+  "name": "钱来山",
+  "pinyin": "",
+  "aliases": [
+    "钱来之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即钱来山，山名，具体所指待考。一说在今河南境内；一说在今陕西与河南接壤处",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-01",
+      "type": "annotation",
+      "annotationExplanation": "即钱来山，山名，具体所指待考。一说在今河南境内；一说在今陕西与河南接壤处"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-01",
+      "type": "text",
+      "context": "，曰钱来之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-14",
+      "type": "text",
+      "context": "，自钱来之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

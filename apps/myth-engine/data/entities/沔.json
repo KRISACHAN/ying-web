@@ -1,0 +1,22 @@
+{
+  "id": "沔",
+  "name": "沔",
+  "pinyin": "miǎn",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即沔水，水名，古代把汉水源出今陕西留坝的一支称为沔水，也把汉水通称为沔水",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-10",
+      "type": "annotation",
+      "annotationExplanation": "即沔水，水名，古代把汉水源出今陕西留坝的一支称为沔水，也把汉水通称为沔水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

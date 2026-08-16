@@ -1,0 +1,31 @@
+{
+  "id": "鹿吴山",
+  "name": "鹿吴山",
+  "pinyin": "",
+  "aliases": [
+    "鹿吴之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即鹿吴山，山名，在今浙江境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-23",
+      "type": "annotation",
+      "annotationExplanation": "即鹿吴山，山名，在今浙江境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-23",
+      "type": "text",
+      "context": "，曰鹿吴之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

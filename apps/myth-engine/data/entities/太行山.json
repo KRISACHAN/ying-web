@@ -1,0 +1,38 @@
+{
+  "id": "太行山",
+  "name": "太行山",
+  "pinyin": "",
+  "aliases": [
+    "太行之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即太行山，山名，在今山西高原和河北平原间",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-30",
+      "type": "annotation",
+      "annotationExplanation": "即太行山，山名，在今山西高原和河北平原间"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-30",
+      "type": "text",
+      "context": "，曰太行之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-47",
+      "type": "text",
+      "context": "，自太行之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

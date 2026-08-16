@@ -1,0 +1,29 @@
+{
+  "id": "跂踵国",
+  "name": "跂踵国",
+  "pinyin": "qǐ zhǒnɡ",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，因其国中之人踮起脚跟走路(跂踵：踮起脚跟)，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-08",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，因其国中之人踮起脚跟走路(跂踵：踮起脚跟)，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-08",
+      "type": "text",
+      "context": "跂踵国在拘缨东，其为人大，两足亦大。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

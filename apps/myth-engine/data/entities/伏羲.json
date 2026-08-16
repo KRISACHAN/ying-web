@@ -1,0 +1,43 @@
+{
+  "id": "伏羲",
+  "name": "伏羲",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "之知而无所用之。及世之衰也，至伏羲氏，其道昧昧芒芒然，吟德怀和，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "者也。故不言之令，不视之见，此伏羲、神农之所以为师也。故民之化也"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "，今之所以为乱也。\n\n夫神农、伏羲，不施赏罚而民不为非，然而立政"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "八卦可以识吉凶、知祸福矣，然而伏羲为之六十四变，周室增以六交，所"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 3
+  }
+}

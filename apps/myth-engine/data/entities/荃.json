@@ -1,0 +1,22 @@
+{
+  "id": "荃",
+  "name": "荃",
+  "pinyin": "quán",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "香草名，亦名“荪”，喻指楚怀王",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-02",
+      "type": "annotation",
+      "annotationExplanation": "香草名，亦名“荪”，喻指楚怀王"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

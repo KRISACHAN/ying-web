@@ -1,0 +1,43 @@
+{
+  "id": "海外",
+  "name": "海外",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "指海外西经所记载的地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-01",
+      "type": "annotation",
+      "annotationExplanation": "指海外西经所记载的地方"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-01",
+      "type": "annotation",
+      "annotationExplanation": "指海外北经所记载的地方"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-01",
+      "type": "annotation",
+      "annotationExplanation": "指海外东经所记载的地方"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-13",
+      "type": "annotation",
+      "annotationExplanation": "具体所指待考。一说指异族所居之地"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

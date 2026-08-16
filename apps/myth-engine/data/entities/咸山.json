@@ -1,0 +1,24 @@
+{
+  "id": "咸山",
+  "name": "咸山",
+  "pinyin": "",
+  "aliases": [
+    "咸之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，在今山西南部，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-33",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今山西南部，具体所指待考"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

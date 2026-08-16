@@ -1,0 +1,29 @@
+{
+  "id": "鸠",
+  "name": "鸠",
+  "pinyin": "jiū",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，外形与鸽子相似，常见的有斑鸠",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-08",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，外形与鸽子相似，常见的有斑鸠"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-11",
+      "type": "annotation",
+      "annotationExplanation": "鸟，鸠鸽科部分种类的统称"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

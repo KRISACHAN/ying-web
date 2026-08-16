@@ -1,0 +1,31 @@
+{
+  "id": "泽更水",
+  "name": "泽更水",
+  "pinyin": "",
+  "aliases": [
+    "泽更之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即泽更水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-23",
+      "type": "annotation",
+      "annotationExplanation": "即泽更水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-23",
+      "type": "text",
+      "context": "泽更之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

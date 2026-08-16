@@ -1,0 +1,22 @@
+{
+  "id": "猎猎",
+  "name": "猎猎",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "动物名，一说指紫貂，体长30~40厘米",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-07",
+      "type": "annotation",
+      "annotationExplanation": "动物名，一说指紫貂，体长30~40厘米"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

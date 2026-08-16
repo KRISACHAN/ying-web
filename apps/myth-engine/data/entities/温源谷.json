@@ -1,0 +1,24 @@
+{
+  "id": "温源谷",
+  "name": "温源谷",
+  "pinyin": "",
+  "aliases": [
+    "温源之谷"
+  ],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "谷名，一说即汤谷",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-13",
+      "type": "annotation",
+      "annotationExplanation": "谷名，一说即汤谷"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

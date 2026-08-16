@@ -1,0 +1,22 @@
+{
+  "id": "枥木",
+  "name": "枥木",
+  "pinyin": "lì",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "木名，具体所指待考。一说指甜槠(zhū)，常绿乔木，高可达20米，树皮灰褐色，叶椭圆状卵形或圆形，果实卵形，可食",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-02",
+      "type": "annotation",
+      "annotationExplanation": "木名，具体所指待考。一说指甜槠(zhū)，常绿乔木，高可达20米，树皮灰褐色，叶椭圆状卵形或圆形，果实卵形，可食"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

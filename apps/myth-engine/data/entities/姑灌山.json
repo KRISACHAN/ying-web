@@ -1,0 +1,31 @@
+{
+  "id": "姑灌山",
+  "name": "姑灌山",
+  "pinyin": "",
+  "aliases": [
+    "姑灌之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即姑灌山，山名，具体所指待考。一说在今河北境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-25",
+      "type": "annotation",
+      "annotationExplanation": "即姑灌山，山名，具体所指待考。一说在今河北境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-25",
+      "type": "text",
+      "context": "，曰姑灌之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

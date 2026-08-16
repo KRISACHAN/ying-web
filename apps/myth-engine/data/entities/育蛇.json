@@ -1,0 +1,22 @@
+{
+  "id": "育蛇",
+  "name": "育蛇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "蛇名，具体所指待考。一说疑为“玉蛇”的谐音",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-15",
+      "type": "annotation",
+      "annotationExplanation": "蛇名，具体所指待考。一说疑为“玉蛇”的谐音"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}

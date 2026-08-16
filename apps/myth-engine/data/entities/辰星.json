@@ -1,0 +1,29 @@
+{
+  "id": "辰星",
+  "name": "辰星",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 2,
+      "entryId": "soushenji-02-06",
+      "type": "text",
+      "context": "；负者，终年疾病。取丝缕，就北辰星求长命，乃免。九月，佩茱萸，食"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "，其佐玄冥，执权而治冬，其神为辰星，其兽玄武，其音羽，其日壬癸。"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 2
+  }
+}

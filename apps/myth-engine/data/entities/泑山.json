@@ -1,0 +1,24 @@
+{
+  "id": "泑山",
+  "name": "泑山",
+  "pinyin": "",
+  "aliases": [
+    "泑之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说指今新疆的火焰山；一说可能指今新疆罗布泊附近的高山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-41",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说指今新疆的火焰山；一说可能指今新疆罗布泊附近的高山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

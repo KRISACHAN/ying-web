@@ -1,0 +1,22 @@
+{
+  "id": "八纮",
+  "name": "八纮",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "，是雨九州。\n\n八殥之外，而有八纮，亦方千里。自东北方曰和丘，曰"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 5
+  }
+}

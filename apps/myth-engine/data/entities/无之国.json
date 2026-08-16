@@ -1,0 +1,22 @@
+{
+  "id": "无之国",
+  "name": "无之国",
+  "pinyin": "qǐ",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即无国，传说中的国名，因其国中之人没有小腿肚(：小腿肚)，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-02",
+      "type": "annotation",
+      "annotationExplanation": "即无国，传说中的国名，因其国中之人没有小腿肚(：小腿肚)，故名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

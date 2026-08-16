@@ -1,0 +1,24 @@
+{
+  "id": "平水",
+  "name": "平水",
+  "pinyin": "",
+  "aliases": [
+    "平之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，发源于姑射山，向东流入汾河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-37",
+      "type": "annotation",
+      "annotationExplanation": "水名，发源于姑射山，向东流入汾河"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

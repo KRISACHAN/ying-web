@@ -1,0 +1,22 @@
+{
+  "id": "云盖",
+  "name": "云盖",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "呈盖状的云，或指一种仪仗",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-04",
+      "type": "annotation",
+      "annotationExplanation": "呈盖状的云，或指一种仪仗"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

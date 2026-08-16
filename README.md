@@ -92,6 +92,12 @@ Visit [https://www.krissarea.com](https://www.krissarea.com)
 
 See details at [README.md](./apps/www/README.md)
 
+### @ying-web/myth-engine
+
+A Chinese mythology knowledge website built with Next.js 15 App Router, based on four classic texts: *Classic of Mountains and Seas* (*Shanhaijing*), *In Search of the Supernatural* (*Soushenji*), *Songs of Chu* (*Chuci*), and *Huainanzi*. All entries are traceable to their original sources, with 1500+ static pages pre-rendered at build time.
+
+See details at [README.md](./apps/myth-engine/README.md)
+
 ## Future Outlook
 
 I don't know what it will become in the future, depends on my mood!
@@ -136,6 +142,7 @@ pnpm build
 pnpm build:admin     # Build admin backend
 pnpm build:diary     # Build diary site
 pnpm build:events    # Build events platform
+pnpm build:myth-engine # Build mythology engine
 pnpm build:api-service # Build API service
 pnpm build:www       # Build resume website
 ```

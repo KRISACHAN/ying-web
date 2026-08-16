@@ -1,0 +1,24 @@
+{
+  "id": "诸夭野",
+  "name": "诸夭野",
+  "pinyin": "",
+  "aliases": [
+    "诸夭之野"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一说“夭”应作“沃”，指传说中的一片沃野",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-15",
+      "type": "annotation",
+      "annotationExplanation": "一说“夭”应作“沃”，指传说中的一片沃野"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

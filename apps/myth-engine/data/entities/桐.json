@@ -1,0 +1,22 @@
+{
+  "id": "桐",
+  "name": "桐",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "桐树，包括泡桐、油桐及梧桐",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-05",
+      "type": "annotation",
+      "annotationExplanation": "桐树，包括泡桐、油桐及梧桐"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

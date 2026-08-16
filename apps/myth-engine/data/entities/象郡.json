@@ -1,0 +1,22 @@
+{
+  "id": "象郡",
+  "name": "象郡",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "郡名，秦时置，治临尘(今广西崇左市境内)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-17",
+      "type": "annotation",
+      "annotationExplanation": "郡名，秦时置，治临尘(今广西崇左市境内)"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

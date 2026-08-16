@@ -1,0 +1,136 @@
+{
+  "id": "北海",
+  "name": "北海",
+  "pinyin": "",
+  "aliases": [
+    "北之海"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说这里指贝加尔湖",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-28",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说这里指贝加尔湖"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-28",
+      "type": "text",
+      "context": "敦题之山，无草木，多金玉。是于北海。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-36",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说这里指今莱州湾"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-36",
+      "type": "text",
+      "context": "东次四经之首，曰北号之山，临于北海。有木焉，其状如杨，赤华，其实"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-14",
+      "type": "annotation",
+      "annotationExplanation": "古代泛指北方僻远之地。秦汉时也指里海、贝加尔湖等大泽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-14",
+      "type": "text",
+      "context": "北海内有兽，其状如马，名曰。有兽焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-01",
+      "type": "text",
+      "context": "西北海之外，大荒之隅，有山而不合，名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-07",
+      "type": "text",
+      "context": "西北海之外，赤水一之东，有长胫之国名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "text",
+      "context": "东北海之外，大荒之中，河水之间，附禺"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-11",
+      "type": "text",
+      "context": "儋耳之国，任姓，禺号子，食谷。北海之渚中，有神，人面鸟身，珥两青"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-19",
+      "type": "text",
+      "context": "烛阴西北海之外，赤水之北，有章尾山。有神"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-01",
+      "type": "annotation",
+      "annotationExplanation": "水名，这里指渤海"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-01",
+      "type": "text",
+      "context": "东海之内，北海之隅，有国名曰朝鲜、天毒，其人"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-16",
+      "type": "text",
+      "context": "北海之内，有山名曰幽都之山，黑水出"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 2,
+      "entryId": "soushenji-02-07",
+      "type": "text",
+      "context": "汉北海营陵有道人，能令人与已死人相见"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 24,
+      "entryId": "soushenji-24-01",
+      "type": "text",
+      "context": "子，年十八九，言：“我是前太守北海徐玄方女，不幸蚤亡。亡来今已四"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 14,
+      "entryId": "huainanzi-14-01",
+      "type": "text",
+      "context": "其门，终身不勤。”\n\n卢敖游乎北海，经乎太阴，入乎玄阙，至于蒙谷"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

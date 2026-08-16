@@ -1,0 +1,24 @@
+{
+  "id": "诸水",
+  "name": "诸水",
+  "pinyin": "",
+  "aliases": [
+    "诸之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-02",
+      "type": "text",
+      "context": "注于诸之水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

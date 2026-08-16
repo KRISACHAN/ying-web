@@ -1,0 +1,36 @@
+{
+  "id": "蓬莱",
+  "name": "蓬莱",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-19",
+      "type": "text",
+      "context": "蓬莱山在海中。"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 15,
+      "entryId": "soushenji-15-06",
+      "type": "text",
+      "context": "酒藏吏授符箓，给吏从幡麾，将上蓬莱、昆仑、积石、太室、庐、衡等山"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 20,
+      "entryId": "soushenji-20-04",
+      "type": "text",
+      "context": "向宝再拜曰：“我西王母使者，使蓬莱，不慎，为鸱枭所搏。君仁爱，见"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

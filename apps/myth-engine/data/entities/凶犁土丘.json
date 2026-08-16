@@ -1,0 +1,24 @@
+{
+  "id": "凶犁土丘",
+  "name": "凶犁土丘",
+  "pinyin": "",
+  "aliases": [
+    "凶犁土之丘"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说可能在今河北北部",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-17",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说可能在今河北北部"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

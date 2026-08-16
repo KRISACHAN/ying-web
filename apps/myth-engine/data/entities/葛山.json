@@ -1,0 +1,24 @@
+{
+  "id": "葛山",
+  "name": "葛山",
+  "pinyin": "",
+  "aliases": [
+    "葛之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说疑为今江苏邳(pī)州市西南的葛峄(yì)山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-14",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说疑为今江苏邳(pī)州市西南的葛峄(yì)山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

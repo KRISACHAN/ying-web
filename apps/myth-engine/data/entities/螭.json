@@ -1,0 +1,22 @@
+{
+  "id": "螭",
+  "name": "螭",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "古代传说中一种没有角的龙",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 8,
+      "entryId": "soushenji-08-03",
+      "type": "annotation",
+      "annotationExplanation": "古代传说中一种没有角的龙"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 8
+  }
+}

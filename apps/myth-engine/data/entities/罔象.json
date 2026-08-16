@@ -1,0 +1,22 @@
+{
+  "id": "罔象",
+  "name": "罔象",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "古代传说中的水怪",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 12,
+      "entryId": "soushenji-12-02",
+      "type": "annotation",
+      "annotationExplanation": "古代传说中的水怪"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 12
+  }
+}

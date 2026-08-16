@@ -1,0 +1,22 @@
+{
+  "id": "嫦娥",
+  "name": "嫦娥",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 14,
+      "entryId": "soushenji-14-07",
+      "type": "text",
+      "context": "羿请无死之药于西王母，嫦娥窃之以奔月，将往，枚筮之于有黄"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 14
+  }
+}

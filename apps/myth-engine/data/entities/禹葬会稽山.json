@@ -1,0 +1,24 @@
+{
+  "id": "禹葬会稽山",
+  "name": "禹葬会稽山",
+  "pinyin": "",
+  "aliases": [
+    "禹葬会稽之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "；禹葬会稽之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 13
+  }
+}

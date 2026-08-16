@@ -1,0 +1,71 @@
+{
+  "id": "宁戚",
+  "name": "宁戚",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "春秋卫国人，未遇时曾经商",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-11",
+      "type": "annotation",
+      "annotationExplanation": "春秋卫国人，未遇时曾经商"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-11",
+      "type": "text",
+      "context": "鼓刀兮，\n\n遭周文而得举。\n\n宁戚之讴歌兮，\n\n齐桓闻以该辅。\n"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 4,
+      "entryId": "chuci-04-09",
+      "type": "text",
+      "context": "庖厨。\n\n吕望屠于朝歌兮,\n\n宁戚歌而饭牛。\n\n不逢汤武与桓缪兮"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 8,
+      "entryId": "chuci-08-09",
+      "type": "text",
+      "context": "知乘兮,\n\n焉皇皇而更索？\n\n宁戚讴于车下兮,\n\n桓公闻而知之。"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-03",
+      "type": "text",
+      "context": "聊生兮,\n\n遭周文而舒志。\n\n宁戚饭牛而商歌兮,\n\n桓公闻而弗置"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "一辞，可与曲说，未可与广应也。宁戚击牛角而歌，桓公举以大政；雍门"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "尧之举舜也，决之于目；桓公之取宁戚也，断之于耳而已矣。为是释术数"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "饭牛，伊尹之负鼎，太公之鼓刀，宁戚之商歌，其美有存焉者矣。众人见"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

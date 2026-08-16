@@ -1,0 +1,22 @@
+{
+  "id": "隼鸟",
+  "name": "隼鸟",
+  "pinyin": "sǔn",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "即雕，一类很凶猛的鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-19",
+      "type": "annotation",
+      "annotationExplanation": "即雕，一类很凶猛的鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 11
+  }
+}

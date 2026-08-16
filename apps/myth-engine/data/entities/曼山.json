@@ -1,0 +1,24 @@
+{
+  "id": "曼山",
+  "name": "曼山",
+  "pinyin": "",
+  "aliases": [
+    "曼之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，一说指蒙山，在今四川名山县西北；一说指崌(jū)山",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-09",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说指蒙山，在今四川名山县西北；一说指崌(jū)山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

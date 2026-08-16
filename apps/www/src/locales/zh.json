@@ -174,8 +174,8 @@
         "viewOnGithub": "在 GitHub 查看",
         "items": [
             {
-                "title": "ying-companion",
-                "description": "可插拔 AI Companion / Agent Runtime，覆盖工作流编排、工具调用、长期记忆、模型适配、失败降级与运行调试。",
+                "title": "ying-ai",
+                "description": "TypeScript AI 能力 monorepo，包含可插拔 Companion SDK、长期记忆、模型适配、Web 搜索工具、交互式 Story Runtime 与独立 AI 应用。",
                 "stars": "持续开发",
                 "technologies": [
                     "TypeScript",
@@ -184,7 +184,7 @@
                     "pgvector",
                     "OpenAI / Ollama"
                 ],
-                "link": "https://github.com/KRISACHAN/ying-companion",
+                "link": "https://github.com/KRISACHAN/ying-ai",
                 "gradient": "from-cyan-500 to-blue-600",
                 "badgeColor": { "bg": "bg-cyan-100", "text": "text-cyan-800" }
             },

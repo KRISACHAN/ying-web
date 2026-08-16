@@ -1,0 +1,22 @@
+{
+  "id": "鱼叚",
+  "name": "鱼叚",
+  "pinyin": "xiā",
+  "aliases": [],
+  "type": "fish",
+  "typeConfidence": "high",
+  "description": "即大鲵，一种两栖类动物，俗名娃娃鱼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-16",
+      "type": "annotation",
+      "annotationExplanation": "即大鲵，一种两栖类动物，俗名娃娃鱼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

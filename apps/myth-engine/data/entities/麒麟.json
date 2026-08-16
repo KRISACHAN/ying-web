@@ -1,0 +1,50 @@
+{
+  "id": "麒麟",
+  "name": "麒麟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 9,
+      "entryId": "chuci-09-02",
+      "type": "text",
+      "context": "德兮,\n\n远浊世而自藏。\n\n使麒麟可得羁而系兮,\n\n又何以异乎犬"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "。虚啸而谷风至，龙举而景云属，麒麟斗而日月食，鲸鱼死而彗星出，蚕"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "毛犊生应龙，应龙生建马，建马生麒麟，麒麟生庶兽，凡毛者生于庶兽。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "妄噬，鸷鸟不妄博；凤皇翔于庭，麒麟游于郊；青龙进驾，飞黄伏皁；诸"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "消钢铁，而万物不滋。刳胎杀夭，麒麟不游：覆巢毁卵，凤皇不翔；钻燧"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 9
+  }
+}

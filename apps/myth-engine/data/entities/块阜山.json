@@ -1,0 +1,24 @@
+{
+  "id": "块阜山",
+  "name": "块阜山",
+  "pinyin": "",
+  "aliases": [
+    "块阜之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "，块阜之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 3
+  }
+}

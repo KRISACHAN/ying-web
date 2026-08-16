@@ -1,0 +1,29 @@
+{
+  "id": "瞿如",
+  "name": "瞿如",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "传说中的一种鸟",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-27",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种鸟"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-27",
+      "type": "text",
+      "context": "有鸟焉，其状如鵁而白首、三足、人面，其名曰瞿如"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "氐人国",
+  "name": "氐人国",
+  "pinyin": "dī",
+  "aliases": [
+    "氐国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，具体所指待考。氐是我国古代民族，居住在今西北一带",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-15",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，具体所指待考。氐是我国古代民族，居住在今西北一带"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-15",
+      "type": "text",
+      "context": "氐人国在建木西，其为人人面而鱼身，无"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-06",
+      "type": "annotation",
+      "annotationExplanation": "即氐人国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 10
+  }
+}

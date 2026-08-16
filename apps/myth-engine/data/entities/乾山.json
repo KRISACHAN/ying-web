@@ -1,0 +1,24 @@
+{
+  "id": "乾山",
+  "name": "乾山",
+  "pinyin": "",
+  "aliases": [
+    "乾之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说在今河北境内；一说在今内蒙古境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-43",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在今河北境内；一说在今内蒙古境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

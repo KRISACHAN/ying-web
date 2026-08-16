@@ -1,0 +1,113 @@
+{
+  "id": "黄帝",
+  "name": "黄帝",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-18",
+      "type": "text",
+      "context": "光如日月，其声如雷，其名曰夔。黄帝得之，以其皮为鼓，橛以雷兽之骨"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "text",
+      "context": "水之西，有朝云之国、司彘之国。黄帝妻雷祖，生昌意。昌意降处若水，"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-19",
+      "type": "text",
+      "context": "黄帝生骆明，骆明生白马，白马是为鲧"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-03",
+      "type": "text",
+      "context": "赤将子舆者，黄帝时人也。不食五谷，而啖百草华。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "是故其德烦而不能一。乃至神农、黄帝，剖判大宗，窍领天地，袭九窾，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "徽，其日丙丁。中央，土也，其帝黄帝，其佐后土，执绳而制四方，其神"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "以息壤堙洪水之州，东至于碣石，黄帝、后土之所司者，万二千里。其令"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "马，此以弗御御之者也。\n\n昔者黄帝治天下，而力牧、太山稽辅之，以"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "相遗也；其国治者，君臣相忘也。黄帝曰：“芒芒昧昧，从天之道，与元"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "不得不中绝。兵之所由来者远矣！黄帝尝与炎帝战矣，颛顼尝与共工争矣"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 19,
+      "entryId": "huainanzi-19-01",
+      "type": "text",
+      "context": "暑之势不易，小变不足以妨大节。黄帝生阴阳，上骈生耳目，桑林生臂手"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "疾，迟之为速者，则几于道矣。故黄帝亡其玄珠，使离朱，捷剟索之，而"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "而贱今，故为道者必托之于神农、黄帝而后能入说。乱世暗主，高远其所"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "矢，中之具，而非所以中也。\n\n黄帝曰：“芒芒昧昧，因天之威，与元"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

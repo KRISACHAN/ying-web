@@ -1,0 +1,24 @@
+{
+  "id": "勇石山",
+  "name": "勇石山",
+  "pinyin": "",
+  "aliases": [
+    "勇石之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-95",
+      "type": "text",
+      "context": "，曰勇石之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

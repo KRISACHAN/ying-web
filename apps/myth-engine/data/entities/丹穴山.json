@@ -1,0 +1,31 @@
+{
+  "id": "丹穴山",
+  "name": "丹穴山",
+  "pinyin": "",
+  "aliases": [
+    "丹穴之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即丹穴山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-28",
+      "type": "annotation",
+      "annotationExplanation": "即丹穴山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-28",
+      "type": "text",
+      "context": "，曰丹穴之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

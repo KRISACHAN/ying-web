@@ -1,0 +1,24 @@
+{
+  "id": "伯陵",
+  "name": "伯陵",
+  "pinyin": "",
+  "aliases": [
+    "伯之陵"
+  ],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "人名，一说为殷之诸侯",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-18",
+      "type": "annotation",
+      "annotationExplanation": "人名，一说为殷之诸侯"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

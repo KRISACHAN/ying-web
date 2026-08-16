@@ -1,0 +1,22 @@
+{
+  "id": "金石丝竹",
+  "name": "金石丝竹",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "金，指金属制的乐器；石，指石制的磬；丝，指弦类乐器；竹，指管类乐器。泛指各种乐器",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 21,
+      "entryId": "soushenji-21-06",
+      "type": "annotation",
+      "annotationExplanation": "金，指金属制的乐器；石，指石制的磬；丝，指弦类乐器；竹，指管类乐器。泛指各种乐器"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 21
+  }
+}

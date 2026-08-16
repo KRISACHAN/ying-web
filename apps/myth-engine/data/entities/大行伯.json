@@ -1,0 +1,22 @@
+{
+  "id": "大行伯",
+  "name": "大行伯",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "人名，一说可能指共工的儿子，名叫脩(xiū)，以酷好远游著称",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-04",
+      "type": "annotation",
+      "annotationExplanation": "人名，一说可能指共工的儿子，名叫脩(xiū)，以酷好远游著称"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

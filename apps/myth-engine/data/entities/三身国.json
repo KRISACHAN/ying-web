@@ -1,0 +1,39 @@
+{
+  "id": "三身国",
+  "name": "三身国",
+  "pinyin": "",
+  "aliases": [
+    "三身之国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，因其国中之人长着三个身子，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-05",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，因其国中之人长着三个身子，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-05",
+      "type": "text",
+      "context": "三身国三身国在夏后启北，一首而三身。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-05",
+      "type": "annotation",
+      "annotationExplanation": "即三身国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

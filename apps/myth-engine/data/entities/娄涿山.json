@@ -1,0 +1,31 @@
+{
+  "id": "娄涿山",
+  "name": "娄涿山",
+  "pinyin": "",
+  "aliases": [
+    "娄涿之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即娄涿山，山名，在今河南洛宁县和新安县之间",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-49",
+      "type": "annotation",
+      "annotationExplanation": "即娄涿山，山名，在今河南洛宁县和新安县之间"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-49",
+      "type": "text",
+      "context": "，曰娄涿之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

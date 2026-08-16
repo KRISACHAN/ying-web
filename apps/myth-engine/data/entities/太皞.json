@@ -1,0 +1,29 @@
+{
+  "id": "太皞",
+  "name": "太皞",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "\n\n何谓五星？东方，木也，其帝太皞，其 佐句芒，执规而治春，其神"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 6,
+      "entryId": "huainanzi-06-01",
+      "type": "text",
+      "context": "之次，模木之地，青土树木之野，太皞、句芒之所司者，万二千里，其令"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 4
+  }
+}

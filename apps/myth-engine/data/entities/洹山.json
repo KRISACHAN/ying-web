@@ -1,0 +1,24 @@
+{
+  "id": "洹山",
+  "name": "洹山",
+  "pinyin": "",
+  "aliases": [
+    "洹之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。一说在今蒙古境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-27",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。一说在今蒙古境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

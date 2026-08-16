@@ -1,0 +1,22 @@
+{
+  "id": "梓",
+  "name": "梓",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "梓树，一种落叶乔木，叶子卵形，开淡黄色花",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-21",
+      "type": "annotation",
+      "annotationExplanation": "梓树，一种落叶乔木，叶子卵形，开淡黄色花"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

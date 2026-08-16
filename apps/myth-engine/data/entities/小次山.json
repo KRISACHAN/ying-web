@@ -1,0 +1,31 @@
+{
+  "id": "小次山",
+  "name": "小次山",
+  "pinyin": "",
+  "aliases": [
+    "小次之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即小次山，山名，在今甘肃境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-21",
+      "type": "annotation",
+      "annotationExplanation": "即小次山，山名，在今甘肃境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-21",
+      "type": "text",
+      "context": "，曰小次之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

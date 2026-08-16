@@ -1,0 +1,24 @@
+{
+  "id": "轩辕之台",
+  "name": "轩辕之台",
+  "pinyin": "",
+  "aliases": [
+    "轩辕台"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "即轩辕台，当为纪念黄帝的台",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-13",
+      "type": "annotation",
+      "annotationExplanation": "即轩辕台，当为纪念黄帝的台"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

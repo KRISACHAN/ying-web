@@ -1,0 +1,31 @@
+{
+  "id": "狐岐山",
+  "name": "狐岐山",
+  "pinyin": "",
+  "aliases": [
+    "狐岐之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即狐岐山，山名，在今山西孝义市西南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-20",
+      "type": "annotation",
+      "annotationExplanation": "即狐岐山，山名，在今山西孝义市西南"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-20",
+      "type": "text",
+      "context": "，曰狐岐之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

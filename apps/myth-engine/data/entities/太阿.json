@@ -1,0 +1,29 @@
+{
+  "id": "太阿",
+  "name": "太阿",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 11,
+      "entryId": "chuci-11-08",
+      "type": "text",
+      "context": "橐驼。\n\n铅刀进御兮,\n\n遥弃太阿。\n\n拔寨玄芝兮,\n\n列树芋荷"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 12,
+      "entryId": "chuci-12-09",
+      "type": "text",
+      "context": "随和。\n\n铅刀厉御兮,\n\n顿弃太阿。\n\n骥垂两耳兮,\n\n中坂蹉跎"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 11
+  }
+}

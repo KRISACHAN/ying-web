@@ -1,0 +1,24 @@
+{
+  "id": "牛黎之国",
+  "name": "牛黎之国",
+  "pinyin": "",
+  "aliases": [
+    "牛黎国"
+  ],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "即牛黎国，国名，一说即柔利国",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-18",
+      "type": "annotation",
+      "annotationExplanation": "即牛黎国，国名，一说即柔利国"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

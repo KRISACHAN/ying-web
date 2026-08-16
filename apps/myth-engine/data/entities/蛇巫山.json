@@ -1,0 +1,31 @@
+{
+  "id": "蛇巫山",
+  "name": "蛇巫山",
+  "pinyin": "",
+  "aliases": [
+    "蛇巫之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即蛇巫山，山名，一说位于昆仑山附近；一说在今四川、湖北边境",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-02",
+      "type": "annotation",
+      "annotationExplanation": "即蛇巫山，山名，一说位于昆仑山附近；一说在今四川、湖北边境"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-02",
+      "type": "text",
+      "context": "蛇巫之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

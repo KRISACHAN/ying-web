@@ -1,0 +1,36 @@
+{
+  "id": "驳",
+  "name": "驳",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种猛兽",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-54",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种猛兽"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-54",
+      "type": "text",
+      "context": "有兽焉，其状如马而白身黑尾，一角，虎牙爪，音如鼓音，其名曰驳"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-14",
+      "type": "text",
+      "context": "有兽焉，其名曰驳"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

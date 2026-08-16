@@ -1,0 +1,22 @@
+{
+  "id": "易",
+  "name": "易",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，一说在今河北易县附近",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-11",
+      "type": "annotation",
+      "annotationExplanation": "国名，一说在今河北易县附近"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

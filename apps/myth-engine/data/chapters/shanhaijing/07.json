@@ -1,0 +1,675 @@
+{
+  "id": "shanhaijing-07",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 7,
+  "chapterTitle": "海外西经第七",
+  "entryCount": 20,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "海外自西南陬至西北陬者。",
+      "annotations": [
+        {
+          "term": "海外",
+          "explanation": "指海外西经所记载的地方"
+        },
+        {
+          "term": "陬(zōu)",
+          "explanation": "隅，角落"
+        }
+      ],
+      "translation": "海外西经所记载的地方从西南角到西北角。",
+      "index": 1
+    },
+    {
+      "title": "灭蒙鸟",
+      "originalText": "灭蒙鸟在结匈国北，为鸟青，赤尾。",
+      "annotations": [
+        {
+          "term": "灭蒙鸟",
+          "explanation": "鸟名，一说又叫孟鸟、狂鸟、蒙鸟等，属于高空飞翔的鸟类；一说属凤凰一类的鸟。这里指灭蒙鸟栖息的地方"
+        }
+      ],
+      "translation": "灭蒙鸟栖息的地方在结匈国的北边，这种鸟青色，长着红色的尾巴。",
+      "index": 2
+    },
+    {
+      "title": "夏后启",
+      "originalText": "大运山高三百仞，在灭蒙鸟北。",
+      "annotations": [
+        {
+          "term": "大运山",
+          "explanation": "山名，在今中国的西南部，具体所指待考"
+        },
+        {
+          "term": "仞(rèn)",
+          "explanation": "古时以八尺或七尺为一仞"
+        }
+      ],
+      "translation": "大运山高达三百仞，在灭蒙鸟栖息之地的北边。",
+      "index": 3
+    },
+    {
+      "title": "大乐之野",
+      "originalText": "大乐之野，夏后启于此儛九代，乘两龙，云盖三层。左手操翳，右手操环，佩玉璜。在大运山北。一曰大遗之野。",
+      "annotations": [
+        {
+          "term": "大乐之野",
+          "explanation": "地名，也叫大穆之野、大遗之野等，具体所指待考。一说在今四川乐山市一带"
+        },
+        {
+          "term": "夏后启",
+          "explanation": "即禹之子启，夏代国君。传说禹曾选定东夷族的伯益为继承人，禹死后，启自继王位，与伯益争斗，杀伯益，并确立帝位传子制度"
+        },
+        {
+          "term": "儛(wǔ)",
+          "explanation": "跳舞"
+        },
+        {
+          "term": "九代",
+          "explanation": "一说指乐名；一说指马名"
+        },
+        {
+          "term": "云盖",
+          "explanation": "呈盖状的云，或指一种仪仗"
+        },
+        {
+          "term": "层",
+          "explanation": "重"
+        },
+        {
+          "term": "翳(yì)",
+          "explanation": "用羽毛做的华盖"
+        },
+        {
+          "term": "环",
+          "explanation": "玉环"
+        },
+        {
+          "term": "璜(huánɡ)",
+          "explanation": "丰璧形的玉"
+        }
+      ],
+      "translation": "大乐之野，夏代国君启在此举行名为“九代”的歌舞，他乘着两条龙，周围是三重呈带状的云。启的左手举着用羽毛做的华盖，右手拿着玉环，身上佩着玉璜。大乐之野在大运山的北边。一说启举行歌舞的地方是大遗之野。",
+      "index": 4
+    },
+    {
+      "title": "三身国",
+      "originalText": "三身国三身国在夏后启北，一首而三身。",
+      "annotations": [
+        {
+          "term": "三身国",
+          "explanation": "传说中的国名，因其国中之人长着三个身子，故名"
+        },
+        {
+          "term": "夏后启",
+          "explanation": "这里指启举行歌舞的地方，即大乐之野"
+        }
+      ],
+      "translation": "三身国在大乐之野的北边，这个国家的人长着一个脑袋、三个身子。",
+      "index": 5
+    },
+    {
+      "title": "次鸟詹鸟",
+      "originalText": "次鸟、詹鸟，其色青黃，所经国亡。在女祭北。鸟人面，居山上。一曰维鸟，青鸟、黄鸟所集。",
+      "annotations": [
+        {
+          "term": "次(cì)",
+          "explanation": "传说中的一种鸟"
+        },
+        {
+          "term": "詹",
+          "explanation": "鸟名，猫头鹰之类"
+        },
+        {
+          "term": "维鸟",
+          "explanation": "一说指鸟和鸟的统称；一说指地名"
+        },
+        {
+          "term": "集",
+          "explanation": "一说指群鸟栖止树上；一说指聚集之地"
+        }
+      ],
+      "translation": "鸟和鸟，这两种鸟的羽毛青中带黄，凡是它们经过的国家都会灭亡。这两种鸟的栖息地在女祭的北边。鸟长着人一样的脸，栖息在山上。一说是维鸟，是青鸟和黄鸟的聚集之地。",
+      "index": 6
+    },
+    {
+      "title": "形天与帝争神",
+      "originalText": "形天与帝至此争神，帝断其首，葬之常羊之山。乃以乳为目，以脐为口，操干戚以舞。",
+      "annotations": [
+        {
+          "term": "形天",
+          "explanation": "又作刑天，神话传说中的人物，因与天帝争权，被砍掉脑袋"
+        },
+        {
+          "term": "至此",
+          "explanation": "一说系衍文"
+        },
+        {
+          "term": "争神",
+          "explanation": "指争权、争地位"
+        },
+        {
+          "term": "常羊之山",
+          "explanation": "即常羊山，山名，具体所指待考。一说在今陕西之南、四川之北"
+        },
+        {
+          "term": "干",
+          "explanation": "盾牌"
+        },
+        {
+          "term": "戚",
+          "explanation": "古代兵器名，即大斧"
+        }
+      ],
+      "translation": "形天与黄帝争权，黄帝砍下了他的脑袋，并把他埋入常羊山中。形天于是以双乳为眼睛，以肚脐为嘴，挥舞着手中的盾牌和大斧。",
+      "index": 7
+    },
+    {
+      "title": "丈夫国",
+      "originalText": "丈夫国在维鸟北，其为人衣冠带剑。",
+      "annotations": [
+        {
+          "term": "丈夫国",
+          "explanation": "传说中的国名，据说国中之人均为男性，故名"
+        },
+        {
+          "term": "衣冠",
+          "explanation": "指衣帽整齐"
+        }
+      ],
+      "translation": "丈夫国在维鸟的北边，这个国家的人个个衣帽整齐，身上佩剑。",
+      "index": 8
+    },
+    {
+      "title": "女丑之尸",
+      "originalText": "女丑之尸，生而十日炙杀之。在丈夫北。以右手鄣其面。十日居上，女丑居山之上。",
+      "annotations": [
+        {
+          "term": "女丑",
+          "explanation": "人名"
+        },
+        {
+          "term": "十日",
+          "explanation": "十个太阳"
+        },
+        {
+          "term": "丈夫",
+          "explanation": "指丈夫国"
+        },
+        {
+          "term": "鄣(zhànɡ)",
+          "explanation": "同“障”，指遮蔽、遮盖"
+        }
+      ],
+      "translation": "有一具女丑的尸体，她是被十个太阳活活烤死的。女丑所处之地位于丈夫国的北边。女丑用右手遮着自己的脸。十个太阳高悬空中，女丑则处在山上。",
+      "index": 9
+    },
+    {
+      "title": "巫咸国",
+      "originalText": "巫咸国在女丑北，右手操青蛇，左手操赤蛇，在登葆山，群巫所从上下也。",
+      "annotations": [
+        {
+          "term": "巫咸国",
+          "explanation": "传说中的国名，因其国中之人都是巫师(巫咸即咸巫，意为都是巫师)，故名。一说巫咸为古代的神巫"
+        },
+        {
+          "term": "登葆山",
+          "explanation": "山名，也叫登备山，具体所指待考。一说从此山可上达天庭"
+        }
+      ],
+      "translation": "巫咸国在女丑所处之地的北边，这个国家中的人右手握着青蛇，左手握着赤蛇，国中有座登葆山，它是群巫们上下天庭的地方。",
+      "index": 10
+    },
+    {
+      "title": "并封",
+      "originalText": "并封并封在巫咸东，其状如彘，前后皆有首，黑。",
+      "annotations": [],
+      "translation": "巫咸国的东边就是并封出没的地方。并封是一种野兽，它体形似猪，但头尾各长一只脑袋，全身都是黑色的。",
+      "index": 11
+    },
+    {
+      "title": "女子国",
+      "originalText": "女子国在巫咸北，两女子居，水周之。一曰居一门中。",
+      "annotations": [
+        {
+          "term": "女子国",
+          "explanation": "传说中的国名，因其国中之人皆为女性，故名"
+        }
+      ],
+      "translation": "女子国在巫咸国的北边，两个女子住在一起，四周有水环绕。一说她们住在同一个门中。",
+      "index": 12
+    },
+    {
+      "title": "轩辕国",
+      "originalText": "轩辕之国在此穷山之际，其不寿者八百岁，在女子国北。人面蛇身，尾交首上。",
+      "annotations": [],
+      "translation": "轩辕国北邻穷山。轩辕国的人民都长寿，寿命最短的也能活八百岁。女子国的北边就是轩辕国。轩辕国的国民都长着人样的面孔和蛇样的身形，尾巴缠绕在头上。",
+      "index": 13
+    },
+    {
+      "title": "穷山",
+      "originalText": "穷山在其北，不敢西射，畏轩辕之丘。在轩辕国北。其丘方，四蛇相绕。",
+      "annotations": [
+        {
+          "term": "其",
+          "explanation": "指轩辕国"
+        },
+        {
+          "term": "轩辕之丘",
+          "explanation": "丘名，具体所指待考。一说当在今四川境内"
+        }
+      ],
+      "translation": "穷山在轩辕国的北边，这里的人因为敬畏轩辕丘，不敢向西方射箭。轩辕丘在轩辕国的北边。丘呈方形，上面有四条蛇互相环绕。",
+      "index": 14
+    },
+    {
+      "title": "诸夭之野",
+      "originalText": "此诸夭之野，鸾鸟自歌，凤鸟自舞。凤皇卵，民食之；甘露，民饮之，所欲自从也。百兽相与群居。在四蛇北。其人两手操卵食之，两鸟居前导之。",
+      "annotations": [
+        {
+          "term": "此",
+          "explanation": "该字似系衍文"
+        },
+        {
+          "term": "诸夭之野",
+          "explanation": "一说“夭”应作“沃”，指传说中的一片沃野"
+        },
+        {
+          "term": "凤鸟",
+          "explanation": "雄的凤凰"
+        },
+        {
+          "term": "甘露",
+          "explanation": "甜美的雨露"
+        },
+        {
+          "term": "四蛇",
+          "explanation": "指有四条蛇环绕的轩辕丘"
+        }
+      ],
+      "translation": "有一个名叫诸夭之野的地方，鸾鸟在那里歌唱，凤鸟在那里起舞。凤凰生下的蛋，老百姓可以吃；甜美的雨露，老百姓可以喝，一切都可随心所欲。各种野兽都成群居住在这里。这个地方在有四条蛇环绕的轩辕丘的北边。有人正双手捧着凤凰蛋在吃，有两只鸟在前面引导。",
+      "index": 15
+    },
+    {
+      "title": "龙鱼陵居",
+      "originalText": "龙鱼陵居在其北，状如狸。一曰鱼叚。即有神圣乘此以行九野。一曰鳖鱼在夭野北，其为鱼也如鲤。",
+      "annotations": [
+        {
+          "term": "龙鱼",
+          "explanation": "鱼名，具体所指待考。一说指穿山甲之类；一说是古鱼类化石"
+        },
+        {
+          "term": "陵居",
+          "explanation": "居住在山陵中"
+        },
+        {
+          "term": "其",
+          "explanation": "指诸夭之野"
+        },
+        {
+          "term": "狸",
+          "explanation": "应作“鲤”，指鲤鱼"
+        },
+        {
+          "term": "鱼叚(xiā)",
+          "explanation": "即大鲵，一种两栖类动物，俗名娃娃鱼"
+        },
+        {
+          "term": "九野",
+          "explanation": "指九州之地"
+        },
+        {
+          "term": "鳖鱼",
+          "explanation": "甲鱼，此处似不应指甲鱼，具体所指待考"
+        },
+        {
+          "term": "夭野",
+          "explanation": "指诸夭之野"
+        }
+      ],
+      "translation": "在山陵中居住的龙鱼在诸夭之野的北边，它的形状像鲤鱼。一说形状像大鲵。有神圣乘着龙鱼在九州之地巡行。一说鳖鱼在诸夭之野的北边，这种鱼的形状像鲤鱼。",
+      "index": 16
+    },
+    {
+      "title": "白民国",
+      "originalText": "白民之国在龙鱼北，白身被发。有乘黄，其状如狐，其背上有角，乘之寿二千岁。",
+      "annotations": [
+        {
+          "term": "白民之国",
+          "explanation": "即白民国，传说中的国名，因其国中之人浑身雪白，故名"
+        },
+        {
+          "term": "被(pī)",
+          "explanation": "同“披”，指披散"
+        },
+        {
+          "term": "乘黄",
+          "explanation": "传说中的一种兽。一说指双峰驼"
+        }
+      ],
+      "translation": "白民国在龙鱼居住的山陵的北边，这个国家的人浑身雪白，披散着头发。有一种名叫乘黄的兽，它的形状像狐，背上长着角，人若能骑在它的身上，便可长寿两千岁。",
+      "index": 17
+    },
+    {
+      "title": "肃慎国",
+      "originalText": "肃慎之国在白民北。有树名曰雄常，先入伐帝，于此取之。",
+      "annotations": [
+        {
+          "term": "肃慎之国",
+          "explanation": "即肃慎国，国名。肃慎是古族名，古代居住在中国东北地区，周武王、周成王时他们曾以楛(kǔ)矢石磐(pán)来贡，与此处的肃慎国不同"
+        },
+        {
+          "term": "雄常",
+          "explanation": "或作雄棠、洛棠，树名，一说指棠梨"
+        },
+        {
+          "term": "先入伐帝，于此取之",
+          "explanation": "句意颇为难解。人们或改作“先人代帝，于此取衣”，或改作“先入代立，于此取之”，或改作“圣人代立，于此取衣”，等等。今据最后一种改法作解"
+        }
+      ],
+      "translation": "肃慎国在白民国的北边。这里有一种树，名字叫雄常，一旦有圣人称帝，这种树便会长出可做衣服的树皮来。",
+      "index": 18
+    },
+    {
+      "title": "长股国",
+      "originalText": "长股之国在雄常北，被发。一曰长脚。",
+      "annotations": [
+        {
+          "term": "长股之国",
+          "explanation": "即长股国，传说中的国名，因其国中之人的腿很长(股：大腿)，故名"
+        },
+        {
+          "term": "雄常",
+          "explanation": "这里指雄常树生长的地方"
+        }
+      ],
+      "translation": "长股国在长着雄常树之地的北边，这个国家中的人都披散着头发。一说是长脚国。",
+      "index": 19
+    },
+    {
+      "title": "西方蓐收",
+      "originalText": "西方蓐收，左耳有蛇，乘两龙。",
+      "annotations": [
+        {
+          "term": "蓐(rù)收",
+          "explanation": "传说中的神名"
+        }
+      ],
+      "translation": "西方有尊神，名叫蓐收。有人说他左耳内有一条蛇守护着。他的坐骑是两条龙。",
+      "index": 20
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "海外",
+      "entryId": "shanhaijing-07-01",
+      "entryTitle": "其一",
+      "term": "海外"
+    },
+    {
+      "entityName": "灭蒙鸟",
+      "entryId": "shanhaijing-07-02",
+      "entryTitle": "灭蒙鸟",
+      "term": "灭蒙鸟"
+    },
+    {
+      "entityName": "大运山",
+      "entryId": "shanhaijing-07-03",
+      "entryTitle": "夏后启",
+      "term": "大运山"
+    },
+    {
+      "entityName": "仞",
+      "entryId": "shanhaijing-07-03",
+      "entryTitle": "夏后启",
+      "term": "仞"
+    },
+    {
+      "entityName": "大乐野",
+      "entryId": "shanhaijing-07-04",
+      "entryTitle": "大乐之野",
+      "term": "大乐之野"
+    },
+    {
+      "entityName": "夏后开",
+      "entryId": "shanhaijing-07-04",
+      "entryTitle": "大乐之野",
+      "term": "夏后启"
+    },
+    {
+      "entityName": "九代",
+      "entryId": "shanhaijing-07-04",
+      "entryTitle": "大乐之野",
+      "term": "九代"
+    },
+    {
+      "entityName": "云盖",
+      "entryId": "shanhaijing-07-04",
+      "entryTitle": "大乐之野",
+      "term": "云盖"
+    },
+    {
+      "entityName": "三身国",
+      "entryId": "shanhaijing-07-05",
+      "entryTitle": "三身国",
+      "term": "三身国"
+    },
+    {
+      "entityName": "三身国",
+      "entryId": "shanhaijing-07-05",
+      "entryTitle": "三身国",
+      "term": "三身国"
+    },
+    {
+      "entityName": "次",
+      "entryId": "shanhaijing-07-06",
+      "entryTitle": "次鸟詹鸟",
+      "term": "次"
+    },
+    {
+      "entityName": "詹",
+      "entryId": "shanhaijing-07-06",
+      "entryTitle": "次鸟詹鸟",
+      "term": "詹"
+    },
+    {
+      "entityName": "维鸟",
+      "entryId": "shanhaijing-07-06",
+      "entryTitle": "次鸟詹鸟",
+      "term": "维鸟"
+    },
+    {
+      "entityName": "青鸟",
+      "entryId": "shanhaijing-07-06",
+      "entryTitle": "次鸟詹鸟",
+      "term": "青鸟"
+    },
+    {
+      "entityName": "形天",
+      "entryId": "shanhaijing-07-07",
+      "entryTitle": "形天与帝争神",
+      "term": "形天"
+    },
+    {
+      "entityName": "常羊山",
+      "entryId": "shanhaijing-07-07",
+      "entryTitle": "形天与帝争神",
+      "term": "常羊之山"
+    },
+    {
+      "entityName": "戚",
+      "entryId": "shanhaijing-07-07",
+      "entryTitle": "形天与帝争神",
+      "term": "戚"
+    },
+    {
+      "entityName": "葬之常羊山",
+      "entryId": "shanhaijing-07-07",
+      "entryTitle": "形天与帝争神",
+      "term": "葬之常羊山"
+    },
+    {
+      "entityName": "丈夫国",
+      "entryId": "shanhaijing-07-08",
+      "entryTitle": "丈夫国",
+      "term": "丈夫国"
+    },
+    {
+      "entityName": "丈夫国",
+      "entryId": "shanhaijing-07-08",
+      "entryTitle": "丈夫国",
+      "term": "丈夫国"
+    },
+    {
+      "entityName": "女丑",
+      "entryId": "shanhaijing-07-09",
+      "entryTitle": "女丑之尸",
+      "term": "女丑"
+    },
+    {
+      "entityName": "巫咸国",
+      "entryId": "shanhaijing-07-10",
+      "entryTitle": "巫咸国",
+      "term": "巫咸国"
+    },
+    {
+      "entityName": "登葆山",
+      "entryId": "shanhaijing-07-10",
+      "entryTitle": "巫咸国",
+      "term": "登葆山"
+    },
+    {
+      "entityName": "女子国",
+      "entryId": "shanhaijing-07-12",
+      "entryTitle": "女子国",
+      "term": "女子国"
+    },
+    {
+      "entityName": "女子国",
+      "entryId": "shanhaijing-07-12",
+      "entryTitle": "女子国",
+      "term": "女子国"
+    },
+    {
+      "entityName": "女子国",
+      "entryId": "shanhaijing-07-13",
+      "entryTitle": "轩辕国",
+      "term": "女子国"
+    },
+    {
+      "entityName": "轩辕丘",
+      "entryId": "shanhaijing-07-14",
+      "entryTitle": "穷山",
+      "term": "轩辕之丘"
+    },
+    {
+      "entityName": "轩辕国",
+      "entryId": "shanhaijing-07-14",
+      "entryTitle": "穷山",
+      "term": "轩辕国"
+    },
+    {
+      "entityName": "沃野",
+      "entryId": "shanhaijing-07-15",
+      "entryTitle": "诸夭之野",
+      "term": "诸夭之野"
+    },
+    {
+      "entityName": "凤鸟",
+      "entryId": "shanhaijing-07-15",
+      "entryTitle": "诸夭之野",
+      "term": "凤鸟"
+    },
+    {
+      "entityName": "四蛇",
+      "entryId": "shanhaijing-07-15",
+      "entryTitle": "诸夭之野",
+      "term": "四蛇"
+    },
+    {
+      "entityName": "鸾鸟",
+      "entryId": "shanhaijing-07-15",
+      "entryTitle": "诸夭之野",
+      "term": "鸾鸟"
+    },
+    {
+      "entityName": "龙鱼",
+      "entryId": "shanhaijing-07-16",
+      "entryTitle": "龙鱼陵居",
+      "term": "龙鱼"
+    },
+    {
+      "entityName": "鱼叚",
+      "entryId": "shanhaijing-07-16",
+      "entryTitle": "龙鱼陵居",
+      "term": "鱼叚"
+    },
+    {
+      "entityName": "九野",
+      "entryId": "shanhaijing-07-16",
+      "entryTitle": "龙鱼陵居",
+      "term": "九野"
+    },
+    {
+      "entityName": "九野",
+      "entryId": "shanhaijing-07-16",
+      "entryTitle": "龙鱼陵居",
+      "term": "九野"
+    },
+    {
+      "entityName": "白民之国",
+      "entryId": "shanhaijing-07-17",
+      "entryTitle": "白民国",
+      "term": "白民之国"
+    },
+    {
+      "entityName": "乘黄",
+      "entryId": "shanhaijing-07-17",
+      "entryTitle": "白民国",
+      "term": "乘黄"
+    },
+    {
+      "entityName": "肃慎之国",
+      "entryId": "shanhaijing-07-18",
+      "entryTitle": "肃慎国",
+      "term": "肃慎之国"
+    },
+    {
+      "entityName": "雄常",
+      "entryId": "shanhaijing-07-18",
+      "entryTitle": "肃慎国",
+      "term": "雄常"
+    },
+    {
+      "entityName": "肃慎",
+      "entryId": "shanhaijing-07-18",
+      "entryTitle": "肃慎国",
+      "term": "肃慎"
+    },
+    {
+      "entityName": "长股之国",
+      "entryId": "shanhaijing-07-19",
+      "entryTitle": "长股国",
+      "term": "长股之国"
+    },
+    {
+      "entityName": "蓐收",
+      "entryId": "shanhaijing-07-20",
+      "entryTitle": "西方蓐收",
+      "term": "蓐收"
+    },
+    {
+      "entityName": "蓐收",
+      "entryId": "shanhaijing-07-20",
+      "entryTitle": "西方蓐收",
+      "term": "蓐收"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_7.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "景山",
+  "name": "景山",
+  "pinyin": "",
+  "aliases": [
+    "景之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，在今河北武安市，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-42",
+      "type": "annotation",
+      "annotationExplanation": "山名，在今河北武安市，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-68",
+      "type": "annotation",
+      "annotationExplanation": "山名，一说在今湖北房县，名聚龙山；一说即今望佛山，在湖北保康县"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

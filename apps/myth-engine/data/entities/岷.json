@@ -1,0 +1,22 @@
+{
+  "id": "岷",
+  "name": "岷",
+  "pinyin": "",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "指岷江，长江上游支流，在今四川中部，源出岷山南麓，东源出弓杠岭，西源出郎架岭，南流经松潘、汶川等县到都江堰市出峡，自此以下称都江、汶江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-09",
+      "type": "annotation",
+      "annotationExplanation": "指岷江，长江上游支流，在今四川中部，源出岷山南麓，东源出弓杠岭，西源出郎架岭，南流经松潘、汶川等县到都江堰市出峡，自此以下称都江、汶江"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

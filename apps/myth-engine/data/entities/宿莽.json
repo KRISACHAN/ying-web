@@ -1,0 +1,22 @@
+{
+  "id": "宿莽",
+  "name": "宿莽",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "楚方言，香草名，经冬不死。朝、夕是互文，言自修不息",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-01",
+      "type": "annotation",
+      "annotationExplanation": "楚方言，香草名，经冬不死。朝、夕是互文，言自修不息"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

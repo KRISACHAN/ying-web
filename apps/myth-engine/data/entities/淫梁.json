@@ -1,0 +1,22 @@
+{
+  "id": "淫梁",
+  "name": "淫梁",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "一说即“禺京”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-20",
+      "type": "annotation",
+      "annotationExplanation": "一说即“禺京”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

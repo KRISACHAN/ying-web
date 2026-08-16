@@ -1,0 +1,22 @@
+{
+  "id": "符箓",
+  "name": "符箓",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "符节和簿箓的统称",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 15,
+      "entryId": "soushenji-15-06",
+      "type": "annotation",
+      "annotationExplanation": "符节和簿箓的统称"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 15
+  }
+}

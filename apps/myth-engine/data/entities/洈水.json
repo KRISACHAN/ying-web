@@ -1,0 +1,24 @@
+{
+  "id": "洈水",
+  "name": "洈水",
+  "pinyin": "",
+  "aliases": [
+    "洈之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-72",
+      "type": "text",
+      "context": "洈水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

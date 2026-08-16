@@ -1,0 +1,24 @@
+{
+  "id": "泑泽",
+  "name": "泑泽",
+  "pinyin": "",
+  "aliases": [
+    "泑之泽"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-08",
+      "type": "text",
+      "context": "注于泑泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "白木",
+  "name": "白木",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "树木名，一说指枝干呈白色的树；一说指白乳木，一种小乔木，高可达3米，树皮平滑，树枝折断后有白色汁液流出",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-11",
+      "type": "annotation",
+      "annotationExplanation": "树木名，一说指枝干呈白色的树；一说指白乳木，一种小乔木，高可达3米，树皮平滑，树枝折断后有白色汁液流出"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

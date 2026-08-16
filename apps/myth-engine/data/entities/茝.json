@@ -1,0 +1,22 @@
+{
+  "id": "茝",
+  "name": "茝",
+  "pinyin": "chǎi",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "属于兰草一类的一种香草",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-47",
+      "type": "annotation",
+      "annotationExplanation": "属于兰草一类的一种香草"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

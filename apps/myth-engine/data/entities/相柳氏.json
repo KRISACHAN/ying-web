@@ -1,0 +1,22 @@
+{
+  "id": "相柳氏",
+  "name": "相柳氏",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "神话传说中的人物，又叫相繇(yáo)",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-06",
+      "type": "annotation",
+      "annotationExplanation": "神话传说中的人物，又叫相繇(yáo)"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "戚",
+  "name": "戚",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "古代兵器名，即大斧",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-07",
+      "type": "annotation",
+      "annotationExplanation": "古代兵器名，即大斧"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "黑齿国",
+  "name": "黑齿国",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "传说中的国名，因其国中之人的牙齿皆为黑色，故名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-08",
+      "type": "annotation",
+      "annotationExplanation": "传说中的国名，因其国中之人的牙齿皆为黑色，故名"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-08",
+      "type": "text",
+      "context": "黑齿国在其北，为人黑，食稻啖蛇，一赤"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 9
+  }
+}

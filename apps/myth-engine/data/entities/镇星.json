@@ -1,0 +1,29 @@
+{
+  "id": "镇星",
+  "name": "镇星",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "其佐后土，执绳而制四方，其神为镇星，其兽黄龙，其音宫，其日戊己。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "南北者，而人谓江、河东流。摄提镇星日月东行，而人谓星辰日月西移者"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 4
+  }
+}

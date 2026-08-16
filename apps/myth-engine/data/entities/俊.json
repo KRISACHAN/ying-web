@@ -1,0 +1,22 @@
+{
+  "id": "俊",
+  "name": "俊",
+  "pinyin": "",
+  "aliases": [],
+  "type": "concept",
+  "typeConfidence": "high",
+  "description": "一说即俊风，指春季从东方刮来的风",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-09",
+      "type": "annotation",
+      "annotationExplanation": "一说即俊风，指春季从东方刮来的风"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 14
+  }
+}

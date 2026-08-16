@@ -1,0 +1,24 @@
+{
+  "id": "漳渊",
+  "name": "漳渊",
+  "pinyin": "",
+  "aliases": [
+    "漳之渊"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-74",
+      "type": "text",
+      "context": "于漳渊"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

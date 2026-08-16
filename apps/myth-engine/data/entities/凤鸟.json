@@ -1,0 +1,22 @@
+{
+  "id": "凤鸟",
+  "name": "凤鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "雄的凤凰",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-15",
+      "type": "annotation",
+      "annotationExplanation": "雄的凤凰"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

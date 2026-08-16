@@ -1,0 +1,32 @@
+{
+  "id": "番禺",
+  "name": "番禺",
+  "pinyin": "",
+  "aliases": [
+    "番隅"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，在今广东广州市番禺区",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-18",
+      "type": "annotation",
+      "annotationExplanation": "古县名，在今广东广州市番禺区"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 10,
+      "entryId": "shanhaijing-10-04",
+      "type": "annotation",
+      "annotationExplanation": "即番禺",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

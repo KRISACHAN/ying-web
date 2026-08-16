@@ -1,0 +1,22 @@
+{
+  "id": "鼓刀",
+  "name": "鼓刀",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "high",
+  "description": "鸣刀、钢(ɡànɡ)刀。相传吕望未发迹时曾在朝歌做屠夫",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-11",
+      "type": "annotation",
+      "annotationExplanation": "鸣刀、钢(ɡànɡ)刀。相传吕望未发迹时曾在朝歌做屠夫"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

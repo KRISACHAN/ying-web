@@ -1,0 +1,64 @@
+{
+  "id": "三桑",
+  "name": "三桑",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "传说中的一种树，一说指三棵桑树",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-27",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种树，一说指三棵桑树"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-27",
+      "type": "text",
+      "context": "三百里，至于洹山，其上多金玉。三桑生之，其树皆无枝，其高百仞。百"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-10",
+      "type": "text",
+      "context": "三桑无枝，在欧丝东，其木长百仞，无"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-11",
+      "type": "text",
+      "context": "范林方三百里，在三桑东，洲环其下。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-13",
+      "type": "text",
+      "context": "平丘在三桑东，爰有遗玉、青鸟、视肉、杨柳"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-01",
+      "type": "text",
+      "context": "舟。竹南有赤泽水，名曰封渊。有三桑无枝。丘西有沈渊，颛顼所浴。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "华、百果所生。和丘在其东北陬，三桑、无枝在其西，夸父、耽耳在其北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

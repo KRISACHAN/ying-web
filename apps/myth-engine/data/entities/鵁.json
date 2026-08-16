@@ -1,0 +1,24 @@
+{
+  "id": "鵁",
+  "name": "鵁",
+  "pinyin": "jiāo",
+  "aliases": [
+    "鱼鵁"
+  ],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，一说是鸬鹚的一种，也叫鱼鵁，头细身长，颈有白毛，能入水捕鱼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-27",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，一说是鸬鹚的一种，也叫鱼鵁，头细身长，颈有白毛，能入水捕鱼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

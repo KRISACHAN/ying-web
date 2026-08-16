@@ -1,0 +1,43 @@
+{
+  "id": "孟尝君",
+  "name": "孟尝君",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "尝死者乎！\n\n昔雍门子以哭见于孟尝君，已而陈辞通意，抚心发声，孟尝"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 12,
+      "entryId": "huainanzi-12-01",
+      "type": "text",
+      "context": "歌，桓公举以大政；雍门子以哭见孟尝君，涕流沾缨。歌哭，众人之所能为"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "大地计众，中分天下，然怀王北畏孟尝君，背社稷之守而委身强秦，兵挫地"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "杀之，陈骈子与其属出亡，奔薛。孟尝君闻之，使人以车迎之，至，而养以"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 7
+  }
+}

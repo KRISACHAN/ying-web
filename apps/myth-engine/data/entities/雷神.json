@@ -1,0 +1,40 @@
+{
+  "id": "雷神",
+  "name": "雷神",
+  "pinyin": "",
+  "aliases": [
+    "雷公",
+    "雷兽"
+  ],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "中国古代神话中的司雷之神，又叫雷公、雷师",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-06",
+      "type": "annotation",
+      "annotationExplanation": "中国古代神话中的司雷之神，又叫雷公、雷师"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-06",
+      "type": "text",
+      "context": "雷泽中有雷神，龙身而人头，鼓其腹。在吴西。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-18",
+      "type": "annotation",
+      "annotationExplanation": "即雷神",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

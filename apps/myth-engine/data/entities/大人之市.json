@@ -1,0 +1,22 @@
+{
+  "id": "大人之市",
+  "name": "大人之市",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一说指身材特别高大的人的集市；一说指海市，系发生在海边的一种幻景",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-20",
+      "type": "annotation",
+      "annotationExplanation": "一说指身材特别高大的人的集市；一说指海市，系发生在海边的一种幻景"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

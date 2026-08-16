@@ -1,0 +1,57 @@
+{
+  "id": "大夏",
+  "name": "大夏",
+  "pinyin": "",
+  "aliases": [],
+  "type": "state",
+  "typeConfidence": "high",
+  "description": "国名，位于中亚，由本居中国的大夏人(属羌族的一支)建立",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-04",
+      "type": "annotation",
+      "annotationExplanation": "国名，位于中亚，由本居中国的大夏人(属羌族的一支)建立"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-04",
+      "type": "text",
+      "context": "国在流沙外者，大夏、竖沙、居繇、月支之国。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-05",
+      "type": "text",
+      "context": "西胡白玉山在大夏东，苍梧在白玉山西南，皆在流沙"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 9,
+      "entryId": "chuci-09-01",
+      "type": "text",
+      "context": "明。\n\n涉丹水而驰骋兮,\n\n右大夏之遗风。\n\n黄鹄之一举兮,\n\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "；西方曰九区，曰泉泽；西北方曰大夏，曰海泽；北方曰大冥，曰寒泽。"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "。尧《大章》，舜《九韶》，禹《大夏》，汤《大濩》，周《武象》，此"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

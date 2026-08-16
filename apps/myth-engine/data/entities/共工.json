@@ -1,0 +1,85 @@
+{
+  "id": "共工",
+  "name": "共工",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "神话传说中的人物。据传他与颛顼(zhuān xū)争夺帝位，发怒而触撞不周山，导致天崩地裂",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-06",
+      "type": "annotation",
+      "annotationExplanation": "神话传说中的人物。据传他与颛顼(zhuān xū)争夺帝位，发怒而触撞不周山，导致天崩地裂"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-06",
+      "type": "text",
+      "context": "共工之臣曰相柳氏，九首，以食于九山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-01",
+      "type": "text",
+      "context": "水西有湿山，水东有幕山。有禹攻共工国山。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-22",
+      "type": "text",
+      "context": "戏器生祝融。祝融降处于江水，生共工。共工生术器，术器首方颠，是复"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "未尝不中，争利者未尝不穷也。昔共工之力，触不周之山，使地东南倾；"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 4,
+      "entryId": "huainanzi-04-01",
+      "type": "text",
+      "context": "受日月星辰，地受水潦尘埃。昔者共工与颛顼争为帝，怒而触不周之山，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "生也。赤奋若，清明风之所生也。共工，景风之所生也。诸比，凉风之所"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "广陕险易远近始有道里。舜之时，共工振滔洪水，以薄空桑，龙门未开，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 18,
+      "entryId": "huainanzi-18-01",
+      "type": "text",
+      "context": "矣！黄帝尝与炎帝战矣，颛顼尝与共工争矣。故黄帝战于涿鹿之野，尧战"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "放讙兜子崇山，窜三苗于三危，流共工于幽州，殛鲧于羽山。舜作室，筑"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 8
+  }
+}

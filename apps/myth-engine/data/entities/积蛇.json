@@ -1,0 +1,22 @@
+{
+  "id": "积蛇",
+  "name": "积蛇",
+  "pinyin": "",
+  "aliases": [],
+  "type": "serpent",
+  "typeConfidence": "high",
+  "description": "堆积在一起的蛇",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-39",
+      "type": "annotation",
+      "annotationExplanation": "堆积在一起的蛇"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

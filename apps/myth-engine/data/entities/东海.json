@@ -1,0 +1,164 @@
+{
+  "id": "东海",
+  "name": "东海",
+  "pinyin": "",
+  "aliases": [
+    "东之海"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": "一作“海东”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-09",
+      "type": "text",
+      "context": "百五十里，曰箕尾之山，其尾踆于东海，多沙石。汸水出焉，而南流注于"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-24",
+      "type": "annotation",
+      "annotationExplanation": "一作“海东”"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-24",
+      "type": "text",
+      "context": "山，无草木，多博石，无玉。处于东海，望丘山，其光载出载入，是惟日"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-30",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考，不是现代所谓的东海"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-30",
+      "type": "text",
+      "context": "文而白首，赤喙，常行西海，游于东海，以夜飞。其音如鸾鸡，其味酸甘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-41",
+      "type": "text",
+      "context": "炎帝之少女，名曰女娃。女娃游于东海，溺而不返，故为精卫，常衔西山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 9,
+      "entryId": "shanhaijing-09-02",
+      "type": "text",
+      "context": "杨柳、甘柤、甘华，甘果所生，在东海。两山夹丘，上有树木。一曰嗟丘"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-01",
+      "type": "text",
+      "context": "东海之外大壑，少昊之国。少昊孺帝颛"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-03",
+      "type": "text",
+      "context": "东海之外，大荒之中，有山名曰大言，"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 14,
+      "entryId": "shanhaijing-14-18",
+      "type": "text",
+      "context": "东海中有流波山，入海七千里。其上有"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-01",
+      "type": "annotation",
+      "annotationExplanation": "水名，这里包括今黄海和东海"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-01",
+      "type": "text",
+      "context": "东海之内，北海之隅，有国名曰朝鲜、"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-18",
+      "type": "text",
+      "context": "一无为之道。能变化隐形。尝往来东海，暂过秣陵，与吴主相闻。吴主留"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-02",
+      "type": "text",
+      "context": "问其故。曰：“吾泰山之女，嫁为东海妇，欲归，今为灌坛令当道有德，"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 4,
+      "entryId": "soushenji-04-12",
+      "type": "text",
+      "context": "麋竺，字子仲，东海朐人也。祖世货殖，家赀巨万。常"
+    },
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 11,
+      "entryId": "soushenji-11-18",
+      "type": "text",
+      "context": "汉时，东海孝妇养姑甚谨，姑曰：“妇养我勤"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "辟伊阙，民廛涧，平通沟陆，流注东海。鸿水漏，九州干，万民皆宁其性"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 17,
+      "entryId": "huainanzi-17-01",
+      "type": "text",
+      "context": "颖出少室，汉出，分流舛驰，注于东海，所行则异，嶓冢，分流舛驰，注"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 21,
+      "entryId": "huainanzi-21-01",
+      "type": "text",
+      "context": "往说之，至，见野人曰：“子耕于东海，至于西海。吾马之失，安得不食"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "下之力而得天下之心。纣之地，左东海，右流沙，前交趾，后幽都，师起"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 24,
+      "entryId": "huainanzi-24-01",
+      "type": "text",
+      "context": "岐， 凿江而通九路，辟五湖而定东海。当此之时，烧不暇撌，濡不给扢"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

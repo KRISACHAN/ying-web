@@ -1,0 +1,25 @@
+{
+  "id": "沃野",
+  "name": "沃野",
+  "pinyin": "",
+  "aliases": [
+    "沃之野",
+    "诸夭野"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "即“诸夭之野”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-11",
+      "type": "annotation",
+      "annotationExplanation": "即“诸夭之野”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 16
+  }
+}

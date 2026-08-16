@@ -1,0 +1,22 @@
+{
+  "id": "榝",
+  "name": "榝",
+  "pinyin": "shā",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "恶木名，即木本植物食茱萸。此指食茱萸所结的籽，味辛辣",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-11",
+      "type": "annotation",
+      "annotationExplanation": "恶木名，即木本植物食茱萸。此指食茱萸所结的籽，味辛辣"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

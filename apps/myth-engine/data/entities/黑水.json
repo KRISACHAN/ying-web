@@ -1,0 +1,172 @@
+{
+  "id": "黑水",
+  "name": "黑水",
+  "pinyin": "",
+  "aliases": [
+    "黑之水",
+    "黑水山"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。一说即位于今广东、广西边界的贺江",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-32",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说即位于今广东、广西边界的贺江"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-32",
+      "type": "text",
+      "context": "曰鸡山，其上多金，其下多丹雘。黑水出焉，而南流注于海。其中有𫚋鱼"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-33",
+      "type": "text",
+      "context": "丘，无草木。洵水出焉，南流注于黑水，其中多丹粟，多青雄黄。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-08",
+      "type": "annotation",
+      "annotationExplanation": "即黑水山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-08",
+      "type": "text",
+      "context": "西行又南行昆仑之虚，西南入海，黑水之山。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-08",
+      "type": "text",
+      "context": "，黑水之山"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-14",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说可能是喀什喀尔河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-14",
+      "type": "text",
+      "context": "洋水、黑水出西北隅，以东，东行，又东北，"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-03",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。一说是越南境内的黑水河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-03",
+      "type": "text",
+      "context": "有荣山，荣水出焉。黑水之南，有玄蛇，食麈。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-05",
+      "type": "text",
+      "context": "四鸟。有渊四方，四隅皆达，北属黑水，南属大荒，北旁名曰少和之渊，"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-06",
+      "type": "text",
+      "context": "大荒之中，有不姜之山，黑水穷焉。又有贾山，汔水出焉。又有"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "annotation",
+      "annotationExplanation": "《山海经》中有多条河流称为黑水，较多的是指西部发源于昆仑山的一条。一说此处指今四川岷江上游支流黑水河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "text",
+      "context": "流沙之东，黑水之西，有朝云之国、司彘之国。黄"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-06",
+      "type": "annotation",
+      "annotationExplanation": "这里指岷江"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-06",
+      "type": "text",
+      "context": "流沙之东，黑水之间，有山名不死之山。"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-08",
+      "type": "text",
+      "context": "西南黑水之间，有都广之野，后稷葬焉。爰"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-09",
+      "type": "text",
+      "context": "南海之外，黑水青水之间，有木名曰若木，若水出"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-16",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-16",
+      "type": "text",
+      "context": "北海之内，有山名曰幽都之山，黑水出焉。其上有玄鸟、玄蛇、玄豹、"
+    },
+    {
+      "bookId": "chuci",
+      "chapterIndex": 3,
+      "entryId": "chuci-03-02",
+      "type": "text",
+      "context": "\n一蛇吞象,\n\n厥大何如？\n\n黑水玄趾,\n\n三危安在？\n\n延年不"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "谓六水？曰：河水、赤水、辽水、黑水、江水、淮水。\n\n阖四海之内，"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

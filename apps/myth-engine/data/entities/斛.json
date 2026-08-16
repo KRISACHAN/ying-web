@@ -1,0 +1,22 @@
+{
+  "id": "斛",
+  "name": "斛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "unit",
+  "typeConfidence": "high",
+  "description": "粮食量器名",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-35",
+      "type": "annotation",
+      "annotationExplanation": "粮食量器名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 6
+  }
+}

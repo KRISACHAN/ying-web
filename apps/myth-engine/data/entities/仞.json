@@ -1,0 +1,64 @@
+{
+  "id": "仞",
+  "name": "仞",
+  "pinyin": "rèn",
+  "aliases": [],
+  "type": "unit",
+  "typeConfidence": "high",
+  "description": "古代以八尺或七尺为一仞",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-03",
+      "type": "annotation",
+      "annotationExplanation": "古代以八尺或七尺为一仞"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-27",
+      "type": "annotation",
+      "annotationExplanation": "古时以八尺或七尺为一仞"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-03",
+      "type": "annotation",
+      "annotationExplanation": "古时以八尺或七尺为一仞"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 8,
+      "entryId": "shanhaijing-08-10",
+      "type": "annotation",
+      "annotationExplanation": "古时以八尺或七尺为一仞"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 11,
+      "entryId": "shanhaijing-11-16",
+      "type": "annotation",
+      "annotationExplanation": "古代以八尺或七尺为一仞"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-13",
+      "type": "annotation",
+      "annotationExplanation": "古代以八尺或七尺为一仞"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 16,
+      "entryId": "shanhaijing-16-21",
+      "type": "annotation",
+      "annotationExplanation": "古时以八尺或七尺为一仞"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "跂踵山",
+  "name": "跂踵山",
+  "pinyin": "qǐ zhǒnɡ",
+  "aliases": [
+    "跂踵之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即跂踵山，山名，具体所指待考。一说在今日本境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-32",
+      "type": "annotation",
+      "annotationExplanation": "即跂踵山，山名，具体所指待考。一说在今日本境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-32",
+      "type": "text",
+      "context": "，曰跂踵之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

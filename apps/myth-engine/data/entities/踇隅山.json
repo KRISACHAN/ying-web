@@ -1,0 +1,31 @@
+{
+  "id": "踇隅山",
+  "name": "踇隅山",
+  "pinyin": "mǔ",
+  "aliases": [
+    "踇隅之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即踇隅山，山名，具体所指待考。一说在今日本境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-33",
+      "type": "annotation",
+      "annotationExplanation": "即踇隅山，山名，具体所指待考。一说在今日本境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-33",
+      "type": "text",
+      "context": "，曰踇隅之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

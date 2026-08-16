@@ -1,0 +1,22 @@
+{
+  "id": "雄常",
+  "name": "雄常",
+  "pinyin": "",
+  "aliases": [],
+  "type": "tree",
+  "typeConfidence": "high",
+  "description": "或作雄棠、洛棠，树名，一说指棠梨",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-18",
+      "type": "annotation",
+      "annotationExplanation": "或作雄棠、洛棠，树名，一说指棠梨"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

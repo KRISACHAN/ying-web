@@ -1,0 +1,31 @@
+{
+  "id": "曹夕山",
+  "name": "曹夕山",
+  "pinyin": "",
+  "aliases": [
+    "曹夕之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即曹夕山，山名，在今山东境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-12",
+      "type": "annotation",
+      "annotationExplanation": "即曹夕山，山名，在今山东境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-12",
+      "type": "text",
+      "context": "，曰曹夕之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

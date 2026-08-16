@@ -1,0 +1,24 @@
+{
+  "id": "颍水",
+  "name": "颍水",
+  "pinyin": "",
+  "aliases": [
+    "颍之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即颍河，淮河的最大支流，在今安徽西北部及河南东部，源出河南登封市嵩山西南",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-15",
+      "type": "annotation",
+      "annotationExplanation": "即颍河，淮河的最大支流，在今安徽西北部及河南东部，源出河南登封市嵩山西南"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

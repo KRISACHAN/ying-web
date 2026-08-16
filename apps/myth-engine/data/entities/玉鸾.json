@@ -1,0 +1,22 @@
+{
+  "id": "玉鸾",
+  "name": "玉鸾",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "玉铃，形如鸾鸟",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-12",
+      "type": "annotation",
+      "annotationExplanation": "玉铃，形如鸾鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

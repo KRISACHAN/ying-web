@@ -1,0 +1,24 @@
+{
+  "id": "五湖",
+  "name": "五湖",
+  "pinyin": "",
+  "aliases": [
+    "五之湖"
+  ],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "于五湖"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 13
+  }
+}

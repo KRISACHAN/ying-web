@@ -1,0 +1,22 @@
+{
+  "id": "畹",
+  "name": "畹",
+  "pinyin": "wǎn",
+  "aliases": [],
+  "type": "unit",
+  "typeConfidence": "high",
+  "description": "古代地积单位，等于三十亩。一说十二亩，又说二十亩",
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 1,
+      "entryId": "chuci-01-03",
+      "type": "annotation",
+      "annotationExplanation": "古代地积单位，等于三十亩。一说十二亩，又说二十亩"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 1
+  }
+}

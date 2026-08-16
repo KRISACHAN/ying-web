@@ -1,0 +1,50 @@
+{
+  "id": "皋陶",
+  "name": "皋陶",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "兵。”固塞险阻，何足以致之！故皋陶瘖而为大理，天下无虐刑，有贵于"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "东家谓之西家，西家谓之东家，虽皋陶为之理，不能定其处。故趋舍同，"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 16,
+      "entryId": "huainanzi-16-01",
+      "type": "text",
+      "context": "决河濬江者，禹也；听狱制中者，皋陶也；有圣名者，尧也。故得道以御"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "是谓大仁，天下所归，百姓所亲；皋陶马喙，是谓至信，决狱明白，察于"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "罢民之力。尧之举禹、契、后稷、皋陶，政教平，奸宄息，狱讼止而衣食"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 10
+  }
+}

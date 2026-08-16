@@ -1,0 +1,31 @@
+{
+  "id": "天帝山",
+  "name": "天帝山",
+  "pinyin": "",
+  "aliases": [
+    "天帝之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即天帝山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-11",
+      "type": "annotation",
+      "annotationExplanation": "即天帝山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-11",
+      "type": "text",
+      "context": "，曰天帝之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "苍体水",
+  "name": "苍体水",
+  "pinyin": "",
+  "aliases": [
+    "苍体之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即苍体水，水名，具体所指待考。一说为今河北洋河的支流；一说可能是流经山东潍坊市区的潍坊西河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-37",
+      "type": "annotation",
+      "annotationExplanation": "即苍体水，水名，具体所指待考。一说为今河北洋河的支流；一说可能是流经山东潍坊市区的潍坊西河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-37",
+      "type": "text",
+      "context": "苍体之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

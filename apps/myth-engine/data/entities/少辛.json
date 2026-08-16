@@ -1,0 +1,22 @@
+{
+  "id": "少辛",
+  "name": "少辛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "即细辛，多年生草本植物，叶通常为两枚，开紫色花",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-62",
+      "type": "annotation",
+      "annotationExplanation": "即细辛，多年生草本植物，叶通常为两枚，开紫色花"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

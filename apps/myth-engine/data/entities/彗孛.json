@@ -1,0 +1,22 @@
+{
+  "id": "彗孛",
+  "name": "彗孛",
+  "pinyin": "",
+  "aliases": [],
+  "type": "star",
+  "typeConfidence": "high",
+  "description": "彗星和孛星。旧谓彗孛出现是灾祸或战争的预兆",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 6,
+      "entryId": "soushenji-06-02",
+      "type": "annotation",
+      "annotationExplanation": "彗星和孛星。旧谓彗孛出现是灾祸或战争的预兆"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 6
+  }
+}

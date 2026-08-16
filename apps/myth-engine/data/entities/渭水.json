@@ -1,0 +1,24 @@
+{
+  "id": "渭水",
+  "name": "渭水",
+  "pinyin": "",
+  "aliases": [
+    "渭之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "水中浊而宜菽，雒水轻利而宜禾，渭水多力而宜黍，汉水重安而宜竹，江"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 5
+  }
+}

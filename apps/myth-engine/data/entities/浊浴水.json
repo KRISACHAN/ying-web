@@ -1,0 +1,31 @@
+{
+  "id": "浊浴水",
+  "name": "浊浴水",
+  "pinyin": "",
+  "aliases": [
+    "浊浴之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即浊浴水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-37",
+      "type": "annotation",
+      "annotationExplanation": "即浊浴水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-37",
+      "type": "text",
+      "context": "浊浴之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

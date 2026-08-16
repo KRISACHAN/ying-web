@@ -1,0 +1,22 @@
+{
+  "id": "木虫",
+  "name": "木虫",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "指树木上生长的蛀虫",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-07",
+      "type": "annotation",
+      "annotationExplanation": "指树木上生长的蛀虫"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

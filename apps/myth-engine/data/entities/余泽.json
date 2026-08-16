@@ -1,0 +1,31 @@
+{
+  "id": "余泽",
+  "name": "余泽",
+  "pinyin": "",
+  "aliases": [
+    "余之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即徐泽，在今江苏邳(pī)州市境内，现已湮",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-15",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即徐泽，在今江苏邳(pī)州市境内，现已湮"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-15",
+      "type": "text",
+      "context": "注于余泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

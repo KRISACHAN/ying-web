@@ -1,0 +1,29 @@
+{
+  "id": "黄鸟",
+  "name": "黄鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "bird",
+  "typeConfidence": "high",
+  "description": "鸟名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-40",
+      "type": "annotation",
+      "annotationExplanation": "鸟名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-40",
+      "type": "text",
+      "context": "有鸟焉，其状如枭而白首，其名曰黄鸟"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "黄泽",
+  "name": "黄泽",
+  "pinyin": "",
+  "aliases": [
+    "黄之泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说在今河南新乡市、辉县附近，现已湮没不存",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-38",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说在今河南新乡市、辉县附近，现已湮没不存"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-38",
+      "type": "text",
+      "context": "注于黄泽"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "娶檀水",
+  "name": "娶檀水",
+  "pinyin": "",
+  "aliases": [
+    "娶檀之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即娶檀水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-09",
+      "type": "annotation",
+      "annotationExplanation": "即娶檀水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-09",
+      "type": "text",
+      "context": "注于娶檀之水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

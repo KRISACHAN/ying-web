@@ -1,0 +1,22 @@
+{
+  "id": "湨",
+  "name": "湨",
+  "pinyin": "jú",
+  "aliases": [],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，具体所指待考。可能是由勺水等注入后形成的湖沼",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-19",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考。可能是由勺水等注入后形成的湖沼"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

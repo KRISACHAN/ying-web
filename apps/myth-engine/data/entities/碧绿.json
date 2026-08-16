@@ -1,0 +1,22 @@
+{
+  "id": "碧绿",
+  "name": "碧绿",
+  "pinyin": "",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "即碧玉，矿物名，含铁的石英石，呈红色、褐色或绿色。也称碧石",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-51",
+      "type": "annotation",
+      "annotationExplanation": "即碧玉，矿物名，含铁的石英石，呈红色、褐色或绿色。也称碧石"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

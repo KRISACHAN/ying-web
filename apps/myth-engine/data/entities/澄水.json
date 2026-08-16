@@ -1,0 +1,24 @@
+{
+  "id": "澄水",
+  "name": "澄水",
+  "pinyin": "",
+  "aliases": [
+    "澄之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 17,
+      "entryId": "huainanzi-17-01",
+      "type": "text",
+      "context": "于澄水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 17
+  }
+}

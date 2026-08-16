@@ -1,0 +1,760 @@
+{
+  "id": "shanhaijing-17",
+  "bookId": "shanhaijing",
+  "bookTitle": "山海经",
+  "chapterIndex": 17,
+  "chapterTitle": "大荒北经第十七",
+  "entryCount": 19,
+  "entries": [
+    {
+      "title": "其一",
+      "originalText": "东北海之外，大荒之中，河水之间，附禺之山，帝颛顼与九嫔葬焉。爰有久、文贝、离俞、鸾鸟、皇鸟、大物、小物。有青鸟、琅鸟、玄鸟、黄鸟、虎、豹、熊、罴、黄蛇、视肉、璇瑰、瑶碧，皆出卫于山。丘方员三百里，丘南帝俊竹林在焉，大可为舟。竹南有赤泽水，名曰封渊。有三桑无枝。丘西有沈渊，颛顼所浴。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "附禺之山",
+          "explanation": "即务隅之山"
+        },
+        {
+          "term": "爰(yuán)",
+          "explanation": "这里，那里"
+        },
+        {
+          "term": "离俞",
+          "explanation": "即“离朱”"
+        },
+        {
+          "term": "皇鸟",
+          "explanation": "即“凰”"
+        },
+        {
+          "term": "大物、小物",
+          "explanation": "这里指殉葬的大小物件"
+        },
+        {
+          "term": "琅(lánɡ)鸟",
+          "explanation": "鸟名，具体所指待考"
+        },
+        {
+          "term": "瑶碧",
+          "explanation": "美玉和青绿色的玉石"
+        },
+        {
+          "term": "卫",
+          "explanation": "应置于下句“丘”前。卫丘是山名，具体所指待考"
+        },
+        {
+          "term": "赤泽水",
+          "explanation": "指水呈红色"
+        }
+      ],
+      "translation": "东北海的外面，最荒远之地中，黄河岸边，有一座附禺山，帝颛顼和他的九位嫔妃葬在这里。这里有鸲鹠、有花纹的贝、离朱、鸾鸟、凰及各种殉葬的大小物件。这座山中还有青鸟、琅鸟、黑鸟、黄鸟、虎、豹、熊、罴、黄蛇、视肉、璇瑰、美玉和青绿色的玉石。这座山旁边有一坐山丘，名叫卫丘，卫丘方圆三百里，丘的南边是帝俊的竹林，这里的竹子十分巨大，单根的竹子都可用来制成小船。竹林的南边有一个池泽，里面的水呈红色，名字叫封渊。这里长着三棵没有树枝的桑树。丘的西边有一个沈渊，是颛顼沐浴的地方。",
+      "index": 1
+    },
+    {
+      "title": "胡不与国",
+      "originalText": "有胡不与之国，烈姓，黍食。",
+      "annotations": [
+        {
+          "term": "胡不与之国",
+          "explanation": "即胡不与国，国名，具体所指待考"
+        }
+      ],
+      "translation": "有一个胡不与国，国中之人姓烈，以黍为食物。",
+      "index": 2
+    },
+    {
+      "title": "肃慎国",
+      "originalText": "大荒之中，有山名曰不咸。有肃慎氏之国。有蜚蛭，四翼。有虫，兽首蛇身，名曰琴虫。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "不咸",
+          "explanation": "山名，一说指位于我国东北的长白山"
+        },
+        {
+          "term": "肃慎氏之国",
+          "explanation": "即肃慎氏国，也叫肃慎国"
+        },
+        {
+          "term": "蜚蛭(fěi zhì)",
+          "explanation": "动物名，具体所指待考"
+        },
+        {
+          "term": "一说指会飞的蚂蟥(蜚",
+          "explanation": "同“飞”；蛭：蚂蟥)；一说即鸱(chī)，也叫鹞鹰"
+        },
+        {
+          "term": "琴虫",
+          "explanation": "传说中的一种动物"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名叫不咸。有一个肃慎氏国。有一种名叫蜚蛭的动物，长着四只翅膀。有一种虫，长着兽一样的脑袋，蛇一样的身子，名字叫琴虫。",
+      "index": 3
+    },
+    {
+      "title": "大人国",
+      "originalText": "有人名曰大人。有大人之国，厘姓，黍食。有大青蛇，黄头，食麈。",
+      "annotations": [
+        {
+          "term": "大人之国",
+          "explanation": "即大人国"
+        },
+        {
+          "term": "大青蛇",
+          "explanation": "一说即蟒蛇"
+        }
+      ],
+      "translation": "有人名叫大人。有一个大人国，国中之人姓厘，以黍为食物。有一种大青蛇，头部黄色，以麈为食物。",
+      "index": 4
+    },
+    {
+      "title": "鲧攻程州山",
+      "originalText": "有榆山。有鲧攻程州之山。",
+      "annotations": [
+        {
+          "term": "榆山",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "程州",
+          "explanation": "一说是国名"
+        }
+      ],
+      "translation": "有一座榆山。还有一座鲧攻程州山。",
+      "index": 5
+    },
+    {
+      "title": "先民山槃木",
+      "originalText": "大荒之中，有山名曰衡天。有先民之山。有槃木千里。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "衡天",
+          "explanation": "山名，具体所指待考"
+        },
+        {
+          "term": "先民之山",
+          "explanation": "即先民山，山名，具体所指待考。一说当在今东北"
+        },
+        {
+          "term": "槃(pán)木",
+          "explanation": "屈曲盘绕的树"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名叫衡天。还有一座先民山。有一种屈曲盘绕的树，占地广达千里。",
+      "index": 6
+    },
+    {
+      "title": "叔歜国",
+      "originalText": "有叔歜国，颛顼之子，黍食，使四鸟：虎、豹、熊、罴。有黑虫如熊状，名曰猎猎。",
+      "annotations": [
+        {
+          "term": "叔歜(chù)国",
+          "explanation": "国名，具体所指待考"
+        },
+        {
+          "term": "鸟",
+          "explanation": "这里指兽"
+        },
+        {
+          "term": "虫",
+          "explanation": "这里指兽"
+        },
+        {
+          "term": "猎猎",
+          "explanation": "动物名，一说指紫貂，体长30~40厘米"
+        }
+      ],
+      "translation": "有一个叔歜国，国中之人是颛顼的后代，他们以黍为食物，会驱使四种野兽：虎、豹、熊和罴。有一种黑色的兽，形状像熊，名字叫猎猎。",
+      "index": 7
+    },
+    {
+      "title": "北齐国",
+      "originalText": "有北齐之国，姜姓，使虎、豹、熊、罴。",
+      "annotations": [
+        {
+          "term": "北齐之国",
+          "explanation": "即北齐国，国名，具体所指待考。一说指西周初年初封时的齐国"
+        }
+      ],
+      "translation": "有一个北齐国，国中之人姓姜，会驱使虎、豹、熊和罴。",
+      "index": 8
+    },
+    {
+      "title": "大泽",
+      "originalText": "有大泽方千里，群鸟所解。",
+      "annotations": [
+        {
+          "term": "解",
+          "explanation": "指鸟脱换羽毛"
+        }
+      ],
+      "translation": "有一个大泽，方圆达千里，是群鸟脱换羽毛的地方。",
+      "index": 9
+    },
+    {
+      "title": "毛民国",
+      "originalText": "有毛民之国，依姓，食黍，使四鸟。禹生均国，均国生役采，役采生修鞈，修鞈杀绰人。帝念之，潜为之国，是此毛民。",
+      "annotations": [
+        {
+          "term": "役采",
+          "explanation": "一作“役来”"
+        },
+        {
+          "term": "绰人",
+          "explanation": "人名"
+        },
+        {
+          "term": "帝",
+          "explanation": "天帝。一说指禹"
+        },
+        {
+          "term": "念",
+          "explanation": "怜念"
+        }
+      ],
+      "translation": "有一个毛民国，国中之人姓依，以黍为食物，会驱使虎、豹、熊、罴四种野兽。禹生了均国，均国生了役采，役采生了修鞈，修鞈杀了绰人。帝怜念绰人，便暗中帮助绰人的后代建立了一个国家，就是这个毛民国。",
+      "index": 10
+    },
+    {
+      "title": "儋耳国",
+      "originalText": "有儋耳之国，任姓，禺号子，食谷。北海之渚中，有神，人面鸟身，珥两青蛇，践两赤蛇，名曰禺强。",
+      "annotations": [
+        {
+          "term": "儋(dān)耳之国",
+          "explanation": "即儋耳国，国名，因国中之人儋耳(儋耳：耳朵下垂)，故名。一说即聂(shè)耳国"
+        },
+        {
+          "term": "禺号",
+          "explanation": "即“禺貌(mào)”"
+        },
+        {
+          "term": "渚(zhǔ)",
+          "explanation": "水中间的小块陆地"
+        },
+        {
+          "term": "珥(ěr)",
+          "explanation": "耳饰，这里作动词"
+        },
+        {
+          "term": "践",
+          "explanation": "踩，踏"
+        }
+      ],
+      "translation": "有一个儋耳国，国中之人姓任，是禺号的后代，以谷物为食。北海的岛中有一位神，长着人一样的脸，鸟一样的身子，以两条青蛇为耳饰，脚下踩着两条赤蛇，名字叫禺强。",
+      "index": 11
+    },
+    {
+      "title": "北极天柜山",
+      "originalText": "大荒之中，有山名曰北极天柜，海水北注焉。有神，九首人面鸟身，名曰九凤。又有神，衔蛇操蛇，其状虎首人身，四蹄长肘，名曰强良。强良",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "北极天柜",
+          "explanation": "山名，具体所指待考。一说可能在今俄罗斯境内"
+        },
+        {
+          "term": "九凤",
+          "explanation": "传说中的一种鸟"
+        },
+        {
+          "term": "强良",
+          "explanation": "传说中的神名"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名叫北极天柜，海水从北面注入这座山。有一位神，长着九个脑袋，人一样的脸，鸟一样的身子，名字叫九凤。另外还有一位神，嘴里衔着蛇，手中握着蛇，长着虎一样的脑袋，人一样的身子，有四只蹄子，肘臂很长，名字叫强良。",
+      "index": 12
+    },
+    {
+      "title": "夸父追日",
+      "originalText": "大荒之中，有山名曰成都载天。有人珥两黄蛇，把两黄蛇，名曰夸父。后土生信，信生夸父。夸父不量力，欲追日景，逮之于禺谷，将饮河而不足也，将走大泽，未至，死于此。应龙乃已杀蚩尤，又杀夸父，乃去南方处之，故南方多雨。",
+      "annotations": [
+        {
+          "term": "大荒",
+          "explanation": "最荒远的地方"
+        },
+        {
+          "term": "成都载天",
+          "explanation": "一作“成都信天”，山名，具体所指待考"
+        },
+        {
+          "term": "珥(ěr)",
+          "explanation": "耳饰，这里作动词"
+        },
+        {
+          "term": "后土",
+          "explanation": "传说是共工的儿子句龙"
+        },
+        {
+          "term": "日景(yǐnɡ)",
+          "explanation": "即“日影”，指太阳"
+        },
+        {
+          "term": "逮",
+          "explanation": "及；达到"
+        },
+        {
+          "term": "禺谷",
+          "explanation": "又叫禺渊，传说中太阳落下后进入的地方"
+        }
+      ],
+      "translation": "最荒远之地有一座山，名叫成都载天。有一个人，以两条黄蛇为耳饰，手中拿着两条黄蛇，名叫夸父。后土生了信，信生了夸父。夸父不自量力，想要追赶太阳，并终于在禺谷追上了太阳，他因口渴，想喝黄河中的水，又怕黄河水不够他喝，便想去喝大泽中的水，还没有赶到大泽，就死在了路上。应龙杀了蚩尤以后，又杀了夸父，就跑到南方去居住，所以南方多雨水。",
+      "index": 13
+    },
+    {
+      "title": "无肠国",
+      "originalText": "又有无肠之国，是任姓，无继子，食鱼。",
+      "annotations": [
+        {
+          "term": "无继子",
+          "explanation": "一说指无继国人的后代，以无继为国名；一说指没有后嗣"
+        }
+      ],
+      "translation": "又有一个无肠国，国中之人姓任，他们是无继国人的后代，以鱼为食物。",
+      "index": 14
+    },
+    {
+      "title": "齐州山",
+      "originalText": "有山名曰齐州之山、君山、鬵山、鲜野山、鱼山。",
+      "annotations": [],
+      "translation": "有几座山，名叫齐州山、君山、鬵山、鲜野山、鱼山。",
+      "index": 15
+    },
+    {
+      "title": "一目人",
+      "originalText": "有人一目，当面中生。一曰是威姓，少昊之子，食黍。",
+      "annotations": [
+        {
+          "term": "有人一目",
+          "explanation": "当指一目国的国民"
+        }
+      ],
+      "translation": "有人只有一只眼睛，而且长在脸的正中。一说他们姓威，是少昊的后代，以黍为食物。",
+      "index": 16
+    },
+    {
+      "title": "继无民",
+      "originalText": "有继无民，继无民任姓，无骨子，食气、鱼。",
+      "annotations": [
+        {
+          "term": "继无民",
+          "explanation": "国名或部族名，一说应作“无继民”，无继即无继国"
+        },
+        {
+          "term": "无骨",
+          "explanation": "国名或部族名。一说无骨意为身上没有骨头"
+        },
+        {
+          "term": "食气",
+          "explanation": "古代的一种养生术，通过调节呼吸来摄取空气中的营养物质"
+        }
+      ],
+      "translation": "有一群继无民，姓任，是无骨的后代，他们以空气和鱼为食物。",
+      "index": 17
+    },
+    {
+      "title": "牛黎国",
+      "originalText": "有牛黎之国。有人无骨，儋耳之子。",
+      "annotations": [
+        {
+          "term": "牛黎之国",
+          "explanation": "即牛黎国，国名，一说即柔利国"
+        }
+      ],
+      "translation": "有一个牛黎国。有一种人，身上没有骨头，是儋耳的后代。",
+      "index": 18
+    },
+    {
+      "title": "章尾山烛龙",
+      "originalText": "烛阴西北海之外，赤水之北，有章尾山。有神，人面蛇身而赤，直目正乘，其瞑乃晦，其视乃明，不食不寝不息，风雨是谒。是烛九阴，是谓烛龙。",
+      "annotations": [
+        {
+          "term": "章尾山",
+          "explanation": "一说指钟山"
+        },
+        {
+          "term": "直目",
+          "explanation": "眼睛竖着长。一说前面当有“身长千里”四字"
+        },
+        {
+          "term": "正乘",
+          "explanation": "所指不详。一说指眼睛的合缝处很直；一说指正骑乘在某种动物身上"
+        },
+        {
+          "term": "瞑",
+          "explanation": "闭眼"
+        },
+        {
+          "term": "晦",
+          "explanation": "夜晚"
+        },
+        {
+          "term": "息",
+          "explanation": "呼吸"
+        },
+        {
+          "term": "风雨是谒",
+          "explanation": "能请来风雨(谒：请)"
+        },
+        {
+          "term": "一说指以风雨为食(谒",
+          "explanation": "即“噎”，指吞噎)"
+        },
+        {
+          "term": "九阴",
+          "explanation": "幽渺之地"
+        },
+        {
+          "term": "烛龙",
+          "explanation": "即烛阴"
+        }
+      ],
+      "translation": "西北海的外面，赤水的北边，有一座章尾山。有一位神，长着人一样的脸，蛇一样的身子，浑身红色，眼睛竖着长，它闭上眼睛，天下就变成了黑夜；睁开眼睛，天下就成了白天。它不吃东西，不睡觉，也不呼吸，能请来风雨。它能照亮幽渺之地，这就是烛龙。",
+      "index": 19
+    }
+  ],
+  "entityRefs": [
+    {
+      "entityName": "务隅山",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "附禺之山"
+    },
+    {
+      "entityName": "皇鸟",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "皇鸟"
+    },
+    {
+      "entityName": "琅鸟",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "琅鸟"
+    },
+    {
+      "entityName": "瑶碧",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "瑶碧"
+    },
+    {
+      "entityName": "卫",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "卫"
+    },
+    {
+      "entityName": "颛顼",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "颛顼"
+    },
+    {
+      "entityName": "帝俊",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "帝俊"
+    },
+    {
+      "entityName": "北海",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "北海"
+    },
+    {
+      "entityName": "鸾鸟",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "鸾鸟"
+    },
+    {
+      "entityName": "青鸟",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "青鸟"
+    },
+    {
+      "entityName": "三桑",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "三桑"
+    },
+    {
+      "entityName": "务隅山",
+      "entryId": "shanhaijing-17-01",
+      "entryTitle": "其一",
+      "term": "附禺山"
+    },
+    {
+      "entityName": "胡不与之国",
+      "entryId": "shanhaijing-17-02",
+      "entryTitle": "胡不与国",
+      "term": "胡不与之国"
+    },
+    {
+      "entityName": "不咸",
+      "entryId": "shanhaijing-17-03",
+      "entryTitle": "肃慎国",
+      "term": "不咸"
+    },
+    {
+      "entityName": "肃慎氏之国",
+      "entryId": "shanhaijing-17-03",
+      "entryTitle": "肃慎国",
+      "term": "肃慎氏之国"
+    },
+    {
+      "entityName": "蜚蛭",
+      "entryId": "shanhaijing-17-03",
+      "entryTitle": "肃慎国",
+      "term": "蜚蛭"
+    },
+    {
+      "entityName": "琴虫",
+      "entryId": "shanhaijing-17-03",
+      "entryTitle": "肃慎国",
+      "term": "琴虫"
+    },
+    {
+      "entityName": "肃慎",
+      "entryId": "shanhaijing-17-03",
+      "entryTitle": "肃慎国",
+      "term": "肃慎"
+    },
+    {
+      "entityName": "大人国",
+      "entryId": "shanhaijing-17-04",
+      "entryTitle": "大人国",
+      "term": "大人之国"
+    },
+    {
+      "entityName": "榆山",
+      "entryId": "shanhaijing-17-05",
+      "entryTitle": "鲧攻程州山",
+      "term": "榆山"
+    },
+    {
+      "entityName": "程州",
+      "entryId": "shanhaijing-17-05",
+      "entryTitle": "鲧攻程州山",
+      "term": "程州"
+    },
+    {
+      "entityName": "鲧攻程州山",
+      "entryId": "shanhaijing-17-05",
+      "entryTitle": "鲧攻程州山",
+      "term": "鲧攻程州山"
+    },
+    {
+      "entityName": "衡天",
+      "entryId": "shanhaijing-17-06",
+      "entryTitle": "先民山槃木",
+      "term": "衡天"
+    },
+    {
+      "entityName": "先民山",
+      "entryId": "shanhaijing-17-06",
+      "entryTitle": "先民山槃木",
+      "term": "先民之山"
+    },
+    {
+      "entityName": "先民山",
+      "entryId": "shanhaijing-17-06",
+      "entryTitle": "先民山槃木",
+      "term": "先民山"
+    },
+    {
+      "entityName": "叔歜国",
+      "entryId": "shanhaijing-17-07",
+      "entryTitle": "叔歜国",
+      "term": "叔歜国"
+    },
+    {
+      "entityName": "猎猎",
+      "entryId": "shanhaijing-17-07",
+      "entryTitle": "叔歜国",
+      "term": "猎猎"
+    },
+    {
+      "entityName": "颛顼",
+      "entryId": "shanhaijing-17-07",
+      "entryTitle": "叔歜国",
+      "term": "颛顼"
+    },
+    {
+      "entityName": "北齐之国",
+      "entryId": "shanhaijing-17-08",
+      "entryTitle": "北齐国",
+      "term": "北齐之国"
+    },
+    {
+      "entityName": "绰人",
+      "entryId": "shanhaijing-17-10",
+      "entryTitle": "毛民国",
+      "term": "绰人"
+    },
+    {
+      "entityName": "帝",
+      "entryId": "shanhaijing-17-10",
+      "entryTitle": "毛民国",
+      "term": "帝"
+    },
+    {
+      "entityName": "儋耳之国",
+      "entryId": "shanhaijing-17-11",
+      "entryTitle": "儋耳国",
+      "term": "儋耳之国"
+    },
+    {
+      "entityName": "禺号",
+      "entryId": "shanhaijing-17-11",
+      "entryTitle": "儋耳国",
+      "term": "禺号"
+    },
+    {
+      "entityName": "渚",
+      "entryId": "shanhaijing-17-11",
+      "entryTitle": "儋耳国",
+      "term": "渚"
+    },
+    {
+      "entityName": "北海",
+      "entryId": "shanhaijing-17-11",
+      "entryTitle": "儋耳国",
+      "term": "北海"
+    },
+    {
+      "entityName": "九凤",
+      "entryId": "shanhaijing-17-12",
+      "entryTitle": "北极天柜山",
+      "term": "九凤"
+    },
+    {
+      "entityName": "强良",
+      "entryId": "shanhaijing-17-12",
+      "entryTitle": "北极天柜山",
+      "term": "强良"
+    },
+    {
+      "entityName": "后土",
+      "entryId": "shanhaijing-17-13",
+      "entryTitle": "夸父追日",
+      "term": "后土"
+    },
+    {
+      "entityName": "禺谷",
+      "entryId": "shanhaijing-17-13",
+      "entryTitle": "夸父追日",
+      "term": "禺谷"
+    },
+    {
+      "entityName": "蚩尤",
+      "entryId": "shanhaijing-17-13",
+      "entryTitle": "夸父追日",
+      "term": "蚩尤"
+    },
+    {
+      "entityName": "夸父",
+      "entryId": "shanhaijing-17-13",
+      "entryTitle": "夸父追日",
+      "term": "夸父"
+    },
+    {
+      "entityName": "后土",
+      "entryId": "shanhaijing-17-13",
+      "entryTitle": "夸父追日",
+      "term": "后土"
+    },
+    {
+      "entityName": "应龙",
+      "entryId": "shanhaijing-17-13",
+      "entryTitle": "夸父追日",
+      "term": "应龙"
+    },
+    {
+      "entityName": "少昊",
+      "entryId": "shanhaijing-17-16",
+      "entryTitle": "一目人",
+      "term": "少昊"
+    },
+    {
+      "entityName": "继无民",
+      "entryId": "shanhaijing-17-17",
+      "entryTitle": "继无民",
+      "term": "继无民"
+    },
+    {
+      "entityName": "无骨",
+      "entryId": "shanhaijing-17-17",
+      "entryTitle": "继无民",
+      "term": "无骨"
+    },
+    {
+      "entityName": "食气",
+      "entryId": "shanhaijing-17-17",
+      "entryTitle": "继无民",
+      "term": "食气"
+    },
+    {
+      "entityName": "牛黎之国",
+      "entryId": "shanhaijing-17-18",
+      "entryTitle": "牛黎国",
+      "term": "牛黎之国"
+    },
+    {
+      "entityName": "风雨是谒",
+      "entryId": "shanhaijing-17-19",
+      "entryTitle": "章尾山烛龙",
+      "term": "风雨是谒"
+    },
+    {
+      "entityName": "烛阴",
+      "entryId": "shanhaijing-17-19",
+      "entryTitle": "章尾山烛龙",
+      "term": "烛龙"
+    },
+    {
+      "entityName": "北海",
+      "entryId": "shanhaijing-17-19",
+      "entryTitle": "章尾山烛龙",
+      "term": "北海"
+    },
+    {
+      "entityName": "赤水",
+      "entryId": "shanhaijing-17-19",
+      "entryTitle": "章尾山烛龙",
+      "term": "赤水"
+    },
+    {
+      "entityName": "烛阴",
+      "entryId": "shanhaijing-17-19",
+      "entryTitle": "章尾山烛龙",
+      "term": "烛龙"
+    },
+    {
+      "entityName": "烛阴",
+      "entryId": "shanhaijing-17-19",
+      "entryTitle": "章尾山烛龙",
+      "term": "烛阴"
+    }
+  ],
+  "source": {
+    "website": "太极书馆 (8bei8.com)",
+    "url": "https://www.8bei8.com/book/shanhaijing_17.html",
+    "scrapedAt": "2026-08-07"
+  }
+}

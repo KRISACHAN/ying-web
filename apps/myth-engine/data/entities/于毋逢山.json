@@ -1,0 +1,33 @@
+{
+  "id": "于毋逢山",
+  "name": "于毋逢山",
+  "pinyin": "",
+  "aliases": [
+    "于毋逢之山",
+    "无逢山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即于毋逢山，山名，具体所指待考。一说在今山西境内；一说在今内蒙古境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-46",
+      "type": "annotation",
+      "annotationExplanation": "即于毋逢山，山名，具体所指待考。一说在今山西境内；一说在今内蒙古境内"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-47",
+      "type": "annotation",
+      "annotationExplanation": "即于毋逢之山",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

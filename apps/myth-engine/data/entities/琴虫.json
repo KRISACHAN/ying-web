@@ -1,0 +1,22 @@
+{
+  "id": "琴虫",
+  "name": "琴虫",
+  "pinyin": "",
+  "aliases": [],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "传说中的一种动物",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-03",
+      "type": "annotation",
+      "annotationExplanation": "传说中的一种动物"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

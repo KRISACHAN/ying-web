@@ -1,0 +1,22 @@
+{
+  "id": "绨",
+  "name": "绨",
+  "pinyin": "tí",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "光滑厚实的丝织品",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 2,
+      "entryId": "soushenji-02-09",
+      "type": "annotation",
+      "annotationExplanation": "光滑厚实的丝织品"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 2
+  }
+}

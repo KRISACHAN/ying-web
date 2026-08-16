@@ -1,0 +1,29 @@
+{
+  "id": "丹雘",
+  "name": "丹雘",
+  "pinyin": "huò",
+  "aliases": [],
+  "type": "mineral",
+  "typeConfidence": "high",
+  "description": "红色的可作颜料的矿物",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-32",
+      "type": "annotation",
+      "annotationExplanation": "红色的可作颜料的矿物"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-32",
+      "type": "text",
+      "context": "多丹雘"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

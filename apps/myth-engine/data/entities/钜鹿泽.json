@@ -1,0 +1,26 @@
+{
+  "id": "钜鹿泽",
+  "name": "钜鹿泽",
+  "pinyin": "jù",
+  "aliases": [
+    "钜鹿之泽",
+    "巨野泽",
+    "大野泽"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "“鹿”应作“野”，又叫巨野泽，即大野泽，在今山东巨野县北",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-23",
+      "type": "annotation",
+      "annotationExplanation": "“鹿”应作“野”，又叫巨野泽，即大野泽，在今山东巨野县北"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

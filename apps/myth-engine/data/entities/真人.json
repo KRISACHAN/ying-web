@@ -1,0 +1,57 @@
+{
+  "id": "真人",
+  "name": "真人",
+  "pinyin": "",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 5,
+      "entryId": "chuci-05-01",
+      "type": "text",
+      "context": "尘兮,\n\n愿承风乎遗则。\n\n贵真人之休德兮,\n\n美往世之登仙。\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 3,
+      "entryId": "huainanzi-03-01",
+      "type": "text",
+      "context": "相忘于江湖，人相忘于道术。古之真人，立于天地之本，中至优游，抱德"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "下。然而不彰其功，不扬其声，隐真人之道，以从天地之固然。何则？道"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 8,
+      "entryId": "huainanzi-08-01",
+      "type": "text",
+      "context": "生无变于己，故曰至神。\n\n所谓真人者，性合于道也。故有而若无，实"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 9,
+      "entryId": "huainanzi-09-01",
+      "type": "text",
+      "context": "莫苑，莫死莫生，莫虚莫盈，是谓真人。\n\n凡乱之所由生者，皆在流遁"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 16,
+      "entryId": "huainanzi-16-01",
+      "type": "text",
+      "context": "物。能反其所生，若未有形，谓之真人。真人者，未始分于太一者也。圣"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 5
+  }
+}

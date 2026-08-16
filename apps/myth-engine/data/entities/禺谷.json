@@ -1,0 +1,25 @@
+{
+  "id": "禺谷",
+  "name": "禺谷",
+  "pinyin": "",
+  "aliases": [
+    "禺之谷",
+    "禺渊"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "又叫禺渊，传说中太阳落下后进入的地方",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 17,
+      "entryId": "shanhaijing-17-13",
+      "type": "annotation",
+      "annotationExplanation": "又叫禺渊，传说中太阳落下后进入的地方"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 17
+  }
+}

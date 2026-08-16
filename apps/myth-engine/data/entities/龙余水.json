@@ -1,0 +1,31 @@
+{
+  "id": "龙余水",
+  "name": "龙余水",
+  "pinyin": "",
+  "aliases": [
+    "龙余之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "即龙余水，水名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-42",
+      "type": "annotation",
+      "annotationExplanation": "即龙余水，水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-42",
+      "type": "text",
+      "context": "龙余之水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

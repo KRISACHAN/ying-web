@@ -1,0 +1,22 @@
+{
+  "id": "怀",
+  "name": "怀",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "古县名，在今河南焦作市境内",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-22",
+      "type": "annotation",
+      "annotationExplanation": "古县名，在今河南焦作市境内"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

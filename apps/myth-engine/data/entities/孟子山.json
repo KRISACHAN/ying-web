@@ -1,0 +1,31 @@
+{
+  "id": "孟子山",
+  "name": "孟子山",
+  "pinyin": "",
+  "aliases": [
+    "孟子之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即孟子(一作“于”)山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-31",
+      "type": "annotation",
+      "annotationExplanation": "即孟子(一作“于”)山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-31",
+      "type": "text",
+      "context": "，曰孟子之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

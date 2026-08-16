@@ -1,0 +1,46 @@
+{
+  "id": "涔水",
+  "name": "涔水",
+  "pinyin": "cén",
+  "aliases": [
+    "涔之水",
+    "石头河"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即今斜水，又名石头河",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-09",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即今斜水，又名石头河"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-09",
+      "type": "text",
+      "context": "涔水出焉"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-19",
+      "type": "annotation",
+      "annotationExplanation": "水名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-19",
+      "type": "text",
+      "context": "注于涔水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "雍氏",
+  "name": "雍氏",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一说即雍梁邑(yì)，在今河南禹州市东北；一说应作“缑氏”",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-15",
+      "type": "annotation",
+      "annotationExplanation": "一说即雍梁邑(yì)，在今河南禹州市东北；一说应作“缑氏”"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "杜衡",
+  "name": "杜衡",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "亦作杜蘅，多年生草本植物，叶宽心形至肾状心形，叶柄长，单花顶生，结蒴(shuò)果",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 2,
+      "entryId": "shanhaijing-02-11",
+      "type": "annotation",
+      "annotationExplanation": "亦作杜蘅，多年生草本植物，叶宽心形至肾状心形，叶柄长，单花顶生，结蒴(shuò)果"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 2
+  }
+}

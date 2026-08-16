@@ -1,0 +1,25 @@
+{
+  "id": "岐山",
+  "name": "岐山",
+  "pinyin": "",
+  "aliases": [
+    "岐之山",
+    "天柱山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "山名，具体所指待考。今陕西岐山县东北有岐山，山状如柱，亦称天柱山，与此处所指不同",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 4,
+      "entryId": "shanhaijing-04-27",
+      "type": "annotation",
+      "annotationExplanation": "山名，具体所指待考。今陕西岐山县东北有岐山，山状如柱，亦称天柱山，与此处所指不同"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 4
+  }
+}

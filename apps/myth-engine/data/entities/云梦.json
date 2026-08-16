@@ -1,0 +1,29 @@
+{
+  "id": "云梦",
+  "name": "云梦",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "\n所谓乐者，岂必处京台章华，游云梦沙丘，耳听《九韶》《六莹》，口"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 5,
+      "entryId": "huainanzi-05-01",
+      "type": "text",
+      "context": "\n何谓九薮？曰：越之具区，楚之云梦，秦之阳纡，晋之大陆，郑之圃田"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 2
+  }
+}

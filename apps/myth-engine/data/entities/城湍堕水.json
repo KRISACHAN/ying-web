@@ -1,0 +1,24 @@
+{
+  "id": "城湍堕水",
+  "name": "城湍堕水",
+  "pinyin": "",
+  "aliases": [
+    "城湍堕之水"
+  ],
+  "type": "river",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 11,
+      "entryId": "soushenji-11-19",
+      "type": "text",
+      "context": "于城湍堕水"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 11
+  }
+}

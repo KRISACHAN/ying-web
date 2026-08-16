@@ -1,0 +1,24 @@
+{
+  "id": "崭岩山",
+  "name": "崭岩山",
+  "pinyin": "",
+  "aliases": [
+    "崭岩之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "于崭岩之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "huainanzi",
+    "chapterIndex": 23
+  }
+}

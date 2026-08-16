@@ -1,0 +1,22 @@
+{
+  "id": "辎车",
+  "name": "辎车",
+  "pinyin": "",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "古代有帷盖的车子。既可载物，又可作卧车",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 1,
+      "entryId": "soushenji-01-25",
+      "type": "annotation",
+      "annotationExplanation": "古代有帷盖的车子。既可载物，又可作卧车"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 1
+  }
+}

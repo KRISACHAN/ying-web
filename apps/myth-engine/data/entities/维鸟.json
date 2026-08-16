@@ -1,0 +1,22 @@
+{
+  "id": "维鸟",
+  "name": "维鸟",
+  "pinyin": "",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "一说指鸟和鸟的统称；一说指地名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 7,
+      "entryId": "shanhaijing-07-06",
+      "type": "annotation",
+      "annotationExplanation": "一说指鸟和鸟的统称；一说指地名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 7
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "师旷",
+  "name": "师旷",
+  "pinyin": "",
+  "aliases": [],
+  "type": "person",
+  "typeConfidence": "medium",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "chuci",
+      "chapterIndex": 13,
+      "entryId": "chuci-13-02",
+      "type": "text",
+      "context": "照兮,\n\n抚招摇以质正。\n\n立师旷俾端词兮,\n\n命咎繇使并听。\n"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 2,
+      "entryId": "huainanzi-02-01",
+      "type": "text",
+      "context": "未于百步之外，不能见渊中之鱼；师旷之聪，合八风之调，而不能听十里"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 7,
+      "entryId": "huainanzi-07-01",
+      "type": "text",
+      "context": "昔者师旷奏白雪之音，而神物为之下降，风"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 10,
+      "entryId": "huainanzi-10-01",
+      "type": "text",
+      "context": "理，天下无虐刑，有贵于言者也；师旷瞽而为太宰，晋无乱政，有贵于见"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 13,
+      "entryId": "huainanzi-13-01",
+      "type": "text",
+      "context": "醎酸而已矣。晋平公出言而不当，师旷举琴而撞之，跌衽宫壁，左右欲涂"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 15,
+      "entryId": "huainanzi-15-01",
+      "type": "text",
+      "context": "世，此皆因时变而制礼乐者。譬犹师旷之施瑟柱也，所推移上下者，无寸"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 22,
+      "entryId": "huainanzi-22-01",
+      "type": "text",
+      "context": "\n\n昔晋平公令官为钟，钟成而示师旷，师旷曰：“钟音不调。”平公曰"
+    },
+    {
+      "bookId": "huainanzi",
+      "chapterIndex": 23,
+      "entryId": "huainanzi-23-01",
+      "type": "text",
+      "context": "智也。六律具存，而莫能听者，无师旷之耳也。故法虽在，必待圣而后治"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "chuci",
+    "chapterIndex": 13
+  }
+}

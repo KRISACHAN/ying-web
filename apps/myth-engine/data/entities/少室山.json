@@ -1,0 +1,26 @@
+{
+  "id": "少室山",
+  "name": "少室山",
+  "pinyin": "",
+  "aliases": [
+    "少室",
+    "少室之山"
+  ],
+  "type": "unknown",
+  "typeConfidence": "low",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 13,
+      "entryId": "shanhaijing-13-15",
+      "type": "annotation",
+      "annotationExplanation": "即少室山",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 13
+  }
+}

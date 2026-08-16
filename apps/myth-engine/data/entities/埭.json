@@ -1,0 +1,22 @@
+{
+  "id": "埭",
+  "name": "埭",
+  "pinyin": "dài",
+  "aliases": [],
+  "type": "object",
+  "typeConfidence": "high",
+  "description": "堵水的土坝",
+  "mentions": [
+    {
+      "bookId": "soushenji",
+      "chapterIndex": 18,
+      "entryId": "soushenji-18-11",
+      "type": "annotation",
+      "annotationExplanation": "堵水的土坝"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "soushenji",
+    "chapterIndex": 18
+  }
+}

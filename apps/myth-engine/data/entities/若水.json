@@ -1,0 +1,31 @@
+{
+  "id": "若水",
+  "name": "若水",
+  "pinyin": "",
+  "aliases": [
+    "若之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，即今四川雅砻(lónɡ)江。雅砻江与金沙江合流后的一段，古时亦称若水",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "annotation",
+      "annotationExplanation": "水名，即今四川雅砻(lónɡ)江。雅砻江与金沙江合流后的一段，古时亦称若水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-09",
+      "type": "text",
+      "context": "若水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

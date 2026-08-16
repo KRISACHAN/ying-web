@@ -1,0 +1,22 @@
+{
+  "id": "淖子",
+  "name": "淖子",
+  "pinyin": "nào",
+  "aliases": [],
+  "type": "deity",
+  "typeConfidence": "high",
+  "description": "即蜀(又作“浊”)山氏之女，是颛顼之母",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 18,
+      "entryId": "shanhaijing-18-05",
+      "type": "annotation",
+      "annotationExplanation": "即蜀(又作“浊”)山氏之女，是颛顼之母"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 18
+  }
+}

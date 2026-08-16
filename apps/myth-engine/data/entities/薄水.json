@@ -1,0 +1,31 @@
+{
+  "id": "薄水",
+  "name": "薄水",
+  "pinyin": "",
+  "aliases": [
+    "薄之水"
+  ],
+  "type": "river",
+  "typeConfidence": "high",
+  "description": "水名，一说即今波河，流入卫水",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-38",
+      "type": "annotation",
+      "annotationExplanation": "水名，一说即今波河，流入卫水"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 3,
+      "entryId": "shanhaijing-03-38",
+      "type": "text",
+      "context": "薄水出焉"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 3
+  }
+}

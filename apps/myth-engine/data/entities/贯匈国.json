@@ -1,0 +1,25 @@
+{
+  "id": "贯匈国",
+  "name": "贯匈国",
+  "pinyin": "",
+  "aliases": [
+    "穿匈"
+  ],
+  "type": "unknown",
+  "typeConfidence": "low",
+  "description": null,
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 6,
+      "entryId": "shanhaijing-06-11",
+      "type": "annotation",
+      "annotationExplanation": "即贯匈国",
+      "crossReference": true
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 6
+  }
+}

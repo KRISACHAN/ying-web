@@ -1,0 +1,24 @@
+{
+  "id": "狸",
+  "name": "狸",
+  "pinyin": "",
+  "aliases": [
+    "山猫"
+  ],
+  "type": "creature",
+  "typeConfidence": "high",
+  "description": "哺乳动物，又叫山猫，毛棕黄色，有黑色斑纹",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 1,
+      "entryId": "shanhaijing-01-06",
+      "type": "annotation",
+      "annotationExplanation": "哺乳动物，又叫山猫，毛棕黄色，有黑色斑纹"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 1
+  }
+}

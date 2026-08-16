@@ -1,0 +1,22 @@
+{
+  "id": "明组邑",
+  "name": "明组邑",
+  "pinyin": "yì",
+  "aliases": [],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "所指待考。一说指海生类植物，如海带、裙带菜之类；一说指地名或聚落名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-18",
+      "type": "annotation",
+      "annotationExplanation": "所指待考。一说指海生类植物，如海带、裙带菜之类；一说指地名或聚落名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

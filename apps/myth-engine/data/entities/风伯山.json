@@ -1,0 +1,31 @@
+{
+  "id": "风伯山",
+  "name": "风伯山",
+  "pinyin": "",
+  "aliases": [
+    "风伯之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即风伯山，山名，在今湖北境内，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-118",
+      "type": "annotation",
+      "annotationExplanation": "即风伯山，山名，在今湖北境内，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-118",
+      "type": "text",
+      "context": "，曰风伯之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

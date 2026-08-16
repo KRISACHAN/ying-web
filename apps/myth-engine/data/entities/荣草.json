@@ -1,0 +1,22 @@
+{
+  "id": "荣草",
+  "name": "荣草",
+  "pinyin": "",
+  "aliases": [],
+  "type": "plant",
+  "typeConfidence": "high",
+  "description": "草名，具体所指待考。一说疑为萎蕤(wěi ruí)，即玉竹，多年生草本植物，地下茎具鞭状肉质块根",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 5,
+      "entryId": "shanhaijing-05-09",
+      "type": "annotation",
+      "annotationExplanation": "草名，具体所指待考。一说疑为萎蕤(wěi ruí)，即玉竹，多年生草本植物，地下茎具鞭状肉质块根"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 5
+  }
+}

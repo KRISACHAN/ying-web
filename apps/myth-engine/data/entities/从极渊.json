@@ -1,0 +1,24 @@
+{
+  "id": "从极渊",
+  "name": "从极渊",
+  "pinyin": "",
+  "aliases": [
+    "从极之渊"
+  ],
+  "type": "place",
+  "typeConfidence": "high",
+  "description": "即从极渊，传说中的深渊名",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 12,
+      "entryId": "shanhaijing-12-13",
+      "type": "annotation",
+      "annotationExplanation": "即从极渊，传说中的深渊名"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 12
+  }
+}

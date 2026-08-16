@@ -1,0 +1,31 @@
+{
+  "id": "泛天山",
+  "name": "泛天山",
+  "pinyin": "",
+  "aliases": [
+    "泛天之山"
+  ],
+  "type": "mountain",
+  "typeConfidence": "high",
+  "description": "即泛天山，山名，具体所指待考",
+  "mentions": [
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-02",
+      "type": "annotation",
+      "annotationExplanation": "即泛天山，山名，具体所指待考"
+    },
+    {
+      "bookId": "shanhaijing",
+      "chapterIndex": 15,
+      "entryId": "shanhaijing-15-02",
+      "type": "text",
+      "context": "，有泛天之山"
+    }
+  ],
+  "firstSeen": {
+    "bookId": "shanhaijing",
+    "chapterIndex": 15
+  }
+}
