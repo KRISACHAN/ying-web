@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "skipLibCheck": true,
+
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "isolatedModules": true,
+        "moduleDetection": "force",
+        "noEmit": true,
+        "jsx": "react-jsx",
+
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+
+        /* User */
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"],
+            /* 根 node_modules 被 hoisted 了 @types/react@19（admin/events 的 radix
+               依赖引入），而本应用使用 @types/react@18。这里把 react 类型统一
+               锁定到本 app 的 18 副本，避免 @react-three/postprocessing 的 .d.ts
+               解析到根 19 而与应用代码（18）产生 “bigint 不属于 ReactNode” 冲突。
+               仅影响本 app 的类型解析，不改动 lockfile，也不影响其他 app。 */
+            "react": ["./node_modules/@types/react"],
+            "react/*": ["./node_modules/@types/react/*"],
+            "react-dom": ["./node_modules/@types/react-dom"],
+            "react-dom/*": ["./node_modules/@types/react-dom/*"]
+        },
+        "typeRoots": ["node_modules/@types"]
+    },
+    "include": ["src"]
+}

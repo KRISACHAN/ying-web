@@ -1,0 +1,38 @@
+{
+    "name": "@ying-web/mid-autumn",
+    "private": true,
+    "version": "1.0.0",
+    "description": "中秋倒计时 · 今夕月圆，a cinematic Mid-Autumn Festival countdown",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "lint": "eslint --fix src"
+    },
+    "keywords": [
+        "Mid-Autumn Festival",
+        "中秋",
+        "倒计时",
+        "React@18",
+        "TypeScript",
+        "@ying-web"
+    ],
+    "author": "Kris <chenjinwen77@gmail.com> https://www.krissarea.com",
+    "license": "MIT",
+    "dependencies": {
+        "@react-three/fiber": "8.17.10",
+        "@react-three/postprocessing": "2.16.3",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "three": "0.169.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.5",
+        "@types/react-dom": "^18.3.0",
+        "@types/three": "0.169.0",
+        "@vitejs/plugin-react": "^4.3.1",
+        "typescript": "~5.5.3",
+        "vite": "^5.4.2"
+    }
+}

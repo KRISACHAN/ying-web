@@ -1,0 +1,881 @@
+:root {
+    --deep: #03060e;
+    --ink: #f2efe8;
+    --ink-soft: rgba(236, 234, 226, 0.78);
+    --ink-dim: rgba(206, 214, 230, 0.56);
+    --gold: #ddc48e;
+    --gold-soft: rgba(221, 196, 142, 0.72);
+    --font-serif: 'Songti SC', 'STSong', 'Noto Serif SC', serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, 'PingFang SC',
+        'Noto Sans SC', sans-serif;
+    --gut: clamp(32px, 6vw, 112px);
+    --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    background: var(--deep);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+}
+
+::selection {
+    background: rgba(221, 196, 142, 0.34);
+}
+
+.scene {
+    position: fixed;
+    inset: 0;
+    isolation: isolate;
+    overflow: hidden;
+    background: var(--deep);
+}
+
+/* 深空底色：右侧中部偏亮，承接地月系统 */
+.sky-base {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(
+            60% 66% at 72% 46%,
+            rgba(20, 36, 68, 0.42),
+            transparent 68%
+        ),
+        linear-gradient(
+            150deg,
+            #03060e 0%,
+            #050a18 46%,
+            #040711 74%,
+            #02040a 100%
+        );
+}
+
+.is-day .sky-base {
+    background: radial-gradient(
+            66% 70% at 70% 42%,
+            rgba(46, 52, 88, 0.5),
+            transparent 70%
+        ),
+        linear-gradient(
+            150deg,
+            #050816 0%,
+            #0a1024 48%,
+            #070b18 100%
+        );
+}
+
+/* ------------------------------------------------------------------ */
+/* 场景交互区域                                                          */
+/* ------------------------------------------------------------------ */
+
+.scene-interactive {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    outline: none;
+    touch-action: none;
+}
+
+.scene-interactive.no-webgl {
+    cursor: default;
+}
+
+.scene-interactive canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    touch-action: none;
+}
+
+.space-fallback {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+            circle at 70% 26%,
+            rgba(255, 246, 224, 0.85) 0 2px,
+            transparent 3px
+        ),
+        radial-gradient(
+            circle at 78% 52%,
+            rgba(216, 226, 255, 0.5) 0 1.5px,
+            transparent 2.5px
+        ),
+        radial-gradient(
+            circle at 60% 66%,
+            rgba(255, 240, 210, 0.45) 0 1px,
+            transparent 2px
+        );
+}
+
+/* 操作提示：淡入、停留后淡出，不长期抢占视觉中心 */
+.scene-hint {
+    position: absolute;
+    left: 50%;
+    bottom: clamp(36px, 7vh, 72px);
+    transform: translateX(-50%);
+    padding: 9px 20px;
+    color: var(--ink-soft);
+    font-family: var(--font-serif);
+    font-size: clamp(12px, 1vw, 14px);
+    letter-spacing: 0.22em;
+    white-space: nowrap;
+    border: 1px solid rgba(221, 196, 142, 0.22);
+    border-radius: 999px;
+    background: rgba(5, 9, 20, 0.42);
+    backdrop-filter: blur(6px);
+    pointer-events: none;
+    opacity: 0;
+    animation: hint-show 9s var(--ease) 1.6s forwards;
+}
+
+/* ------------------------------------------------------------------ */
+/* 顶部品牌                                                              */
+/* ------------------------------------------------------------------ */
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: max(38px, env(safe-area-inset-top)) var(--gut) 24px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.is-in .topbar {
+    animation: fade-down 1.3s var(--ease) 0.5s forwards;
+}
+
+.brand {
+    font-family: var(--font-serif);
+    font-size: clamp(21px, 1.7vw, 29px);
+    font-weight: 600;
+    letter-spacing: 0.34em;
+    text-indent: 0.34em;
+}
+
+.today {
+    font-family: var(--font-serif);
+    font-size: clamp(15px, 1.2vw, 20px);
+    letter-spacing: 0.22em;
+    color: var(--ink-dim);
+}
+
+/* ------------------------------------------------------------------ */
+/* 左侧信息组                                                            */
+/* ------------------------------------------------------------------ */
+
+.info {
+    position: fixed;
+    top: 50%;
+    left: var(--gut);
+    z-index: 6;
+    width: min(38vw, 540px);
+    transform: translate3d(0, -50%, 0);
+    pointer-events: none; /* 容器默认不挡场景，按钮单独开启 */
+    opacity: 0;
+}
+
+.is-in .info {
+    animation: info-in 1.6s var(--ease) 0.9s forwards;
+}
+
+.info h1 {
+    font-family: var(--font-serif);
+    font-size: clamp(36px, 3.4vw, 56px);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.16em;
+    text-indent: 0.04em;
+    text-shadow: 0 8px 40px rgba(0, 0, 0, 0.55);
+}
+
+/* ---------------- 诗句自动轮播 ---------------- */
+
+.poem-carousel {
+    margin-top: 20px;
+}
+
+/* 舞台：固定高度，诗句在其中上下滑入滑出 */
+.poem-stage {
+    position: relative;
+    min-height: 92px;
+    overflow: hidden;
+}
+
+.poem-slide {
+    position: absolute;
+    inset: 0;
+}
+
+.poem-text {
+    margin: 0;
+    color: var(--ink-soft);
+    font-family: var(--font-serif);
+    font-size: clamp(16px, 1.2vw, 20px);
+    line-height: 1.65;
+    letter-spacing: 0.16em;
+    text-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.poem-source {
+    margin: 6px 0 0;
+    color: var(--ink-dim);
+    font-family: var(--font-serif);
+    font-size: clamp(11px, 0.82vw, 13px);
+    font-style: normal;
+    letter-spacing: 0.12em;
+}
+
+/* 进场：从下方滑入并淡入；离场：向上滑出并淡出 */
+.poem-slide.enter.dir-up {
+    animation: slide-in-up 0.62s var(--ease) both;
+}
+
+.poem-slide.leave.dir-up {
+    animation: slide-out-up 0.62s var(--ease) both;
+}
+
+@keyframes slide-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(40%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-out-up {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-40%);
+    }
+}
+
+.info-label {
+    margin-top: clamp(30px, 4.6vh, 52px);
+    margin-bottom: 10px;
+    color: var(--ink-soft);
+    font-family: var(--font-serif);
+    font-size: clamp(13px, 0.95vw, 16px);
+    letter-spacing: 0.3em;
+}
+
+/* ---------------- 倒计时 ---------------- */
+
+.countdown {
+    display: flex;
+    align-items: flex-end;
+    gap: clamp(18px, 2vw, 30px);
+}
+
+.countdown-days {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.days-num {
+    font-family: var(--font-serif);
+    font-size: clamp(64px, 6.4vw, 104px);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    line-height: 0.92;
+    letter-spacing: 0.01em;
+    text-shadow: 0 0 48px rgba(226, 207, 163, 0.16);
+}
+
+.days-unit {
+    color: var(--ink-soft);
+    font-family: var(--font-serif);
+    font-size: clamp(15px, 1.05vw, 18px);
+    letter-spacing: 0.12em;
+}
+
+.countdown-hms {
+    display: flex;
+    align-items: flex-end;
+    gap: clamp(10px, 1.1vw, 18px);
+    padding-bottom: 6px;
+}
+
+.time-part {
+    display: grid;
+    justify-items: center;
+    gap: 6px;
+}
+
+.time-part b {
+    min-width: 1.7em;
+    color: var(--ink);
+    font-family: var(--font-serif);
+    font-size: clamp(22px, 2vw, 32px);
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    text-align: center;
+}
+
+.time-part i {
+    color: var(--ink-dim);
+    font-family: var(--font-serif);
+    font-size: clamp(11px, 0.8vw, 13px);
+    font-style: normal;
+}
+
+.sec {
+    display: inline-block;
+}
+
+.sec.tick {
+    animation: sec-tick 0.45s var(--ease);
+}
+
+.info-date {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 10px;
+    margin-top: 20px;
+    color: var(--ink-dim);
+    font-family: var(--font-serif);
+    font-size: clamp(12px, 0.85vw, 14px);
+    line-height: 1.6;
+    letter-spacing: 0.1em;
+}
+
+.info-date > span {
+    color: var(--gold-soft);
+}
+
+.info-unsupported {
+    margin-top: 28px;
+    color: var(--ink-dim);
+    font-family: var(--font-serif);
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.08em;
+}
+
+/* ---------------- 操作区 ---------------- */
+
+.info-actions {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-top: clamp(26px, 4vh, 44px);
+    pointer-events: auto; /* 按钮恢复事件响应 */
+}
+
+.btn {
+    appearance: none;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: 12px 28px;
+    font-family: var(--font-serif);
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    text-indent: 0.1em;
+    cursor: pointer;
+    transition: background 0.3s var(--ease), border-color 0.3s var(--ease),
+        color 0.3s var(--ease);
+}
+
+.btn-primary {
+    color: #1a1408;
+    background: linear-gradient(135deg, #e7d5a6, #d3b87c);
+    box-shadow: 0 8px 30px rgba(205, 176, 118, 0.22);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, '#efdcb0', '#dcbf85');
+}
+
+.btn-ghost {
+    color: var(--ink-soft);
+    background: transparent;
+    border-color: rgba(221, 196, 142, 0.34);
+}
+
+.btn-ghost:hover {
+    border-color: var(--gold-soft);
+    color: var(--ink);
+}
+
+.btn-danger {
+    border-color: rgba(214, 120, 110, 0.4);
+    color: rgba(232, 160, 150, 0.85);
+}
+
+.btn-primary:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+/* 已保存的思念：在信息组内安静展示 */
+.saved-note {
+    margin-top: 26px;
+    padding: 16px 20px;
+    border-left: 2px solid var(--gold-soft);
+    background: linear-gradient(
+        90deg,
+        rgba(221, 196, 142, 0.08),
+        transparent 80%
+    );
+    pointer-events: none;
+}
+
+.saved-note p {
+    color: var(--ink-soft);
+    font-family: var(--font-serif);
+    font-size: clamp(14px, 1vw, 16px);
+    line-height: 1.8;
+    letter-spacing: 0.08em;
+    /* 用户文本正常换行，不做 HTML 解析 */
+    word-break: break-word;
+}
+
+.saved-note footer {
+    margin-top: 8px;
+    color: var(--ink-dim);
+    font-family: var(--font-serif);
+    font-size: 13px;
+    letter-spacing: 0.1em;
+}
+
+/* ------------------------------------------------------------------ */
+/* 留笺面板                                                              */
+/* ------------------------------------------------------------------ */
+
+.note-scrim {
+    position: fixed;
+    inset: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(2, 4, 10, 0.62);
+    backdrop-filter: blur(8px);
+    animation: scrim-in 0.3s var(--ease);
+}
+
+.note-panel {
+    width: min(92vw, 480px);
+    padding: 28px 30px 24px;
+    border: 1px solid rgba(221, 196, 142, 0.24);
+    border-radius: 18px;
+    background: linear-gradient(165deg, #0a1020, #070b16 70%);
+    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.55);
+    animation: panel-in 0.4s var(--ease);
+}
+
+.note-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.note-head h2 {
+    font-family: var(--font-serif);
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+}
+
+.note-close {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--ink-dim);
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.note-close:hover {
+    color: var(--ink);
+}
+
+.note-field {
+    display: block;
+    margin-top: 20px;
+}
+
+.note-field > span {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--ink-dim);
+    font-family: var(--font-serif);
+    font-size: 13px;
+    letter-spacing: 0.16em;
+}
+
+.note-field input,
+.note-field textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid rgba(221, 196, 142, 0.2);
+    border-radius: 10px;
+    background: rgba(6, 10, 22, 0.7);
+    color: var(--ink);
+    font-family: var(--font-serif);
+    font-size: 15px;
+    line-height: 1.7;
+    resize: none;
+}
+
+.note-field input:focus,
+.note-field textarea:focus {
+    outline: none;
+    border-color: var(--gold-soft);
+}
+
+.note-field em {
+    display: block;
+    margin-top: 6px;
+    text-align: right;
+    color: var(--ink-dim);
+    font-size: 12px;
+    font-style: normal;
+}
+
+.note-field em.is-warn {
+    color: rgba(232, 160, 150, 0.9);
+}
+
+.note-error {
+    margin-top: 14px;
+    color: rgba(238, 178, 168, 0.92);
+    font-family: var(--font-serif);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.note-privacy {
+    margin-top: 14px;
+    color: var(--ink-dim);
+    font-family: var(--font-serif);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+}
+
+.note-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.note-actions-spacer {
+    flex: 1;
+}
+
+.note-actions .btn {
+    padding: 9px 20px;
+    font-size: 14px;
+}
+
+/* ------------------------------------------------------------------ */
+/* 颗粒与动画                                                            */
+/* ------------------------------------------------------------------ */
+
+.grain {
+    position: absolute;
+    inset: 0;
+    z-index: 8;
+    pointer-events: none;
+    opacity: 0.06;
+    background: repeating-linear-gradient(
+        105deg,
+        transparent 0 3px,
+        rgba(255, 255, 255, 0.01) 4px
+    );
+}
+
+@keyframes fade-down {
+    from {
+        opacity: 0;
+        transform: translateY(-12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes info-in {
+    from {
+        opacity: 0;
+        filter: blur(6px);
+        transform: translate3d(0, -46%, 0);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translate3d(0, -50%, 0);
+    }
+}
+
+@keyframes scrim-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes panel-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes sec-tick {
+    from {
+        opacity: 0.4;
+        transform: translateY(0.15em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes hint-show {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 10px);
+    }
+    12%,
+    72% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -6px);
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/* 移动端：重新排版，不是桌面缩小版                                        */
+/* ------------------------------------------------------------------ */
+
+@media (max-width: 760px) {
+    :root {
+        --gut: 24px;
+    }
+
+    /* 顶栏在手机上收敛字号与字距，避免挤压 */
+    .topbar {
+        padding-top: max(24px, env(safe-area-inset-top));
+    }
+
+    .brand {
+        font-size: 19px;
+        letter-spacing: 0.28em;
+        text-indent: 0.28em;
+    }
+
+    .today {
+        font-size: 13px;
+        letter-spacing: 0.16em;
+    }
+
+    /* 信息组移到屏幕底部，完整宽度，不被天体遮挡 */
+    .info {
+        top: auto;
+        right: var(--gut);
+        bottom: calc(28px + env(safe-area-inset-bottom, 0px));
+        width: auto;
+        transform: none;
+    }
+
+    .is-in .info {
+        animation-name: info-in-mobile;
+    }
+
+    .info h1 {
+        font-size: clamp(26px, 7.5vw, 34px);
+        letter-spacing: 0.12em;
+    }
+
+    .poem-carousel {
+        margin-top: 12px;
+    }
+
+    .poem-stage {
+        min-height: 68px;
+    }
+
+    .poem-text {
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: 0.1em;
+    }
+
+    .poem-source {
+        font-size: 10px;
+    }
+
+    .info-label {
+        margin-top: 18px;
+        margin-bottom: 8px;
+        font-size: 12px;
+        letter-spacing: 0.24em;
+    }
+
+    .countdown {
+        gap: 16px;
+        align-items: flex-end;
+    }
+
+    .days-num {
+        font-size: clamp(56px, 17vw, 78px);
+    }
+
+    .days-unit {
+        font-size: 14px;
+    }
+
+    .countdown-hms {
+        gap: clamp(8px, 3vw, 14px);
+        padding-bottom: 5px;
+    }
+
+    .time-part b {
+        font-size: clamp(19px, 5.4vw, 24px);
+    }
+
+    .time-part i {
+        font-size: 11px;
+    }
+
+    .info-date {
+        margin-top: 12px;
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    .info-actions {
+        margin-top: 18px;
+        gap: 18px;
+    }
+
+    .btn {
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+
+    .saved-note {
+        margin-top: 16px;
+        padding: 12px 16px;
+    }
+
+    .scene-hint {
+        bottom: auto;
+        top: calc(96px + env(safe-area-inset-top, 0px));
+        font-size: 12px;
+        padding: 7px 16px;
+    }
+
+    /* 留笺面板：移动端变为底部抽屉，避免被虚拟键盘完全挡住 */
+    .note-scrim {
+        align-items: flex-end;
+    }
+
+    .note-panel {
+        width: 100%;
+        padding: 22px 22px calc(20px + env(safe-area-inset-bottom, 0px));
+        border-radius: 18px 18px 0 0;
+        animation-name: panel-in-mobile;
+    }
+}
+
+@media (max-width: 760px) and (max-height: 640px) {
+    /* 矮屏手机：隐藏诗句出处与已存留笺，保留核心倒计时 */
+    .poem-source,
+    .saved-note {
+        display: none;
+    }
+}
+
+@keyframes info-in-mobile {
+    from {
+        opacity: 0;
+        filter: blur(6px);
+        transform: translate3d(0, 20px, 0);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: none;
+    }
+}
+
+@keyframes panel-in-mobile {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/* 减少动态效果：关自动演示与惯性，保留主动控制                            */
+/* ------------------------------------------------------------------ */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .topbar,
+    .info {
+        opacity: 1;
+    }
+
+    .scene-hint {
+        opacity: 0;
+        animation: none;
+    }
+}

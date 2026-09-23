@@ -1,0 +1,167 @@
+/* 开发调试悬浮球与时间面板（仅 DEV 挂载） */
+
+.debug-fab {
+    position: fixed;
+    z-index: 80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(221, 196, 142, 0.5);
+    border-radius: 50%;
+    background: rgba(10, 15, 28, 0.82);
+    color: var(--gold, #ddc48e);
+    font-size: 20px;
+    line-height: 1;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    touch-action: none;
+    user-select: none;
+}
+
+.debug-fab.is-frozen {
+    border-color: rgba(232, 160, 110, 0.85);
+    color: #e8a06e;
+}
+
+.debug-panel {
+    position: fixed;
+    z-index: 81;
+    width: 288px;
+    max-height: min(78vh, 640px);
+    overflow-y: auto;
+    padding: 16px 16px 14px;
+    border: 1px solid rgba(221, 196, 142, 0.28);
+    border-radius: 14px;
+    background: rgba(8, 12, 24, 0.94);
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+    color: var(--ink, #f2efe8);
+    font-family: var(--font-sans, sans-serif);
+}
+
+.debug-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    font-family: var(--font-serif, serif);
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+.debug-close {
+    border: none;
+    background: transparent;
+    color: var(--ink-dim, #9aa4b8);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.debug-status {
+    margin: 8px 0 12px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    font-size: 11px;
+    line-height: 1.6;
+    word-break: break-all;
+}
+
+.debug-status b {
+    font-weight: 600;
+}
+
+.debug-status .is-frozen {
+    color: #e8a06e;
+}
+
+.debug-section-label {
+    margin: 12px 0 8px;
+    color: var(--ink-dim, #9aa4b8);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+}
+
+.debug-presets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+}
+
+.debug-presets button {
+    padding: 7px 8px;
+    border: 1px solid rgba(221, 196, 142, 0.22);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--ink-soft, #d8dce6);
+    font-size: 11px;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.debug-presets button:hover {
+    border-color: var(--gold-soft, rgba(221, 196, 142, 0.7));
+    color: #fff;
+}
+
+.debug-presets button.active {
+    border-color: var(--gold, #ddc48e);
+    background: rgba(221, 196, 142, 0.14);
+    color: #f3e6c4;
+}
+
+.debug-custom {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.debug-custom input {
+    width: 100%;
+    padding: 7px 9px;
+    border: 1px solid rgba(221, 196, 142, 0.2);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    color: var(--ink, #f2efe8);
+    font-size: 12px;
+    color-scheme: dark;
+}
+
+.debug-custom button {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #e7d5a6, #d3b87c);
+    color: #1a1408;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+}
+
+.debug-live {
+    width: 100%;
+    margin-top: 12px;
+    padding: 9px;
+    border: 1px solid rgba(221, 196, 142, 0.35);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--ink-soft, #d8dce6);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.debug-live:hover {
+    border-color: var(--gold, #ddc48e);
+    color: #fff;
+}
+
+.debug-note {
+    margin-top: 12px;
+    color: var(--ink-dim, #9aa4b8);
+    font-size: 10px;
+    line-height: 1.6;
+}
