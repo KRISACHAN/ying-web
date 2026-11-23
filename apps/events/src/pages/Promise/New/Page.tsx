@@ -31,20 +31,21 @@ const CategoryButtonInterface = ({
 }) => (
     <ListItemButton
         onClick={onClick}
+        className="event-paper"
         sx={{
-            borderRadius: '12px',
+            minHeight: 44,
             mb: 1,
             backgroundColor: selected
                 ? themeColors.primary.main
-                : 'rgba(255, 255, 255, 0.9)',
+                : themeColors.background.paper,
             color: selected
                 ? themeColors.text.inverse
                 : themeColors.primary.main,
-            transition: 'all 0.2s ease-in-out',
             '&:hover': {
-                backgroundColor: themeColors.primary.main,
-                color: themeColors.text.inverse,
-                transform: 'translateX(8px)',
+                backgroundColor: selected
+                    ? themeColors.primary.dark
+                    : themeColors.background.secondary,
+                borderColor: themeColors.border.focus,
             },
         }}
     >
@@ -130,7 +131,7 @@ const ResultInterface = ({
             />
             <TipBar message="点击下方按钮返回分类列表" />
 
-            <TransitionWrapper show={true}>
+            <TransitionWrapper show={true} maxWidth={680}>
                 <Box sx={{ width: '100%', maxWidth: 800 }}>
                     <Typography
                         variant="h5"
@@ -145,24 +146,15 @@ const ResultInterface = ({
                     >
                         {promise?.chapter ?? '暂无经文'}
                     </Typography>
-                    <Typography
-                        variant="body1"
-                        sx={{
-                            color: '#374151',
-                            fontSize: '14px',
-                            textAlign: 'center',
-                        }}
-                    >
-                        {promise?.text}
-                    </Typography>
+                    <p className="event-verse">{promise?.text}</p>
                     {promise?.description && (
                         <Typography
                             variant="body2"
                             sx={{
-                                opacity: 0.75,
-                                textAlign: 'center',
+                                color: 'text.secondary',
                                 mt: 2,
-                                fontSize: '18px',
+                                whiteSpace: 'pre-wrap',
+                                overflowWrap: 'anywhere',
                             }}
                         >
                             {promise.description}
@@ -196,7 +188,6 @@ const ResultInterface = ({
                             variant="contained"
                             fullWidth
                             size="large"
-                            className="opacity-75"
                             sx={{
                                 color: themeColors.text.inverse,
                                 backgroundColor: themeColors.primary.main,
@@ -248,7 +239,6 @@ const PromiseNewPage = () => {
 
         try {
             const data = await getRandomPromise(categoryId || undefined);
-            await new Promise(resolve => setTimeout(resolve, 2000));
             setPromise(data);
             setIsTransitioning(false);
             setShowResult(true);

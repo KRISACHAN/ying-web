@@ -1,46 +1,24 @@
-import { keyframes } from '@emotion/react';
 import { Box } from '@mui/material';
-import React from 'react';
 
-import { themeColors } from '@/theme';
-
-interface ResultCardProps {
-    result?: string;
-}
-
-const floatAnimation = keyframes`
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
-`;
-
-const ResultCard: React.FC<ResultCardProps> = ({ result = '' }) => {
+export default function ResultCard({ result }: { result: string }) {
     return (
         <Box
+            component="p"
             sx={{
-                width: '100%',
-                maxWidth: 600,
-                mx: 'auto',
-                p: 2,
-                borderRadius: 4,
-                background: themeColors.primary.main,
-                boxShadow: '0 4px 12px rgba(248, 113, 113, 0.2)',
-                animation: `${floatAnimation} 2.5s ease-in-out infinite`,
-                textAlign: 'center',
-                color: themeColors.text.inverse,
-                fontSize: '1.5rem',
+                backgroundColor: 'var(--events-paper)',
+                border: '1px solid var(--events-line)',
+                borderRadius: 'var(--events-radius)',
+                fontSize: 'clamp(1.35rem, 5vw, 2.2rem)',
                 fontWeight: 700,
-                textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)',
-                transform: 'scale(1)',
-                transition: 'transform 0.3s ease',
-                '&:hover': {
-                    transform: 'scale(1.02)',
-                },
+                lineHeight: 1.45,
+                mt: 2,
+                p: { xs: 2, sm: 3 },
+                overflowWrap: 'anywhere',
+                textAlign: 'start',
+                whiteSpace: 'pre-wrap',
             }}
         >
             {result}
         </Box>
     );
-};
-
-export default ResultCard;
+}

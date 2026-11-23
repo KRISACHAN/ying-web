@@ -1,45 +1,25 @@
-import React from 'react';
-
-import giftAnimation from '@/animations/gift.json';
-import { Typography } from '@mui/material';
-import Lottie from 'lottie-react';
-
-const Header: React.FC<{
+interface HeaderProps {
     description?: string;
     name?: string;
-    color?: string;
-    backgroundColor?: string;
-}> = ({ description, name, color = '#fff' }) => {
-    return (
-        <div
-            style={{ color: color }}
-            className="text-center h-20 w-full flex flex-col justify-between"
-        >
-            <Typography
-                variant="h5"
-                component="h1"
-                className="inherit flex items-center gap-2 text-center justify-center"
-            >
-                <div className="w-9 h-9 flex items-center justify-center">
-                    <Lottie
-                        animationData={giftAnimation}
-                        loop={true}
-                        autoplay={true}
-                        style={{ width: '36px', height: '36px' }}
-                    />
-                </div>
-                <span className="relative top-1 text-[36px] leading-[36px] text-center">
-                    {name || ''}
-                </span>
-            </Typography>
-            <Typography
-                variant="body1"
-                className="inherit opacity-75 !text-[24px]"
-            >
-                {description || ''}
-            </Typography>
-        </div>
-    );
-};
+    illustration?: 'small' | 'wide';
+}
 
-export default Header;
+export default function Header({
+    description,
+    name,
+    illustration,
+}: HeaderProps) {
+    if (!name && !description) return null;
+
+    return (
+        <header
+            className={`event-header${illustration === 'wide' ? ' event-header--stage' : ''}`}
+        >
+            {illustration && (
+                <div className="event-header__sprig" aria-hidden="true" />
+            )}
+            <h1>{name}</h1>
+            {description && <p>{description}</p>}
+        </header>
+    );
+}

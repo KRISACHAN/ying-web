@@ -2,22 +2,20 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 import { useHeader } from '@/contexts/HeaderContext';
-
-import NewYearBackground from '@/components/NewYearBackground';
+import { themeVariables } from '@/theme';
 
 const BaseLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const { title, description, keywords } = useHeader();
 
     return (
-        <article>
+        <main className="events-shell" style={themeVariables}>
             <Helmet>
                 <title>{title}</title>
                 <meta name="description" content={description} />
                 <meta name="keywords" content={keywords} />
             </Helmet>
-            <NewYearBackground showStars={true} showParticles={true} />
-            <div className="min-h-screen w-full relative">{children}</div>
-        </article>
+            {children}
+        </main>
     );
 };
 

@@ -1,13 +1,16 @@
-import { Box, Snackbar, useTheme } from '@mui/material';
+import { useEffect, useRef, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+
+import { Alert, Box, Button, Snackbar, useTheme } from '@mui/material';
 import type { AxiosError } from 'axios';
 import { Gift } from 'lucide-react';
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
 import { useLocalStorage } from 'usehooks-ts';
 
+import DialogInterface from '@/components/DialogInterface/Index';
 import HeaderInterface from '@/components/Header/Index';
 import InitialState from '@/components/InitialState/Index';
 import LoadingState from '@/components/LoadingState/Index';
+import ResultInterface from '@/components/ResultInterface/Index';
 import TipBar from '@/components/TipBar/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
@@ -15,11 +18,9 @@ import NotFoundPage from '@/pages/404/Page';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
 import { getQuery } from '@/utils/query';
 
-import DialogInterface from '@/components/DialogInterface/Index';
-import ResultInterface from '@/components/ResultInterface/Index';
-import NumberAnimation from '../components/NumberAnimation';
+import DrawLoading from '../components/DrawLoading';
 
-import './Page.less';
+const DRAW_REQUEST_DELAY_MS = 2000;
 
 type GetActivityResponse = Pick<
     QueryLuckyNumberResponse,
@@ -32,8 +33,7 @@ type LuckyNumberResult = {
     timestamp: number;
 };
 
-const LuckyNumberActivityPage: React.FC = () => {
-    const { activityKey } = useParams<{ activityKey: string }>();
+function LuckyNumberActivity({ activityKey }: { activityKey?: string }) {
     const navigate = useNavigate();
     const { queryActivityInfo, drawLuckyNumber, queryParticipations } =
         useLuckyNumber();
@@ -41,7 +41,10 @@ const LuckyNumberActivityPage: React.FC = () => {
         useState<GetActivityResponse | null>(null);
     const [open, setOpen] = useState(false);
     const [name, setName] = useState('');
-    const [loading, setLoading] = useState(false);
+    const [pendingName, setPendingName] = useState<string | null>(null);
+    const [revealNumber, setRevealNumber] = useState(false);
+    const activeDraw = useRef<AbortController | null>(null);
+    const loading = pendingName !== null;
     const headerContext = useHeader();
     const theme = useTheme();
 
@@ -56,16 +59,10 @@ const LuckyNumberActivityPage: React.FC = () => {
         luckyNumberResults.length > 0
             ? luckyNumberResults[luckyNumberResults.length - 1]
             : null;
+    const numberText = latestResult?.number.toString() ?? '';
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
     const [error, setError] = useState<Error | null>(null);
-    const [showResult, setShowResult] = useState(false);
-    const [isTransitioning, setIsTransitioning] = useState(false);
-    const [tempResult, setTempResult] = useState<{
-        number: number;
-        name: string;
-    } | null>(null);
-
     const cleanUserResult = () => {
         const needClean = getQuery('__clean');
         if (!needClean) {
@@ -83,7 +80,6 @@ const LuckyNumberActivityPage: React.FC = () => {
                 description: data.description,
                 keywords: data.activity_key,
             });
-            setShowResult(true);
         } catch (err) {
             setError(err as Error);
         }
@@ -106,18 +102,28 @@ const LuckyNumberActivityPage: React.FC = () => {
                 );
 
                 // 过滤本地数据，只保留服务器上存在的记录
-                const validLocalResults = luckyNumberResults.filter(
+                const removedLocalResults = luckyNumberResults.filter(
                     localResult => {
                         const key = `${localResult.number}_${localResult.name}`;
-                        return serverDataMap.has(key);
+                        return !serverDataMap.has(key);
                     },
                 );
 
-                // 如果过滤后的数据与原数据不同，更新本地存储
-                if (validLocalResults.length !== luckyNumberResults.length) {
-                    setLuckyNumberResults(validLocalResults);
-                    console.log(
-                        `已同步本地数据，移除了 ${luckyNumberResults.length - validLocalResults.length} 条无效记录`,
+                if (removedLocalResults.length > 0) {
+                    const resultKey = ({
+                        name,
+                        number,
+                        timestamp,
+                    }: LuckyNumberResult) =>
+                        JSON.stringify([name, number, timestamp]);
+                    const removedKeys = new Set(
+                        removedLocalResults.map(resultKey),
+                    );
+                    // The response only applies to records present when this sync began.
+                    setLuckyNumberResults(current =>
+                        current.filter(
+                            result => !removedKeys.has(resultKey(result)),
+                        ),
                     );
                 }
             }
@@ -139,6 +145,8 @@ const LuckyNumberActivityPage: React.FC = () => {
         };
 
         initializeData();
+
+        return () => activeDraw.current?.abort();
     }, [activityKey]);
 
     const handleClickOpen = () => {
@@ -155,47 +163,61 @@ const LuckyNumberActivityPage: React.FC = () => {
     };
 
     const handleSubmit = async () => {
-        if (!name.trim()) {
+        if (activeDraw.current || !activityKey) return;
+
+        const username = name.trim();
+        if (!username) {
             setSnackbarMessage('请输入你的名字');
             setSnackbarOpen(true);
             return;
         }
 
-        setLoading(true);
+        const draw = new AbortController();
+        activeDraw.current = draw;
+        setRevealNumber(false);
+        setPendingName(username);
+        setOpen(false);
+
         try {
+            await new Promise<void>(resolve => {
+                const timer = window.setTimeout(resolve, DRAW_REQUEST_DELAY_MS);
+                draw.signal.addEventListener(
+                    'abort',
+                    () => {
+                        window.clearTimeout(timer);
+                        resolve();
+                    },
+                    { once: true },
+                );
+            });
+            if (draw.signal.aborted) return;
+
             const response = await drawLuckyNumber({
-                key: activityKey!,
-                username: name.trim(),
+                key: activityKey,
+                username,
             });
 
             const newResult: LuckyNumberResult = {
                 number: response.drawn_number,
-                name: name.trim(),
+                name: username,
                 timestamp: Date.now(),
             };
 
-            setTempResult({
-                number: response.drawn_number,
-                name: name.trim(),
-            });
-
-            handleClose();
-            setIsTransitioning(true);
-
-            await new Promise(resolve => setTimeout(resolve, 1000));
-
             setLuckyNumberResults(prev => [...prev, newResult]);
-            setIsTransitioning(false);
-            setShowResult(true);
-            setTempResult(null);
+            if (draw.signal.aborted) return;
+            setName('');
+            setRevealNumber(true);
         } catch (error: unknown) {
+            if (draw.signal.aborted) return;
             setSnackbarMessage(
                 (error as AxiosError)?.response?.data?.message ??
                     '抽取失败，请刷新页面后重试',
             );
             setSnackbarOpen(true);
+            setOpen(true);
         } finally {
-            setLoading(false);
+            activeDraw.current = null;
+            if (!draw.signal.aborted) setPendingName(null);
         }
     };
 
@@ -225,12 +247,15 @@ const LuckyNumberActivityPage: React.FC = () => {
         <Box
             className="min-h-screen w-full"
             sx={{
+                display: 'flex',
+                flexDirection: 'column',
                 p: { xs: 2, sm: 4 },
             }}
         >
             <Box
                 sx={{
                     mx: 'auto',
+                    width: '100%',
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
@@ -240,15 +265,16 @@ const LuckyNumberActivityPage: React.FC = () => {
                 <HeaderInterface
                     description={activityInfo?.description}
                     name={activityInfo?.name}
+                    illustration="small"
                 />
 
                 <TipBar message="注意：每人只能抽取一次哦" />
 
-                {isTransitioning ? (
-                    <LoadingState
-                        message={`正在为 ${tempResult?.name} 抽取幸运数字`}
-                    />
-                ) : latestResult === null ? (
+                {error ? (
+                    <Alert severity="error">获取活动数据失败，请稍后再试</Alert>
+                ) : !activityInfo ? (
+                    <LoadingState message="正在获取活动信息…" />
+                ) : !loading && latestResult === null ? (
                     <InitialState
                         title="准备好了吗？"
                         subtitle="点击按钮，开启幸运之旅"
@@ -259,44 +285,58 @@ const LuckyNumberActivityPage: React.FC = () => {
                     />
                 ) : (
                     <ResultInterface
-                        show={showResult}
-                        name={latestResult.name}
-                        subtitle="你的幸运号码是"
+                        show
+                        name={pendingName ?? latestResult?.name}
+                        subtitle={
+                            loading ? '正在抽取幸运号码…' : '你的幸运号码是'
+                        }
                         footer={
-                            <>
-                                愿这个数字背后所蕴含的祝福，
-                                <br />
-                                能成为你未来日子的能力！
-                                <br />
-                                <Box sx={{ mt: 2 }}>
-                                    <Box
-                                        sx={{
-                                            display: 'flex',
-                                            gap: 2,
-                                            justifyContent: 'center',
-                                            flexWrap: 'wrap',
-                                        }}
-                                    >
-                                        <button
-                                            onClick={handleClickOpen}
-                                            className="bg-background-paper text-primary border-2 border-primary rounded-[25px] px-6 py-3 text-base font-bold cursor-pointer transition-all duration-300 shadow-primary-sm hover:bg-primary hover:text-text-inverse disabled:opacity-50 disabled:cursor-not-allowed"
-                                            disabled={loading}
-                                        >
-                                            帮他人抽取
-                                        </button>
-                                        <button
-                                            onClick={handleViewHistory}
-                                            className="bg-background-paper text-primary border-2 border-primary rounded-[25px] px-6 py-3 text-base font-bold cursor-pointer transition-all duration-300 shadow-primary-sm hover:bg-primary hover:text-text-inverse disabled:opacity-50 disabled:cursor-not-allowed"
-                                            disabled={loading}
-                                        >
-                                            查看历史
-                                        </button>
-                                    </Box>
-                                </Box>
-                            </>
+                            <Box
+                                sx={{
+                                    display: 'flex',
+                                    justifyContent: 'center',
+                                    flexWrap: 'wrap',
+                                    gap: 1.5,
+                                    mt: 2,
+                                }}
+                            >
+                                <Button
+                                    variant="outlined"
+                                    onClick={handleClickOpen}
+                                    disabled={loading}
+                                >
+                                    帮他人抽取
+                                </Button>
+                                <Button
+                                    variant="text"
+                                    onClick={handleViewHistory}
+                                    disabled={loading}
+                                >
+                                    查看历史
+                                </Button>
+                            </Box>
                         }
                         resultComponent={
-                            <NumberAnimation number={latestResult.number} />
+                            <div className="event-gift-tag">
+                                <DrawLoading active={loading} />
+                                {!loading && (
+                                    <strong
+                                        className={
+                                            revealNumber
+                                                ? 'event-gift-tag__number event-gift-tag__number--reveal'
+                                                : 'event-gift-tag__number'
+                                        }
+                                        style={{
+                                            fontSize:
+                                                numberText.length > 4
+                                                    ? 'clamp(1.25rem, 6vw, 2.5rem)'
+                                                    : undefined,
+                                        }}
+                                    >
+                                        {numberText}
+                                    </strong>
+                                )}
+                            </div>
                         }
                     />
                 )}
@@ -306,7 +346,6 @@ const LuckyNumberActivityPage: React.FC = () => {
                     handleClose={handleClose}
                     handleSubmit={handleSubmit}
                     loading={loading}
-                    theme={theme}
                     name={name}
                     setName={setName}
                 />
@@ -325,8 +364,34 @@ const LuckyNumberActivityPage: React.FC = () => {
                     }}
                 />
             </Box>
+            <Box
+                component="footer"
+                aria-hidden="true"
+                sx={{
+                    mt: 'auto',
+                    pt: 'clamp(28px, 8vh, 68px)',
+                    pb: { xs: 1, sm: 2 },
+                }}
+            >
+                <Box
+                    component="img"
+                    src="/christmas/sprig.webp"
+                    alt=""
+                    width={110}
+                    height={32}
+                    sx={{
+                        display: 'block',
+                        mx: 'auto',
+                        opacity: 0.62,
+                        transform: 'rotate(180deg)',
+                    }}
+                />
+            </Box>
         </Box>
     );
-};
+}
 
-export default LuckyNumberActivityPage;
+export default function LuckyNumberActivityPage() {
+    const { activityKey } = useParams<{ activityKey: string }>();
+    return <LuckyNumberActivity key={activityKey} activityKey={activityKey} />;
+}
