@@ -16,13 +16,14 @@ export class NumberPoolDao {
         }
     }
 
-    static async search(activityId) {
+    static async search(activityId, transaction) {
         try {
             const res = await NumberPoolModel.scope('df').findOne({
                 order: sequelize.random(),
                 where: {
                     activity_id: activityId,
                 },
+                transaction,
             });
             return res;
         } catch (error) {

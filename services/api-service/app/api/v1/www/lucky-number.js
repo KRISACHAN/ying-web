@@ -24,13 +24,12 @@ router.post(
             throw BAD_REQUEST('活动 key 和用户信息是必需的');
         }
 
-        const transaction = await sequelize.transaction();
-
-        try {
-            const activity = await ActivityDao.search({ key });
-            if (!activity) {
-                throw BAD_REQUEST('活动不存在');
-            }
+        const drawnNumber = await sequelize.transaction(async transaction => {
+            // Lock the activity before reading participation records so concurrent draws see prior commits.
+            const activity = await ActivityDao.search(
+                { key },
+                { transaction, lock: transaction.LOCK.UPDATE },
+            );
 
             if (!eq(activity.status, LUCKY_NUMBER_STATUS.ONGOING)) {
                 throw BAD_REQUEST(
@@ -40,23 +39,29 @@ router.post(
                 );
             }
 
-            const existingParticipation = await UserParticipationDao.search({
-                activity_id: activity.id,
-                username,
-            });
+            const existingParticipation = await UserParticipationDao.search(
+                { activity_id: activity.id, username },
+                transaction,
+            );
 
             if (existingParticipation) {
                 throw BAD_REQUEST('用户已参与过此活动，请勿重复抽取');
             }
 
             if (activity.participant_limit > 0) {
-                const count = await UserParticipationDao.getCount(activity.id);
+                const count = await UserParticipationDao.getCount(
+                    activity.id,
+                    transaction,
+                );
                 if (count >= activity.participant_limit) {
                     throw BAD_REQUEST('活动参与人数已达上限');
                 }
             }
 
-            const numberEntry = await NumberPoolDao.search(activity.id);
+            const numberEntry = await NumberPoolDao.search(
+                activity.id,
+                transaction,
+            );
             if (!numberEntry) {
                 throw BAD_REQUEST('号码池已空');
             }
@@ -64,23 +69,20 @@ router.post(
             await UserParticipationDao.create(
                 {
                     activity_id: activity.id,
-                    username: username,
+                    username,
                     drawn_number: numberEntry.drawn_number,
                 },
                 transaction,
             );
 
-            await transaction.commit();
+            return numberEntry.drawn_number;
+        });
 
-            ctx.response.status = httpStatus.OK;
-            ctx.body = {
-                drawn_number: numberEntry.drawn_number,
-                message: '抽取成功',
-            };
-        } catch (error) {
-            await transaction.rollback();
-            throw error;
-        }
+        ctx.response.status = httpStatus.OK;
+        ctx.body = {
+            drawn_number: drawnNumber,
+            message: '抽取成功',
+        };
     },
 );
 
