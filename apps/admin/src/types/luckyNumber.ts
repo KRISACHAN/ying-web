@@ -16,6 +16,8 @@ export interface CreateLuckyNumberResponse {
 
 // GET /v1/admin/lucky-number/query/:key
 export interface LuckyNumber {
+    id: number;
+    has_number_data?: boolean;
     drawn_number: number;
     username: string | null;
     created_at: string | null;
@@ -84,4 +86,47 @@ export interface ActivityInfo {
     participant_limit: number;
     status: LuckyNumberStatus;
     count: number;
+}
+
+export interface NumberDataColumn {
+    id: string;
+    label: string;
+}
+
+export interface ParticipationNumberData {
+    drawn_number: number;
+    username: string | null;
+    columns: NumberDataColumn[];
+    values: Record<string, string>;
+    version: number;
+}
+
+export interface NumberDataIssue {
+    sheet?: string;
+    row?: number;
+    column?: string;
+    reason: string;
+}
+
+export type NumberDataImportMode = 'add' | 'update';
+
+export interface NumberDataImportOptions {
+    sheet?: string;
+    number_column?: string;
+    mode: NumberDataImportMode;
+}
+
+export interface NumberDataPreview {
+    sheets: string[];
+    sheet?: string;
+    headers?: string[];
+    number_column?: string;
+    columns?: NumberDataColumn[];
+    counts?: { added: number; existing: number; unchanged: number };
+    samples?: Array<{
+        row: number;
+        drawn_number: number;
+        values: Record<string, string>;
+        status: 'added' | 'existing' | 'unchanged';
+    }>;
 }

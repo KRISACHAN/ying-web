@@ -52,15 +52,28 @@ app.use(dbQueryCounterMiddleware);
 app.use(performanceMiddleware);
 app.use(securityHeadersMiddleware);
 app.use(auditLogMiddleware);
-app.use(
-    bodyParser({
-        strict: false,
-        multipart: true,
-        formLimit: '10mb',
-        jsonLimit: '10mb',
-        textLimit: '10mb',
-    }),
-);
+const parseBody = bodyParser({
+    strict: false,
+    multipart: true,
+    formLimit: '10mb',
+    jsonLimit: '10mb',
+    textLimit: '10mb',
+});
+app.use((ctx, next) => {
+    const numberDataImport =
+        ctx.method === 'POST' &&
+        /^\/v1\/admin\/lucky-number\/[^/]+\/number-data\/import\/(preview|commit)\/?$/i.test(
+            ctx.path,
+        );
+    const numberDataEdit =
+        ctx.method === 'PUT' &&
+        /^\/v1\/admin\/lucky-number\/[^/]+\/participations\/[^/]+\/number-data\/?$/i.test(
+            ctx.path,
+        );
+    if (numberDataImport || numberDataEdit) return next();
+    return parseBody(ctx, next);
+});
+
 initRatelimit(app);
 initLogger(app);
 initLoadRouters(app);

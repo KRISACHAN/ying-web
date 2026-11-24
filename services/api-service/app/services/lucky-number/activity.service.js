@@ -1,8 +1,10 @@
 import { ActivityDao } from '@dao/lucky-number/activity';
+import { NumberDataDao } from '@dao/lucky-number/number-data';
 import { NumberPoolDao } from '@dao/lucky-number/number-pool';
 import { UserParticipationDao } from '@dao/lucky-number/user-participation';
 import { LUCKY_NUMBER_STATUS } from '@utils/constants';
 import { BAD_REQUEST } from '@utils/http-errors';
+
 import { BaseService } from '../base.service';
 
 /**
@@ -150,15 +152,21 @@ export class LuckyNumberActivityService extends BaseService {
         return await this.executeInTransaction(async transaction => {
             this.validateRequiredParams({ key, username }, ['key', 'username']);
 
-            const activity = await ActivityDao.search({ key });
-            if (!activity) {
-                throw BAD_REQUEST('活动不存在');
-            }
+            const activity = await ActivityDao.search(
+                { key },
+                {
+                    transaction,
+                    lock: transaction.LOCK.UPDATE,
+                },
+            );
 
-            const participation = await UserParticipationDao.search({
-                activity_id: activity.id,
-                username,
-            });
+            const participation = await UserParticipationDao.search(
+                {
+                    activity_id: activity.id,
+                    username,
+                },
+                transaction,
+            );
 
             if (!participation) {
                 throw BAD_REQUEST('未找到参与记录');
@@ -180,7 +188,10 @@ export class LuckyNumberActivityService extends BaseService {
      * @param {Object} params - Query parameters
      * @returns {Object} Participation records list
      */
-    async getActivityParticipations(key, { page_num = 1, page_size = 10 }) {
+    async getActivityParticipations(
+        key,
+        { page_num = 1, page_size = 10, includeNumberDataStatus = false },
+    ) {
         return await this.safeExecute(async () => {
             this.validateRequiredParams({ key }, ['key']);
 
@@ -189,11 +200,30 @@ export class LuckyNumberActivityService extends BaseService {
                 throw BAD_REQUEST('活动不存在');
             }
 
-            return await UserParticipationDao.query({
+            const result = await UserParticipationDao.query({
                 page_num: parseInt(page_num, 10),
                 page_size: parseInt(page_size, 10),
                 activity_id: activity.id,
             });
+            if (!includeNumberDataStatus) return result;
+
+            const numbers = [
+                ...new Set(result.data.map(record => record.drawn_number)),
+            ];
+            const rows = await NumberDataDao.getRows(
+                activity.id,
+                numbers,
+                undefined,
+                ['drawn_number'],
+            );
+            const matches = new Set(rows.map(row => row.drawn_number));
+            return {
+                pagination: result.pagination,
+                data: result.data.map(record => ({
+                    ...record.toJSON(),
+                    has_number_data: matches.has(record.drawn_number),
+                })),
+            };
         }, 'Get activity participations failed');
     }
 

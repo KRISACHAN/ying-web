@@ -21,3 +21,4 @@ UserParticipationModel.belongsTo(ActivityModel, {
 });
 
 export { ActivityModel, NumberPoolModel, UserParticipationModel };
+export { NumberDataSchemaModel, NumberDataRowModel } from './number-data';
