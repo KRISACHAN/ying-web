@@ -1,13 +1,16 @@
-import { Gift } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useLocalStorage } from 'usehooks-ts';
 
 import { Alert, Box, Container, Snackbar, useTheme } from '@mui/material';
+import { AxiosError } from 'axios';
+import { Gift } from 'lucide-react';
+import { useLocalStorage } from 'usehooks-ts';
 
+import DialogInterface from '@/components/DialogInterface/Index';
 import HeaderInterface from '@/components/Header/Index';
 import InitialState from '@/components/InitialState/Index';
 import LoadingState from '@/components/LoadingState/Index';
+import ResultInterface from '@/components/ResultInterface/Index';
 import TipBar from '@/components/TipBar/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useOptionDraw } from '@/hooks/useOptionDraw';
@@ -15,11 +18,7 @@ import NotFoundPage from '@/pages/404/Page';
 import type { ActivityInfo, DrawOptionResponse } from '@/types/optionDraw';
 import { getQuery } from '@/utils/query';
 
-import DialogInterface from '@/components/DialogInterface/Index';
-import ResultInterface from '@/components/ResultInterface/Index';
-import { AxiosError } from 'axios';
 import ResultCard from '../components/ResultCard';
-import './Page.less';
 
 const ErrorInterface: React.FC<{ message?: string }> = ({
     message = '活动不存在或已结束',
@@ -36,11 +35,7 @@ const OptionDrawActivity: React.FC = () => {
     const [name, setName] = useState('');
     const [loading, setLoading] = useState(false);
     const [open, setOpen] = useState(false);
-    const [isTransitioning, setIsTransitioning] = useState(false);
-    const [tempResult, setTempResult] = useState<{
-        option: string;
-        name: string;
-    } | null>(null);
+    const [reveal, setReveal] = useState(0);
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
     const [showResult, setShowResult] = useState(false);
@@ -113,21 +108,11 @@ const OptionDrawActivity: React.FC = () => {
                 username: name.trim(),
             });
 
-            setTempResult({
-                option: response.drawn_option,
-                name: name.trim(),
-            });
-
             handleClose();
-            setIsTransitioning(true);
-
-            await new Promise(resolve => setTimeout(resolve, 1000));
-
             setResult(response);
             setStoredName(name.trim());
-            setIsTransitioning(false);
             setShowResult(true);
-            setTempResult(null);
+            setReveal(value => value + 1);
         } catch (error: unknown) {
             setSnackbarMessage(
                 (error as AxiosError)?.response?.data?.message ??
@@ -160,7 +145,6 @@ const OptionDrawActivity: React.FC = () => {
         >
             <Container style={{ padding: 0 }}>
                 <Box
-                    className="option-draw-activity"
                     sx={{
                         display: 'flex',
                         flexDirection: 'column',
@@ -172,6 +156,7 @@ const OptionDrawActivity: React.FC = () => {
                     <HeaderInterface
                         description={activityInfo?.description}
                         name={activityInfo?.name}
+                        illustration="small"
                     />
 
                     <TipBar message="注意：每人只能抽取一次哦" />
@@ -182,10 +167,8 @@ const OptionDrawActivity: React.FC = () => {
                         </Alert>
                     ) : (
                         <>
-                            {isTransitioning ? (
-                                <LoadingState
-                                    message={`正在为 ${tempResult?.name} 抽取选项`}
-                                />
+                            {!activityInfo ? (
+                                <LoadingState message="正在获取活动信息…" />
                             ) : !result ? (
                                 <InitialState
                                     title="准备好了吗？"
@@ -197,6 +180,8 @@ const OptionDrawActivity: React.FC = () => {
                                 />
                             ) : (
                                 <ResultInterface
+                                    key={reveal}
+                                    reveal={reveal > 0}
                                     show={showResult}
                                     name={storedName}
                                     subtitle="你抽到的选项是"
@@ -205,11 +190,11 @@ const OptionDrawActivity: React.FC = () => {
                                             result={result.drawn_option}
                                         />
                                     }
-                                    showResetButton={true}
                                     onReset={() => {
                                         setResult(null);
                                         setStoredName(null);
                                         setShowResult(false);
+                                        setReveal(0);
                                     }}
                                 />
                             )}
@@ -222,7 +207,6 @@ const OptionDrawActivity: React.FC = () => {
                     handleClose={handleClose}
                     handleSubmit={handleSubmit}
                     loading={loading}
-                    theme={theme}
                     name={name}
                     setName={setName}
                 />

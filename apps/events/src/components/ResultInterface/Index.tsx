@@ -1,125 +1,52 @@
-import celebrationAnimation from '@/animations/confetti.json';
-import { Box, Button, Typography } from '@mui/material';
-import Lottie from 'lottie-react';
-import { Heart } from 'lucide-react';
-import React from 'react';
+import type { ReactNode } from 'react';
 
-import { themeColors } from '@/theme';
-import TransitionWrapper from '../TransitionWrapper/Index';
+import { Box, Button, Typography } from '@mui/material';
+
+import TransitionWrapper from '@/components/TransitionWrapper/Index';
 
 interface ResultInterfaceProps {
     show: boolean;
-    name: string | null;
-    title?: string;
+    name?: string | null;
     subtitle?: string;
-    footer?: React.ReactNode;
-    color?: string;
-    icon?: React.ReactNode;
-    resultComponent: React.ReactNode;
-    showConfetti?: boolean;
-    showResetButton?: boolean;
+    footer?: ReactNode;
+    resultComponent: ReactNode;
+    reveal?: boolean;
     onReset?: () => void;
 }
 
-const ResultInterface: React.FC<ResultInterfaceProps> = ({
+export default function ResultInterface({
     show,
     name,
-    title = '恭喜',
     subtitle,
     footer,
-    color = themeColors.primary.main,
-    icon = <Heart />,
     resultComponent,
-    showConfetti = true,
-    showResetButton = false,
+    reveal,
     onReset,
-}) => {
+}: ResultInterfaceProps) {
     return (
-        <>
-            {showConfetti && (
-                <div
-                    className="fixed inset-0 pointer-events-none"
-                    style={{ zIndex: 100 }}
-                >
-                    <Lottie
-                        animationData={celebrationAnimation}
-                        loop={false}
-                        autoplay={true}
-                        style={{ width: '100%', height: '100%' }}
-                    />
-                </div>
-            )}
-            <TransitionWrapper show={show}>
-                <Typography
-                    variant="h4"
-                    component="h2"
-                    sx={{
-                        mb: 1,
-                        color,
-                        fontWeight: 'bold',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: 1,
-                    }}
-                >
-                    {icon}
-                    {title} {name}
-                </Typography>
+        <TransitionWrapper show={show} reveal={reveal}>
+            <Box role="status" sx={{ textAlign: 'center' }}>
+                {name && (
+                    <Typography variant="h2" sx={{ fontSize: '1.5rem', mb: 1 }}>
+                        {name}
+                    </Typography>
+                )}
                 {subtitle && (
-                    <Typography
-                        variant="h6"
-                        sx={{
-                            mb: 1,
-                            color,
-                            textAlign: 'center',
-                        }}
-                    >
-                        {subtitle}
-                    </Typography>
+                    <Typography color="text.secondary">{subtitle}</Typography>
                 )}
-                <Box sx={{ position: 'relative', mb: 2 }}>
-                    {resultComponent}
-                    {showResetButton && (
-                        <Button
-                            variant="contained"
-                            onClick={onReset}
-                            fullWidth
-                            sx={{
-                                mt: 2,
-                                py: 1.5,
-                                borderRadius: 3,
-                                fontSize: '1rem',
-                                textTransform: 'none',
-                                backgroundColor: color,
-                                color: themeColors.text.inverse,
-                                '&:hover': {
-                                    transform: 'translateY(-2px)',
-                                    transition: 'transform 0.2s ease-in-out',
-                                    backgroundColor: color,
-                                    color: themeColors.text.inverse,
-                                },
-                            }}
-                        >
-                            重新抽选
-                        </Button>
-                    )}
-                </Box>
-                {footer && (
-                    <Typography
-                        variant="body1"
-                        sx={{
-                            fontStyle: 'italic',
-                            color,
-                            textAlign: 'center',
-                        }}
-                    >
-                        {footer}
-                    </Typography>
-                )}
-            </TransitionWrapper>
-        </>
+                {resultComponent}
+            </Box>
+            {footer}
+            {onReset && (
+                <Button
+                    fullWidth
+                    variant="outlined"
+                    onClick={onReset}
+                    sx={{ mt: 2 }}
+                >
+                    重新抽选
+                </Button>
+            )}
+        </TransitionWrapper>
     );
-};
-
-export default ResultInterface;
+}

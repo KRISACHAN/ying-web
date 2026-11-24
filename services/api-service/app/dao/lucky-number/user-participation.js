@@ -12,6 +12,7 @@ export class UserParticipationDao {
                     activity_id,
                     username,
                 },
+                transaction,
             });
 
             if (existingParticipation) {
@@ -38,7 +39,10 @@ export class UserParticipationDao {
         }
     }
 
-    static async search({ activity_id, id, drawn_number, username }) {
+    static async search(
+        { activity_id, id, drawn_number, username },
+        transaction,
+    ) {
         try {
             const where = {};
             if (activity_id) {
@@ -56,6 +60,7 @@ export class UserParticipationDao {
 
             const res = await UserParticipationModel.scope('df').findOne({
                 where,
+                transaction,
             });
             return res;
         } catch (error) {
@@ -77,12 +82,13 @@ export class UserParticipationDao {
         }
     }
 
-    static async getCount(activityId) {
+    static async getCount(activityId, transaction) {
         try {
             const count = await UserParticipationModel.count({
                 where: {
                     activity_id: activityId,
                 },
+                transaction,
             });
             return count;
         } catch (error) {

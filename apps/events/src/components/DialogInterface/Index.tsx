@@ -5,140 +5,67 @@ import {
     DialogContent,
     DialogTitle,
     TextField,
-    type Theme,
+    useMediaQuery,
 } from '@mui/material';
-import { Loader2 } from 'lucide-react';
-import React from 'react';
-
-import { themeColors } from '@/theme';
 
 interface DialogInterfaceProps {
     open: boolean;
     handleClose: () => void;
     handleSubmit: () => Promise<void>;
     loading: boolean;
-    theme: Theme;
     name: string;
     setName: (name: string) => void;
-    color?: string;
 }
 
-const DialogInterface: React.FC<DialogInterfaceProps> = ({
+export default function DialogInterface({
     open,
     handleClose,
     handleSubmit,
     loading,
-    theme,
     name,
     setName,
-    color = themeColors.primary.main,
-}) => {
+}: DialogInterfaceProps) {
+    const reduceMotion = useMediaQuery('(prefers-reduced-motion: reduce)');
+
     return (
         <Dialog
             open={open}
             onClose={handleClose}
-            PaperProps={{
-                sx: {
-                    borderRadius: 3,
-                    width: '100%',
-                    maxWidth: 400,
-                },
-            }}
+            fullWidth
+            maxWidth="xs"
+            transitionDuration={reduceMotion ? 0 : undefined}
+            aria-labelledby="draw-name-title"
         >
-            <DialogTitle
-                sx={{
-                    pb: 1,
-                    textAlign: 'center',
-                    borderBottom: `1px solid ${theme.palette.divider}`,
-                    color,
+            <form
+                onSubmit={event => {
+                    event.preventDefault();
+                    if (!loading) void handleSubmit();
                 }}
             >
-                请输入你的名字
-            </DialogTitle>
-            <DialogContent sx={{ mt: 2 }}>
-                <TextField
-                    autoFocus
-                    margin="dense"
-                    label="请输入您的名字"
-                    type="text"
-                    fullWidth
-                    value={name}
-                    onChange={e => setName(e.target.value)}
-                    variant="outlined"
-                    sx={{
-                        mt: 1,
-                        '& .MuiOutlinedInput-root': {
-                            '& fieldset': {
-                                borderColor: color,
-                            },
-                            '&:hover fieldset': {
-                                borderColor: themeColors.primary.light,
-                            },
-                            '&.Mui-focused fieldset': {
-                                borderColor: color,
-                            },
-                        },
-                        '& .MuiInputLabel-root': {
-                            color,
-                            '&.Mui-focused': {
-                                color,
-                            },
-                        },
-                        '& .MuiOutlinedInput-input': {
-                            color,
-                        },
-                    }}
-                />
-            </DialogContent>
-            <DialogActions
-                sx={{
-                    px: 3,
-                    pb: 3,
-                    justifyContent: 'center',
-                    gap: 2,
-                }}
-            >
-                <Button
-                    onClick={handleClose}
-                    variant="outlined"
-                    size="large"
-                    sx={{
-                        borderRadius: 2,
-                        px: 4,
-                        borderColor: color,
-                        color,
-                        '&:hover': {
-                            borderColor: themeColors.primary.light,
-                            backgroundColor: themeColors.background.overlay,
-                        },
-                    }}
-                >
-                    取消
-                </Button>
-                <Button
-                    onClick={handleSubmit}
-                    variant="contained"
-                    size="large"
-                    disabled={loading}
-                    startIcon={
-                        loading && <Loader2 className="w-4 h-4 animate-spin" />
-                    }
-                    sx={{
-                        borderRadius: 2,
-                        px: 4,
-                        background: color,
-                        color: themeColors.text.inverse,
-                        '&:hover': {
-                            background: themeColors.primary.light,
-                            color: themeColors.text.inverse,
-                        },
-                    }}
-                >
-                    提交
-                </Button>
-            </DialogActions>
+                <DialogTitle id="draw-name-title">请输入你的名字</DialogTitle>
+                <DialogContent>
+                    <TextField
+                        autoFocus
+                        margin="dense"
+                        label="姓名"
+                        fullWidth
+                        value={name}
+                        onChange={event => setName(event.target.value)}
+                    />
+                </DialogContent>
+                <DialogActions sx={{ px: 3, pb: 3 }}>
+                    <Button onClick={handleClose} variant="outlined">
+                        取消
+                    </Button>
+                    <Button
+                        type="submit"
+                        variant="contained"
+                        disabled={loading}
+                    >
+                        {loading ? '提交中…' : '提交'}
+                    </Button>
+                </DialogActions>
+            </form>
         </Dialog>
     );
-};
-
-export default DialogInterface;
+}

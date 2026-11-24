@@ -1,6 +1,7 @@
+import React, { useState } from 'react';
+
 import { Box, Button, Snackbar } from '@mui/material';
 import { Gift } from 'lucide-react';
-import React, { useState } from 'react';
 import { useDebounceCallback } from 'usehooks-ts';
 
 import HeaderInterface from '@/components/Header/Index';
@@ -9,9 +10,6 @@ import LoadingState from '@/components/LoadingState/Index';
 import TipBar from '@/components/TipBar/Index';
 import TransitionWrapper from '@/components/TransitionWrapper/Index';
 import axiosInstance from '@/services/axios';
-import { themeColors } from '@/theme';
-
-import './Page.less';
 
 const PromisePage: React.FC = () => {
     const [promise, setPromise] = useState<string>('');
@@ -30,7 +28,6 @@ const PromisePage: React.FC = () => {
 
         try {
             const response = await axiosInstance.get('/promise/result');
-            await new Promise(resolve => setTimeout(resolve, 2000));
             setPromise(response.data);
             setIsTransitioning(false);
             setShowResult(true);
@@ -72,7 +69,7 @@ const PromisePage: React.FC = () => {
                     gap: 2,
                 }}
             >
-                <HeaderInterface name="圣经应许" description="圣经应许" />
+                <HeaderInterface name="圣经应许" />
 
                 <TipBar message="快来看看今天神要对你说什么吧！" />
 
@@ -88,10 +85,8 @@ const PromisePage: React.FC = () => {
                         icon={<Gift />}
                     />
                 ) : (
-                    <TransitionWrapper show={showResult}>
-                        <Box sx={{ textAlign: 'center' }}>
-                            <p className="text-2xl text-primary">{promise}</p>
-                        </Box>
+                    <TransitionWrapper show={showResult} maxWidth={680}>
+                        <p className="event-verse">{promise}</p>
                     </TransitionWrapper>
                 )}
 
@@ -105,8 +100,6 @@ const PromisePage: React.FC = () => {
                             size="large"
                             sx={{
                                 mb: 2,
-                                color: themeColors.text.inverse,
-                                borderColor: themeColors.text.inverse,
                             }}
                         >
                             复制经文
@@ -117,11 +110,6 @@ const PromisePage: React.FC = () => {
                             variant="contained"
                             fullWidth
                             size="large"
-                            className="opacity-75"
-                            sx={{
-                                color: themeColors.primary.main,
-                                backgroundColor: themeColors.background.paper,
-                            }}
                         >
                             再次抽取
                         </Button>

@@ -60,12 +60,19 @@ router.get(
     queryLuckyNumberValidatorMiddleware,
     async ctx => {
         const { key } = ctx.params;
-        const { page_num = 1, page_size = 10 } = ctx.query;
+        const {
+            page_num = 1,
+            page_size = 10,
+            include_number_data_status,
+        } = ctx.query;
+        const includeNumberDataStatus = include_number_data_status === '1';
+        if (includeNumberDataStatus) ctx.set('Cache-Control', 'no-store');
 
         const result =
             await luckyNumberActivityService.getActivityParticipations(key, {
                 page_num: parseInt(page_num, 10),
                 page_size: parseInt(page_size, 10),
+                includeNumberDataStatus,
             });
 
         ctx.response.status = httpStatus.OK;

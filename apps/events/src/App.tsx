@@ -1,5 +1,6 @@
-import { ThemeProvider } from '@mui/material/styles';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import { ThemeProvider } from '@mui/material/styles';
 
 import { HeaderProvider } from './contexts/HeaderContext';
 import BaseLayout from './layouts/Base/Layout';
@@ -13,8 +14,6 @@ import OptionDrawListPage from './pages/OptionDraw/List/Page';
 import PromiseNewPage from './pages/Promise/New/Page';
 import PromisePage from './pages/Promise/Page';
 import { theme } from './theme';
-
-import './styles/index.less';
 
 function App() {
     return (

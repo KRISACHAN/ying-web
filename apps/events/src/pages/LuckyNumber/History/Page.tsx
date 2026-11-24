@@ -1,24 +1,8 @@
-import {
-    ArrowBack,
-    DeleteOutline,
-    DoNotDisturbOutlined,
-} from '@mui/icons-material';
-import {
-    Alert,
-    Box,
-    Button,
-    Chip,
-    Paper,
-    Table,
-    TableBody,
-    TableCell,
-    TableContainer,
-    TableHead,
-    TableRow,
-    Typography,
-} from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+
+import { ArrowBack, DeleteOutline } from '@mui/icons-material';
+import { Alert, Box, Button, Typography } from '@mui/material';
 import { useLocalStorage } from 'usehooks-ts';
 
 import HeaderInterface from '@/components/Header/Index';
@@ -26,8 +10,6 @@ import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
 import type { QueryLuckyNumberResponse } from '@/types/luckyNumber';
-
-import { themeColors } from '@/theme';
 
 type GetActivityResponse = Pick<
     QueryLuckyNumberResponse,
@@ -38,19 +20,6 @@ type LuckyNumberResult = {
     number: number;
     name: string;
     timestamp: number;
-};
-
-const headerCellStyle = {
-    background: themeColors.background.primary,
-    color: themeColors.text.primary,
-    fontWeight: 'bold',
-    borderBottom: 'none',
-    '&:first-of-type': {
-        borderTopLeftRadius: 12,
-    },
-    '&:last-of-type': {
-        borderTopRightRadius: 12,
-    },
 };
 
 const LuckyNumberHistoryPage: React.FC = () => {
@@ -121,235 +90,107 @@ const LuckyNumberHistoryPage: React.FC = () => {
         );
     }
 
-    const isEmpty = luckyNumberResults.length === 0;
-
     return (
-        <Box
-            className="min-h-screen w-full relative"
-            sx={{
-                p: { xs: 2, sm: 4 },
-            }}
-        >
+        <Box sx={{ maxWidth: 760, mx: 'auto', p: { xs: 2, sm: 4 } }}>
+            <HeaderInterface
+                name={
+                    activityInfo
+                        ? `${activityInfo.name} · 抽取历史`
+                        : '抽取历史'
+                }
+                description="此浏览器保存的抽取记录"
+            />
             <Box
                 sx={{
-                    position: 'relative',
-                    zIndex: 1,
-                    mx: 'auto',
                     display: 'flex',
-                    flexDirection: 'column',
+                    flexWrap: 'wrap',
                     alignItems: 'center',
-                    gap: 3,
+                    justifyContent: 'space-between',
+                    gap: 1,
+                    my: 2,
                 }}
             >
-                <HeaderInterface
-                    description={activityInfo?.description || ''}
-                    name={activityInfo?.name || ''}
-                />
-
-                {/* Action Bar */}
-                <Box
-                    sx={{
-                        display: 'flex',
-                        justifyContent: 'space-between',
-                        alignItems: 'center',
-                        width: '100%',
-                        maxWidth: '1024px',
-                        gap: 2,
-                        flexWrap: 'wrap',
-                    }}
-                >
+                <Button startIcon={<ArrowBack />} onClick={handleGoBack}>
+                    返回抽取
+                </Button>
+                {luckyNumberResults.length > 0 && (
                     <Button
-                        variant="contained"
-                        startIcon={<ArrowBack />}
-                        onClick={handleGoBack}
-                        sx={{
-                            borderRadius: 2,
-                            backgroundColor: themeColors.background.paper,
-                            color: themeColors.primary.main,
-                            fontWeight: 'bold',
-                            '&:hover': {
-                                backgroundColor: themeColors.background.primary,
-                            },
-                        }}
+                        color="error"
+                        startIcon={<DeleteOutline />}
+                        onClick={handleClearHistory}
                     >
-                        返回活动
+                        清空记录
                     </Button>
-
-                    {!isEmpty && (
-                        <Button
-                            variant="outlined"
-                            startIcon={<DeleteOutline />}
-                            onClick={handleClearHistory}
-                            sx={{
-                                borderRadius: 2,
-                                backgroundColor: themeColors.background.paper,
-                                color: themeColors.primary.main,
-                                fontWeight: 'bold',
-                                '&:hover': {
-                                    backgroundColor:
-                                        themeColors.background.primary,
-                                },
-                            }}
-                        >
-                            清空记录
-                        </Button>
-                    )}
-                </Box>
-
-                {/* Content */}
-                {error && !is404Error ? (
-                    <Alert
-                        severity="error"
-                        sx={{ width: '100%', maxWidth: '1024px' }}
+                )}
+            </Box>
+            {error && (
+                <Alert severity="warning" sx={{ mb: 2 }}>
+                    获取活动信息失败，仍可查看本地记录。
+                </Alert>
+            )}
+            <Box className="event-paper" sx={{ overflow: 'hidden' }}>
+                {luckyNumberResults.length === 0 ? (
+                    <Typography
+                        color="text.secondary"
+                        sx={{ p: 3, textAlign: 'center' }}
                     >
-                        获取活动信息失败，但可以查看本地历史记录
-                    </Alert>
-                ) : null}
-
-                {isEmpty ? (
-                    <Paper
-                        sx={{
-                            maxWidth: '1024px',
-                            width: '100%',
-                            p: 6,
-                            borderRadius: 3,
-                            textAlign: 'center',
-                            background: themeColors.background.paper,
-                            boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
-                        }}
-                    >
-                        <DoNotDisturbOutlined
-                            sx={{
-                                fontSize: 64,
-                                color: themeColors.text.disabled,
-                                mb: 2,
-                            }}
-                        />
-                        <Typography
-                            variant="h6"
-                            className="text-primary"
-                            sx={{ mb: 1 }}
-                        >
-                            暂无抽取记录
-                        </Typography>
-                        <Typography variant="body2" className="text-secondary">
-                            去活动页面抽取一个幸运号码吧！
-                        </Typography>
-                    </Paper>
+                        暂无抽取记录
+                    </Typography>
                 ) : (
-                    <TableContainer
-                        component={Paper}
-                        sx={{
-                            maxWidth: '1024px',
-                            width: '100%',
-                            borderRadius: 3,
-                            overflow: 'hidden',
-                            boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
-                            background: themeColors.background.paper,
-                        }}
+                    <Box
+                        component="ol"
+                        aria-label="抽取记录"
+                        sx={{ listStyle: 'none', m: 0, p: 0 }}
                     >
-                        <Table>
-                            <TableHead>
-                                <TableRow>
-                                    <TableCell
-                                        align="center"
-                                        sx={headerCellStyle}
-                                    >
-                                        序号
-                                    </TableCell>
-                                    <TableCell
-                                        align="center"
-                                        sx={headerCellStyle}
-                                    >
-                                        抽取人
-                                    </TableCell>
-                                    <TableCell
-                                        align="center"
-                                        sx={headerCellStyle}
-                                    >
-                                        幸运号码
-                                    </TableCell>
-                                    <TableCell
-                                        align="center"
-                                        sx={headerCellStyle}
-                                    >
-                                        抽取时间
-                                    </TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>
-                                {luckyNumberResults.map((result, index) => (
-                                    <TableRow
-                                        key={index}
-                                        sx={{
-                                            '&:nth-of-type(odd)': {
-                                                backgroundColor:
-                                                    themeColors.background
-                                                        .overlay,
-                                            },
-                                            '&:hover': {
-                                                backgroundColor:
-                                                    themeColors.background
-                                                        .primary,
-                                            },
-                                        }}
-                                    >
-                                        <TableCell align="center">
-                                            <Chip
-                                                label={index + 1}
-                                                size="small"
-                                                sx={{
-                                                    backgroundColor:
-                                                        themeColors.primary
-                                                            .main,
-                                                    color: 'white',
-                                                    fontWeight: 'bold',
-                                                    minWidth: 32,
-                                                }}
-                                            />
-                                        </TableCell>
-                                        <TableCell align="center">
-                                            <Typography
-                                                variant="body2"
-                                                sx={{
-                                                    color: themeColors.text
-                                                        .primary,
-                                                    fontWeight: 'medium',
-                                                }}
-                                            >
-                                                {result.name}
-                                            </Typography>
-                                        </TableCell>
-                                        <TableCell align="center">
-                                            <Typography
-                                                variant="body2"
-                                                sx={{
-                                                    color: themeColors.text
-                                                        .primary,
-                                                    fontWeight: 'medium',
-                                                }}
-                                            >
-                                                {result.number}
-                                            </Typography>
-                                        </TableCell>
-                                        <TableCell align="center">
-                                            <Typography
-                                                variant="body2"
-                                                sx={{
-                                                    color: themeColors.text
-                                                        .secondary,
-                                                }}
-                                            >
-                                                {formatDateTime(
-                                                    result.timestamp,
-                                                )}
-                                            </Typography>
-                                        </TableCell>
-                                    </TableRow>
-                                ))}
-                            </TableBody>
-                        </Table>
-                    </TableContainer>
+                        {luckyNumberResults.map((result, index) => (
+                            <Box
+                                component="li"
+                                key={`${result.timestamp}-${index}`}
+                                sx={{
+                                    display: 'grid',
+                                    gridTemplateColumns: {
+                                        xs: 'minmax(48px, auto) 1fr',
+                                        sm: 'minmax(72px, auto) 1fr auto',
+                                    },
+                                    alignItems: 'baseline',
+                                    columnGap: 2,
+                                    rowGap: 0.5,
+                                    px: { xs: 2, sm: 3 },
+                                    py: 1.5,
+                                    '& + &': {
+                                        borderTop:
+                                            '1px solid var(--events-line)',
+                                    },
+                                }}
+                            >
+                                <Typography
+                                    component="strong"
+                                    sx={{
+                                        fontSize: '1.35rem',
+                                        fontWeight: 700,
+                                        fontVariantNumeric: 'tabular-nums',
+                                    }}
+                                    aria-label={`号码 ${result.number}`}
+                                >
+                                    {result.number}
+                                </Typography>
+                                <Typography sx={{ overflowWrap: 'anywhere' }}>
+                                    {result.name}
+                                </Typography>
+                                <Typography
+                                    component="time"
+                                    sx={{
+                                        gridColumn: { xs: 2, sm: 'auto' },
+                                        fontVariantNumeric: 'tabular-nums',
+                                    }}
+                                    color="text.secondary"
+                                    variant="body2"
+                                >
+                                    {formatDateTime(result.timestamp)}
+                                </Typography>
+                            </Box>
+                        ))}
+                    </Box>
                 )}
             </Box>
         </Box>

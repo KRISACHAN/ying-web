@@ -6,7 +6,13 @@ import { KEYS } from '@/utils/constants';
 
 import { localCache } from './storage';
 
-interface CustomAxiosResponse<T = any> extends AxiosResponse<T> {
+declare module 'axios' {
+    interface AxiosRequestConfig {
+        suppressErrorMessage?: boolean;
+    }
+}
+
+interface CustomAxiosResponse<T = unknown> extends AxiosResponse<T> {
     headers: {
         'x-pagination'?: string;
     };
@@ -20,7 +26,7 @@ const axiosInstance = axios.create({
 let isRefreshing = false;
 let failedQueue: Array<{
     resolve: (value: unknown) => void;
-    reject: (reason?: any) => void;
+    reject: (reason?: unknown) => void;
 }> = [];
 
 /**
@@ -42,7 +48,7 @@ let failedQueue: Array<{
  * - After processing, the `failedQueue` is cleared to prepare for any future
  *   token refresh attempts.
  */
-const processQueue = (err: any = null) => {
+const processQueue = (err: unknown = null) => {
     failedQueue.forEach(prom => {
         if (err) {
             prom.reject(err); // Reject the promise with the error
@@ -127,7 +133,9 @@ axiosInstance.interceptors.response.use(
             }
         }
 
-        message.error(err.response?.data?.message ?? '请求失败');
+        if (!originalRequest?.suppressErrorMessage) {
+            message.error(err.response?.data?.message ?? '请求失败');
+        }
 
         return Promise.reject(err);
     },

@@ -10,13 +10,12 @@ const eventHandler = permission => async (ctx, next) => {
         throw UNAUTHORIZED('未登录，请先登录');
     }
 
-    let scopes;
+    let tokenData;
     try {
-        const tokenData = jwt.verify(
+        tokenData = jwt.verify(
             parsedToken,
             process.env.ADMIN_ACCESS_SECRET_KEY,
         );
-        scopes = tokenData.scopes;
     } catch (error) {
         if (eq(error.name, ERROR_NAMES.TOKEN_EXPIRED_ERROR)) {
             throw UNAUTHORIZED('token已过期，请重新登录');
@@ -24,13 +23,16 @@ const eventHandler = permission => async (ctx, next) => {
         throw FORBIDDEN(error.message || '权限不足');
     }
 
+    const { uid, scopes } = tokenData;
     if (
-        !scopes.includes(permission) &&
-        !scopes.includes(ADMIN_PERMISSIONS.ALL_ACCESSES)
+        !Array.isArray(scopes) ||
+        (!scopes.includes(permission) &&
+            !scopes.includes(ADMIN_PERMISSIONS.ALL_ACCESSES))
     ) {
         throw FORBIDDEN('权限不足');
     }
 
+    ctx.state.adminUid = uid;
     await next();
 };
 

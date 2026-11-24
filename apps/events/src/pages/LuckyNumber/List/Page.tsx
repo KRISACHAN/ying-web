@@ -1,28 +1,16 @@
-import { QRCodeSVG } from 'qrcode.react';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { DoNotDisturbOutlined } from '@mui/icons-material';
-import {
-    Alert,
-    Box,
-    Button,
-    Paper,
-    Table,
-    TableBody,
-    TableCell,
-    TableContainer,
-    TableHead,
-    TableRow,
-    Typography,
-} from '@mui/material';
+import { Alert, Box, Button, Typography } from '@mui/material';
+import { QRCodeSVG } from 'qrcode.react';
 import { useInterval } from 'usehooks-ts';
 
+import DrawTable from '@/components/DrawTable';
 import HeaderInterface from '@/components/Header/Index';
+import LoadingState from '@/components/LoadingState/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useLuckyNumber } from '@/hooks/useLuckyNumber';
 import NotFoundPage from '@/pages/404/Page';
-import { themeColors } from '@/theme';
 import type { ActivityInfo, LuckyNumber } from '@/types/luckyNumber';
 
 const ErrorInterface: React.FC<{ message?: string }> = ({
@@ -31,238 +19,13 @@ const ErrorInterface: React.FC<{ message?: string }> = ({
     return <NotFoundPage name={message} description="回到首页看看其它功能？" />;
 };
 
-const headerCellStyle = {
-    background: themeColors.background.primary,
-    color: themeColors.text.primary,
-    fontWeight: 'bold',
-    borderBottom: 'none',
-    '&:first-of-type': {
-        borderTopLeftRadius: 12,
-    },
-    '&:last-of-type': {
-        borderTopRightRadius: 12,
-    },
-};
-
-const QRCodeInterface: React.FC<{ activityKey?: string }> = ({
-    activityKey,
-}) => {
-    if (!activityKey) return null;
-
-    const qrCodeUrl = `${window.location.origin}/lucky-number/${activityKey}/activity`;
-
-    return (
-        <Box
-            sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: 2,
-            }}
-        >
-            <Box
-                sx={{
-                    p: 2,
-                    borderRadius: 3,
-                    background: themeColors.background.paper,
-                    boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    width: { xs: '100%', md: '400px' },
-                    aspectRatio: '1 / 1',
-                }}
-            >
-                {/* @ts-ignore - qrcode.react type compatibility issue with React 18 */}
-                <QRCodeSVG
-                    value={qrCodeUrl}
-                    size={400}
-                    level="M"
-                    style={{
-                        width: '100%',
-                        height: '100%',
-                    }}
-                />
-            </Box>
-            <Typography
-                variant="h4"
-                sx={{
-                    color: '#fff',
-                    textAlign: 'center',
-                }}
-            >
-                扫描二维码参与活动
-            </Typography>
-        </Box>
-    );
-};
-
-const QRCodePlaceholder: React.FC<{
-    onConfirm: () => void;
-}> = ({ onConfirm }) => {
-    return (
-        <Box
-            sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: 2,
-            }}
-        >
-            <Box
-                sx={{
-                    p: 4,
-                    borderRadius: 3,
-                    background: themeColors.background.paper,
-                    boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    width: { xs: '100%', md: '400px' },
-                    aspectRatio: '1 / 1',
-                    flexDirection: 'column',
-                    gap: 3,
-                }}
-            >
-                <Typography
-                    variant="h5"
-                    sx={{
-                        color: themeColors.text.primary,
-                        fontWeight: 'bold',
-                        textAlign: 'center',
-                    }}
-                >
-                    准备开始活动？
-                </Typography>
-                <Typography
-                    variant="body1"
-                    sx={{
-                        color: themeColors.text.secondary,
-                        textAlign: 'center',
-                    }}
-                >
-                    确认后将显示活动二维码，参与者可以扫描参与活动
-                </Typography>
-                <Button
-                    variant="contained"
-                    size="large"
-                    onClick={onConfirm}
-                    sx={{
-                        borderRadius: 2,
-                        px: 4,
-                        py: 1.5,
-                        fontSize: '1rem',
-                        textTransform: 'none',
-                        backgroundColor: themeColors.primary.main,
-                        color: themeColors.text.inverse,
-                        '&:hover': {
-                            backgroundColor: themeColors.primary.light,
-                            transform: 'translateY(-2px)',
-                            transition: 'transform 0.2s ease-in-out',
-                        },
-                    }}
-                >
-                    确认开始
-                </Button>
-            </Box>
-        </Box>
-    );
-};
-
-const TableInterface: React.FC<{
-    participations: LuckyNumber[];
-}> = ({ participations }) => {
-    if (!participations) return null;
-
-    const isEmpty = participations.length === 0;
-
-    const EmptyInterface: React.FC = () => (
-        <TableRow>
-            <TableCell colSpan={12}>
-                <Typography
-                    variant="body1"
-                    className="flex items-center gap-2 text-primary"
-                >
-                    <DoNotDisturbOutlined />
-                    暂无参与者
-                </Typography>
-            </TableCell>
-        </TableRow>
-    );
-
-    const ExistingInterface: React.FC = () => (
-        <>
-            {participations.map((record, index) => (
-                <TableRow key={index}>
-                    <TableCell align="center" colSpan={4}>
-                        {record.username}
-                    </TableCell>
-                    <TableCell align="center" colSpan={4}>
-                        {record.drawn_number}
-                    </TableCell>
-                    <TableCell align="center" colSpan={4}>
-                        {record.created_at
-                            ? new Date(record.created_at).toLocaleString(
-                                  'zh-CN',
-                              )
-                            : '-'}
-                    </TableCell>
-                </TableRow>
-            ))}
-        </>
-    );
-
-    return (
-        <TableContainer
-            component={Paper}
-            sx={{
-                maxWidth: '1024px',
-                width: '100%',
-                borderRadius: 3,
-                overflow: 'hidden',
-                boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
-                background: themeColors.background.paper,
-            }}
-        >
-            <Table>
-                <TableHead>
-                    <TableRow>
-                        <TableCell
-                            align="center"
-                            colSpan={4}
-                            sx={headerCellStyle}
-                        >
-                            参与者
-                        </TableCell>
-                        <TableCell
-                            align="center"
-                            colSpan={4}
-                            sx={headerCellStyle}
-                        >
-                            号码
-                        </TableCell>
-                        <TableCell
-                            align="center"
-                            colSpan={4}
-                            sx={headerCellStyle}
-                        >
-                            抽取时间
-                        </TableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    {isEmpty ? <EmptyInterface /> : <ExistingInterface />}
-                </TableBody>
-            </Table>
-        </TableContainer>
-    );
-};
-
 const LuckyNumberListPage: React.FC = () => {
     const { activityKey } = useParams();
     const { queryActivityInfo, queryParticipations } = useLuckyNumber();
     const [activityInfo, setActivityInfo] = useState<ActivityInfo | null>(null);
-    const [participations, setParticipations] = useState<LuckyNumber[]>([]);
+    const [participations, setParticipations] = useState<LuckyNumber[] | null>(
+        null,
+    );
     const [error, setError] = useState<Error | null>(null);
     const [showOverlay, setShowOverlay] = useState<boolean>(true);
     const headerContext = useHeader();
@@ -331,84 +94,103 @@ const LuckyNumberListPage: React.FC = () => {
         return <ErrorInterface message="活动已结束" />;
     }
 
-    const isEmpty = participations.length === 0;
+    const showTable = !!participations?.length;
+    const qrCodeUrl = `${window.location.origin}/lucky-number/${activityKey}/activity`;
 
     return (
-        <Box
-            className="min-h-screen w-full relative"
-            sx={{
-                p: { xs: 2, sm: 4 },
-            }}
-        >
-            <Box
-                sx={{
-                    position: 'relative',
-                    zIndex: 1,
-                    mx: 'auto',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    gap: 4,
-                }}
-            >
-                <HeaderInterface
-                    description={activityInfo?.description}
-                    name={activityInfo?.name}
-                />
-                {error ? (
-                    <Alert severity="error">获取活动数据失败，请稍后再试</Alert>
-                ) : isEmpty ? (
+        <Box sx={{ p: { xs: 2, sm: 4 }, maxWidth: 1560, mx: 'auto' }}>
+            <HeaderInterface
+                name={activityInfo?.name}
+                description={activityInfo?.description}
+                illustration="wide"
+            />
+            {error ? (
+                <Alert severity="error" sx={{ mt: 3 }}>
+                    获取活动数据失败，请稍后再试
+                </Alert>
+            ) : !activityInfo || participations === null ? (
+                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 3 }}>
+                    <LoadingState message="正在获取活动信息…" />
+                </Box>
+            ) : (
+                <Box
+                    className={
+                        showTable
+                            ? 'event-stage event-stage--lucky'
+                            : 'event-stage'
+                    }
+                    sx={{ mt: 3 }}
+                >
                     <Box
+                        className="event-paper"
                         sx={{
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            minHeight: '50vh',
                             width: '100%',
+                            maxWidth: 354,
+                            mx: 'auto',
+                            p: { xs: 2, sm: 3 },
+                            textAlign: 'center',
                         }}
                     >
-                        {showOverlay ? (
-                            <QRCodePlaceholder
-                                onConfirm={() => setShowOverlay(false)}
-                            />
+                        {showOverlay && !showTable ? (
+                            <>
+                                <Typography
+                                    variant="h2"
+                                    sx={{ fontSize: '1.6rem', mb: 1 }}
+                                >
+                                    准备开始活动？
+                                </Typography>
+                                <Typography
+                                    color="text.secondary"
+                                    sx={{ mb: 2 }}
+                                >
+                                    确认后显示参与二维码。
+                                </Typography>
+                                <Button
+                                    variant="contained"
+                                    onClick={() => setShowOverlay(false)}
+                                >
+                                    确认开始
+                                </Button>
+                            </>
                         ) : (
-                            <QRCodeInterface activityKey={activityKey} />
+                            <>
+                                <Typography
+                                    variant="h2"
+                                    sx={{ fontSize: '1.4rem', mb: 1.5 }}
+                                >
+                                    扫描二维码参与活动
+                                </Typography>
+                                <QRCodeSVG
+                                    title="活动参与二维码"
+                                    value={qrCodeUrl}
+                                    size={320}
+                                    marginSize={4}
+                                    level="M"
+                                    style={{
+                                        display: 'block',
+                                        width: '100%',
+                                        height: 'auto',
+                                    }}
+                                />
+                                <Button href={qrCodeUrl} sx={{ mt: 1 }}>
+                                    打开抽取页
+                                </Button>
+                            </>
                         )}
                     </Box>
-                ) : (
-                    <Box
-                        sx={{
-                            display: 'flex',
-                            flexDirection: { xs: 'column', md: 'row' },
-                            alignItems: { xs: 'center', md: 'flex-start' },
-                            justifyContent: 'center',
-                            gap: { xs: 5, md: 5 },
-                            width: '100%',
-                            maxWidth: '1400px',
-                        }}
-                    >
-                        <Box
-                            sx={{
-                                flexShrink: 0,
-                                display: 'flex',
-                                justifyContent: 'center',
-                                width: { xs: '100%', md: 'auto' },
-                            }}
-                        >
-                            <QRCodeInterface activityKey={activityKey} />
-                        </Box>
-                        <Box
-                            sx={{
-                                flex: { xs: '1 1 auto', md: '1 1 0' },
-                                width: { xs: '100%', md: 'auto' },
-                                maxWidth: { xs: '1024px', md: 'none' },
-                            }}
-                        >
-                            <TableInterface participations={participations} />
-                        </Box>
-                    </Box>
-                )}
-            </Box>
+                    {showTable && (
+                        <DrawTable
+                            resultLabel="号码"
+                            rows={participations.map(record => ({
+                                id: record.id,
+                                username: record.username,
+                                result: record.drawn_number,
+                                createdAt: record.created_at,
+                            }))}
+                        />
+                    )}
+                </Box>
+            )}
         </Box>
     );
 };

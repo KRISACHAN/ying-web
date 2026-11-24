@@ -28,7 +28,7 @@ export class ActivityDao {
         }
     }
 
-    static async search({ key }) {
+    static async search({ key }, { transaction, lock } = {}) {
         try {
             const whereQuery = {};
             if (key) {
@@ -36,6 +36,8 @@ export class ActivityDao {
             }
             const activity = await ActivityModel.scope('df').findOne({
                 where: whereQuery,
+                transaction,
+                lock,
             });
 
             if (!activity) {

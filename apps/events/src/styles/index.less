@@ -7,3 +7,206 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.events-shell {
+    background-color: var(--events-paper);
+    background-image: url('/christmas/paper.webp');
+    background-size: 360px;
+    color: var(--events-ink);
+    font-family: var(--events-font);
+    min-height: 100vh;
+}
+
+.events-shell :focus-visible {
+    outline: 2px solid var(--events-focus);
+    outline-offset: 3px;
+}
+
+.event-header {
+    margin: 0 auto;
+    max-width: 850px;
+    overflow-wrap: anywhere;
+    padding: 12px 0 8px;
+    text-align: center;
+    width: 100%;
+}
+
+.event-header h1 {
+    font-family: var(--events-display-font);
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 700;
+    line-height: 1.24;
+    margin: 0;
+}
+
+.event-header p {
+    color: var(--events-muted);
+    line-height: 1.6;
+    margin: 8px 0 0;
+    white-space: pre-line;
+}
+
+.event-header__sprig {
+    aspect-ratio: 3 / 1;
+    background: url('/christmas/sprig.webp') center / contain no-repeat;
+    margin: 0 auto 10px;
+    width: min(160px, 45vw);
+}
+
+.event-header--stage h1 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+}
+
+.event-header--stage .event-header__sprig {
+    width: min(280px, 56vw);
+}
+
+.event-paper {
+    background-color: var(--events-surface);
+    border: 1px solid var(--events-line);
+    border-radius: var(--events-radius);
+    box-shadow: var(--events-shadow);
+}
+
+.event-reveal {
+    animation: event-reveal 480ms ease-out both;
+}
+
+@keyframes event-reveal {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.event-reveal::before {
+    animation: event-brush 480ms ease-out both;
+    border-radius: 55% 35% 0 0;
+    border-top: 3px solid var(--events-ember);
+    content: '';
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 68px;
+    transform-origin: left;
+}
+
+@keyframes event-brush {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.event-gift-tag {
+    align-items: center;
+    aspect-ratio: 760 / 426;
+    background: url('/christmas/tag.webp') center / contain no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: min(100%, 360px);
+}
+
+.event-gift-tag__number {
+    font-size: clamp(4rem, 16vw, 7rem);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    max-width: 78%;
+    position: relative;
+}
+
+.event-gift-tag__number--reveal {
+    animation: event-number-fade-in 360ms ease-out both;
+}
+
+@keyframes event-number-fade-in {
+    from {
+        opacity: 0;
+        transform: scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.event-draw-loading {
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
+.event-draw-loading__art {
+    inset: -55% auto;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: min(calc(100% + 3rem), 100vw);
+}
+
+.event-verse {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    overflow-wrap: anywhere;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .events-shell *,
+    .events-shell *::before,
+    .events-shell *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .event-reveal::before {
+        display: none;
+    }
+}
+
+.event-stage {
+    align-items: start;
+    display: grid;
+    gap: 24px;
+}
+
+/* stylelint-disable-next-line media-feature-range-notation -- legacy mobile browser support */
+@media (min-width: 1024px) {
+    .event-stage--lucky {
+        grid-template-columns: minmax(260px, 354px) minmax(0, 1fr);
+    }
+}
+
+.event-home-links {
+    display: grid;
+    gap: 12px;
+    list-style: none;
+    margin: 28px 0 0;
+    padding: 0;
+}
+
+.event-home-links a {
+    align-items: center;
+    display: flex;
+    font-weight: 650;
+    justify-content: space-between;
+    min-height: 62px;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+.event-home-links a:hover {
+    border-color: var(--events-focus);
+}

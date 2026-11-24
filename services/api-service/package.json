@@ -33,12 +33,15 @@
         "await-to-js": "^3.0.0",
         "axios": "^0.21.1",
         "bcryptjs": "^2.4.3",
+        "busboy": "1.6.0",
         "chalk": "^4.1.0",
         "colors": "^1.4.0",
         "core-js": "^3.39.0",
         "cross-env": "^7.0.3",
+        "csv-parse": "^6.1.0",
         "dayjs": "^1.11.7",
         "dotenv": "^16.0.3",
+        "exceljs": "4.4.0",
         "http-errors": "^2.0.0",
         "http-status": "^1.6.2",
         "ioredis": "^5.3.1",
@@ -61,7 +64,8 @@
         "redis": "^3.0.2",
         "require-directory": "^2.1.1",
         "sequelize": "^6.5.0",
-        "xss": "^1.0.15"
+        "xss": "^1.0.15",
+        "yauzl": "^3.4.0"
     },
     "devDependencies": {
         "@babel/core": "^7.21.4",

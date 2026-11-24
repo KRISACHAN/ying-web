@@ -1,28 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { DoNotDisturbOutlined } from '@mui/icons-material';
-import {
-    Alert,
-    Box,
-    Paper,
-    Table,
-    TableBody,
-    TableCell,
-    TableContainer,
-    TableHead,
-    TableRow,
-    Typography,
-} from '@mui/material';
+import { Alert, Box } from '@mui/material';
 import { useInterval } from 'usehooks-ts';
 
+import DrawTable from '@/components/DrawTable';
 import HeaderInterface from '@/components/Header/Index';
+import LoadingState from '@/components/LoadingState/Index';
 import { useHeader } from '@/contexts/HeaderContext';
 import { useOptionDraw } from '@/hooks/useOptionDraw';
 import NotFoundPage from '@/pages/404/Page';
 import type { ActivityInfo, OptionDraw } from '@/types/optionDraw';
-
-import { themeColors } from '@/theme';
 
 const ErrorInterface: React.FC<{ message?: string }> = ({
     message = '活动不存在或已结束',
@@ -30,113 +18,13 @@ const ErrorInterface: React.FC<{ message?: string }> = ({
     return <NotFoundPage name={message} description="回到首页看看其它功能？" />;
 };
 
-const headerCellStyle = {
-    background: themeColors.background.primary,
-    color: themeColors.text.primary,
-    fontWeight: 'bold',
-    borderBottom: 'none',
-    '&:first-of-type': {
-        borderTopLeftRadius: 12,
-    },
-    '&:last-of-type': {
-        borderTopRightRadius: 12,
-    },
-};
-
-const TableInterface: React.FC<{
-    participations: OptionDraw[];
-}> = ({ participations }) => {
-    if (!participations) return null;
-
-    const isEmpty = participations.length === 0;
-
-    const EmptyInterface: React.FC = () => (
-        <TableRow>
-            <TableCell colSpan={12}>
-                <Typography
-                    variant="body1"
-                    className="text-primary flex items-center gap-2"
-                >
-                    <DoNotDisturbOutlined />
-                    暂无参与者
-                </Typography>
-            </TableCell>
-        </TableRow>
-    );
-
-    const ExistingInterface: React.FC = () => (
-        <>
-            {participations.map((record, index) => (
-                <TableRow key={index}>
-                    <TableCell align="center" colSpan={4}>
-                        {record.username}
-                    </TableCell>
-                    <TableCell align="center" colSpan={4}>
-                        {record.drawn_option}
-                    </TableCell>
-                    <TableCell align="center" colSpan={4}>
-                        {record.created_at
-                            ? new Date(record.created_at).toLocaleString(
-                                  'zh-CN',
-                              )
-                            : '-'}
-                    </TableCell>
-                </TableRow>
-            ))}
-        </>
-    );
-
-    return (
-        <TableContainer
-            component={Paper}
-            sx={{
-                maxWidth: '1024px',
-                width: '100%',
-                borderRadius: 3,
-                overflow: 'hidden',
-                boxShadow: `0 4px 16px ${themeColors.background.overlay}`,
-                background: themeColors.background.paper,
-            }}
-        >
-            <Table>
-                <TableHead>
-                    <TableRow>
-                        <TableCell
-                            align="center"
-                            colSpan={4}
-                            sx={headerCellStyle}
-                        >
-                            参与者
-                        </TableCell>
-                        <TableCell
-                            align="center"
-                            colSpan={4}
-                            sx={headerCellStyle}
-                        >
-                            选项
-                        </TableCell>
-                        <TableCell
-                            align="center"
-                            colSpan={4}
-                            sx={headerCellStyle}
-                        >
-                            抽取时间
-                        </TableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    {isEmpty ? <EmptyInterface /> : <ExistingInterface />}
-                </TableBody>
-            </Table>
-        </TableContainer>
-    );
-};
-
 const OptionDrawListPage: React.FC = () => {
     const { activityKey } = useParams();
     const { getActivityInfo, queryParticipations } = useOptionDraw();
     const [activityInfo, setActivityInfo] = useState<ActivityInfo | null>(null);
-    const [participations, setParticipations] = useState<OptionDraw[]>([]);
+    const [participations, setParticipations] = useState<OptionDraw[] | null>(
+        null,
+    );
     const [error, setError] = useState<Error | null>(null);
     const headerContext = useHeader();
 
@@ -205,33 +93,33 @@ const OptionDrawListPage: React.FC = () => {
     }
 
     return (
-        <Box
-            sx={{
-                minHeight: '100vh',
-                width: '100%',
-                p: { xs: 2, sm: 4 },
-                className: 'bg-primary',
-            }}
-        >
-            <Box
-                sx={{
-                    mx: 'auto',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    gap: 4,
-                }}
-            >
-                <HeaderInterface
-                    description={activityInfo?.description}
-                    name={activityInfo?.name}
-                />
-                {error ? (
-                    <Alert severity="error">获取活动数据失败，请稍后再试</Alert>
-                ) : (
-                    <TableInterface participations={participations} />
-                )}
-            </Box>
+        <Box sx={{ p: { xs: 2, sm: 4 }, maxWidth: 1560, mx: 'auto' }}>
+            <HeaderInterface
+                name={activityInfo?.name}
+                description={activityInfo?.description}
+                illustration="wide"
+            />
+            {error ? (
+                <Alert severity="error" sx={{ mt: 3 }}>
+                    获取活动数据失败，请稍后再试
+                </Alert>
+            ) : !activityInfo || participations === null ? (
+                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 3 }}>
+                    <LoadingState message="正在获取活动信息…" />
+                </Box>
+            ) : (
+                <Box sx={{ maxWidth: 1120, mx: 'auto', mt: 3 }}>
+                    <DrawTable
+                        resultLabel="选项"
+                        rows={participations.map(record => ({
+                            id: record.id,
+                            username: record.username,
+                            result: record.drawn_option,
+                            createdAt: record.created_at,
+                        }))}
+                    />
+                </Box>
+            )}
         </Box>
     );
 };
